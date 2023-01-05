@@ -1,0 +1,73 @@
+#P313523
+# text = ana šarri bēlīya urdaka Aššur-šarru-ibni lū šulmu ana šarri bēlīya 01 mē 20 ṣāb šarri ša ana hūli issi šarri lā illikūni ina pān pāhiti ša Arbail lā immaggurru lā iddana issu pān šarri palahku ṣābānīšu lā uṣabbat 30 Tille 60 Hamudu ša pāhiti ša Kalha 30 { URU}x - ba lā kurummātšunu lā dullašunu
+1	ana	ana	ADP	_	_	2	case	_	_
+2	šarri	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Aššur-šarru-ibni	Aššur-šarru-ibni	PROPN	_	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	_
+
+#
+#
+6	lū	lū	PART	_	_	7	aux	_	_
+7	šulmu	šulmu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+8	ana	ana	ADP	_	_	9	case	_	_
+9	šarri	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	7	nsubj	_	_
+10	bēlīya	bēlu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
+
+#
+#
+11	01	01	NUM	_	_	12	nummod	_	_
+12	mē	meʾatu	NUM	_	_	14	nummod	_	_
+13	20	20	NUM	_	_	12	conj	_	_
+14	ṣāb	ṣābu	NOUN	_	Gender=Masc|Number=Sing|NounBase=Bound	24	nsubj	_	_
+15	šarri	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	14	nmod	_	_
+16	ša	ša	PRON	_	_	22	nsubj	_	_
+17	ana	ana	ADP	_	_	18	case	_	_
+18	hūli	hūlu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	22	obl	_	_
+19	issi	išti	ADP	_	_	20	case	_	_
+20	šarri	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	22	obl	_	_
+21	lā	lā	PART	_	_	22	advmod	_	_
+22	illikūni	alāku	VERB	_	Tense=Past|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=Yes|VerbForm=Fin|VerbStem=G|SubSuff=Yes	14	acl	_	_
+23	ina	ina	ADP	_	_	24	case	_	_
+24	pān	pānu	NOUN	_	Gender=Masc|Number=Sing|NounBase=Bound	0	ROOT	_	_
+25	pāhiti	pīhātu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	24	nmod	_	_
+26	ša	ša	ADP	_	_	27	case	_	_
+27	Arbail	Arbail	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	25	nmod	_	_
+28	lā	lā	PART	_	_	29	advmod	_	_
+29	immaggurru	magāru	VERB	_	Tense=Pres|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	24	conj	_	_
+30	lā	lā	PART	_	_	31	advmod	_	_
+31	iddana	tadānu	VERB	_	Tense=Past|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G|Ventive=Yes|	29	parataxis	_	_
+
+#
+#
+32	issu	ištu	ADP	_	_	34	case	_	_
+33	pān	pānu	NOUN	_	Gender=Masc|Number=Sing|NounBase=Bound	32	fixed	_	_
+34	šarri	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	35	obl	_	_
+35	palahku	palhu	VERB	_	Gender=Com|Number=Sing|Person=1|VerbForm=Stat	0	ROOT	_	_
+36	ṣābānīšu	ṣābu	NOUN	_	Gender=Masc|Number=Plur|Case=Acc|PossSuffNum=Sing|PossSuffPer=3	38	obj	_	_
+37	lā	lā	PART	_	_	38	advmod	_	_
+38	uṣabbat	ṣabātu	VERB	_	Gender=Com|Mood=Proh|Number=Sing|Person=1|VerbForm=Fin|VerbStem=D	35	parataxis	_	_
+
+#
+#
+39	30	30	NUM	_	_	_	_	_	_
+40	Tille	Tille	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	39	nmod	_	_
+41	60	60	NUM	_	_	39	list	_	_
+42	Hamudu	Hamudu	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	41	nmod	_	_
+43	ša	ša	ADP	_	_	44	case	_	_
+44	pāhiti	pīhātu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	42	nmod	_	_
+45	ša	ša	ADP	_	_	46	case	_	_
+46	Kalha	Kalhu	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	44	nmod	_	_
+47	30	30	NUM	_	_	39	list	_	_
+48	{	{	X	_	_	_	_	_	_
+49	URU}x	{URU}x	PROPN	SN	_	47	nmod	_	_
+50	-	-	X	_	_	_	_	_	_
+51	ba	ba	X	_	_	_	_	_	_
+
+#
+#
+52	lā	lā	PART	_	_	_	_	_	_
+53	kurummātšunu	kurummatu	NOUN	_	Gender=Fem|Number=Plur|Case=Acc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
+54	lā	lā	PART	_	_	_	_	_	_
+55	dullašunu	dullu	NOUN	_	Gender=Masc|Number=Sing|Case=Acc|PossSuffNum=Plur|PossSuffPer=3	53	conj	_	_
+

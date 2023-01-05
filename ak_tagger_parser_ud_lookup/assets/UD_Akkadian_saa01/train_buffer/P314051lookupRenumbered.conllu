@@ -1,0 +1,68 @@
+# text = x+x x x x x x x x qanšu te-te-x x x x ina qabsi āli x x x
+1	x+x	x+x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	qanšu	qanšu	X	_	_	_	_	_	_
+10	te	te	ADJ	AJ	_	_	_	_	SpaceAfter=No
+11	-	-	ADV	AJ	_	_	_	_	SpaceAfter=No
+12	te	te	ADJ	AJ	_	_	_	_	SpaceAfter=No
+13	-	-	X	X	_	_	_	_	SpaceAfter=No
+14	x	x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	ina	ina	ADP	ADP	_	19	case	_	_
+19	qabsi	qabaltu	NOUN	NOUN	_	_	_	_	_
+20	āli	ālu	NOUN	NOUN	_	19	nmod	_	_
+21	x	x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+23	x	x	X	X	_	_	_	_	_
+
+# text = ūmâ hi-ṭa-x x x x ina šiddimma x x x bētu bētu ša ana x+x x x x lā ana šarri x x x x
+1	ūmâ	ūma	ADV	ADV	_	_	_	_	_
+2	hi	hi	X	X	_	_	_	_	SpaceAfter=No
+3	-	-	X	PROPN	_	_	_	_	SpaceAfter=No
+4	ṭa	ṭa	X	X	_	_	_	_	SpaceAfter=No
+5	-	-	X	X	_	_	_	_	SpaceAfter=No
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	ina	ina	ADP	ADP	_	11	case	_	_
+11	šiddimma	šiddu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|Focus=Yes	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	bētu	_	_	_	_	_	_	_	_
+16	bētu	bētu	NOUN	_	_	_	_	_	_
+17	ša	ša	PRON	PRON	_	_	_	_	_
+18	ana	ana	ADP	ADP	_	_	_	_	_
+19	x+x	x+x	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+21	x	x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+23	lā	lā	PART	PART	_	_	_	_	_
+24	ana	ana	ADP	ADP	_	25	case	_	_
+25	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+26	x	x	X	X	_	_	_	_	_
+27	x	x	X	X	_	_	_	_	_
+28	x	x	X	X	_	_	_	_	_
+29	x	x	X	X	_	_	_	_	_
+
+# text = ina muhhi eleppāti ša ana šarri bēlīya ašpuranni x x
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	_	_	_	_
+3	eleppāti	eleppu	NOUN	NOUN	Gender=Fem|Number=Plur|Case=Gen	2	nmod	_	_
+4	ša	ša	PRON	PRON	_	8	obj	_	_
+5	ana	ana	ADP	ADP	_	6	case	_	_
+6	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	8	dep	_	_
+7	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	6	appos	_	_
+8	ašpuranni	šapāru	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|SubSuff=Yes	3	acl	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+

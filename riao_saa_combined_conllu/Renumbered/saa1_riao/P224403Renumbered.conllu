@@ -1,0 +1,43 @@
+#sent_id = P224403-1
+# text = abat šarri ana šakni
+1	abat	awātu	NOUN	_	Gender=Fem|Number=Sing|NounBase=Bound	0	ROOT	_	_
+2	šarri	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	_
+3	ana	ana	ADP	_	_	4	case	_	_
+4	šakni	šaknu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	_
+
+#sent_id = P224403-2
+# text = 07 mē maqarrāt ša tibni 07 mē ebissu ša appārī ša issēt ebissi imāru lā emūqašūni lā imattahūni ūm 01-KAM ša Kislimi ina Dur-Šarruken lū qurbu
+1	07	07	NUM	_	_	2	nummod	_	_
+2	mē	meʾatu	NUM	_	_	3	nummod	_	_
+3	maqarrāt	maqarratu	NOUN	_	Gender=Fem|Number=Plur|Case=Nom	26	nsubj	_	_
+4	ša	ša	ADP	_	_	5	case	_	_
+5	tibni	tibnu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	3	nmod	_	_
+6	07	07	NUM	_	_	7	nummod	_	_
+7	mē	meʾatu	NUM	_	_	8	nummod	_	_
+8	ebissu	ebissu	NOUN	_	Gender=Masc|Number=Plur|Case=Nom	3	conj	_	_
+9	ša	ša	ADP	_	_	10	case	_	_
+10	appārī	appāru	NOUN	_	Gender=Masc|Number=Plur|Case=Gen	8	nmod	_	_
+11	ša	ša	PRON	_	_	13	nmod	_	_
+12	issēt	ištēn	NUM	_	_	13	nummod	_	_
+13	ebissi	ebissu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	18	obj	_	_
+14	imāru	imēru	NOUN	_	Gender=Masc|Number=Sing|Case=Nom	18	nsubj	_	_
+15	lā	lā	PART	_	_	16	advmod	_	_
+16	emūqašūni	emūqu	NOUN	_	Gender=Fem|Number=Dual|Case=Nom|PossSuffNum=Sing|PossSuffPer=3|SubSuff=Yes	_	_	_	_
+17	lā	lā	PART	_	_	18	advmod	_	_
+18	imattahūni	matāhu	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbStem=G|Subordinative=Yes|SubSuff=Yes	_	_	_	_
+19	ūm	ūmu	NOUN	_	Gender=Masc|Number=Sing|NounStem=Bound	26	obl	_	_
+20	01-KAM	01-KAM	ADJ	_	_	19	nummod	_	_
+21	ša	ša	ADP	_	_	22	case	_	_
+22	Kislimi	Kislimu	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	19	nmod	_	_
+23	ina	ina	ADP	_	_	24	case	_	_
+24	Dur-Šarruken	Dur-Šarruken	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	26	obl	_	_
+25	lū	lū	PART	_	_	26	advmod	_	_
+26	qurbu	qurbu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G	0	ROOT	_	_
+
+#sent_id = P224403-3
+#text =  issēn ūmu ētetiq tamūat
+1	issēn	ištēn	NUM	_	_	2	nummod	_	_
+2	ūmu	ūmu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom	_	_	_	_
+3	ētetiq	etēqu	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	4	advcl	_	_
+4	tamūat	mâtu	VERB	_	Gender=Masc|Number=Sing|Person=2|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+

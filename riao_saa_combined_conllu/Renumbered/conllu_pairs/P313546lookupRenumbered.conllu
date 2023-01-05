@@ -1,0 +1,79 @@
+#P313516
+# text = ana šarri bēlīya urdaka Šulmu-beli lū šulmu ana šarri bēlīya muhhi {1}x x x x tašlīšu x x x ša {1}x x x x marʾu x x x x ša šarru bēlī išpuranni mā rēssu išši mā x+x x x x issu x+x x x x i-x+x x x x iqṭibûni mā bēl mugirri ša issīšu illukūni x x inašši mā ina Arbail ittalak
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Šulmu-beli	šulmu-beli	PROPN	PN	Gender=Masc|Number=Sing	4	appos	_	_
+
+#
+#
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+#
+#
+1	muhhi	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
+2	{1}x	{1}x	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	tašlīšu	tašlīšu	NOUN	NOUN	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	ša	ša		X	_	_	_	_	_
+11	{1}x	{1}x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	marʾu	māru	NOUN	NOUN	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+
+#
+#
+1	ša	ša	PRON	PRON	_	4	obl	_	_
+2	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	išpuranni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
+5	mā	mā	PART	Quotative	_	7	discourse	_	_
+6	rēssu	rēšu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	7	obj	_	_
+7	išši	našû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	4	ccomp	_	_
+8	mā	mā	PART	Quotative	_	_	_	_	_
+9	x+x	x+x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	issu	ištu	NOUN	ADP	_	_	_	_	_
+14	x+x	x+x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	i-x+x	i-x+x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+
+#
+#
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	iqṭibûni	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	mā	mā	PART	Quotative	_	12	discourse	_	_
+5	bēl	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	12	nsubj	_	_
+6	mugirri	mugerru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	ša	ša	PRON	PRON	PronType=Rel	9	nsubj	_	_
+8	issīšu	išti	ADP	ADP	PrepSuffGen=Masc|PrepSuffNum=Sing|PresSuffPer=3	9	obl	_	_
+9	illukūni	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	5	acl	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	inašši	našû	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	3	ccomp	_	_
+13	mā	mā	PART	Quotative	_	16	discourse	_	_
+14	ina	ina	ADP	ADP	_	15	case	_	_
+15	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	16	iobj	_	_
+16	ittalak	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	12	conj	_	_
+

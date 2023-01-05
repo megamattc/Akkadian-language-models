@@ -1,0 +1,15 @@
+[38;5;4mℹ Saving to output directory: training/UD_Akkadian_saa01[0m
+[38;5;4mℹ Using GPU: 0[0m
+[1m
+=========================== Initializing pipeline ===========================[0m
+[38;5;2m✔ Initialized pipeline[0m
+[1m
+============================= Training pipeline =============================[0m
+[38;5;4mℹ Pipeline: ['transformer', 'lemmatizer', 'trainable_lemmatizer',
+'morphologizer', 'tagger', 'parser'][0m
+[38;5;4mℹ Initial learn rate: 0.001[0m
+E    #       LOSS TRANS...  LOSS TRAIN...  LOSS MORPH...  LOSS TAGGER  LOSS PARSER  LEMMA_ACC  POS_ACC  MORPH_ACC  TAG_ACC  DEP_UAS  DEP_LAS  SENTS_F  SCORE 
+---  ------  -------------  -------------  -------------  -----------  -----------  ---------  -------  ---------  -------  -------  -------  -------  ------
+[1m
+=================================== train ===================================[0m
+Running command: /Users/matthewong/miniforge3/bin/python -m spacy train configs/transliteration_lemmatizer_transformer.cfg --output training/UD_Akkadian_saa01 --gpu-id 0 --paths.train corpus/UD_Akkadian_saa01/train --paths.dev corpus/UD_Akkadian_saa01/dev --paths.vectors/vectors --nlp.lang=akt

@@ -1,0 +1,70 @@
+# text = ana šarri bēlīya urdaka Aššur-reṣuwa
+1	ana	ana	ADP	PRP	_	_	_	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Aššur-reṣuwa	aššur-reṣuwa	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = 03 līmu ṣābāni šēpē šaknūte rab kallābāni ša Setini pāhutu ša pūtūwa ana Muṣaṣir uttammešu
+1	03	03	NUM	NUM	_	2	nummod	_	_
+2	līmu	līm	NUM	NU	_	3	nummod	_	_
+3	ṣābāni	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|NounStem=Bound	15	nsubj	_	_
+4	šēpē	šēpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	šaknūte	šaknu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
+6	rab	rabû	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	3	conj	_	_
+7	kallābāni	kallāpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	ša	ša	ADP	PRP	_	9	case	_	_
+9	Setini	setini	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	pāhutu	pīhātu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	3	conj	_	_
+11	ša	ša	ADP	PRP	_	12	case	_	_
+12	pūtūwa	pūtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	10	acl	_	_
+13	ana	ana	ADP	PRP	_	14	case	_	_
+14	Muṣaṣir	muṣaṣir	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	15	iobj	_	_
+15	uttammešu	namāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+
+# text = nāru ṣalmu ētabru
+1	nāru	nāru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+2	ṣalmu	ṣalmu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	1	amod	_	_
+3	ētabru	ebēru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = aṣappūšu ana mala ša Setini ina pānīšu šû
+1	aṣappūšu	aṣappu	NOUN	N	Gender=Masc|Number=Plur|Case=Nom	7	nsubj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	mala	mala	PRON	REL	_	5	nsubj	_	_
+4	ša	ša	ADP	PRP	_	5	case	_	_
+5	Setini	setini	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	acl	_	_
+6	ina	ina	ADP	PRP	_	7	case	_	_
+7	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+8	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	cop	_	_
+
+# text = ša Suna pāhutu ša pūt Ukkaya ṣābānīšu uttammišūma ana Muṣaṣir
+1	ša	ša	ADP	PRP	_	2	case	_	_
+2	Suna	suna	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	8	dislocated	_	_
+3	pāhutu	pīhātu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	ša	ša	ADP	PRP	_	5	case	_	_
+5	pūt	pūtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	3	nmod	_	_
+6	Ukkaya	ukkaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	ṣābānīšu	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	8	nsubj	_	_
+8	uttammišūma	namāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D|Focus=Yes	0	ROOT	_	_
+9	ana	ana	ADP	PRP	_	10	case	_	_
+10	Muṣaṣir	muṣaṣir	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	8	iobj	_	_
+
+# text = assēme mā šarru ina libbi Waisi illak udīna lā unammaš
+1	assēme	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	mā	mā	PART	Quotative	_	7	discourse	_	_
+3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	ina	ina	ADP	PRP	_	5	case	_	_
+5	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	iobj	_	_
+6	Waisi	waisi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	_
+7	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	1	ccomp	_	_
+8	udīna	udīni	ADV	AV	_	10	advmod	_	_
+9	lā	lā	PART	NEG	_	10	advmod	_	_
+10	unammaš	namāšu	VERB	V	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=D	7	conj	_	_
+

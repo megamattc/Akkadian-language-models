@@ -1,0 +1,46 @@
+# text = ana šarri bēlīya urdaka Nashir-Bel
+1	ana	ana	ADP	PRP	_	_	_	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Nashir-Bel	nashir-bel	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = dullu ša šarri bēlīya gammur
+1	dullu	dullu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ša	ša		ADP	_	3	case	_	_
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+5	gammur	gamru	VERB	V	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=D	0	ROOT	_	_
+
+# text = ūmâ ina muhhi alpāni ša Marduk-remanni mār Ninua ana šarri bēlīya išpuranni mā Nashir-Bel ina muhhīka liddinaššunu Nashir-Bel annû ina pān šarri illaka
+1	ūmâ	ūma	ADV	ADV	_	23	advmod	_	_
+2	ina	ina	ADP	PRP	_	3	case	_	_
+3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	23	dislocated	_	_
+4	alpāni	alpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	ša	ša	PRON	PRON	_	12	obl	_	_
+6	Marduk-remanni	marduk-remanni	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	12	nsubj	_	_
+7	mār	māru	NOUN	N	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	6	appos	_	_
+8	Ninua	Ninua	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	7	nmod	_	_
+9	ana	ana	ADP	PRP	_	10	case	_	_
+10	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	12	iobj	_	_
+11	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	10	appos	_	_
+12	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|Ventive=Yes|SubSuff=Yes	4	acl	_	_
+13	mā	mā	PART	Quotative	_	17	discourse	_	_
+14	Nashir-Bel	nashir-bel	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	ina	ina	ADP	PRP	_	16	case	_	_
+16	muhhīka	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	iobj	_	_
+17	liddinaššunu	tadānu	VERB	V	Gender=Masc|Number=Sing|Person=3|Mood=Prec|VerbStem=G|Ventive=Yes|VerbSuffNum=Plur|VerbSuffPer=3|VerbSuffGen=Masc	12	ccomp	_	_
+18	Nashir-Bel	nashir-bel	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+19	annû	annû	DET	DET	Case=Nom|Gender=Masc|Number=Sing	18	det	_	_
+20	ina	ina	ADP	PRP	_	21	case	_	_
+21	pān	pānu	NOUN	N	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	23	iobj	_	_
+22	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	illaka	alāku	VERB	V	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+

@@ -1,0 +1,139 @@
+# text = ana šarri bēlīya urdaka Aššur-dur-paniya
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Aššur-dur-paniya	aššur-dur-paniya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = ina muhhi etinnāni ša šarru bēlī išpuranni mā ana rabiūti qallūti dīni mā pilkušunu ina libbi lēpuš 16 etinnānīya 03 ina pān nāgir ēkalli
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	22	dislocated	_	_
+3	etinnāni	itinnu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	ša	ša	PRON	PRON	_	7	obl	_	_
+5	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
+7	išpuranni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	3	acl	_	_
+8	mā	mā	PART	PART	_	12	discourse	_	_
+9	ana	ana	ADP	ADP	_	10	case	_	_
+10	rabiūti	rabiu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	12	iobj	_	_
+11	qallūti	qallu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+12	dīni	tadānu	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	7	ccomp	_	_
+13	mā	mā	PART	Quotative	_	17	discourse	_	_
+14	pilkušunu	pilku	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	17	obj	_	_
+15	ina	ina	ADP	ADP	_	16	case	_	_
+16	libbi	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+17	lēpuš	epēšu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	12	conj	_	_
+18	16	16	NUM	NUM	_	19	nummod	_	_
+19	etinnānīya	itinnu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	22	dislocated	_	_
+20	03	03	NUM	NUM	_	22	nsubj	_	_
+21	ina	ina	ADP	ADP	_	22	case	_	_
+22	pān	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	0	ROOT	_	_
+23	nāgir	nāgiru	NOUN	NOUN	Gender=Masc|NounStem=Bound|Number=Sing	22	nmod	_	_
+24	ēkalli	ēkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+
+# text = 03 ina qabli āli dullu eppuš
+1	03	03	NUM	NUM	_	6	nsubj	_	_
+2	ina	ina	ADP	ADP	_	3	case	_	_
+3	qabli	qablu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|NounStem=Bound	6	obl	_	_
+4	āli	ālu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	3	nmod	_	_
+5	dullu	dullu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+6	eppuš	epēšu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = 10 ša pilkī o ina dūri iraṣṣipūni
+1	10	10	NUM	NUM	_	7	nsubj	_	_
+2	ša	ša	PRON	PRON	_	7	nsubj	_	_
+3	pilkī	pilku	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	7	obj	_	_
+4	o	o	X	X	_	_	_	_	_
+5	ina	ina	ADP	ADP	_	6	case	_	_
+6	dūri	dūru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+7	iraṣṣipūni	raṣāpu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|SubSuff=Yes	0	ROOT	_	_
+
+# text = gimru 16 etinnāni ša dullu eppašūni
+1	gimru	gimru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	16	16	NUM	NUM	_	3	nummod	_	_
+3	etinnāni	itinnu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+4	ša	ša	PRON	PRON	_	6	nsubj	_	_
+5	dullu	dullu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+6	eppašūni	epēšu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	acl	_	_
+
+# text = u marʾēšunu qallūti talmīdāni šunu
+1	u	u	CCONJ	CNJ	_	2	cc	_	_
+2	marʾēšunu	māru	NOUN	NOUN	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	5	dislocated	_	_
+3	qallūti	qallu	ADJ	ADJ	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	2	amod	_	_
+4	talmīdāni	talmīdu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+5	šunu	šunu	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+
+# text = dullu memmēni lā eppušu
+1	dullu	dullu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+2	memmēni	memēni	DET	DET	Case=Acc|Gender=Masc|Number=Sing	1	det	_	_
+3	lā	lā	PART	PART	_	4	advmod	_	_
+4	eppušu	epēšu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ina libbišunu lā hakim
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	libbišunu	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	4	nsubj	_	_
+3	lā	lā	PART	MOD	_	4	advmod	_	_
+4	hakim	hakmu	NOUN	NOUN	Gender=Masc|Number=Sing	0	ROOT	_	_
+
+# text = unīnāte ina ina dātuššunu izabbilu
+1	unīnāte	umnīnu	NOUN	NOUN	Gender=Fem|Number=Plur|Case=Acc	5	obj	_	_
+2	ina	ina	ADP	PRP	_	_	_	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	dātuššunu	dātu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	5	obl	_	_
+5	izabbilu	zabālu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = mūku dullu ša etinnāni ibašši memmēni lā addana
+1	mūku	muk	PART	PART	_	5	discourse	_	_
+2	dullu	dullu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ša	ša	ADP	ADP	_	4	case	_	_
+4	etinnāni	itinnu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	ibašši	bašû	VERB	VERB	_	0	ROOT	_	_
+6	memmēni	memēni	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+7	lā	lā	PART	PART	_	8	advmod	_	_
+8	addana	tadānu	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|Ventive=Yes	5	conj	_	_
+
+# text = etinnāni 06 ina muhhi pilki ša qabli āli ša nāgir ēkalli anāku attidin u dullu iyû ina muhhīya dān adanniš
+1	etinnāni	itinnu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	2	dislocated	_	_
+2	06	06	NUM	NUM	_	13	obj	_	_
+3	ina	ina	ADP	ADP	_	4	case	_	_
+4	muhhi	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	13	iobj	_	_
+5	pilki	pilku	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	ša	ša	ADP	DET	_	7	case	_	_
+7	qabli	qablu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	nmod	_	_
+8	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	7	nmod	_	_
+9	ša	ša	ADP	ADP	_	10	case	_	_
+10	nāgir	nāgiru	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	conj	_	_
+11	ēkalli	ēkallu	NOUN	NOUN	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	10	nmod	_	_
+12	anāku	anāku	PRON	PRON	Case=Nom|Gender=Com|Number=Sing|Person=1	13	nsubj	_	_
+13	attidin	tadānu	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+14	u	u	CONJ	CCONJ	_	15	cc	_	_
+15	dullu	dullu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+16	iyû	yāʾu	DET	DET	Case=Nom|Gender=Com|Number=Sing|Person=1	15	det	_	_
+17	ina	ina	ADP	ADP	_	18	case	_	_
+18	muhhīya	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	19	obl	_	_
+19	dān	dannu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	13	conj	_	_
+20	adanniš	adanniš	ADV	ADV	_	19	advmod	_	_
+
+# text = 10 etinnāni annūti ša ina pānīya lā uṣṣū
+1	10	10	NUM	NUM	_	2	nummod	_	_
+2	etinnāni	itinnu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+3	annūti	annû	DET	DET	Case=Nom|Gender=Masc|Number=Plur	2	det	_	_
+4	ša	ša	PRON	PRON	_	6	nsubj	_	_
+5	ina	ina	ADP	ADP	_	6	case	_	_
+6	pānīya	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	acl	_	_
+7	lā	lā	PART	PART	_	8	advmod	_	_
+8	uṣṣū	aṣû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = libittumma x x+x ihappiu
+1	libittumma	libittu	NOUN	NOUN	Gender=Fem|Number=Sing|Case=Acc|Focus=Yes	4	obj	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x+x	x+x	X	X	_	_	_	_	_
+4	ihappiu	hepû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+

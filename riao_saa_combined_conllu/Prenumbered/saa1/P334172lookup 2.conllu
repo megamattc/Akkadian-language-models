@@ -1,0 +1,85 @@
+#P334174
+# text = ana šarri bēlīya urdaka Aššur-bani lū šulmu ana šarri bēlīya šulmu ana ēkurrāte šulmu ana Kalha šulmu ana issi ēkalli šulmu ana qallūte ina muhhi {1}x x x tankāru ša šarru bēlī išpuranni x x x x+x x+x x x x x x x-te Sili ina Kalha ēruba x x x x iškaršunu x x x x mahrūni
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Aššur-bani	aššur-bani	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+#
+#
+6	lū	lū	PART	PART	_	7	advmod	_	_
+7	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+8	ana	ana	ADP	ADP	_	9	case	_	_
+9	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
+
+#
+#
+11	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+12	ana	ana	ADP	ADP	_	13	case	_	_
+13	ēkurrāte	ēkurru	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	11	nsubj	_	_
+
+#
+#
+14	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+15	ana	ana	ADP	ADP	_	16	case	_	_
+16	Kalha	kalha	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	14	nsubj	_	_
+
+#
+#
+17	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+18	ana	ana	ADP	ADP	_	19	case	_	_
+19	issi	sinništu	NOUN	NOUN	Case=Gen|Gender=Fem|NounStem=Bound|Number=Sing	_	_	_	_
+20	ēkalli	ēkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+
+#
+#
+21	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+22	ana	ana	ADP	ADP	_	23	case	_	_
+23	qallūte	qallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	21	nsubj	_	_
+
+#
+#
+24	ina	ina	ADP	ADP	_	25	case	_	_
+25	muhhi	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
+26	{	{	X	X	_	_	_	_	SpaceAfter=No
+27	1}x	1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
+28	x	x	X	X	_	_	_	_	_
+29	x	x	X	X	_	_	_	_	_
+30	tankāru	tamkāru	NOUN	NOUN	_	_	_	_	_
+31	ša	ša	PRON	PRON	_	34	obj	_	_
+32	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+33	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	32	appos	_	_
+34	išpuranni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	30	acl	_	_
+35	x	x	X	X	_	_	_	_	_
+36	x	x	X	X	_	_	_	_	_
+37	x	x	X	X	_	_	_	_	_
+38	x+x	x+x	X	X	_	_	_	_	_
+39	x+x	x+x	X	X	_	_	_	_	_
+40	x	x	X	X	_	_	_	_	_
+41	x	x	X	X	_	_	_	_	_
+42	x	x	X	X	_	_	_	_	_
+43	x	x	X	X	_	_	_	_	_
+44	x	x	X	X	_	_	_	_	_
+45	x	x	X	X	_	_	_	_	SpaceAfter=No
+46	-	-	X	X	_	_	_	_	SpaceAfter=No
+47	te	te	ADJ	AJ	_	_	_	_	_
+48	Sili	sili	PROPN	PN	_	51	nsubj	_	_
+49	ina	ina	ADP	PRP	_	50	case	_	_
+50	Kalha	kalha	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	51	obl	_	_
+51	ēruba	erēbu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+52	x	x	X	X	_	_	_	_	_
+53	x	x	X	X	_	_	_	_	_
+54	x	x	X	X	_	_	_	_	_
+
+#
+#
+55	x	x	X	X	_	_	_	_	_
+56	iškaršunu	iškāru	NOUN	_	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	61	nsubj	_	_
+57	x	x	X	X	_	_	_	_	_
+58	x	x	X	X	_	_	_	_	_
+59	x	x	X	X	_	_	_	_	_
+60	x	x	X	X	_	_	_	_	_
+61	mahrūni	mahru	VERB	_	Gender=Masc|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G|Ventive=Yes	_	_	_	_
+

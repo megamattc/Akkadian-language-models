@@ -1,0 +1,81 @@
+# text = x x x x x x x x x x+x x x x x x x x x {1}{d}x+x-sa-kip pu-x x x x x x ša tašpuranni mā rab mūgīya ašappar
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x+x	x+x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	{	{	X	X	_	_	_	_	SpaceAfter=No
+20	1}{d}x+x	1}{d}x+x	PROPN	_	_	_	_	_	SpaceAfter=No
+21	-	-	X	_	_	_	_	_	SpaceAfter=No
+22	sa	sa	X	_	_	_	_	_	SpaceAfter=No
+23	-	-	X	_	_	_	_	_	SpaceAfter=No
+24	kip	kip	X	_	_	_	_	_	_
+25	pu	pu	X	_	_	_	_	_	SpaceAfter=No
+26	-	-	X	X	_	_	_	_	SpaceAfter=No
+27	x	x	X	X	_	_	_	_	_
+28	x	x	X	X	_	_	_	_	_
+29	x	x	X	X	_	_	_	_	_
+30	x	x	X	X	_	_	_	_	_
+31	x	x	X	X	_	_	_	_	_
+32	x	x	X	X	_	_	_	_	_
+33	ša	ša	PRON	PRON	_	34	obj	_	_
+34	tašpuranni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+35	mā	mā	PART	Quotative	_	38	discourse	_	_
+36	rab	rabû	NOUN	NOUN	Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing	38	obj	_	_
+37	mūgīya	mūgu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	36	nmod	_	_
+38	ašappar	šapāru	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = mā issi Arpaddaya dibbī ṭābūti dubbu
+1	mā	mā	PART	Quotative	_	6	discourse	_	_
+2	issi	išti	ADP	ADP	_	3	case	_	_
+3	Arpaddaya	arpaddaya	NOUN	EN	Gender=Masc|Number=Sing	6	obl	_	_
+4	dibbī	dibbu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+5	ṭābūti	ṭābu	ADJ	ADJ	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
+6	dubbu	dabābu	VERB	_	Gender=Masc|Number=Sing|Mood=Imp|VerbStem=G	0	ROOT	_	_
+
+# text = mā tašlīšaka x x x
+1	mā	mā	PART	Quotative	_	_	_	_	_
+2	tašlīšaka	tašlīšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+
+# text = ina libbi Aššur ilānīya utammeka šumma rab mūgīka tašapparanni x x x x x x x x x lu sa x+x x x x
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	obl	_	_
+3	Aššur	aššur	PROPN	DN	Gender=Masc|Case=Gen	2	nmod:poss	_	_
+4	ilānīya	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	3	conj	_	_
+5	utammeka	tamû	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=D|VerbSuffNum=Sing|VerbSuffPer=2|VerbSuffGen=Masc	0	ROOT	_	_
+6	šumma	šumma	SCONJ	SCONJ	_	9	mark	_	_
+7	rab	rabû	NOUN	NOUN	Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing	9	obj	_	_
+8	mūgīka	mūgu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	7	nmod	_	_
+9	tašapparanni	šapāru	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|SubSuff=Yes	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	lu	lu	VERB	VERB	_	_	_	_	_
+20	sa	sa	X	X	_	_	_	_	_
+21	x+x	x+x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+23	x	x	X	X	_	_	_	_	_
+24	x	x	X	X	_	_	_	_	_
+

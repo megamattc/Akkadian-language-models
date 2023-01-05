@@ -1,0 +1,117 @@
+# text = a-na LUGAL EN-ia ARAD-ka {1}aš-šur-ba-ni
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	ARAD-ka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	{1}aš-šur-ba-ni	aššur-bani	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lu DI-mu a-na LUGAL EN-ia
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = {1}sa-i₃-li₂ ša a-na x x x+x i-hu-ur-u₂-ni ma-a DUMU {1}sa-dir šu-u 01 MA.NA KUG.GI a-na x x i-ti-din
+1	{1}sa-i₃-li₂	saʾili	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+2	ša	ša	PRON	PRON	_	7	nsubj	_	_
+3	a-na	ana	ADP	ADP	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x+x	x+x	X	X	_	_	_	_	_
+7	i-hu-ur-u₂-ni	mahāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
+8	ma-a	mā	PART	Quotative	_	18	discourse	_	_
+9	DUMU	māru	NOUN	NOUN	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	18	nsubj	_	_
+10	{1}sa-dir	sadiru	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	šu-u	šū	DET	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	det	_	_
+12	01	01	NUM	NUM	_	13	nummod	_	_
+13	MA.NA	manû	NOUN	NOUN	Case=Acc|Gender=Masc|NounStem=Bound|Number=Plur	18	obj	_	_
+14	KUG.GI	hurāṣu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	13	nmod	_	_
+15	a-na	ana	ADP	ADP	_	16	case	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	i-ti-din	tadānu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	1	ccomp	_	_
+
+# text = ma-a 50 x+x TA UGU-hi-šu₂ in-ta-tah
+1	ma-a	mā	PART	Quotative	_	6	discourse	_	_
+2	50	50	NUM	NUM	_	3	dep	_	_
+3	x+x	x+x	X	X	_	_	_	_	_
+4	TA	ištu	ADP	ADP	_	5	case	_	_
+5	UGU-hi-šu₂	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	6	obl	_	_
+6	in-ta-tah	matāhu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = a-na {1}x x x DUMU {1}sa-dir x x x x x hu-ṣa-bu x+x x x x x-bu
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	{1}x	1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	DUMU	māru	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+6	{1}sa-dir	sadiru	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	hu-ṣa-bu	huṣābu	NOUN	NOUN	Gender=Masc|Number=Sing	_	_	_	_
+13	x+x	x+x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x-bu	x	X	X	_	_	_	_	_
+
+# text = DUMU {1}sa-dir ina bat-x+x x x x iš-QAR 03 MU.AN.NA-MEŠ in-ta-tah
+1	DUMU	māru	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	11	nsubj	_	_
+2	{1}sa-dir	sadiru	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	bat-x+x	bat	X	_	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	iš-QAR	iškāru	NOUN	VERB	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+9	03	03	NUM	NUM	_	10	nummod	_	_
+10	MU.AN.NA-MEŠ	šattu	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
+11	in-ta-tah	matāhu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = DUMU-MEŠ {1}sa-dir ina E₂.GAL i-tah-ru ma-a ne₂-ti-ni-ši
+1	DUMU-MEŠ	māru	NOUN	NOUN	Case=Nom|Gender=Masc|NounStem=Bound|Number=Plur	5	nsubj	_	_
+2	{1}sa-dir	sadiru	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	_
+3	ina	ina	ADP	ADP	_	4	case	_	_
+4	E₂.GAL	ēkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	i-tah-ru	mahāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+6	ma-a	mā	PART	Quotative	_	7	discourse	_	_
+7	ne₂-ti-ni-ši	enēšu	VERB	_	Case=Acc|Gender=Masc|Number=Sing	5	ccomp	_	_
+
+# text = ma-a TA@v E₂.GAL iq-ṭi-bu-na-ši ma-a TA@v {LU₂}ERIM-MEŠ iš-QAR mu-tu-ha
+1	ma-a	mā	PART	Quotative	_	4	discourse	_	_
+2	TA@v	ištu	ADP	ADP	_	3	case	_	_
+3	E₂.GAL	ēkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	iq-ṭi-bu-na-ši	qabû	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|VerbSuffNum=Plur|VerbSuffPer=1|VerbSuffGen=Com	0	ROOT	_	_
+5	ma-a	mā	PART	Quotative	_	9	discourse	_	_
+6	TA@v	ištu	ADP	ADP	_	7	case	_	_
+7	{LU₂}ERIM-MEŠ	ṣābu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+8	iš-QAR	iškāru	NOUN	_	Gender=Masc|Number=Sing|Case=Acc	9	obj	_	_
+9	mu-tu-ha	matāhu	VERB	_	Gender=Masc|Number=Plur|Person=2|Mood=Imp|VerbStem=G	4	ccomp	_	_
+
+# text = ša {1}sa-i₃-li₂ i-da-bu-ub-u-ni ma-a a-ta-a e-ni-ši
+1	ša	ša	PRON	_	_	3	obj	_	_
+2	{1}sa-i₃-li₂	saʾili	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	i-da-bu-ub-u-ni	dabābu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Subordinative=Yes|SubSuff=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	ma-a	mā	PART	Quotative	_	6	discourse	_	_
+5	a-ta-a	atā	PRON	ADV	_	6	advmod	_	_
+6	e-ni-ši	enšu	VERB	VERB	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G	3	nsubj	_	_
+
+# text = ma-a ki-i ša a-na-ku ina ra-me-ni-ia iš-QAR a-ma-tah-u-ni ma-a šu-u₂ a-na ra-me-ni-šu li-in-tu-hu
+1	ma-a	mā	PART	Quotative	_	8	discourse	_	_
+2	ki-i	kī	SCONJ	_	_	8	mark	_	_
+3	ša	ša	PRON	PRON	_	2	fixed	_	_
+4	a-na-ku	anāku	PRON	PRON	Case=Nom|Gender=Com|Number=Sing|Person=1	8	nsubj	_	_
+5	ina	ina	ADP	ADP	_	6	case	_	_
+6	ra-me-ni-ia	ramānu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	8	obl	_	_
+7	iš-QAR	iškāru	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	a-ma-tah-u-ni	matāhu	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	13	advcl	_	_
+9	ma-a	mā	PART	Quotative	_	13	discourse	_	_
+10	šu-u₂	šū	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+11	a-na	ana	ADP	ADP	_	12	case	_	_
+12	ra-me-ni-šu	ramānu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	13	obl	_	_
+13	li-in-tu-hu	matāhu	VERB	_	Gender=Masc|Number=Sing|Person=3|Mood=Prec|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+

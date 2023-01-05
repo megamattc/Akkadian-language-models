@@ -1,0 +1,74 @@
+# text = a-na {1}{d}PA-BAD₃-PAB IM {1}a-ri-hi
+1	a-na	ana	ADP	PRP	_	2	case	_	_
+2	{1}{d}PA-BAD₃-PAB	nabu-duru-uṣur	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	IM	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	nsubj	_	_
+4	{1}a-ri-hi	arihi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
+
+# text = lu DI-mu a-na DUMU
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	DUMU	māru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+
+# text = ina UGU {ŠE}nu-sa-hi ša {KUR}sa-mir-na-a.a EN ṭe₃-e-mu lu-te-re šum₂-mu i-ba-aš₂-ši šum₂-mu la-aš₂-šu₂
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	8	obl	_	_
+3	{ŠE}nu-sa-hi	nusāhu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	ša	ša	ADP	ADP	_	5	case	_	_
+5	{KUR}sa-mir-na-a.a	samirnaya	PROPN	GN	Gender=Masc|Number=Sing|Case=Gen	3	nmod	_	_
+6	EN	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ṭe₃-e-mu	ṭēmu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	lu-te-re	târu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D|Ventive=Yes	0	ROOT	_	_
+9	šum₂-mu	šumma	SCONJ	SCONJ	_	10	mark	_	_
+10	i-ba-aš₂-ši	bašû	VERB	VERB	_	7	acl	_	_
+11	šum₂-mu	šumma	SCONJ	SCONJ	_	12	mark	_	_
+12	la-aš₂-šu₂	laššu	VERB	VERB	_	10	conj	_	_
+
+# text = ina UGU ŠA₃-bi-ni lu DUG₃.GA
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	5	obl	_	_
+3	ŠA₃-bi-ni	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	nmod	_	_
+4	lu	lū	PART	PART	_	5	advmod	_	_
+5	DUG₃.GA	ṭābu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+
+# text = EN-pi-qi-ta-te qa-a-lu i-za-zu
+1	EN-pi-qi-ta-te	bēl piqitti	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	nsubj	_	_
+2	qa-a-lu	qālu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+3	i-za-zu	izuzzu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	2	conj	_	_
+
+# text = la il-lu-ku dul-la-šu₂-nu e-pu-šu₂
+1	la	lā	PART	PART	_	2	advmod	_	_
+2	il-lu-ku	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	dul-la-šu₂-nu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	4	obj	_	_
+4	e-pu-šu₂	epēšu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	2	conj	_	_
+
+# text = la ṭe₃-mu ni-ša₂-kan-šu₂-nu
+1	la	lā	PART	PART	_	3	advmod	_	_
+2	ṭe₃-mu	ṭēmu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	ni-ša₂-kan-šu₂-nu	šakānu	VERB	VERB	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
+
+# text = ki-i an-ni-ma TA@v MU.IM.MA a-du-na-kan-ni ina UGU e-ri-bi a-ta-na-har-ka
+1	ki-i	kī	ADP	ADP	_	2	case	_	_
+2	an-ni-ma	annû	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Case=Gen|Focus=Yes	9	obl	_	_
+3	TA@v	ištu	ADP	ADP	_	4	case	_	_
+4	MU.IM.MA	šaddaqda	ADV	ADV	_	9	obl	_	_
+5	a-du-na-kan-ni	adakanni	ADV	ADV	_	9	advmod	_	_
+6	ina	ina	ADP	ADP	_	7	case	_	_
+7	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	9	obl	_	_
+8	e-ri-bi	erbu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	7	nmod:poss	_	_
+9	a-ta-na-har-ka	mahāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=Gtn|VerbSuffNum=Sing|VerbSuffPer=2|VerbSuffGen=Masc	0	ROOT	_	_
+
+# text = e-ri-bu-ma la nu-še-ri-ib
+1	e-ri-bu-ma	erbu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc|Focus=Yes	3	obj	_	_
+2	la	lā	PART	MOD	_	3	advmod	_	_
+3	nu-še-ri-ib	erēbu	VERB	VERB	Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+
+# text = u₂-ma-a ṭe₃-mu te-re šum₂-mu i-ba-aš₂-ši šum₂-mu la-aš₂-šu₂
+1	u₂-ma-a	ūma	ADV	ADV	_	3	advmod	_	_
+2	ṭe₃-mu	ṭēmu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	te-re	târu	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=D|Ventive=Yes	0	ROOT	_	_
+4	šum₂-mu	šumma	SCONJ	SCONJ	_	5	mark	_	_
+5	i-ba-aš₂-ši	bašû	VERB	VERB	_	2	acl	_	_
+6	šum₂-mu	šumma	SCONJ	SCONJ	_	0	mark	_	_
+7	la-aš₂-šu₂	laššu	VERB	VERB	_	5	conj	_	_
+

@@ -1,0 +1,142 @@
+# text = ana šarri bēlīya urdaka Šamaš-upahhir
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	_	_	_	_
+5	Šamaš	Šamaš	PROPN	PROPN	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	SpaceAfter=No
+6	-	-	PROPN	PROPN	_	5	fixed	_	SpaceAfter=No
+7	upahhir	upahhir	PROPN	PROPN	_	5	fixed	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	appos	_	_
+
+# text = ina muhhi namaddāte ša aladlammê ša šarru bēlī išpuranni issēn aladlammû x ina 01 ammat šarri rūṭu mūrakšu
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	12	dislocated	_	_
+3	namaddāte	namaddu	NOUN	NOUN	Gender=Fem|Number=Plur|Case=Gen	2	nmod	_	_
+4	ša	ša	ADP	ADP	_	5	case	_	_
+5	aladlammê	aladlammû	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen	3	nmod	_	_
+6	ša	ša	PRON	PRON	_	9	obj	_	_
+7	šarru	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	9	nsubj	_	_
+8	bēlī	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	7	appos	_	_
+9	išpuranni	šapāru	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|SubSuff=Yes	3	acl	_	_
+10	issēn	ištēn	NUM	NUM	_	11	nummod	_	_
+11	aladlammû	aladlammû	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	18	dislocated	_	_
+12	x	x	NUM	_	_	0	ROOT	_	_
+13	ina	ina	ADP	ADP	_	15	case	_	_
+14	01	01	NUM	NUM	_	15	nummod	_	_
+15	ammat	ammutu	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|NounStem=Bound	12	nmod	_	_
+16	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	15	nmod	_	_
+17	rūṭu	rūṭu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	12	conj	_	_
+18	mūrakšu	mūruku	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc	12	nsubj	_	_
+
+# text = rupaššu x x
+1	rupaššu	rupšu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+
+# text = issu libbi mūriki issu libbi rupši x x x ina 01 ammiti rūṭu gamru
+1	issu	ištu	ADP	ADP	_	2	case	_	_
+2	libbi	libbu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	9	nmod	_	_
+3	mūriki	mūruku	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nmod	_	_
+4	issu	ištu	ADP	ADP	_	5	case	_	_
+5	libbi	libbu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	2	conj	_	_
+6	rupši	rupšu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	5	nmod	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	NUM	_	_	14	nsubj	_	_
+10	ina	ina	ADP	ADP	_	12	case	_	_
+11	01	01	NUM	NUM	_	12	nummod	_	_
+12	ammiti	ammutu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	9	nmod	_	_
+13	rūṭu	rūṭu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	9	conj	_	_
+14	gamru	gamru	ADJ	ADJ	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+
+# text = x+x x issēn aladlammû 09 ina 01 ammiti rūṭu mūruku
+1	x+x	x+x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	issēn	ištēn	NUM	NUM	_	4	nummod	_	_
+4	aladlammû	aladlammû	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	10	dislocated	_	_
+5	09	09	NUM	NUM	_	8	nummod	_	_
+6	ina	ina	ADP	ADP	_	8	case	_	_
+7	01	01	NUM	NUM	_	8	nummod	_	_
+8	ammiti	ammutu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+9	rūṭu	rūṭu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	5	conj	_	_
+10	mūruku	mūruku	NOUN	_	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|VerbForm=Ind|VerbStem=G	5	nsubj	_	_
+
+# text = issu libbi 02 battēšu ana nāri x x ina 01 ammiti i tu₂ ši x x x x x x x x
+1	issu	ištu	ADP	ADP	_	2	case	_	_
+2	libbi	libbu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+3	02	02	NUM	NUM	_	4	nummod	_	_
+4	battēšu	battu	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc	2	nmod	_	_
+5	ana	ana	ADP	ADP	_	6	case	_	_
+6	nāri	nāru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	conj	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	ina	ina	ADP	ADP	_	11	case	_	_
+10	01	01	NUM	NUM	_	11	nummod	_	_
+11	ammiti	ammutu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+12	i	i	X	X	_	_	_	_	_
+13	tu₂	tu₂	X	X	_	_	_	_	_
+14	ši	ši	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+21	x	x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+
+# text = x x aladlammû 10 ina 01 ammiti rūṭu 05 ina 01 ammiti ina {URU}x x x
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	aladlammû	aladlammû	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Nom	0	ROOT	_	_
+4	10	10	NUM	NUM	_	3	list	_	_
+5	ina	ina	ADP	ADP	_	7	case	_	_
+6	01	01	NUM	NUM	_	7	nummod	_	_
+7	ammiti	ammutu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_
+8	rūṭu	rūṭu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	4	conj	_	_
+9	05	05	NUM	NUM	_	3	list	_	_
+10	ina	ina	ADP	ADP	_	12	case	_	_
+11	01	01	NUM	NUM	_	12	nummod	_	_
+12	ammiti	ammutu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	9	nmod	_	_
+13	ina	ina	ADP	ADP	_	15	case	_	_
+14	{	{	X	X	_	_	_	_	SpaceAfter=No
+15	URU}x	URU}x	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+
+# text = x x aladlammû 10 ina 01 ammiti 05 ina 01 ammiti pān Habruri
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	aladlammû	aladlammû	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Nom	0	ROOT	_	_
+4	10	10	NUM	NUM	_	3	list	_	_
+5	ina	ina	ADP	ADP	_	7	case	_	_
+6	01	01	NUM	NUM	_	7	nummod	_	_
+7	ammiti	ammutu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_
+8	05	05	NUM	NUM	_	3	list	_	_
+9	ina	ina	ADP	ADP	_	11	case	_	_
+10	01	01	NUM	NUM	_	11	nummod	_	_
+11	ammiti	ammutu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	8	nmod	_	_
+12	pān	pānu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	_	_	_	_
+13	Habruri	Habruri	PROPN	GN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+
+# text = gimru 08 aladlammê rēhūte ša rabiūti
+1	gimru	gimru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	3	nsubj	_	_
+2	08	08	NUM	NUM	_	3	nummod	_	_
+3	aladlammê	aladlammû	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Nom	0	ROOT	_	_
+4	rēhūte	rēhu	ADJ	ADJ	Gender=Masc|Number=Plur|Case=Nom	3	amod	_	_
+5	ša	ša	PRON	PRON	_	6	case	_	_
+6	rabiūti	rabiu	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen	3	nmod	_	_
+
+# text = x šadû udīni lā nupatta
+1	x	x	X	X	_	_	_	_	_
+2	šadû	šadû	NOUN	NOUN	Gender=Masc|Number=Sing	_	_	_	_
+3	udīni	udīni	ADV	_	_	5	advmod	_	_
+4	lā	lā	PART	PART	_	5	advmod	_	_
+5	nupatta	patû	VERB	VERB	Gender=Com|Number=Plur|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+

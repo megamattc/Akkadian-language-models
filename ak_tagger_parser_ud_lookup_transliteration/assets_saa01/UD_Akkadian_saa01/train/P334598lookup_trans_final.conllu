@@ -1,0 +1,76 @@
+# text = {1}{d}x x x x ina qa-ab-si {URU}x x 40 ANŠE {ŠE}PAD-MEŠ 02 me ma-qa-ru-tu₂ ša {ŠE}IN.NU ša 02 UD-mu-MEŠ it-ti-ši
+1	{1}{d}x	1}{d}x	PROPN	PN	Gender=Masc|Number=Sing	20	nsubj	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	ina	ina	ADP	ADP	_	6	case	_	_
+6	qa-ab-si	qabaltu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	20	obl	_	_
+7	{URU}x	uru}x	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	x	x	X	X	_	_	_	_	_
+9	40	40	NUM	NUM	_	10	nummod	_	_
+10	ANŠE	imēru	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+11	{ŠE}PAD-MEŠ	kurummatu	NOUN	NOUN	_	10	nmod	_	_
+12	02	02	NUM	NUM	_	13	nummod	_	_
+13	me	meʾatu	NUM	NUM	_	14	nummod	_	_
+14	ma-qa-ru-tu₂	maqarratu	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	_
+15	ša	ša	ADP	ADP	_	16	case	_	_
+16	{ŠE}IN.NU	tibnu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	ša	ša	ADP	ADP	_	19	case	_	_
+18	02	02	NUM	NUM	_	19	nummod	_	_
+19	UD-mu-MEŠ	ūmu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+20	it-ti-ši	našû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = a-bat LUGAL i-zak-ra
+1	a-bat	awātu	NOUN	NOUN	Gender=Fem|NounBase=Bound|Number=Sing	3	obj	_	_
+2	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	i-zak-ra	zakāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = {1}aš-šur-U-LAL {LU₂}GAR-nu ina {URU}ŠE-KAM-MEŠ ina {KUR}mu-da-bir 16 ANŠE {ŠE}PAD-MEŠ {ŠE}kur-diš-šu ša {ŠE}IN.NU it-ti-ši {LU₂}ENGAR-MEŠ E₂.GAL u₂-ṣa-bi-it
+1	{1}aš-šur-U-LAL	aššur-belu-taqqin	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	13	nsubj	_	_
+2	{LU₂}GAR-nu	šaknu	VERB	AJ	Gender=Masc|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	1	appos	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	{URU}ŠE-KAM-MEŠ	kapar-diqarate	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	13	obl	_	_
+5	ina	ina	ADP	PRP	_	6	case	_	_
+6	{KUR}mu-da-bir	madbaru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	13	obl	_	_
+7	16	16	NUM	NUM	_	8	nummod	_	_
+8	ANŠE	imēru	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur|NounStem=Bound	13	obj	_	_
+9	{ŠE}PAD-MEŠ	kurummatu	NOUN	NOUN	Gender=Fem|Number=Plur|Case=Gen	8	nmod	_	_
+10	{ŠE}kur-diš-šu	kurdiššu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	8	conj	_	_
+11	ša	ša	ADP	ADP	_	12	case	_	_
+12	{ŠE}IN.NU	tibnu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	it-ti-ši	našû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+14	{LU₂}ENGAR-MEŠ	ikkaru	NOUN	NOUN	Case=Acc|Gender=Fem|NounBase=Bound|Number=Plur	16	obj	_	_
+15	E₂.GAL	ēkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	u₂-ṣa-bi-it	ṣabātu	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=D	13	conj	_	_
+
+# text = a-na pu-u-hi x x na-ṣu-u-ni x x it-ta-nu
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	pu-u-hi	pūhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	obl	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	na-ṣu-u-ni	našû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	it-ta-nu	tadānu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	5	conj	_	_
+
+# text = x x x x+x x+x ša la-a {LU₂}EN.NAM x x x x i-pat-ti-u
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x+x	x+x	X	X	_	_	_	_	_
+5	x+x	x+x	X	X	_	_	_	_	_
+6	ša	ša	PRON	PRON	_	8	case	_	_
+7	la-a	lā	PART	PART	_	8	advmod	_	_
+8	{LU₂}EN.NAM	pīhātu	NOUN	NOUN	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	i-pat-ti-u	petû	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = LUGAL EN lu u₂-di
+1	LUGAL	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	EN	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
+3	lu	lū	PART	PART	_	4	advmod	_	_
+4	u₂-di	wadû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+

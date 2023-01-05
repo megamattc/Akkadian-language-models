@@ -1,0 +1,150 @@
+# text = a-na LUGAL EN-ia ARAD-ka {1}EN-liq-bi
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	ARAD-ka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	{1}EN-liq-bi	bel-liqbi	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lu DI-mu a-na LUGAL EN-ia
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = {URU}he-e-sa E₂-mar-di-ti-ia UN-MEŠ ina ŠA₃-bi la-aš₂-šu₂
+1	{URU}he-e-sa	hesa	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	6	dislocated	_	_
+2	E₂-mar-di-ti-ia	bēt mardītīya	ADP	ADP	_	1	appos	_	_
+3	UN-MEŠ	nišu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	ina	ina	ADP	ADP	_	5	case	_	_
+5	ŠA₃-bi	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	la-aš₂-šu₂	laššu	VERB	VERB	_	0	ROOT	_	_
+
+# text = rab@@@ {LU₂}GAL-kal-li-e rab@@@ {LU₂}GAL-rak-si u₂-di-šu₂-nu ina ŠA₃-bi
+1	rab@@@	rabû	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	{LU₂}GAL-kal-li-e	kallû	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	rab@@@	rabû	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	1	conj	_	_
+4	{LU₂}GAL-rak-si	raksu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	u₂-di-šu₂-nu	udī-	DET	DET	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=S|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	1	det	_	_
+6	ina	ina	ADP	PRP	_	7	case	_	_
+7	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
+
+# text = la-a i-ha-ri-du
+1	la-a	lā	PART	MOD	_	2	advmod	_	_
+2	i-ha-ri-du	harādu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = u₂-ma-a a-na-ku 30 E₂-MEŠ lu-ša₂-bi-ša₂ ina ŠA₃-bi la-aš₂-ku-nu
+1	u₂-ma-a	ūma	ADV	ADV	_	5	advmod	_	_
+2	a-na-ku	anāku	PRON	PRON	Case=Nom|Gender=Com|Number=Sing|Person=1	5	nsubj	_	_
+3	30	30	NUM	DN	_	4	nummod	_	_
+4	E₂-MEŠ	bītu	NOUN	N	Gender=Masc|NounBase=Free|Number=Plur	5	obj	_	_
+5	lu-ša₂-bi-ša₂	šabāšu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Mood=Prec|VerbStem=D|Ventive=Yes	_	_	_	_
+6	ina	ina	ADP	PRP	_	7	case	_	_
+7	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	8	obl	_	_
+8	la-aš₂-ku-nu	šakānu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Mood=Prec|VerbStem=G|Ventive=Yes	5	conj	_	_
+
+# text = ERIM-MEŠ ša {1}{d}PA-ṣal-la {LU₂}GAR-nu {LU₂}DUMU-ki-it-ki-te-e 01-en {LU₂}ki-ṣir ina ŠA₃-bi {URU}he-e-sa kam-mu-su
+1	ERIM-MEŠ	ṣābu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	ša	ša	ADP	ADP	_	3	case	_	_
+3	{1}{d}PA-ṣal-la	nabu-ṣalla	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	_
+4	{LU₂}GAR-nu	šaknu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	3	appos	_	_
+5	{LU₂}DUMU-ki-it-ki-te-e	mār kitkittê	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+6	01-en	ištēn	NUM	NUM	_	7	nummod	_	_
+7	{LU₂}ki-ṣir	kiṣru	NOUN	N	Gender=Masc|NounBase=Free|Number=Sing	1	appos	_	_
+8	ina	ina	ADP	PRP	_	9	case	_	_
+9	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	11	obl	_	_
+10	{URU}he-e-sa	hesa	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	_
+11	kam-mu-su	kamsu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=D|Voice=Pass	0	ROOT	_	_
+
+# text = lu-še-ṣi-šu₂-nu ina ŠA₃-bi {URU}ar-gi-te lu-še-šib-šu₂-nu A.ŠA₃-MEŠ {GIŠ}SAR-MEŠ li-di-na-aš₂-šu₂-nu
+1	lu-še-ṣi-šu₂-nu	aṣû	VERB	VERB	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
+2	ina	ina	ADP	PRP	_	3	case	_	_
+3	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	obl	_	_
+4	{URU}ar-gi-te	argite	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	lu-še-šib-šu₂-nu	ašābu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	1	conj	_	_
+6	A.ŠA₃-MEŠ	eqlu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Plur	8	obj	_	_
+7	{GIŠ}SAR-MEŠ	kirû	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Plur	6	conj	_	_
+8	li-di-na-aš₂-šu₂-nu	tadānu	VERB	V	Gender=Masc|Number=Sing|Person=3|Mood=Prec|VerbStem=G|Ventive=Yes|VerbSuffNum=Plur|VerbSuffPer=3|VerbSuffGen=Masc	1	conj	_	_
+
+# text = šum-ma ma-hi-ir pa-an LUGAL e-gir-tu₂ ina UGU {1}{d}PA-ṣal-la {LU₂}GAR-ni liš-pa-ru-u-ni
+1	šum-ma	šumma	SCONJ	SCONJ	_	2	mark	_	_
+2	ma-hi-ir	mahru	VERB	VERB	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	10	advcl	_	_
+3	pa-an	pānu	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	2	obl	_	_
+4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	e-gir-tu₂	egertu	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+6	ina	ina	ADP	ADP	_	7	case	_	_
+7	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	10	iobj	_	_
+8	{1}{d}PA-ṣal-la	nabu-ṣalla	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	{LU₂}GAR-ni	šaknu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+10	liš-pa-ru-u-ni	šapāru	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
+
+# text = {1}ia-ʾi-i-ru {LU₂}02-u a-na rab@@@ {LU₂}GAL-URU-ME-te ina ŠA₃-bi la-ap-qid
+1	{1}ia-ʾi-i-ru	yaʾiru	PROPN	SN	Gender=Masc|Number=Sing|Case=Acc	8	obj	_	_
+2	{LU₂}02-u	šanû	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	1	appos	_	_
+3	a-na	ana	ADP	PRP	_	4	case	_	_
+4	rab@@@	rabû	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	8	obl	_	_
+5	{LU₂}GAL-URU-ME-te	ālūtu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	ina	ina	ADP	ADP	_	7	case	_	_
+7	ŠA₃-bi	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+8	la-ap-qid	paqādu	VERB	VERB	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
+
+# text = u₃ {1}{d}30-SUM-na {LU₂}GAL-E₂ ša {1}10-ha-ti ina {URU}sa-za-na-a la-ap-qid ba-si E₂-mar-di-a-te an-nu-te i-ha-ri-du o LUGAL i-pa-lu-hu
+1	u₃	u	CONJ	CONJ	_	2	cc	_	_
+2	{1}{d}30-SUM-na	sin-iddina	PROPN	PROPN	Gender=Masc|Number=Sing|Case=Acc	8	nsubj	_	_
+3	{LU₂}GAL-E₂	rab bēti	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc	2	appos	_	_
+4	ša	ša	ADP	ADP	_	5	case	_	_
+5	{1}10-ha-ti	adda-hati	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	ina	ina	ADP	ADP	_	7	case	_	_
+7	{URU}sa-za-na-a	sazana	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+8	la-ap-qid	paqādu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Mood=Prec|VerbStem=G	0	ROOT	_	_
+9	ba-si	basi	SCONJ	SCONJ	_	12	mark	_	_
+10	E₂-mar-di-a-te	bēt mardītīya	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc	11	obj	_	_
+11	an-nu-te	annû	DET	DET	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+12	i-ha-ri-du	harādu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|Subordinative=Yes	8	advcl	_	_
+13	o	o	X	X	_	_	_	_	_
+14	LUGAL	šarru	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+15	i-pa-lu-hu	palāhu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|Subordinative=Yes	12	conj	_	_
+
+# text = {LU₂}ar-ba-a.a a-ki ša ti-ma-li ša₂-šu-me e-ru-bu u₂-ṣu-u
+1	{LU₂}ar-ba-a.a	arbaya	NOUN	EN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	a-ki	akī	ADP	ADP	_	3	case	_	_
+3	ša	ša	PRON	PRON	_	6	obl	_	_
+4	ti-ma-li	timāli	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	ša₂-šu-me	šalšūmi	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+6	e-ru-bu	erēbu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+7	u₂-ṣu-u	aṣû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	6	conj	_	_
+
+# text = DI-mu a-dan-niš
+1	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	a-dan-niš	adanniš	ADV	ADV	_	1	nmod:poss	_	_
+
+# text = {1}a-mi-li-iʾ-ti DUMU {1}a-me-ri ina {URU}ṣu-pi-te ina UGU-hi-ia i-tal-ka
+1	{1}a-mi-li-iʾ-ti	ammi-leʾti	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	DUMU	māru	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+3	{1}a-me-ri	amiri	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	ina	ina	ADP	ADP	_	5	case	_	_
+5	{URU}ṣu-pi-te	ṣupite	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+6	ina	ina	ADP	ADP	_	7	case	_	_
+7	UGU-hi-ia	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	8	obl	_	_
+8	i-tal-ka	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ṭe₃-ma-te a-sa-ʾa-al-šu₂
+1	ṭe₃-ma-te	ṭēmu	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+2	a-sa-ʾa-al-šu₂	šâlu	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
+
+# text = DI-mu a-dan-niš
+1	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	a-dan-niš	adanniš	ADV	ADV	_	1	nmod	_	_
+
+# text = DUMU {1}a-ša₂-pi a-na {KUR}ma-ni-iʾ ša il-lik-u-ni u₂-di-ni ṭe₃-en-šu₂ la-a ni-ša₂-me
+1	DUMU	māru	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	10	dislocated	_	_
+2	{1}a-ša₂-pi	ašapi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	a-na	ana	ADP	PRP	_	4	case	_	_
+4	{KUR}ma-ni-iʾ	maniʾ	PROPN	GN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+5	ša	ša	PRON	PRON	_	6	nsubj	_	_
+6	il-lik-u-ni	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
+7	u₂-di-ni	udīni	ADV	ADV	_	10	advmod	_	_
+8	ṭe₃-en-šu₂	ṭēmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc	10	obj	_	_
+9	la-a	lā	PART	MOD	_	10	advmod	_	_
+10	ni-ša₂-me	šemû	VERB	V	Gender=Com|Number=Plur|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
