@@ -24,6 +24,14 @@ The trained models are themselves packaged as Python modules and can be download
 important caveat. Both the normalized and transliterated versions of the language models run on custom Language classes modeled on Spacy's
 default Language classes located in ```/spacy/lang```. The folder for normalized class (as well as the label of the language in the files) is called ```ak``` and the corresponding label for the transliterated class is ```akt```. Both the ```ak``` and ```akt``` folders should be placed in the ```/spacy/lang``` directory alongside spacy's other language modules (e.g. ```de```, ```am```,```ar```). Alternatively, you may modify the appropriate scripts to locate these folders in another place of your choosing. 
 
+We should also acknowledge that one component of the YYY model is a custom morphological parser modeled on Aleksi Sahala's parser for
+Babylonian dialects of Akkadian (see https://github.com/asahala/BabyFST and Sahala 2020). Our modifications mainly consist of adapting the parser
+for Neo-Assyrian dialects and integrating its functionality into a Spacy pipeline. More details can be found in ```XYZ```.
+
 Works cited:
 
-Mikko Luukko, Aleksi Sahala, Sam Hardwick, and Krister Lindén. 2020. Akkadian Treebank for early Neo-Assyrian Royal Inscriptions. In Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories, pages 124–134, Düsseldorf, Germany. Association for Computational Linguistics.
+M. Luukko, A. Sahala, S. Hardwick, and K. Lindén. 2020. "Akkadian Treebank for early Neo-Assyrian Royal Inscriptions". In: Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories, pages 124–134, Düsseldorf, Germany. Association for Computational Linguistics.
+
+A. Sahala, M. Silfverberg, A. Arppe, and K. Lindén. 2020. “BabyFST : Towards a Finite-State Based Computa-
+tional Model of Ancient Babylonian”. In: Proceedings of the 12th Conference on Language Resources and
+Evaluation (LREC 2020). Ed. by N. Calzolari, pp. 3886–3894. Marseille, France. European Language Resources Association.
