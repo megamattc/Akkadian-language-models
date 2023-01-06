@@ -11,7 +11,7 @@ is called YYY.
 Another model ZZZ was trained on transliterated texts mirroring the normalized texts used to train YYY. The relation between the normalized and transliterated data sets
 is described in the publication concerning XXX. 
 
-The Oracc texts and metadata were scraped using modified versions of scripts made by Niek Veldhuis (niekveldhuis/compass/2_1_Data_Acquisition_ORACC/). 
+The Oracc texts and metadata were scraped using modified versions of scripts made by Niek Veldhuis (https://github.com/niekveldhuis/compass/2_1_Data_Acquisition_ORACC/). 
 Each text was placed in its own ```.txt``` file, save for the data from Luukko et. al. 2020, which came as one large file. 
 These files were then annotated in Inception for part of speech, syntactic structure, and morphology according to the Universal Dependencies framework (universaldependencies.org), largely following the conventions used in Luukko et. al. 2020. The output format of these annotations
 was in ```conllu```. Details concerning the annotation schema can be found in ```XYZ```. 
