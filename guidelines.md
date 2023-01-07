@@ -39,7 +39,7 @@ def create_lookups(self):
         lookups.add_table("lemma_lookup", self.json_to_dict('lookups/ak_lemma_lookup_1_2_5_15_anzu_barutu.json'))
 ```  
 
-And change the name of the file to what you need.  
+And change the name of the file to what you need. From the code snippet above, you can see that I chose to label files consisting of data drawn from multiple Oracc projects with names reflecting all the projects in them. This makes for lengthy, awkward file names, but since I am constantly expanding the set of corpora I annotate as well as switching between normalized and transliterated data, this convention allows me to see at a glance what the input dictionaries to a model consist of and hence avoid confusion between model versions. You might prefer a different method to keep track of model content, but note that JSON files do not allow for comments in them. 
 
 The remain folders of the repository should **not** be placed in the spacy installation directory, but instead whatever workspace you use.
 
