@@ -33,9 +33,11 @@ A second feature of the language classes is that they contain a *lookup table* f
 
 > If you intend to start annotating your own corpus of texts from Oracc, you can integrate the lemma lookup table from your corpus into that belonging to YYY or ZZZ using the ```merge_norm_lemma_lookup.py``` and ```merge_norm_lemma_lookup.py``` scripts (they differ only in a few small details). If you do this (or if you wish to use your own custom lemma lookup table), you may need to update the name of the resulting lookup table specified in the custom ```lemmatizer.py``` file within the ```ak``` or ```act``` folder. Look for the section of the file consisting of
 
->> ```def create_lookups(self): 
-        lookups = Lookups()
-        lookups.add_table("lemma_lookup", self.json_to_dict('lookups/ak_lemma_lookup_1_2_5_15_anzu_barutu.json'))```  
+``` 
+>>def create_lookups(self): 
+>>        lookups = Lookups()
+>>        lookups.add_table("lemma_lookup", self.json_to_dict('lookups/ak_lemma_lookup_1_2_5_15_anzu_barutu.json'))
+```  
 
 And change the name of the file to what you need.  
 
