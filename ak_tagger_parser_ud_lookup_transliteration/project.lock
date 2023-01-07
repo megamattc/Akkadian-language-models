@@ -32,14 +32,14 @@ train:
       --paths.vectors/vectors --nlp.lang=akt
   deps:
     - path: corpus/UD_Akkadian_saa01/train
-      md5: f91501a894b23ecb1da8f453f0058a53
+      md5: 23e31886a2c85262a921c8c2374cda6b
     - path: corpus/UD_Akkadian_saa01/dev
       md5: a32cb207f756624066bd33ca6fe62e79
     - path: configs/transliteration_lemmatizer.cfg
       md5: 6bdb2fbfea8da44b1ef0a4efc2368bf1
   outs:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 9df8107c96cab1ae02445bfda38dde3c
+      md5: 577a20dcaed1341ea6b473451b886a4a
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
@@ -49,7 +49,7 @@ package:
       ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer  --version 0.0.0 --force
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 9df8107c96cab1ae02445bfda38dde3c
+      md5: 577a20dcaed1341ea6b473451b886a4a
   outs:
     - path: packages/akt_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer-0.0.0/dist/en_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer-0.0.0.tar.gz
       md5: null
