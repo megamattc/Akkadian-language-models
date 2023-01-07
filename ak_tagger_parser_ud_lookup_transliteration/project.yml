@@ -15,15 +15,15 @@ description: >
 
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
-  config: "transliteration_lemmatizer_transformer"
+  config: "transliteration_lemmatizer"
   lang: "akt"
   treebank: "UD_Akkadian_saa01"
   train_name: "akk_combined_nonrenumbered-ud-train"
   dev_name: "akk_combined_nonrenumbered-ud-dev"
   test_name: "akk_combined_nonrenumbered-ud-test"
-  package_name: "ud_akk_saa01_05_transliteration_lemmatizer_transformer"
+  package_name: "ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer"
   package_version: "0.0.0"
-  gpu: 0
+  gpu: -1
 
 spacy_version: ">=3.3.0,<4.0.0"
 
