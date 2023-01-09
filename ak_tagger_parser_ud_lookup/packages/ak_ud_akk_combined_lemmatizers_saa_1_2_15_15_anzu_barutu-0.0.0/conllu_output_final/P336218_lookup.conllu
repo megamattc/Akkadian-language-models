@@ -9,8 +9,8 @@
 
 #
 #
-1	lū	lū	PART	PART	_	0	ROOT	_	_
-2	x	x	X	X	_	_	_	_	_
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	x	x	X	X	_	0	ROOT	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
@@ -26,12 +26,12 @@
 15	x	x	X	X	_	_	_	_	_
 16	ana	ana	ADP	PRP	_	17	case	_	_
 17	Aššur-ahu-iddina	aššur-ahu-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-18	šar	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	17	appos	_	_
+18	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	17	appos	_	_
 19	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	18	nmod:poss	_	_
 20	x	x	X	X	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
-22	šumma	šumma	SCONJ	SCONJ	_	_	_	_	_
-23	{LU₂}x	{lu₂}x	NOUN	N	_	_	_	_	_
+22	šumma	šumma	SCONJ	SBJ	_	23	mark	_	_
+23	{LU₂}x	{lu₂}x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
@@ -43,9 +43,9 @@
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
-35	zāršu	zēru	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+35	zāršu	zēru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
 36	u	u	CONJ	CNJ	_	37	cc	_	_
-37	nišēšu	nišu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	35	conj	_	_
+37	nišēšu	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	35	conj	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
@@ -53,12 +53,12 @@
 42	tu-raq-qa-x	tu-raq-qa-x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
-45	x	x	X	X	_	_	_	_	_
-46	iqqûkunūni	naqû	VERB	V	Gender=Masc|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+45	x	x	X	X	_	46	obj	_	_
+46	iqqûkunūni	naqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
-50	qutārī	qutāru	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Bound|Number=Plur	_	_	_	_
+50	qutārī	qutāru	NOUN	N	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
@@ -68,7 +68,7 @@
 57	x	x	X	X	_	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
-60	šar	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
+60	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
 61	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	60	nmod	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
@@ -88,14 +88,14 @@
 77	x	x	X	X	_	_	_	_	_
 78	x	x	X	X	_	_	_	_	_
 79	x	x	X	X	_	_	_	_	_
-80	lā	lā	PART	NEG	_	_	_	_	_
+80	lā	lā	PART	NEG	_	81	advmod	_	_
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
-87	šumma	šumma	SCONJ	X	_	_	_	_	_
+87	šumma	šumma	SCONJ	SBJ	_	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
 90	x	x	X	X	_	_	_	_	_
@@ -108,7 +108,7 @@
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
 99	ina	ina	ADP	PRP	_	100	case	_	_
-100	gummurti	gummurtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	_	_	_	_
+100	gummurti	gummurtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
 103	x	x	X	X	_	_	_	_	_
@@ -119,7 +119,3 @@
 108	x	x	X	X	_	_	_	_	_
 109	x	x	X	X	_	_	_	_	_
 110	x	x	X	X	_	_	_	_	_
-
-#
-#
-1	 	 	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	SpaceAfter=No

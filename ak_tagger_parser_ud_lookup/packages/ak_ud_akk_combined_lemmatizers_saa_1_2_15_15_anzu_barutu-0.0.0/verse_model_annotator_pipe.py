@@ -121,6 +121,7 @@ for filename in glob.glob(os.path.join(inputPath, '*.txt')):
        #print(lines)
        line = inputFile.read() #Get lines from input .conllu file.
        lines = line.split("\n")
+       lines = [line for line in lines if (not line.isspace() and line != "")]
        docs = []
        for line in lines:
            line = line + " " #IT IS VERY IMPORTANT TO HAVE THIS SPACE (OR ANY WHITESPAE) AT THE END OF EACH TEXT LINE, BEFORE FEEDING INTO THE PIPELINE. THE CONLL-CONVERTER NEEDS IT.

@@ -32,26 +32,27 @@ train:
       --paths.vectors/vectors --nlp.lang=akt
   deps:
     - path: corpus/UD_Akkadian_saa01/train
-      md5: 23e31886a2c85262a921c8c2374cda6b
+      md5: f91501a894b23ecb1da8f453f0058a53
     - path: corpus/UD_Akkadian_saa01/dev
       md5: a32cb207f756624066bd33ca6fe62e79
     - path: configs/transliteration_lemmatizer.cfg
       md5: 6bdb2fbfea8da44b1ef0a4efc2368bf1
   outs:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 577a20dcaed1341ea6b473451b886a4a
+      md5: 094f68a26dba3c74e467690ffede25b3
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
   cmd: python -m spacy run package
   script:
     - python -m spacy package  training/UD_Akkadian_saa01/model-best packages  --name
-      ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer  --version 0.0.0 --force
+      ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer_transformer  --version
+      0.0.0 --force
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 577a20dcaed1341ea6b473451b886a4a
+      md5: 094f68a26dba3c74e467690ffede25b3
   outs:
-    - path: packages/akt_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer-0.0.0/dist/en_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer-0.0.0.tar.gz
+    - path: packages/akt_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer_transformer-0.0.0/dist/en_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer_transformer-0.0.0.tar.gz
       md5: null
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
@@ -72,11 +73,11 @@ evaluate:
       ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 9df8107c96cab1ae02445bfda38dde3c
+      md5: 094f68a26dba3c74e467690ffede25b3
     - path: corpus/UD_Akkadian_saa01/test
       md5: 0be15c9bcaae3b00bb3af2a11b286899
   outs:
     - path: metrics/UD_Akkadian_saa01.json
-      md5: b168bce4fe403f88b91413c61b6ff4b7
+      md5: ca1f5f3e7f9c888578c31ee800a84a94
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef

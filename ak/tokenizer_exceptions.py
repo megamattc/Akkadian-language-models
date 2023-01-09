@@ -497,6 +497,7 @@ exclusions = [
    "ša-bēti-šaniūte":[{ORTH:    "ša-bēti-šaniūte"}],
    "ša-sāgātēšu":[{ORTH:    "ša-sāgātēšu"}],
    "ṣalmāt qaqqadi":[{ORTH:    "ṣalmāt qaqqadi"}],
+   "bēl qiʾʾi":[{ORTH:    "bēl qiʾʾi"}],
    "bēl hiṭṭi":[{ORTH:    "bēl hiṭṭi"}],
    "bēl nakar":[{ORTH:    "bēl nakar"}],
    "bēl hīṭu":[{ORTH:    "bēl hīṭu"}],
