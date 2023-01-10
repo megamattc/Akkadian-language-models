@@ -31,14 +31,14 @@ train:
       --gpu-id -1  --paths.train corpus/UD_Akkadian_saa01/train  --paths.dev corpus/UD_Akkadian_saa01/dev  --nlp.lang=ak
   deps:
     - path: corpus/UD_Akkadian_saa01/train
-      md5: 14e6976c82ac443901b06d121dd0fa57
+      md5: 2aaf157efeccfa6d622feb6132b4167a
     - path: corpus/UD_Akkadian_saa01/dev
-      md5: afbdf83dc99d75b54f0e3c4eb7114a41
+      md5: 607f83164aed8de0eb589a2519c36675
     - path: configs/combined_lemmatizers_suff.cfg
       md5: b8cbed6b019c38bc5c8eb66a687e8638
   outs:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 87f1351b4a8eee7d0540e6408afd2eea
+      md5: 78292109cb4a7508c73dca12d10543fd
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
@@ -48,7 +48,7 @@ package:
       ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu  --version 0.0.0 --force
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 5eb9b87d1da1bc5775e7b63a2d89b681
+      md5: d76ecdd1fdf5084fbc0f8444efc5d441
   outs:
     - path: packages/ak_ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu-0.0.0/dist/en_ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu-0.0.0.tar.gz
       md5: null
@@ -71,11 +71,11 @@ evaluate:
       ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 5eb9b87d1da1bc5775e7b63a2d89b681
+      md5: d76ecdd1fdf5084fbc0f8444efc5d441
     - path: corpus/UD_Akkadian_saa01/test
-      md5: a51897500a8005c16b4f9f77cea2582b
+      md5: 4bd033327c9926a54633f5f746262300
   outs:
     - path: metrics/UD_Akkadian_saa01.json
-      md5: 4208e84d73d593ddb630ab68359d2c6f
+      md5: 02b28be7101f96ee97c1bf6a82d6d992
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
