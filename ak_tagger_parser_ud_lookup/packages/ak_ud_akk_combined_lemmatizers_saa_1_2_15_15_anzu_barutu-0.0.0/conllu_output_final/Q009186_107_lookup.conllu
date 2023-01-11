@@ -1,25 +1,25 @@
 
 #
 #
-1	Ayaru	ayaru	PROPN	MN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
+1	Ayaru	ayaru	PROPN	MN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	parataxis	_	_
 3	18-KAM₂	18-kam₂	ADJ	ADJ	_	2	amod	_	_
-4	limmu	līmu	NOUN	N	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	34	obl	_	_
+4	limmu	līmu	NOUN	N	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	2	parataxis	_	_
 5	Nabu-belu-uṣur	nabu-belu-uṣur	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-6	šakin	šaknu	VERB	V	Case=Nom|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	5	appos	_	_
+6	šakin	šaknu	VERB	V	Case=Nom|Gender=Masc|Mood=Ind|NounStem=Bound|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	5	appos	_	_
 7	māt	mātu	NOUN	N	Case=Gen|Gender=Fem|NounStem=Bound|Number=Sing	6	nmod:poss	_	_
-8	Dur-Šarrukku	dur-šarrukku	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	_
-9	adê	adû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	34	obj	_	_
+8	Dur-Šarrukku	dur-šarrukku	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	adê	adû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	dep	_	_
 10	ša	ša	ADP	PRP	_	11	case	_	_
 11	Aššur-ahu-iddina	aššur-ahu-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 12	šar	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	11	appos	_	_
 13	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	12	nmod:poss	_	_
-14	ša	ša	PRON	REL	_	16	nsubj	_	_
+14	ša	ša	PRON	REL	_	34	nsubj	_	_
 15	ina	ina	ADP	PRP	_	16	case	_	_
-16	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	34	obl	_	_
+16	muhhi	muhhu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	34	obl	_	_
 17	Aššur-bani-apli	aššur-bani-apli	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
 18	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	appos	_	_
-19	rabiu	rabû	ADJ	AJ	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PredSuffNum=Plur|PredSuffPer=3	18	amod	_	_
+19	rabiu	rabû	ADJ	AJ	Case=Acc|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PredSuffNum=Plur|PredSuffPer=3	18	amod	_	_
 20	ša	ša	ADP	PRP	_	21	case	_	_
 21	bēt rēdûti	bēt rēdûti	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 22	ša	ša	ADP	PRP	_	23	case	_	_
@@ -29,9 +29,9 @@
 26	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	16	conj	_	_
 27	Šamaš-šumu-ukin	šamaš-šumu-ukin	PROPN	PN	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	26	nmod	_	_
 28	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	27	appos	_	_
-29	rabiu	rabû	ADJ	AJ	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PredSuffNum=Plur|PredSuffPer=3	28	amod	_	_
+29	rabiu	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	28	amod	_	_
 30	ša	ša	ADP	PRP	_	31	case	_	_
 31	bēt rēdûti	bēt rēdûti	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
 32	ša	ša	ADP	PRP	_	33	case	_	_
 33	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
-34	šaknūni	šaknu	VERB	V	Gender=Masc|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+34	šaknūni	šaknu	VERB	V	Gender=Masc|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	9	acl	_	_

@@ -12,16 +12,16 @@
 #
 #
 1	Ea	ea	PROPN	DN	Gender=Masc	9	nsubj	_	_
-2	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+2	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	1	appos	_	_
 3	apsî	apsû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	2	nmod:poss	_	_
-4	bēl	bēlu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+4	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	1	appos	_	_
 5	nagbi	nagbu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	4	nmod:poss	_	_
 6	mê	mû	NOUN	N	Case=Acc|Gender=Masc|NounStem=Bound|Number=Plur	9	obj	_	_
 7	lā	lā	PART	NEG	_	8	advmod	_	_
 8	balāṭi	balāṭu	VERB	V	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	6	nmod	_	_
 9	lišqikunu	šaqû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	0	ROOT	_	_
 10	aganutillâ	aganutillû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
-11	limallikunu	malû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	9	conj	_	_
+11	limallikunu	malû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	9	conj	_	_
 
 #
 #
@@ -42,7 +42,7 @@
 2	nādin	nādinu	NOUN	N	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	1	appos	_	_
 3	mākālē	mākālu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	ṣehrūti	ṣehru	ADJ	AJ	Case=Gen|Gender=Masc|NounStem=Free|Number=Plur	2	obl	_	_
+5	ṣehrūti	ṣehru	ADJ	AJ	Case=Gen|Gender=Masc|NounStem=Free|Number=Plur	9	obl	_	_
 6	rabûti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|NounStem=Free|Number=Plur	5	amod	_	_
 7	šumkunu	šumu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	9	obj	_	_
 8	zērkunu	zēru	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	7	conj	_	_
@@ -66,8 +66,8 @@
 14	lusiqqūnikkunu	siāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	_	_	_	_
 15	kaqqarkunu	qaqqaru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	18	obj	_	_
 16	kî	kī	ADP	PRP	_	17	case	_	_
-17	parzilli	parzillu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	18	obl	_	_
-18	lēpušū	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
+17	parzilli	parzillu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Free|Number=Sing	18	obl	_	_
+18	lēpušū	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	14	conj	_	_
 19	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 20	ina	ina	ADP	PRP	_	21	case	_	_
 21	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	24	obl	_	_
@@ -80,7 +80,7 @@
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	ša	ša	PRON	REL	_	10	obl	_	_
 3	ultu	ištu	ADP	PRP	_	4	case	_	_
-4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	10	obl	_	_
+4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
 5	šamê	šamû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	4	nmod:poss	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	siparri	siparru	NOUN	N	Case=Gen|Gender=Masc|NounBound=Free|Number=Sing	5	nmod	_	_
@@ -89,18 +89,18 @@
 10	izannunūni	zanānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=G	13	dep	_	_
 11	kî	kī	ADP	PRP	_	12	case	_	_
 12	hannīe	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	13	dep	_	_
-13	zunnu	zunnu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+13	zunnu	zunnu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 14	nalšu	nalšu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	13	conj	_	_
 15	ina	ina	ADP	PRP	_	16	case	_	_
-16	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	21	iobj	_	_
+16	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	21	obl	_	_
 17	eqlātikunu	eqlu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	16	nmod	_	_
 18	tamerātikunu	tawwertu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	17	conj	_	_
 19	lū	lū	PART	PART	_	21	advmod	_	_
 20	lā	lā	PART	NEG	_	21	advmod	_	_
-21	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+21	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	13	nsubj	_	_
 22	kūm	kūm	ADP	PRP	_	23	case	_	_
 23	zunnu	zunnu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Free|Number=Sing	27	obl	_	_
-24	peʾenāti	pēmtu	NOUN	N	Gender=Fem|NounStem=Free|Number=Plur	27	nsubj	_	_
+24	peʾenāti	pēmtu	NOUN	N	Gender=Fem|NounStem=Free|Number=Plur	27	obj	_	_
 25	ina	ina	ADP	PRP	_	26	case	_	_
 26	mātikunu	mātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	27	obl	_	_
 27	liznun	zanānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	21	conj	_	_
@@ -122,7 +122,7 @@
 13	lā	lā	PART	NEG	_	14	advmod	_	_
 14	tazzazā	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|SubSuff=No|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 15	mārīkunu	māru	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	20	obj	_	_
-16	mārātikunu	mārtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	15	conj	_	_
+16	mārātikunu	mārtu	NOUN	N	Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	15	conj	_	_
 17	ina	ina	ADP	PRP	_	18	case	_	_
 18	qātikunu	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=2	20	obl	_	_
 19	lā	lā	PART	NEG	_	20	advmod	_	_
@@ -142,7 +142,7 @@
 10	zēr	zēru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	8	conj	_	_
 11	ša	ša	ADP	PRP	_	12	case	_	_
 12	mārīkunu	māru	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	10	nmod	_	_
-13	mārātikunu	mārtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	12	conj	_	_
+13	mārātikunu	mārtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	12	conj	_	_
 14	ultu	ištu	ADP	PRP	_	15	case	_	_
 15	māti	mātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	16	obl	_	_
 16	lihliq	halāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -159,7 +159,7 @@
 8	ina	ina	ADP	PRP	_	9	case	_	_
 9	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	10	obl	_	_
 10	šaknūni	šaknu	VERB	V	Gender=Masc|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
-11	KI	ki	VERB	X	_	_	_	_	_
+11	KI	ki	VERB	V	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
@@ -174,7 +174,7 @@
 23	x	x	X	X	_	_	_	_	_
 24	x+x-ni-ša₂	x+x-ni-ša₂	X	X	_	26	obl	_	_
 25	lā	lā	PART	NEG	_	26	advmod	_	_
-26	tasahharūni	sahāru	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	38	advcl	_	_
+26	tasahharūni	sahāru	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 27	zērkunu	zēru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	38	nsubj	_	_
 28	zērē	zēru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Plur	27	conj	_	_
 29	ša	ša	ADP	PRP	_	30	case	_	_
@@ -186,7 +186,7 @@
 35	pānī	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	34	nmod:poss	_	_
 36	ša	ša	ADP	PRP	_	37	case	_	_
 37	kaqqari	qaqqaru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	35	nmod	_	_
-38	lihliq	halāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
+38	lihliq	halāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 
 #
 #
@@ -196,19 +196,19 @@
 4	ša	ša	ADP	PRP	_	5	case	_	_
 5	parzilli	parzillu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Free|Number=Sing	3	nmod	_	_
 6	ālkunu	ālu	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	8	obj	_	_
-7	nagîkunu	nagû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	8	obj	_	_
+7	nagîkunu	nagû	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	6	conj	_	_
 8	lušabalkit	nabalkutu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=Š	0	ROOT	_	_
 
 #
 #
 1	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+2	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 3	kî	kī	ADP	PRP	_	4	case	_	_
 4	ša	ša	PRON	REL	_	7	obl	_	_
 5	agurrutu	gurrutu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	annītu	annû	DET	DET	Case=Nom|Gender=Fem|Number=Sing	5	det	_	_
 7	šalqatūni	šalqu	VERB	V	Gender=Fem|Number=Sing|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
-8	šīra	šīru	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Free|Number=Plur	13	nsubj	_	_
+8	šīra	šīru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	13	nsubj	_	_
 9	ša	ša	ADP	PRP	_	10	case	_	_
 10	mārīša	māru	NOUN	N	Case=Gen|Gender=Nom|Number=Plur|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3	8	nmod	_	_
 11	ina	ina	ADP	PRP	_	12	case	_	_
@@ -223,26 +223,26 @@
 20	mārātikunu	mārtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	19	conj	_	_
 21	ana	ana	ADP	PRP	_	22	case	_	_
 22	būrikunu	būru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	23	obl	_	_
-23	lušākilūkunu	akālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	7	conj	_	_
+23	lušākilūkunu	akālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	13	parataxis	_	_
 
 #
 #
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	ša	ša	PRON	REL	_	7	obl	_	_
 3	kabsu	kabsu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-4	kabsutu	kabsu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+4	kabsutu	kabsu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	hurāpu	hurāpu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	conj	_	_
 6	hurāptu	hurāpu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
-7	šalqūni	šalqu	ADJ	AJ	Gender=Masc|Number=Plur|SubSuff=Yes|Subordinative=No|VerbForm=Stat|VerbStem=G|Voice=Pass	19	dislocated	_	_
+7	šalqūni	šalqu	ADJ	AJ	Gender=Masc|Number=Plur|SubSuff=Yes|Subordinative=No|VerbForm=Stat|VerbStem=G|Voice=Pass	19	advcl	_	_
 8	errēšunu	erru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	11	nsubj	_	_
 9	ultu	ištu	ADP	PRP	_	10	case	_	_
 10	šēpēšunu	šēpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	11	obl	_	_
 11	karkūni	karku	ADJ	AJ	Gender=Masc|Number=Plur|SubSuff=Yes|Subordinative=No|VerbForm=Stat|VerbStem=G	7	conj	_	_
-12	errēkunu	erru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	19	obj	_	_
-13	errē	erru	NOUN	N	Case=Gen|Gender=Masc|NounStem=Free|Number=Plur	12	conj	_	_
+12	errēkunu	erru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	19	nsubj	_	_
+13	errē	erru	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Plur	12	conj	_	_
 14	ša	ša	ADP	PRP	_	15	case	_	_
 15	mārīkunu	māru	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	13	nmod	_	_
-16	mārātikunu	mārtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	15	conj	_	_
+16	mārātikunu	mārtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	15	conj	_	_
 17	ultu	ištu	ADP	PRP	_	18	case	_	_
 18	šēpēkunu	šēpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	19	obl	_	_
 19	likkarkū	karāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=N	0	ROOT	_	_
