@@ -2,7 +2,7 @@
 #
 #
 1	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+2	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 3	kî	kī	ADP	PRP	_	4	case	_	_
 4	ša	ša	PRON	REL	_	11	obl	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_
@@ -15,7 +15,7 @@
 12	ina	ina	ADP	PRP	_	13	case	_	_
 13	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	24	obl	_	_
 14	šīrīkunu	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	13	nmod	_	_
-15	šīrī	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	14	conj	_	_
+15	šīrī	šīru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	14	conj	_	_
 16	ša	ša	ADP	PRP	_	17	case	_	_
 17	issātikunu	sinništu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	15	acl	_	_
 18	ahhēkunu	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	17	conj	_	_
@@ -30,29 +30,29 @@
 #
 1	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	KI.MIN	ki.min	INTJ	V	_	_	_	_	_
-3	erbû	erbû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
-4	zēr	zēru	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	3	appos	_	_
-5	barmu	barmu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
-6	kalmutu	kalmatu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+3	erbû	erbû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	zēr	zēru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	12	dislocated	_	_
+5	barmu	barmu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	kalmutu	kalmatu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	12	nsubj	_	_
 7	mūnu	mūnu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
 8	ākilū	ākilu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
-9	ālānikunu	ālu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	12	obj	_	_
+9	ālānikunu	ālu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	12	obl	_	_
 10	mātkunu	mātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	9	conj	_	_
-11	nagîkunu	nagû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	10	conj	_	_
+11	nagîkunu	nagû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	9	conj	_	_
 12	lušākilu	akālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=Š	_	_	_	_
 
 #
 #
 1	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+2	KI.MIN	ki.min	INTJ	AJ	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 3	kî	kī	ADP	PRP	_	4	case	_	_
 4	zumbi	zubbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_
 6	qāt	qātu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	8	obl	_	_
 7	nakrikunu	nakru	ADJ	AJ	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	6	nmod:poss	_	_
 8	lēpašūkunu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	_	_	_	_
-9	nakarkunu	nakru	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	10	obj	_	_
-10	limriskunu	marāsu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	8	conj	_	_
+9	nakarkunu	nakru	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	8	conj	_	_
+10	limriskunu	marāsu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	9	conj	_	_
 
 #
 #
@@ -60,17 +60,17 @@
 2	ša	ša	PRON	REL	_	5	obl	_	_
 3	pispisu	pispisu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	annīu	annû	DET	DET	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
-5	biʾšūni	bīšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G	15	dislocated	_	_
+5	biʾšūni	bīšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 6	kî	kī	ADP	PRP	_	7	case	_	_
 7	hannî	annû	DET	DET	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
 8	ina	ina	ADP	PRP	_	9	case	_	_
-9	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	15	obl	_	_
-10	ili	ilu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	9	nmod	_	_
+9	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	15	obl	_	_
+10	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 11	u	u	CONJ	CNJ	_	12	cc	_	_
 12	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
-13	amēlūte	awīlūtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
-14	nipiškunu	nipšu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	15	nsubj	_	_
-15	libʾiš	baʾāšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+13	amēlūte	awīlūtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	10	appos	_	_
+14	nipiškunu	nipšu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	15	obj	_	_
+15	libʾiš	baʾāšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	5	conj	_	_
 
 #
 #
@@ -84,7 +84,7 @@
 8	mārātikunu	mārtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	7	conj	_	_
 9	ina	ina	ADP	PRP	_	10	case	_	_
 10	pitilti	pitiltu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	11	obl	_	_
-11	lihnaqūkunu	hanāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	_	_	_	_
+11	lihnaqūkunu	hanāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	2	conj	_	_
 
 #
 #

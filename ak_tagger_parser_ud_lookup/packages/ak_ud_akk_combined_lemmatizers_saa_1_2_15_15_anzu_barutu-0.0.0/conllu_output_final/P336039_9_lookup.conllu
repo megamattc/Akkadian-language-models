@@ -1,11 +1,11 @@
 
 #
 #
-1	Aššur	aššur	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
-2	šar	šarru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	1	appos	_	_
+1	Aššur	aššur	PROPN	DN	Gender=Masc	5	nsubj	_	_
+2	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
 3	šamê	šamû	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	2	nmod:poss	_	_
-4	kaqqari	qaqqaru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	3	conj	_	_
-5	tummātunu	tummû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
+4	kaqqari	qaqqaru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	1	conj	_	_
+5	tummātunu	tummû	ADJ	AJ	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 #
 #
@@ -15,26 +15,26 @@
 
 #
 #
-1	Enlil	enlil	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+1	Enlil	enlil	PROPN	DN	Gender=Masc	3	obj	_	_
 2	Mulliltu	mulliltu	PROPN	DN	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
 #
 1	Ea	ea	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-2	Damkina	damkina	PROPN	DN	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
+2	Damkina	damkina	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
 #
-1	Sin	sin	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	Sin	sin	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 2	Nikkal	nikkal	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
 #
 1	Šamaš	šamaš	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-2	Nur	nur	PROPN	SN	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
+2	Nur	nur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
@@ -64,7 +64,7 @@
 #
 #
 1	Uraš	uraš	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-2	Ninegal	ninegal	PROPN	DN	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
+2	Ninegal	ninegal	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
@@ -87,36 +87,36 @@
 
 #
 #
-1	Humhummu	humhummu	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+1	Humhummu	humhummu	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 2	Išum	išum	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
 #
-1	Girra	girra	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+1	Girra	girra	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
 2	Nušku	nušku	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
 #
-1	Ištar	ištaru	PROPN	DN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-2	bēlat	bēltu	NOUN	N	Case=Acc|Gender=Fem|NounStem=Bound|Number=Sing	1	appos	_	_
+1	Ištar	ištaru	PROPN	DN	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	bēlat	bēltu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	1	appos	_	_
 3	Nina	nina	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	_
 4	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
 #
-1	Ištar	ištaru	PROPN	DN	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	_
+1	Ištar	ištaru	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	bēlat	bēltu	NOUN	N	Case=Acc|Gender=Fem|NounStem=Bound|Number=Sing	1	appos	_	_
 3	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	_
-4	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
+4	KI.MIN	ki.min	INTJ	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 #
 #
 1	Adad	adad	PROPN	DN	Gender=Masc|Number=Sing	4	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	Kurbail	kurbail	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-4	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
+4	KI.MIN	ki.min	VERB	V	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 #
 #
@@ -127,27 +127,27 @@
 
 #
 #
-1	Palil	palil	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+1	Palil	palil	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ālik	āliku	ADJ	AJ	Case=Acc|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	1	appos	_	_
 3	mahri	mahru	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	2	nmod:poss	_	_
-4	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
+4	KI.MIN	ki.min	INTJ	V	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 
 #
 #
-1	Sebetti	sebetti	PROPN	DN	Case=Nom|Gender=Masc|Number=Plur	3	obj	_	_
+1	Sebetti	sebetti	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
 2	qardūti	qardu	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	1	amod	_	_
-3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
+3	KI.MIN	ki.min	INTJ	V	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 #
 #
 1	Dagan	dagan	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	o	o	X	X	_	_	_	_	_
-3	Muṣuruna	muṣuruna	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
-4	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	3	amod	_	_
+3	Muṣuruna	muṣuruna	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	_	_	_	_
 
 #
 #
-1	Milqartu	milqartu	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+1	Milqartu	milqartu	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 2	Yasumuna	yasumuna	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
 3	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
@@ -160,16 +160,16 @@
 #
 #
 1	Adad	adad	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	{d}x	{d}x	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+2	{d}x	{d}x	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
 3	x	x	X	X	_	_	_	_	_
 4	Rammanu	rammanu	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
-6	Dimašqa	dimašqa	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+6	Dimašqa	dimašqa	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	KI.MIN	ki.min	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=D	_	_	_	_
 
 #
 #
-1	{d}za-x	{d}za-x	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{d}za-x	{d}za-x	PROPN	X	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
