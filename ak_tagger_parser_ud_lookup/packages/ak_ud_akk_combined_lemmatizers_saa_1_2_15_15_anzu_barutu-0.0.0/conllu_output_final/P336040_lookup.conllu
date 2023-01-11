@@ -3,7 +3,7 @@
 #
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
-3	saa02	saa02		X	_	_	_	_	SpaceAfter=No
+3	saa02	saa02		_	_	_	_	_	SpaceAfter=No
 4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P336040	p336040		_	_	_	_	_	_
 
@@ -16,18 +16,18 @@
 5	adê	adû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Plur	4	nmod	_	_
 6	annūte	annû	DET	DP	Case=Acc|Gender=Masc|Number=Plur	5	det	_	_
 7	ša	ša	ADP	PRP	_	8	case	_	_
-8	Sin-šarru-iškun	sin-šarru-iškun	PROPN	PN	Gender=Masc	5	nmod	_	_
-9	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	8	appos	_	_
+8	Sin-šarru-iškun	sin-šarru-iškun	PROPN	RN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	šar	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	8	appos	_	_
 10	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	_
-11	bēlikunu	bēlu	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	8	appos	_	_
-12	marʾēšu	māru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	11	nmod:poss	_	_
-13	mār	māru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	8	appos	_	_
+11	bēlikunu	bēlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	8	appos	_	_
+12	marʾēšu	māru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	conj	_	_
+13	mār	māru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	12	conj	_	_
 14	marʾēšu	māru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	13	nmod:poss	_	_
 15	tahaṭṭiʾāni	haṭû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-16	Nergal	nergal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+16	Nergal	nergal	PROPN	DN	Gender=Masc	15	nmod	_	_
 17	bēlu	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	16	appos	_	_
 18	gitmālu	gitmālu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	_
-19	dāmēkunu	dāmu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	16	appos	_	_
+19	dāmēkunu	dāmu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	16	appos	_	_
 20	ina	ina	ADP	PRP	_	21	case	_	_
-21	harrī	harru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
-22	nadabākī	natbāku	NOUN	N	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+21	harrī	harru	NOUN	N	Gender=Masc|Number=Plur	22	obl	_	_
+22	nadabākī	natbāku	NOUN	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	15	conj	_	_
