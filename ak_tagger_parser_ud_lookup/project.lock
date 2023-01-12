@@ -48,7 +48,7 @@ package:
       ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu  --version 0.0.0 --force
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 9c54134fc1f9d49a83eb6ff3dc5be759
+      md5: b016a550dd452672426df224a7548dfa
   outs:
     - path: packages/ak_ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu-0.0.0/dist/en_ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu-0.0.0.tar.gz
       md5: null
@@ -71,11 +71,11 @@ evaluate:
       ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 9c54134fc1f9d49a83eb6ff3dc5be759
+      md5: b016a550dd452672426df224a7548dfa
     - path: corpus/UD_Akkadian_saa01/test
       md5: 4bd033327c9926a54633f5f746262300
   outs:
     - path: metrics/UD_Akkadian_saa01.json
-      md5: 8c19238060bb266d04ecb97d3107feac
+      md5: ac422441a715203105247c69fcac431c
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
