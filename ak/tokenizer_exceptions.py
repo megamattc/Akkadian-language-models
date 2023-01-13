@@ -587,6 +587,7 @@ exclusions = [
    "bēt šubte":[{ORTH:    "bēt šubte"}],
    "bēt rēdûte":[{ORTH:    "bēt rēdûte"}],
    "bēt rēdûti":[{ORTH:    "bēt rēdûti"}],
+   "bīt rēdûti":[{ORTH:    "bīt rēdûti"}],
    "bēt isitēya":[{ORTH:    "bēt isitēya"}],
    "bēt abīšu":[{ORTH:    "bēt abīšu"}],
    "bēt mardīti":[{ORTH:    "bēt mardīti"}],
