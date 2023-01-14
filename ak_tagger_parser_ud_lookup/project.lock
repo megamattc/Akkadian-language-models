@@ -27,30 +27,30 @@ preprocess:
 train:
   cmd: python -m spacy run train
   script:
-    - python -m spacy train  configs/combined_lemmatizers_suff.cfg --output training/UD_Akkadian_saa01
-      --gpu-id -1  --paths.train corpus/UD_Akkadian_saa01/train  --paths.dev corpus/UD_Akkadian_saa01/dev  --nlp.lang=ak
+    - python -m spacy train  configs/combined_lemmatizers_suff.cfg --output training/UD_Akkadian
+      --gpu-id -1  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
   deps:
-    - path: corpus/UD_Akkadian_saa01/train
-      md5: 9538d489c1876fcae3b1941112727e80
-    - path: corpus/UD_Akkadian_saa01/dev
+    - path: corpus/UD_Akkadian/train
+      md5: 9245dc0c718bbc155d61be0d02e43a42
+    - path: corpus/UD_Akkadian/dev
       md5: 607f83164aed8de0eb589a2519c36675
     - path: configs/combined_lemmatizers_suff.cfg
-      md5: b8cbed6b019c38bc5c8eb66a687e8638
+      md5: 6ada28c8a47affc5958ee517af2203d2
   outs:
-    - path: training/UD_Akkadian_saa01/model-best
-      md5: 386c4f8b0dc286b9e8f2b38652d5ccc6
+    - path: training/UD_Akkadian/model-best
+      md5: 9652c32351957f5288c01518db7d2349
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
   cmd: python -m spacy run package
   script:
-    - python -m spacy package  training/UD_Akkadian_saa01/model-best packages  --name
-      ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu  --version 0.0.0 --force
+    - python -m spacy package  training/UD_Akkadian/model-best packages  --name AkkParser_Norm_1_2_5_9_15_anzu_barutu  --version
+      0.0.0 --force
   deps:
-    - path: training/UD_Akkadian_saa01/model-best
-      md5: 386c4f8b0dc286b9e8f2b38652d5ccc6
+    - path: training/UD_Akkadian/model-best
+      md5: 9652c32351957f5288c01518db7d2349
   outs:
-    - path: packages/ak_ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu-0.0.0/dist/en_ud_akk_combined_lemmatizers_saa_1_2_15_15_anzu_barutu-0.0.0.tar.gz
+    - path: packages/ak_AkkParser_Norm_1_2_5_9_15_anzu_barutu-0.0.0/dist/en_AkkParser_Norm_1_2_5_9_15_anzu_barutu-0.0.0.tar.gz
       md5: null
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
@@ -67,15 +67,15 @@ clean:
 evaluate:
   cmd: python -m spacy run evaluate
   script:
-    - python -m spacy evaluate  ./training/UD_Akkadian_saa01/model-best  ./corpus/UD_Akkadian_saa01/test  --output
-      ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
+    - python -m spacy evaluate  ./training/UD_Akkadian/model-best  ./corpus/UD_Akkadian/test  --output
+      ./metrics/UD_Akkadian.json  --gpu-id -1
   deps:
-    - path: training/UD_Akkadian_saa01/model-best
-      md5: 386c4f8b0dc286b9e8f2b38652d5ccc6
-    - path: corpus/UD_Akkadian_saa01/test
+    - path: training/UD_Akkadian/model-best
+      md5: 9652c32351957f5288c01518db7d2349
+    - path: corpus/UD_Akkadian/test
       md5: 4bd033327c9926a54633f5f746262300
   outs:
-    - path: metrics/UD_Akkadian_saa01.json
-      md5: 4c8a31e630ee992a3da54ab764ef1f5f
+    - path: metrics/UD_Akkadian.json
+      md5: 06abcd3f198bf48afb5f4ae866f79640
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
