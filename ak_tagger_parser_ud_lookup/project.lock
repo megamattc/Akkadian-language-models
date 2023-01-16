@@ -28,17 +28,17 @@ train:
   cmd: python -m spacy run train
   script:
     - python -m spacy train  configs/combined_lemmatizers_suff.cfg --output training/UD_Akkadian
-      --gpu-id -1  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
+      --gpu-id 0  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
   deps:
     - path: corpus/UD_Akkadian/train
-      md5: 9245dc0c718bbc155d61be0d02e43a42
+      md5: 969efeb6cb1ec630422b0683e405d407
     - path: corpus/UD_Akkadian/dev
       md5: 607f83164aed8de0eb589a2519c36675
     - path: configs/combined_lemmatizers_suff.cfg
       md5: 6ada28c8a47affc5958ee517af2203d2
   outs:
     - path: training/UD_Akkadian/model-best
-      md5: 9652c32351957f5288c01518db7d2349
+      md5: 563a477800f07cbe23adc4d4f2e7b581
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
@@ -48,7 +48,7 @@ package:
       0.0.0 --force
   deps:
     - path: training/UD_Akkadian/model-best
-      md5: 9652c32351957f5288c01518db7d2349
+      md5: 81510c6aec51e09bf19c8f50f49ca5c9
   outs:
     - path: packages/ak_AkkParser_Norm_1_2_5_9_15_anzu_barutu-0.0.0/dist/en_AkkParser_Norm_1_2_5_9_15_anzu_barutu-0.0.0.tar.gz
       md5: null
@@ -68,14 +68,14 @@ evaluate:
   cmd: python -m spacy run evaluate
   script:
     - python -m spacy evaluate  ./training/UD_Akkadian/model-best  ./corpus/UD_Akkadian/test  --output
-      ./metrics/UD_Akkadian.json  --gpu-id -1
+      ./metrics/UD_Akkadian.json  --gpu-id 0
   deps:
     - path: training/UD_Akkadian/model-best
-      md5: 9652c32351957f5288c01518db7d2349
+      md5: 563a477800f07cbe23adc4d4f2e7b581
     - path: corpus/UD_Akkadian/test
       md5: 4bd033327c9926a54633f5f746262300
   outs:
     - path: metrics/UD_Akkadian.json
-      md5: 06abcd3f198bf48afb5f4ae866f79640
+      md5: d124f84c3b319fba41d79c4bc0613b7c
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef

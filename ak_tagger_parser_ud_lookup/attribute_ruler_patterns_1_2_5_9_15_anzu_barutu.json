@@ -200,7 +200,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PART"
+         "POS":"PART","TAG": "NEG"
       }
    },
    {
@@ -212,7 +212,7 @@
          ]
       ],
       "attrs":{
-         "POS":"SCONJ"
+         "POS":"SCONJ","TAG": "SBJ"
       }
    },
    {
@@ -1219,7 +1219,7 @@
       "patterns":[
          [
             {
-               "ORTH":"kî"
+               "ORTH":"kî","DEP": "case"
             }
          ]
       ],
@@ -2835,7 +2835,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "DN"
       }
    },
    {
@@ -2847,7 +2847,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "DN"
       }
    },
    {
@@ -5401,7 +5401,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":""
       }
    },
    {
@@ -10455,7 +10455,7 @@
          ]
       ],
       "attrs":{
-         "POS":"INTJ"
+         "POS":""
       }
    },
    {
@@ -10467,7 +10467,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "SN"
       }
    },
    {
@@ -24871,7 +24871,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -41938,21 +41938,7 @@
          ]
       ],
       "attrs":{
-         "POS":"SCONJ"
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"kî",
-               "DEP":"case"
-            }
-         ]
-      ],
-      "attrs":{
-         "TAG":"PRP",
-         "POS":"ADP"
+         "POS":"SCONJ","TAG": "SBJ"
       }
    },
    {
@@ -58862,7 +58848,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "XP"
       }
    },
    {
@@ -101680,8 +101666,9 @@
          ]
       ],
       "attrs":{
-         "TAG":"AJ",
-         "POS":"ADJ"
+         "TAG":"V",
+         "POS":"VERB",
+         "MORPH": "Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G"
       }
    },
    {
@@ -103015,7 +103002,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "DN"
       }
    },
    {
@@ -104189,8 +104176,9 @@
          ]
       ],
       "attrs":{
-         "TAG":"AJ",
-         "POS":"ADJ"
+         "TAG":"V",
+         "POS":"VERB",
+         "MORPH": "Gender=Com|Number=Sing|Person=1|VerbForm=Stat"
       }
    },
    {
@@ -104278,7 +104266,8 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"VERB"
+         "POS":"VERB",
+         "MORPH": "Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G"
       }
    },
    {
@@ -104408,7 +104397,8 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"VERB"
+         "POS":"VERB",
+         "MORPH": "Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|VerbSuffNum=Sing|VerbSuffPer=2|VerbSuffGen=Masc"
       }
    },
    {
@@ -104666,7 +104656,8 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"VERB"
+         "POS":"VERB",
+         "MORPH": "Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc"
       }
    },
    {
@@ -104977,7 +104968,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP","MORPH": "Gender=Fem|Number=Sing|Person=2|Case=Nom"
       }
    },
    {
@@ -104989,7 +104980,8 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+           "POS":"PRON","TAG": "IP","MORPH": "Gender=Fem|Number=Sing|Person=2|Case=Nom|Focus=Yes"
+
       }
    },
    {
@@ -105517,7 +105509,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "DN"
       }
    },
    {
