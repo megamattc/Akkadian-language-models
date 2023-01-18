@@ -28,29 +28,29 @@ train:
   cmd: python -m spacy run train
   script:
     - python -m spacy train  configs/combined_lemmatizers_suff.cfg --output training/UD_Akkadian
-      --gpu-id 0  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
+      --gpu-id -1  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
   deps:
     - path: corpus/UD_Akkadian/train
-      md5: 969efeb6cb1ec630422b0683e405d407
+      md5: 20ecb93fdbf561c2ec85d0cba1f7516b
     - path: corpus/UD_Akkadian/dev
-      md5: 607f83164aed8de0eb589a2519c36675
+      md5: ae9e97d52444d2c6cf66b4e64bdec7fb
     - path: configs/combined_lemmatizers_suff.cfg
-      md5: 6ada28c8a47affc5958ee517af2203d2
+      md5: e45d21791a89149140cc635ae5525f4f
   outs:
     - path: training/UD_Akkadian/model-best
-      md5: 563a477800f07cbe23adc4d4f2e7b581
+      md5: 2f38c9f19a997a7ac299f8d5c91f8126
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
   cmd: python -m spacy run package
   script:
-    - python -m spacy package  training/UD_Akkadian/model-best packages  --name AkkParser_Norm_1_2_5_9_15_anzu_barutu  --version
+    - python -m spacy package  training/UD_Akkadian/model-best packages  --name AkkParser_Norm_1_2_5_9_15_anzu_barutu_rinap4  --version
       0.0.0 --force
   deps:
     - path: training/UD_Akkadian/model-best
-      md5: 81510c6aec51e09bf19c8f50f49ca5c9
+      md5: 6f39efa05a13e1da261bbc208b809b36
   outs:
-    - path: packages/ak_AkkParser_Norm_1_2_5_9_15_anzu_barutu-0.0.0/dist/en_AkkParser_Norm_1_2_5_9_15_anzu_barutu-0.0.0.tar.gz
+    - path: packages/ak_AkkParser_Norm_1_2_5_9_15_anzu_barutu_rinap4-0.0.0/dist/en_AkkParser_Norm_1_2_5_9_15_anzu_barutu_rinap4-0.0.0.tar.gz
       md5: null
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
@@ -68,14 +68,14 @@ evaluate:
   cmd: python -m spacy run evaluate
   script:
     - python -m spacy evaluate  ./training/UD_Akkadian/model-best  ./corpus/UD_Akkadian/test  --output
-      ./metrics/UD_Akkadian.json  --gpu-id 0
+      ./metrics/UD_Akkadian.json  --gpu-id -1
   deps:
     - path: training/UD_Akkadian/model-best
-      md5: 563a477800f07cbe23adc4d4f2e7b581
+      md5: 68c72c6c68828f5fc63a94ef583311be
     - path: corpus/UD_Akkadian/test
-      md5: 4bd033327c9926a54633f5f746262300
+      md5: 915ff0a4db040dbfe64d589c3f71529c
   outs:
     - path: metrics/UD_Akkadian.json
-      md5: d124f84c3b319fba41d79c4bc0613b7c
+      md5: e2c7e5e31bd906f0654681436161e574
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef

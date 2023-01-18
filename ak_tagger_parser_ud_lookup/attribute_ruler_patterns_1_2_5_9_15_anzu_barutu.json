@@ -212,7 +212,7 @@
          ]
       ],
       "attrs":{
-         "POS":"SCONJ","TAG": "SBJ"
+         "POS":"SCONJ"
       }
    },
    {
@@ -1219,7 +1219,7 @@
       "patterns":[
          [
             {
-               "ORTH":"kî","DEP": "case"
+               "ORTH":"kî"
             }
          ]
       ],
@@ -2835,7 +2835,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN","TAG": "DN"
+         "POS":"PROPN"
       }
    },
    {
@@ -2847,7 +2847,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN","TAG": "DN"
+         "POS":"PROPN"
       }
    },
    {
@@ -3300,7 +3300,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON","TAG": "IP"
+         "POS":"PRON"
       }
    },
    {
@@ -3561,7 +3561,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON","TAG": "IP"
+         "POS":"PRON"
       }
    },
    {
@@ -5401,7 +5401,7 @@
          ]
       ],
       "attrs":{
-         "POS":""
+         "POS":"PROPN"
       }
    },
    {
@@ -10455,7 +10455,7 @@
          ]
       ],
       "attrs":{
-         "POS":""
+         "POS":"INTJ"
       }
    },
    {
@@ -10467,7 +10467,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN","TAG": "SN"
+         "POS":"PROPN"
       }
    },
    {
@@ -24871,7 +24871,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON","TAG": "IP"
+         "POS":"PRON"
       }
    },
    {
@@ -32257,6 +32257,20 @@
       "attrs":{
          "TAG":"V",
          "POS":"VERB"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"īpulūšuma"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"V",
+         "POS":"VERB",
+         "MORPH": "Gender=Masc|Number=Plur|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc|Focus=Yes"
       }
    },
    {
@@ -41938,7 +41952,21 @@
          ]
       ],
       "attrs":{
-         "POS":"SCONJ","TAG": "SBJ"
+         "POS":"SCONJ"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"kî",
+               "DEP":"case"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"PRP",
+         "POS":"ADP"
       }
    },
    {
@@ -58848,7 +58876,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON","TAG": "XP"
+         "POS":"PRON"
       }
    },
    {
@@ -101666,9 +101694,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"V",
-         "POS":"VERB",
-         "MORPH": "Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G"
+         "TAG":"AJ",
+         "POS":"ADJ"
       }
    },
    {
@@ -103002,7 +103029,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN","TAG": "DN"
+         "POS":"PROPN"
       }
    },
    {
@@ -103789,9 +103816,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"VERB",
-         "POS":"V",
-         "MORPH": "Gender=Fem|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G"
+         "TAG":"AJ",
+         "POS":"ADJ"
       }
    },
    {
@@ -103842,8 +103868,7 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"VERB",
-         "MORPH": "Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G"
+         "POS":"VERB"
       }
    },
    {
@@ -104176,9 +104201,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"V",
-         "POS":"VERB",
-         "MORPH": "Gender=Com|Number=Sing|Person=1|VerbForm=Stat"
+         "TAG":"AJ",
+         "POS":"ADJ"
       }
    },
    {
@@ -104266,8 +104290,7 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"VERB",
-         "MORPH": "Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G"
+         "POS":"VERB"
       }
    },
    {
@@ -104397,8 +104420,7 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"VERB",
-         "MORPH": "Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|VerbSuffNum=Sing|VerbSuffPer=2|VerbSuffGen=Masc"
+         "POS":"VERB"
       }
    },
    {
@@ -104656,8 +104678,7 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"VERB",
-         "MORPH": "Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc"
+         "POS":"VERB"
       }
    },
    {
@@ -104968,7 +104989,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON","TAG": "IP","MORPH": "Gender=Fem|Number=Sing|Person=2|Case=Nom"
+         "POS":"PRON"
       }
    },
    {
@@ -104980,8 +105001,7 @@
          ]
       ],
       "attrs":{
-           "POS":"PRON","TAG": "IP","MORPH": "Gender=Fem|Number=Sing|Person=2|Case=Nom|Focus=Yes"
-
+         "POS":"PRON"
       }
    },
    {
@@ -105509,7 +105529,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN","TAG": "DN"
+         "POS":"PROPN"
       }
    },
    {
