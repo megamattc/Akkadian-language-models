@@ -1,29 +1,29 @@
 preprocess:
   cmd: python -m spacy run preprocess
   script:
-    - mkdir -p corpus/UD_Akkadian_saa01
-    - python -m spacy convert assets/UD_Akkadian_saa01/train  corpus/UD_Akkadian_saa01/train
-      --n-sents 4 --converter conllu --merge-subtokens
-    - python -m spacy convert  assets/UD_Akkadian_saa01/dev corpus/UD_Akkadian_saa01/dev
-      --n-sents 4 --converter conllu --merge-subtokens
-    - python -m spacy convert  assets/UD_Akkadian_saa01/test corpus/UD_Akkadian_saa01/test
-      --n-sents 4 --converter conllu --merge-subtokens
+    - mkdir -p corpus/UD_Akkadian
+    - python -m spacy convert assets/UD_Akkadian/train  corpus/UD_Akkadian/train --n-sents
+      4 --converter conllu --merge-subtokens
+    - python -m spacy convert  assets/UD_Akkadian/dev corpus/UD_Akkadian/dev --n-sents
+      4 --converter conllu --merge-subtokens
+    - python -m spacy convert  assets/UD_Akkadian/test corpus/UD_Akkadian/test --n-sents
+      4 --converter conllu --merge-subtokens
   deps:
-    - path: assets/UD_Akkadian_saa01/train
-      md5: 859cec5c2bb75536c6c0e242a4593e8d
-    - path: assets/UD_Akkadian_saa01/dev
-      md5: d7db5c6623bc4fe84a4e28a44a457778
-    - path: assets/UD_Akkadian_saa01/test
-      md5: 3a7c60874241d166ce91204db5f4cfc7
+    - path: assets/UD_Akkadian/train
+      md5: e173d5d4a787f79ebf3fe3d09de386a0
+    - path: assets/UD_Akkadian/dev
+      md5: e439f2c05cd5ae65271985e2a64f1c94
+    - path: assets/UD_Akkadian/test
+      md5: 1c6288de92e813066c2d4431766755fc
   outs:
-    - path: corpus/UD_Akkadian_saa01/train
-      md5: 0acf237f54d61f3223734f941fa9097b
-    - path: corpus/UD_Akkadian_saa01/dev
-      md5: 1038fd3cabdd4db4abebc7110c0324b9
-    - path: corpus/UD_Akkadian_saa01/test
-      md5: ac9baca309cd6a1aea0db8ea7557412a
-  spacy_version: 3.4.1
-  spacy_git_version: 5c2a00cef
+    - path: corpus/UD_Akkadian/train
+      md5: 78f226eba43bda59267a55acc5b54b80
+    - path: corpus/UD_Akkadian/dev
+      md5: 55223560755ab95d750ade1b94a28e90
+    - path: corpus/UD_Akkadian/test
+      md5: 94b178002119e71fda97ebb128dcecb7
+  spacy_version: 3.4.4
+  spacy_git_version: 77833bfef
 train:
   cmd: python -m spacy run train
   script:
@@ -31,14 +31,14 @@ train:
       --gpu-id -1  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
   deps:
     - path: corpus/UD_Akkadian/train
-      md5: 0ca4b627db1ca267146c324f6d768aca
+      md5: b43a6b8682b5197186284828571f35bb
     - path: corpus/UD_Akkadian/dev
-      md5: c01db0f26556a68ca89bedc5198d67af
+      md5: 55223560755ab95d750ade1b94a28e90
     - path: configs/combined_lemmatizers_suff.cfg
-      md5: 5c01761f21fe91318edd9143e49edd2e
+      md5: 33cb7dceaffffdc554cceee9d8b32736
   outs:
     - path: training/UD_Akkadian/model-best
-      md5: cd829f4b50878bdf9a3e764264246c53
+      md5: 05c16e2d4a985325e62a023adbebb710
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
@@ -48,7 +48,7 @@ package:
       0.0.0 --force
   deps:
     - path: training/UD_Akkadian/model-best
-      md5: cd829f4b50878bdf9a3e764264246c53
+      md5: 02788f073ebcc7a0135bad34b4e2122e
   outs:
     - path: packages/ak_AkkParser_Norm_1_2_5_9_15_anzu_barutu_rinap4-0.0.0/dist/en_AkkParser_Norm_1_2_5_9_15_anzu_barutu_rinap4-0.0.0.tar.gz
       md5: null
@@ -71,11 +71,11 @@ evaluate:
       ./metrics/UD_Akkadian.json  --gpu-id -1
   deps:
     - path: training/UD_Akkadian/model-best
-      md5: cd829f4b50878bdf9a3e764264246c53
+      md5: 05c16e2d4a985325e62a023adbebb710
     - path: corpus/UD_Akkadian/test
-      md5: 25a8a116b21b5a40c121cd3182fa2453
+      md5: 94b178002119e71fda97ebb128dcecb7
   outs:
     - path: metrics/UD_Akkadian.json
-      md5: d294be0ab095ad55bba169200e43c7d0
+      md5: d2d3a40810197f6904d921936f929cbd
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef

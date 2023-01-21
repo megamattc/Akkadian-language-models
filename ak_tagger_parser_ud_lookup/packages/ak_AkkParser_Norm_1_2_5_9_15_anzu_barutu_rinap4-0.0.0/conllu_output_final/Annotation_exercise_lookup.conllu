@@ -2,50 +2,50 @@
 #
 #
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šarrim	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	4	obl	_	_
+2	šarrim	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	qibi	qabû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
-5	umma	umma	PART	Quotative	_	10	discourse	_	SpaceAfter=No
-6	:	:	ADJ	ADJ	Case=Acc|Gender=Masc|Number=Plur	5	amod	_	_
+5	umma	umma	PART	PRP	_	10	discourse	_	SpaceAfter=No
+6	:	:	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	10	dep	_	_
 7	anāku	anāku	PRON	PRON	Case=Nom|Gender=Com|Number=Sing|Person=1	10	nsubj	_	_
 8	ina	ina	ADP	PRP	_	9	case	_	_
-9	ēkallim	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
-10	errib	errib	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	4	conj	_	_
+9	ēkallim	ēkallu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	10	obl	_	_
+10	errib	errib	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 
 #
 #
 1	libbum	libbum	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	šarratim	šarratim	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	6	obl	_	_
+3	šarratim	šarratim	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	1	nsubj	_	_
 4	eli	eli	ADP	PRP	_	5	case	_	_
-5	awīlim	awīlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	6	obl	_	_
-6	imraṣ	imraṣ	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
+5	awīlim	awīlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	1	dep	_	_
+6	imraṣ	imraṣ	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	1	obj	_	_
 
 #
 #
 1	šumma	šumma	SCONJ	SCONJ	_	4	mark	_	_
-2	eṣemti	eṣemti	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-3	awīlim	awīlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	2	nmod	_	_
-4	ištebir	ištebir	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
-5	eṣemtašu	eṣemtašu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	6	obj	_	_
-6	išebbirū	išebbirū	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	4	conj	_	_
+2	eṣemti	eṣemti	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	4	obj	_	_
+3	awīlim	awīlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	2	nmod	_	_
+4	ištebir	ištebir	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	6	advcl	_	_
+5	eṣemtašu	eṣemtašu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	6	obj	_	_
+6	išebbirū	išebbirū	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 #
 #
-1	awīlum	awīlum	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	4	nsubj	_	_
+1	awīlum	awīlum	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	šarrāqam	šarrāqam	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
-4	idūku	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	šarrāqam	šarrāqam	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	obj	_	_
+4	idūku	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	nārim	nārim	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	_
 7	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	4	conj	_	_
 
 #
 #
-1	Hammurabi	hammurabi	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Hammurabi	hammurabi	PROPN	DN	Gender=Masc	0	ROOT	_	_
 2	mukkabis	mukkabis	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
 3	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	2	nmod:poss	_	_
 4	rabûti	rabû	ADJ	AJ	Gender=Masc|Number=Plur	3	amod	_	_
 5	ū	ū	CONJ	CNJ	_	6	cc	_	_
-6	ṣehrūti	ṣehru	ADJ	AJ	Case=Gen|Gender=Masc|NounBase=Free|Number=Plur	1	conj	_	_
-7	šū	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+6	ṣehrūti	ṣehru	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	1	conj	_	_
+7	šū	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	cop	_	_

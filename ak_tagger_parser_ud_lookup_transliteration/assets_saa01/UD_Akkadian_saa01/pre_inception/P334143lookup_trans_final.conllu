@@ -55,7 +55,7 @@
 6	il-lak	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	illak
 
 
-1	{LU₂}A-KIN	mār šipri	NOUN	NOUN	Gender=Masc|NounStem=Bound|Number=Sing	7	nsubj	_	mār
+1	{LU₂}A-KIN	mār šipri	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	7	nsubj	_	mār
 3	ša	ša	ADP	ADP	_	4	case	_	ša
 4	{1}ar-ie-e	ariye	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Ariye
 5	ina	ina	ADP	ADP	_	6	case	_	ina
@@ -66,7 +66,7 @@
 1	ma-a	mā	PART	Quotative	_	7	discourse	_	mā
 2	{KUR}u₂-ka-a.a	ukkaya	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Ukkaya
 3	ina	ina	ADP	ADP	_	4	case	_	ina
-4	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	7	iobj	_	muhhi
+4	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	iobj	_	muhhi
 5	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	šarri
 6	{KUR}URI-a.a	urarṭaya	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	Urarṭaya
 7	i-sa-ap-ra	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	issapra
@@ -130,8 +130,8 @@
 4	ša	ša	ADP	_	_	5	case	_	ša
 5	ki-il	kallû	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	10	obl	_	kil
 6	ina	ina	ADP	ADP	_	7	case	_	ina
-7	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	10	obl	_	muhhi
-8	DUMU-LUGAL	mār šarri	NOUN	NOUN	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	7	nmod	_	mār
+7	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	muhhi
+8	DUMU-LUGAL	mār šarri	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	7	nmod	_	mār
 10	a-ša₂-pa-ra	šapāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	ašappāra
 11	ma-a	mā	PART	Quotative	_	14	discourse	_	mā
 12	e-mu-qi	emūqu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	emūqī
@@ -199,7 +199,7 @@
 6	it-ti-ši	našû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	ittiši
 7	ma-a	mā	PART	Quotative	_	13	discourse	_	mā
 8	ina	ina	ADP	ADP	_	9	case	_	ina
-9	ŠA₃	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|NounStem=Bound	13	obl	_	libbi
+9	ŠA₃	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|NounBase=Bound	13	obl	_	libbi
 10	ta-hu-u₂-me	tahūmu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	tahūme
 11	ša	ša	ADP	ADP	_	12	case	_	ša
 12	{KUR}ma-na-a.a	mannaya	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Mannaya
@@ -279,8 +279,8 @@
 15	ma-a	mā	PART	Quotative	_	21	discourse	_	mā
 16	ar-hiš	arhiš	ADV	ADV	_	21	advmod	_	arhiš
 17	ina	ina	ADP	ADP	_	18	case	_	ina
-18	UGU	muhhu	NOUN	NOUN	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	21	iobj	_	muhhi
-19	DUMU-LUGAL	mār šarri	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	18	nmod	_	mār
+18	UGU	muhhu	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	21	iobj	_	muhhi
+19	DUMU-LUGAL	mār šarri	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	18	nmod	_	mār
 21	a-ša₂-pa-ra	šapāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	ašappāra
 
 
@@ -308,7 +308,7 @@
 
 1	{LU₂}qur-bu-te-ia	ša-qurbūti	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	ša-qurbūtēya
 2	ina	ina	ADP	ADP	_	3	case	_	ina
-3	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	5	iobj	_	muhhi
+3	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	iobj	_	muhhi
 4	{KUR}u₂-ka-a.a	ukkaya	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Ukkaya
 5	a-sa-par	šapāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	assapar
 
@@ -375,7 +375,7 @@
 4	{ITI}KIN	eluli	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Eluli
 5	e-gir₂-tu₂	egertu	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	egertu
 6	ina	ina	ADP	ADP	_	7	case	_	ina
-7	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	10	iobj	_	muhhi
+7	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	iobj	_	muhhi
 8	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	šarri
 9	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	8	appos	_	bēlīya
 10	u₂-se-bi-la	wabālu	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	ussēbila

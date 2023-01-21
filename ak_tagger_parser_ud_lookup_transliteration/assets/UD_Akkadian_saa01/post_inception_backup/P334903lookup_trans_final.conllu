@@ -14,7 +14,7 @@
 
 # text = ina UGU {1}DINGIR-pi-ia-PAB {LU₂}SIPA ša LUGAL be-li₂ iš-pur-an-ni ma-a TA@v UGU {LU₂}GAL-ki-ṣir-u₂-te tu-up-ta-ti-šu ma-a a-ta-a taq-ba-aš₂-šu ma-a 01 GU₂.UN KUG.UD us-ha la-aš₂-šu la-a u₂-pat-ti-šu
 1	ina	ina	ADP	ADP	_	2	case	_	_
-2	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	24	dislocated	_	_
+2	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	24	dislocated	_	_
 3	{1}DINGIR-pi-ia-PAB	ilu-piya-uṣur	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	{LU₂}SIPA	rēʾû	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
 5	ša	ša	PRON	PRON	_	8	obl	_	_
@@ -24,7 +24,7 @@
 9	ma-a	mā	PART	Quotative	_	13	discourse	_	_
 10	TA@v	ištu	ADP	ADP	_	11	case	_	_
 11	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
-12	{LU₂}GAL-ki-ṣir-u₂-te	rab kiṣirūte	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	11	nmod	_	_
+12	{LU₂}GAL-ki-ṣir-u₂-te	rab kiṣirūte	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	11	nmod	_	_
 13	tu-up-ta-ti-šu	petû	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=D|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc	_	_	_	_
 14	ma-a	mā	PART	Quotative	_	16	discourse	_	_
 15	a-ta-a	atā	PRON	PRON	_	16	advmod	_	_
@@ -45,7 +45,7 @@
 # text = {1}du-gul-IGI-DINGIR ina IGI LUGAL EN-ia₂
 1	{1}du-gul-IGI-DINGIR	dugul-pan-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ina	ina	ADP	ADP	_	3	case	_	_
-3	IGI	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	0	ROOT	_	_
+3	IGI	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	EN-ia₂	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 
@@ -77,7 +77,7 @@
 6	ina	ina	ADP	PRP	_	_	_	_	_
 7	ŠA₃	libbu	NOUN	N	_	_	_	_	_
 8	ina	ina	ADP	PRP	_	9	case	_	_
-9	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	11	obl	_	_
+9	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	11	obl	_	_
 10	E₂.KUR	ēkurru	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	9	nmod:poss	_	_
 11	it-ti-it-zi	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	5	conj	_	_
 
@@ -101,7 +101,7 @@
 8	e-pu-uš	epēšu	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	4	conj	_	_
 
 # text = meš-li {LU₂}ERIM-MEŠ na-ṣa meš-lu-ma la na-ṣa
-1	meš-li	mišlu	NUM	NOUN	Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing	3	obj	_	_
+1	meš-li	mišlu	NUM	NOUN	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	3	obj	_	_
 2	{LU₂}ERIM-MEŠ	ṣābu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 3	na-ṣa	našû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 4	meš-lu-ma	mišlu	NUM	NOUN	Gender=Masc|NounBase=Free|Number=Sing|Case=Acc|Focus=Yes	6	obj	_	_
@@ -193,7 +193,7 @@
 # text = {LU₂}GAL-ki-ṣir ša raksu@@@ {LU₂}rak-su-GIGIR-MEŠ dul-lum ur-ta-me
 1	{LU₂}GAL-ki-ṣir	rab kiṣir	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	6	nsubj	_	_
 2	ša	ša	ADP	ADP	_	3	case	_	_
-3	raksu@@@	raksu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|NounStem=Bound	1	nmod	_	_
+3	raksu@@@	raksu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|NounBase=Bound	1	nmod	_	_
 4	{LU₂}rak-su-GIGIR-MEŠ	mugerru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 5	dul-lum	dullu	NOUN	N	Gender=Masc|Number=Sing|Case=Acc	6	obj	_	_
 6	ur-ta-me	ramû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
@@ -229,7 +229,7 @@
 # text = ki-ma ina IGI LUGAL EN-ia₂ at-tal-ka o o o is-si-šu lu-ki-nu-ni
 1	ki-ma	kīma	SCONJ	SCONJ	_	6	mark	_	_
 2	ina	ina	ADP	ADP	_	3	case	_	_
-3	IGI	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	6	iobj	_	_
+3	IGI	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	iobj	_	_
 4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	EN-ia₂	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 6	at-tal-ka	alāku	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	11	advcl	_	_

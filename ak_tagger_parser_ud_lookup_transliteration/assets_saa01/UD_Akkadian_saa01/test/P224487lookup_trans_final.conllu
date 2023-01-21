@@ -34,7 +34,7 @@
 
 # text = ina UGU {d}ALAD.{d}LAMA ša LUGAL be-li₂ iš-pur-an-ni u₂-ta-si-ik ina UGU KA₂-MEŠ-te ša E₂.GAL-MEŠ ak-ta-ra-ar i-bat-tu-qu
 1	ina	ina	ADP	_	_	2	case	_	_
-2	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	8	dislocated	_	_
+2	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	8	dislocated	_	_
 3	{d}ALAD.{d}LAMA	aladlammû	NOUN	_	Gender=Masc|Number=Plur|Case=Gen	2	nmod	_	_
 4	ša	ša	PRON	_	_	7	obj	_	_
 5	LUGAL	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Nom	7	nsubj	_	_
@@ -42,7 +42,7 @@
 7	iš-pur-an-ni	šapāru	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Subordinative=Yes|Ventive=Yes	3	acl	_	_
 8	u₂-ta-si-ik	esēhu	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=D	_	_	_	_
 9	ina	ina	ADP	_	_	10	case	_	_
-10	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	14	obl	_	_
+10	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	14	obl	_	_
 11	KA₂-MEŠ-te	bābu	NOUN	_	Gender=Fem|Number=Plur|Case=Gen	10	nmod	_	_
 12	ša	ša	ADP	_	_	13	case	_	_
 13	E₂.GAL-MEŠ	ēkallu	NOUN	_	Gender=Fem|Number=Plur|Case=Gen	11	nmod	_	_
@@ -53,7 +53,7 @@
 1	{d}ALAD.{d}LAMA	aladlammû	NOUN	_	Gender=Masc|Number=Plur|Case=Acc	8	obj	_	_
 2	bat-qu-te	batqu	ADJ	_	Gender=Masc|Number=Plur|Case=Acc	1	amod	_	_
 3	ina	ina	ADP	_	_	4	case	_	_
-4	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	_	_	_	_
+4	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	_	_	_	_
 5	E₂	bītu	NOUN	_	_	4	nmod	_	_
 6	la	la	X	_	_	_	_	_	_
 7	DU.DU-ni	DU.DU	X	_	_	_	_	_	_
@@ -63,14 +63,14 @@
 1	KALAG-MEŠ-te	dannu	ADJ	_	Gender=Masc|Number=Plur|Case=Acc	2	obj	_	_
 2	i-bat-tu-qu	batāqu	VERB	_	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 3	ina	ina	ADP	_	_	5	case	_	_
-4	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	3	fixed	_	_
+4	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	3	fixed	_	_
 5	KA₂	bābu	NOUN	_	Gender=Fem|Number=Sing|Case=Gen	7	obl	_	_
 6	qa-ba-si-te	qabaltīu	ADJ	_	Gender=Fem|Number=Sing|Case=Gen	5	amod	_	_
 7	ni-šak-kan	šakānu	VERB	_	Gender=Com|Number=Plur|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	2	conj	_	_
 
 # text = ina UGU {NA₄}AM-MEŠ ša a-na LUGAL EN-ia aq-bu-u-ni u₂-pa-hu-šu₂-nu a-na {d}ALAD.{d}LAMA u₂-ta-ru-šu₂-nu
 1	ina	ina	ADP	_	_	_	_	_	_
-2	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	9	dislocated	_	_
+2	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	9	dislocated	_	_
 3	{NA₄}AM-MEŠ	rīmu	NOUN	_	Gender=Masc|Number=Plur|Case=Gen	2	nmod	_	_
 4	ša	ša	PRON	_	_	8	obj	_	_
 5	a-na	ana	ADP	_	_	6	case	_	_
@@ -84,7 +84,7 @@
 
 # text = ina IGI KA₂ MURUB₄-ti ni-šak-kan
 1	ina	ina	ADP	_	_	2	case	_	_
-2	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	5	obl	_	_
+2	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	5	obl	_	_
 3	KA₂	bābu	NOUN	_	Gender=Fem|Number=Sing|Case=Gen	2	nmod	_	_
 4	MURUB₄-ti	qabaltīu	ADJ	_	Gender=Fem|Number=Sing|Case=Gen	3	amod	_	_
 5	ni-šak-kan	šakānu	VERB	_	Gender=Com|Number=Plur|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
@@ -185,7 +185,7 @@
 5	at-ta-har	mahāru	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 # text = {LU₂}MAH-MEŠ {KUR}mu-ṣur-a.a {KUR}ha-za-ta-a.a {KUR}ia-u₂-du-a.a {KUR}ma-ʾa-ba-a.a {KUR}ba-an-am-ma-na-a.a UD 12-KAM₂ ina {URU}kal-hi e-tar-bu-u-ni ma-da-na-te-šu₂-nu ina ŠU.2-šu₂-nu
-1	{LU₂}MAH-MEŠ	ṣīru	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|NounStem=Bound	11	nsubj	_	_
+1	{LU₂}MAH-MEŠ	ṣīru	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|NounBase=Bound	11	nsubj	_	_
 2	{KUR}mu-ṣur-a.a	Muṣuraya	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	_
 3	{KUR}ha-za-ta-a.a	Hazzataya	PROPN	_	_	2	conj	_	_
 4	{KUR}ia-u₂-du-a.a	Yaʾudaya	PROPN	_	_	2	conj	_	_

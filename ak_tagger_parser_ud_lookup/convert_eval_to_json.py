@@ -266,7 +266,7 @@ def convert_parse(parse_str: str) -> str:
 
             verbStemPair = form_pair('VerbStem=',verbStemLabel)
             verbFormPair = 'VerbForm=Inf'  # By assumption
-            nounBoundPair = form_pair('NounStem=',boundDict[verbInfBoundLabel])
+            nounBoundPair = form_pair('NounBase=',boundDict[verbInfBoundLabel])
             verbFocusPair = form_pair('Focus=',consDict[verbConsLabel])
             verbNumPair = 'Number=Sing'  # Inf is singular
             nounGenPair = 'Gender=Masc'  # Infinitives are masculine
@@ -455,9 +455,9 @@ def convert_parse(parse_str: str) -> str:
         nounBoundPair = ""
 
         if "Constr" in parse_str:
-            nounBoundPair = "NounStem=Bound"
+            nounBoundPair = "NounBase=Bound"
         else:
-            nounBoundPair = "NounStem=Free"
+            nounBoundPair = "NounBase=Free"
 
         nounConsPair = ""
         if re.search(r'Cons$',parse_str):
@@ -533,9 +533,9 @@ def convert_parse(parse_str: str) -> str:
         adjBoundPair = ""
 
         if "Constr" in parse_str:
-            adjBoundPair = "NounStem=Bound"
+            adjBoundPair = "NounBase=Bound"
         else:
-            adjBoundPair = "NounStem=Free"
+            adjBoundPair = "NounBase=Free"
 
         adjConsPair = ""
         if re.search(r'Cons$', parse_str):

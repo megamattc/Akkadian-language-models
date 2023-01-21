@@ -38,7 +38,7 @@
 3	x	x	X	_	_	_	_	_	x
 4	gab-bi-šu	gabbu	DET	_	PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc	_	_	_	gabbīšu
 5	ina	ina	ADP	_	_	7	case	_	ina
-6	ŠA₃	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	_	_	_	libbi
+6	ŠA₃	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	_	_	_	libbi
 7	{URU}za-ra-na	Zarana	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	_	_	_	Zarana
 8	x	x	X	_	_	_	_	_	x
 9	x	x	X	_	_	_	_	_	x
@@ -51,7 +51,7 @@
 16	x	x	X	_	_	_	_	_	x
 17	ina	ina	ADP	_	_	18	case	_	ina
 18	UŠ	šiddu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	_	_	_	šiddi
-19	KASKAL-LUGAL-ma	hūl šarri	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	18	nmod	_	hūl
+19	KASKAL-LUGAL-ma	hūl šarri	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	18	nmod	_	hūl
 21	01-en	ištēn	NUM	_	_	_	_	_	issēn
 22	x	x	X	_	_	_	_	_	x
 23	x	x	X	_	_	_	_	_	x
@@ -84,7 +84,7 @@
 2	x	x	X	_	_	_	_	_	x
 3	x	x	X	_	_	_	_	_	x
 4	x	x	X	_	_	_	_	_	x
-5	A.ŠA₃	eqlu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	_	_	_	eqlu
+5	A.ŠA₃	eqlu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	_	_	_	eqlu
 6	na-gi-e	nagû	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	5	nmod	_	nagie
 7	gab-bi-šu	gabbu	DET	_	PossSuffNum=Plur|PossSuffPer=3|PossSuffGen=Masc	5	det	_	gabbīšu
 8	x	x	X	_	_	_	_	_	x
@@ -93,7 +93,7 @@
 11	a-ta-at-ha	matāhu	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	attatha
 
 
-1	ERIM-MEŠ	ṣābu	NOUN	_	Gender=Masc|Number=Plur|Case=Acc|NounStem=Bound	6	obj	_	ṣābāni
+1	ERIM-MEŠ	ṣābu	NOUN	_	Gender=Masc|Number=Plur|Case=Acc|NounBase=Bound	6	obj	_	ṣābāni
 2	{KUR}ku-ma-a.a	Kummaya	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	Kummaya
 3	ša	ša	ADP	_	_	4	case	_	ša
 4	{URU}za-ra-na	Zarana	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	Zarana
@@ -143,7 +143,7 @@
 5	kî@@@	kī	ADP	_	_	6	case	_	_
 6	ša@@@	ša	PRON	_	_	14	obl	_	_
 7	ina@@@	ina	ADP	_	_	8	case	_	_
-8	libbi@@@	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	13	obl	_	_
+8	libbi@@@	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	13	obl	_	_
 9	egerte@@@	egertu	NOUN	_	Gender=Fem|Number=Sing|Case=Gen	8	nmod	_	_
 10	ša@@@	ša	ADP	_	_	11	case	_	_
 11	ša	šarri	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	9	nmod	_	šarri
@@ -164,7 +164,7 @@
 9	ukâllūni@@@	kullu	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=D|Subordinative=Yes|SubSuffix=Yes	_	_	_	_
 10	assaṭar@@@	šaṭāru	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 11	ina@@@	ina	ADP	_	_	13	case	_	_
-12	muhhi@@@	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	11	fixed	_	_
+12	muhhi@@@	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	11	fixed	_	_
 13	šarri@@@	šarru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	15	iobj	_	_
 14	bēlīya@@@	bēlu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	13	appos	_	_
 15	ussēbila@@@	wabālu	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=Š|Ventive=Yes	10	conj	_	_
@@ -173,27 +173,27 @@
 1	60	60	NUM	_	_	2	nummod	_	_
 2	imārī@@@	imēru	NOUN	_	Gender=Masc|Number=Plur|Case=Nom	_	_	_	_
 3	ina@@@	ina	ADP	_	_	4	case	_	_
-4	libbi@@@	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	2	nmod	_	_
+4	libbi@@@	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	2	nmod	_	_
 5	Aridi@@@	Aridu	PROPN	_	_	4	nmod	_	_
 6	ina@@@	ina	ADP	_	_	7	case	_	_
-7	muhhi@@@	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	2	nmod	_	_
+7	muhhi@@@	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	2	nmod	_	_
 8	e@@@	e	X	_	_	_	_	_	_
 10	x@@@	x	X	_	_	_	_	_	_
 11	ša@@@	ša	ADP	_	_	12	case	_	_
-12	qanni@@@	qannu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	_	_	_	_
+12	qanni@@@	qannu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	_	_	_	_
 13	Kubanaše@@@	Kubanaše	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	12	nmod	_	_
 14	02	02	NUM	_	_	15	nummod	_	_
 15	mē@@@	meʾatu	NUM	_	_	_	_	_	_
 16	ina@@@	ina	ADP	_	_	17	case	_	_
 17	Kapar-Mariyaba@@@	Kapar-Mariyaba	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	15	nmod	_	_
-18	qanni@@@	qannu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	15	nmod	_	_
+18	qanni@@@	qannu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	15	nmod	_	_
 19	Ilhini@@@	Ilhini	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	18	nmod	_	_
 20	40	40	NUM	_	_	21	nummod	_	_
 21	imārī@@@	imēru	NOUN	_	Gender=Masc|Number=Plur|Case=Nom	_	_	_	_
 22	ina@@@	ina	ADP	_	_	_	_	_	_
 24	URU}x@@@	URU}X	PROPN	SN	Gender=Masc|Case=Gen|Number=Sing	_	_	_	_
 26	{URU}x-ri-tu₂	ri	X	_	_	_	_	_	ri
-29	qa-ni	qannu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	21	nmod	_	qanni
+29	qa-ni	qannu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	21	nmod	_	qanni
 30	{URU}gu-za-na	Guzana	PROPN	_	_	29	nmod	_	Guzana
 31	02	02	NUM	_	_	32	nummod	_	_
 32	me	meʾatu	NUM	_	_	_	_	_	mē
@@ -223,7 +223,7 @@
 56	UD-mu	ūmu	NOUN	_	_	61	advmod	_	ūmu
 57	an-ni-u₂	annû	PRON	_	Gender=Masc|Number=Sing|Case=Acc	61	obj	_	annīu
 58	ina	ina	ADP	_	_	59	case	_	ina
-59	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	61	iobj	_	muhhi
+59	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	61	iobj	_	muhhi
 60	an-ni-e	annû	PRON	_	Gender=Masc|Number=Sing|Case=Gen	59	nmod	_	annīe
 61	a-ti-din	tadānu	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	attidin
 
@@ -261,7 +261,7 @@
 18	a-na	ana	ADP	_	_	19	case	_	ana
 19	01-en	ištēn	NUM	_	_	_	_	_	issēn
 20	ina	ina	ADP	_	_	22	case	_	ina
-21	ŠA₃	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	20	fixed	_	libbi
+21	ŠA₃	libbu	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	20	fixed	_	libbi
 22	URU-MEŠ-ni	ālu	NOUN	_	Gender=Masc|Number=Plur|Case=Gen	_	_	_	ālāni
 23	x	x	X	_	_	_	_	_	x
 24	x	x	X	_	_	_	_	_	x

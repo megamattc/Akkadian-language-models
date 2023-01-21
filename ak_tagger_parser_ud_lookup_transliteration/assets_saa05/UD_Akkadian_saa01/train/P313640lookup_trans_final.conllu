@@ -13,11 +13,11 @@
 5	be-li₂-ia₂	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 
 # text = UD 27-KAM TA@v sa-an-ti E₂-na-kam-ti ša hu-še-e ša ina ne₂-ri-bi ša E₂ ina E₂.GAL ša ina UGU tam-le-e ni-ip-te-te
-1	UD	ūmu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	19	obl	_	_
+1	UD	ūmu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	19	obl	_	_
 2	27-KAM	27-kam	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	1	amod	_	_
 3	TA@v	ištu	ADP	PRP	_	4	case	_	_
 4	sa-an-ti	sāmtu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
-5	E₂-na-kam-ti	bēt nakkamti	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc|NounStem=Bound	19	obj	_	_
+5	E₂-na-kam-ti	bēt nakkamti	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc|NounBase=Bound	19	obj	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	hu-še-e	hušû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Plur	5	nmod	_	_
 8	ša	ša		PRON	_	10	nsubj	_	_
@@ -29,7 +29,7 @@
 14	E₂.GAL	ēkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 15	ša	ša		PRON	_	17	nsubj	_	_
 16	ina	ina	ADP	ADP	_	17	case	_	_
-17	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	14	acl	_	_
+17	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	14	acl	_	_
 18	tam-le-e	tamlīu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 19	ni-ip-te-te	petû	VERB	NOUN	Gender=Com|Number=Plur|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
@@ -37,18 +37,18 @@
 1	04	04	NUM	NUM	_	2	nummod	_	_
 2	me	meʾatu	NUM	NUM	_	4	nummod	_	_
 3	20	20	NUM	NUM	_	2	conj	_	_
-4	GU₂.UN	biltu	NOUN	N	Case=Acc|Gender=Fem|NounStem=Bound|Number=Plur	7	obj	_	_
+4	GU₂.UN	biltu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Plur	7	obj	_	_
 5	URUDU	siparru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	nmod	_	_
 6	hu-še-e	hušû	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen	5	nmod	_	_
 7	ni-ih-ti-aṭ	hiāṭu	VERB	VERB	Gender=Com|Number=Plur|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 8	ina	ina	ADP	PRP	_	9	case	_	_
-9	E₂-ŠU.2	bēt qātī	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	0	obl	_	_
+9	E₂-ŠU.2	bēt qātī	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	obl	_	_
 10	ša	ša		ADP	_	11	case	_	_
 11	{LU₂}KAŠ.LUL	šāqû	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 12	ni-is-sa-kan	šakānu	VERB	VERB	Gender=Com|Number=Plur|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	7	conj	_	_
 13	x	x	X	CNJ	_	_	_	_	_
-14	GU₂.UN	biltu	NOUN	NOUN	Case=Acc|Gender=Fem|NounStem=Bound|Number=Plur	21	obj	_	_
-15	u₂-de-e	udû	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Plur	14	nmod	_	_
+14	GU₂.UN	biltu	NOUN	NOUN	Case=Acc|Gender=Fem|NounBase=Bound|Number=Plur	21	obj	_	_
+15	u₂-de-e	udû	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	14	nmod	_	_
 16	URUDU	siparru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 17	x	x	X	X	_	_	_	_	_
 18	x	x	X	X	_	_	_	_	_
@@ -71,13 +71,13 @@
 12	URU	ālu	NOUN	NOUN	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
-15	E₂.GAL-ma-šar-ti	ēkal māšarti	NOUN	NOUN	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing|VerbStem=G	_	_	_	_
+15	E₂.GAL-ma-šar-ti	ēkal māšarti	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbStem=G	_	_	_	_
 16	x	x	X	X	_	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
 18	x	x	X	X	_	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
 20	u₂-la-a	ūla	CCONJ	CNJ	_	25	cc	_	_
-21	UD	ūmu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	25	obl	_	_
+21	UD	ūmu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	25	obl	_	_
 22	29-KAM	29-kam	ADJ	ADJ	_	21	amod	_	_
 23	ša	ša		ADP	_	24	case	_	_
 24	E₂.GAL-ma-šar-ti	ēkal māšarti	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	21	nmod	_	_
@@ -85,7 +85,7 @@
 
 # text = ina re-eh-ti UD-me-ni a-na {URU}BAD₃-MAN-GIN ni-il-lak {TUG₂}GADA-MEŠ am-ma-ti ni-kan-na-ak
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	re-eh-ti	rēhtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|NounStem=Bound	_	_	_	_
+2	re-eh-ti	rēhtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|NounBase=Bound	_	_	_	_
 3	UD-me-ni	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 4	a-na	ana	ADP	PRP	_	5	case	_	_
 5	{URU}BAD₃-MAN-GIN	dur-šarruken	PROPN	SN	Gender=Masc|Number=Sing	6	iobj	_	_

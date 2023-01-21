@@ -161,7 +161,7 @@
 
 # text = šitrah mahri ilīma gašru lū šumka
 1	šitrah	šarāhu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=Gt	0	ROOT	_	_
-2	mahri	mahru	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	1	obl	_	_
+2	mahri	mahru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	obl	_	_
 3	ilīma	ilu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Plur	2	nmod	_	_
 4	gašru	gašru	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 5	lū	lū	PART	PART	_	4	advmod	_	_
@@ -305,7 +305,7 @@
 # text = išmema Anzu zikir pîšu
 1	išmema	šemû	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	Anzu	anzu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-3	zikir	zikru	NOUN	N	Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing	1	obj	_	_
+3	zikir	zikru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	1	obj	_	_
 4	pîšu	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nmod:poss	_	_
 
 # text = ina qereb hursānī ikkillašu šamriš iddi
@@ -333,7 +333,7 @@
 # text = tibûti uttaʾʾar itti Anzi rigimšu
 1	tibûti	tibûtu	NOUN	N	Gender=Fem|Number=Sing|Case=Acc	2	obj	_	_
 2	uttaʾʾar	naʾāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
-3	itti	itti	NOUN	N	Gender=Fem|Number=Sing|Case=Nom|NounStem=Bound	5	nsubj	_	_
+3	itti	itti	NOUN	N	Gender=Fem|Number=Sing|Case=Nom|NounBase=Bound	5	nsubj	_	_
 4	Anzi	anzi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	rigimšu	rigmu	NOUN	N	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc	_	_	_	_
 
@@ -354,7 +354,7 @@
 4	irammuk	ramāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
 
 # text = erpet mūti izannunu ibarriq uṣṣī
-1	erpet	erpetu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|NounStem=Bound	3	nsubj	_	_
+1	erpet	erpetu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|NounBase=Bound	3	nsubj	_	_
 2	mūti	mūtu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	izannunu	zanānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	ibarriq	barāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	3	conj	_	_
@@ -389,7 +389,7 @@
 
 # text = ina irat qašta qanâ ūbilšummu
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	irat	irtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounStem=Bound	5	obl	_	_
+2	irat	irtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounBase=Bound	5	obl	_	_
 3	qašta	qaštu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	qanâ	qanû	NOUN	N	Gender=Masc|Number=Sing|Case=Acc	5	obj	_	_
 5	ūbilšummu	wabālu	VERB	V	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc|Focus=Yes	_	_	_	_
@@ -476,7 +476,7 @@
 6	Niššiku	niššiku	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	5	appos	_	_
 
 # text = bēlumma Ninurta Anza lamema
-1	bēlumma	bēlu	NOUN	N	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	0	ROOT	_	_
+1	bēlumma	bēlu	NOUN	N	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	0	ROOT	_	_
 2	Ninurta	ninurta	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	Anza	anza	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 4	lamema	lawû	VERB	V	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G|Focus=Yes	_	_	_	_
@@ -640,7 +640,7 @@
 4	qišātiki	qištu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing|VerbForm=Inf|VerbStem=G	8	iobj	_	_
 5	šerʾānu	šerʾānu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	vocative	_	_
 6	ana	ana	ADP	PRP	_	7	case	_	_
-7	šašalli	šašallu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	8	iobj	_	_
+7	šašalli	šašallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	8	iobj	_	_
 8	ṭubâ	ṭebû	VERB	V	Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=G|Ventive=Yes	0	ROOT	_	_
 9	kappi	kappu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	12	vocative	_	_
 10	ana	ana	ADP	PRP	_	11	case	_	_
@@ -649,7 +649,7 @@
 
 # text = našima ṭuppi šīmāt ilī qātuššu
 1	našima	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Focus=Yes	0	ROOT	_	_
-2	ṭuppi	ṭuppu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing|NounStem=Bound	1	obj	_	_
+2	ṭuppi	ṭuppu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing|NounBase=Bound	1	obj	_	_
 3	šīmāt	šīmtu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Plur	2	nmod:poss	_	_
 4	ilī	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	_
 5	qātuššu	qātu	NOUN	N	Case=Loc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	obl	_	_
@@ -697,7 +697,7 @@
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	bēlika	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	1	iobj	_	_
 4	amāt	awātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Plur|Case=Acc	_	_	_	_
-5	zikri	zikru	NOUN	N	NounStem=Bound|Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_
+5	zikri	zikru	NOUN	N	NounBase=Bound|Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_
 6	pîya	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	nmod:poss	_	_
 
 # text = mimmû adabbubu uṣur ana šâšu
@@ -726,7 +726,7 @@
 1	liqema	leqû	VERB	V	Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=Š|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc|Focus=Yes	0	ROOT	_	_
 2	bēlum	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	arkat	warkatu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounStem=Bound	1	obl	_	_
+4	arkat	warkatu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounBase=Bound	1	obl	_	_
 5	šukudīka	šukudu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	4	nmod:poss	_	_
 
 # text = nukkis abrēšu imna šumēla ruʾʾim
@@ -740,7 +740,7 @@
 1	liṭṭulma	naṭālu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|Focus=Yes	0	ROOT	_	_
 2	kappāšu	kappu	NOUN	N	Gender=Masc|Number=Plur|Case=Acc	1	obj	_	_
 3	litbalā	tabālu	VERB	V	Gender=Fem|Number=Plur|Person=3|Mood=Prec|VerbStem=G	1	conj	_	_
-4	zikir	zikru	NOUN	N	Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing	3	obj	_	_
+4	zikir	zikru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	3	obj	_	_
 5	pîšu	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	nmod:poss	_	_
 
 # text = kappa ana kappi išessi i taplahšu
@@ -754,7 +754,7 @@
 # text = tulul ina irat qaštika lillikū qanû birqi
 1	tulul	talālu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	irat	irtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounStem=Bound	1	obl	_	_
+3	irat	irtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounBase=Bound	1	obl	_	_
 4	qaštika	qaštu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	_	_	_	_
 5	lillikū	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	1	conj	_	_
 6	qanû	qanû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -880,7 +880,7 @@
 1	liqema	leqû	VERB	V	Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=Š|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc|Focus=Yes	0	ROOT	_	_
 2	bēlum	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	arkat	warkatu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounStem=Bound	1	obl	_	_
+4	arkat	warkatu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounBase=Bound	1	obl	_	_
 5	šukudīka	šukudu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	4	nmod:poss	_	_
 
 # text = nukkis abrēšu imna šumēla ruʾʾim
@@ -894,7 +894,7 @@
 1	liṭṭulma	naṭālu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|Focus=Yes	0	ROOT	_	_
 2	kappāšu	kappu	NOUN	N	Gender=Masc|Number=Plur|Case=Acc	1	obj	_	_
 3	litbalā	tabālu	VERB	V	Gender=Fem|Number=Plur|Person=3|Mood=Prec|VerbStem=G	1	conj	_	_
-4	zikir	zikru	NOUN	N	Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing	3	obj	_	_
+4	zikir	zikru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	3	obj	_	_
 5	pîšu	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	nmod:poss	_	_
 
 # text = kappa ana kappi išessi i taplahšu
@@ -908,7 +908,7 @@
 # text = tulul ina irat qaštika lillikū qanû birqi
 1	tulul	talālu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	irat	irtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounStem=Bound	1	obl	_	_
+3	irat	irtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounBase=Bound	1	obl	_	_
 4	qaštika	qaštu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	_	_	_	_
 5	lillikū	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	1	conj	_	_
 6	qanû	qanû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_

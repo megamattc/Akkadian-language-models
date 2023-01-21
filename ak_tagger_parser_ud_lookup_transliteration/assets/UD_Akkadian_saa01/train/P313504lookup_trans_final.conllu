@@ -54,7 +54,7 @@
 # text = a-ki an-ni-i {LU₂}A-KIN-e-a i-sap-ra ma-a {URU}bu-ra-a-te i-qab-bu-u₂-ni-šu {URU}HAL.ṢU-MEŠ-šu₂ ša i-qa-an-ni x E₂ {1}dal-ta-a ša LU₂ ma-a i-si-šu it-ta-ak-ra ma-a a-na ŠA₃-bi il-lak ma-a šum₂-ma u₂-sa-al-la-an-šu₂ ma-a šum₂-ma ina qar-a-bi u₂-še-ra-da-aš₂-šu₂-nu ma-a TA ŠA₃-bi a-na {KUR}il-li-pi ina UGU DUMU {1}dal-ta-a il-lak
 1	a-ki	akī	ADP	PRP	_	2	case	_	_
 2	an-ni-i	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
-3	{LU₂}A-KIN-e-a	mār šipri	NOUN	N	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	4	nsubj	_	_
+3	{LU₂}A-KIN-e-a	mār šipri	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	4	nsubj	_	_
 4	i-sap-ra	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 5	ma-a	mā	PART	Quotative	_	8	discourse	_	_
 6	{URU}bu-ra-a-te	burate	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	18	dislocated	_	_
@@ -63,7 +63,7 @@
 9	ša	ša	PRON	PRON	_	10	nsubj	_	_
 10	i-qa-an-ni	ina qanni	ADP	PRP	_	8	acl	_	_
 11	x	x	X	X	_	_	_	_	_
-12	E₂	bītu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	10	nmod	_	_
+12	E₂	bītu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	nmod	_	_
 13	{1}dal-ta-a	dalta	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 14	ša	ša	ADP	PRP	_	15	case	_	_
 15	LU₂	awīlu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
@@ -88,8 +88,8 @@
 34	a-na	ana	ADP	PRP	_	35	case	_	_
 35	{KUR}il-li-pi	illipi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	40	iobj	_	_
 36	ina	ina	ADP	PRP	_	37	case	_	_
-37	UGU	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	40	obl	_	_
-38	DUMU	māru	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	37	nmod:poss	_	_
+37	UGU	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	40	obl	_	_
+38	DUMU	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	37	nmod:poss	_	_
 39	{1}dal-ta-a	dalta	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
 40	il-lak	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	30	conj	_	_
 
@@ -204,7 +204,7 @@
 
 # text = ina UGU {1}EN-x+x x x+x ša LUGAL be-li₂ iš-pur-an-ni ma-a {1}ba-la-su UN-MEŠ-šu₂ lu-sa-hi-ra lid-di-na-šu₂ {1}ba-la-su x x x x na-ṣa-aš₂-šu
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	UGU	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	20	dislocated	_	_
+2	UGU	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	20	dislocated	_	_
 3	{1}EN-x+x	1}en-x+x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	x	x	X	X	_	_	_	_	_
 5	x+x	x+x	X	X	_	_	_	_	_
@@ -251,7 +251,7 @@
 1	ša₂-a-ri	šāru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	10	obj	_	_
 2	ša	ša	PRON	PRON	_	4	nsubj	_	_
 3	a-na	ana	ADP	PRP	_	4	case	_	_
-4	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|NounStem=Bound	1	acl	_	_
+4	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|NounBase=Bound	1	acl	_	_
 5	{IM}U₁₈.LU	šūtu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	ša	ša	PRON	PRON	_	8	nsubj	_	_
 7	a-na	ana	ADP	PRP	_	8	case	_	_

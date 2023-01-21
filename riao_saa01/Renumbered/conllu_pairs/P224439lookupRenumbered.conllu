@@ -1,0 +1,166 @@
+# text = ana šarri bēlīya urdaka Adad-isseʾa
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Adad-isseʾa	adad-isseʾa	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = ša šarru bēlī ṭēmu iškunannīni mā emūqī ša Mazamua ašur šupra 10 mugirrī 20 uttarāte 10 ša sissê 10 ša kūdinī 30 urāte 97 pēthallu 11 mukīl appāti 12 tašlīšāni 30 mār damqi 53 sūsānī urāte
+1	ša	ša	PRON	PRON	_	5	obl	_	_
+2	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	ṭēmu	ṭēmu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+5	iškunannīni	šakānu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
+6	mā	mā	PART	Quotative	_	10	discourse	_	_
+7	emūqī	emūqu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+8	ša	ša	ADP	PRP	_	9	case	_	_
+9	Mazamua	mazamua	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	ašur	ašāru	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	5	ccomp	_	_
+11	šupra	šapāru	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	10	conj	_	_
+12	10	10	NUM	NUM	_	13	nummod	_	_
+13	mugirrī	mugerru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+14	20	20	NUM	DN	_	15	nummod	_	_
+15	uttarāte	attartu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	13	conj	_	_
+16	10	10	NUM	NUM	_	18	nummod	_	_
+17	ša	ša	ADP	ADP	_	18	case	_	_
+18	sissê	sisû	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	15	parataxis	_	_
+19	10	10	NUM	NUM	_	_	_	_	_
+20	ša	ša	ADP	ADP	_	21	case	_	_
+21	kūdinī	kūdanu	NOUN	NOUN	Gender=Masc|Number=Plur	18	conj	_	_
+22	30	30	NUM	NUM	_	23	nummod	_	_
+23	urāte	urû	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+24	97	97	NUM	NUM	_	25	nummod	_	_
+25	pēthallu	pēthallu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+26	11	11	NUM	NUM	_	27	nummod	_	_
+27	mukīl	mukillu	NOUN	NOUN	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+28	appāti	appatu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+29	12	12	NUM	NUM	_	30	nummod	_	_
+30	tašlīšāni	tašlīšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+31	30	30	NUM	NUM	_	32	nummod	_	_
+32	mār	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+33	damqi	damqu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	53	53	NUM	n	_	35	nummod	_	_
+35	sūsānī	šušānu	NOUN	NOUN	Gender=Masc|Number=Plur	_	_	_	_
+36	urāte	urû	NOUN	NOUN	Gender=Fem|Number=Plur	35	nmod	_	_
+
+# text = gimru 01 mē 06 ṣābāni 30 mugirrī
+1	gimru	gimru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	01	01	NUM	NUM	_	3	nummod	_	_
+3	mē	meʾatu	NUM	NUM	_	5	nummod	_	_
+4	06	06	NUM	NUM	_	3	conj	_	_
+5	ṣābāni	ṣābu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+6	30	30	NUM	NUM	_	7	nummod	_	_
+7	mugirrī	mugerru	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
+
+# text = 01 mē 61 ša-pēthallāte 01 mē 30 sūsānī 52 zunzurahhī
+1	01	01	NUM	NUM	_	2	nummod	_	_
+2	mē	meʾatu	NUM	NUM	_	4	nummod	_	_
+3	61	61	NUM	NUM	_	2	conj	_	_
+4	ša-pēthallāte	ša-pēthalli	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+5	01	01	NUM	NUM	_	6	nummod	_	_
+6	mē	meʾatu	NUM	NUM	_	8	nummod	_	_
+7	30	30	NUM	NUM	_	6	conj	_	_
+8	sūsānī	šušānu	NOUN	NOUN	Gender=Masc|Number=Plur	_	_	_	_
+9	52	52	NUM	n	_	10	nummod	_	_
+10	zunzurahhī	zunzurahhu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+
+# text = gimru 03 mē 43 sūsānī
+1	gimru	gimru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	03	03	NUM	NUM	_	3	nummod	_	_
+3	mē	meʾatu	NUM	NUM	_	5	nummod	_	_
+4	43	43	NUM	NUM	_	3	conj	_	_
+5	sūsānī	šušānu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+
+# text = 08 ša-bēti-šanie 12 kāṣirī 20 šāqê 12 karkadinnī 07 āpiāni 10 nuhatimmu
+1	08	08	NUM	NUM	_	2	nummod	_	_
+2	ša	ša	ADP	ADP	_	4	case	_	SpaceAfter=No
+3	-	-	X	X	_	_	_	_	SpaceAfter=No
+4	bēti	bītu	NOUN	NOUN	_	_	_	_	SpaceAfter=No
+5	-	-	X	X	_	_	_	_	SpaceAfter=No
+6	šanie	šanû	ADJ	ADJ	_	4	amod	_	_
+7	12	12	NUM	NUM	_	8	nummod	_	_
+8	kāṣirī	kāṣirī	NOUN	NOUN	Gender=Masc|Number=Plur	_	_	_	_
+9	20	20	NUM	DN	_	10	nummod	_	_
+10	šāqê	šāqû	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+11	12	12	NUM	NUM	_	12	nummod	_	_
+12	karkadinnī	karkadinnu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+13	07	07	NUM	NUM	_	14	nummod	_	_
+14	āpiāni	ēpû	NOUN	NOUN	Gender=Masc|Number=Plur	_	_	_	_
+15	10	10	NUM	NUM	_	16	nummod	_	_
+16	nuhatimmu	nuhatimmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+
+# text = gimru 69 nišē bēti
+1	gimru	gimru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	69	69	NUM	NUM	_	3	nummod	_	_
+3	nišē	nišu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+4	bēti	bītu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	3	nmod	_	_
+
+# text = 08 ummânī 23 rādi imārī 01 mutīr ṭēme 80 kalbāte
+1	08	08	NUM	NUM	_	2	nummod	_	_
+2	ummânī	ummiānu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+3	23	23	NUM	NUM	_	4	nummod	_	_
+4	rādi	rādiu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+5	imārī	imēru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	_
+6	01	01	NUM	NUM	_	7	nummod	_	_
+7	mutīr	muterru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+8	ṭēme	ṭēmu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	80	80	NUM	NUM	_	10	nummod	_	_
+10	kalbāte	kallāpu	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+
+# text = gimru 06 mē 30 Aššuraya 03 mē 60 Gurru 04 mē 40 Itu
+1	gimru	gimru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	06	06	NUM	NUM	_	3	nummod	_	_
+3	mē	meʾatu	NUM	NUM	_	5	nummod	_	_
+4	30	30	NUM	NUM	_	3	conj	_	_
+5	Aššuraya	aššuraya	NOUN	EN	Gender=Masc	_	_	_	_
+6	03	03	NUM	NUM	_	7	nummod	_	_
+7	mē	meʾatu	NUM	NUM	_	9	nummod	_	_
+8	60	60	NUM	NUM	_	7	conj	_	_
+9	Gurru	gurru	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+10	04	04	NUM	NUM	_	11	nummod	_	_
+11	mē	meʾatu	NUM	NUM	_	13	nummod	_	_
+12	40	40	NUM	NUM	_	11	conj	_	_
+13	Itu	itu	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+
+# text = gimrumma 01 līmu 04 mē 30 ṣāb šarri adi pāniūte ša annākāni adi ša ša-qurbūte naṣāni
+1	gimrumma	gimru	NOUN	NOUN	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	01	01	NUM	NUM	_	3	nummod	_	_
+3	līmu	līm	NUM	NUM	_	7	nummod	_	_
+4	04	04	NUM	NUM	_	5	nummod	_	_
+5	mē	meʾatu	NUM	NUM	_	3	conj	_	_
+6	30	30	NUM	NUM	_	3	conj	_	_
+7	ṣāb šarri	ṣāb šarri	NOUN	N	Gender=Masc|Number=Sing|Case=Nom	_	_	_	_
+8	adi	adi	ADP	PRP	_	9	case	_	_
+9	pāniūte	pānû	NOUN	NOUN	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	7	nmod	_	_
+10	ša	ša	PRON	PRON	_	11	nsubj	_	_
+11	annākāni	annaka	ADV	ADV	SubSuff=Yes	9	acl	_	_
+12	adi	adi	ADP	ADP	_	13	case	_	_
+13	ša	ša	PRON	PRON	_	15	obj	_	_
+14	ša-qurbūte	ša-qurbūti	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	naṣāni	našû	VERB	VERB	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G|Ventive=Yes	7	nmod	_	_
+
+# text = issurri šarru bēlī iqabbi mā rēhte emūqī alê
+1	issurri	issurri	ADV	ADV	_	4	advmod	_	_
+2	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	iqabbi	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+5	mā	mā	PART	Quotative	_	8	discourse	_	_
+6	rēhte	rēhtu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|NounBase=Bound	8	nsubj	_	_
+7	emūqī	emūqu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	alê	ali	PRON	PRON	_	4	ccomp	_	_
+
+# text = rab bētīya namarku rēhte emūqī ubbala
+1	rab	rabû	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	3	nsubj	_	_
+2	bētīya	bītu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	nmod	_	_
+3	namarku	namarkû	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	rēhte	rēhtu	NOUN	NOUN	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	6	obj	_	_
+5	emūqī	emūqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	_
+6	ubbala	wabālu	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	3	conj	_	_
+

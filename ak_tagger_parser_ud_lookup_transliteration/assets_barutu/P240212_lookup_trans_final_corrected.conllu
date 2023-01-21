@@ -1,7 +1,7 @@
 # text = x IGI TUN₃ šu-šu-riš GAR x x
 1	x	x	X	X	_	_	_	_	_
-2	IGI	pānu	NOUN	N	Focus=No|Gender=Masc|NounStem=Bound|Number=Sing|Case=Nom	5	nsubj	_	_
-3	TUN₃	tākaltu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	2	nmod	_	_
+2	IGI	pānu	NOUN	N	Focus=No|Gender=Masc|NounBase=Bound|Number=Sing|Case=Nom	5	nsubj	_	_
+3	TUN₃	tākaltu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	2	nmod	_	_
 4	šu-šu-riš	šūšuriš	ADV	AV	_	5	advmod	_	_
 5	GAR	šaknu	VERB	V	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G|Voice=Pass	_	_	_	_
 6	x	x	X	X	_	_	_	_	_
@@ -9,7 +9,7 @@
 
 # text = x Elam a-na x
 1	x	x	X	X	_	_	_	_	_
-2	Elam	elam	PROPN	GN	Focus=No|NounStem=Free	_	_	_	_
+2	Elam	elam	PROPN	GN	Focus=No|NounBase=Free	_	_	_	_
 3	a-na	ana	ADP	PRP	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
 
@@ -30,8 +30,8 @@
 # text = x i-na mi-gir lib₃-bi-šu₂-nu it-tar-ru-šu₂-ma
 1	x	x	X	X	_	_	_	_	_
 2	i-na	ina	ADP	PRP	_	3	case	_	_
-3	mi-gir	migru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	5	obl	_	_
-4	lib₃-bi-šu₂-nu	libbu	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	3	nmod:poss	_	_
+3	mi-gir	migru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
+4	lib₃-bi-šu₂-nu	libbu	NOUN	N	Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	3	nmod:poss	_	_
 5	it-tar-ru-šu₂-ma	warû	VERB	V	VerbStem=Gt|Tense=Pres|Focus=Yes|Gender=Masc|Number=Sing|Person=3|Subordinative=No|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 
 # text = x x UGU-šu₂-un
@@ -42,15 +42,15 @@
 # text = x ša₂ 2.30-šu₂ GIŠ.HUR ana ŠU.SI eṣ-ret
 1	x	_	_	_	_	_	_	_	_
 2	ša₂	ša	ADP	PRP	_	3	case	_	_
-3	2.30-šu₂	šumē/Users/matthewong/Documents/nlp_stuff/Niek_scripts/compass-master/utils/merge/output_final_barutu_corrected/P240212_lookup_trans_final_corrected.conllula	ADV	AV	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
-4	GIŠ.HUR	uṣurtu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	7	nsubj	_	_
+3	2.30-šu₂	šumē/Users/matthewong/Documents/nlp_stuff/Niek_scripts/compass-master/utils/merge/output_final_barutu_corrected/P240212_lookup_trans_final_corrected.conllula	ADV	AV	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+4	GIŠ.HUR	uṣurtu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	7	nsubj	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
-6	ŠU.SI	ubānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	7	obl	_	_
+6	ŠU.SI	ubānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	7	obl	_	_
 7	eṣ-ret	eṣru	VERB	V	Gender=Fem|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G	_	_	_	_
 
 # text = x Elam
 1	x	x	X	u	_	0	ROOT	_	_
-2	Elam	elam	PROPN	GN	Focus=No|NounStem=Free	_	_	_	_
+2	Elam	elam	PROPN	GN	Focus=No|NounBase=Free	_	_	_	_
 
 # text = x iparrasūma@@@
 1	x	x	X	X	_	0	ROOT	_	_
@@ -67,8 +67,8 @@
 4	NA	na	X	X	_	_	_	_	_
 5	$	$	X	X	_	_	_	_	SpaceAfter=No
 6	KUM	kum	X	X	_	_	_	_	_
-7	DINGIR-MEŠ	ilu	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Plur	_	_	_	_
-8	GAL-MEŠ	rabû	ADJ	AJ	Focus=No|Gender=Masc|NounStem=Free|Number=Plur	7	amod	_	_
+7	DINGIR-MEŠ	ilu	NOUN	N	Focus=No|Gender=Masc|NounBase=Free|Number=Plur	_	_	_	_
+8	GAL-MEŠ	rabû	ADJ	AJ	Focus=No|Gender=Masc|NounBase=Free|Number=Plur	7	amod	_	_
 
 # text = x-ti DU₁₁{+u₂}
 1	x-ti	x-ti	X	X	_	_	_	_	_
@@ -80,187 +80,187 @@
 
 # text = x qi₂-bi-ti
 1	x	x	X	X	_	_	_	_	_
-2	qi₂-bi-ti	qibītu	NOUN	N	Focus=No|Gender=Fem|NounStem=Free|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+2	qi₂-bi-ti	qibītu	NOUN	N	Focus=No|Gender=Fem|NounBase=Free|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 
 # text = x qi₂-bi-ti
 1	x	x	X	X	_	_	_	_	_
-2	qi₂-bi-ti	qibītu	NOUN	N	Focus=No|Gender=Fem|NounStem=Free|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+2	qi₂-bi-ti	qibītu	NOUN	N	Focus=No|Gender=Fem|NounBase=Free|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 
 # text = x {1}AN.ŠAR₂-DU₃-A LUGAL dan-nu NUN na-aʾ-du ša₂ {d}15 be-let ME₃ A₂ EREN₂-šu₂
 1	x	_	_	_	_	_	_	_	_
-2	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Focus=No|NounStem=Free	_	_	_	_
-3	LUGAL	šarru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	2	appos	_	_
-4	dan-nu	dannu	ADJ	AJ	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	3	amod	_	_
-5	NUN	rubû	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	2	appos	_	_
-6	na-aʾ-du	naʾdu	ADJ	AJ	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	5	amod	_	_
+2	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Focus=No|NounBase=Free	_	_	_	_
+3	LUGAL	šarru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	2	appos	_	_
+4	dan-nu	dannu	ADJ	AJ	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	3	amod	_	_
+5	NUN	rubû	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	2	appos	_	_
+6	na-aʾ-du	naʾdu	ADJ	AJ	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	5	amod	_	_
 7	ša₂	ša	PRON	REL	_	12	nmod	_	_
-8	{d}15	ištaru	PROPN	DN	Case=Gen|Number=Sing|Focus=No|NounStem=Free	11	nsubj	_	_
-9	be-let	bēltu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Bound|Number=Sing	8	appos	_	_
-10	ME₃	tāhāzu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	9	nmod:poss	_	_
-11	A₂	ahu	NOUN	N	Focus=No|Gender=Masc|NounStem=Bound|Number=Sing|Case=Gen	_	_	_	_
+8	{d}15	ištaru	PROPN	DN	Case=Gen|Number=Sing|Focus=No|NounBase=Free	11	nsubj	_	_
+9	be-let	bēltu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	8	appos	_	_
+10	ME₃	tāhāzu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	9	nmod:poss	_	_
+11	A₂	ahu	NOUN	N	Focus=No|Gender=Masc|NounBase=Bound|Number=Sing|Case=Gen	_	_	_	_
 12	EREN₂-šu₂	ummānu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc	5	acl	_	_
 
 # text = x Elam ina qe₂-reb tam-ha-ru KU₅{+su}-ma DUMU Bel-iqiša
 1	x	x	X	u	_	_	_	_	_
-2	Elam	elam	PROPN	GN	Case=Gen|Focus=No|NounStem=Free	_	_	_	_
+2	Elam	elam	PROPN	GN	Case=Gen|Focus=No|NounBase=Free	_	_	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
-4	qe₂-reb	qerbu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	6	obl	_	_
-5	tam-ha-ru	tamhāru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	4	nmod:poss	_	_
+4	qe₂-reb	qerbu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+5	tam-ha-ru	tamhāru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	4	nmod:poss	_	_
 6	KU₅-su-ma	nakāsu	VERB	V	Focus=Yes|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Ventive=No|VerbStem=G	_	_	_	_
-7	DUMU	māru	NOUN	N	Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
-8	Bel-iqiša	bel-iqiša	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen|Focus=No|NounStem=Free	7	nmod:poss	_	_
+7	DUMU	māru	NOUN	N	Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+8	Bel-iqiša	bel-iqiša	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen|Focus=No|NounBase=Free	7	nmod:poss	_	_
 
 # text = x-x-tu-tu₄ {lu₂}e-la-mi-i ina GU₂-šu₂ i-lu-lu-ma {1}AN.ŠAR₂-DU₃-A
 1	x-x-tu-tu₄	x-x-tu-tu₄	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
 2	{lu₂}e-la-mi-i	elamiya	NOUN	N	Gender=Masc|Number=Sing	1	nmod:poss	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
-4	GU₂-šu₂	kišādu	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	obl	_	_
+4	GU₂-šu₂	kišādu	NOUN	N	Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	obl	_	_
 5	i-lu-lu-ma	alālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|Focus=Yes	_	_	_	_
-6	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Gender=Masc|Number=Sing|Focus=No|NounStem=Free	_	_	_	_
+6	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Gender=Masc|Number=Sing|Focus=No|NounBase=Free	_	_	_	_
 
 # text = a-na NINA{ki} IRI be-lu-ti-šu₂ ha-diš i-riš-šu₂ i-te-ep-pu-šu₂ ni-gu-ti
 1	a-na	ana	ADP	PRP	_	2	case	_	_
-2	NINA{ki}	ninua	PROPN	SN	Gender=Masc|Case=Gen|Focus=No|NounStem=Free	_	_	_	_
-3	IRI	ālu	NOUN	N	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	2	appos	_	_
-4	be-lu-ti-šu₂	bēlūtu	NOUN	N	Focus=No|Gender=Fem|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nmod:poss	_	_
+2	NINA{ki}	ninua	PROPN	SN	Gender=Masc|Case=Gen|Focus=No|NounBase=Free	_	_	_	_
+3	IRI	ālu	NOUN	N	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	2	appos	_	_
+4	be-lu-ti-šu₂	bēlūtu	NOUN	N	Focus=No|Gender=Fem|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nmod:poss	_	_
 5	ha-diš	hadîš	ADV	AV	_	6	advmod	_	_
 6	i-riš-šu₂	riāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 7	i-te-ep-pu-šu₂	epēšu	VERB	V	Tense=Pres|Focus=No|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Ventive=No|VerbStem=Gt	6	conj	_	_
-8	ni-gu-ti	nigûtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	7	obj	_	_
+8	ni-gu-ti	nigûtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	7	obj	_	_
 
 # text = x DUMU ši-ip-ru ša₂ {1}um-man-i-gaš LUGAL Elam ina IGI {1}AN.ŠAR₂-DU₃-A LUGAL ŠU₂
 1	x	_	_	_	_	_	_	_	_
-2	DUMU	māru	NOUN	N	Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
-3	ši-ip-ru	šipru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	2	nmod	_	_
+2	DUMU	māru	NOUN	N	Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+3	ši-ip-ru	šipru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	2	nmod	_	_
 4	ša₂	ša	ADP	PRP	_	5	case	_	_
-5	{1}um-man-i-gaš	umman-igaš	PROPN	PN	Gender=Masc|Case=Gen|Number=Sing|Focus=No|NounStem=Free	3	nmod	_	_
-6	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	5	appos	_	_
-7	Elam	elam	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing|Focus=No|NounStem=Free	6	nmod	_	_
+5	{1}um-man-i-gaš	umman-igaš	PROPN	PN	Gender=Masc|Case=Gen|Number=Sing|Focus=No|NounBase=Free	3	nmod	_	_
+6	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	5	appos	_	_
+7	Elam	elam	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing|Focus=No|NounBase=Free	6	nmod	_	_
 8	ina	ina	ADP	PRP	_	9	case	_	_
-9	IGI	pānu	NOUN	N	Focus=No|Gender=Masc|NounStem=Bound|Number=Sing|Case=Gen	_	_	_	_
-10	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Gender=Masc|Case=Gen|Number=Sing|Focus=No|NounStem=Free	9	nmod	_	_
-11	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	10	appos	_	_
-12	ŠU₂	kiššatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	11	nmod:poss	_	_
+9	IGI	pānu	NOUN	N	Focus=No|Gender=Masc|NounBase=Bound|Number=Sing|Case=Gen	_	_	_	_
+10	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Gender=Masc|Case=Gen|Number=Sing|Focus=No|NounBase=Free	9	nmod	_	_
+11	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	10	appos	_	_
+12	ŠU₂	kiššatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	11	nmod:poss	_	_
 
 # text = {1}AN.ŠAR₂-DU₃-A LUGAL ŠU₂ a-na a-mat
-1	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	RN	Case=Nom|Gender=Masc|Number=Sing|Focus=No|NounStem=Free	_	_	_	_
-2	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	1	appos	_	_
-3	ŠU₂	kiššatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	2	nmod:poss	_	_
+1	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	RN	Case=Nom|Gender=Masc|Number=Sing|Focus=No|NounBase=Free	_	_	_	_
+2	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+3	ŠU₂	kiššatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	2	nmod:poss	_	_
 4	a-na	ana	ADP	PRP	_	5	case	_	_
-5	a-mat	awātu	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	_	_	_	_
+5	a-mat	awātu	NOUN	N	Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	_	_	_	_
 
 # text = x i-duk-ma i-na {giš}GU.ZA-šu₂ u₂-šib
 1	x	x	X	X	_	_	_	_	_
 2	i-duk-ma	dâku	VERB	V	Focus=Yes|Gender=Masc|Number=Sing|Person=3|Subordinative=No|Ventive=No|VerbStem=G	0	ROOT	_	_
 3	i-na	ina	ADP	PRP	_	4	case	_	_
-4	{giš}GU.ZA-šu₂	kussû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	obl	_	_
+4	{giš}GU.ZA-šu₂	kussû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	obl	_	_
 5	u₂-šib	wašābu	VERB	V	Focus=No|Gender=Masc|Number=Sing|Person=3|Subordinative=No|Ventive=No|VerbStem=G	2	conj	_	_
 
 # text = x {1}tam-mar-it₂ LUGAL Elam u qa₂-du rab-ban-na-ti-šu₂
 1	x	x	X	u	_	_	_	_	_
 2	{1}tam-mar-it₂	tammarit	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-3	LUGAL	šarru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	2	appos	_	_
-4	Elam	elam	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing|Focus=No|NounStem=Free	3	nmod:poss	_	_
+3	LUGAL	šarru	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
+4	Elam	elam	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing|Focus=No|NounBase=Free	3	nmod:poss	_	_
 5	u	u	CONJ	CNJ	_	7	conj	_	_
 6	qa₂-du	qadu	ADP	PRP	_	_	_	_	_
-7	rab-ban-na-ti-šu₂	rabiānu	NOUN	N	Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	conj	_	_
+7	rab-ban-na-ti-šu₂	rabiānu	NOUN	N	Focus=No|Gender=Fem|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	conj	_	_
 
 # text = x NINA{ki} IRI be-lu-ti-šu₂ ina IGI-šu₂ it-tan-qa₂-ra-ar₂-ru
 1	x	x	X	u	_	_	_	_	_
-2	NINA{ki}	ninua	PROPN	SN	Case=Gen|Gender=Masc|Focus=No|NounStem=Free	7	obl	_	_
-3	IRI	ālu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	2	appos	_	_
-4	be-lu-ti-šu₂	bēlūtu	NOUN	N	Focus=No|Gender=Fem|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nmod:poss	_	_
+2	NINA{ki}	ninua	PROPN	SN	Case=Gen|Gender=Masc|Focus=No|NounBase=Free	7	obl	_	_
+3	IRI	ālu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
+4	be-lu-ti-šu₂	bēlūtu	NOUN	N	Focus=No|Gender=Fem|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nmod:poss	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_
-6	IGI-šu₂	pānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	7	obl	_	_
+6	IGI-šu₂	pānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	7	obl	_	_
 7	it-tan-qa₂-ra-ar₂-ru	qarāru	VERB	V	Tense=Pres|Focus=No|Gender=Masc|Number=Plur|Person=3|VerbStem=Ntn	_	_	_	_
 
 # text = x u {d}15 i-ram-mu-šu₂-ma i-na mi-gir lib₃-bi-šu₂-nu it-tar-ru-šu₂-ma {1}tam-mar-it₂
 1	x	_	_	_	_	_	_	_	_
 2	u	u	CONJ	CNJ	_	4	cc	_	_
-3	{d}15	ištaru	PROPN	DN	Case=Nom|Number=Sing|Gender=Fem|Focus=No|NounStem=Free	4	nsubj	_	_
+3	{d}15	ištaru	PROPN	DN	Case=Nom|Number=Sing|Gender=Fem|Focus=No|NounBase=Free	4	nsubj	_	_
 4	i-ram-mu-šu₂-ma	râmu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc|Focus=Yes	0	ROOT	_	_
 5	i-na	ina	ADP	PRP	_	6	case	_	_
-6	mi-gir	migru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	8	obl	_	_
-7	lib₃-bi-šu₂-nu	libbu	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	6	nmod:poss	_	_
+6	mi-gir	migru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	8	obl	_	_
+7	lib₃-bi-šu₂-nu	libbu	NOUN	N	Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	6	nmod:poss	_	_
 8	it-tar-ru-šu₂-ma	warû	VERB	V	Focus=Yes|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Ventive=No|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	4	conj	_	_
 9	{1}tam-mar-it₂	tammarit	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 
 # text = x re-ṣu-ti {1}GIŠ.NU₁₁-MU-GI.NA ṣu-um-mu-ru šu-u₂ {lu₂}HAL-šu₂ u rab-ban-na-ti-šu₂
 1	x	x	X	X	_	_	_	_	_
-2	re-ṣu-ti	rēṣūtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounStem=Bound|Number=Sing	4	obj	_	_
-3	{1}GIŠ.NU₁₁-MU-GI.NA	šamaš-šumu-ukin	PROPN	PN	Gender=Masc|Case=Gen|Number=Sing|Focus=No|NounStem=Free	_	_	_	_
+2	re-ṣu-ti	rēṣūtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	4	obj	_	_
+3	{1}GIŠ.NU₁₁-MU-GI.NA	šamaš-šumu-ukin	PROPN	PN	Gender=Masc|Case=Gen|Number=Sing|Focus=No|NounBase=Free	_	_	_	_
 4	ṣu-um-mu-ru	ṣummuru	VERB	V	Gender=Masc|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=D	_	_	_	_
 5	šu-u₂	šū	PRON	IP	Gender=Masc|Number=Sing|Person=3|Case=Nom	_	_	_	_
-6	{lu₂}HAL-šu₂	bārû	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	conj	_	_
+6	{lu₂}HAL-šu₂	bārû	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	conj	_	_
 7	u	u	CONJ	CNJ	_	8	cc	_	_
-8	rab-ban-na-ti-šu₂	rabiānu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounStem=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	conj	_	_
+8	rab-ban-na-ti-šu₂	rabiānu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	conj	_	_
 
 # text = x il-la-ku-nim-ma u₂-na-aš₂-ša₂-qu GIR₃-MIN-šu₂
 1	x	x	X	X	_	_	_	_	_
 2	il-la-ku-nim-ma	alāku	VERB	V	Focus=Yes|Gender=Masc|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
 3	u₂-na-aš₂-ša₂-qu	našāqu	VERB	V	Focus=No|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Ventive=No|VerbStem=D	2	conj	_	_
-4	GIR₃-MIN-šu₂	šēpu	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Free|Number=Dual|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	obj	_	_
+4	GIR₃-MIN-šu₂	šēpu	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Dual|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	obj	_	_
 
 # text = {1}tam-mar-it₂ u {lu₂}HAL-šu₂ ina IGI-šu₂ u₂-kan-nu a-ha-miš
 1	{1}tam-mar-it₂	tammarit	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	6	nsubj	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
-3	{lu₂}HAL-šu₂	bārû	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
+3	{lu₂}HAL-šu₂	bārû	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
 4	ina	ina	ADP	PRP	_	5	case	_	_
-5	IGI-šu₂	pānu	NOUN	N	Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	6	obl	_	_
+5	IGI-šu₂	pānu	NOUN	N	Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	6	obl	_	_
 6	u₂-kan-nu	kânu	VERB	V	Tense=Pres|Focus=No|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Ventive=No|VerbStem=D	7	advmod	_	_
 7	a-ha-miš	ahāmiš	ADV	AV	_	_	_	_	_
 
 # text = x 15 u 2.30 NA SIG BA₃-ut {1}AN.ŠAR₂-DU₃-IBILA LUGAL ŠU₂ ša₂ {d}UTU u {d}15 A₂ EREN₂-HI.A-šu₂ DU{+ku}-ma
 1	x	_	_	_	_	_	_	_	_
-2	15	imittu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	_	_	_	_
+2	15	imittu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
 3	u	ū	CONJ	CNJ	_	4	cc	_	_
-4	2.30	šumēlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	2	conj	_	_
-5	NA	mazzāzu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	4	nmod:poss	_	_
+4	2.30	šumēlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	2	conj	_	_
+5	NA	mazzāzu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	4	nmod:poss	_	_
 6	SIG	qatnu	VERB	V	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G	0	ROOT	_	_
 7	BA₃-ut	amūtu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	_
-8	{1}AN.ŠAR₂-DU₃-IBILA	assurbanipal	PROPN	PN	Focus=No|NounStem=Free	7	nmod	_	_
-9	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	8	appos	_	_
-10	ŠU₂	kiššatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	9	nmod:poss	_	_
+8	{1}AN.ŠAR₂-DU₃-IBILA	assurbanipal	PROPN	PN	Focus=No|NounBase=Free	7	nmod	_	_
+9	LUGAL	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	8	appos	_	_
+10	ŠU₂	kiššatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	9	nmod:poss	_	_
 11	ša₂	ša	PRON	REL	_	16	nmod	_	_
-12	{d}UTU	šamaš	PROPN	DN	Case=Nom|Gender=Masc|Focus=No|NounStem=Free	17	nsubj	_	_
+12	{d}UTU	šamaš	PROPN	DN	Case=Nom|Gender=Masc|Focus=No|NounBase=Free	17	nsubj	_	_
 13	u	u	CONJ	CNJ	_	14	cc	_	_
-14	{d}15	ištaru	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing|Focus=No|NounStem=Free	12	conj	_	_
-15	A₂	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	17	obl	_	_
+14	{d}15	ištaru	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing|Focus=No|NounBase=Free	12	conj	_	_
+15	A₂	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	17	obl	_	_
 16	EREN₂-HI.A-šu₂	ummānu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	15	nmod:poss	_	_
 17	DU-ku-ma	alāku	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	8	acl	_	_
 
 # text = x ina qe₂-reb tam-ha-ru i-na-ru-ma iš-ku-nu BAD₅.BAD₅-šu₂-un
 1	x	x	X	X	_	_	_	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	qe₂-reb	qerbu	NOUN	N	Focus=No|Gender=Masc|NounStem=Bound|Case=Gen	5	obl	_	_
-4	tam-ha-ru	tamhāru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	3	nmod:poss	_	_
+3	qe₂-reb	qerbu	NOUN	N	Focus=No|Gender=Masc|NounBase=Bound|Case=Gen	5	obl	_	_
+4	tam-ha-ru	tamhāru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	3	nmod:poss	_	_
 5	i-na-ru-ma	nêru	VERB	V	Focus=Yes|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Ventive=No|VerbStem=G	_	_	_	_
 6	iš-ku-nu	šakānu	VERB	V	Focus=No|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Ventive=No|VerbStem=G	5	conj	_	_
-7	BAD₅.BAD₅-šu₂-un	dabdû	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	6	obj	_	_
+7	BAD₅.BAD₅-šu₂-un	dabdû	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	6	obj	_	_
 
 # text = x UZU ga-mir EREN₂-ni ina MU.SAG MUR ša₂ 15 it-taš-kan BA₃-ut {1}GIŠ.NU₁₁-MU-GI.NA
 1	x	X	_	_	_	_	_	_	_
-2	UZU	šīru	NOUN	N	Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	10	nsubj	_	_
-3	ga-mir	gamru	DET	DP	NounStem=Bound|Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
-4	EREN₂-ni	ummānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	3	nmod	_	_
+2	UZU	šīru	NOUN	N	Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	10	nsubj	_	_
+3	ga-mir	gamru	DET	DP	NounBase=Bound|Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
+4	EREN₂-ni	ummānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	3	nmod	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_
-6	MU.SAG	nīš rēši	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	10	obl	_	_
-7	MUR	hašû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing	6	nmod	_	_
+6	MU.SAG	nīš rēši	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
+7	MUR	hašû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	6	nmod	_	_
 8	ša₂	ša	ADP	PRP	_	9	case	_	_
-9	15	imittu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	7	nmod	_	_
+9	15	imittu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	7	nmod	_	_
 10	it-taš-kan	šakānu	VERB	V	Tense=Perf|Focus=No|Gender=Masc|Number=Sing|Person=3|Subordinative=No|Ventive=No|VerbStem=N	_	_	_	_
-11	BA₃-ut	amūtu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounStem=Bound|Case=Nom	_	_	_	_
-12	{1}GIŠ.NU₁₁-MU-GI.NA	šamaš-šumu-ukin	PROPN	PN	Case=Gen|Number=Sing|Gender=Masc|Focus=No|NounStem=Free	11	nmod	_	_
+11	BA₃-ut	amūtu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Bound|Case=Nom	_	_	_	_
+12	{1}GIŠ.NU₁₁-MU-GI.NA	šamaš-šumu-ukin	PROPN	PN	Case=Gen|Number=Sing|Gender=Masc|Focus=No|NounBase=Free	11	nmod	_	_
 
 # text = x x it-ti EREN₂-ni {1}AN.ŠAR₂-DU₃-A na-ram DINGIR-MEŠ GAL-MEŠ ME₃ DU₃-šu₂-ma BAD₅.BAD₅-šu₂
 1	x	x	X	X	_	_	_	_	_
 2	x	x	X	X	_	_	_	_	_
 3	it-ti	itti	ADP	PRP	_	4	case	_	_
-4	EREN₂-ni	ummānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounStem=Bound|Number=Sing	10	obl	_	_
-5	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing|Focus=No|NounStem=Free	4	nmod	_	_
-6	na-ram	narām	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	5	appos	_	_
-7	DINGIR-MEŠ	ilu	NOUN	NOUN	NounStem=Free|Case=Gen|Gender=Masc|Number=Plur	6	nmod:poss	_	_
-8	GAL-MEŠ	rabû	ADJ	AJ	NounStem=Free|Case=Gen|Gender=Masc|Number=Plur	7	amod	_	_
+4	EREN₂-ni	ummānu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
+5	{1}AN.ŠAR₂-DU₃-A	assurbanipal	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing|Focus=No|NounBase=Free	4	nmod	_	_
+6	na-ram	narām	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	appos	_	_
+7	DINGIR-MEŠ	ilu	NOUN	NOUN	NounBase=Free|Case=Gen|Gender=Masc|Number=Plur	6	nmod:poss	_	_
+8	GAL-MEŠ	rabû	ADJ	AJ	NounBase=Free|Case=Gen|Gender=Masc|Number=Plur	7	amod	_	_
 9	ME₃	tāhāzu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	10	obj	_	_
 10	DU₃-šu₂-ma	epēšu	VERB	V	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Subordinative=Yes|Focus=Yes	_	_	_	_
 11	BAD₅.BAD₅-šu₂	dabdû	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
@@ -269,7 +269,7 @@
 1	x	x	X	X	_	_	_	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	qe₂-reb	qereb	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
-4	tam-ha-ru	tamhāru	VERB	V	NounStem=Free|Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+4	tam-ha-ru	tamhāru	VERB	V	NounBase=Free|Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
 5	iṣ-ba-tu-nim-ma	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|VerbForm=Fin|VerbStem=G|Ventive=Yes|Focus=Yes	_	_	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	IGI	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
@@ -284,7 +284,7 @@
 
 # text = x BA₃-ut {1}GIŠ.NU₁₁-MU-GI.NA
 1	x	x	X	X	_	_	_	_	_
-2	BA₃-ut	amūtu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|NounStem=Bound	_	_	_	SpaceAfter=No
+2	BA₃-ut	amūtu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|NounBase=Bound	_	_	_	SpaceAfter=No
 3	}	_	_	_	_	_	_	_	_
 4	{	_	_	_	_	_	_	_	SpaceAfter=No
 5	{1}GIŠ.NU₁₁-MU-GI.NA	šamaš-šumu-ukin	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -296,24 +296,24 @@
 4	ina	ina	ADP	PRP	_	5	case	_	_
 5	mah-ri-i	mahrû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	10	obl	_	_
 6	TA	ištu	ADP	PRP	_	7	case	_	_
-7	ŠA₃	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	10	obl	_	_
-8	EŠ₂.GAR₃	iškāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|NounStem=Free	7	nmod:poss	_	_
+7	ŠA₃	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
+8	EŠ₂.GAR₃	iškāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|NounBase=Free	7	nmod:poss	_	_
 9	ki-i	kī	SCONJ	SBJ	_	10	mark	_	_
 10	as-su-ha	nasāhu	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 11	ana	ana	ADP	PRP	_	12	case	_	_
-12	LUGAL	šarru	NOUN	N	NounStem=Free|Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+12	LUGAL	šarru	NOUN	N	NounBase=Free|Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 13	be-li₂-ia₂	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
 
 # text = x mah-ru-tu LUGAL be-li₂ li-mur an-na-a-ti BA₃-MEŠ ša₂ LUGAL be-li₂-ia₂
 1	x	x	X	u	_	_	_	_	_
-2	mah-ru-tu	mahrû	ADJ	AJ	Case=Acc|Gender=Masc|NounStem=Free|Number=Plur	5	obj	_	_
-3	LUGAL	šarru	NOUN	N	NounStem=Free|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	mah-ru-tu	mahrû	ADJ	AJ	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	5	obj	_	_
+3	LUGAL	šarru	NOUN	N	NounBase=Free|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	be-li₂	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	3	appos	_	_
 5	li-mur	amāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
-6	an-na-a-ti	annû	DET	DP	NounStem=Free|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
-7	BA₃-MEŠ	amūtu	NOUN	N	NounStem=Free|Case=Nom|Gender=Fem|Number=Plur	_	_	_	_
+6	an-na-a-ti	annû	DET	DP	NounBase=Free|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	BA₃-MEŠ	amūtu	NOUN	N	NounBase=Free|Case=Nom|Gender=Fem|Number=Plur	_	_	_	_
 8	ša₂	ša	ADP	PRP	_	9	case	_	_
-9	LUGAL	šarru	NOUN	N	NounStem=Free|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	LUGAL	šarru	NOUN	N	NounBase=Free|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	be-li₂-ia₂	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
 
 # text = $KI x ša₂ x x {1}tam-mar-it₂
@@ -330,12 +330,12 @@
 1	x	x	X	X	_	_	_	_	_
 2	šum-ma	šumma	SCONJ	SBJ	_	7	mark	_	_
 3	ina	ina	ADP	ADP	_	4	case	_	_
-4	IGI	pānu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	7	obl	_	_
+4	IGI	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
 5	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	be-li₂-ia₂	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
 7	mah-ru	mahru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Subordinative=Yes	11	advcl	_	_
 8	ana	ana	ADP	ADP	_	9	case	_	_
-9	ŠA₃	libbu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	11	obl	_	_
+9	ŠA₃	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	11	obl	_	_
 10	EŠ₂.GAR₃	iškāru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	_
 11	nu-še-rid	warādu	VERB	VERB	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Š	_	_	_	_
 
@@ -353,7 +353,7 @@
 1	x	x	X	u	_	_	_	_	_
 2	tal-li-ki-u₂-ni	alāku	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Subordinative=Yes|SubSuff=Yes	_	_	_	_
 3	a-na	ana	ADP	PRP	_	4	case	_	_
-4	BA₃-MEŠ	amūtu	NOUN	N	NounStem=Free|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+4	BA₃-MEŠ	amūtu	NOUN	N	NounBase=Free|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
 5	ša₂	ša	ADP	DET	_	7	case	_	_
 6	{	{	PROPN	RN	Gender=Masc	_	_	_	SpaceAfter=No
 7	{1}tam-mar-it₂	tammarit	PROPN	RN	Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_

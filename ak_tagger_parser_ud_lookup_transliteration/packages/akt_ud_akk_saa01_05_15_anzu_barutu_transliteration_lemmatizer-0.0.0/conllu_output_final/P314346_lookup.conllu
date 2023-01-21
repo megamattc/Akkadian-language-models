@@ -62,7 +62,7 @@
 51	la	lā	PART	PART	_	52	advmod	_	_
 52	de-iq-tu₂	de-iq-tu₂	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	56	nsubj	_	_
 53	TA@v	ta@v	ADP	ADP	_	54	case	_	_
-54	pi-i	pî	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	52	nmod	_	_
+54	pi-i	pî	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	52	nmod	_	_
 55	NUMUN-šu₂	numun-šu₂	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	54	nmod	_	_
 56	a-šam-mu-u-ni	ašammûni	ADV	VERB	_	57	advcl	_	_
 57	u₂-la-a	ulâ	ADV	VERB	_	71	dep	_	_
@@ -72,7 +72,7 @@
 61	ša	ša	ADP	ADP	_	62	case	_	_
 62	01-en	issēn	NUM	NUM	_	60	nmod	_	_
 63	TA@v	ta@v	ADP	ADP	_	64	case	_	_
-64	ŠA₃	ša	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	62	nmod	_	_
+64	ŠA₃	ša	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	62	nmod	_	_
 65	{LU₂}GAL-MEŠ	{lu₂}gal-meš	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	60	nmod	_	_
 66	{LU₂}NAM-MEŠ	{lu₂}nam-meš	NOUN	NOUN	Gender=Fem|Number=Plur	65	nmod	_	_
 67	TA@v	ta@v	ADP	ADP	_	68	case	_	_
@@ -80,10 +80,10 @@
 69	01-en	issēn	NUM	NUM	_	68	nmod	_	_
 70	TA@v	ta@v	ADP	ADP	_	71	case	_	_
 71	ŠA₃	ša	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-72	{LU₂}ša₂-ziq-ni	{lu₂}ša₂-ziq-ni	NOUN	ADP	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	71	nmod	_	_
+72	{LU₂}ša₂-ziq-ni	{lu₂}ša₂-ziq-ni	NOUN	ADP	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	71	nmod	_	_
 73	u₂-la-a	ulâ	ADV	ADV	_	78	advmod	_	_
 74	TA@v	ta@v	ADP	ADP	_	75	case	_	_
-75	pi-i	pî	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	73	nmod	_	_
+75	pi-i	pî	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	73	nmod	_	_
 76	01-en	issēn	NUM	NUM	_	77	nummod	_	_
 77	{LU₂}SAG-MEŠ	{lu₂}sag-meš	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	75	nmod	_	_
 78	a-šam-mu-u-ni	ašammûni	ADV	VERB	_	_	_	_	_
@@ -196,7 +196,7 @@
 185	x	x	X	X	_	_	_	_	_
 186	x	x	X	X	_	_	_	_	_
 187	AN.ŠAR₂	an.šar₂	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-188	AD	ad	NOUN	N	Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
+188	AD	ad	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 189	DINGIR-MEŠ	dingir-meš	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	188	nmod	_	_
 190	LUGAL	lugal	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 191	kiš-šat	kiš-šat	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	190	nmod:poss	_	_
@@ -241,8 +241,8 @@
 230	x	x	X	X	_	_	_	_	_
 231	x	x	X	X	_	_	_	_	_
 232	x	x	X	X	_	_	_	_	_
-233	{d}15	Ištar	PROPN	DN	Case=Nom|Focus=No|Gender=Fem|NounStem=Free|Number=Sing	239	nsubj	_	_
-234	be-let	bēlet	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounStem=Bound|Number=Sing	233	appos	_	_
+233	{d}15	Ištar	PROPN	DN	Case=Nom|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	239	nsubj	_	_
+234	be-let	bēlet	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	233	appos	_	_
 235	MURUB₄	murub₄	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	234	nmod:poss	_	_
 236	u	u	CCONJ	CNJ	_	237	cc	_	_
 237	ME₃	me₃	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	235	conj	_	_
@@ -252,7 +252,7 @@
 241	{GIŠ}BAN-šu₂	{giš}ban-šu₂	NOUN	NOUN	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	242	obj	_	_
 242	liš-bir	liš-bir	VERB	VERB	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
 243	ina	ina	ADP	ADP	_	244	case	_	_
-244	ša₂-pal	šapal	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	246	obl	_	_
+244	ša₂-pal	šapal	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	246	obl	_	_
 245	{LU₂}KUR-šu₂	{lu₂}kur-šu₂	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	244	nmod	_	_
 246	li-še-ši-ib-šu₂	li-še-ši-ib-šu₂	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	242	conj	_	_
 247	ka-mi₃-iš	ka-mi₃-iš	ADV	ADV	_	_	_	_	_
@@ -277,7 +277,7 @@
 266	x	x	X	X	_	_	_	_	_
 267	LAK	lak	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	269	nsubj	_	_
 268	ina	ina	ADP	PRP	_	269	case	_	_
-269	re-bit	re-bit	NOUN	N	Case=Gen|Gender=Fem|NounStem=Bound|Number=Sing	_	_	_	_
+269	re-bit	re-bit	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	_	_	_	_
 270	URU-šu₂	uru-šu₂	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	269	nmod	_	_
 271	x	x	X	X	_	_	_	_	_
 272	x	x	X	X	_	_	_	_	_

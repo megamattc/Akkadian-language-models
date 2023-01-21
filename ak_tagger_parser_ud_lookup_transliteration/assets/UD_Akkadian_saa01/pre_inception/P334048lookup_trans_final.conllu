@@ -48,7 +48,7 @@
 20	x	x+x	X	X	_	22	_	_	x+x
 22	inassahūni@@@	nasāhu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|SubSuff=Yes	_	_	_	_
 23	issi@@@	išti	ADP	ADP	_	24	case	_	_
-24	rab@@@	rabû	NOUN	NOUN	Gender=Masc|NounStem=Bound|Number=Sing|Case=Gen	_	_	_	_
+24	rab@@@	rabû	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing|Case=Gen	_	_	_	_
 25	ēkalli@@@	ēkallu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	24	nmod	_	_
 26	{LU₂}GAL-E₂.GAL	rabû	NOUN	NOUN	_	_	_	_	rab
 27	mā@@@	mā	PART	PART	_	36	discourse	_	_
@@ -208,14 +208,14 @@
 19	a-ka-ṣar	kaṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	akaṣṣar
 
 
-1	DUMU-MEŠ-ŠAM₂-MEŠ-e	māru	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Nom|NounStem=Bound	0	ROOT	_	marʾē
+1	DUMU-MEŠ-ŠAM₂-MEŠ-e	māru	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Nom|NounBase=Bound	0	ROOT	_	marʾē
 2	šīmê@@@	šīmu	NOUN	N	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	_
 3	DUMU-MEŠ-ŠAM₂-MEŠ-e	māru	NOUN	NOUN	_	_	_	_	marʾē
 4	i-qa-bu-ni-šu₂-nu	qabû	VERB	_	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|VerbSuffNum=Plur|VerbSuffPer=3|VerbSuffGen=Masc	1	acl	_	iqabbûniššunu
 5	u₂-la-a	ūla	CCONJ	CNJ	_	6	conj	_	ulâ
 6	za-ku-te	zakkû	NOUN	N	Gender=Masc|Number=Plur|Case=Nom	1	conj	_	zakkûte
 7	ša	ša	ADP	DET	_	8	case	_	ša
-8	{LU₂}GAL-E₂.GAL	rabû	NOUN	NOUN	Gender=Masc|NounStem=Bound|Number=Sing|Case=Gen	6	nmod	_	rab
+8	{LU₂}GAL-E₂.GAL	rabû	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing|Case=Gen	6	nmod	_	rab
 9	ēkalli@@@	ēkallu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	8	nmod	_	_
 
 
@@ -227,11 +227,11 @@
 6	DUMU-MEŠ-{LU₂}ŠAM₂-MEŠ	māru	NOUN	NOUN	_	_	_	_	marʾē
 7	DUMU-MEŠ-{LU₂}ŠAM₂-MEŠ	ša	ADP	_	_	8	case	_	ša
 8	marʾē@@@	māru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
-9	amat@@@	amtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounStem=Bound	8	nmod	_	_
+9	amat@@@	amtu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen|NounBase=Bound	8	nmod	_	_
 10	GEME₂-E₂.GAL	amat ēkalli	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	9	nmod:poss	_	ēkalli
 12	a-sa-ṭar	šaṭāru	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	assaṭar
 13	ina	ina	ADP	ADP	_	14	case	_	ina
-14	pa-an	pānu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	17	obj	_	pān
+14	pa-an	pānu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	17	obj	_	pān
 15	LUGAL	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	14	nmod	_	šarri
 16	be-li₂-ia	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	15	appos	_	bēlīya
 17	u₂-se-bi-la	wabālu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=Š|Ventive=Yes	12	conj	_	ussēbila

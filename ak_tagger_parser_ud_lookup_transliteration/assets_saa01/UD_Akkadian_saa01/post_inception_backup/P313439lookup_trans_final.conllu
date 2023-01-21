@@ -35,11 +35,11 @@
 13	a-mu-ur	amāru	VERB	_	Gender=Masc|Number=Plur|Case=Acc	4	ccomp	_	_
 14	02	02	NUM	_	_	16	nsubj	_	_
 15	ina	ina	ADP	_	_	16	case	_	_
-16	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	_	_	_	_
+16	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	_	_	_	_
 17	KA₂.GAL	abullu	NOUN	_	Gender=Fem|Number=Sing|Case=Gen	16	nmod	_	_
 18	da-at-ti	dannu	ADJ	_	Gender=Fem|Number=Sing|Case=Gen	17	amod	_	_
 19	ša	ša	ADP	_	_	20	case	_	_
-20	MURUB₄-URU	qabsi āli	NOUN	_	Gender=Fem|Number=Sing|Case=Gen|NounStem=Bound	17	nmod	_	_
+20	MURUB₄-URU	qabsi āli	NOUN	_	Gender=Fem|Number=Sing|Case=Gen|NounBase=Bound	17	nmod	_	_
 
 # text = 01-en {NA₄}ALAD.{d}LAMA ša 11 ina 01 KUŠ₃ ša {LU₂}GAL-KAŠ.LUL
 1	01-en	ištēn	NUM	_	_	2	nsubj	_	_
@@ -50,7 +50,7 @@
 6	01	01	NUM	_	_	7	nummod	_	_
 7	KUŠ₃	ammatu	NOUN	_	Gender=Fem|Number=Sing|Case=Gen	4	nmod	_	_
 8	ša	ša	ADP	_	_	9	case	_	_
-9	{LU₂}GAL-KAŠ.LUL	rab šāqê	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	0	nmod	_	_
+9	{LU₂}GAL-KAŠ.LUL	rab šāqê	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	0	nmod	_	_
 
 # text = 01-en E₂ x x x x+x ina ŠA₃-bi-šu₂ la za-ku
 1	01-en	ištēn	NUM	_	_	10	nsubj	_	_
@@ -77,8 +77,8 @@
 # text = 01-en ina IGI E₂-LUGAL iz-za-qap₂
 1	01-en	ištēn	NUM	_	_	5	obj	_	_
 2	ina	ina	ADP	_	_	3	case	_	_
-3	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	5	obl	_	_
-4	E₂-LUGAL	bēt šarri	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	3	nmod	_	_
+3	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	5	obl	_	_
+4	E₂-LUGAL	bēt šarri	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	3	nmod	_	_
 5	iz-za-qap₂	zaqāpu	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	_	_	_	_
 
 # text = 01-en ut-ru ina IGI-šu₂
@@ -89,12 +89,12 @@
 
 # text = a-na {LU₂}600-E₂.GAL lid-din lu-bi-lu ina IGI E₂-LUGAL li-iz-qu-pu
 1	a-na	ana	ADP	_	_	2	case	_	_
-2	{LU₂}600-E₂.GAL	nāgir ēkalli	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	3	iobj	_	_
+2	{LU₂}600-E₂.GAL	nāgir ēkalli	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	3	iobj	_	_
 3	lid-din	tadānu	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	lu-bi-lu	wabālu	VERB	_	Gender=Masc|Number=Plur|Person=3|Mood=Prec|VerbStem=G	3	advcl	_	_
 5	ina	ina	ADP	_	_	6	case	_	_
-6	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	8	obl	_	_
-7	E₂-LUGAL	bēt šarri	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	6	nmod	_	_
+6	IGI	pānu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	8	obl	_	_
+7	E₂-LUGAL	bēt šarri	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	6	nmod	_	_
 8	li-iz-qu-pu	zaqāpu	VERB	_	Gender=Masc|Number=Plur|Person=3|Mood=Prec|VerbStem=G	4	conj	_	_
 
 # text = i-su-ri LUGAL EN i-qa-bi ma-a a-ta-a {NA₄}{d}ALAD.{d}LAMA ša {1}NUMUN-DU₃ {LU₂}600-E₂.GAL i-na-aš₂-ši
@@ -107,7 +107,7 @@
 7	{NA₄}{d}ALAD.{d}LAMA	aladlammû	NOUN	_	Gender=Masc|Number=Sing|Case=Acc	11	obj	_	_
 8	ša	ša	ADP	_	_	9	case	_	_
 9	{1}NUMUN-DU₃	Zeru-ibni	PROPN	_	Gender=Masc|Number=Sing|Case=Gen	7	nmod	_	_
-10	{LU₂}600-E₂.GAL	nāgir ēkalli	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounStem=Bound	11	nsubj	_	_
+10	{LU₂}600-E₂.GAL	nāgir ēkalli	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	11	nsubj	_	_
 11	i-na-aš₂-ši	našû	VERB	_	_	4	ccomp	_	_
 
 # text = ki-ma A-MEŠ ina ID₂ i-si-ṣu x x x x+x {NA₄}{d}ALAD.{d}LAMA ša ina UGU ID₂ i-bat-taq-u-ni x+x x LUGAL li-zi-zi
@@ -123,7 +123,7 @@
 10	{NA₄}{d}ALAD.{d}LAMA	aladlammû	NOUN	_	Gender=Masc|Number=Plur|Case=Nom	19	nsubj	_	_
 11	ša	ša	PRON	_	_	15	obj	_	_
 12	ina	ina	ADP	_	_	13	case	_	_
-13	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	15	obl	_	_
+13	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	15	obl	_	_
 14	ID₂	nāru	NOUN	_	Gender=Masc|Number=Sing|Case=Gen	13	nmod	_	_
 15	i-bat-taq-u-ni	batāqu	VERB	_	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Subordinative=Yes|SubSuff=Yes	10	acl	_	_
 16	x+x	x+x	X	_	_	_	_	_	_
@@ -194,7 +194,7 @@
 1	ar₂-hiš	arhiš	ADV	_	_	6	advmod	_	_
 2	{LU₂}A-KIN	mār šipri	NOUN	_	Gender=Masc|Number=Sing|Case=Acc	6	obj	_	_
 3	ina	ina	ADP	_	_	4	case	_	_
-4	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	6	iobj	_	_
+4	UGU	muhhu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	6	iobj	_	_
 5	ARAD-šu₂	ardu	NOUN	_	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc	4	nmod	_	_
 6	liš-pu-ra	šapāru	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
 
