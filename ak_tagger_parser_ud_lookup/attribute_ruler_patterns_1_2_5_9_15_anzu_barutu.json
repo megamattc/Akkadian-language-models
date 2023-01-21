@@ -25210,7 +25210,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -25900,12 +25900,24 @@
       "patterns":[
          [
             {
-               "ORTH":"aššu"
+               "ORTH":"aššu","DEP": "mark"
             }
          ]
       ],
       "attrs":{
-         "POS":"SCONJ"
+         "POS":"SCONJ","TAG": "SBJ"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"aššu","DEP": "case"
+            }
+         ]
+      ],
+      "attrs":{
+         "POS":"ADP","TAG": "PRP"
       }
    },
    {
@@ -69127,7 +69139,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"ADJ","TAG": "AJ","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -76997,6 +77009,20 @@
       "attrs":{
          "TAG":"N",
          "POS":"NOUN"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"yâti"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"IP",
+         "POS":"PRON",
+         "MORPH": "Gender=Com|Number=Sing|Person=1|Case=Acc"
       }
    },
    {

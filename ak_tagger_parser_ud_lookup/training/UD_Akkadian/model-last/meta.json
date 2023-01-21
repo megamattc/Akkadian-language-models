@@ -52,6 +52,7 @@
       "obj",
       "obl",
       "parataxis",
+      "subtok",
       "vocative",
       "xcomp"
     ],
@@ -150,15 +151,26 @@
 
     ],
     "morphologizer":[
+      "Case=Nom|Gender=Masc|NounBase=Free|Number=Sing|POS=NOUN",
+      "POS=PRON",
+      "POS=ADP",
+      "Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing|POS=NOUN",
+      "Case=Gen|Gender=Masc|Number=Sing|POS=NOUN",
+      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G",
+      "Case=Nom|Gender=Masc|Number=Sing|POS=PRON|Person=3",
+      "Case=Nom|Gender=Masc|Number=Plur|POS=NOUN",
+      "Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3",
+      "Case=Nom|Gender=Masc|Number=Sing|POS=NOUN",
+      "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|VerbForm=Stat|VerbStem=G",
+      "Case=Nom|Gender=Com|Number=Sing|POS=PRON|Person=1",
+      "Case=Gen|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
+      "Case=Acc|Gender=Masc|Number=Sing|POS=NOUN",
+      "Case=Nom|Gender=Masc|Number=Sing|POS=PRON|Person=2",
       "POS=ADV",
       "Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing|POS=NOUN",
       "Case=Gen|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2",
-      "Case=Nom|Gender=Masc|Number=Sing|POS=NOUN",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G",
-      "POS=ADP",
       "Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|POS=NOUN",
-      "Case=Gen|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
-      "Case=Acc|Gender=Masc|Number=Sing|POS=NOUN",
       "Gender=Masc|Mood=Prec|Number=Plur|POS=VERB|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|POS=NOUN",
       "Case=Gen|Gender=Masc|Number=Plur|POS=NOUN",
@@ -169,7 +181,6 @@
       "POS=PART",
       "Gender=Masc|Mood=Proh|Number=Sing|POS=VERB|Person=2|VerbStem=G",
       "Gender=Masc|Mood=Imp|Number=Sing|POS=VERB|Person=2|Ventive=Yes|VerbStem=D",
-      "Case=Gen|Gender=Masc|Number=Sing|POS=NOUN",
       "POS=PRON|PronType=Rel",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|SubSuff=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G",
       "Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
@@ -190,17 +201,14 @@
       "Case=Gen|Gender=Masc|NounBase=Free|Number=Sing|POS=NOUN",
       "Case=Nom|Gender=Masc|Number=Plur|POS=DET",
       "Case=Nom|Gender=Masc|Number=Plur|POS=PRON|Person=3",
-      "Case=Nom|Gender=Masc|Number=Plur|POS=NOUN",
       "Case=Gen|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G",
       "_",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G",
-      "POS=PRON",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|SubSuff=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass",
       "Case=Nom|Gender=Fem|NounBase=Free|Number=Plur|POS=DET",
       "Case=Nom|Gender=Fem|Number=Plur|POS=PRON|Person=3",
       "Gender=Fem|Mood=Ind|Number=Plur|POS=VERB|Person=3|VerbForm=Stat|VerbStem=G",
-      "Case=Nom|Gender=Com|Number=Sing|POS=PRON|Person=1",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Case=Acc|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2",
       "Gender=Masc|Mood=Proh|Number=Plur|POS=VERB|Person=2|VerbStem=G",
@@ -236,7 +244,6 @@
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Case=Gen|Gender=Fem|Number=Sing|POS=NOUN|Person=3",
       "Case=Gen|Gender=Masc|Number=Sing|POS=DET",
-      "Case=Nom|Gender=Masc|Number=Sing|POS=PRON|Person=3",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1",
@@ -275,7 +282,6 @@
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D",
       "Gender=Masc|Number=Plur|POS=NOUN",
       "Case=Acc|Gender=Fem|Number=Plur|POS=NOUN|PossSuffNum=Plur",
-      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G",
       "Case=Gen|Gender=Fem|NounStem=Bound|Number=Sing|POS=NOUN",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G",
@@ -318,7 +324,6 @@
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=\u0160",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=N",
       "POS=X",
-      "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|VerbForm=Stat|VerbStem=G",
       "Case=Gen|Gender=Fem|Number=Plur|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
       "Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2",
       "Case=Gen|Gender=Fem|NounStem=Bound|Number=Plur|POS=NOUN",
@@ -386,7 +391,6 @@
       "Gender=Com|Mood=Ind|Number=Plur|POS=VERB|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G",
       "Case=Acc|Gender=Fem|Number=Sing|POS=DET",
       "Case=Nom|Gender=Masc|NounBase=Free|Number=Sing|POS=NOUN|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
-      "Case=Nom|Gender=Masc|NounBase=Free|Number=Sing|POS=NOUN",
       "Gender=Masc|Mood=Prec|Number=Sing|POS=VERB|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|SubSuff=Yes|Ventive=Yes|VerbForm=Stat|VerbStem=G",
       "Gender=Com|Mood=Ind|Number=Plur|POS=VERB|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G",
@@ -510,7 +514,6 @@
       "Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|POS=PRON|Person=2",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=D",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=2|VerbForm=Stat|VerbStem=G",
-      "Case=Nom|Gender=Masc|Number=Sing|POS=PRON|Person=2",
       "Case=Acc|Gender=Masc|Number=Plur|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2",
       "Case=Nom|Gender=Fem|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Subordinative=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G",
@@ -642,7 +645,6 @@
       "Case=Gen|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3",
       "Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G",
       "Gender=Masc|NounBase=Free|Number=Sing|POS=NOUN",
-      "Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing|POS=NOUN",
       "Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G",
       "Case=Ter|Gender=Masc|Number=Sing|POS=ADV",
       "Case=Gen|NounBase=Bound|Number=Sing|POS=NOUN",
@@ -1340,7 +1342,6 @@
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=2|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1",
       "Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing|POS=NOUN",
-      "Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Case=Masc|Gender=Masc|Number=Sing|POS=NOUN",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=2|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbStem=D",
@@ -1950,10 +1951,93 @@
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=S",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2",
       "Gender=Fem|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2",
+      "Case=Nom|Gender=Masc|NounStem=Free|Number=Plur|POS=NOUN|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
+      "Case=Ter|Gender=Masc|NounStem=Free|Number=Sing|POS=NOUN",
+      "Focus=Yes|Gender=Masc|Number=Plur|POS=VERB|Person=3|Subordinative=No|Tense=Perf|Ventive=No|VerbStem=G",
+      "Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=\u0160",
+      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=\u0160|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
+      "Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing|POS=NOUN|VerbForm=Inf|VerbStem=G",
+      "Case=Acc|Gender=Fem|Number=Sing|POS=VERB|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
+      "Case=Nom|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|POS=INTJ",
       "Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D",
+      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Ventive=Yes|VerbStem=\u0160",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N",
+      "Case=Nom|Focus=No|Gender=Fem|NounStem=Free|Number=Sing|POS=NOUN|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
+      "Focus=Yes|Gender=Com|Number=Sing|POS=VERB|Person=1|Subordinative=No|Tense=Past|VerbStem=G",
+      "Case=Acc|Gender=Fem|NounStem=Free|Number=Sing|POS=NOUN|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
+      "Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=Gtn",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Plur|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Gtn",
+      "Gender=Masc|NounStem=Free|Number=Plur|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2",
+      "Case=Acc|Gender=Masc|NounStem=Free|Number=Plur|POS=NOUN|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
+      "Case=Acc|Gender=Masc|NounStem=Free|Number=Sing|POS=ADJ",
+      "Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing|POS=DET",
+      "Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass",
+      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Press|VerbForm=Fin|VerbStem=D",
+      "Focus=Yes|Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3",
+      "Case=Ter|Gender=Fem|NounStem=Free|Number=Sing|POS=NOUN",
+      "Focus=Yes|Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G",
+      "Case=Gen|Gender=Fem|Number=Sing|POS=NOUN|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3",
+      "Case=Gen|Gender=Fem|NounStem=Free|Number=Sing|POS=ADJ",
+      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=Ntn",
+      "Case=Ter|Gender=Masc|Number=Plur|POS=NOUN",
+      "Gender=Fem|NounBase=Bound|NounStem=Bound|Number=Sing|POS=NOUN",
+      "Case=Nom|Gender=Masc|NounStem=Bound|Number=Sing|POS=NOUN|VerbForm=Inf|VerbStem=G",
+      "Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=G",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G",
+      "Case=Acc|Gender=Fem|Number=Plur|POS=PROPN",
+      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=\u0160",
+      "Case=Ter|Gender=Masc|Number=Sing|POS=ADJ",
+      "Gender=Masc|Mood=Ind|Number=Sing|POS=NOUN|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=D",
+      "Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing|POS=NOUN|VerbForm=Inf|VerbStem=\u0160",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D",
+      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=\u0160",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=\u0160",
+      "Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|POS=VERB",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Gtn",
+      "Case=Acc|Gender=Masc|NounBase=Free|Number=Plur|POS=NOUN|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
+      "Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G",
+      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=\u0160|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1",
+      "Case=Nom|Gender=Masc|Number=Sing|POS=NOUN|VerbForm=Inf|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
+      "Case=Acc|Gender=Masc|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=\u0160",
+      "Case=Acc|Gender=Masc|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=D",
+      "Case=Gen|Gender=Fem|Number=Sing|POS=NOUN|PossSuffNum=Sing|PossSuffPer=1",
+      "Gender=Masc|NounBase=Free|Number=Sing|POS=ADJ",
+      "Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1",
+      "Case=Nom|Gender=Masc|NounBase=Bound|NounStem=Bound|Number=Sing|POS=NOUN",
+      "Case=Gen|Gender=Fem|NounBase=Bound|NounStem=Bound|Number=Sing|POS=NOUN",
+      "Case=Acc|Gender=Fem|NounStem=Bound|Number=Sing|POS=ADJ",
+      "Focus=Yes|Gender=Masc|Number=Plur|POS=VERB|Person=3|Subordinative=No|Tense=Past|Ventive=Yes|VerbStem=\u0160",
+      "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G",
+      "Focus=Yes|Gender=Fem|Mood=Ind|Number=Plur|POS=VERB|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=D",
+      "Case=Gen|Gender=Masc|NounBase=Bound|NounStem=Bound|Number=Sing|POS=NOUN",
+      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=N",
+      "Case=Nom|Gender=Masc|Number=Plur|POS=NOUN|Person=3",
+      "Case=Acc|Gender=Masc|NounBase=Bound|NounStem=Bound|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=G",
+      "Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
+      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Subordinative=No|Tense=Perf|VerbForm=Fin|VerbStem=G",
+      "Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=D",
+      "Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=\u0160",
+      "Case=Acc|Gender=Masc|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=N",
+      "Case=Gen|Gender=Fem|Number=Sing|POS=NOUN|PossSufGen=Com|PossSuffNum=Sing|PossSuffPer=1",
+      "Case=Gen|Gender=Fem|Number=Fem|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
+      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Subordinative=No|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G",
+      "Case=Acc|POS=PRON",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D",
+      "Gender=Fem|Mood=Ind|Number=Plur|POS=VERB|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=\u0160",
       "Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|POS=NOUN|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G",
-      "Case=Acc|Gender=Masc|NounStem=Free|Number=Sing|POS=ADJ",
+      "Case=Acc|Gender=Masc|NounStem=Free|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3",
+      "Gender=Fem|NounStem=Free|Number=Sing|POS=NOUN",
+      "Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D",
+      "POS=ADP|PrepSuffGen=Com|PrepSuffNum=Sing|PrepSuffPer=1",
+      "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3",
+      "Case=Acc|Gender=Fem|Number=Plur|POS=VERB|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1",
+      "Focus=No|Gender=Masc|Number=Plur|POS=VERB|Person=3|Subordinative=No|Tense=Past|Ventive=Yes|VerbStem=\u0160",
+      "POS=ADP|PrepSuffNum=Sing|PrepSuffPer=1",
+      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1",
       "Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|POS=ADJ|PredSuffNum=Plur|PredSuffPer=3",
       "Gender=Masc|Number=Sing|POS=VERB|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass",
       "Case=Gen|Gender=Masc|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
@@ -2041,7 +2125,6 @@
       "Case=Gen|Focus=No|Gender=Masc|NounStem=Free|Number=Sing|POS=NOUN|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=2",
       "Focus=No|Gender=Masc|NounStem=Free|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2",
       "Gender=Masc|Mood=Prec|Number=Sing|POS=VERB|Person=3|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2",
-      "Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=G",
       "Focus=No|Gender=Fem|NounStem=Free|Number=Sing|POS=NOUN",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2",
       "Focus=Yes|Gender=Fem|Mood=Prec|Number=Sing|POS=VERB|Person=3|VerbStem=D",
@@ -2132,13 +2215,11 @@
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|SubSuff=Yes|Subordinative=No|VerbForm=Stat|VerbStem=D|Voice=Pass",
       "Case=Nom|Gender=Fem|Number=Plur|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2",
       "Gender=Fem|Mood=Prec|Number=Plur|POS=VERB|Person=3|VerbStem=N",
-      "Gender=Fem|NounStem=Free|Number=Sing|POS=NOUN",
       "Gender=Fem|Mood=Prec|Number=Plur|POS=VERB|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Case=Nom|Focus=Yes|Gender=Fem|Number=Plur|POS=NOUN",
       "Gender=Fem|POS=PROPN",
       "Number=Plur|POS=PROPN",
       "Gender=Fem|Number=Sing|POS=VERB|Person=3|VerbForm=Stat|VerbStem=S",
-      "Case=Gen|Gender=Fem|Number=Sing|POS=NOUN|PossSuffNum=Sing|PossSuffPer=1",
       "Gender=Fem|Number=Plur|POS=NOUN|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=S",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=1",
@@ -2151,10 +2232,8 @@
       "Case=Acc|POS=PROPN",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=N",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=S|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3",
-      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=N",
       "Gender=Masc|NounBase=Bound|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=S",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3",
-      "POS=ADP|PrepSuffNum=Sing|PrepSuffPer=1",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Gt",
       "Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G",
       "Gender=Masc|Number=Sing|POS=VERB|VerbForm=Inf|VerbStem=D",
@@ -2169,7 +2248,6 @@
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=Gt",
       "Gender=Fem|POS=NUM",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=2|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=S",
-      "Case=Gen|Gender=Fem|Number=Sing|POS=NOUN|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=S",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Fem|VerbSuffNum=Plur|VerbSuffPer=3",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Gtn",
@@ -2254,7 +2332,6 @@
       "Gender=Masc|Number=Sing|POS=PRON|Person=3",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=S|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
-      "Gender=Masc|NounBase=Free|Number=Sing|POS=ADJ",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Dt",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=Stn",
       "Gender=Masc|Number=Sing|POS=VERB|Person=3|VerbForm=Stat|VerbStem=Dt",
@@ -2267,7 +2344,6 @@
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3",
       "Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=1",
       "Case=Nom|Gender=Fem|POS=PROPN",
-      "Case=Acc|POS=PRON",
       "Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=S|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Focus=Yes|Gender=Masc|Number=Sing|POS=NOUN|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
@@ -2346,9 +2422,9 @@
 
   ],
   "performance":{
-    "lemma_acc":0.9562762181,
-    "dep_uas":0.8535369775,
-    "dep_las":0.4241157556,
+    "lemma_acc":0.9563958166,
+    "dep_uas":0.8499278499,
+    "dep_las":0.4236010903,
     "dep_las_per_type":{
       "_":{
         "p":0.0,
@@ -2356,114 +2432,109 @@
         "f":0.0
       },
       "case":{
-        "p":0.9340329835,
-        "r":0.9482496195,
-        "f":0.9410876133
+        "p":0.9312406577,
+        "r":0.9468085106,
+        "f":0.9389600603
       },
       "root":{
-        "p":0.1020072392,
-        "r":0.8401084011,
-        "f":0.1819248826
+        "p":0.0981231478,
+        "r":0.8054054054,
+        "f":0.1749339595
       },
       "appos":{
-        "p":0.954887218,
-        "r":0.954887218,
-        "f":0.954887218
+        "p":0.9586466165,
+        "r":0.9586466165,
+        "f":0.9586466165
       },
       "nsubj":{
-        "p":0.7174603175,
-        "r":0.6911314985,
-        "f":0.7040498442
+        "p":0.6888888889,
+        "r":0.6595744681,
+        "f":0.6739130435
       },
       "advmod":{
-        "p":0.8757062147,
-        "r":0.8423913043,
-        "f":0.8587257618
+        "p":0.8674033149,
+        "r":0.8486486486,
+        "f":0.8579234973
       },
       "conj":{
-        "p":0.5390070922,
-        "r":0.5467625899,
-        "f":0.5428571429
+        "p":0.5454545455,
+        "r":0.5551601423,
+        "f":0.5502645503
       },
       "nmod":{
-        "p":0.7663230241,
-        "r":0.7147435897,
-        "f":0.7396351575
+        "p":0.7049689441,
+        "r":0.7252396166,
+        "f":0.7149606299
       },
       "det":{
-        "p":0.8214285714,
-        "r":0.6052631579,
-        "f":0.696969697
+        "p":0.8275862069,
+        "r":0.6315789474,
+        "f":0.7164179104
       },
       "fixed":{
-        "p":0.6666666667,
-        "r":0.0869565217,
-        "f":0.1538461538
+        "p":0.75,
+        "r":0.1304347826,
+        "f":0.2222222222
       },
       "obl":{
-        "p":0.6923076923,
-        "r":0.6534653465,
-        "f":0.6723259762
+        "p":0.7077464789,
+        "r":0.6590163934,
+        "f":0.6825127334
       },
       "mark":{
-        "p":0.6578947368,
-        "r":0.7142857143,
-        "f":0.6849315068
+        "p":0.7777777778,
+        "r":0.8,
+        "f":0.7887323944
       },
       "discourse":{
         "p":0.6274509804,
-        "r":0.6530612245,
-        "f":0.64
-      },
-      "dep":{
-        "p":0.0441176471,
-        "r":0.3,
-        "f":0.0769230769
-      },
-      "acl":{
-        "p":0.7111111111,
-        "r":0.6153846154,
-        "f":0.6597938144
-      },
-      "advcl":{
-        "p":0.3888888889,
-        "r":0.25,
-        "f":0.3043478261
-      },
-      "amod":{
-        "p":0.7936507937,
-        "r":0.8064516129,
-        "f":0.8
-      },
-      "obj":{
-        "p":0.6754966887,
-        "r":0.5177664975,
-        "f":0.5862068966
-      },
-      "ccomp":{
-        "p":0.5862068966,
-        "r":0.4857142857,
-        "f":0.53125
+        "r":0.64,
+        "f":0.6336633663
       },
       "iobj":{
-        "p":0.56,
-        "r":0.5090909091,
-        "f":0.5333333333
+        "p":0.55,
+        "r":0.6,
+        "f":0.5739130435
       },
-      "nmod:poss":{
-        "p":0.8214285714,
-        "r":0.9108910891,
-        "f":0.8638497653
+      "dep":{
+        "p":0.0652173913,
+        "r":0.3,
+        "f":0.1071428571
       },
-      "dislocated":{
-        "p":0.1578947368,
-        "r":0.0909090909,
-        "f":0.1153846154
+      "obj":{
+        "p":0.6440677966,
+        "r":0.5728643216,
+        "f":0.6063829787
+      },
+      "advcl":{
+        "p":0.2857142857,
+        "r":0.2142857143,
+        "f":0.2448979592
+      },
+      "amod":{
+        "p":0.8,
+        "r":0.7741935484,
+        "f":0.7868852459
       },
       "nummod":{
-        "p":0.8596491228,
-        "r":0.9423076923,
-        "f":0.8990825688
+        "p":0.8070175439,
+        "r":0.8846153846,
+        "f":0.8440366972
+      },
+      "acl":{
+        "p":0.6511627907,
+        "r":0.5283018868,
+        "f":0.5833333333
+      },
+      "ccomp":{
+        "p":0.6,
+        "r":0.4166666667,
+        "f":0.4918032787
+      },
+      "dislocated":{
+        "p":0.4615384615,
+        "r":0.1818181818,
+        "f":0.2608695652
       },
       "parataxis":{
         "p":0.0,
@@ -2476,132 +2547,142 @@
         "f":0.5
       },
       "cc":{
-        "p":0.7297297297,
-        "r":0.7714285714,
-        "f":0.75
+        "p":0.8235294118,
+        "r":0.8,
+        "f":0.8115942029
+      },
+      "nmod:poss":{
+        "p":0.9072164948,
+        "r":0.8712871287,
+        "f":0.8888888889
       },
       "advmod:emph":{
-        "p":0.6666666667,
-        "r":0.6666666667,
-        "f":0.6666666667
+        "p":0.6,
+        "r":1.0,
+        "f":0.75
       },
       "vocative":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
-      "cop":{
-        "p":0.25,
-        "r":1.0,
-        "f":0.4
-      },
       "acl:relcl":{
-        "p":1.0,
+        "p":0.3333333333,
         "r":0.3333333333,
-        "f":0.5
+        "f":0.3333333333
+      },
+      "cop":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
       }
     },
-    "sents_p":0.8517073171,
-    "sents_r":0.8517073171,
-    "sents_f":0.8517073171,
-    "tag_acc":0.6970137207,
-    "pos_acc":0.9521414666,
-    "morph_acc":0.8444838996,
+    "sents_p":0.8532856213,
+    "sents_r":0.8524536887,
+    "sents_f":0.8528694521,
+    "tag_acc":0.6977867203,
+    "pos_acc":0.9521113088,
+    "morph_acc":0.8442655936,
     "morph_per_feat":{
       "Case":{
-        "p":0.8529761905,
-        "r":0.8155947638,
-        "f":0.8338667443
+        "p":0.8590963139,
+        "r":0.8191609977,
+        "f":0.8386535113
       },
       "Gender":{
-        "p":0.9476248477,
-        "r":0.9221651521,
-        "f":0.934721666
+        "p":0.9368209256,
+        "r":0.915454188,
+        "f":0.9260143198
       },
       "Number":{
-        "p":0.9371121225,
-        "r":0.9114688129,
-        "f":0.9241126071
+        "p":0.9372693727,
+        "r":0.9154985983,
+        "f":0.9262560778
       },
       "PossSuffNum":{
-        "p":0.9517426273,
-        "r":0.9220779221,
-        "f":0.9366754617
+        "p":0.949602122,
+        "r":0.9203084833,
+        "f":0.9347258486
       },
       "PossSuffPer":{
-        "p":0.9383378016,
-        "r":0.9114583333,
-        "f":0.9247027741
+        "p":0.9204244032,
+        "r":0.8943298969,
+        "f":0.9071895425
       },
       "NounStem":{
-        "p":0.736,
-        "r":0.7049808429,
-        "f":0.7201565558
+        "p":0.7364620939,
+        "r":0.7756653992,
+        "f":0.7555555556
       },
       "Person":{
-        "p":0.8774509804,
-        "r":0.881773399,
-        "f":0.8796068796
+        "p":0.8606158833,
+        "r":0.8648208469,
+        "f":0.8627132413
       },
       "VerbForm":{
-        "p":0.8962075848,
-        "r":0.9089068826,
-        "f":0.9025125628
+        "p":0.896969697,
+        "r":0.8897795591,
+        "f":0.893360161
       },
       "VerbStem":{
-        "p":0.8479020979,
-        "r":0.8493870403,
-        "f":0.8486439195
+        "p":0.8423817863,
+        "r":0.8350694444,
+        "f":0.8387096774
       },
       "PossSuffGen":{
-        "p":0.9210526316,
-        "r":0.9077809798,
-        "f":0.9143686502
+        "p":0.9109195402,
+        "r":0.9057142857,
+        "f":0.9083094556
       },
       "Mood":{
-        "p":0.8972972973,
-        "r":0.902173913,
-        "f":0.8997289973
+        "p":0.8892857143,
+        "r":0.8940754039,
+        "f":0.8916741271
       },
       "Ventive":{
-        "p":0.7516778523,
-        "r":0.7466666667,
-        "f":0.7491638796
+        "p":0.7323943662,
+        "r":0.6842105263,
+        "f":0.7074829932
       },
       "VerbSuffGen":{
-        "p":0.7402597403,
-        "r":0.7215189873,
-        "f":0.7307692308
+        "p":0.6976744186,
+        "r":0.7594936709,
+        "f":0.7272727273
       },
       "VerbSuffNum":{
-        "p":0.746835443,
-        "r":0.7283950617,
-        "f":0.7375
+        "p":0.6931818182,
+        "r":0.7530864198,
+        "f":0.7218934911
       },
       "VerbSuffPer":{
-        "p":0.7215189873,
-        "r":0.7037037037,
-        "f":0.7125
+        "p":0.6590909091,
+        "r":0.7160493827,
+        "f":0.6863905325
       },
       "Tense":{
-        "p":0.8,
-        "r":0.8075117371,
-        "f":0.8037383178
+        "p":0.7981651376,
+        "r":0.8111888112,
+        "f":0.8046242775
       },
       "SubSuff":{
-        "p":0.8113207547,
-        "r":0.7747747748,
-        "f":0.7926267281
+        "p":0.8095238095,
+        "r":0.7657657658,
+        "f":0.787037037
       },
       "Subordinative":{
-        "p":0.5517241379,
+        "p":0.5333333333,
         "r":0.6956521739,
-        "f":0.6153846154
+        "f":0.6037735849
       },
       "NounBase":{
-        "p":0.7262569832,
-        "r":0.7386363636,
-        "f":0.7323943662
+        "p":0.7485380117,
+        "r":0.7272727273,
+        "f":0.7377521614
+      },
+      "Voice":{
+        "p":0.375,
+        "r":0.75,
+        "f":0.5
       },
       "PossSufNum":{
         "p":0.5,
@@ -2614,44 +2695,39 @@
         "f":0.6666666667
       },
       "Focus":{
-        "p":0.7339449541,
-        "r":0.7407407407,
-        "f":0.7373271889
-      },
-      "PronType":{
-        "p":0.8333333333,
-        "r":0.7142857143,
-        "f":0.7692307692
+        "p":0.6612903226,
+        "r":0.7387387387,
+        "f":0.6978723404
       },
       "PrepSuffGen":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+        "p":0.8571428571,
+        "r":0.9230769231,
+        "f":0.8888888889
       },
       "PrepSuffNum":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+        "p":0.8571428571,
+        "r":0.9230769231,
+        "f":0.8888888889
       },
       "PresSuffPer":{
-        "p":1.0,
+        "p":0.7272727273,
         "r":1.0,
-        "f":1.0
+        "f":0.8421052632
       },
-      "Voice":{
-        "p":0.5714285714,
-        "r":1.0,
-        "f":0.7272727273
+      "PronType":{
+        "p":0.8,
+        "r":0.5714285714,
+        "f":0.6666666667
+      },
+      "NounState":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       },
       "SubSuffix":{
         "p":0.0,
         "r":0.0,
         "f":0.0
-      },
-      "NounState":{
-        "p":1.0,
-        "r":0.5,
-        "f":0.6666666667
       },
       "Question":{
         "p":1.0,
@@ -2659,9 +2735,9 @@
         "f":0.6666666667
       },
       "PrepSuffPer":{
-        "p":0.8,
-        "r":0.8,
-        "f":0.8
+        "p":1.0,
+        "r":0.6,
+        "f":0.75
       },
       "PredSuffNum":{
         "p":0.3333333333,
@@ -2674,10 +2750,10 @@
         "f":0.5
       }
     },
-    "tok2vec_loss":25782.7923695102,
-    "trainable_lemmatizer_loss":2361.9734319016,
-    "parser_loss":47609.5897891526,
-    "tagger_loss":13384.2532182579,
-    "morphologizer_loss":10756.8136687043
+    "tok2vec_loss":25980.5588151001,
+    "trainable_lemmatizer_loss":1502.7384912196,
+    "parser_loss":49151.6731502085,
+    "tagger_loss":8640.1576655588,
+    "morphologizer_loss":7542.4683176219
   }
 }
