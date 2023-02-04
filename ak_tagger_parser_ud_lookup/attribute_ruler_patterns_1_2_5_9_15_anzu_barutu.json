@@ -2823,7 +2823,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "DN"
       }
    },
    {
@@ -32023,7 +32023,7 @@
          ]
       ],
       "attrs":{
-         "POS":"DET"
+         "POS":"ADP","TAG": "PRP","MORPH": "Gender=Masc|Number=Plur"
       }
    },
    {
@@ -63540,6 +63540,30 @@
       ],
       "attrs":{
          "POS":"VERB"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"rakbū"
+            }
+         ]
+      ],
+      "attrs":{
+         "POS":"VERB","TAG": "V","MORPH": "Gender=Masc|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"ṣandū"
+            }
+         ]
+      ],
+      "attrs":{
+         "POS":"VERB","TAG": "V","MORPH": "Gender=Masc|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G"
       }
    },
    {
