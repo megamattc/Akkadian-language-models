@@ -1,0 +1,30 @@
+# text = ana šarri bēlīya urdaka Ṭab-ṣil-Ešarra
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	_	2	nsubj	_	_
+5	Ṭab-ṣil-Ešarra	Ṭab-ṣil-Ešarra	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	appos	_	_
+
+# text = Aššur Mullissu ana šarri bēlīya likrubu
+1	Aššur	Aššur	PROPN	DN	Gender=Masc|Number=Sing|Case=Nom	6	nsubj	_	_
+2	Mullissu	Mullissu	PROPN	DN	Gender=Fem|Number=Sing|Case=Nom	1	conj	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	6	obl	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+6	likrubu	karābu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ūm 10-KAM₂ Šarru-emuranni Šarru-nuriissu Babili
+1	ūm	ūmu	NOUN	NOUN	_	_	_	_	_
+2	10-KAM₂	10-KAM₂	ADJ	ADJ	_	1	amod	_	_
+3	Šarru-emuranni	Šarru-emuranni	PROPN	PROPN	Gender=Masc|Number=Sing|Case=Nom	_	_	_	SpaceAfter=No
+4	Šarru-nuri	Šarru-nuri	PROPN	PROPN	Gender=Masc|Number=Sing|Case=Nom	_	_	_	SpaceAfter=No
+5	issu	ištu	ADP	ADP	_	6	case	_	_
+6	Babili	Babili	PROPN	PROPN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+

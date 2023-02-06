@@ -1,0 +1,152 @@
+# text = a-na LUGAL EN-ia ARAD-ka {1}{d}AG-pa-šir
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	ARAD-ka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	{1}{d}AG-pa-šir	nabu-pašir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lu DI-mu a-na LUGAL EN-ia
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = {d}AG u {d}AMAR.UTU a-na LUGAL EN-ia lik-ru-bu
+1	{d}AG	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	u	u	CONJ	CONJ	_	3	cc	_	_
+3	{d}AMAR.UTU	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	a-na	ana	ADP	ADP	_	5	case	_	_
+5	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+6	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
+7	lik-ru-bu	karābu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = DI-mu a-na KUR ša LUGAL EN-ia
+1	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	a-na	ana	ADP	ADP	_	3	case	_	_
+3	KUR	mātu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	ša	ša	ADP	ADP	_	5	case	_	_
+5	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
+
+# text = an-na-a-ti na-ma-da-a-ti ša {GIŠ}ŠU₂.A-MEŠ {GIŠ}IG-MEŠ
+1	an-na-a-ti	annû	NOUN	NOUN	Case=Nom|Gender=Fem|NounBase=Free|Number=Plur	2	nsubj	_	_
+2	na-ma-da-a-ti	namaddu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Plur	0	ROOT	_	_
+3	ša	ša	ADP	DET	_	4	case	_	_
+4	{GIŠ}ŠU₂.A-MEŠ	šipšatu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	2	nmod	_	_
+5	{GIŠ}IG-MEŠ	daltu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	4	nmod	_	_
+
+# text = 01 {GIŠ}ŠU₂.A 26 ina 01 KUŠ₃-LUGAL GID₂.DA 01 ina 01 KUŠ₃ DAGAL am-mar GIR₃.PAD.DU mu-bu-u₂
+1	01	01	NUM	NUM	_	2	nummod	_	_
+2	{GIŠ}ŠU₂.A	šipšatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	26	26	NUM	NUM	_	_	_	_	_
+4	ina	ina	ADP	ADP	_	6	case	_	_
+5	01	01	NUM	NUM	_	6	nummod	_	_
+6	KUŠ₃-LUGAL	ammat šarri	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	GID₂.DA	mūraku	NOUN	NOUN	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|VerbForm=Ind|VerbStem=G	3	nsubj	_	_
+8	01	01	NUM	NUM	_	_	_	_	_
+9	ina	ina	ADP	ADP	_	11	case	_	_
+10	01	01	NUM	NUM	_	11	nummod	_	_
+11	KUŠ₃	ammatu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	DAGAL	rupšu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	8	nsubj	_	_
+13	am-mar	ammar	ADP	ADP	_	14	case	_	_
+14	GIR₃.PAD.DU	eṣemtu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+15	mu-bu-u₂	mūbû	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+
+# text = 01 {GIŠ}ŠU₂.A GID₂.DA 21 ina 01 KUŠ₃-LUGAL GID₂.DA x x x x x x x x x+x x+x x
+1	01	01	NUM	NUM	_	2	nummod	_	_
+2	{GIŠ}ŠU₂.A	šipšatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	GID₂.DA	mūraku	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	_	_	_	_
+4	21	21	NUM	NUM	_	_	_	_	_
+5	ina	ina	ADP	ADP	_	7	case	_	_
+6	01	01	NUM	NUM	_	7	nummod	_	_
+7	KUŠ₃-LUGAL	ammat šarri	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	GID₂.DA	mūraku	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	4	nsubj	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x+x	x+x	X	X	_	_	_	_	_
+18	x+x	x+x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+
+# text = 04 {GIŠ}ŠU₂.A-MEŠ x ina 01 KUŠ₃ GID₂.DA 01 KUŠ₃ DAGAL 01 KUŠ₃ mu-bu-u
+1	04	04	NUM	NUM	_	2	nummod	_	_
+2	{GIŠ}ŠU₂.A-MEŠ	šipšatu	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	ina	ina	ADP	ADP	_	6	case	_	_
+5	01	01	NUM	NUM	_	6	nummod	_	_
+6	KUŠ₃	ammatu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+7	GID₂.DA	mūraku	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+8	01	01	NUM	NUM	_	9	nummod	_	_
+9	KUŠ₃	ammatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+10	DAGAL	rupšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	01	01	NUM	NUM	_	12	nummod	_	_
+12	KUŠ₃	ammatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+13	mu-bu-u	mūbû	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
+
+# text = 02 {GIŠ}ŠU₂.A-MEŠ x x+x ina 01 KUŠ₃ GID₂.DA 01 KUŠ₃ DAGAL 01 KUŠ₃ mu-bu-u
+1	02	02	NUM	NUM	_	2	nummod	_	_
+2	{GIŠ}ŠU₂.A-MEŠ	šipšatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x+x	x+x	X	X	_	_	_	_	_
+5	ina	ina	ADP	ADP	_	7	case	_	_
+6	01	01	NUM	NUM	_	7	nummod	_	_
+7	KUŠ₃	ammatu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+8	GID₂.DA	mūraku	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+9	01	01	NUM	NUM	_	10	nummod	_	_
+10	KUŠ₃	ammatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+11	DAGAL	rupšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	01	01	NUM	NUM	_	13	nummod	_	_
+13	KUŠ₃	ammatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+14	mu-bu-u	mūbû	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+
+# text = x {GIŠ}ŠU₂.A-MEŠ x ina 01 KUŠ₃ GID₂.DA 01 GIR₃.PAD.DU DAGAL 01 GIR₃.PAD.DU mu-bu-u
+1	x	x	X	_	_	_	_	_	_
+2	{GIŠ}ŠU₂.A-MEŠ	šipšatu	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	ina	ina	ADP	ADP	_	6	case	_	_
+5	01	01	NUM	NUM	_	6	nummod	_	_
+6	KUŠ₃	ammatu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+7	GID₂.DA	mūraku	NOUN	NOUN	Case=Gen|Focus=Yes|Gender=Fem|Number=Sing	_	_	_	_
+8	01	01	NUM	NUM	_	9	nummod	_	_
+9	GIR₃.PAD.DU	eṣemtu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+10	DAGAL	rupšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	01	01	NUM	NUM	_	12	nummod	_	_
+12	GIR₃.PAD.DU	eṣemtu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+13	mu-bu-u	mūbû	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+
+# text = 12 {GIŠ}ŠU₂.A-MEŠ 01 ina 01 KUŠ₃ GID₂.DA 01 KUŠ₃ DAGAL 01 KUŠ₃ mu-bu-u
+1	12	12	NUM	NUM	_	2	nummod	_	_
+2	{GIŠ}ŠU₂.A-MEŠ	šipšatu	NOUN	NOUN	Gender=Fem|NounBase=Free|Number=Plur	_	_	_	_
+3	01	01	NUM	NUM	_	7	nsubj	_	_
+4	ina	ina	ADP	ADP	_	6	case	_	_
+5	01	01	NUM	NUM	_	6	nummod	_	_
+6	KUŠ₃	ammatu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	GID₂.DA	mūraku	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+8	01	01	NUM	NUM	_	9	nummod	_	_
+9	KUŠ₃	ammatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+10	DAGAL	rupšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	01	01	NUM	NUM	_	12	nummod	_	_
+12	KUŠ₃	ammatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+13	mu-bu-u	mūbû	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+
+# text = 15 {GIŠ}ŠU₂.A-MEŠ x ina 01 KUŠ₃ GID₂.DA x KUŠ₃ DAGAL 04 ŠU.SI mu-bu-u
+1	15	15	NUM	NUM	_	2	nummod	_	_
+2	{GIŠ}ŠU₂.A-MEŠ	šipšatu	NOUN	NOUN	Gender=Fem|NounBase=Free|Number=Plur	_	_	_	_
+3	x	x	X	u	_	_	_	_	_
+4	ina	ina	ADP	ADP	_	6	case	_	_
+5	01	01	NUM	NUM	_	6	nummod	_	_
+6	KUŠ₃	ammatu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	GID₂.DA	mūraku	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	_	_	_	_
+8	x	x	X	X	_	9	case	_	_
+9	KUŠ₃	ammatu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+10	DAGAL	rupšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+11	04	04	NUM	NUM	_	12	nummod	_	_
+12	ŠU.SI	ubānu	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+13	mu-bu-u	mūbû	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+

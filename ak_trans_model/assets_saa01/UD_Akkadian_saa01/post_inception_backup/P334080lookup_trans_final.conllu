@@ -1,0 +1,99 @@
+# text = a-na {LU₂}SUKKAL EN-a ARAD-ka {1}{d}PA-pa-šir
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	{LU₂}SUKKAL	šukkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	EN-a	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nmod	_	_
+4	ARAD-ka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	{1}{d}PA-pa-šir	nabu-pašir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lu DI-mu a-na {LU₂}SUKKAL EN-a
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	{LU₂}SUKKAL	šukkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	EN-a	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = {d}30 {d}NIN.GAL a-na {LU₂}SUKKAL EN-a lik-ru-bu
+1	{d}30	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	{d}NIN.GAL	nikkal	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	{LU₂}SUKKAL	šukkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+5	EN-a	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	nmod	_	_
+6	lik-ru-bu	karābu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = {1}da-di-su-ri DUMU {1}ra-aʾ-su-nu {URU}tar-bu-si-ib-a.a a-na {URU}KASKAL-ni i-tal-ka iq-ṭi₂-bi-a ma-a {1}gab-bi-a-mur iq-ṭi₂-bi ma-a {1}ra-aʾ-su-nu x x x x x a x x+x+x x x x
+1	{1}da-di-su-ri	dadi-suri	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	_	_	_	_
+2	DUMU	māru	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+3	{1}ra-aʾ-su-nu	raʾsunu	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen	2	nmod:poss	_	_
+4	{URU}tar-bu-si-ib-a.a	tarbusibaya	ADJ	EN	Gender=Masc|Number=Sing|Case=Nom	1	amod	_	_
+5	a-na	ana	ADP	ADP	_	6	case	_	_
+6	{URU}KASKAL-ni	harrani	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+7	i-tal-ka	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+8	iq-ṭi₂-bi-a	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|Ventive=Yes	7	conj	_	_
+9	ma-a	mā	PART	Quotative	_	11	discourse	_	_
+10	{1}gab-bi-a-mur	gabbi-amur	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	iq-ṭi₂-bi	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbStem=G	8	ccomp	_	_
+12	ma-a	mā	PART	Quotative	_	_	_	_	_
+13	{1}ra-aʾ-su-nu	raʾsunu	PROPN	PROPN	Gender=Masc|Number=Sing|Case=Nom	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	a	a	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+21	x+x+x	x+x+x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+23	x	x	X	X	_	_	_	_	_
+24	x	x	X	X	_	_	_	_	_
+
+# text = x a-na 03-ši-UD-me-šu₂ i-tal-ka
+1	x	x	X	X	_	_	_	_	_
+2	a-na	ana	ADP	ADP	_	3	case	_	_
+3	03-ši-UD-me-šu₂	šalšūmi	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=3	4	obl	_	_
+4	i-tal-ka	alāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ma-a pir-ku ina UGU AD-a ak-ta-ra-ra
+1	ma-a	mā	PART	Quotative	_	6	discourse	_	_
+2	pir-ku	perku	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+3	ina	ina	ADP	ADP	_	4	case	_	_
+4	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+5	AD-a	abu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	nmod	_	_
+6	ak-ta-ra-ra	karāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = an-nu-rig₂ a-ṣa-ba-su ina si-bar-ri a-sa-kan-šu₂
+1	an-nu-rig₂	annûri	ADV	ADV	_	2	advmod	_	_
+2	a-ṣa-ba-su	ṣabātu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc	0	ROOT	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	si-bar-ri	siparru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	obl	_	_
+5	a-sa-kan-šu₂	šakānu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc	2	conj	_	_
+
+# text = AD-šu₂ ina IGI-ia ak-ta-la
+1	AD-šu₂	abu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	obj	_	_
+2	ina	ina	ADP	ADP	_	3	case	_	_
+3	IGI-ia	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	obl	_	_
+4	ak-ta-la	kalû	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = mi₃-nu ša {LU₂}SUKKAL EN i-qa-bu-ni
+1	mi₃-nu	mīnu	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ša	ša	PRON	PRON	_	5	obj	_	_
+3	{LU₂}SUKKAL	šukkallu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	EN	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+5	i-qa-bu-ni	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=G	1	nsubj	_	_
+
+# text = EN liš-pu-ra
+1	EN	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	2	nsubj	_	_
+2	liš-pu-ra	šapāru	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Mood=Prec|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = EN a-na {1}rem₂-ni-10 {LU₂}mu-šar-kis liš-al
+1	EN	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	nsubj	_	_
+2	a-na	ana	ADP	ADP	_	3	case	_	_
+3	{1}rem₂-ni-10	remanni-adad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	_
+4	{LU₂}mu-šar-kis	mušarkisu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+5	liš-al	šâlu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = šu₂-tu₂ i-se-me ša pi-šu₂
+1	šu₂-tu₂	šūtu	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	i-se-me	šemû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	ša	ša	ADP	ADP	_	4	case	_	_
+4	pi-šu₂	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	obj	_	_
+

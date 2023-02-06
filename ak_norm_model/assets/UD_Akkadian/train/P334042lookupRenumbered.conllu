@@ -1,0 +1,56 @@
+# text = ana šarri bēlīya urdaka Ṭab-ṣil-Ešarra
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	2	nsubj	_	_
+5	Ṭab-ṣil-Ešarra	ṭab-ṣil-ešarra	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	_
+
+# text = o lū šulmu ana šarri bēlīya
+1	o	o	X	X	_	_	_	_	_
+2	lū	lū	PART	PART	_	3	advmod	_	_
+3	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+4	ana	ana	ADP	ADP	_	5	case	_	_
+5	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	3	nsubj	_	_
+6	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	5	appos	_	_
+
+# text = Aššur Mullissu ana šarri bēlīya likrubu
+1	Aššur	aššur	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Mullissu	mullissu	PROPN	PROPN	Gender=Fem|Number=Sing|Case=Nom	1	conj	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	6	obl	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+6	likrubu	karābu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ūm 11-KAM₂ eṣādu ina Hinzani ussallimu
+1	ūm	ūmu	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+2	11-KAM₂	11-kam₂	ADJ	_	_	1	amod	_	_
+3	eṣādu	eṣēdu	VERB	_	Gender=Masc|Number=Sing|Case=Acc|VerbForm=Inf|VerbStem=G	6	obj	_	_
+4	ina	ina	ADP	ADP	_	5	case	_	_
+5	Hinzani	hinzani	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	6	obl	_	_
+6	ussallimu	šalāmu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = x x eṣīdi x x x adu bēt x x annāka x x lāšu lā immaggur lā izabbilu
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	eṣīdi	eṣdu	ADJ	_	Gender=Masc|Number=Sing|Case=Nom	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	adu	adi	SCONJ	ADP	_	_	_	_	_
+8	bēt	bītu	NOUN	NOUN	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	annāka	annaka	ADV	ADV	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	lāšu	laššu	VERB	VERB	_	_	_	_	_
+15	lā	lā	PART	PART	_	16	advmod	_	_
+16	immaggur	magāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	_	_	_	_
+17	lā	lā	PART	PART	_	18	advmod	_	_
+18	izabbilu	zabālu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	16	conj	_	_
+
+# text = ina lipānīka izabbilu
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	lipānīka	labiānu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	3	obl	_	_
+3	izabbilu	zabālu	VERB	_	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+

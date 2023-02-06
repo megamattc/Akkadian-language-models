@@ -1,0 +1,83 @@
+preprocess:
+  cmd: python -m spacy run preprocess
+  script:
+    - mkdir -p corpus/UD_Akkadian_saa01
+    - python -m spacy convert assets/UD_Akkadian_saa01/train  corpus/UD_Akkadian_saa01/train
+      --n-sents 4 --converter auto --merge-subtokens
+    - python -m spacy convert  assets/UD_Akkadian_saa01/dev corpus/UD_Akkadian_saa01/dev
+      --n-sents 4 --converter auto --merge-subtokens
+    - python -m spacy convert  assets/UD_Akkadian_saa01/test corpus/UD_Akkadian_saa01/test
+      --n-sents 4 --converter auto --merge-subtokens
+  deps:
+    - path: assets/UD_Akkadian_saa01/train
+      md5: 25fb15a1204102e86509a7845a974249
+    - path: assets/UD_Akkadian_saa01/dev
+      md5: ca2e72003ab026fcd78ec289b196aedf
+    - path: assets/UD_Akkadian_saa01/test
+      md5: 3fedcf8c952f31053ae7a2d0a6c1e955
+  outs:
+    - path: corpus/UD_Akkadian_saa01/train
+      md5: f91501a894b23ecb1da8f453f0058a53
+    - path: corpus/UD_Akkadian_saa01/dev
+      md5: a32cb207f756624066bd33ca6fe62e79
+    - path: corpus/UD_Akkadian_saa01/test
+      md5: 0be15c9bcaae3b00bb3af2a11b286899
+  spacy_version: 3.4.4
+  spacy_git_version: 77833bfef
+train:
+  cmd: python -m spacy run train
+  script:
+    - python -m spacy train  configs/transliteration_lemmatizer.cfg --output training/UD_Akkadian_saa01
+      --gpu-id -1  --paths.train corpus/UD_Akkadian_saa01/train  --paths.dev corpus/UD_Akkadian_saa01/dev
+      --paths.vectors/vectors --nlp.lang=akt
+  deps:
+    - path: corpus/UD_Akkadian_saa01/train
+      md5: f91501a894b23ecb1da8f453f0058a53
+    - path: corpus/UD_Akkadian_saa01/dev
+      md5: a32cb207f756624066bd33ca6fe62e79
+    - path: configs/transliteration_lemmatizer.cfg
+      md5: 6bdb2fbfea8da44b1ef0a4efc2368bf1
+  outs:
+    - path: training/UD_Akkadian_saa01/model-best
+      md5: 3aa68c5e4b12d57afd91b850570f720b
+  spacy_version: 3.4.4
+  spacy_git_version: 77833bfef
+package:
+  cmd: python -m spacy run package
+  script:
+    - python -m spacy package  training/UD_Akkadian_saa01/model-best packages  --name
+      ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer_transformer  --version
+      0.0.0 --force
+  deps:
+    - path: training/UD_Akkadian_saa01/model-best
+      md5: 3aa68c5e4b12d57afd91b850570f720b
+  outs:
+    - path: packages/akt_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer_transformer-0.0.0/dist/en_ud_akk_saa01_05_15_anzu_barutu_transliteration_lemmatizer_transformer-0.0.0.tar.gz
+      md5: null
+  spacy_version: 3.4.4
+  spacy_git_version: 77833bfef
+clean:
+  cmd: python -m spacy run clean
+  script:
+    - rm -rf training/*
+    - rm -rf metrics/*
+    - rm -rf corpus/*
+  deps: []
+  outs: []
+  spacy_version: 3.4.1
+  spacy_git_version: 5c2a00cef
+evaluate:
+  cmd: python -m spacy run evaluate
+  script:
+    - python -m spacy evaluate  ./training/UD_Akkadian_saa01/model-best  ./corpus/UD_Akkadian_saa01/test  --output
+      ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
+  deps:
+    - path: training/UD_Akkadian_saa01/model-best
+      md5: 3aa68c5e4b12d57afd91b850570f720b
+    - path: corpus/UD_Akkadian_saa01/test
+      md5: 0be15c9bcaae3b00bb3af2a11b286899
+  outs:
+    - path: metrics/UD_Akkadian_saa01.json
+      md5: 5c1781116a44d3d1743bbf1db25397db
+  spacy_version: 3.4.4
+  spacy_git_version: 77833bfef

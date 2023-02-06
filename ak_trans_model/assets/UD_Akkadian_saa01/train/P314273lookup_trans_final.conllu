@@ -1,0 +1,76 @@
+# text = a-na {1}x-x+x-ti-EN IM {1}{d}PA-SIG₅-iq
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	{1}x-x+x-ti-EN	1}x	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen	3	nmod	_	_
+3	IM	ṭuppu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|NounBase=Bound	0	ROOT	_	_
+4	{1}{d}PA-SIG₅-iq	nabu-deʾiq	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen	3	nmod	_	_
+
+# text = lu DI-mu a-na EN-a
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	EN-a	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	2	nsubj	_	_
+
+# text = {1}tab-ni-DINGIR ha-na-ka i-tal-ka
+1	{1}tab-ni-DINGIR	tabni-ilu	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	3	nsubj	_	_
+2	ha-na-ka	annaka	ADV	ADV	_	3	advmod	_	_
+3	i-tal-ka	alāku	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = a-na {1}{d}PA-še-zib da-ki
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	{1}{d}PA-še-zib	nabu-šezib	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen	3	obl	_	_
+3	da-ki	dekû	VERB	_	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G	0	ROOT	_	_
+
+# text = ina IGI DUMU-LUGAL liq-qi-bi
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	IGI	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
+3	DUMU-LUGAL	mār šarri	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	2	nmod	_	_
+4	liq-qi-bi	qabû	VERB	_	Gender=Masc|Number=Sing|Person=3|Mood=Prec|VerbStem=G	0	ROOT	_	_
+
+# text = {ŠE}PAD-MEŠ {ŠE}GIŠ.I₃ bi-la-nu
+1	{ŠE}PAD-MEŠ	kurummatu	NOUN	NOUN	Gender=Fem|Number=Plur|Case=Acc	3	obj	_	_
+2	{ŠE}GIŠ.I₃	šamaššammū	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+3	bi-la-nu	wabālu	VERB	_	Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=1|VerbSuffGen=Com	0	ROOT	_	_
+
+# text = a-ke {ŠE}PAD-MEŠ ta-na-ši
+1	a-ke	kê	ADV	_	_	3	advmod	_	_
+2	{ŠE}PAD-MEŠ	kurummatu	NOUN	NOUN	Gender=Fem|Number=Plur|Case=Acc	3	obj	_	_
+3	ta-na-ši	našû	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ma-nu ta-da-šu-nu
+1	ma-nu	mannu	PRON	PRON	Gender=Masc|Number=Sing|Case=Nom	2	obj	_	_
+2	ta-da-šu-nu	tadānu	VERB	_	Gender=Masc|Number=Sing|Person=2|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|VerbSuffNum=Plur|VerbSuffPer=3|VerbSuffGen=Masc	0	ROOT	_	_
+
+# text = ana-ku u₂-da-ia a-ka-li-šu₂
+1	ana-ku	anāku	PRON	_	Gender=Com|Number=Sing|Person=1|Case=Nom	3	nsubj	_	_
+2	u₂-da-ia	udī-	NOUN	_	PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	1	nmod	_	_
+3	a-ka-li-šu₂	kalû	VERB	_	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc	0	ROOT	_	_
+
+# text = NUMUN-šu₂ ir-tu₂-mu ina IGI DUMU-MAN x x x x x x x x x x u₂-x x x x x x x x x x x+x x
+1	NUMUN-šu₂	zēru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	obj	_	_
+2	ir-tu₂-mu	ramû	VERB	V	Gender=Masc|Number=Plur|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	_	_	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	IGI	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+5	DUMU-MAN	mār šarri	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	4	nmod	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	u₂-x	u₂-x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+21	x	x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+23	x	x	X	X	_	_	_	_	_
+24	x	x	X	X	_	_	_	_	_
+25	x	x	X	X	_	_	_	_	_
+26	x+x	x+x	X	X	_	_	_	_	_
+27	x	x	X	X	_	_	_	_	_
+

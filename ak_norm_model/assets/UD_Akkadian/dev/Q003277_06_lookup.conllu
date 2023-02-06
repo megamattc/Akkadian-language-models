@@ -1,0 +1,37 @@
+
+# text = Marduk aplu rēštû Enlil ilāni ša šuddû u šūšubu bāšû ittišu
+1	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+2	aplu	aplu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	1	appos	_	_
+3	rēštû	rēštû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+4	Enlil	enlil	PROPN	DN	Gender=Masc|Number=Sing|Case=Nom	1	appos	_	_
+5	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	ša	ša	PRON	REL	_	11	nmod	_	_
+7	šuddû	nadû	VERB	V	Gender=Masc|Number=Sing|Case=Nom|VerbForm=Inf|VerbStem=Š	10	nsubj	_	_
+8	u	u	CONJ	CNJ	_	9	cc	_	_
+9	šūšubu	wašābu	VERB	V	Gender=Masc|Number=Sing|Case=Nom|VerbForm=Inf|VerbStem=Š	7	conj	_	_
+10	bāšû	bāšû	VERB	V	Gender=Masc|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G	1	acl	_	_
+11	ittišu	itti	ADP	PRP	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	10	obl	_	_
+
+# text = Nabu ṭupšar gimri āšir Igigi u Anunnaki pāqid kiššat nagbi
+1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+2	ṭupšar	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+3	gimri	gimru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	_
+4	āšir	āširu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+5	Igigi	igigi	PROPN	DN	Number=Plur|Case=Gen|Number=Plur	4	nmod:poss	_	_
+6	u	u	CONJ	CNJ	_	7	cc	_	_
+7	Anunnaki	anunnaki	PROPN	DN	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_
+8	pāqid	pāqidu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
+9	kiššat	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	8	nmod	_	_
+10	nagbi	nagbu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	9	nmod:poss	_	_
+
+# text = Marduk bēlu rabû epšēt parak ilūtišu ṣīrti mimma šumšu ihsusma
+1	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	bēlu	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	appos	_	_
+3	rabû	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+4	epšēt	epištu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Plur	10	obj	_	_
+5	parak	parakku	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	nmod:poss	_	_
+6	ilūtišu	ilūtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	nmod:poss	_	_
+7	ṣīrti	ṣīru	ADJ	AJ	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	6	amod	_	_
+8	mimma	mimma	PRON	XP	Case=Acc	4	nmod	_	_
+9	šumšu	šumu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	8	fixed	_	_
+10	ihsusma	hasāsu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|Focus=Yes	0	ROOT	_	_

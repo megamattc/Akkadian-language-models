@@ -1,0 +1,68 @@
+# text = a-na LUGAL EN-ia ARAD-ka {1}a-mar-DINGIR
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	ARAD-ka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	{1}a-mar-DINGIR	amar-ili	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lu DI-mu a-na LUGAL EN-ia
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = ina UGU E₂ {1}mar-du-u ša LUGAL EN iq-bu-u-ni ma-a at-ta {LU₂}EN.NAM ša {URU}arba-il₃ E₂ ki-i a-hi-iš bir-ti DUMU-MEŠ {1}mar-du-u zu-za di-na ki-i ša LUGAL EN iš-pur-u-ni {GIŠ}le-ʾu i-ba-aš₂-ši ina ŠA₃-bi ne₂-ta-mar
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	UGU	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	31	dislocated	_	_
+3	E₂	bītu	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	nmod	_	_
+4	{1}mar-du-u	mardu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	ša	ša	PRON	PRON	_	8	obl	_	_
+6	LUGAL	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	EN	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
+8	iq-bu-u-ni	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	acl	_	_
+9	ma-a	mā	PART	Quotative	_	20	discourse	_	_
+10	at-ta	atta	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=2	20	nsubj	_	_
+11	{LU₂}EN.NAM	pīhātu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+12	ša	ša	ADP	ADP	_	13	case	_	_
+13	{URU}arba-il₃	arbail	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	E₂	bītu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
+15	ki-i	kī	ADP	ADP	_	16	case	_	_
+16	a-hi-iš	ahāmiš	ADV	ADV	_	20	advmod	_	_
+17	bir-ti	birti	ADP	ADP	_	18	case	_	_
+18	DUMU-MEŠ	māru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+19	{1}mar-du-u	mardu	PROPN	PN	Gender=Masc|Number=Sing|Case=Gen	18	nmod	_	_
+20	zu-za	zâzu	VERB	VERB	Gender=Masc|Number=Plur|Person=2|Mood=Imp|VerbStem=G	8	ccomp	_	_
+21	di-na	tadānu	VERB	VERB	Gender=Masc|Number=Plur|Person=2|Mood=Imp|VerbStem=G	20	conj	_	_
+22	ki-i	kī	ADP	ADP	_	0	case	_	_
+23	ša	ša	PRON	PRON	_	26	obj	_	_
+24	LUGAL	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+25	EN	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	24	appos	_	_
+26	iš-pur-u-ni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	31	obl	_	_
+27	{GIŠ}le-ʾu	lēʾu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+28	i-ba-aš₂-ši	bašû	ADV	ADV	_	31	advmod	_	_
+29	ina	ina	ADP	ADP	_	30	case	_	_
+30	ŠA₃-bi	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_
+31	ne₂-ta-mar	amāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ak-ta-nak ina ŠA₃-bi a-sa-kan
+1	ak-ta-nak	kanāku	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	ina	ina	ADP	PRP	_	3	case	_	_
+3	ŠA₃-bi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	obl	_	_
+4	a-sa-kan	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	1	conj	_	_
+
+# text = u₂-ma-a ina pa-an LUGAL EN-ia a-sap-ra
+1	u₂-ma-a	ūma	ADV	ADV	_	6	advmod	_	_
+2	ina	ina	ADP	ADP	_	3	case	_	_
+3	pa-an	pānu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	iobj	_	_
+4	LUGAL	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+6	a-sap-ra	šapāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = mi₃-nu ša LUGAL be-li i-qab-bu-ni
+1	mi₃-nu	mīnu	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ša	ša	PRON	PRON	_	5	obj	_	_
+3	LUGAL	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	be-li	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+5	i-qab-bu-ni	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	1	nsubj	_	_
+

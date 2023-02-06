@@ -1,0 +1,73 @@
+# text = a-na LUGAL EN-ia ARAD-ka {1}x x x x
+1	a-na	ana	ADP	ADP	_	2	case	_	_
+2	LUGAL	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	ARAD-ka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=2	2	nsubj	_	_
+5	{1}x	1}x	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+
+# text = lu DI-mu a-na LUGAL EN-ia
+1	lu	lū	PART	PART	_	2	advmod	_	_
+2	DI-mu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+3	a-na	ana	ADP	ADP	_	4	case	_	_
+4	LUGAL	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
+5	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = ina UGU {LU₂}TIN-MEŠ-ia ša LUGAL be-li₂ iš-pur-an-ni ma-a lil-lik-u-ni x x x a-di {LU₂}GAL-MEŠ dul-lu le-pu-šu₂
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	UGU	muhhu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	_	_	_	_
+3	{LU₂}TIN-MEŠ-ia	itinnu	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	nmod	_	_
+4	ša	ša	PRON	PRON	_	7	obl	_	_
+5	LUGAL	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	7	nsubj	_	_
+6	be-li₂	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	5	appos	_	_
+7	iš-pur-an-ni	šapāru	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|SubSuff=Yes	3	acl	_	_
+8	ma-a	mā	PART	Quotative	_	9	discourse	_	_
+9	lil-lik-u-ni	alāku	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Mood=Prec|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	a-di	adi	ADP	ADP	_	14	case	_	_
+14	{LU₂}GAL-MEŠ	rabiu	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen	16	obl	_	_
+15	dul-lu	dullu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc	16	obj	_	_
+16	le-pu-šu₂	epēšu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Mood=Prec|VerbStem=G	9	conj	_	_
+
+# text = ma-a i-su-ri x+x x x x {NA₄}{d}ALAD.{d}LAMA x x x x u₂-pa-hu
+1	ma-a	mā	PART	Quotative	_	_	_	_	_
+2	i-su-ri	issurri	ADV	ADV	_	_	_	_	_
+3	x+x	x+x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	{NA₄}{d}ALAD.{d}LAMA	aladlammû	NOUN	NOUN	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	u₂-pa-hu	puhhu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+
+# text = an-nu-rig {LU₂}TIN-MEŠ ina UGU LUGAL EN-ia u₂-se-bi-la
+1	an-nu-rig	annûri	ADV	ADV	_	7	advmod	_	_
+2	{LU₂}TIN-MEŠ	itinnu	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Acc	7	obj	_	_
+3	ina	ina	ADP	ADP	_	4	case	_	_
+4	UGU	muhhu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounBase=Bound	7	iobj	_	_
+5	LUGAL	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_
+6	EN-ia	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
+7	u₂-se-bi-la	wabālu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=Š|Ventive=Yes	0	ROOT	_	_
+
+# text = i-su-ri {LU₂}GAL-MEŠ ina E₂.GAL i-qa-bi-u ma-a x x x x x x x
+1	i-su-ri	issurri	ADV	ADV	_	5	advmod	_	_
+2	{LU₂}GAL-MEŠ	rabiu	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Nom	5	nsubj	_	_
+3	ina	ina	ADP	ADP	_	4	case	_	_
+4	E₂.GAL	ēkallu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nmod	_	_
+5	i-qa-bi-u	qabû	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+6	ma-a	mā	ADP	Quotative	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+
