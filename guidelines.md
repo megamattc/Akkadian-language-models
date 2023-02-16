@@ -5,6 +5,16 @@
 * Walkthrough of the workflow from start to finish, with notes about things to pay attention to, likely problems, and issues I haven't solved or still find troublesome
 * Overview of helper scripts and directory structure
 
+## Structure of the documentation
+
+There are a number of markdown files in this repository meant to explain certain parts of the pipeline. In addition, the helper scripts have some initial comments at the top which should help you understand what they do and how to use them. 
+
+A brief introduction to the pipeline is found in ```README.md```. The more general introduction to everything is this document (```guidelines.md```), which covers each major step on the work flow, mentioning relevant helper scripts and supplementary software, as well as tips about understanding and avoiding computer errors. It also describes a few experimental pipeline components that I have not yet gotten to work beneficially (MO: this section still needs to be expanded). You should start with this document, reading through it and skipping parts as appropriate. 
+
+In addition there are a few separate markdown files covering certain topics in more detail. They include ```morphological_annotation_guidelines.md```, which covers the conventions for morphological annotations in the treebank, choices made in grammatical analysis, and certain frequent data bugs. A similar file, ```syntactic_annotation_guidelines.md``` discusses these issues in the syntactic domain. Finally, there is a brief discussion of how the Akkadian treebank is meant to fit into a larger project, that of designing a metaphor detecting model using Conceptual Metaphor Theory. This is in ```connection_metaphor_theory.md```
+
+## Basic assumptions
+
 How much guidance you need in using the tools and data in this repository depends greatly on your background in Natural Language Processing (NLP), programming skills, intended purpose, and what you already have installed on your machine. You will need to be able to use the terminal and understand basic command line functions, and knowing the basics of Python is also very helpful. With that said, you may very well find shortcuts or better ways to do things than I have, depending on how much effort you want to put into automating certain tasks as opposed to just getting them done by hand quickly. You may also only wish to 'get your feet wet' in terms of seeing how certain tasks are done without needing to do all the work necessary for completing that task (say annotating a whole batch of texts). You can simply skip to the next checkpoint in the pipeline that has a full data set processed for you.
 
 The guidelines are a mix of things in the sense that they reflect both how the original model AkkParser and its data set were created and how methods have evolved since then. A high-level discussion of AkkParser and its data can be found in the forthcoming publication of this model. Here we are more interested in the nuts and bolts of how to reproduce the pipeline and to document things for posterity. 
