@@ -159,9 +159,9 @@ def merge_into_attributeList(attributeList1: list, patternPair2: dict) -> list:
 
 
 
-inputFileName1 = sys.argv[1] #File name of input attribute ruler file
+inputFileName1 = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File name of input attribute ruler file
 
-outputFileName = sys.argv[2] #File name of output attribute ruler file
+outputFileName = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File name of output attribute ruler file
 
 inputFile1 = open(inputFileName1, 'r')
 attributeList1 = json.load(inputFile1)

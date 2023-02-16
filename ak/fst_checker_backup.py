@@ -13,7 +13,7 @@ class FSTChecker:
     lookup_dict = json.load(file)
     file2 = open("fst_comparison_log.txt",'w')
 
-    dialect = "neoass"
+    dialect = "stdbab"
 
     def __init__(self, nlp, name: str = "fst_checker") -> None:
 

@@ -64,9 +64,9 @@ os.makedirs('output', exist_ok = True)
 oraccVolume = 'rinap4' #Short name of oracc project
 oraccProject = 'rinap/' + oraccVolume #Full name of oracc project
 
-lemmaLookupFileName = 'ak_lemma_lookup_' + oraccVolume + '.json' #Name of file for lemma list
-attributeLookupFileName = 'attribute_ruler_patterns_raw_' + oraccVolume + '.json' #Name of file for attribute list
-translitLookupFileName = 'ak_transliteration_lookup_'+oraccVolume+'.json'
+lemmaLookupFileName = 'ak_norm_lemma_lookup_' + oraccVolume + '.json' #Name of file for lemma list
+attributeLookupFileName = 'attribute_ruler_patterns_' + oraccVolume + '.json' #Name of file for attribute list
+translitLookupFileName = 'akt_trans_lemma_lookup_'+oraccVolume+'.json'
 
 #Get data only from one project (MO: I don't understand what 'placeholder' does - one should be able to use this to process all volumes at once )
 

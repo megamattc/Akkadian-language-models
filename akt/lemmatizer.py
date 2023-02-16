@@ -53,7 +53,7 @@ class AkkadianLemmatizer(Lemmatizer):
 
     def create_lookups(self): #Got the next two functions from stackoverflow. Feels like a hack. 
         lookups = Lookups()
-        lookups.add_table("lemma_lookup", self.json_to_dict('lookups/ak_transliteration_lookup_1_2_5_15_anzu_barutu.json')) #Calls up json file associated with lemmas, in /lookups directory
+        lookups.add_table("lemma_lookup", self.json_to_dict('lookups/akt_trans_lemma_lookup_1_2_5_15_anzu_barutu.json')) #Calls up json file associated with lemmas, in /lookups directory
     
         return lookups
 

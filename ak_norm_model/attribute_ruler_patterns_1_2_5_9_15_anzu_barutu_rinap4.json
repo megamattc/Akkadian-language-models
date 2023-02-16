@@ -16,25 +16,12 @@
       "patterns":[
          [
             {
-               "ORTH":"ša"
-            }
-         ]
-      ],
-      "attrs":{
-         "TAG":"PRP",
-         "POS":"ADP"
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
                "ORTH":"Aššur-ahu-iddina"
             }
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "PN"
       }
    },
    {
@@ -2886,7 +2873,8 @@
       ],
       "attrs":{
          "MORPH":"Gender=Masc|Number=Sing",
-         "POS":"PROPN"
+         "POS":"PROPN",
+         "TAG": "DN"
       }
    },
    {
@@ -23301,8 +23289,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"N",
-         "POS":"NOUN"
+         "TAG":"DP",
+         "POS":"DET"
       }
    },
    {
@@ -25904,13 +25892,26 @@
       "patterns":[
          [
             {
-               "ORTH":"aššu"
+               "ORTH":"aššu","DEP": "mark"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"SBJ",
+         "POS":"SCONJ"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"aššu","DEP": "case"
             }
          ]
       ],
       "attrs":{
          "TAG":"PRP",
-         "POS":"SCONJ"
+         "POS":"ADP"
       }
    },
    {
@@ -28693,7 +28694,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -41857,7 +41858,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "REL"
       }
    },
    {
@@ -43224,7 +43225,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "QP"
       }
    },
    {
@@ -52472,7 +52473,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "GN","MORPH": "Gender=Fem"
       }
    },
    {
@@ -107366,7 +107367,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -112643,7 +112644,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "SN"
       }
    },
    {
@@ -113310,7 +113311,7 @@
       "patterns":[
          [
             {
-               "ORTH":"šemû"
+               "ORTH":"šemû","DEP": "amod"
             }
          ]
       ],
@@ -113490,7 +113491,20 @@
       "patterns":[
          [
             {
-               "ORTH":"lapān"
+               "ORTH":"lapān","DEP": "case"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"PRP",
+         "POS":"ADP"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"lapān","DEP": {"NOT_IN":["case"]}
             }
          ]
       ],
@@ -115036,8 +115050,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"N",
-         "POS":"NOUN"
+         "TAG":"DP",
+         "POS":"DET"
       }
    },
    {
@@ -117001,7 +117015,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -119567,8 +119581,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"PRP",
-         "POS":"ADP"
+         "TAG":"NOUN",
+         "POS":"N"
       }
    },
    {
@@ -127893,8 +127907,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"N",
-         "POS":"NOUN"
+         "TAG":"DP",
+         "POS":"DET"
       }
    },
    {
@@ -132581,7 +132595,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "PN"
       }
    },
    {
@@ -134133,8 +134147,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"N",
-         "POS":"NOUN"
+         "TAG":"DP",
+         "POS":"DET"
       }
    },
    {
@@ -134349,7 +134363,7 @@
       "patterns":[
          [
             {
-               "ORTH":"šemû"
+               "ORTH":"šemû","DEP": {"NOT_IN": ["amod"]}
             }
          ]
       ],
@@ -153025,8 +153039,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"N",
-         "POS":"NOUN"
+         "TAG":"DP",
+         "POS":"DET"
       }
    },
    {

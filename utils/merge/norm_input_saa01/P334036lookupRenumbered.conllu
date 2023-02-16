@@ -1,0 +1,126 @@
+# text = ana šarri bēlīya urdaka Ṭab-ṣil-Ešarra o
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	2	nsubj	_	_
+5	Ṭab-ṣil-Ešarra	ṭab-ṣil-ešarra	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	_
+6	o	o	X	X	_	_	_	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	appos	_	_
+
+# text = Aššur Mullissu ana šarri bēlīya likrubu
+1	Aššur	aššur	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Mullissu	mullissu	PROPN	DN	Gender=Fem|Number=Sing|Case=Gen	1	conj	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	6	obl	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	appos	_	_
+6	likrubu	karābu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Mood=Prec|VerbStem=G	0	ROOT	_	_
+
+# text = ana naggārāni assaʾal mūku atâ ba-x x x
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	naggārāni	nagāru	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen	3	obj	_	_
+3	assaʾal	šâlu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	mūku	muk	PART	Quotative	_	_	_	_	_
+5	atâ	atā	PRON	PRON	_	_	_	_	_
+6	ba	ba	X	X	_	_	_	_	SpaceAfter=No
+7	-	-	X	X	_	_	_	_	SpaceAfter=No
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+
+# text = rēhti dulli ina Sapirrite epša
+1	rēhti	rēhtu	NOUN	NOUN	Gender=Fem|Number=Sing|Case=Acc|NounStem=Bound	5	obj	_	_
+2	dulli	dullu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	1	nmod	_	_
+3	ina	ina	ADP	ADP	_	4	case	_	_
+4	Sapirrite	sapirrite	PROPN	SN	Case=Gen	5	obl	_	_
+5	epša	epēšu	VERB	VERB	Gender=Masc|Number=Plur|Person=2|Mood=Imp|VerbStem=G	0	ROOT	_	_
+
+# text = mā ūmāti x x x x+x mā annāka x x x ēṣē rapšūte neppaš
+1	mā	mā	PART	PART	_	_	_	_	_
+2	ūmāti	ūmu	NOUN	_	Gender=Fem|Number=Plur	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x+x	x+x	X	X	_	_	_	_	_
+7	mā	mā	PART	Quotative	_	14	discourse	_	_
+8	annāka	annaka	ADV	ADV	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	ēṣē	iṣu	NOUN	_	Gender=Masc|Number=Plur|Case=Acc	14	obj	_	_
+13	rapšūte	rapšu	ADJ	_	Gender=Masc|Number=Plur|Case=Acc	12	amod	_	_
+14	neppaš	epēšu	VERB	VERB	Gender=Com|Number=Plur|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = mā x x x+x bu-x x x x x x x x mā x x x x x x x ziqpī ina Ekallat akkisūni
+1	mā	mā	ADP	ADP	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x+x	x+x	X	X	_	_	_	_	_
+5	bu	bu	X	X	_	_	_	_	SpaceAfter=No
+6	-	-	X	X	_	_	_	_	SpaceAfter=No
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	mā	mā	ADP	ADP	_	_	_	_	_
+16	x	x	X	X	_	_	_	_	_
+17	x	x	X	X	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+21	x	x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+23	ziqpī	ziqpu	NOUN	N	Gender=Masc|Number=Plur|Case=Acc	26	obj	_	_
+24	ina	ina	ADP	PRP	_	25	case	_	_
+25	Ekallat	ekallat	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	26	obl	_	_
+26	akkisūni	nakāsu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Subordinative=Yes|SubSuff=Yes	_	_	_	_
+
+# text = annurig ubbal ina libbi ušaškanšunu
+1	annurig	annûri	ADV	ADV	_	2	advmod	_	_
+2	ubbal	wabālu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	ina	ina	ADP	ADP	_	4	case	_	_
+4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	obl	_	_
+5	ušaškanšunu	šakānu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=Š|VerbSuffNum=Plur|VerbSuffPer=3|VerbSuffGen=Masc	2	conj	_	_
+
+# text = eppuššu
+1	eppuššu	epēšu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = issēn naggārāni issu libbišunu ina pān šarri bēlīya ittalka mā allak issu pî ša šarrimma
+1	issēn	ištēn	NUM	NUM	_	9	nsubj	_	_
+2	naggārāni	nagāru	NOUN	NOUN	Gender=Masc|Number=Plur|Case=Gen	1	nmod	_	_
+3	issu	ištu	ADP	ADP	_	4	case	_	_
+4	libbišunu	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	1	nmod	_	_
+5	ina	ina	ADP	ADP	_	6	case	_	_
+6	pān	pānu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|NounStem=Bound	1	nmod	_	_
+7	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	7	appos	_	_
+9	ittalka	alāku	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	_	_	_	_
+10	mā	mā	PART	Quotative	_	11	discourse	_	_
+11	allak	alāku	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+12	issu	ištu	ADP	ADP	_	13	case	_	_
+13	pî	pû	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	11	obl	_	_
+14	ša	ša	PRON	PRON	_	15	case	_	_
+15	šarrimma	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|Focus=Yes	13	nmod	_	_
+
+# text = mā šarru iqṭibannāši mā ana Sapirrite likalka
+1	mā	mā	PART	PART	_	3	discourse	_	_
+2	šarru	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	3	nsubj	_	_
+3	iqṭibannāši	qabû	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|VerbSuffNum=Plur|VerbSuffPer=1|VerbSuffGen=Com	0	ROOT	_	_
+4	mā	mā	PART	Quotative	_	7	discourse	_	_
+5	ana	ana	ADP	ADP	_	6	case	_	_
+6	Sapirrite	sapirrite	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	7	obl	_	_
+7	likalka	alāku	VERB	VERB	Gender=Masc|Number=Plur|Person=2|Mood=Imp|VerbStem=G	3	ccomp	_	_
+
+# text = mā nillak
+1	mā	mā	PART	PART	_	2	discourse	_	_
+2	nillak	alāku	VERB	VERB	Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+

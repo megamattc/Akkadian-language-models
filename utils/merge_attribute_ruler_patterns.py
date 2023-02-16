@@ -41,10 +41,10 @@ def merge_attrs(attrDict1: dict, attrDict2: dict):
 
 
 
-inputFileName1 = sys.argv[1] #File names of input attribute ruler files
-inputFileName2 = sys.argv[2]
+inputFileName1 = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File names of input attribute ruler files
+inputFileName2 = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json"
 
-outputFileName = sys.argv[3] #File name of output attribute ruler file
+outputFileName = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File name of output attribute ruler file
 
 inputFile1 = open(inputFileName1, 'r')
 attributeList1 = json.load(inputFile1)
