@@ -24,7 +24,7 @@ The trained models are themselves packaged as Python modules and can be download
 important caveat. Both the normalized and transliterated versions of the language models run on custom Language classes modeled on Spacy's
 default Language classes located in ```/spacy/lang```. The folder for normalized class (as well as the label of the language in the files) is called ```ak``` and the corresponding label for the transliterated class is ```akt```. Both the ```ak``` and ```akt``` folders should be placed in the ```/spacy/lang``` directory alongside spacy's other language modules (e.g. ```de```, ```am```,```ar```). Alternatively, you may modify the appropriate scripts to locate these folders in another place of your choosing. 
 
-We should also acknowledge that one component of the YYY model is a custom morphological parser modeled on Aleksi Sahala's parser for
+We should also acknowledge that one component of the AkkParser-Norm model is a custom morphological parser modeled on Aleksi Sahala's parser for
 Babylonian dialects of Akkadian (see https://github.com/asahala/BabyFST and Sahala 2020). Our modifications mainly consist of adapting the parser
 for Neo-Assyrian dialects and integrating its functionality into a Spacy pipeline. More details can be found in ```guidelines.txt```.
 
