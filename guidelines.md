@@ -11,7 +11,9 @@ There are a number of markdown files in this repository meant to explain certain
 
 A brief introduction to the pipeline is found in ```README.md```. The more general introduction to everything is this document (```guidelines.md```), which covers each major step on the work flow, mentioning relevant helper scripts and supplementary software, as well as tips about understanding and avoiding computer errors. It also describes a few experimental pipeline components that I have not yet gotten to work beneficially (MO: this section still needs to be expanded). You should start with this document, reading through it and skipping parts as appropriate. 
 
-In addition there are a few separate markdown files covering certain topics in more detail. They include ```morphological_annotation_guidelines.md```, which covers the conventions for morphological annotations in the treebank, choices made in grammatical analysis, and certain frequent data bugs. A similar file, ```syntactic_annotation_guidelines.md``` discusses these issues in the syntactic domain. Finally, there is a brief discussion of how the Akkadian treebank is meant to fit into a larger project, that of designing a metaphor detecting model using Conceptual Metaphor Theory. This is in ```connection_metaphor_theory.md```
+In addition there are a few separate markdown files covering certain topics in more detail. They include ```morphological_annotation_guidelines.md```, which covers the conventions for morphological annotations in the treebank, choices made in grammatical analysis, and certain frequent data bugs. A similar file, ```syntactic_annotation_guidelines.md``` discusses these issues in the syntactic domain. Finally, there is a brief discussion of how the Akkadian treebank is meant to fit into a larger project, that of designing a metaphor detecting model using Conceptual Metaphor Theory. This is in ```connection_metaphor_theory.md```.
+
+Finally, there is a brief explanation of the directory structure of this repository, found in ```directory_structure.md```.
 
 ## Basic assumptions
 
