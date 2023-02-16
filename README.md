@@ -1,15 +1,15 @@
 # Akkadian-language-models
 
 Akkadian language models based on Spacy, trained on various subcorpora of Oracc with either on normalized texts or transliterated ones.
-The initial model XXX (the description of which is to appear in publication) was trained on two volumes of Neo-Assyrian letters in normalization, specifically SAA 1 and 5, as well as slightly
+The initial model AkkParser (the description of which is to appear in publication) was trained on two volumes of Neo-Assyrian letters in normalization, specifically SAA 1 and 5, as well as slightly
 modified training data from Luukko et. al. 2020, which consisted of Neo-Assyrian royal inscriptions.
 
-Since then, the normalized training set has been expanded and currently consists of SAA 1, 5, parts of 2 and 15, all of SB Anzu and Barutu. The digital sources
+Since then, the normalized training set has been expanded and currently consists of SAA 1, 2, 5, 9, part of 15, all of SB Anzu and Barutu, and part of RINAP 4. The digital sources
 for these volumes can be viewed on the list of Oracc projects (http://oracc.museum.upenn.edu/projectlist.html). The model trained on this data
-is called YYY.
+is called AkkParser-Norm.
 
-Another model ZZZ was trained on transliterated texts mirroring the normalized texts used to train YYY. The relation between the normalized and transliterated data sets
-is described in the publication concerning XXX. 
+Another model AkkParser-Trans was trained on transliterated texts mirroring the normalized texts used to train AkkParser-Norm. The relation between the normalized and transliterated data sets
+is described in Ong and Gordin 2023 (to appear). 
 
 The Oracc texts and metadata were scraped using modified versions of scripts made by Niek Veldhuis (https://github.com/niekveldhuis/compass/2_1_Data_Acquisition_ORACC/). 
 Each text was placed in its own ```.txt``` file, save for the data from Luukko et. al. 2020, which came as one large file. 
