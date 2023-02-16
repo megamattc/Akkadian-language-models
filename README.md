@@ -26,7 +26,7 @@ default Language classes located in ```/spacy/lang```. The folder for normalized
 
 We should also acknowledge that one component of the AkkParser-Norm model is a custom morphological parser modeled on Aleksi Sahala's parser for
 Babylonian dialects of Akkadian (see https://github.com/asahala/BabyFST and Sahala 2020). Our modifications mainly consist of adapting the parser
-for Neo-Assyrian dialects and integrating its functionality into a Spacy pipeline. More details can be found in ```guidelines.txt```.
+for Neo-Assyrian dialects and integrating its functionality into a Spacy pipeline. More details can be found in ```guidelines.md```.
 
 Works cited:
 
