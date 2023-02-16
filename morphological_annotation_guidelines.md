@@ -6,7 +6,7 @@ The morphological annotation scheme used for AkkParser generally follows that of
 
 Unlike Luukko, Sahala et. al., I do not manually separate verbal and nominal suffixes from their base in the normalization so as to treat them as separate tokens. Rather, I encode them as features in the morphological description. An example is *mārūšu* 'his sons', which receives the encoding
 
-* *mārūšu* = Gender=Masc|Number=Plur|Case=Nom|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc
+* *mārūšu* : Gender=Masc|Number=Plur|Case=Nom|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc
 
 The labels for the suffixes are generally self-explanatory, with the following exceptions:
 
@@ -48,7 +48,7 @@ In terms of the actually grammatical analysis I use, it again largely follows Lu
 
 ## Data bugs related to morphological annotation
 
-Note that morphological feature typos in a conllu file are a major source of data bugs when converting the conllu files to spaCy binaries. The most typical problems the compiler issues are:
+Note that morphological feature typos in a conllu file are a major source of data bugs when converting the conllu files to spaCy binaries using the ```convert``` command. The most typical problems the compiler issues are:
 
 * ValueError: need more than 1 value to unpack
 
