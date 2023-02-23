@@ -1,5 +1,5 @@
 import spacy
-import ak_AkkParser_Norm_1_2_5_9_15_anzu_barutu as akkModel
+import ak_AkkParser_Norm_1_2_5_9_15_anzu_barutu_rinap4 as akkModel
 import pandas
 import os, glob
 import json

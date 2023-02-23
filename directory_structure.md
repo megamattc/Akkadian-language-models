@@ -6,7 +6,7 @@ The top level folders are of the following type and purpose:
 
 * ```ak_basic_model```, ```ak_norm_model```, ```akt_trans_model``` : folders containing everything for training language models. ```ak_basic_model``` is for the basic normalized model trained on SAA 1, 5 and discussed in Ong and Gordin 2023 (to appear). The other two are for the expanded models trained on normalized or transliterated files. 
 
-* ```anzu```, ```barutu```, ```riao_saa01```, ```rinap4```, etc. : these contain conllu files used for training the language models, according to Oracc corpus. Some of them also contain the base text files in normalization and/or ```.spacy``` binary files resulting from converting the conllu files. They also generally contain helper scripts ```check_conllu.py``` and ```renumber_conllu.py```.
+* ```anzu```, ```barutu```, ```riao_saa01```, ```rinap4```, etc. : these contain conllu files used for training the language models, according to the Oracc corpus. Some of them also contain the base text files in normalization and/or ```.spacy``` binary files resulting from converting the conllu files. They also generally contain helper scripts ```check_conllu.py``` and ```renumber_conllu.py```.
 
 * ```syntax_sentences``` : similar to the above save for artificial training examples made either completely by hand or modeled on actual training sentences.
 
