@@ -42294,13 +42294,26 @@
       "patterns":[
          [
             {
-               "ORTH":"udīni"
+               "ORTH":"udīni","DEP": "advmod"
             }
          ]
       ],
       "attrs":{
          "TAG":"AV",
          "POS":"ADV"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"udīni","DEP": "mark"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"SBJ",
+         "POS":"SCONJ"
       }
    },
    {
@@ -85135,6 +85148,20 @@
       "patterns":[
          [
             {
+               "ORTH":"palīhi"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"AJ",
+         "MORPH":"Gender=Masc|Number=Sing",
+         "POS":"ADJ"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
                "ORTH":"palhāku"
             }
          ]
@@ -98482,7 +98509,7 @@
       ],
       "attrs":{
          "TAG":"V",
-         "MORPH":"",
+         "MORPH":"Gender=Com|Number=Plur|Person=1|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=Š|Ventive=Yes|VerbSuffNum=Plur|VerbSuffPer=3|VerbSuffGen=Masc",
          "POS":"VERB"
       }
    },
