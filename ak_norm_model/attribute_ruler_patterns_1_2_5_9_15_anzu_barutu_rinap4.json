@@ -74,7 +74,8 @@
       ],
       "attrs":{
          "MORPH":"Gender=Masc|Number=Sing",
-         "POS":"PROPN"
+         "POS":"PROPN",
+         "TAG": "PN"
       }
    },
    {
@@ -214,18 +215,6 @@
          "TAG":"V",
          "MORPH":"Number=Plur|Mood=Ind|Gender=Masc|VerbStem=G|Person=2|VerbForm=Stat",
          "POS":"VERB"
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"mā"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":"PART"
       }
    },
    {
@@ -460,7 +449,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "XP"
       }
    },
    {
@@ -805,14 +794,28 @@
       "patterns":[
          [
             {
-               "ORTH":"ammar"
+               "ORTH":"ammar","DEP": {"IN": ["nsubj","obj","iobj","obl","nmod"]}
             }
          ]
       ],
       "attrs":{
-         "TAG":"V",
+         "TAG":"REL",
          "MORPH":"",
          "POS":"PRON"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"ammar","DEP": "case"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"PRP",
+         "MORPH":"",
+         "POS":"ADP"
       }
    },
    {
@@ -1200,19 +1203,6 @@
       "attrs":{
          "TAG":"N",
          "POS":"NOUN"
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"kî"
-            }
-         ]
-      ],
-      "attrs":{
-         "TAG":"PRP",
-         "POS":"ADP"
       }
    },
    {
@@ -3288,7 +3278,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -3549,7 +3539,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -19587,7 +19577,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -23744,13 +23734,26 @@
       "patterns":[
          [
             {
-               "ORTH":"akī"
+               "ORTH":"akī","DEP": "case"
             }
          ]
       ],
       "attrs":{
          "TAG":"PRP",
          "POS":"ADP"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"akī","DEP": "mark"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"SBJ",
+         "POS":"SCONJ"
       }
    },
    {
@@ -24863,7 +24866,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "IP"
       }
    },
    {
@@ -30317,8 +30320,9 @@
          ]
       ],
       "attrs":{
-         "TAG":"AJ",
-         "POS":"ADJ"
+         "TAG":"V",
+         "POS":"VERB",
+         "MORPH": "Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G"
       }
    },
    {
@@ -41882,7 +41886,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PRON"
+         "POS":"PRON","TAG": "QP"
       }
    },
    {
@@ -41958,7 +41962,7 @@
          ]
       ],
       "attrs":{
-         "POS":"SCONJ"
+         "POS":"SCONJ","TAG": "SBJ"
       }
    },
    {
@@ -42024,7 +42028,7 @@
       ],
       "attrs":{
          "TAG":"V",
-         "MORPH":"",
+         "MORPH":"Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=G|Ventive=Yes",
          "POS":"VERB"
       }
    },
@@ -43029,13 +43033,26 @@
       "patterns":[
          [
             {
-               "ORTH":"adu"
+               "ORTH":"adu","DEP": "case"
             }
          ]
       ],
       "attrs":{
          "TAG":"PRP",
          "POS":"ADP"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"adu","DEP": "mark"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"SBJ",
+         "POS":"SCONJ"
       }
    },
    {
@@ -44129,12 +44146,36 @@
       "patterns":[
          [
             {
-               "ORTH":"basi"
+               "ORTH":"basi","DEP": "mark"
             }
          ]
       ],
       "attrs":{
-         "POS":"SCONJ"
+         "POS":"SCONJ","TAG": "SBJ"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"basi","DEP": "advmod"
+            }
+         ]
+      ],
+      "attrs":{
+         "POS":"ADV","TAG": "AV"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"basi","DEP": "case"
+            }
+         ]
+      ],
+      "attrs":{
+         "POS":"ADP","TAG": "PRP"
       }
    },
    {
@@ -48571,13 +48612,12 @@
       "patterns":[
          [
             {
-               "ORTH":"piqtatte"
+               "ORTH":{"IN":["piqtatte","piqtatti"]}
             }
          ]
       ],
       "attrs":{
          "TAG":"AV",
-         "MORPH":"",
          "POS":"ADV"
       }
    },
@@ -52474,7 +52514,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "EN"
       }
    },
    {
@@ -52512,7 +52552,7 @@
          ]
       ],
       "attrs":{
-         "POS":"ADJ"
+         "POS":"VERB","TAG": "V","MORPH": "Gender=Masc|Number=Plur|Person=2|VerbForm=Stat|Mood=Ind|VerbStem=G"
       }
    },
    {
@@ -54945,7 +54985,7 @@
       ],
       "attrs":{
          "TAG":"V",
-         "POS":"ADJ"
+         "POS":"VERB"
       }
    },
    {
@@ -59342,8 +59382,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"AJ",
-         "POS":"ADJ"
+         "TAG":"AV",
+         "POS":"ADV"
       }
    },
    {
@@ -63406,8 +63446,9 @@
          ]
       ],
       "attrs":{
-         "TAG":"AJ",
-         "POS":"ADJ"
+         "TAG":"V",
+         "POS":"VERB",
+         "MORPH": "Gender=Masc|Number=Sing|Person=2|VerbForm=Stat|Mood=Ind|VerbStem=G"
       }
    },
    {
@@ -65548,13 +65589,26 @@
       "patterns":[
          [
             {
-               "ORTH":"battibatti"
+               "ORTH":"battibatti","DEP": "case"
             }
          ]
       ],
       "attrs":{
          "TAG":"PRP",
          "POS":"ADP"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"battibatti","DEP": "nmod"
+            }
+         ]
+      ],
+      "attrs":{
+         "TAG":"N",
+         "POS":"NOUN"
       }
    },
    {
@@ -107228,8 +107282,8 @@
          ]
       ],
       "attrs":{
-         "TAG":"PART",
-         "POS":"Quotative"
+         "POS":"PART",
+         "TAG":"Quotative"
       }
    },
    {
@@ -130347,282 +130401,7 @@
          "POS":"NOUN"
       }
    },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Horned"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"headdress"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"on"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"podium"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"bearing"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"a"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"relief"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"of"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"stylized"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"tree"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Assyrian"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"king"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"as"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"worshipper/priest"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Stylized"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Bull"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Mountain"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Plough"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Palm"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Four-sided"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"figure"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Palmette"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
-   {
-      "patterns":[
-         [
-            {
-               "ORTH":"Lion"
-            }
-         ]
-      ],
-      "attrs":{
-         "POS":""
-      }
-   },
+
    {
       "patterns":[
          [
@@ -133192,7 +132971,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "SN"
       }
    },
    {
