@@ -4,7 +4,7 @@
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
 3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
-4	/	/		X	_	_	_	_	SpaceAfter=No
+4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P336768	p336768		_	_	_	_	_	_
 
 #
@@ -19,7 +19,7 @@
 8	ana	ana	ADP	PRP	_	9	case	_	_
 9	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	_
 10	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
-11	dūru	dūru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
+11	dūru	dūru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 12	ša	ša	PRON	REL	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
@@ -61,7 +61,7 @@
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
-53	iptiti	petû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+53	iptiti	petû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
@@ -79,7 +79,7 @@
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
-71	adi	adi	ADP	PRP	_	73	nsubj	_	_
+71	adi	adi	ADP	PRP	_	73	dep	_	_
 72	ina	ina	ADP	PRP	_	73	case	_	_
 73	šiddi	šiddu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 74	hūli	hūlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	73	nmod	_	_
@@ -92,12 +92,12 @@
 81	x+x	x+x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
-84	x	x	X	X	_	85	obj	_	_
+84	x	x	X	X	_	_	_	_	_
 85	uqṭarrib	qerēbu	VERB	V	Mood=Ind|Number=Sing|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
-88	x	x	X	X	_	92	dep	_	_
+88	x	x	X	X	_	_	_	_	_
 89	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	92	nsubj	_	_
 90	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	89	appos	_	_
-91	lū	lū	PART	PART	_	92	advmod	_	_
+91	lū	lū	PART	PART	_	92	advmod:emph	_	_
 92	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_

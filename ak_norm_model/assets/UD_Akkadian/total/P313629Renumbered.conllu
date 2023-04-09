@@ -1,0 +1,50 @@
+# text = ša Isana aptiqīdi
+1	ša	ša	ADP	DET	_	2	case	_	_
+2	Isana	Isana	PROPN	PROPN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+3	aptiqīdi	paqādu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	_	_	_	_
+
+# text = šulmu adanniš
+1	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+2	adanniš	adanniš	ADV	ADV	_	1	dep	_	_
+
+# text = issēn lā imaṭṭi
+1	issēn	ištēn	NUM	NUM	_	3	obj	_	_
+2	lā	lā	PART	PART	_	3	advmod	_	_
+3	imaṭṭi	maṭû	VERB	VERB	Gender=Masc|Mood=Proh|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = 30 tikpī ša akīti ūm 03-KAM₂ karru
+1	30	30	NUM	DN	_	2	nummod	_	_
+2	tikpī	tikpu	NOUN	N	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	ša	ša	ADP	DET	_	4	case	_	_
+4	akīti	akītu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	2	nmod	_	_
+5	ūm	ūmu	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
+6	03-KAM₂	03-KAM₂	ADJ	adj	_	5	amod	_	_
+7	karru	karru	ADJ	adj	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
+
+# text = šarru bēlī ūda karwānīya laššu
+1	šarru	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	3	nsubj	_	_
+2	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	1	appos	_	_
+3	ūda	wadû	VERB	VERB	Gender=Masc|Person=3|Tense=Past|VerbForm=Finite|VerbStem=G	0	ROOT	_	_
+4	karwānīya	karmu	NOUN	NOUN	Gender=Masc|Number=Plur|PossSuffNum=Sing|PossSuffPer=1	5	nsubj	_	_
+5	laššu	laššu	VERB	VERB	_	3	ccomp	_	_
+
+# text = rab bētīya issi bēl piqittāti lapqīdi
+1	rab	rabû	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Acc	6	obj	_	_
+2	bētīya	bētu	NOUN	NOUN	Gender=Fem|Number=Plur|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	1	nmod	_	_
+3	issi	išti	ADP	ADP	_	4	case	_	_
+4	bēl	bēlu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+5	piqittāti	piqittāti	NOUN	NOUN	Gender=Fem|Number=Plur|Case=Gen	4	nmod:poss	_	_
+6	lapqīdi	paqādu	VERB	VERB	Gender=Com|Number=Sing|Person=1|Mood=Prec|VerbStem=G	0	ROOT	_	_
+
+# text = anāku lallik
+1	anāku	anāku	NUM	PRON	Gender=Com|Number=Sing|Person=1|Case=Nom	2	nsubj	_	_
+2	lallik	alāku	NOUN	NOUN	Gender=Com|Number=Sing|Person=1|Mood=Prec|VerbStem=G	0	ROOT	_	_
+
+# text = karwāni x x x x x
+1	karwāni	karmu	NOUN	NOUN	Gender=Masc|Number=Plur	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+

@@ -3,7 +3,7 @@
 #
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
-3	saa15	saa15		_	_	_	_	_	SpaceAfter=No
+3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
 4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P334861	p334861		_	_	_	_	_	_
 
@@ -23,13 +23,13 @@
 12	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 13	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
 14	ina	ina	ADP	PRP	_	15	case	_	_
-15	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	17	iobj	_	_
+15	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	17	obl	_	_
 16	urdīšu	ardu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	15	nmod	_	_
-17	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
-18	mā	mā	PART	Quotative	_	17	dep	_	_
+17	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	21	dislocated	_	_
+18	mā	mā	PART	Quotative	_	17	discourse	_	_
 19	Akkadaya	akkadaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
 20	ina	ina	ADP	PRP	_	21	case	_	_
-21	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	dep	_	_
+21	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
 24	ittahranni	mahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
@@ -37,7 +37,7 @@
 26	x	x	X	X	_	_	_	_	_
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
-29	egertu	egertu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+29	egertu	egertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 30	ša	ša	ADP	PRP	_	31	case	_	_
 31	dēnīšu	dīnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	29	nmod	_	_
 32	x	x	X	X	_	_	_	_	_
@@ -53,7 +53,7 @@
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
-45	kētû	kittu	NOUN	N	_	_	_	_	_
+45	kētû	kittu	NOUN	V	_	_	_	_	_
 46	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
@@ -67,18 +67,18 @@
 56	x	x	X	X	_	_	_	_	_
 57	x	x	X	X	_	_	_	_	_
 58	x-tu₂	x-tu₂	X	X	_	_	_	_	_
-59	Nabu-killanni	nabu-killanni	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+59	Nabu-killanni	nabu-killanni	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	x-ʾu	x-ʾu	X	X	_	_	_	_	_
-66	uppišūni	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
+66	uppišūni	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=D	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
-72	egertēšu	egertu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+72	egertēšu	egertu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
 73	o	o	X	X	_	_	_	_	_

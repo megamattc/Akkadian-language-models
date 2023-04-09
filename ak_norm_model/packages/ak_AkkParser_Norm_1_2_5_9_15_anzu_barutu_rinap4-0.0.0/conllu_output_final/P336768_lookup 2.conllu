@@ -3,7 +3,7 @@
 #
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
-3	saa15	saa15		_	_	_	_	_	SpaceAfter=No
+3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
 4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P336768	p336768		_	_	_	_	_	_
 
@@ -73,15 +73,15 @@
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
-65	ina	ina	ADP	PRP	_	66	case	_	_
+65	ina	ina	ADP	PRP	_	_	_	_	_
 66	pa-ni-x	pa-ni-x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
-71	adi	adi	SCONJ	PRP	_	73	mark	_	_
+71	adi	adi	ADP	PRP	_	_	_	_	_
 72	ina	ina	ADP	PRP	_	73	case	_	_
-73	šiddi	šiddu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+73	šiddi	šiddu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	71	obl	_	_
 74	hūli	hūlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	73	nmod	_	_
 75	x	x	X	X	_	_	_	_	_
 76	x	x	X	X	_	_	_	_	_
@@ -99,5 +99,5 @@
 88	x	x	X	X	_	_	_	_	_
 89	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	92	nsubj	_	_
 90	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	89	appos	_	_
-91	lū	lū	PART	MOD	_	92	advmod	_	_
-92	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+91	lū	lū	PART	PART	_	92	advmod:emph	_	_
+92	ūda	wadû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_

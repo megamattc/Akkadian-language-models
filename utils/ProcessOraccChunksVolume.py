@@ -61,8 +61,8 @@ sys.path.append(util_dir)
 os.makedirs('jsonzip', exist_ok = True)
 os.makedirs('output', exist_ok = True)
 
-oraccVolume = 'rinap4' #Short name of oracc project
-oraccProject = 'rinap/' + oraccVolume #Full name of oracc project
+oraccVolume = 'saao' #Short name of oracc project
+oraccProject = 'saa02/' + oraccVolume #Full name of oracc project
 
 lemmaLookupFileName = 'ak_norm_lemma_lookup_' + oraccVolume + '.json' #Name of file for lemma list
 attributeLookupFileName = 'attribute_ruler_patterns_' + oraccVolume + '.json' #Name of file for attribute list

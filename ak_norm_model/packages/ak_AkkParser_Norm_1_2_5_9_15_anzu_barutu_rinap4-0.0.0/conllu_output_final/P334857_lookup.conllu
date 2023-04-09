@@ -4,7 +4,7 @@
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
 3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
-4	/	/		X	_	_	_	_	SpaceAfter=No
+4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P334857	p334857		_	_	_	_	_	_
 
 #
@@ -31,21 +31,21 @@
 20	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 21	mā	mā	PART	Quotative	_	22	discourse	_	_
 22	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	20	ccomp	_	_
-23	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+23	ṭēmu	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 24	ša	ša	ADP	PRP	_	25	case	_	_
-25	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	23	nmod	_	_
+25	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	23	nmod	_	_
 26	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	25	nmod:poss	_	_
 27	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	23	appos	_	_
 28	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	27	nmod:poss	_	_
 29	ina	ina	ADP	PRP	_	30	case	_	_
-30	šadû	šadû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	34	obl	_	_
+30	šadû	šadû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	34	obl	_	_
 31	Burati	burati	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
 32	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
 33	lā	lā	PART	NEG	_	34	advmod	_	_
-34	unammeša	namāšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_
+34	unammeša	namāšu	VERB	V	Gender=Masc|Mood=Pres|Number=Sing|Person=3|Ventive=Yes|VerbStem=Š	22	conj	_	_
 35	ina	ina	ADP	PRP	_	36	case	_	_
 36	libbimma	libbu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	_	_	_	_
-37	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
+37	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	36	nsubj	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x+x	x+x	X	X	_	_	_	_	_
@@ -73,7 +73,7 @@
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	ša	ša	ADP	PRP	_	65	case	_	_
-65	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+65	Mat-Aššur	mat-aššur	PROPN	GN	Gender=Fem|Number=Sing	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x	x	X	X	_	_	_	_	_

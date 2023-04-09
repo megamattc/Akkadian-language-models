@@ -3,7 +3,7 @@
 #
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
-3	saa15	saa15		_	_	_	_	_	SpaceAfter=No
+3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
 4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P334345	p334345		_	_	_	_	_	_
 
@@ -23,7 +23,7 @@
 12	ana	ana	ADP	PRP	_	13	case	_	_
 13	māte	mātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	11	nsubj	_	_
 14	u	u	CONJ	CNJ	_	15	cc	_	_
-15	bīrāti	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	13	conj	_	_
+15	bīrāti	birtu	NOUN	N	Gender=Fem|Number=Plur	13	conj	_	_
 16	ša	ša	ADP	PRP	_	17	case	_	_
 17	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 18	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	17	appos	_	_
@@ -33,14 +33,14 @@
 22	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	21	appos	_	_
 23	lū	lū	PART	PART	_	24	advmod	_	_
 24	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
-25	ṭēmi	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+25	ṭēmi	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
 26	ša	ša	ADP	PRP	_	27	case	_	_
-27	Mar-Yakin	mar-yakin	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	Mar-Yakin	mar-yakin	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 28	ina	ina	ADP	PRP	_	29	case	_	_
 29	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	25	parataxis	_	_
-30	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	cop	_	_
-31	Radmanu	radmanu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	35	obj	_	_
-32	nasikku	nasīku	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	31	appos	_	_
+30	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	det	_	_
+31	Radmanu	radmanu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+32	nasikku	nasīku	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	35	obj	_	_
 33	ša	ša	ADP	PRP	_	34	case	_	_
 34	Upi	upi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
 35	issapra	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -48,10 +48,10 @@
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
-40	Sipparaya	sipparaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+40	Sipparaya	sipparaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
 41	iqṭibûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 42	mā	mā	PART	Quotative	_	41	discourse	_	_
-43	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	41	dep	_	_
+43	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
@@ -59,7 +59,7 @@
 48	lillika	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
-51	ussarriu	šurrû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
+51	ussarriu	šurrû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
@@ -77,11 +77,11 @@
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x+x	x+x	X	X	_	_	_	_	_
-69	emmur	amāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
-70	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	69	dep	_	_
+69	emmur	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	78	advcl	_	_
+70	mīnu	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	69	obj	_	_
 71	ša	ša	PRON	REL	_	72	nsubj	_	_
 72	šītīni	šīti	PRON	IP	Case=Nom|Gender=Fem|Number=Sing|Person=3|SubSuff=Yes	70	nsubj	_	_
-73	ṭēmu	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	78	obj	_	_
+73	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	78	obj	_	_
 74	harṣu	harṣu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	73	amod	_	_
 75	ana	ana	ADP	PRP	_	76	case	_	_
 76	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	78	iobj	_	_

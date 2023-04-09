@@ -4,7 +4,7 @@
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
 3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
-4	/	/		X	_	_	_	_	SpaceAfter=No
+4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P334726	p334726		_	_	_	_	_	_
 
 #
@@ -24,28 +24,28 @@
 13	alpāni	alpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
 14	ša	ša	ADP	PRP	_	15	case	_	_
 15	Labduduaya	labduduaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
-16	ša	ša	PRON	REL	_	13	dep	_	_
+16	ša	ša	PRON	REL	_	_	_	_	_
 17	ana	ana	ADP	PRP	_	18	case	_	_
 18	rab nuhatimmi	rab nuhatimmi	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-19	{1}{d}PA-x-AŠ	{1}{d}pa-x-aš	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-20	ṭupšarru	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+19	{1}{d}PA-x-AŠ	{1}{d}pa-x-aš	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	ṭupšarru	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
-24	issapru	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-25	mā	mā	PART	Quotative	_	26	discourse	_	_
-26	alpāni	alpu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
-27	o	o	X	X	_	_	_	_	_
-28	bīlāni	wabālu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
+24	issapru	šapāru	VERB	V	Gender=Masc|Mood=Ind|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+25	mā	mā	PART	Quotative	_	24	discourse	_	_
+26	alpāni	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	24	dep	_	_
+27	o	o	X	X	_	28	advmod	_	_
+28	bīlāni	wabālu	VERB	V	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 29	26	26	NUM	NUM	_	30	nummod	_	_
 30	alpāni	alpu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_
 31	ittūbilūni	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	28	conj	_	_
-32	attahraššunu	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	31	conj	_	_
-33	rēhti	rēhtu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	37	obj	_	_
-34	alpānišunu	alpu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	33	nmod	_	_
+32	attahraššunu	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
+33	rēhti	rēhtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
+34	alpānišunu	alpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	33	det	_	_
 35	udīni	udīnu	ADV	AV	_	37	advmod	_	_
-36	lā	lā	PART	NEG	_	37	advmod	_	_
-37	naṣūni	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
+36	lā	lā	PART	PART	_	37	advmod	_	_
+37	naṣūni	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	32	conj	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
@@ -67,21 +67,21 @@
 56	x	x	X	X	_	_	_	_	_
 57	x	x	X	X	_	_	_	_	_
 58	ina	ina	ADP	PRP	_	59	case	_	_
-59	libānīya	labiānu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	60	nummod	_	_
-60	zarʾēšunu	zēru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
-61	o	o	X	X	_	62	nsubj	_	_
+59	libānīya	labiānu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+60	zarʾēšunu	zēru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	59	conj	_	_
+61	o	o	X	X	_	_	_	_	_
 62	ātaraš	erēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	63	obj	_	_
 63	ugdammir	gamāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
 64	ūmâ	ūma	ADV	AV	_	68	advmod	_	_
 65	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	68	nsubj	_	_
-66	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	65	appos	_	_
+66	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	65	appos	_	_
 67	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	68	obj	_	_
 68	liškun	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 69	81	81	NUM	NUM	_	70	nummod	_	_
 70	alpānišunu	alpu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	73	obj	_	_
-71	ša	ša	PRON	REL	_	72	nsubj	_	_
-72	rēhūni	rēhu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G	70	acl	_	_
+71	ša	ša	ADP	PRP	_	72	case	_	_
+72	rēhūni	rēhu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G	70	nmod	_	_
 73	lūbilūni	wabālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
-74	laddinaššunu	tadānu	VERB	V	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
-75	karaphīšunu	karaphu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	76	nsubj	_	_
+74	laddinaššunu	tadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	73	conj	_	_
+75	karaphīšunu	karaphu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	76	obj	_	_
 76	lihhuṣu	mahāṣu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	74	conj	_	_

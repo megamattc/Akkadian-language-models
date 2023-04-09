@@ -1,0 +1,123 @@
+#
+# text = ana šarri bēlīya urdaka Nabu-deʾiq
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	2	nsubj	_	_
+5	Nabu-de'iq	Nabu-de'iq	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	SpaceAfter=No
+
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	appos	_	_
+
+# text = ša šarru bēlī išpuranni
+1	ša	ša	PRON	PRON	_	4	obj	_	_
+2	šarru	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	4	nsubj	_	_
+3	bēlī	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	appos	_	_
+4	išpuranni	šapāru	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|SubSuff=Yes	0	ROOT	_	_
+
+# text = mā ana Nemed-Ištar etiq alik
+1	mā	mā	PART	PART	_	4	discourse	_	_
+2	ana	ana	ADP	ADP	_	3	case	_	_
+3	Nemed-Ištar	Nemed-Ištar	PROPN	SN	_	4	obl	_	SpaceAfter=No
+4	etiq	etiq	VERB	V	Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=G	0	ROOT	_	_
+5	alik	alik	VERB	V	Gender=Masc|Number=Sing|Person=2|Mood=Imp|VerbStem=G	4	conj	_	_
+
+# text = mā kīma simin nasāhi ša ziqpī ša erēni šurmēni x x x x rab karkadinni
+1	mā	mā	PART	PRP	_	10	nsubj	_	_
+2	kīma	kīma	ADP	PRP	_	3	case	_	_
+3	simin	simin	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+4	nasāhi	nasāhu	VERB	V	Gender=Masc|Number=Sing|Case=Gen|VerbForm=Inf|VerbStem=G	3	nmod	_	_
+5	ša	ša	ADP	DET	_	6	case	_	_
+6	ziqpī	ziqpī	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	4	nmod	_	_
+7	ša	ša	ADP	DET	_	8	case	_	_
+8	erēni	erēnu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	6	nmod	_	_
+9	šurmēni	šurmēnu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	8	conj	_	_
+10	x	x	X	u	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	rab karkadinni	rab karkadinni	NOUN	NOUN	_	_	_	_	_
+
+# text = Adad-ibni zarʾē ussaṣabit ṣābāni ussaṣabitma
+1	Adad-ibni	Adad-ibni	PROPN	RN	Gender=Masc	3	nsubj	_	SpaceAfter=No
+2	zarʾē	zarʾē	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	3	obj	_	_
+3	ussaṣabit	ussaṣabitu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+4	ṣābāni	ṣābu	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+5	ussaṣabitma	ussaṣabitma	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=S	3	conj	_	_
+
+# text = ūmâ šummu šarru bēlī iqabbi lallika
+1	ūmâ	ūma	ADV	ADV	_	6	advmod	_	_
+2	šummu	šumma	SCONJ	SCONJ	_	5	mark	_	_
+3	šarru	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	5	nsubj	_	_
+4	bēlī	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	3	appos	_	_
+5	iqabbi	qabû	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	6	advcl	_	_
+6	lallika	alāku	NOUN	NOUN	Gender=Com|Number=Sing|Person=1|Mood=Prec|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = bēt rimki lušētīqi
+1	bēt	bītu	NOUN	NOUN	_	3	obj	_	_
+2	rimki	rimki	NOUN	NOUN	_	1	nmod	_	_
+3	lušētīqi	lušētīqi	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
+
+# text = kīma rab karkadinni illaka issīšūma allāka
+1	kīma	kīma	SCONJ	_	_	3	mark	_	_
+2	rab karkadinni	rab karkadinni	NOUN	NOUN	_	3	nsubj	_	_
+3	illaka	illaka	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	5	advcl	_	_
+4	issīšūma	išti	ADP	_	PrepSuffNum=Sing|PresSuffPer=3|PrepSuffGen=Masc|Focus=Yes	5	obl	_	_
+5	allāka	allāka	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = erēnu šurmēnu ninassāha nubbāla mīni ša šarru bēlī iqabbûni u {1}tu-x+x x x+x iqṭibia mā x x šahšūru ana x x tubbala x x x x x x x u ziqpī ša nurmê x x x x x-MEŠ ihabbat annurig u₂-še-x x
+1	erēnu	erēnu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	3	obj	_	_
+2	šurmēnu	šurmēnu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+3	ninassāha	ninassāha	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+4	nubbāla	nubbālu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	3	conj	_	_
+5	mīni	mīni	DET	DET	Gender=Masc|Number=Plur	3	parataxis	_	_
+6	ša	ša	PRON	PRON	_	9	obj	_	_
+7	šarru	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	9	nsubj	_	_
+8	bēlī	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	7	appos	_	_
+9	iqabbûni	qabû	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Subordinative=Yes|SubSuff=Yes	5	acl	_	_
+10	u	u	CONJ	CONJ	_	_	_	_	_
+11	{	{	X	X	_	_	_	_	SpaceAfter=No
+12	1}tu	1}tu	PROPN	PN	_	_	_	_	SpaceAfter=No
+13	-	-	X	X	_	_	_	_	SpaceAfter=No
+14	x+x	x+x	X	X	_	_	_	_	_
+15	x	x	X	X	_	_	_	_	_
+16	x+x	x+x	X	X	_	_	_	_	_
+17	iqṭibia	iqṭibia	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	_	_	_	_
+18	mā	mā	ADP	ADP	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+21	šahšūru	šahšūru	NOUN	NOUN	_	_	_	_	_
+22	ana	ana	ADP	ADP	_	_	_	_	_
+23	x	x	X	X	_	_	_	_	_
+24	x	x	X	X	_	_	_	_	_
+25	tubbala	tubbala	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	_	_	_	_
+26	x	x	X	X	_	_	_	_	_
+27	x	x	X	X	_	_	_	_	_
+28	x	x	X	X	_	_	_	_	_
+29	x	x	X	X	_	_	_	_	_
+30	x	x	X	X	_	_	_	_	_
+31	x	x	X	X	_	_	_	_	_
+32	x	x	X	X	_	_	_	_	_
+33	u	u	CCONJ	CNJ	_	34	cc	_	_
+34	ziqpī	ziqpī	NOUN	N	_	_	_	_	_
+35	ša	ša	ADP	DET	_	36	case	_	_
+36	nurmê	nurmû	NOUN	N	Gender=Masc|Number=Plur|Case=Gen	34	nmod	_	_
+37	x	x	X	X	_	_	_	_	_
+38	x	x	X	X	_	_	_	_	_
+39	x	x	X	X	_	_	_	_	_
+40	x	x	X	X	_	_	_	_	_
+41	x	x	X	X	_	_	_	_	SpaceAfter=No
+42	-	-	X	X	_	_	_	_	SpaceAfter=No
+43	MEŠ	MEŠ	X	X	_	_	_	_	_
+44	ihabbat	ihabbat	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	_	_	_	_
+45	annurig	annûri	ADV	ADV	_	_	_	_	_
+46	u₂-še	u2-še		_	_	_	_	_	SpaceAfter=No
+47	-	-	X	X	_	_	_	_	SpaceAfter=No
+48	x	x	X	X	_	_	_	_	_
+49	x	x	X	X	_	_	_	_	_
+

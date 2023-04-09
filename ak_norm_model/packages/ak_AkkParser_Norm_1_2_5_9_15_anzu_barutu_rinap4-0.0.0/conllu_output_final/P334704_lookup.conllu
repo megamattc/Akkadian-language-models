@@ -4,7 +4,7 @@
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
 3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
-4	/	/		X	_	_	_	_	SpaceAfter=No
+4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P334704	p334704		_	_	_	_	_	_
 
 #
@@ -25,10 +25,10 @@
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
 16	x	x	X	X	_	_	_	_	_
-17	Nabu-taklak	nabu-taklak	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+17	Nabu-taklak	nabu-taklak	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	25	obj	_	_
 18	egertu	egertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	17	appos	_	_
 19	ina	ina	ADP	PRP	_	20	case	_	_
-20	qātēšunu	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	25	nsubj	_	_
+20	qātēšunu	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	18	nmod	_	_
 21	ina	ina	ADP	PRP	_	22	case	_	_
 22	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	25	iobj	_	_
 23	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
@@ -36,7 +36,7 @@
 25	ittalkūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 26	annurig	annûri	ADV	AV	_	31	advmod	_	_
 27	ina	ina	ADP	PRP	_	28	case	_	_
-28	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	31	obl	_	_
+28	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	31	iobj	_	_
 29	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
 30	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	29	appos	_	_
 31	assapraššunu	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
@@ -58,5 +58,5 @@
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
-50	x	x	X	X	_	51	obj	_	_
+50	x	x	X	X	_	_	_	_	_
 51	lillikūni	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_

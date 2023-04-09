@@ -21,7 +21,7 @@
 10	x	x	X	X	_	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
 12	x+x	x+x	X	X	_	_	_	_	_
-13	u₂-ra-x+x	u₂-ra-x+x	X	V	_	_	_	_	_
+13	u₂-ra-x+x	u₂-ra-x+x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
 16	x	x	X	X	_	_	_	_	_
@@ -29,12 +29,12 @@
 18	x	x	X	X	_	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
-21	ṣābānīšu	ṣābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	22	nsubj	_	_
+21	ṣābānīšu	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	22	nsubj	_	_
 22	urradūni	arādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 23	o	o	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
-26	nišēšu	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	27	obj	_	_
+26	nišēšu	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	27	obj	_	_
 27	uššubu	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
@@ -42,15 +42,15 @@
 31	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
 32	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	31	appos	_	_
 33	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-34	o	o	X	X	_	_	_	_	_
-35	laššiaššunu	našû	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
+34	o	o	X	X	_	35	nsubj	_	_
+35	laššiaššunu	našû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
 36	ana	ana	ADP	PRP	_	37	case	_	_
-37	šāšu	šâšu	PRON	IP	Case=Gen|Gender=Masc|Number=Sing|Person=3	35	obl	_	_
+37	šāšu	šâšu	PRON	IP	Case=Gen|Gender=Masc|Number=Sing|Person=3	35	conj	_	_
 38	o	o	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
-41	x+x-e-šu	x+x-e-šu	X	X	_	42	advmod	_	_
-42	luramme	ramû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=Š	_	_	_	_
+41	x+x-e-šu	x+x-e-šu	X	X	_	_	_	_	_
+42	luramme	ramû	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
 43	x+x	x+x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
@@ -63,7 +63,7 @@
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
-55	ṣāb šarrīya	ṣāb šarrīya	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+55	ṣāb šarrīya	ṣāb šarrīya	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	56	nsubj	_	_
 56	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
 57	ana	ana	ADP	PRP	_	_	_	_	_
 58	ki-x	ki-x	X	X	_	_	_	_	_
@@ -77,7 +77,7 @@
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
-69	ihterīdi	harādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+69	ihterīdi	harādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
 72	x	x	X	X	_	_	_	_	_

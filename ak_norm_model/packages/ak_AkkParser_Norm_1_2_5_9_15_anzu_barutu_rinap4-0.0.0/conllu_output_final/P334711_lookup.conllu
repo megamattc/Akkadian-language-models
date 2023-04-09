@@ -4,7 +4,7 @@
 1	saao	saao		_	_	0	ROOT	_	SpaceAfter=No
 2	/	/		_	_	_	_	_	SpaceAfter=No
 3	saa15	saa15		X	_	_	_	_	SpaceAfter=No
-4	/	/		X	_	_	_	_	SpaceAfter=No
+4	/	/		_	_	_	_	_	SpaceAfter=No
 5	P334711	p334711		_	_	_	_	_	_
 
 #
@@ -13,12 +13,12 @@
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x-ni	x-ni	X	X	_	_	_	_	_
-5	imaqqutūni	maqātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+5	imaqqutūni	maqātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 6	x	x	X	X	_	_	_	_	_
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
-9	x	x	X	X	_	11	obj	_	_
-10	lā	lā	PART	NEG	_	11	advmod	_	_
+9	x	x	X	X	_	_	_	_	_
+10	lā	lā	PART	PART	_	11	advmod	_	_
 11	eppaš	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 12	musukkannī	musukkannu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
@@ -28,39 +28,39 @@
 17	ṣabāt	ṣabātu	VERB	V	Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 18	dulli	dullu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 19	ina	ina	ADP	PRP	_	20	case	_	_
-20	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
-21	ēṣe	īṣu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-22	adanniš	adanniš	ADV	AV	_	_	_	_	_
-23	ša	ša	PRON	REL	_	25	nsubj	_	_
+20	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	ēṣe	īṣu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	20	appos	_	_
+22	adanniš	adanniš	ADV	AV	_	21	det	_	_
+23	ša	ša	PRON	REL	_	_	_	_	_
 24	issu	ištu	ADP	PRP	_	25	case	_	_
 25	Birati	birati	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
 27	x	x	X	X	_	_	_	_	_
-28	x	x	X	X	_	_	_	_	_
-29	ubbalūninni	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuffix=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	31	nsubj	_	_
-30	gabbu	gabbu	DET	DET	_	29	det	_	_
-31	raṭbu	raṭbu	VERB	AJ	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D	34	obj	_	_
+28	x	x	X	X	_	29	nsubj	_	_
+29	ubbalūninni	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|SubSuffix=Yes|Subordinative=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	34	dep	_	_
+30	gabbu	gabbu	DET	DET	Case=Acc	29	det	_	_
+31	raṭbu	raṭbu	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	30	amod	_	_
 32	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
 33	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	32	appos	_	_
 34	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
-35	kî	kī	ADP	PRP	_	39	case	_	_
-36	musukkannī	musukkannu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
-37	maʾda	mādu	ADJ	AJ	_	39	advcl	_	_
+35	kî	kī	SCONJ	SBJ	_	42	mark	_	_
+36	musukkannī	musukkannu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	42	nsubj	_	_
+37	maʾda	mādu	ADJ	AJ	_	36	amod	_	_
 38	ina	ina	ADP	PRP	_	39	case	_	_
-39	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	34	ccomp	_	_
-40	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	42	obj	_	_
-41	annīu	annû	DET	DP	Case=Acc|Gender=Masc|Number=Sing	40	det	_	_
-42	illakūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+39	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	42	obl	_	_
+40	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	39	nmod	_	_
+41	annīu	annû	DET	DET	Case=Nom|Gender=Masc|Number=Sing	40	det	_	_
+42	illakūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	34	ccomp	_	_
 43	Eṭiru	eṭiru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-44	Bel-ibni	bel-ibni	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	43	conj	_	_
+44	Bel-ibni	bel-ibni	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	kî	kī	ADP	PRP	_	49	case	_	_
-49	memmēni	memēni	PRON	XP	Case=Gen|Gender=Masc|Number=Sing|Person=3	50	dep	_	_
-50	abutu	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+49	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+50	abutu	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	52	nsubj	_	_
 51	ina	ina	ADP	PRP	_	52	case	_	_
-52	muhhišunu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	50	nmod	_	_
+52	muhhišunu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	49	acl	_	_
 53	lā	lā	PART	PART	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
@@ -72,17 +72,17 @@
 61	o	o	X	X	_	_	_	_	_
 62	musukkannī	musukkannu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	68	nsubj	_	_
 63	ina	ina	ADP	PRP	_	64	case	_	_
-64	Kissik	kissik	PROPN	GN	Case=Gen	66	obl	_	_
+64	Kissik	kissik	PROPN	GN	Case=Gen	68	obl	_	_
 65	lū	lū	PART	PART	_	66	advmod	_	_
 66	ina	ina	ADP	PRP	_	67	case	_	_
 67	bēt	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	68	obl	_	_
-68	ibaššûnu	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+68	ibaššûnu	bašû	VERB	V	SubSuff=Yes|Subordinative=Yes	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
 72	x	x	X	X	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
-74	x-ti	x-ti	X	X	_	_	_	_	_
+74	x-ti	x-ti	X	X	_	75	obj	_	_
 75	lēpušu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 76	x	x	X	X	_	_	_	_	_
 77	x	x	X	X	_	_	_	_	_
