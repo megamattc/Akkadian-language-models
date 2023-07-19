@@ -1,0 +1,53 @@
+# text = x x x x
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	1	dep	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+
+# text = ina muhhi x x ša šarru bēlī išpuranni mā dakkišunu
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	dislocated	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	ša	ša	PRON	PRON	_	8	obj	_	_
+6	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	appos	_	_
+8	išpuranni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	7	dep	_	_
+9	mā	mā	PART	Quotative	_	10	discourse	_	_
+10	dakkišunu	dekû	VERB	_	Gender=Masc|Gender[obj]=Masc|Mood=Imp|Number=Sing|Number[obj]=Plur|Person=2|Person[obj]=3|VerbStem=G	0	root	_	_
+
+# text = lilliku aladlammê lišdadūni
+1	lilliku	alāku	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	root	_	_
+2	aladlammê	aladlammû	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	lišdadūni	šadādu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	1	conj	_	_
+
+# text = ina pānāt x x x x x x-tu₂ ša ēkalli x x
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	pānāt	pānātu	NOUN	NOUN	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	1	dep	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	SpaceAfter=No
+9	-	-	X	X	_	8	dep	_	SpaceAfter=No
+10	tu₂	tu₂	X	X	_	9	dep	_	_
+11	ša	ša	X	X	_	12	case	_	_
+12	ēkalli	ēkallu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	11	dep	_	_
+13	x	x	X	X	_	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+
+# text = addubūbu issišunu x x x x x ak ru x x x
+1	addubūbu	dabābu	VERB	V	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	root	_	_
+2	issišunu	išti	ADP	ADP	Gender[prep]=Masc|Number[prep]=Plur|PresSuffPer=3	1	obl	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	ak	ak	X	X	_	7	dep	_	_
+9	ru	ru	X	X	_	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	x	x	X	X	_	10	dep	_	_
+12	x	x	X	X	_	11	dep	_	_
+

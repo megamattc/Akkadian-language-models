@@ -1,0 +1,29 @@
+# text = x issu x+x x x x
+1	x	x	X	X	_	_	_	_	_
+2	issu	ištu	ADP	ADP	_	1	dep	_	_
+3	x+x	x+x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+
+# text = ūmâ {LU₂}x x mā Aššur-šumu-kaʾʾin x x issu libbi Tastiate mutha
+1	ūmâ	ūma	ADV	ADV	_	_	_	_	_
+2	{	{	X	X	_	1	dep	_	SpaceAfter=No
+3	LU₂}x	lu₂}x	NOUN	_	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	mā	mā	ADP	Quotative	_	12	discourse	_	_
+6	Aššur-šumu-kaʾʾin	aššur-šumu-kaʾʾin	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	issu	ištu	ADP	ADP	_	10	case	_	_
+10	libbi	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	12	obl	_	_
+11	Tastiate	tastiate	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	mutha	matāhu	VERB	_	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	0	root	_	_
+
+# text = mīnu ša šarru bēlī iqabbûni
+1	mīnu	mīnu	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ša	ša	PRON	PRON	_	5	obj	_	_
+3	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	appos	_	_
+5	iqabbûni	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=G	1	nsubj	_	_
+

@@ -6,7 +6,7 @@ import spacy_conll
 import json
 from fnmatch import fnmatch
 
-oraccVolume = "rinap4"
+oraccVolume = "saa02"
 
 #File and dictionary for transliteration-norm json
 transNormDictFileName = "akt_trans_lemma_lookup_"+oraccVolume+".json"
@@ -34,7 +34,7 @@ outputPathFinal = "./output_final_"+oraccVolume+"/"
 #other oddities like appearance of ša₂ as broken form (whose lemma should be ša but is in fact ša₂ in norm file), used as last resort in checking forms
 dialectConversionDict = {"išti":"ištu","ištu":"išti","qabli":"qabsi","bītu":"bētu","bīt":"bēt","ša₂":"ša",
                          "la":"lā","a-ki":"akī","lu":"lū","kur":"Mat","mūraku":"arku",
-                         "kī":"kî","ū":"u","issar":"Ištar","limmu":"līmu","pīhātu":"pāhātu"}
+                         "kī":"kî","ū":"u","issar":"Ištar","limmu":"līmu","pīhātu":"pāhātu","amātu":"awātu"}
 
 #In above, note how we have lowercase issar (not Issar)
 

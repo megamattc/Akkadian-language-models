@@ -1,0 +1,81 @@
+# text = x x x x x x x x x x+x x x x x x x x x {1}{d}x+x-sa-kip pu-x x x x x x ša tašpuranni mā rab mūgīya ašappar
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	1	dep	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	_
+10	x+x	x+x	X	X	_	9	dep	_	_
+11	x	x	X	X	_	10	dep	_	_
+12	x	x	X	X	_	11	dep	_	_
+13	x	x	X	X	_	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	x	x	X	X	_	16	dep	_	_
+18	x	x	X	X	_	17	dep	_	_
+19	{	{	X	X	_	18	dep	_	SpaceAfter=No
+20	1}{d}x+x	1}{d}x+x	PROPN	_	_	19	dep	_	SpaceAfter=No
+21	-	-	X	_	_	20	dep	_	SpaceAfter=No
+22	sa	sa	X	_	_	21	dep	_	SpaceAfter=No
+23	-	-	X	_	_	22	dep	_	SpaceAfter=No
+24	kip	kip	X	_	_	23	dep	_	_
+25	pu	pu	X	_	_	24	dep	_	SpaceAfter=No
+26	-	-	X	X	_	25	dep	_	SpaceAfter=No
+27	x	x	X	X	_	26	dep	_	_
+28	x	x	X	X	_	27	dep	_	_
+29	x	x	X	X	_	28	dep	_	_
+30	x	x	X	X	_	29	dep	_	_
+31	x	x	X	X	_	30	dep	_	_
+32	x	x	X	X	_	31	dep	_	_
+33	ša	ša	PRON	PRON	_	34	obj	_	_
+34	tašpuranni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	33	dep	_	_
+35	mā	mā	PART	Quotative	_	38	discourse	_	_
+36	rab	rabû	NOUN	NOUN	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	38	obj	_	_
+37	mūgīya	mūgu	NOUN	NOUN	Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	36	nmod	_	_
+38	ašappar	šapāru	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# text = mā issi Arpaddaya dibbī ṭābūti dubbu
+1	mā	mā	PART	Quotative	_	6	discourse	_	_
+2	issi	išti	ADP	ADP	_	3	case	_	_
+3	Arpaddaya	arpaddaya	NOUN	EN	Gender=Masc|Number=Sing	6	obl	_	_
+4	dibbī	dibbu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+5	ṭābūti	ṭābu	ADJ	ADJ	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
+6	dubbu	dabābu	VERB	_	Gender=Masc|Mood=Imp|Number=Sing|VerbStem=G	0	root	_	_
+
+# text = mā tašlīšaka x x x
+1	mā	mā	PART	Quotative	_	_	_	_	_
+2	tašlīšaka	tašlīšu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	1	dep	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+
+# text = ina libbi Aššur ilānīya utammeka šumma rab mūgīka tašapparanni x x x x x x x x x lu sa x+x x x x
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	obl	_	_
+3	Aššur	aššur	PROPN	DN	Case=Gen|Gender=Masc	2	nmod:poss	_	_
+4	ilānīya	ilu	NOUN	N	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Plur|Number[psor]=Sing|Person[psor]=1	3	conj	_	_
+5	utammeka	tamû	VERB	VERB	Gender=Com|Gender[obj]=Masc|Mood=Ind|Number=Sing|Number[obj]=Sing|Person=1|Person[obj]=2|Tense=Pres|VerbForm=Fin|VerbStem=D	0	root	_	_
+6	šumma	šumma	SCONJ	SCONJ	_	9	mark	_	_
+7	rab	rabû	NOUN	NOUN	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	9	obj	_	_
+8	mūgīka	mūgu	NOUN	NOUN	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	nmod	_	_
+9	tašapparanni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	x	x	X	X	_	10	dep	_	_
+12	x	x	X	X	_	11	dep	_	_
+13	x	x	X	X	_	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	x	x	X	X	_	16	dep	_	_
+18	x	x	X	X	_	17	dep	_	_
+19	lu	lu	VERB	VERB	_	18	dep	_	_
+20	sa	sa	X	X	_	19	dep	_	_
+21	x+x	x+x	X	X	_	20	dep	_	_
+22	x	x	X	X	_	21	dep	_	_
+23	x	x	X	X	_	22	dep	_	_
+24	x	x	X	X	_	23	dep	_	_
+

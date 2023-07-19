@@ -61,8 +61,8 @@ sys.path.append(util_dir)
 os.makedirs('jsonzip', exist_ok = True)
 os.makedirs('output', exist_ok = True)
 
-oraccVolume = 'saao' #Short name of oracc project
-oraccProject = 'saa02/' + oraccVolume #Full name of oracc project
+oraccVolume = 'assur' #Short name of oracc project
+oraccProject = 'tcma/'+ oraccVolume #Full name of oracc project
 
 lemmaLookupFileName = 'ak_norm_lemma_lookup_' + oraccVolume + '.json' #Name of file for lemma list
 attributeLookupFileName = 'attribute_ruler_patterns_' + oraccVolume + '.json' #Name of file for attribute list
@@ -162,7 +162,7 @@ print(translitOutputDic, file=savefile)
 
 
 #Conversion dictionary between Oracc pos terms and UD.
-posLabelDic = {"AN":"PROPN","CN":"PROPN","DN":"PROPN","EN":"PROPN","FN":"PROPN","GN":"PROPN","LN":"PROPN","MN":"PROPN","ON":"PROPN","PN":"PROPN","QN":"PROPN","RN":"PROPN","SN":"PROPN","TN":"PROPN","YN":"PROPN","WN":"PROPN","AJ":"ADJ","AV":"ADV","NU":"NUM","CNJ":"CONJ","DET":"DET","J":"INTJ","N":"NOUN","PP":"PRON","V":"VERB","IP":"PRON","DP":"DET","MOD":"PART","PRP":"ADP","QP":"PRON","RP":"PRON","REL":"PRON","SBJ":"SCONJ","XP":"PRON","u":"X","n":"NUM","X":"X","NN":"NN","":""}
+posLabelDic = {"AN":"PROPN","CN":"PROPN","DN":"PROPN","EN":"PROPN","NP":"NOUN","FN":"PROPN","GN":"PROPN","LN":"PROPN","MN":"PROPN","ON":"PROPN","PN":"PROPN","QN":"PROPN","RN":"PROPN","SN":"PROPN","TN":"PROPN","YN":"PROPN","WN":"PROPN","AJ":"ADJ","AV":"ADV","NU":"NUM","CNJ":"CONJ","DET":"DET","J":"INTJ","N":"NOUN","PP":"PRON","V":"VERB","IP":"PRON","DP":"DET","MOD":"PART","PRP":"ADP","QP":"PRON","RP":"PRON","REL":"PRON","SBJ":"SCONJ","XP":"PRON","u":"X","n":"NUM","X":"X","NN":"NN","":""}
 
 demPronList = ["annû","ullû","annītu","annūti","annūtu","ammūti","ammūte","annî"]
 negList = ["lā","ai","ul"]

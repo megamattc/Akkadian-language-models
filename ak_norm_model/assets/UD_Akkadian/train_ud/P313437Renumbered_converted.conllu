@@ -1,0 +1,74 @@
+#P313436
+# text = ana šarri bēlīya urdaka Ṭab-šar-Aššur lū šulmu ana šarri bēlīya ūm 17-KAM anāku u Kiṣir-Aššur ina muhhi Zaba nittalak gušūrī nētamar maʾdu gušūrī ammar ša ṣahittīni x x x isītāte x x x+x - u - ni ṣābāni o x ša issīni illikūni x ša šarri Kiṣir-Aššur gušūrī it - ta - x+x x anāku ana Dur-Šarruken attalka rēhti
+1	ana	ana	ADP	_	_	2	case	_	_
+2	šarri	šarru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	_	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	_	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+5	Ṭab-šar-Aššur	Ṭab-šar-Aššur	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+#
+#
+1	lū	lū	PART	_	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	ana	ana	ADP	_	_	4	case	_	_
+4	šarri	šarru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	_	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+
+#
+#
+1	ūm	ūmu	NOUN	_	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
+2	17-KAM	17-KAM	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	1	amod	_	_
+3	anāku	anāku	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1	9	nsubj	_	_
+4	u	u	CONJ	_	_	5	cc	_	_
+5	Kiṣir-Aššur	Kiṣir-Aššur	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+6	ina	ina	ADP	_	_	7	case	_	_
+7	muhhi	muhhu	NOUN	_	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
+8	Zaba	Zaba	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	nittalak	alāku	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|VerbStem=G	0	root	_	_
+10	gušūrī	gušūru	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+11	nētamar	amāru	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|VerbStem=G	9	conj	_	_
+
+#
+#
+1	maʾdu	mādu	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	gušūrī	gušūru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+3	ammar	ammar	PRON	_	_	3	parataxis	_	_
+4	ša	ša	ADP	_	_	5	case	_	_
+5	ṣahittīni	ṣahittu	NOUN	_	Case=Gen|Gender=Fem|Gender[psor]=Com|Number=Sing|Number[psor]=Plur|Person[psor]=1	3	nmod	_	_
+6	x	x	X	_	_	5	dep	_	_
+7	x	x	X	_	_	6	dep	_	_
+8	x	x	X	_	_	7	dep	_	_
+9	isītāte	isītu	NOUN	_	Gender=Fem|Number=Plur	8	dep	_	_
+10	x	x	X	_	_	9	dep	_	_
+11	x	x	X	_	_	10	dep	_	_
+12	x+x	x+x	X	_	_	11	dep	_	_
+13	-	_	_	_	_	12	dep	_	_
+14	u	u	CONJ	_	_	13	dep	_	_
+15	-	-	X	_	_	14	dep	_	_
+16	ni	ni	X	_	_	15	dep	_	_
+17	ṣābāni	ṣābu	NOUN	_	Gender=Masc|Number=Plur	16	dep	_	_
+18	o	o	X	_	_	17	dep	_	_
+19	x	x	X	_	_	18	dep	_	_
+20	ša	ša	PRON	_	_	22	nsubj	_	_
+21	issīni	išti	ADP	_	Gender[prep]=Com|Number[prep]=Plur|PresSuffPer=1	22	obl	_	_
+22	illikūni	alāku	VERB	_	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	17	acl	_	_
+23	x	x	X	_	_	22	dep	_	_
+24	ša	ša	X	_	_	23	dep	_	_
+25	šarri	šarru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	24	dep	_	_
+26	Kiṣir-Aššur	Kiṣir-Aššur	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	25	dep	_	_
+27	gušūrī	gušūru	NOUN	_	Gender=Masc|Number=Plur	26	dep	_	_
+28	it	it	X	_	_	27	dep	_	_
+29	-	-	X	_	_	28	dep	_	_
+30	ta	ta	X	_	_	29	dep	_	_
+31	-	_	_	_	_	30	dep	_	_
+32	x+x	x+x	X	_	_	31	dep	_	_
+33	x	x	X	_	_	32	dep	_	_
+
+#
+#
+1	anāku	anāku	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1	4	nsubj	_	_
+2	ana	ana	ADP	_	_	3	case	_	_
+3	Dur-Šarruken	Dur-Šarruken	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	attalka	alāku	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	root	_	_
+5	rēhti	rēhtu	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	dep	_	_
+

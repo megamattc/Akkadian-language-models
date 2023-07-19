@@ -1,0 +1,54 @@
+# text = šu-x x x x {LU₂}x x x x ša x x x x imqutūni ina {URU}x x x kammusūni akī ša x x x-di parriṣūti šakkirūtu pēthallu issišunu ina qabsi Kalhi idūlu
+1	šu	šu	X	_	_	_	_	_	SpaceAfter=No
+2	-	-	X	X	_	1	dep	_	SpaceAfter=No
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+7	{	{	X	X	_	6	dep	_	SpaceAfter=No
+8	LU₂}x	lu₂}x	NOUN	_	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	x	x	X	X	_	10	dep	_	_
+12	ša	ša	X	X	_	11	dep	_	_
+13	x	x	X	X	_	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	imqutūni	maqātu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	16	dep	_	_
+18	ina	ina	ADP	PRP	_	20	case	_	_
+19	{	{	X	X	_	18	dep	_	SpaceAfter=No
+20	URU}x	uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	19	dep	_	_
+21	x	x	X	X	_	20	dep	_	_
+22	x	x	X	X	_	21	dep	_	_
+23	kammusūni	kamsu	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|VerbStem=D	22	dep	_	_
+24	akī	akī	ADP	ADP	_	23	dep	_	_
+25	ša	ša	X	X	_	24	dep	_	_
+26	x	x	X	X	_	25	dep	_	_
+27	x	x	X	X	_	26	dep	_	_
+28	x	x	X	X	_	27	dep	_	SpaceAfter=No
+29	-	-	X	X	_	28	dep	_	SpaceAfter=No
+30	di	di	X	X	_	29	dep	_	_
+31	parriṣūti	parriṣu	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	30	dep	_	_
+32	šakkirūtu	šākiru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	31	conj	_	_
+33	pēthallu	pēthallu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	32	dep	_	_
+34	issišunu	išti	ADP	ADP	Gender[prep]=Masc|Gender[prep]=Masc|Number[prep]=Plur|Person[prep]=3	33	dep	_	_
+35	ina	ina	ADP	ADP	_	36	case	_	_
+36	qabsi	qabaltu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	38	obl	_	_
+37	Kalhi	kalhi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	idūlu	dâlu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# text = mīnu ša bēlī iqabbûni
+1	mīnu	mīnu	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ša	ša	PRON	_	_	4	obj	_	_
+3	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
+4	iqabbûni	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=G	1	nsubj	_	_
+
+# text = gabrû ša egerte bēlī arhiš lišpura
+1	gabrû	gabarû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+2	ša	ša	ADP	_	_	3	case	_	_
+3	egerte	egertu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
+5	arhiš	arhiš	ADV	ADV	_	6	advmod	_	_
+6	lišpura	šapāru	VERB	VERB	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	root	_	_
+

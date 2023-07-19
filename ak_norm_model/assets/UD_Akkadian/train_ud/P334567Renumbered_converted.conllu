@@ -1,0 +1,113 @@
+#P334567
+# text = ana šarri bēlīya urdaka Nabu-deʾiq
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+5	Nabu-deʾiq	Nabu-deʾiq	PROPN	PROPN	_	4	appos	_	SpaceAfter=No
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+
+# text = 02 līmu 03 mē 50 ibissu ša šahšūrī 04 mē 50 ibissu ša šallūri gimru 02 līmu 08 mē ibissu Nemed-Issaraya ētemēdi
+1	02	02	NUM	NUM	_	2	nummod	_	_
+2	līmu	līm	NUM	NUM	_	6	nummod	_	_
+3	03	03	NUM	NUM	_	4	nummod	_	_
+4	mē	meʾatu	NUM	NUM	_	2	conj	_	_
+5	50	50	NUM	NUM	_	2	conj	_	_
+6	ibissu	ibissu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+7	ša	ša	ADP	DET	_	8	case	_	_
+8	šahšūrī	šahšūru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	04	04	NUM	NUM	_	10	nummod	_	_
+10	mē	meʾatu	NUM	NUM	_	12	nummod	_	_
+11	50	50	NUM	NUM	_	10	nummod	_	_
+12	ibissu	ibissu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+13	ša	ša	ADP	DET	_	14	case	_	_
+14	šallūri	šallūru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	gimru	gimru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+16	02	02	NUM	NUM	_	17	nummod	_	_
+17	līmu	līm	NUM	NUM	_	20	nummod	_	_
+18	08	08	NUM	NUM	_	19	nummod	_	_
+19	mē	mē	NUM	NUM	_	17	conj	_	_
+20	ibissu	ibissu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	22	parataxis	_	_
+21	Nemed-Issaraya	Nemed-Issaraya	PROPN	SN	_	22	obl	_	SpaceAfter=No
+22	ētemēdi	ētemēdu	VERB	VERB	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# text = ūm x-KAM ša Šabaṭi x x x x-u-a uttēre
+1	ūm	ūmu	NOUN	NOUN	Gender=Masc|NounBase=Bound|Number=Sing	15	advmod	_	_
+2	x	_	ADJ	_	_	1	amod	_	SpaceAfter=No
+3	-	_	X	_	_	2	dep	_	SpaceAfter=No
+4	KAM	KAM	X	_	_	2	fixed	_	_
+5	ša	ša	ADP	DET	_	6	case	_	_
+6	Šabaṭi	Šabaṭu	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	SpaceAfter=No
+11	-	-	X	X	_	10	dep	_	SpaceAfter=No
+12	u	u	CONJ	CONJ	_	11	dep	_	SpaceAfter=No
+13	-	-	X	X	_	12	dep	_	SpaceAfter=No
+14	a	a	X	X	_	13	dep	_	_
+15	uttēre	uttēre	VERB	VERB	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|Ventive=Yes|VerbForm=Fin|VerbStem=D	0	root	_	_
+
+# text = ina Dur-Šarruken Nani u Suhaya ittalkūni
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	Dur-Šarruken	Dur-Šarruken	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	Nani	Nani	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	u	u	CCONJ	CNJ	_	5	cc	_	_
+5	Suhaya	Suhayu	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+6	ittalkūni	alāku	VERB	V	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# text = Ahu-illika Zabina-ili issišunu
+1	Ahu-illika	Ahu-illika	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+2	Zabina-ili	Zabina-ili	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+3	issišunu	issišunu	PROPN	PRP	Gender[prep]=Masc|Number[prep]=Plur|PresSuffPer=3	0	root	_	_
+
+# text = ziqpu ša duqdi ša supurgillum ša angāše imattuhu ubbalūni ana Dur-Šarruken
+1	ziqpu	ziqpu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+2	ša	ša	ADP	DET	_	3	case	_	_
+3	duqdi	duqdi	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	ša	ša	ADP	X	_	5	case	_	_
+5	supurgillum	supurgillum	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+6	ša	ša	PRON	DET	_	7	case	_	_
+7	angāše	angāše	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+8	imattuhu	imattuhu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	root	_	_
+9	ubbalūni	ubbalūni	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	8	conj	_	_
+10	ana	ana	ADP	PRP	_	11	case	_	_
+11	Dur-Šarruken	Dur-Šarruken	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+
+
+# text = u ziqpu ša issu Laqe Suhaya issi nišē mātimma 01 līmu ibissu ša šahšūrī naṣūni
+1	u	u	CCONJ	CONJ	_	2	cc	_	_
+2	ziqpu	ziqpu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	15	dislocated	_	_
+3	ša	ša	PRON	_	_	5	nsubj	_	_
+4	issu	ištu	ADP	ADP	_	5	case	_	_
+5	Laqe	Laqu	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	2	acl	_	_
+6	Suhaya	Suhayu	PROPN	EN	Case=Nom|Gender=Masc	15	nsubj	_	_
+7	issi	išti	ADP	ADP	_	8	case	_	_
+8	nišē	nišu	NOUN	NOUN	_	6	nmod	_	_
+9	mātimma	mātimma	NOUN	_	Case=Gen|Gender=Fem|MaParticle=Yes|Number=Sing	8	nmod	_	_
+10	01	01	NUM	NUM	_	11	nummod	_	_
+11	līmu	līmu	NUM	NUM	_	12	nmod	_	_
+12	ibissu	ibissu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+13	ša	ša	ADP	DET	_	14	case	_	_
+14	šahšūrī	šahšūru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	naṣūni	naṣūni	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	0	root	_	_
+
+# text = pānāssunu taqṭarba
+1	pānāssunu	pānāssunu	NOUN	NOUN	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person[psor]=3	2	nsubj	_	_
+2	taqṭarba	taqṭarba	VERB	V	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# text = ātamar
+1	ātamar	ātamar	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# text = urkīssunu udīni lā taqarriba
+1	urkīssunu	urkīssunu	NOUN	N	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	nsubj	_	_
+2	udīni	udīnu	ADV	N	_	4	advmod	_	_
+3	lā	lā	PART	PART	_	4	advmod	_	_
+4	taqarriba	taqarriba	VERB	VERB	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	root	_	_
+

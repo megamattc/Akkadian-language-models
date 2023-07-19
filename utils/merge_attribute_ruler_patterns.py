@@ -1,6 +1,10 @@
 import json, sys
 import tqdm
 
+#List of tokens we do not want to merge for, because they already have extra attributes in existing dictionary designed to disambiguate grammaticals
+# forms associate with them (e.g. ša = PRP vs. ša = PRON), and adding new, simple tokens (e.g. just 'ša') interferes with quality of dictionary
+exceptions = ["ša","mā","issi","qanni","pitti","šaniu","šaniūte","battibatti","šemû","lapān","ammar","akī","aššu",
+              "gašru","kî","kî","adi","udīni","kīma","bēt","adu","ibašši"]
 
 #Merge attributes of a form, where we have to be careful b/c the same key in the two dicts can have different values (e.g. "NOUN" and "N" for "POS", or the "MORPH" entry)
 def merge_attrs(attrDict1: dict, attrDict2: dict):
@@ -19,6 +23,11 @@ def merge_attrs(attrDict1: dict, attrDict2: dict):
             mergeDict.update({key:attrDict2[key]})
         elif key not in keys2:
             mergeDict.update({key:attrDict1[key]})
+
+        # If the key is one of the special entries in preexisting dictionary that we don't want to version of it in new dictionary,
+        elif key in exceptions:
+            mergeDict.update({key: attrDict1[key]})
+
         #If key is common to both entries and is a MORPH key, combine all morphological features from both entries
         elif key == "MORPH":
             #For now, we only care if a form has two specifications for UFeats
@@ -30,6 +39,8 @@ def merge_attrs(attrDict1: dict, attrDict2: dict):
             combStr = "|".join(combList)
 
             mergeDict.update({key:combStr})
+
+
         #Else for some other type of key we have not yet dealt with common to both entries, take only first entry for now (NB: This includes for instance cases where one entry has
         #"TAG" = "V" and the other "TAG" = "VERB". Currently we take from only  the first comparandum
         else:
@@ -41,10 +52,10 @@ def merge_attrs(attrDict1: dict, attrDict2: dict):
 
 
 
-inputFileName1 = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File names of input attribute ruler files
-inputFileName2 = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json"
+inputFileName1 = "attribute_ruler_patterns_1_2_5_9_13_15_16_17_18_19_21_anzu_barutu_rinap4_tcma-assur.json" #File names of input attribute ruler files
+inputFileName2 = "ak_attribute_ruler_patterns_saa21.json"
 
-outputFileName = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File name of output attribute ruler file
+outputFileName = "attribute_ruler_patterns_1_2_5_8_9_13_15_16_17_18_19_21_anzu_barutu_rinap4_tcma-assur.json" #File name of output attribute ruler file
 
 inputFile1 = open(inputFileName1, 'r')
 attributeList1 = json.load(inputFile1)

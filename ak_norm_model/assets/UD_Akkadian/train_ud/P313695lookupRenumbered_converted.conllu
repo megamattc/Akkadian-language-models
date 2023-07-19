@@ -1,0 +1,74 @@
+#P313695
+# text = 02 līmu {GIŠ}x x x x x 05 mē gušūrī x x pāniumma x x x x uqarrabūni x x x kīma a-x x x x x i-tal-x x x x x x šarri x x x x lēriš x x x x x šarru bēlī x x x x mā {GIŠ}x+x x x x arhiš x x x x mê ina nāri x x x
+1	02	02	NUM	NUM	_	2	nummod	_	_
+2	līmu	līm	NUM	NU	_	4	nummod	_	_
+3	{	{	X	X	_	2	dep	_	SpaceAfter=No
+4	GIŠ}x	giš}x	NOUN	N	Number=Plur	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	05	05	NUM	NUM	_	10	nummod	_	_
+10	mē	meʾatu	NUM	NU	_	11	nummod	_	_
+11	gušūrī	gušūru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	10	dep	_	_
+12	x	x	X	X	_	11	dep	_	_
+13	x	x	X	X	_	12	dep	_	_
+14	pāniumma	pānû	ADJ	AJ	Gender=Fem|Number=Sing	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	x	x	X	X	_	16	dep	_	_
+18	x	x	X	X	_	17	dep	_	_
+19	uqarrabūni	qerēbu	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbStem=D	18	dep	_	_
+20	x	x	X	X	_	19	dep	_	_
+21	x	x	X	X	_	20	dep	_	_
+22	x	x	X	X	_	21	dep	_	_
+23	kīma	kīma	ADP	PRP	_	22	dep	_	_
+24	a-x	a-x	X	X	_	23	dep	_	_
+25	x	x	X	X	_	24	dep	_	_
+26	x	x	X	X	_	25	dep	_	_
+27	x	x	X	X	_	26	dep	_	_
+28	x	x	X	X	_	27	dep	_	_
+29	i-tal-x	i-tal-x	X	X	_	28	dep	_	_
+30	x	x	X	X	_	29	dep	_	_
+31	x	x	X	X	_	30	dep	_	_
+32	x	x	X	X	_	31	dep	_	_
+33	x	x	X	X	_	32	dep	_	_
+34	x	x	X	X	_	33	dep	_	_
+35	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	34	dep	_	_
+36	x	x	X	X	_	35	dep	_	_
+37	x	x	X	X	_	36	dep	_	_
+38	x	x	X	X	_	37	dep	_	_
+39	x	x	X	X	_	38	dep	_	_
+40	lēriš	erēšu	VERB	VERB	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	39	dep	_	_
+
+#
+#
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	1	dep	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+7	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	appos	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	x	x	X	X	_	10	dep	_	_
+12	mā	mā	PART	Quotative	_	11	dep	_	_
+13	{	{	X	X	_	12	dep	_	SpaceAfter=No
+14	GIŠ}x+x	giš}x+x	NOUN	N	Gender=Masc|Number=Sing	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	x	x	X	X	_	16	dep	_	_
+18	arhiš	arhiš	ADV	AV	_	17	dep	_	_
+19	x	x	X	X	_	18	dep	_	_
+20	x	x	X	X	_	19	dep	_	_
+21	x	x	X	X	_	20	dep	_	_
+22	x	x	X	X	_	21	dep	_	_
+23	mê	mû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+24	ina	ina	ADP	PRP	_	25	case	_	_
+25	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	24	dep	_	_
+26	x	x	X	X	_	25	dep	_	_
+27	x	x	X	X	_	26	dep	_	_
+28	x	x	X	X	_	27	dep	_	_
+

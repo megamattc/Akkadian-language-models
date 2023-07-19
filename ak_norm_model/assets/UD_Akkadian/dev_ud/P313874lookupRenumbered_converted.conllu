@@ -1,0 +1,37 @@
+# text = ana šarri bēlīya urdaka Tariba-Issar
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+5	Tariba-Issar	tariba-issar	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana amēli
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	amēli	awīlu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+
+# text = ūmâ mīnu ša šarru bēlī išapparūni kurummāti ša upahhirūni ina karāri lallik
+1	ūmâ	ūma	ADV	ADV	_	_	_	_	_
+2	mīnu	mīnu	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing	1	dep	_	_
+3	ša	ša	PRON	PRON	_	6	obj	_	_
+4	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+6	išapparūni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	2	nsubj	_	_
+7	kurummāti	kurummatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	12	dislocated	_	_
+8	ša	ša	PRON	PRON	_	9	obj	_	_
+9	upahhirūni	pahāru	VERB	_	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=D	7	acl	_	_
+10	ina	ina	ADP	ADP	_	11	case	_	_
+11	karāri	karāru	VERB	_	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	12	obl	_	_
+12	lallik	alāku	NOUN	NOUN	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	root	_	_
+
+# text = adu bēt abitī taqarribūni x x x x
+1	adu	adi	SCONJ	SCONJ	_	4	mark	_	_
+2	bēt	bītu	NOUN	NOUN	_	1	fixed	_	_
+3	abitī	awātu	NOUN	_	Case=Nom|Gender=Fem|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obj	_	_
+4	taqarribūni	qerēbu	VERB	VERB	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+

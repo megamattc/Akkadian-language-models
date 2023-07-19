@@ -1,0 +1,180 @@
+# sent_id = P224395-0
+# text = saao / saa01 / P224395
+1	saao	_	_	_	_	_	_	_	_
+2	/	_	_	_	_	1	dep	_	_
+3	saa01	_	_	_	_	2	dep	_	_
+4	/	_	_	_	_	3	dep	_	_
+5	P224395	_	_	_	_	4	dep	_	_
+
+# sent_id = P224395-1
+# text = ana šarri bēlīya urdaka Adda-hati
+1	ana	ana	ADP	_	_	2	case	_	_
+2	šarri	šarru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=2	2	nsubj	_	_
+5	Adda-hati	Adda-hati	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# sent_id = P224395-2
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	_	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	ana	ana	ADP	_	_	4	case	_	_
+4	šarri	šarru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+
+# text = mār Amiri ina libbi 03 mē anāqāte uzzatakki
+1	mār	māru	NOUN	_	Gender=Masc|NounBase=Bound|Number=Sing	8	nsubj	_	_
+2	Amiri	Amiru	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	ina	ina	ADP	_	_	4	case	_	_
+4	libbi	libbu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	dep	_	_
+5	03	03	NUM	_	_	6	nummod	_	_
+6	mē	meʾatu	NUM	_	_	7	nummod	_	_
+7	anāqāte	anāqutu	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	uzzatakki	zakû	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|VerbStem=Dt	0	root	_	_
+
+# sent_id = P224395-4
+# text = mā ina muhhi hubte ša issu Dimašqa ana māt Aššur ušettaqūni mā ina muhhi amaqqut assēme
+1	mā	mā	PART	Quotative	_	11	discourse	_	_
+2	ina	ina	ADP	_	_	3	case	_	_
+3	muhhi	muhhu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	dislocated	_	_
+4	hubte	hubtu	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	ša	ša	PRON	_	_	11	obj	_	_
+6	issu	ištu	ADP	_	_	7	case	_	_
+7	Dimašqa	Dimašqa	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+8	ana	ana	ADP	_	_	9	case	_	_
+9	māt	mātu	NOUN	_	Gender=Masc|NounBase=Bound|Number=Sing	11	obl	_	_
+10	Aššur	Aššur	PROPN	_	_	9	nmod	_	_
+11	ušettaqūni	etēqu	VERB	_	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=Š	10	dep	_	_
+12	mā	mā	PART	Quotative	_	15	discourse	_	_
+13	ina	ina	ADP	_	_	14	case	_	_
+14	muhhi	muhhu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+15	amaqqut	maqātu	VERB	_	Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=No|Tense=Pres|VerbForm=Ind|VerbStem=G	16	ccomp	_	_
+16	assēme	šemû	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=No|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# sent_id = P224395-5
+# text = ina muhhi Bel-iqbi assapra ittalka issāhîši ina irti hubte nittalak
+1	ina	ina	ADP	_	_	3	case	_	_
+2	muhhi	muhhu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	1	fixed	_	_
+3	Bel-iqbi	Bel-iqbi	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
+4	assapra	šapāru	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=No|VerbForm=Ind|VerbStem=G	3	dep	_	_
+5	ittalka	alāku	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Ventive=Yes|VerbForm=Fin|VerbStem=G	4	dep	_	_
+6	issāhîši	issahîš	ADV	_	_	10	advmod	_	_
+7	ina	ina	ADP	_	_	8	case	_	_
+8	irti	irtu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	iobj	_	_
+9	hubte	hubtu	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	nittalak	alāku	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# sent_id = P224395-6
+# text = ētamarnāši
+1	ētamarnāši	amāru	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Number[obj]=Plur|Person=3|Person[obj]=1|Subordinative=No|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# sent_id = P224395-7
+# text = ina šubtu ina kutallīni ussēšib
+1	ina	ina	ADP	_	_	2	case	_	_
+2	šubtu	šubtu	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	ina	ina	ADP	_	_	4	case	_	_
+4	kutallīni	kutallu	NOUN	_	Gender=Masc|NounBase=Suffixal|NounSuffNum=Plur|NounSuffPer=1|Number=Sing	5	obl	_	_
+5	ussēšib	ašābu	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|VerbForm=Fin|VerbStem=Š	0	root	_	_
+
+# sent_id = P224395-8
+# text = nittahāṣa o x - lim-05-me immerē hubte issu Huzaza x - lim-05-me immerē x+x x+x x+x x x+x x x x { URU}x+x - x - tu x x x 02 ṣābāni x x x+x x ṣābāni x x x+x x x+x - na x x x te x+x mu x x x x x x šu₂ x x x+x x x x x+x x x anīnu nissuhur ina dātuššu nirtidīpi x x+x Illabani x+x niqṭirib lā nikšūdu marīṣi lā ana sissê lā ana mugirrī o { 1}ni - ba - x x+x x ina x+x x si x
+1	nittahāṣa	mahāṣu	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=No|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+2	o	o	X	_	_	1	dep	_	_
+3	x	x	X	_	_	2	dep	_	_
+4	-	-	X	_	_	3	dep	_	_
+5	lim-05-me	lim-05-me	X	_	_	4	dep	_	_
+6	immerē	immeru	NOUN	_	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	7	nmod	_	_
+7	hubte	hubtu	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	6	dep	_	_
+8	issu	ištu	ADP	_	_	9	case	_	_
+9	Huzaza	Huzaza	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	8	dep	_	_
+10	x	x	X	_	_	9	dep	_	_
+11	-	-	X	_	_	10	dep	_	_
+12	lim-05-me	lim-05-me	X	_	_	11	dep	_	_
+13	immerē	immeru	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	12	dep	_	_
+14	x+x	x+x	X	_	_	13	dep	_	_
+15	x+x	x+x	X	_	_	14	dep	_	_
+16	x+x	x+x	X	_	_	15	dep	_	_
+17	x	x	X	_	_	16	dep	_	_
+18	x+x	x+x	X	_	_	17	dep	_	_
+19	x	x	X	_	_	18	dep	_	_
+20	x	x	X	_	_	19	dep	_	_
+21	x	x	X	_	_	20	dep	_	_
+22	{	{	X	_	_	21	dep	_	_
+23	URU}x+x	URU}x+x	PROPN	SN	_	22	dep	_	_
+24	-	-	X	_	_	23	dep	_	_
+25	x	x	X	_	_	24	dep	_	_
+26	-	-	X	_	_	25	dep	_	_
+27	tu	tu	X	_	_	26	dep	_	_
+28	x	x	X	_	_	27	dep	_	_
+29	x	x	X	_	_	28	dep	_	_
+30	x	x	X	_	_	29	dep	_	_
+31	02	02	NUM	_	_	30	dep	_	_
+32	ṣābāni	ṣābu	NOUN	_	_	31	dep	_	_
+33	x	x	X	_	_	32	dep	_	_
+34	x	x	X	_	_	33	dep	_	_
+35	x+x	x+x	X	_	_	34	dep	_	_
+36	x	x	X	_	_	35	dep	_	_
+37	ṣābāni	ṣābu	NOUN	_	_	36	dep	_	_
+38	x	x	X	_	_	37	dep	_	_
+39	x	x	X	_	_	38	dep	_	_
+40	x+x	x+x	X	_	_	39	dep	_	_
+41	x	x	X	_	_	40	dep	_	_
+42	x+x	x+x	X	_	_	41	dep	_	_
+43	-	-	X	_	_	42	dep	_	_
+44	na	na	X	_	_	43	dep	_	_
+45	x	x	X	_	_	44	dep	_	_
+46	x	x	X	_	_	45	dep	_	_
+47	x	x	X	_	_	46	dep	_	_
+48	te	te	X	_	_	47	dep	_	_
+49	x+x	x+x	X	_	_	48	dep	_	_
+50	mu	mu	X	_	_	49	dep	_	_
+51	x	x	X	_	_	50	dep	_	_
+52	x	x	X	_	_	51	dep	_	_
+53	x	x	X	_	_	52	dep	_	_
+54	x	x	X	_	_	53	dep	_	_
+55	x	x	X	_	_	54	dep	_	_
+56	x	x	X	_	_	55	dep	_	_
+57	šu₂	šu₂	X	_	_	56	dep	_	_
+58	x	x	X	_	_	57	dep	_	_
+59	x	x	X	_	_	58	dep	_	_
+60	x+x	x+x	X	_	_	59	dep	_	_
+61	x	x	X	_	_	60	dep	_	_
+62	x	x	X	_	_	61	dep	_	_
+63	x	x	X	_	_	62	dep	_	_
+64	x+x	x+x	X	_	_	63	dep	_	_
+65	x	x	X	_	_	64	dep	_	_
+66	x	x	X	_	_	65	dep	_	_
+67	anīnu	anīnu	PRON	_	_	66	dep	_	_
+68	nissuhur	sahāru	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|VerbForm=Ind|VerbStem=G	67	dep	_	_
+69	ina	ina	ADP	_	_	70	case	_	_
+70	dātuššu	dāt	NOUN	_	Case=Gen|Gender=Fem|NounSuffNum=Sing|NounSuffPer=3|Number=Plur	71	obl	_	_
+71	nirtidīpi	radāpu	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|VerbForm=Fin|VerbStem=G	70	dep	_	_
+72	x	x	X	_	_	71	dep	_	_
+73	x+x	x+x	X	_	_	72	dep	_	_
+74	Illabani	Illabani	PROPN	_	_	73	dep	_	_
+75	x+x	x+x	X	_	_	74	dep	_	_
+76	niqṭirib	qerēbu	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|VerbForm=Fin|VerbStem=G	75	dep	_	_
+77	lā	lā	PART	_	_	78	advmod	_	_
+78	nikšūdu	kašādu	VERB	_	Aspect=Perf|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|VerbForm=Fin|VerbStem=G	77	dep	_	_
+79	marīṣi	marṣu	ADJ	_	_	78	dep	_	_
+80	lā	lā	PART	_	_	79	dep	_	_
+81	ana	ana	ADP	_	_	82	case	_	_
+82	sissê	sisû	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	81	dep	_	_
+83	lā	lā	PART	_	_	82	dep	_	_
+84	ana	ana	ADP	_	_	85	case	_	_
+85	mugirrī	mugerru	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	84	dep	_	_
+86	o	o	X	_	_	85	dep	_	_
+87	{	{	X	_	_	86	dep	_	_
+88	1}ni	1}ni	PROPN	PN	_	87	dep	_	_
+89	-	-	X	_	_	88	dep	_	_
+90	ba	ba	X	_	_	89	dep	_	_
+91	-	-	X	_	_	90	dep	_	_
+92	x	x	X	_	_	91	dep	_	_
+93	x+x	x+x	X	_	_	92	dep	_	_
+94	x	x	X	_	_	93	dep	_	_
+95	ina	ina	ADP	_	_	94	dep	_	_
+96	x+x	x+x	X	_	_	95	dep	_	_
+97	x	x	X	_	_	96	dep	_	_
+98	si	si	X	_	_	97	dep	_	_
+99	x	x	X	_	_	98	dep	_	_
+

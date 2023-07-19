@@ -1,15 +1,36 @@
 # Akkadian-language-models
 
-Akkadian language models based on Spacy, trained on various subcorpora of Oracc with either on normalized texts or transliterated ones.
-The initial model AkkParser (the description of which is to appear in publication) was trained on two volumes of Neo-Assyrian letters in normalization, specifically SAA 1 and 5, as well as slightly
+Akkadian language models based on Spacy, trained on various subcorpora of Oracc with either on normalized texts or transliterated ones. The bulk of the sentences come from selected projects hosted on Oracc that came with lemmatization, POS tags, and in some instances paragraph divisions. An additional set of augmentation data consisting of about 250 normalized sentences made by the contributor were also added. 
+
+The initial model AkkParser (Ong and Gordin 2023 - to appear) is found in `/ak_basic_model` was trained on two volumes of Neo-Assyrian letters in normalization, specifically SAA 1 and 5, as well as slightly
 modified training data from Luukko et. al. 2020, which consisted of Neo-Assyrian royal inscriptions.
 
-Since then, the normalized training set has been expanded and currently consists of SAA 1, 2, 5, 9, part of 15, all of SB Anzu and Barutu, and part of RINAP 4. The digital sources
-for these volumes can be viewed on the list of Oracc projects (http://oracc.museum.upenn.edu/projectlist.html). The model trained on this data
-is called AkkParser-Norm.
+The more developed normalized model (i.e. model trained on normalized sentences) is based on a substantially larger data set from Oracc and is under continual development. It is located in `/ak_norm_model`. In addition to the modified data from Luukko et. al. 2020 and the augmentation data, a list of the SAA volumes comprising the data set is given below (along with percentage of each volume that has been annotated and included in the data set): 
 
-Another model AkkParser-Trans was trained on transliterated texts mirroring the normalized texts used to train AkkParser-Norm. The relation between the normalized and transliterated data sets
-is described in Ong and Gordin 2023 (to appear). 
+* SAA 1 - Letters from the royal archives of Sargon II (r. 721-705): Assyria and the West. 100% complete.
+* SAA 2 - Neo-Assyrian treaties and oaths. 100% complete.
+* SAA 5 - Letters from the royal archives of Sargon II (r. 721-705): North and Northeast. 100% complete. 
+* SAA 8 - Astrological reports. 0% complete.
+* SAA 9 - Assyrian prophecies. %100 complete.
+* SAA 10 - Letters from Assyrian and Babylonian scholars. 8% complete.
+* SAA 13 - Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal. 10% complete.
+* SAA 15 - Further letters of Sargon II: Babylonia and the eastern provinces. 100% complete.
+* SAA 16 - Political correspondence of Esarhaddon. 13% complete.
+* SAA 17 - The Neo-Babylonian Correspondence of Sargon and Sennacherib. 9% complete.
+* SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 1% complete.
+* SAA 19 - Letters of Tiglath-Pileser III and Sargon II from Calah/Nimrud. 0% complete.
+* SAA 21 - Letters of Assurbanipal: Assyria, Babylonia, and vassal states. %11 complete.
+
+A few additional Oracc projects also provide the following data:
+
+* Anzu - Standard Babylonian Anzu Epic. %100 complete.
+* Barutu - A small number of extispicy texts. %100 complete.
+* RINAP4 - Royal inscriptions of Esarhaddon (r. 681-669). Annotations mainly cover Nineveh A prism and certain fragmentary copies. 10% complete.
+* tcma/assur - Middle Assyrian letters and administrative texts from Assur and northern Mesopotamia. ~.005% complete (4 letters done).
+
+Another model AkkParser-Trans was trained on transliterated texts mirroring the normalized texts used to train AkkParser-Norm. The relation between the normalized and transliterated data sets is described in Ong and Gordin 2023 (to appear). However, currently only a subset of the texts used to train the normalized model are currently formatted for the transliterated model. It is located under `/akt_trans_model`.  
+
+For more details on these projects, consult the [Oracc project list](http://oracc.museum.upenn.edu/projectlist.html).
 
 The Oracc texts and metadata were scraped using modified versions of scripts made by Niek Veldhuis (https://github.com/niekveldhuis/compass/2_1_Data_Acquisition_ORACC/). 
 Each text was placed in its own ```.txt``` file, save for the data from Luukko et. al. 2020, which came as one large file. 

@@ -122,16 +122,23 @@ def in_keys(patternPair1: dict, attributeList: list) -> bool:
 
 def get_unique_patternPairs(attributeList: list) -> list:
 
+    counter = 0
     attributeListUnique = []
+
+    total = str(len(attributeList))
+    print("Original number of pairs: " + total)
 
     for patternPair in attributeList:
         if attributeListUnique == []:
             attributeListUnique.append(patternPair)
+            counter = 1
         elif in_keys(patternPair, attributeListUnique):
             continue
 
         else:
             attributeListUnique.append(patternPair)
+            counter = counter + 1
+            print("Number of pairs in attributeListUnique/total: " + str(counter) + "/" + total)
 
     return attributeListUnique
 
@@ -159,9 +166,9 @@ def merge_into_attributeList(attributeList1: list, patternPair2: dict) -> list:
 
 
 
-inputFileName1 = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File name of input attribute ruler file
+inputFileName1 = "attribute_ruler_patterns_1_2_5_8_9_13_15_16_17_18_19_21_anzu_barutu_rinap4_tcma-assur.json" #File name of input attribute ruler file
 
-outputFileName = "attribute_ruler_patterns_1_2_5_9_15_anzu_barutu_rinap4.json" #File name of output attribute ruler file
+outputFileName = "attribute_ruler_patterns_1_2_5_8_9_13_15_16_17_18_19_21_anzu_barutu_rinap4_tcma-assur_new.json" #File name of output attribute ruler file
 
 inputFile1 = open(inputFileName1, 'r')
 attributeList1 = json.load(inputFile1)
@@ -173,6 +180,7 @@ attributeList2 = []
 #Get list of unique pattern pairs from attribute list, where equality means their 'keys' match a la above
 
 attributeList1Unique = get_unique_patternPairs(attributeList1)
+print("Got unique list of pattern pairs")
 
 for patternPair1 in attributeList1Unique:
 
@@ -181,6 +189,8 @@ for patternPair1 in attributeList1Unique:
         if are_equal_patternPair(patternPair1,patternPair2):
             patternPair3 = merge_patternPair(patternPair1,patternPair2)
             attributeList2 = merge_into_attributeList(attributeList2,patternPair3)
+            print("Merging pairs into:")
+            print(patternPair3)
 
 
 print(attributeList2, file=outputFile)

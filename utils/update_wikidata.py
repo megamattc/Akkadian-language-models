@@ -2,6 +2,7 @@ from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_login, datatypes, WikibaseIntegrator
 from wikibaseintegrator.models import Reference, References, Form, Sense
 from wikibaseintegrator.models.qualifiers import Qualifiers
+from wikibaseintegrator.wbi_enums import ActionIfExists
 import logging
 import csv
 import json
@@ -41,7 +42,7 @@ endpoint_url = "https://query.wikidata.org/sparql"
 now = datetime.now() # current date and time
 date_time = now.strftime("%m_%d_%H_%M")
 
-input_file_name = "FrameLemmas.csv"
+input_file_name = "FrameLemmasNew.csv"
 output_file_name = "FrameLemmasOutput.csv"
 
 log_file_name = "wikidata_lexemes_current_list.csv"
@@ -151,6 +152,12 @@ syllabogram = "Q2373910"
 syllabic_spelling = "Q117439192"
 logographic_spelling = "Q117439223"
 alphabetic_spelling = "Q117451320"
+G_stem = "Q117618297"
+D_stem = "Q117618680"
+Š_stem = "Q117618950"
+N_stem = "Q117619108"
+Gt_stem = "Q117619765"
+ŠD_stem = "Q117621515"
 
 #P-values
 alternative_spelling = "P8530"
@@ -159,6 +166,8 @@ page_number_prop = "P304"
 volume_prop = "P478"
 derived_from_lexeme_prop = "P5191"
 instance_of = "P31"
+conjugation_class = "P5186"
+subject_named_as = "P1810"
 
 #Dictionary to convert between spreadsheet lexcat labels and equivalent in QID's
 lex_term_dict = {"noun":noun,"adj":adjective,"verb":verb,"pn":propn,"adv":adverb,"num":numeral,"prep":preposition,"det":determiner,
@@ -168,6 +177,7 @@ lex_term_dict = {"noun":noun,"adj":adjective,"verb":verb,"pn":propn,"adv":adverb
 lexcat_dict = {"noun":"noun","adjective":"adj","verb":"verb","proper noun":"pn","adverb":"adv","numeral":"num","preposition":"prep","determiner":"det",
                "verb phrase":"verb phrase","subordinating conjunction":"subconj"}
 
+stem_dict = {"G":G_stem,"D":D_stem,"Š":Š_stem,"N":N_stem,"ŠD":ŠD_stem}
 
 #csv file reader/writer
 input_file = open(input_file_name,'r',encoding="utf-8")
@@ -190,26 +200,26 @@ for row in reader:
     print("Reading row: ")
     print(row)
 
+    #lexemelabel = None
+    #lexeme = None
+
     #Pause loop if modulo number
 
     if counter % 85 == 0:
         print("Counter is: " + str(counter) + "Sleeping for 180 seconds")
         time.sleep(180)
 
-
-    #If entry already has LID, or marked as non-lexeme, skip
-    if row["LID"] != "":
-        print("Proposed lexeme already has LID: " + row["term"])
-        writer.writerow(row)
-        continue
-
     if row["non-lexeme"] == "x":
         print("Proposed lexeme is non-lexeme: " + row["term"])
         writer.writerow(row)
         continue
 
+    # If we have an LID, get the wiki lexeme associated with it
+    #elif row["LID"] != "":
+    #    lexeme = wbi.lexeme.get(entity_id=row["LID"])
+
     #Do a check if there already is an akkadian lexeme in wikidata that matches the spelling and lexcat of this form
-    if row["term"] in wikidata_lexemes.keys():
+    elif row["LID"] == "" and row["term"] in wikidata_lexemes.keys():
         #print("wikidata_lexemes[row]")
         #print(wikidata_lexemes[row["term"]]["lexcat"])
         if lexcat_dict[wikidata_lexemes[row["term"]]["lexcat"]] == row["lexical_category"]:
@@ -218,27 +228,24 @@ for row in reader:
             writer.writerow(row)
             continue
 
-    #Get lexcat value, if it exists for lexeme in spreadsheet
-    try:
-        lexcat = lex_term_dict[row["lexical_category"]]
-    except:
-        writer.writerow(row)
-        continue
-
+    #If entry has no LID, make new lexeme
 
 
     lexemelabel = row["term"]
-
-
+    lexcat = row["lexical_category"]
     lexeme = wbi.lexeme.new(lexical_category=lexcat, language=akkadian_language)
     lexeme.lemmas.set(language=akkadian_in_latin_script_misx, value=lexemelabel)
 
+    #Now go though the columns
 
+    if row["Stem"] != "":
+        stem = row["Stem"]
+        lexeme.claims.add(datatypes.Item(prop_nr=conjugation_class,value=stem_dict[stem]),action_if_exists=ActionIfExists.KEEP)
 
     #Check if print reference is CDA
     if row["CDA_page"] != "":
 
-        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=cda))
+        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=cda),action_if_exists=ActionIfExists.KEEP)
         # Add page number qualifier to described_by_source
         for cda_claim in cda_claims:
             #print("cda_claim.mainsnak.datavalue.value.id: ")
@@ -246,7 +253,7 @@ for row in reader:
             #print("cda_claim.mainsnak.property_number: ")
             #print(cda_claim.mainsnak.property_number)
             if cda_claim.mainsnak.property_number == described_by_source and cda_claim.mainsnak.datavalue["value"]["id"] == cda:
-                cda_claim.qualifiers.set([datatypes.ExternalID(prop_nr=page_number_prop, value=row["CDA_page"])])
+                cda_claim.qualifiers.set([datatypes.ExternalID(prop_nr=page_number_prop, value=row["CDA_page"])],action_if_exists=ActionIfExists.KEEP)
 
                 #If there is a CDA numeral for homonymous forms, add that too as qualifier
                 #if row["CDA_numeral"] != "":
@@ -254,11 +261,16 @@ for row in reader:
                 #print("CDA claim: ")
                 #print(cda_claim)
 
+        # If there is a Roman numeral distinction (I/II/etc...)
+        if row["CDA_numeral"] != "":
+            citation = row["term"] + " " + row["CDA_numeral"]
+            lexeme.claims.add(datatypes.ExternalID(prop_nr=subject_named_as, value=citation),action_if_exists=ActionIfExists.KEEP)
+
 
     # Check if print reference is CDA
     if row["CAD_page"] != "":
 
-        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=cad))
+        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=cad),action_if_exists=ActionIfExists.KEEP)
         # Add page number qualifier to described_by_source.
         # The only way I know how to do that now is to go through all the claims assigned to the lexeme and check if the value matches the one I want
         for cda_claim in cda_claims:
@@ -278,10 +290,15 @@ for row in reader:
                 #print("CAD claim: ")
                 #print(cda_claim)
 
-     # Check if print reference is CDA
+        # If there is a Roman numeral distinction (I/II/etc...)
+        if row["CDA_numeral"] != "":
+            citation = row["term"] + " " + row["CAD_letter"]
+            lexeme.claims.add(datatypes.ExternalID(prop_nr=subject_named_as, value=citation),action_if_exists=ActionIfExists.KEEP)
+
+    # Check if print reference is CDA
     if row["RlA_page"] != "":
 
-        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=rla))
+        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=rla),action_if_exists=ActionIfExists.KEEP)
         # Add page number qualifier to described_by_source.
         # The only way I know how to do that now is to go through all the claims assigned to the lexeme and check if the value matches the one I want
         for cda_claim in cda_claims:
@@ -304,7 +321,7 @@ for row in reader:
     #Check if there is a Frayne and Stuckey 2021 reference
     if row["FrayneStuckey_page"] != "":
 
-        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=frayne_stuckey_2021))
+        cda_claims = lexeme.claims.add(datatypes.Item(prop_nr=described_by_source, value=frayne_stuckey_2021),action_if_exists=ActionIfExists.KEEP)
         # Add page number qualifier to described_by_source
         for cda_claim in cda_claims:
             # print("cda_claim.mainsnak.datavalue.value.id: ")
@@ -336,7 +353,7 @@ for row in reader:
             f.representations.set(language=akkadian_in_cuneiform_script_misx, value=logogram_lemma_converted)
             #For all logograms, define them as logographic spellings
 
-            f.claims.add(datatypes.Item(prop_nr=instance_of, value=logographic_spelling))
+            f.claims.add(datatypes.Item(prop_nr=instance_of, value=logographic_spelling),action_if_exists=ActionIfExists.APPEND_OR_REPLACE)
             lexeme.forms.add(f)
 
     # If there is an entry in the alternate spelling column
@@ -348,7 +365,7 @@ for row in reader:
             #print("alternate_spelling: " + alternate_lemma)
             f = Form()
             f.representations.set(language=akkadian_in_latin_script_misx, value=alternate_lemma)
-            f.claims.add(datatypes.Item(prop_nr=instance_of, value=alphabetic_spelling))
+            f.claims.add(datatypes.Item(prop_nr=instance_of, value=alphabetic_spelling),action_if_exists=ActionIfExists.APPEND_OR_REPLACE)
             lexeme.forms.add(f)
 
     # We need to add the lexemeLabel to the list of forms for consistency's sake
@@ -374,7 +391,7 @@ for row in reader:
     if "L" in row["sumerian_loanword"]:
         print("Sumerian loanword ID:")
         print(row["sumerian_loanword"])
-        lexeme.claims.add(datatypes.Lexeme(prop_nr=derived_from_lexeme_prop,value=row["sumerian_loanword"]))
+        lexeme.claims.add(datatypes.Lexeme(prop_nr=derived_from_lexeme_prop,value=row["sumerian_loanword"]),action_if_exists=ActionIfExists.KEEP)
 
 
 
@@ -389,10 +406,10 @@ for row in reader:
         if sense != "":
             cursense = Sense()
             cursense.glosses.set(language="en", value=sense)
-            lexeme.senses.add(cursense)
+            lexeme.senses.add(cursense,action_if_exists=ActionIfExists.APPEND_OR_REPLACE)
 
-    #print("lexeme: ")
-    #print(lexeme)
+    print("lexeme: ")
+    print(lexeme)
 
     #Actually write new lexeme entry to wikidata
     result = lexeme.write()

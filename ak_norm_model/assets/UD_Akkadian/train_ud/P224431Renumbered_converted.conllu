@@ -1,0 +1,197 @@
+#
+# text = saao / saa01 / P224431
+1	saao	_	_	_	_	_	_	_	_
+2	/	_	_	_	_	1	dep	_	_
+3	saa01	_	_	_	_	2	dep	_	_
+4	/	_	_	_	_	3	dep	_	_
+5	P224431	_	_	_	_	4	dep	_	_
+
+#
+# text = ana šarri bēlīya urdaka Bel-duri šarru bēlī ṭēmu issakan mā pāhāti gabbu kusāpī kissutu issu ālāni madbar issikunu lintuhu mā Adad-isseʾa Bel-lešir ana Abu-lešir lušākilu lā immaggur lā išammi atâ innûte mā ālāni ina madbar ša pāhāti gabbišunu ālāni ina libbi ahîši pannugu šarru bēlī lišpura ālānišunu ša madbar lišṭuru issu bēt aṣappu šarru bēlī issu Hamate issuhūni anāku anākūma šû šunūma šunu ina šiāri šarru bēlī idūkāni mā lā ēpišūte attunu annīu kusāpī kissutu ša 01 urhi ūme 05 imārī kissutu 01 mē 23 imārī kusāpī gimru 01 mē 28 imārī Šamaš-ahu-iddina 75 imārī kissutu 15 imārī kusāpī gimru 90 imārī Abu-lešir 06 mē ša 02 līmu zakkue ša Kummuhaya gimru 09 mē 18 imārī ša 01 urhi bētu annīu šarru bēlī ūda ina libbi mardiāte 03 mardītu annīnu nimattāha šunu šunāya imattuhu ūmâ šarru bēlī lū ūda šunu ibbalkutu annīnu x x x x x
+1	ana	ana	ADP	_	_	2	case	_	_
+2	šarri	šarru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+5	Bel-duri	Bel-duri	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+#
+#
+1	šarru	šarru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	bēlī	bēlu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	appos	_	_
+3	ṭēmu	ṭēmu	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	issakan	šakānu	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+#
+#
+1	mā	mā	PART	_	_	2	discourse	_	_
+2	pāhāti	pīhātu	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	_
+3	gabbu	gabbu	DET	_	_	2	det	_	_
+4	kusāpī	kusāpu	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+5	kissutu	kissatu	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	_
+6	issu	ištu	ADP	_	_	7	case	_	_
+7	ālāni	ālu	NOUN	_	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	10	obl	_	_
+8	madbar	madbaru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	issikunu	išti	ADP	_	Gender[prep]=Masc|Number[prep]=Plur|Person[prep]=2	10	obl	_	_
+10	lintuhu	matāhu	VERB	_	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	root	_	_
+
+#
+#
+1	mā	mā	PART	_	_	2	discourse	_	_
+2	Adad-isseʾa	Adad-isseʾa	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Bel-lešir	Bel-lešir	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+4	ana	ana	ADP	_	_	5	case	_	_
+5	Abu-lešir	Abu-lešir	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	lušākilu	akālu	VERB	_	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=Š	0	root	_	_
+
+#
+#
+1	lā	lā	PART	_	_	2	advmod	_	_
+2	immaggur	magāru	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	1	dep	_	_
+3	lā	lā	PART	_	_	4	advmod	_	_
+4	išammi	šemû	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+#
+#
+1	atâ	atā	ADV	_	_	7	advmod	_	_
+2	innûte	innû	DET	_	Case=Nom|Gender=Com|Number=Plur|Person=1	4	det	_	_
+3	mā	mā	PART	_	_	8	discourse	_	_
+4	ālāni	ālu	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+5	ina	ina	ADP	_	_	6	case	_	_
+6	madbar	madbaru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	ša	ša	PRON	_	_	7	nmod	_	_
+8	pāhāti	pīhātu	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	0	root	_	_
+9	gabbišunu	gabbu	DET	_	Gender[psor]=Masc|Number[psor]=Plur|Person[psor]=3	8	det	_	_
+
+#
+#
+1	ālāni	ālu	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+2	ina	ina	ADP	_	_	4	dep	_	_
+3	libbi	libbu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	fixed	_	_
+4	ahîši	ahāmiš	ADV	_	_	5	obl	_	_
+5	pannugu	pannugu	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+#
+#
+1	šarru	šarru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	bēlī	bēlu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	appos	_	_
+3	lišpura	šapāru	VERB	_	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	root	_	_
+4	ālānišunu	ālu	NOUN	_	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	obj	_	_
+5	ša	ša	ADP	_	_	6	case	_	_
+6	madbar	madbaru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	lišṭuru	šaṭāru	VERB	_	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	3	ccomp	_	_
+
+#
+#
+1	issu	ištu	SCONJ	_	_	8	mark	_	_
+2	bēt	bītu	NOUN	_	_	1	fixed	_	_
+3	aṣappu	aṣappu	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+4	šarru	šarru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	bēlī	bēlu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+6	issu	ištu	ADP	_	_	7	case	_	_
+7	Hamate	Hamat	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+8	issuhūni	nasāhu	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	10	advcl	_	_
+9	anāku	anāku	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1	10	nsubj	_	_
+10	anākūma	anāku	PRON	_	Case=Nom|Gender=Com|MaParticle=Yes|Number=Sing|Person=1	0	root	_	_
+11	šû	šū	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+12	šunūma	šunu	PRON	_	Case=Nom|Gender=Masc|MaParticle=Yes|Number=Plur|Person=3	11	conj	_	_
+13	šunu	šunu	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3	10	conj	_	_
+
+#
+#
+1	ina	ina	ADP	_	_	2	case	_	_
+2	šiāri	šiāru	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	šarru	šarru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	bēlī	bēlu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	appos	_	_
+5	idūkāni	dâku	VERB	_	Gender=Masc|Gender[obj]=Com|Mood=Ind|Number=Sing|Number[obj]=Sing|Person=3|Person[obj]=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	root	_	_
+6	mā	mā	PART	_	_	7	discourse	_	_
+7	lā	lā	PART	_	_	8	advmod	_	_
+8	ēpišūte	ēpišu	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	5	parataxis	_	_
+9	attunu	attunu	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=2	8	nsubj	_	_
+
+#
+#
+1	annīu	annû	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	kusāpī	kusāpu	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	kissutu	kissatu	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+4	ša	ša	ADP	_	_	6	case	_	_
+5	01	01	NUM	_	_	6	nummod	_	_
+6	urhi	arhu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	ūme	ūmu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+
+#
+#
+1	05	05	NUM	_	_	2	nummod	_	_
+2	imārī	imēru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	dep	_	_
+3	kissutu	kissatu	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	_
+4	01	01	NUM	_	_	5	nummod	_	_
+5	mē	meʾatu	NUM	_	_	7	nummod	_	_
+6	23	23	NUM	_	_	5	conj	_	_
+7	imārī	imēru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	dep	_	_
+8	kusāpī	kusāpu	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
+9	gimru	gimru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	dep	_	_
+10	01	01	NUM	_	_	11	nummod	_	_
+11	mē	meʾatu	NUM	_	_	13	nmod	_	_
+12	28	28	NUM	_	_	11	conj	_	_
+13	imārī	imēru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	9	parataxis	_	_
+14	Šamaš-ahu-iddina	Šamaš-ahu-iddina	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+15	75	75	NUM	_	_	16	nummod	_	_
+16	imārī	imēru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	15	dep	_	_
+17	kissutu	kissatu	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
+18	15	15	NUM	_	_	19	nummod	_	_
+19	imārī	imēru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	18	dep	_	_
+20	kusāpī	kusāpu	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	17	conj	_	_
+21	gimru	gimru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	20	dep	_	_
+22	90	90	NUM	_	_	23	nummod	_	_
+23	imārī	imēru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	21	parataxis	_	_
+24	Abu-lešir	Abu-lešir	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	23	appos	_	_
+25	06	06	NUM	_	_	26	nummod	_	_
+26	mē	meʾatu	NUM	_	_	25	dep	_	_
+27	ša	ša	ADP	_	_	30	case	_	_
+28	02	02	NUM	_	_	29	nummod	_	_
+29	līmu	līm	NUM	_	_	30	nummod	_	_
+30	zakkue	zakkû	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	26	nmod	_	_
+31	ša	ša	ADP	_	_	32	case	_	_
+32	Kummuhaya	Kummuhaya	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	gimru	gimru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	32	dep	_	_
+34	09	09	NUM	_	_	35	nummod	_	_
+35	mē	meʾatu	NUM	_	_	37	nummod	_	_
+36	18	18	NUM	_	_	35	conj	_	_
+37	imārī	imēru	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	33	parataxis	_	_
+38	ša	ša	ADP	_	_	40	case	_	_
+39	01	01	NUM	_	_	40	nummod	_	_
+40	urhi	arhu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+41	bētu	bītu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	40	dep	_	_
+42	annīu	annû	DET	_	Case=Nom|Gender=Masc|Number=Sing	41	det	_	_
+
+#
+#
+1	šarru	šarru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	bēlī	bēlu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	appos	_	_
+3	ūda	wadû	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	root	_	_
+4	ina	ina	ADP	_	_	6	case	_	_
+5	libbi	libbu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	fixed	_	_
+6	mardiāte	mardītu	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+7	03	03	NUM	_	_	8	nummod	_	_
+8	mardītu	mardītu	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+9	annīnu	anīnu	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1	10	nsubj	_	_
+10	nimattāha	matāhu	VERB	_	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	3	ccomp	_	_
+11	šunu	šunu	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3	13	nsubj	_	_
+12	šunāya	šunāʾa	NUM	_	_	13	obj	_	_
+13	imattuhu	matāhu	VERB	_	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	10	parataxis	_	_
+
+#
+#
+1	ūmâ	ūma	PART	_	_	5	discourse	_	_
+2	šarru	šarru	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	bēlī	bēlu	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	lū	lū	PART	_	_	5	advmod	_	_
+5	ūda	wadû	VERB	_	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	root	_	_
+6	šunu	šunu	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
+7	ibbalkutu	nabalkutu	VERB	_	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	6	dep	_	_
+8	annīnu	anīnu	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1	7	dep	_	_
+9	x	x	X	_	_	8	dep	_	_
+10	x	x	X	_	_	9	dep	_	_
+11	x	x	X	_	_	10	dep	_	_
+12	x	x	X	_	_	11	dep	_	_
+13	x	x	X	_	_	12	dep	_	_
+

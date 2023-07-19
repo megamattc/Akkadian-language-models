@@ -1,0 +1,135 @@
+# text = ana šarri bēlīya urdaka Kiṣir-Aššur
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+5	Kiṣir-Aššur	kiṣir-aššur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+
+# text = ša šarru bēlī išpuranni mā x x x x-ia ina pān x x x x x x+x anāku x x x x uptattiʾu x x x x šapluššu iptaqdu
+1	ša	ša	PRON	PRON	_	4	obj	_	_
+2	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	išpuranni	šapāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	3	dep	_	_
+5	mā	mā	ADP	Quotative	_	4	dep	_	_
+6	x	x	X	X	_	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	SpaceAfter=No
+10	-	-	X	X	_	9	dep	_	SpaceAfter=No
+11	ia	ia	X	u	_	10	dep	_	_
+12	ina	ina	ADP	PRP	_	13	case	_	_
+13	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	x	x	X	X	_	16	dep	_	_
+18	x	x	X	X	_	17	dep	_	_
+19	x+x	x+x	X	X	_	18	dep	_	_
+20	anāku	anāku	PRON	PRON	Case=Nom|Gender=Com|Number=Sing|Person=1	19	dep	_	_
+21	x	x	X	X	_	20	dep	_	_
+22	x	x	X	X	_	21	dep	_	_
+23	x	x	X	X	_	22	dep	_	_
+24	x	x	X	X	_	23	dep	_	_
+25	uptattiʾu	petû	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur |Person=3|VerbForm=Fin|VerbStem=D	24	dep	_	_
+26	x	x	X	X	_	25	dep	_	_
+27	x	x	X	X	_	26	dep	_	_
+28	x	x	X	X	_	27	dep	_	_
+29	x	x	X	X	_	28	dep	_	_
+30	šapluššu	šaplu	NOUN	_	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	29	dep	_	_
+31	iptaqdu	paqādu	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	30	dep	_	_
+
+# text = x x x x-ni ussahhiru x x x uptattiʾu x x x
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	1	dep	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	SpaceAfter=No
+5	-	-	X	X	_	4	dep	_	SpaceAfter=No
+6	ni	ni	X	X	_	5	dep	_	_
+7	ussahhiru	sahāru	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur |Person=3|VerbForm=Fin|VerbStem=D	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	uptattiʾu	petû	X	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur |Person=3|VerbForm=Fin|VerbStem=D	10	dep	_	_
+12	x	x	X	X	_	11	dep	_	_
+13	x	x	X	X	_	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+
+# text = mukīl appāti šû
+1	mukīl	mukillu	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+2	appāti	appatu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	šû	šū	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+
+# text = x x x x x Ninua x x x x x x-MEŠ ša Libbi-ali x x-li-šu₂-nu x x x ša Arbail ša {URU}x x x x x x x qatinni x x x x x x x-bu-tu₂ x x x x x x x da na x x x x x x x x
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	1	dep	_	_
+3	x	x	X	X	_	2	dep	_	_
+4	x	x	X	X	_	3	dep	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	Ninua	ninua	PROPN	SN	_	5	dep	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	x	x	X	X	_	10	dep	_	_
+12	x	x	X	X	_	11	dep	_	SpaceAfter=No
+13	-	-	X	X	_	12	dep	_	SpaceAfter=No
+14	MEŠ	meš	X	X	_	13	dep	_	_
+15	ša	ša	ADP	X	_	16	case	_	_
+16	Libbi-ali	libbi-ali	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	15	dep	_	_
+17	x	x	X	X	_	16	dep	_	_
+18	x	x	X	X	_	17	dep	_	SpaceAfter=No
+19	-	-	X	X	_	18	dep	_	SpaceAfter=No
+20	li	li	X	X	_	19	dep	_	SpaceAfter=No
+21	-	-	X	X	_	20	dep	_	SpaceAfter=No
+22	šu₂-nu	šu₂-nu	X	X	_	21	dep	_	_
+23	x	x	X	X	_	22	dep	_	_
+24	x	x	X	X	_	23	dep	_	_
+25	x	x	X	X	_	24	dep	_	_
+26	ša	ša	ADP	ADP	_	27	case	_	_
+27	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	26	dep	_	_
+28	ša	ša	ADP	_	_	30	case	_	_
+29	{	{	X	_	_	28	dep	_	SpaceAfter=No
+30	URU}x	uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	29	dep	_	_
+31	x	x	X	X	_	30	dep	_	_
+32	x	x	X	X	_	31	dep	_	_
+33	x	x	X	X	_	32	dep	_	_
+34	x	x	X	X	_	33	dep	_	_
+35	x	x	X	X	_	34	dep	_	_
+36	x	x	X	X	_	35	dep	_	_
+37	qatinni	qattinu	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	36	dep	_	_
+38	x	x	X	X	_	37	dep	_	_
+39	x	x	X	X	_	38	dep	_	_
+40	x	x	X	X	_	39	dep	_	_
+41	x	x	X	X	_	40	dep	_	_
+42	x	x	X	X	_	41	dep	_	_
+43	x	x	X	X	_	42	dep	_	_
+44	x	x	X	X	_	43	dep	_	SpaceAfter=No
+45	-	-	X	X	_	44	dep	_	SpaceAfter=No
+46	bu	bu	X	X	_	45	dep	_	SpaceAfter=No
+47	-	-	X	X	_	46	dep	_	SpaceAfter=No
+48	tu₂	tu₂	X	X	_	47	dep	_	_
+49	x	x	X	X	_	48	dep	_	_
+50	x	x	X	X	_	49	dep	_	_
+51	x	x	X	X	_	50	dep	_	_
+52	x	x	X	X	_	51	dep	_	_
+53	x	x	X	X	_	52	dep	_	_
+54	x	x	X	X	_	53	dep	_	_
+55	x	x	X	X	_	54	dep	_	_
+56	da	da	X	X	_	55	dep	_	_
+57	na	na	X	X	_	56	dep	_	_
+58	x	x	X	X	_	57	dep	_	_
+59	x	x	X	X	_	58	dep	_	_
+60	x	x	X	X	_	59	dep	_	_
+61	x	x	X	X	_	60	dep	_	_
+62	x	x	X	X	_	61	dep	_	_
+63	x	x	X	X	_	62	dep	_	_
+64	x	x	X	X	_	63	dep	_	_
+65	x	x	X	X	_	64	dep	_	_
+

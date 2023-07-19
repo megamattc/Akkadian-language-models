@@ -10,14 +10,14 @@ preprocess:
       --n-sents 4 --converter auto --merge-subtokens
   deps:
     - path: assets/UD_Akkadian_saa01/train
-      md5: a961b3c6493a4687a6d85c9910cb40d7
+      md5: 263f648782e4921dd86ded50142329a5
     - path: assets/UD_Akkadian_saa01/dev
       md5: 5b958ad2144edb4ca4a86eda4d0698e2
     - path: assets/UD_Akkadian_saa01/test
       md5: 54023eb9490f8bfb4c6e6a433dd01956
   outs:
     - path: corpus/UD_Akkadian_saa01/train
-      md5: 023e5f2869cb90d727c3c58741b63d47
+      md5: 0ba73bdea48b6516957fcf12dd3f7f0c
     - path: corpus/UD_Akkadian_saa01/dev
       md5: 9213601d4f54307cd988366bd3d79804
     - path: corpus/UD_Akkadian_saa01/test
@@ -32,14 +32,14 @@ train:
       --paths.vectors/vectors --nlp.lang=akt
   deps:
     - path: corpus/UD_Akkadian_saa01/train
-      md5: 023e5f2869cb90d727c3c58741b63d47
+      md5: 4d070434e30afb478b182e3e67554f56
     - path: corpus/UD_Akkadian_saa01/dev
       md5: 9213601d4f54307cd988366bd3d79804
     - path: configs/transliteration_lemmatizer.cfg
       md5: 6bdb2fbfea8da44b1ef0a4efc2368bf1
   outs:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 1d863ef499a0e1c2e7a8a40176454e31
+      md5: 3ed31ef9ea361003e778af3443689790
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
@@ -50,7 +50,7 @@ package:
       0.0.0 --force
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 1d863ef499a0e1c2e7a8a40176454e31
+      md5: 3ed31ef9ea361003e778af3443689790
   outs:
     - path: packages/akt_ud_akk_saa01_02_05_09_15_anzu_barutu_rinap4_transliteration_lemmatizer-0.0.0/dist/en_ud_akk_saa01_02_05_09_15_anzu_barutu_rinap4_transliteration_lemmatizer-0.0.0.tar.gz
       md5: null
@@ -73,11 +73,11 @@ evaluate:
       ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: 1d863ef499a0e1c2e7a8a40176454e31
+      md5: 3ed31ef9ea361003e778af3443689790
     - path: corpus/UD_Akkadian_saa01/test
       md5: 10bff449d3dc2df72e0d4c9a24451019
   outs:
     - path: metrics/UD_Akkadian_saa01.json
-      md5: 54cd8a1ac0a3cbc8516037f9d7a248c3
+      md5: cc2b3218d6e2fe9b6b1f91cfd541a5af
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef

@@ -1,0 +1,49 @@
+# text = ana šarri bēlīya urdaka Aššur-dur-paniya
+1	ana	ana	ADP	PRP	_	_	_	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+5	Aššur-dur-paniya	aššur-dur-paniya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	N	Gender=Masc|Number=Sing	0	root	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+
+# text = ina muhhi aladlammî ša Adia ša šarru bēlī išpuranni x x x ušatbašunūni x x x unīnāti x x x x ittannūni x x x x ana šaknūti x x x x upâhašunu
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	dep	_	_
+3	aladlammî	aladlammû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	ša	ša		ADP	_	5	case	_	_
+5	Adia	adia	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	ša	ša	PRON	PRON	_	9	obj	_	_
+7	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	appos	_	_
+9	išpuranni	šapāru	VERB	V	Gender=Masc|Gender[obj]=Com|Mood=Ind|Number=Sing|Number[obj]=Sing|Person=3|Person[obj]=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	acl	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	x	x	X	X	_	10	dep	_	_
+12	x	x	X	X	_	11	dep	_	_
+13	ušatbašunūni	tebû	VERB	VERB	Gender=Com|Gender[obj]=Masc|Mood=Ind|Number=Sing|Number[obj]=Plur|Person=1|Person[obj]=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=Š	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	unīnāti	umnīnu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	16	dep	_	_
+18	x	x	X	X	_	17	dep	_	_
+19	x	x	X	X	_	18	dep	_	_
+20	x	x	X	X	_	19	dep	_	_
+21	x	x	X	X	_	20	dep	_	_
+22	ittannūni	tadānu	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=G	21	dep	_	_
+23	x	x	X	X	_	22	dep	_	_
+24	x	x	X	X	_	23	dep	_	_
+25	x	x	X	X	_	24	dep	_	_
+26	x	x	X	X	_	25	dep	_	_
+27	ana	ana	ADP	PRP	_	28	case	_	_
+28	šaknūti	šaknu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	27	dep	_	_
+29	x	x	X	X	_	28	dep	_	_
+30	x	x	X	X	_	29	dep	_	_
+31	x	x	X	X	_	30	dep	_	_
+32	x	x	X	X	_	31	dep	_	_
+33	upâhašunu	puhhu	VERB	VERB	Gender=Com|Gender[obj]=Masc|Mood=Ind|Number=Sing|Number[obj]=Plur|Person=1|Person[obj]=3|Tense=Pres|VerbForm=Fin|VerbStem=D	32	dep	_	_
+

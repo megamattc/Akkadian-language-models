@@ -1,0 +1,52 @@
+# text = ana šarri bēlīya urdaka Aššur-bani
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+5	Aššur-bani	aššur-bani	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Gender[psor]=Com|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	appos	_	_
+
+# text = ūm 08-KAM {d}x x {d}x x itabbûni
+1	ūm	ūmu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
+2	08-KAM	08-kam	ADJ	_	_	1	amod	_	_
+3	{	{	X	X	_	2	dep	_	SpaceAfter=No
+4	d}x	d}x	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	x	x	X	X	_	4	dep	_	_
+6	{	{	X	X	_	5	dep	_	SpaceAfter=No
+7	d}x	d}x	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	itabbûni	tebû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	root	_	_
+
+# text = ina akīti uššubu adi mešli urhi x x x x šamnī ri x x x x x x+x x x x x x x x
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	akīti	akītu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	3	obl	_	_
+3	uššubu	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	root	_	_
+4	adi	adi	ADP	PRP	_	5	case	_	_
+5	mešli	mišlu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
+6	urhi	arhu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	x	x	X	X	_	6	dep	_	_
+8	x	x	X	X	_	7	dep	_	_
+9	x	x	X	X	_	8	dep	_	_
+10	x	x	X	X	_	9	dep	_	_
+11	šamnī	šamnu	NOUN	NOUN	_	10	dep	_	_
+12	ri	ri	X	X	_	11	dep	_	_
+13	x	x	X	X	_	12	dep	_	_
+14	x	x	X	X	_	13	dep	_	_
+15	x	x	X	X	_	14	dep	_	_
+16	x	x	X	X	_	15	dep	_	_
+17	x	x	X	X	_	16	dep	_	_
+18	x+x	x+x	X	X	_	17	dep	_	_
+19	x	x	X	X	_	18	dep	_	_
+20	x	x	X	X	_	19	dep	_	_
+21	x	x	X	X	_	20	dep	_	_
+22	x	x	X	X	_	21	dep	_	_
+23	x	x	X	X	_	22	dep	_	_
+24	x	x	X	X	_	23	dep	_	_
+25	x	x	X	X	_	24	dep	_	_
+

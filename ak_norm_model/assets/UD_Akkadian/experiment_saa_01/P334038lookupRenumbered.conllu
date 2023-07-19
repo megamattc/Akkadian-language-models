@@ -1,0 +1,103 @@
+# text = ana šarri bēlīya urdaka Ṭab-ṣil-Ešarra
+1	ana	ana	ADP	ADP	_	2	case	_	_
+2	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	2	nsubj	_	_
+5	Ṭab-ṣil-Ešarra	ṭab-ṣil-ešarra	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	0	ROOT	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	appos	_	_
+
+# text = Aššur Mullissu ana šarri bēlīya likrubu
+1	Aššur	aššur	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Mullissu	mullissu	PROPN	PROPN	Gender=Fem|Number=Sing|Case=Nom	1	conj	_	_
+3	ana	ana	ADP	ADP	_	4	case	_	_
+4	šarri	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	6	obl	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com	4	appos	_	_
+6	likrubu	karābu	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Mood=Prec|VerbStem=G	0	ROOT	_	_
+
+# text = eleppu šî iyātu masennu kaspu ina libbi ussērida
+1	eleppu	eleppu	NOUN	NOUN	Gender=Fem|Number=Sing|Case=Nom	8	dislocated	_	_
+2	šî	šī	DET	_	Gender=Fem|Number=Sing|Person=3|Case=Nom	1	det	_	_
+3	iyātu	yāʾu	DET	_	Case=Acc|Gender=Fem|Number=Sing|Person=1	1	det	_	_
+4	masennu	mašennu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	kaspu	kaspu	NOUN	_	Gender=Masc|Number=Sing|Case=Acc	8	obj	_	_
+6	ina	ina	ADP	PRP	_	7	case	_	_
+7	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	8	obl	_	_
+8	ussērida	arādu	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=Š|Ventive=Yes	0	ROOT	_	_
+
+# text = ina Bab-bitqi tazzazza
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	Bab-bitqi	bab-bitqi	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	3	obl	_	_
+3	tazzazza	izuzzu	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Perf|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes	0	ROOT	_	_
+
+# text = u eleppu ša pāhiti ša Arrapha ina libbi Upia nēburu tuppaš
+1	u	u	CCONJ	CNJ	_	11	cc	_	_
+2	eleppu	eleppu	NOUN	NOUN	Gender=Fem|Number=Sing|Case=Nom	11	nsubj	_	_
+3	ša	ša	ADP	_	_	4	case	_	_
+4	pāhiti	pīhātu	NOUN	N	Gender=Fem|Number=Plur|Case=Gen	2	nmod	_	_
+5	ša	ša	ADP	_	_	6	case	_	_
+6	Arrapha	arrapha	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_
+7	ina	ina	ADP	PRP	_	8	case	_	_
+8	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	11	obl	_	_
+9	Upia	upia	PROPN	PN	Case=Gen|Number=Sing|Gender=Masc	8	nmod	_	_
+10	nēburu	nēberu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	11	obj	_	_
+11	tuppaš	epēšu	VERB	VERB	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+
+# text = šarru bēlī ūda kî tibnu kissutu issu batte ammete nušebbarūni
+1	šarru	šarru	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Nom	3	nsubj	_	_
+2	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	1	appos	_	_
+3	ūda	wadû	VERB	VERB	Gender=Masc|Person=3|Subordinative=No|Tense=Past|VerbForm=Finite|VerbStem=G	0	ROOT	_	_
+4	kî	kī	SCONJ	SCONJ	_	10	mark	_	_
+5	tibnu	tibnu	NOUN	NOUN	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	10	obj	_	_
+6	kissutu	kissatu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+7	issu	ištu	ADP	ADP	_	8	case	_	_
+8	batte	battu	NOUN	NOUN	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	10	obl	_	_
+9	ammete	ammiu	DET	_	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	8	det	_	_
+10	nušebbarūni	ebēru	VERB	VERB	Gender=Com|Number=Plur|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=Š|Subordinative=Yes|SubSuff=Yes	3	ccomp	_	_
+
+# text = ūmâ eleppu ša pāhiti ša Arrapha lū tallik
+1	ūmâ	ūma	ADV	ADV	_	8	advmod	_	_
+2	eleppu	eleppu	NOUN	NOUN	Gender=Fem|Number=Sing|Case=Nom	8	nsubj	_	_
+3	ša	ša	ADP	ADP	_	4	case	_	_
+4	pāhiti	pīhātu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen	2	nmod	_	_
+5	ša	ša	ADP	DET	_	6	case	_	_
+6	Arrapha	arrapha	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	4	nmod	_	_
+7	lū	lū	PART	PART	_	8	advmod:emph	_	_
+8	tallik	alāku	VERB	VERB	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = ina Bab-bitqi nēburu lū tuppiš u iyātu lū tallika
+1	ina	ina	ADP	ADP	_	2	case	_	_
+2	Bab-bitqi	bab-bitqi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+3	nēburu	nēberu	NOUN	NOUN	Gender=Fem|NounBase=Free|Number=Plur|Person=3	5	obj	_	_
+4	lū	lū	PART	MOD	_	5	advmod	_	_
+5	tuppiš	epēšu	VERB	N	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+6	u	u	CCONJ	CNJ	_	9	cc	_	_
+7	iyātu	yāʾu	DET	_	Case=Nom|Gender=Fem|Number=Sing|Person=1	9	nsubj	_	_
+8	lū	lū	PART	MOD	_	9	advmod:emph	_	_
+9	tallika	alāku	VERB	VERB	Gender=Fem|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G|Ventive=Yes	5	conj	_	_
+
+# text = ina Upia tibnu kissutu ina libbīša nušēbira
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	Upia	upia	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	7	obl	_	_
+3	tibnu	tibnu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	7	obj	_	_
+4	kissutu	kissatu	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+5	ina	ina	ADP	ADP	_	6	case	_	_
+6	libbīša	libbu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3	7	obl	_	_
+7	nušēbira	ebēru	VERB	_	Gender=Com|Number=Plur|Person=1|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=Š|Ventive=Yes	0	ROOT	_	_
+
+# text = ṣābāni ša pāhiti ša Arrapha ina Bab-bitqi nēburu uppušu
+1	ṣābāni	ṣābu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	ša	ša	ADP	ADP	_	3	case	_	_
+3	pāhiti	pīhātu	NOUN	N	Gender=Fem|Number=Sing|Case=Gen	1	nmod	_	_
+4	ša	ša	ADP	DET	_	5	case	_	_
+5	Arrapha	arrapha	PROPN	SN	Gender=Masc|Number=Sing|Case=Gen	3	nmod	_	_
+6	ina	ina	ADP	PRP	_	7	case	_	_
+7	Bab-bitqi	bab-bitqi	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+8	nēburu	nēberu	NOUN	_	Gender=Masc|Number=Sing|Case=Acc	9	obj	_	_
+9	uppušu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+
