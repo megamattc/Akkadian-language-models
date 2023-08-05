@@ -1,5 +1,5 @@
 1	1	1	NUM	NUM	_	2	dep	_	_
-2	Dilbat	dilbat	PROPN	CN	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+2	Dilbat	dilbat	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
 4	{ITI}x	{iti}x	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
@@ -7,15 +7,15 @@
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
-10	ihrumma	harāpu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
-11	irbi	rabû	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	10	conj	_	_
+10	ihrumma	harāpu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+11	irbi	rabû	NOUN	N	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	10	conj	_	_
 12	x+x	x+x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
-16	salīmu	salīmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	18	nsubj	_	_
+16	salīmu	salīmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	19	obj	_	_
 17	ina	ina	ADP	PRP	_	18	case	_	_
-18	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+18	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 19	ibašši	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 20	1	1	NUM	NUM	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_

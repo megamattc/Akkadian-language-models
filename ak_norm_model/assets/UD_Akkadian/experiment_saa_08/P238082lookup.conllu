@@ -22,7 +22,7 @@
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
 24	x-ti	x-ti	X	X	_	_	_	_	_
-25	paristu	parsu	ADJ	AJ	Gender=Masc|Number=Sing	_	_	_	_
+25	paristu	parsu	ADJ	AJ	Gender=Fem|Number=Sing	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
@@ -34,7 +34,7 @@
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x-i	x-i	X	X	_	_	_	_	_
-37	  	  	ADJ	V	_	_	_	_	SpaceAfter=No
+37	  	  	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=G	_	_	_	SpaceAfter=No
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
@@ -78,30 +78,30 @@
 78	x	x	X	X	_	_	_	_	_
 79	x	x	X	X	_	_	_	_	_
 80	x	x	X	X	_	_	_	_	_
-81	ittašûšu	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+81	ittašûšu	našû	ADP	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
-85	x-KAM₂	x-kam₂	ADJ	AJ	_	87	obl	_	_
+85	x-KAM₂	x-kam₂	ADJ	AJ	_	87	nsubj	_	_
 86	ul	ul	PART	NEG	_	87	advmod	_	_
-87	innamrū	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+87	innamrū	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
 90	x	x	X	X	_	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	ilānīšu	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	93	obj	_	_
-93	iššû	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+93	iššû	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
-98	GIM	gim	X	VERB	_	_	_	_	_
+98	GIM	gim	X	X	_	_	_	_	_
 99	ap	ap	X	X	_	_	_	_	_
 100	pi	pi	X	X	_	_	_	_	_
 101	ru	ru	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
 103	x	x	X	X	_	_	_	_	_
 104	x	x	X	X	_	_	_	_	_
-105	x	x	X	X	_	106	nsubj	_	_
-106	innammaru	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-107	 	 	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	106	obj	_	SpaceAfter=No
+105	x	x	X	X	_	_	_	_	_
+106	innammaru	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+107	 	 	SCONJ	V	_	106	nsubj	_	SpaceAfter=No

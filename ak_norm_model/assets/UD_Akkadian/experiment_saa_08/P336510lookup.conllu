@@ -1,5 +1,5 @@
-1	1	1	NUM	NUM	_	13	nsubj	_	_
-2	Dilbat	dilbat	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+1	1	1	NUM	NUM	_	13	mark	_	_
+2	Dilbat	dilbat	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
 4	Abi	abu	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
 5	ultu	ištu	ADP	PRP	_	6	case	_	_
@@ -9,29 +9,29 @@
 9	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	13	obl	_	_
 10	30-KAM₂	30-kam₂	ADJ	ADJ	_	9	amod	_	_
 11	ina	ina	ADP	PRP	_	12	case	_	_
-12	erēb-šamši	erēb-šamši	NOUN	u	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
-13	itbal	tabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+12	erēb-šamši	erēb-šamši	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+13	itbal	tabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 14	zunnī	zunnu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
 15	ibaššû	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-16	ebūr	ebūru	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	15	dep	_	_
+16	ebūr	ebūru	NOUN	N	Gender=Fem|Number=Plur	15	obj	_	_
 17	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 18	iššer	ešēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-19	 	 	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
-20	1	1	NUM	NUM	_	21	nummod	_	_
-21	Dilbat	dilbat	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	24	obj	_	_
+19	 	 	NUM	NUM	_	25	nsubj	_	SpaceAfter=No
+20	1	1	NUM	NUM	_	24	mark	_	_
+21	Dilbat	dilbat	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	24	obj	_	_
 22	ina	ina	ADP	PRP	_	23	case	_	_
 23	Abi	abu	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
-24	adriš	adriš	ADV	AV	Case=Ter	25	advmod	_	_
-25	uštaktitma	katātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	26	nsubj	_	_
-26	irbi	rabû	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
-27	miqitti	miqittu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Sing	33	obj	_	_
+24	adriš	adriš	ADV	AV	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	25	advcl	_	_
+25	uštaktitma	katātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+26	irbi	rabû	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	25	conj	_	_
+27	miqitti	miqittu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	26	obj	_	_
 28	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	27	nmod:poss	_	_
 29	u	u	CONJ	CNJ	_	30	cc	_	_
-30	ummānšu	ummānu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	27	conj	_	_
+30	ummānšu	ummānu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	27	conj	_	_
 31	ina	ina	ADP	PRP	_	32	case	_	_
 32	kakki	kakku	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	33	obl	_	_
 33	iššakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	26	conj	_	_
-34	 	 	NOUN	V	Case=Acc|Gender=Masc|Number=Sing	33	conj	_	SpaceAfter=No
+34	 	 	X	NUM	_	_	_	_	SpaceAfter=No
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
@@ -60,7 +60,7 @@
 60	x	x	X	X	_	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x-ki	x-ki	X	X	_	_	_	_	_
-63	 	 	VERB	N	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=D	_	_	_	SpaceAfter=No
+63	 	 	X	X	_	_	_	_	SpaceAfter=No
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
@@ -104,15 +104,15 @@
 104	x	x	X	X	_	_	_	_	_
 105	x	x	X	X	_	_	_	_	_
 106	kî	kī	ADP	PRP	_	107	case	_	_
-107	annīe	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	108	obl	_	_
-108	pišeršu	pišru	VERB	N	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
-109	1	1	NUM	NUM	_	110	nummod	_	_
-110	{MUL}x	{mul}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-111	x	x	X	u	_	115	nsubj	_	_
+107	annīe	annû	DET	DET	Case=Gen|Gender=Masc|Number=Sing	108	obl	_	_
+108	pišeršu	pišru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+109	1	1	NUM	NUM	_	_	_	_	_
+110	{MUL}x	{mul}x	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+111	x	x	X	X	_	115	nsubj	_	_
 112	ana	ana	ADP	PRP	_	113	case	_	_
 113	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	115	obl	_	_
-114	Sin	sin	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	113	nmod	_	_
-115	iṭhīma	ṭehû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+114	Sin	sin	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	113	nmod:poss	_	_
+115	iṭhīma	ṭehû	VERB	V	Focus=Yes|Gender=Masc|Number=Sing|Person=3|Subordinative=No|Tense=Pres|VerbStem=G	_	_	_	_
 116	izziz	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	115	conj	_	_
 117	x	x	X	X	_	_	_	_	_
 118	x	x	X	X	_	_	_	_	_
@@ -122,7 +122,7 @@
 122	x	x	X	X	_	_	_	_	_
 123	x	x	X	X	_	_	_	_	_
 124	x-ti	x-ti	X	X	_	_	_	_	_
-125	išabbīma	šebû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+125	išabbīma	šebû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 126	x	x	X	X	_	_	_	_	_
 127	x	x	X	X	_	_	_	_	_
 128	x	x	X	X	_	_	_	_	_
@@ -130,13 +130,13 @@
 130	x	x	X	X	_	_	_	_	_
 131	x	x	X	X	_	_	_	_	_
 132	x	x	X	X	_	_	_	_	_
-133	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	132	appos	_	_
-134	māti	mātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	133	nmod	_	_
+133	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	136	nsubj	_	_
+134	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	133	nmod:poss	_	_
 135	uznu	uznu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	136	obj	_	_
-136	urappaš	rapāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
+136	urappaš	rapāšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
 137	x	x	X	X	_	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
-139	 	 	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=D	_	_	_	SpaceAfter=No
+139	 	 	X	X	_	_	_	_	SpaceAfter=No
 140	x	x	X	X	_	_	_	_	_
 141	x	x	X	X	_	_	_	_	_
 142	x	x	X	X	_	_	_	_	_
@@ -144,9 +144,9 @@
 144	x	x	X	X	_	_	_	_	_
 145	x	x	X	X	_	_	_	_	_
 146	x	x	X	X	_	_	_	_	_
-147	ilput	lapātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+147	ilput	lapātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 148	x	x	X	X	_	_	_	_	_
 149	x	x	X	X	_	_	_	_	_
-150	 	 	NOUN	N	Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+150	 	 	X	ADP	_	_	_	_	SpaceAfter=No
 151	ša	ša	ADP	PRP	_	152	case	_	_
-152	Balasi	balasi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	150	nmod	_	_
+152	Balasi	balasi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_

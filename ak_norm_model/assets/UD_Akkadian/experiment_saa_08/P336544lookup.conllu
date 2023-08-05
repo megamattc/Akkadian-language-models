@@ -1,29 +1,29 @@
-1	x	x	X	X	_	2	nsubj	_	_
-2	umšu	umšu	NOUN	V	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+2	umšu	umšu	NOUN	V	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
 6	x	x	X	X	_	_	_	_	_
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
-9	nakrimma	nakru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-10	{IM}x	{im}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+9	nakrimma	nakru	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	_	_	_	_
+10	{IM}x	{im}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
-16	1	1	NUM	NUM	_	22	mark	_	_
-17	Urguli	urguli	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	22	nsubj	_	_
-18	ṣalim	ṣalmu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Plur	17	conj	_	_
+16	1	1	NUM	n	_	22	nsubj	_	_
+17	Urguli	urguli	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	22	nsubj	_	_
+18	ṣalim	ṣalmu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Plur	22	nsubj	_	_
 19	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	18	nmod	_	_
 20	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 21	lā	lā	PART	NEG	_	22	advmod	_	_
-22	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|VerbForm=Stat|VerbStem=G	23	advcl	_	_
-23	 	 	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+22	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+23	 	 	SCONJ	SCONJ	_	_	_	_	SpaceAfter=No
 24	1	1	NUM	NUM	_	25	nummod	_	_
-25	kakkabu-ṣalmu	kakkabu-ṣalmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-26	Kayamanu	kayamanu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	_
-27	 	 	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+25	kakkabu-ṣalmu	kakkabu-ṣalmu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
+26	Kayamanu	kayamanu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	25	conj	_	_
+27	 	 	DET	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	25	conj	_	SpaceAfter=No
 28	ša	ša	ADP	PRP	_	29	case	_	_
-29	Šumaya	šumaya	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	Šumaya	šumaya	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_

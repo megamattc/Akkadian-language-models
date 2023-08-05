@@ -14,7 +14,7 @@
 14	ana	ana	ADP	PRP	_	15	case	_	_
 15	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	_
 16	ša	ša	ADP	PRP	_	17	case	_	_
-17	bīt ilāni	bīt ilāni	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	bīt ilāni	bīt ilāni	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
 18	ša	ša	ADP	PRP	_	19	case	_	_
 19	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 20	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	19	appos	_	_
@@ -29,24 +29,24 @@
 29	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 30	o	o	X	X	_	_	_	_	_
 31	ša	ša	ADP	PRP	_	32	case	_	_
-32	Deri	Deru	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-33	Nanaya	nanaya	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	32	conj	_	_
+32	Deri	Deru	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	Nanaya	nanaya	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	32	conj	_	_
 34	Gula	gula	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	32	conj	_	_
-35	Mar-Biti	mar-biti	PROPN	SN	Case=Acc|Gender=Fem|Number=Sing	32	conj	_	_
-36	Marat-Biti	marat-biti	PROPN	_|EN	Gender=Masc	32	conj	_	_
-37	ša	ša	PRON	REL	_	41	nsubj	_	_
+35	Mar-Biti	mar-biti	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	32	conj	_	_
+36	Marat-Biti	marat-biti	PROPN	PN	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+37	ša	ša	PRON	REL	_	39	nsubj	_	_
 38	ultu	ištu	ADP	PRP	_	39	case	_	_
-39	bīrti	birtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	37	dep	_	_
+39	bīrti	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	36	dep	_	_
 40	itti	itti	ADP	PRP	_	41	case	_	_
-41	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	32	acl	_	_
+41	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	ana	ana	ADP	PRP	_	44	case	_	_
 44	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-45	x	x	X	u	_	46	nsubj	_	_
-46	illikū	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	52	dep	_	_
+45	x	x	X	X	_	46	nsubj	_	_
+46	illikū	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	52	obl	_	_
 47	ina	ina	ADP	PRP	_	48	case	_	_
-48	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	52	obl	_	_
+48	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	46	iobj	_	_
 49	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	52	nsubj	_	_
 50	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	49	appos	_	_
-51	lū	lū	PART	MOD	_	52	advmod:emph	_	_
+51	lū	lū	PART	PART	_	52	advmod	_	_
 52	īdī	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_

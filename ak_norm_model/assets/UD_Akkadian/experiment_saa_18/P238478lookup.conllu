@@ -26,20 +26,20 @@
 26	x	x	X	X	_	_	_	_	_
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
-29	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+29	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	31	dep	_	_
 30	ul	ul	PART	NEG	_	31	advmod	_	_
-31	maṣāku	maṣû	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	29	amod	_	_
+31	maṣāku	maṣû	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	_	_	_	_
 32	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
-33	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+33	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	32	conj	_	_
 34	lū	lū	PART	PART	_	35	advmod	_	_
 35	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
-36	kî	kī	ADP	PRP	_	40	mark	_	_
+36	kî	kī	SCONJ	SBJ	_	40	mark	_	_
 37	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	40	obl	_	_
 38	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
 39	lā	lā	PART	NEG	_	40	advmod	_	_
-40	mahri	mahru	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
-41	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
-42	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	41	amod	_	_
+40	mahri	mahru	NOUN	N	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
+41	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+42	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
@@ -48,7 +48,7 @@
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
-51	immahhara	mahāru	VERB	V	Focus=Yes	_	_	_	_
+51	immahhara	mahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 52	ad-x	ad-x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
@@ -60,7 +60,7 @@
 60	ša	ša	ADP	PRP	_	61	case	_	_
 61	harrān	harrānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	63	obl	_	_
 62	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	_
-63	nišemme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
+63	nišemme	šemû	VERB	V	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
@@ -69,9 +69,9 @@
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	x+x	x+x	X	X	_	_	_	_	_
-72	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-73	nadê	nadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	72	conj	_	_
-74	ahī	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+72	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	73	obj	_	_
+73	nadê	nadû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
+74	ahī	ahu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 75	ni-ta-x+x	ni-ta-x+x	X	X	_	_	_	_	_
 76	x	x	X	X	_	_	_	_	_
 77	x	x	X	X	_	_	_	_	_
@@ -83,10 +83,10 @@
 83	x	x	X	X	_	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
-86	šikin ṭēmi	šikin ṭēmi	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+86	šikin ṭēmi	šikin ṭēmi	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	89	nsubj	_	_
 87	ana	ana	ADP	PRP	_	88	case	_	_
 88	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	89	iobj	_	_
-89	iltapra	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+89	iltapra	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 90	x	x	X	X	_	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
