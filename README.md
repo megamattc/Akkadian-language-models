@@ -10,7 +10,7 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 * SAA 1 - Letters from the royal archives of Sargon II (r. 721-705): Assyria and the West. 100% complete.
 * SAA 2 - Neo-Assyrian treaties and oaths. 100% complete.
 * SAA 5 - Letters from the royal archives of Sargon II (r. 721-705): North and Northeast. 100% complete. 
-* SAA 8 - Astrological reports. 0% complete.
+* SAA 8 - Astrological reports. 1% complete.
 * SAA 9 - Assyrian prophecies. %100 complete.
 * SAA 10 - Letters from Assyrian and Babylonian scholars. 8% complete.
 * SAA 13 - Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal. 10% complete.
@@ -18,8 +18,8 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 * SAA 16 - Political correspondence of Esarhaddon. 13% complete.
 * SAA 17 - The Neo-Babylonian Correspondence of Sargon and Sennacherib. 9% complete.
 * SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 1% complete.
-* SAA 19 - Letters of Tiglath-Pileser III and Sargon II from Calah/Nimrud. 0% complete.
-* SAA 21 - Letters of Assurbanipal: Assyria, Babylonia, and vassal states. %11 complete.
+* SAA 19 - Letters of Tiglath-Pileser III and Sargon II from Calah/Nimrud. 1% complete.
+* SAA 21 - Letters of Assurbanipal: Assyria, Babylonia, and vassal states. %100 complete.
 
 A few additional Oracc projects also provide the following data:
 
