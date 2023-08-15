@@ -4,7 +4,7 @@ description: This is used to train and evaluate the basic model trained only on 
 
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
-  config: "combined_lemmatizers_suff"
+  config: "combined_lemmatizers_suff_simple"
   lang: "ak"
   treebank: "UD_Akkadian"
   train_name: "akk_combined_nonrenumbered-ud-train"
