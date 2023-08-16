@@ -18,7 +18,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ultelû	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+1	ultelû	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -32,7 +32,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ilqi	leqû	VERB	V	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	ilqi	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -87,7 +87,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ušēṣû	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ušēṣû	aṣû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	itti	itti	ADP	PRP	_	0	ROOT	_	_
 
@@ -101,9 +101,8 @@
 
 1	umma	umma	PART	Quotative	_	0	ROOT	_	_
 
-1	ana	ana	ADP	PRP	_	0	ROOT	_	_
-
-1	kūm	kūm	ADP	PRP	_	0	ROOT	_	_
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	kūm	kūm	ADP	PRP	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -113,7 +112,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	tēpušā	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	tēpušā	epēšu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
 
 1	innammar	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
 
@@ -139,7 +138,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	tēpušā	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	tēpušā	epēšu	VERB	V	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

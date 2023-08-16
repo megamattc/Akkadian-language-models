@@ -4,9 +4,9 @@
 4	dinān	dinānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	iobj	_	_
 5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
-7	lullik	alāku	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
+7	lullik	alāku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
 
-1	ummā	umma	ADP	PRP	_	3	discourse	_	_
+1	ummā	umma	PART	Quotative	_	3	discourse	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 4	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
@@ -63,11 +63,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	yaʾānu	yānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	{1}{d}a-num-x	{1}{d}a-num-x	VERB	PN	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	yaʾānu	yānu	VERB	V	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	{1}{d}a-num-x	{1}{d}a-num-x	PROPN	V	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -79,10 +76,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Ruʾua	ruʾua	PROPN	X	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
 
-1	ālik	āliku	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	pāni	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
+1	Ruʾua	ruʾua	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	ālik	āliku	ADJ	AJ	Case=Acc|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	pāni	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

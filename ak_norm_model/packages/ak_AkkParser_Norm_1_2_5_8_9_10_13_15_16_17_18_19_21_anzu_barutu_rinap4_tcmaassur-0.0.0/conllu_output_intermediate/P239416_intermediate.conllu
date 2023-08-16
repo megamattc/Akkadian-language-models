@@ -5,8 +5,8 @@
 5	lū	lū	PART	PART	_	6	advmod	_	_
 6	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
-1	aššu	aššu	SCONJ	SCONJ	_	2	dep	_	_
-2	ṭēm	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	aššu	aššu	ADP	PRP	_	2	case	_	_
+2	ṭēm	ṭēmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	Mar-Yakin	mar-yakin	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
@@ -175,7 +175,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	ēkamma	ēkâ	PRON	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	0	ROOT	_	_
+1	ēkamma	ēkâ	PRON	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -249,10 +249,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nasāhu	nasāhu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	nasāhu	nasāhu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	uṭṭati	uṭṭatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	1	nmod	_	_
-4	qēmi	qēmu	NOUN	N	Gender=Masc|Number=Plur	3	nmod	_	_
+3	uṭṭati	uṭṭatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	1	acl	_	_
+
+1	qēmi	qēmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -265,7 +266,7 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	adê	adû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	1	nmod	_	_
+2	adê	adû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
@@ -275,8 +276,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	palhāku	palhu	VERB	V	Gender=Com|Number=Sing|Person=1|VerbForm=Stat	2	obj	_	_
-2	ittabit	abātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	palhāku	palhu	VERB	V	Gender=Com|Number=Sing|Person=1|VerbForm=Stat	0	ROOT	_	_
+2	ittabit	abātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -288,7 +289,7 @@
 
 1	umma	umma	PART	Quotative	_	0	ROOT	_	_
 
-1	mātāti	mātu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Plur	0	ROOT	_	_
+1	mātāti	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	ša	ša	PRON	REL	_	0	ROOT	_	_
@@ -303,7 +304,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ittišunu	itti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Plur|PresSuffPer=3	2	obl	_	_
+1	ittišunu	itti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Plur|PresSuffPer=3	2	dep	_	_
 2	iṣṣabat	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -316,7 +317,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ittabit	abātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ittabit	abātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	KUR	kur	X	X	_	0	ROOT	_	_
 

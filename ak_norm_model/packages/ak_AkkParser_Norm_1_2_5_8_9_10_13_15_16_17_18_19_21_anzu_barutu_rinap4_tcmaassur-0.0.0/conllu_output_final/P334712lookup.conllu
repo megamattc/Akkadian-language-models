@@ -38,7 +38,7 @@
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
-41	ultēšibū	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
+41	ultēšibū	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -57,16 +57,16 @@
 57	x	x	X	X	_	_	_	_	_
 58	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 59	ša	ša	ADP	PRP	_	60	case	_	_
-60	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+60	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	58	nmod	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
-64	x	x	X	X	_	_	_	_	_
+64	x	x	X	X	_	66	nsubj	_	_
 65	nišī	nišu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	66	obj	_	_
-66	iddūk	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+66	iddūk	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 67	u	u	CONJ	CNJ	_	69	cc	_	_
 68	bītātišunu	bītu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	69	obj	_	_
-69	ihtepe	hepû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	66	conj	_	_
+69	ihtepe	hepû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	66	conj	_	_
 70	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
 71	kî	kī	ADP	PRP	_	_	_	_	_
 72	x	x	X	X	_	_	_	_	_
@@ -91,7 +91,7 @@
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
-94	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+94	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	95	obj	_	_
 95	alkā	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	_	_	_	_
 96	x+x	x+x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
@@ -100,7 +100,7 @@
 100	x	x	X	X	_	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
-103	erēši	erēšu	VERB	V	_	_	_	_	_
+103	erēši	erēšu	VERB	V	Gender=Masc|Number=Sing	_	_	_	_
 104	x	x	X	X	_	_	_	_	_
 105	x	x	X	X	_	_	_	_	_
 106	x	x	X	X	_	_	_	_	_
@@ -110,7 +110,7 @@
 110	x	x	X	X	_	_	_	_	_
 111	x	x	X	X	_	_	_	_	_
 112	ana	ana	ADP	PRP	_	113	case	_	_
-113	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+113	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 114	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	113	nmod	_	_
 115	x	x	X	X	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_
@@ -120,7 +120,7 @@
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
 122	x	x	X	X	_	_	_	_	_
-123	inniṭir	eṭēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	_	_	_	_
+123	inniṭir	eṭēru	VERB	V	_	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
 125	x	x	X	X	_	_	_	_	_
 126	x	x	X	X	_	_	_	_	_
@@ -129,8 +129,8 @@
 129	x	x	X	X	_	_	_	_	_
 130	x	x	X	X	_	_	_	_	_
 131	x	x	X	X	_	_	_	_	_
-132	u	u	CONJ	CONJ	_	_	_	_	_
-133	mātu	mātu	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
+132	u	u	CONJ	CONJ	_	133	cc	_	_
+133	mātu	mātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 134	x	x	X	X	_	_	_	_	_
 135	x	x	X	X	_	_	_	_	_
 136	x	x	X	X	_	_	_	_	_

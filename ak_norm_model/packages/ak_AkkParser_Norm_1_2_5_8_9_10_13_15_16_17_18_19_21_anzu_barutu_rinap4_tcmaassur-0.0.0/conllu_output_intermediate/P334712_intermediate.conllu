@@ -78,7 +78,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ultēšibū	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ultēšibū	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -113,11 +113,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
-
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -125,11 +122,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nišī	nišu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
-2	iddūk	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-3	u	u	CONJ	CNJ	_	5	cc	_	_
-4	bītātišunu	bītu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	5	obj	_	_
-5	ihtepe	hepû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	2	conj	_	_
+1	x	x	X	X	_	3	nsubj	_	_
+2	nišī	nišu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+3	iddūk	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	u	u	CONJ	CNJ	_	6	cc	_	_
+5	bītātišunu	bītu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	6	obj	_	_
+6	ihtepe	hepû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	conj	_	_
 
 1	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
@@ -177,9 +175,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	alkā	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	0	ROOT	_	_
+1	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
+2	alkā	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -195,7 +192,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	erēši	erēšu	VERB	V	_	0	ROOT	_	_
+1	erēši	erēšu	VERB	V	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -214,7 +211,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -233,7 +230,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	inniṭir	eṭēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+1	inniṭir	eṭēru	VERB	V	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -251,9 +248,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	0	ROOT	_	_
-
-1	mātu	mātu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
+1	u	u	CONJ	CONJ	_	2	cc	_	_
+2	mātu	mātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
