@@ -14,7 +14,7 @@
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	u	u	CONJ	CNJ	_	5	cc	_	_
-5	maṣṣarti	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+5	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 8	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	7	appos	_	_
@@ -30,21 +30,20 @@
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-5	umma	umma	PART	Quotative	_	6	discourse	_	_
+5	umma	umma	PART	Quotative	_	6	dep	_	_
 6	minû	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	4	ccomp	_	_
-7	ṭēmumma	ṭēmu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	6	nsubj	_	_
+7	ṭēmumma	ṭēmu	NOUN	N	Case=Acc|Focus=Yes|Gender=Masc|Number=Sing	6	conj	_	_
 
-1	aklū	akalu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
-2	Hamarnaya	hamarnaya	PROPN	EN	Gender=Masc	1	amod	_	_
-3	Lihuataya	lihuataya	PROPN	EN	Gender=Masc	1	amod	_	_
-4	Rabilaya	rabilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-5	nišīšunu	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	1	conj	_	_
+1	aklū	akalu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
+2	Hamarnaya	hamarnaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Lihuataya	lihuataya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+4	Rabilaya	rabilaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	nišīšunu	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	4	appos	_	_
 
 1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
-1	o	o	X	X	_	0	ROOT	_	_
-
-1	ibrû	berû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	o	o	X	X	_	2	advmod	_	_
+2	ibrû	berû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	0	ROOT	_	_
 
@@ -80,12 +79,14 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	6	discourse	_	_
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+1	umma	umma	PART	Quotative	_	0	ROOT	_	_
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	muhhinni	muhhu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
-5	aklū	akalu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
-6	lišpuramma	šapāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
+4	muhhinni	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	dep	_	_
+
+1	aklū	akalu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+
+1	lišpuramma	šapāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

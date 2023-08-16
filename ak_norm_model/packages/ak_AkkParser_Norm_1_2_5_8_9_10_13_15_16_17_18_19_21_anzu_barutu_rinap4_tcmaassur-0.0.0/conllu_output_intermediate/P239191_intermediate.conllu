@@ -26,9 +26,10 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	bēlīni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	1	appos	_	_
-3	kî	kī	ADP	ADP	_	0	ROOT	_	_
+
+1	kî	kī	ADP	ADP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -41,7 +42,7 @@
 1	maškanāti	maškanu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	adi	adi	ADP	PRP	_	2	case	_	_
-2	sīsê	sisû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	sīsê	sisû	NOUN	N	Gender=Masc	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -57,19 +58,19 @@
 
 1	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+1	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
+3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	iobj	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	uktīn	kânu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+5	uktīn	kânu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	1	acl	_	_
+6	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	bēlāni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	6	appos	_	_
+8	īdī	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+9	kî	kī	SCONJ	SBJ	_	10	mark	_	_
+10	nāṣir	nāṣiru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	8	ccomp	_	_
+11	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
 
-1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	bēlāni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	1	appos	_	_
-3	īdī	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-4	kî	kī	SCONJ	SBJ	_	5	mark	_	_
-5	nāṣir	nāṣiru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	3	ccomp	_	_
-6	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-7	ša	ša	PRON	REL	_	3	dep	_	_
+1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -88,7 +89,7 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
-4	agâ	agâ	DET	DP	Case=Gen|Gender=Fem|Number=Sing	3	det	_	_
+4	agâ	agâ	DET	DP	_	3	det	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -112,7 +113,7 @@
 
 1	x-al	x-al	X	X	_	0	ROOT	_	_
 
-1	kî	kī	ADP	ADP	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

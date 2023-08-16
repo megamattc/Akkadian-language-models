@@ -14,7 +14,7 @@
 
 1	x-mu	x-mu	X	X	_	0	ROOT	_	_
 
-1	šulum	šulmu	NOUN	N	_	0	ROOT	_	_
+1	šulum	šulmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -276,7 +276,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	iqtabi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	umma	umma	PART	Quotative	_	1	discourse	_	_
+
+1	umma	umma	PART	Quotative	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -303,9 +304,10 @@
 
 1	x{KI}	x{ki}	X	X	_	0	ROOT	_	_
 
-1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	dep	_	_
-2	ana	ana	ADP	PRP	_	3	case	_	_
-3	ṣabāti	ṣabātu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
+1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	ṣabāti	ṣabātu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -315,8 +317,8 @@
 
 1	x-bu	x-bu	X	X	_	0	ROOT	_	_
 
-1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	nīpušu	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	2	case	_	_
+2	nīpušu	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -326,7 +328,7 @@
 
 1	x-nu	x-nu	X	X	_	0	ROOT	_	_
 
-1	nittaši	našû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	nittaši	našû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -354,8 +356,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	obj	_	_
-2	aktir	katāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	aktir	katāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
