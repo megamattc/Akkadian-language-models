@@ -14,7 +14,7 @@
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
 7	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	ummā	umma	PART	Quotative	_	3	dep	_	_
+1	ummā	umma	PART	Quotative	_	3	discourse	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 4	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
@@ -24,13 +24,14 @@
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
 4	ašpuru	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	adû	adû	ADV	AV	_	7	advmod	_	_
+1	adû	adû	ADV	AV	_	0	ROOT	_	_
 2	ebūru	ebūru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	1	dep	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	Bit-Yakini	bit-yakini	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
-6	{URU}tar-ba-x	{uru}tar-ba-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-7	x	x	X	X	_	0	ROOT	_	_
+6	{URU}tar-ba-x	{uru}tar-ba-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
 
 1	ebūru	ebūru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
@@ -40,7 +41,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	uqtettû	qatû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	uqtettû	qatû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -113,7 +114,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ušeṣṣû	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ušeṣṣû	aṣû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -135,7 +136,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	{URU}KUR-BE	{uru}kur-be	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{URU}KUR-BE	{uru}kur-be	PROPN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 
@@ -146,29 +147,29 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	Zeriya	zeriya	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Zeriya	zeriya	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	{LU₂}x	{lu₂}x	NOUN	N	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	idīšunu	idu	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+1	{LU₂}x	{lu₂}x	DET	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
+1	idīšunu	idu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
+
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	rab kiṣir	rab kiṣir	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-2	iltēn	ištēn	NUM	NUM	_	3	nummod	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	rab kiṣir	rab kiṣir	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	iltēn	ištēn	NUM	NU	_	3	nummod	_	_
 3	lišʾal	šâlu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
-7	liqbi	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	3	conj	_	_
+7	liqbi	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	3	advcl	_	_
 

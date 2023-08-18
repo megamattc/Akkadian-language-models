@@ -16,7 +16,7 @@
 4	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 
 1	kalbu	kalbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	agâ	agâ	DET	DP	Case=Nom|Gender=Masc|Number=Sing	1	det	_	_
+2	agâ	agâ	DET	DP	_	1	det	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -46,9 +46,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	0	ROOT	_	_
-
-1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+1	u	u	CONJ	CONJ	_	2	cc	_	_
+2	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -140,7 +139,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	dibbīšu	dibbu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+1	dibbīšu	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -155,7 +154,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ul	ul	PART	NEG	_	2	advmod	_	_
-2	pitqud	pitqudu	ADJ	AJ	_	0	ROOT	_	_
+2	pitqud	pitqudu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -179,7 +178,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	qattin	qattinu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	qattin	qattinu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -191,7 +190,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	riksu	riksu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	riksu	riksu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -231,7 +230,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ušabbir	šebēru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ušabbir	šebēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -306,9 +305,9 @@
 
 1	ittīšu	itti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Sing|PresSuffPer=3	3	obl	_	_
 2	ul	ul	PART	NEG	_	3	advmod	_	_
-3	adbub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	adbub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	kî	kī	ADP	PRP	_	0	ROOT	_	_
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -318,7 +317,7 @@
 
 1	x+x-ma	x+x-ma	X	X	_	0	ROOT	_	_
 
-1	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	iobj	_	_
+1	pān	pānu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	mahru	mahru	ADJ	AJ	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
@@ -329,5 +328,5 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šaplāssa	šaplītu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+1	šaplāssa	šaplītu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 

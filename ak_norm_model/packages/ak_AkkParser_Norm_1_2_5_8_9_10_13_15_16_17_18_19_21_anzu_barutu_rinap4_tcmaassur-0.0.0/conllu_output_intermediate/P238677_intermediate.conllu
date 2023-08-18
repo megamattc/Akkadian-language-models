@@ -14,7 +14,7 @@
 
 1	x-mu	x-mu	X	X	_	0	ROOT	_	_
 
-1	šulum	šulmu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	šulum	šulmu	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -291,10 +291,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mār šipri	mār šipri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	ta-x	ta-x	X	X	_	0	ROOT	_	_
+1	lā	lā	PART	PART	_	0	ROOT	_	_
+
+1	ta-x	ta-x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -304,10 +305,9 @@
 
 1	x{KI}	x{ki}	X	X	_	0	ROOT	_	_
 
-1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	ṣabāti	ṣabātu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
+1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	ṣabāti	ṣabātu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -318,7 +318,7 @@
 1	x-bu	x-bu	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	nīpušu	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	nīpušu	epēšu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -328,7 +328,7 @@
 
 1	x-nu	x-nu	X	X	_	0	ROOT	_	_
 
-1	nittaši	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	nittaši	našû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -358,7 +358,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	aktir	katāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	aktir	katāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

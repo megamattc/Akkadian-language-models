@@ -19,15 +19,15 @@
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	bīrāti	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	1	nsubj	_	_
 4	u	u	CONJ	CNJ	_	5	cc	_	_
-5	emūqī	emūqu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	_
+5	emūqī	emūqu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 
-1	ṭēm	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ṭēm	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	nišī	nišu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	1	nmod	_	_
 4	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
-5	šulum	šulmu	NOUN	N	Gender=Masc|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	1	dep	_	_
+5	šulum	šulmu	NOUN	N	Gender=Masc|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	0	ROOT	_	_
 
 1	libba	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
@@ -144,7 +144,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nēšakki	nêšakku	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	nēšakki	nêšakku	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -181,7 +181,7 @@
 1	x-ga	x-ga	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	nadê	nadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	nadê	nadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -196,7 +196,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	Bada	bada	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Bada	bada	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -399,16 +399,19 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	maʾda	mādu	ADJ	AJ	_	2	amod	_	_
-2	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
-3	ša	ša	ADP	PRP	_	4	case	_	_
-4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
-6	kî	kī	SCONJ	SBJ	_	9	mark	_	_
-7	adi	adi	SCONJ	SBJ	_	9	mark	_	_
-8	lā	lā	PART	NEG	_	9	advmod	_	_
-9	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-10	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
+1	maʾda	mādu	ADJ	AJ	_	0	ROOT	_	_
+
+1	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+
+1	adi	adi	ADP	PRP	_	3	case	_	_
+2	lā	lā	PART	NEG	_	3	advmod	_	_
+3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -439,13 +442,13 @@
 
 1	x-a-šu₂	x-a-šu₂	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	7	cc	_	_
-2	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	7	dep	_	_
 3	mala	mala	PRON	REL	_	4	nsubj	_	_
 4	bašû	bašû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	2	acl	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	muhhīšu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	7	iobj	_	_
-7	amrū	amru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+7	amrū	amru	ADJ	AJ	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=Š	0	ROOT	_	_
 
 1	itti	itti	ADP	PRP	_	2	case	_	_
 2	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
@@ -462,7 +465,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	aṣabbatma	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Ind|VerbStem=G	0	ROOT	_	_
+1	aṣabbatma	ṣabātu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
 4	anamdin	nadānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=G	1	conj	_	_
@@ -479,7 +482,7 @@
 
 1	x-su-ma	x-su-ma	X	X	_	0	ROOT	_	_
 
-1	hīṭušu	hīṭu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	obj	_	_
+1	hīṭušu	hīṭu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 2	yaʾnu	yānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -494,9 +497,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	agâ	agâ	DET	DP	_	2	det	_	_
-2	hīṭu	hīṭu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
-3	rabû	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+1	agâ	agâ	DET	DP	_	0	ROOT	_	_
+
+1	hīṭu	hīṭu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	rabû	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -530,7 +534,7 @@
 
 1	x-a-šu₂	x-a-šu₂	X	X	_	0	ROOT	_	_
 
-1	ītepuš	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ītepuš	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -546,7 +550,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lā	lā	PART	PART	_	2	advmod	_	_
+1	lā	lā	PART	NEG	_	2	advmod	_	_
 2	kitta	kittu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	0	ROOT	_	_
@@ -559,10 +563,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	izqupanni	zaqāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	ana	ana	ADP	PRP	_	3	case	_	_
-3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	iobj	_	_
-4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+1	izqupanni	zaqāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

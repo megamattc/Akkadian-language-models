@@ -11,7 +11,7 @@
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 4	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 
-1	ša	ša	PRON	REL	_	4	obl	_	_
+1	ša	ša	PRON	REL	_	4	obj	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
@@ -57,7 +57,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	īdûšu	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+1	īdûšu	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	0	ROOT	_	_
 
@@ -73,16 +73,17 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ul	ul	PART	NEG	_	2	advmod	_	_
-2	kî	kī	ADP	PRP	_	3	case	_	_
-3	zēʾirānu	zēʾirānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	ul	ul	PART	NEG	_	0	ROOT	_	_
+
+1	kî	kī	ADP	PRP	_	2	case	_	_
+2	zēʾirānu	zēʾirānu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	uznīni	uznu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+2	uznīni	uznu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -150,7 +151,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	{1}{d}EN-x	{1}{d}en-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{1}{d}EN-x	{1}{d}en-x	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -160,7 +161,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	hamû	hamû	ADJ	AJ	Gender=Fem|Number=Plur	0	ROOT	_	_
+1	hamû	hamû	ADJ	AJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -14,7 +14,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	dibbī	dibbu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	dibbī	dibbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 2	{1}ka-x	{1}ka-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -99,7 +99,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	danānu	danānu	VERB	V	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	danānu	danānu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -161,10 +161,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	akī	akī	ADP	PRP	_	0	ROOT	_	_
-
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	mudê	mūdû	ADJ	AJ	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	akī	akī	ADP	PRP	_	3	case	_	_
+2	lā	lā	PART	NEG	_	3	advmod	_	_
+3	mudê	mūdû	ADJ	AJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -210,10 +209,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	4	nsubj	_	_
-2	ana	ana	ADP	PRP	_	3	case	_	_
-3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	iobj	_	_
-4	lišpura	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	iobj	_	_
+3	lišpura	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -247,7 +247,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šalmū	šalmu	ADJ	AJ	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
+1	šalmū	šalmu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	itti	itti	ADP	PRP	_	0	ROOT	_	_
 

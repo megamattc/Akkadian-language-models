@@ -1,33 +1,35 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	dep	_	_
-3	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	2	nmod:poss	_	_
-4	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
-5	ardēka	ardu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+3	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	2	nmod:poss	_	_
+4	bēlīni	bēlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	3	conj	_	_
+5	ardēka	ardu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	2	nsubj	_	_
 6	Nabu-šumu-lešir	nabu-šumu-lešir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 7	u	u	CONJ	CNJ	_	8	cc	_	_
 8	Eṭiru	eṭiru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
-9	ummā	umma	PART	Quotative	_	11	discourse	_	_
-10	ana	ana	ADP	PRP	_	11	case	_	_
-11	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	5	conj	_	_
+
+1	ummā	umma	PART	Quotative	_	3	discourse	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	bēlīni	bēlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	bīt ili	bīt ili	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	aklū	akalu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	_
-2	bani	banû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+2	bīt ili	bīt ili	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	aklū	akalu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	2	acl	_	_
+4	bani	banû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	maṣṣarat	maṣṣartu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	5	dislocated	_	_
-2	Esaggil	esaggil	PROPN	TN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	maṣṣarat	maṣṣartu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	Esaggil	esaggil	PROPN	TN	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	_
 3	u	u	CONJ	CNJ	_	4	cc	_	_
 4	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
-5	dannat	dannu	NOUN	N	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
-6	zību	zību	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	5	nmod	_	_
+
+1	dannat	dannu	NOUN	N	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+
+1	zību	zību	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
 1	maʾdiš	mādiš	ADV	AV	_	0	ROOT	_	_
 
@@ -67,7 +69,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	bēlāni	bēlu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	1	appos	_	_
+2	bēlāni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	1	appos	_	_
 3	iddinu	tadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -80,9 +82,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	li-x	li-x	X	X	_	0	ROOT	_	_
 
@@ -98,7 +99,7 @@
 
 1	x+x-mu-nu	x+x-mu-nu	X	X	_	0	ROOT	_	_
 
-1	Bel-ibni	bel-ibni	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Bel-ibni	bel-ibni	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -108,7 +109,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iqtabû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iqtabû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	umma	umma	PART	Quotative	_	0	ROOT	_	_
 

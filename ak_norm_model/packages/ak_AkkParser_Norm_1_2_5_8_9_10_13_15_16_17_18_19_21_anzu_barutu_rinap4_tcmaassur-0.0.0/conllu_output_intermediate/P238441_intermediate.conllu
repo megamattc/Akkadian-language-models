@@ -1,11 +1,10 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	Šarru-ken	šarru-ken	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
+3	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
 4	kiššat	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	3	nmod:poss	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	nmod:poss	_	_
 6	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
-
-1	Balaṭsu	balaṭsu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+7	Balaṭsu	balaṭsu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
 
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
@@ -28,10 +27,10 @@
 6	altapra	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	ṣilli	ṣillu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	ṣilli	ṣillu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 3	Bel	bel	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	u	u	CONJ	CONJ	_	5	cc	_	_
-5	Nabu	nabu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+5	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -72,7 +71,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	našparti	našpartu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+2	našparti	našpartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -91,7 +90,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	3	obj	_	_
-2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	obj	_	_
+2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	nsubj	_	_
 3	ašpuk	šapāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -110,7 +109,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ūṣibanni	waṣābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+1	ūṣibanni	waṣābu	VERB	V	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -132,7 +131,7 @@
 2	bīt	bītu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	abīya	abu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nmod:poss	_	_
 
-1	bīt	bītu	NOUN	N	_	0	ROOT	_	_
+1	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -151,7 +150,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	naṣṣabāt	naṣṣabu	NOUN	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	naṣṣabāt	naṣṣabu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

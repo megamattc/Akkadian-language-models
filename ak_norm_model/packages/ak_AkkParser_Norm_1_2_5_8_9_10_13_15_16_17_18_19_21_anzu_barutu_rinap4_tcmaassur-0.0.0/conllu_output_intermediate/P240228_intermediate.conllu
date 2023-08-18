@@ -81,7 +81,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Bel-leʾanni	bel-leʾanni	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Bel-leʾanni	bel-leʾanni	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -97,7 +97,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Qibi-Bel	qibi-bel	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Qibi-Bel	qibi-bel	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -127,9 +127,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
-
-1	taklū	taklu	ADJ	AJ	_	0	ROOT	_	_
+1	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	2	obj	_	_
+2	taklū	taklu	ADJ	AJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -290,7 +289,7 @@
 
 1	x-bu	x-bu	X	X	_	0	ROOT	_	_
 
-1	zazinni	sasinnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	zazinni	sasinnu	NOUN	N	_	0	ROOT	_	_
 
 1	ki-x	ki-x	X	X	_	0	ROOT	_	_
 
@@ -308,7 +307,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Esaggili	esaggili	PROPN	DN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Esaggili	esaggili	PROPN	TN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -346,7 +345,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ellēma	elû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
+1	ellēma	elû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 1	bābu	bābu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -369,10 +368,11 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+2	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
-1	lā	lā	PART	PART	_	2	advmod	_	_
-2	x	x	X	X	_	0	ROOT	_	_
+1	lā	lā	PART	NEG	_	0	ROOT	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

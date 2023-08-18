@@ -22,7 +22,7 @@
 
 1	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 2	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	1	det	_	_
-3	Guzummani	guzummani	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_
+3	Guzummani	guzummani	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	amod	_	_
 4	ultu	ištu	ADP	PRP	_	5	case	_	_
 5	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
 6	ana	ana	ADP	PRP	_	7	case	_	_
@@ -31,7 +31,7 @@
 9	illikūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	10	advcl	_	_
 10	iqabbû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 11	umma	umma	PART	Quotative	_	22	discourse	_	_
-12	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	22	obl	_	_
+12	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	22	obl	_	_
 13	11-KAM₂	11-kam₂	ADJ	ADJ	_	12	amod	_	_
 14	ša	ša	ADP	PRP	_	15	case	_	_
 15	Arahsamni	arahsamni	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -41,7 +41,7 @@
 19	Duru-ša-bit-Yakini	duru-ša-bit-yakini	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 20	ultu	ištu	ADP	PRP	_	21	case	_	_
 21	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
-22	ittalak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	10	conj	_	_
+22	ittalak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	10	ccomp	_	_
 
 1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 2	15-KAM₂	15-kam₂	ADJ	ADJ	_	1	amod	_	_
@@ -206,10 +206,9 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	2	obj	_	_
-2	ašmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	02	02	NUM	NUM	_	2	nummod	_	_
-2	ṣābē	ṣābu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ašmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	4	nsubj	_	_
+3	02	02	NUM	NUM	_	4	nummod	_	_
+4	ṣābē	ṣābu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -243,8 +242,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	agâ	agâ	DET	DP	_	2	det	_	_
-2	bītu	bītu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	agâ	agâ	DET	DP	_	0	ROOT	_	_
+
+1	bītu	bītu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	bu-x	bu-x	X	X	_	0	ROOT	_	_
 
