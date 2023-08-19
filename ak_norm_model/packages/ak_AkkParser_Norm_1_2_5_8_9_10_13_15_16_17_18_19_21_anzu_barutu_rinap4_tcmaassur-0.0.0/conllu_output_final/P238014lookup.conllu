@@ -98,12 +98,12 @@
 98	x	x	X	X	_	_	_	_	_
 99	x	x	X	X	_	_	_	_	_
 100	mušarkisu	mušarkisu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-101	ša	ša	PRON	REL	_	104	obj	_	_
+101	ša	ša	PRON	REL	_	104	obl	_	_
 102	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	104	nsubj	_	_
 103	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	102	appos	_	_
-104	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	100	acl	_	_
+104	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	100	acl	_	_
 105	umma	umma	PART	Quotative	_	110	discourse	_	_
-106	minû	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	107	det	_	_
+106	minû	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	107	det	_	_
 107	hīṭu	hīṭu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	110	obj	_	_
 108	la-pān	lapān	ADP	PRP	_	109	case	_	_
 109	ahhēšu	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	110	obl	_	_
@@ -158,7 +158,7 @@
 158	šību	šību	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	152	ccomp	_	_
 159	u	u	CONJ	CNJ	_	160	cc	_	_
 160	rīmu	rīmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	158	conj	_	_
-161	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
+161	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	158	cop	_	_
 162	šu	šu	X	X	_	_	_	_	_
 163	x+x	x+x	X	X	_	_	_	_	_
 164	zu	zu	X	X	_	_	_	_	_
@@ -223,7 +223,7 @@
 223	x	x	X	X	_	_	_	_	_
 224	x	x	X	X	_	_	_	_	_
 225	x	x	X	X	_	_	_	_	_
-226	u	u	CONJ	CONJ	_	227	cc	_	_
+226	u	u	CONJ	CONJ	_	_	_	_	_
 227	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	_	_	_	_
 228	x	x	X	X	_	_	_	_	_
 229	x	x	X	X	_	_	_	_	_
@@ -262,9 +262,9 @@
 262	umma	umma	PART	Quotative	_	261	discourse	_	_
 263	ina	ina	ADP	PRP	_	264	case	_	_
 264	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	261	dep	_	_
-265	adannu	adānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	261	dep	_	_
+265	adannu	adānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	264	conj	_	_
 266	ana	ana	ADP	PRP	_	267	case	_	_
-267	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+267	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	261	dep	_	_
 268	x	x	X	X	_	_	_	_	_
 269	x	x	X	X	_	_	_	_	_
 270	ikšudamma	kašādu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -351,7 +351,7 @@
 351	x	x	X	X	_	_	_	_	_
 352	x	x	X	X	_	_	_	_	_
 353	x	x	X	X	_	_	_	_	_
-354	u	u	CONJ	CNJ	_	357	cc	_	_
+354	u	u	CONJ	CNJ	_	355	cc	_	_
 355	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	357	nsubj	_	_
 356	ina	ina	ADP	PRP	_	357	case	_	_
 357	Bit-Dakkuru	bit-dakkuru	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_

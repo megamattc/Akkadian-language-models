@@ -22,7 +22,7 @@
 
 1	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 2	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	1	det	_	_
-3	Guzummani	guzummani	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	amod	_	_
+3	Guzummani	guzummani	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_
 4	ultu	ištu	ADP	PRP	_	5	case	_	_
 5	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
 6	ana	ana	ADP	PRP	_	7	case	_	_
@@ -95,23 +95,22 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	Bit-Yakini	bit-yakini	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	lā	lā	PART	NEG	_	0	ROOT	_	_
+1	lā	lā	PART	PART	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-
-1	kî	kī	SCONJ	SBJ	_	6	mark	_	_
-2	adi	adi	SCONJ	SBJ	_	6	mark	_	_
-3	lā	lā	PART	NEG	_	4	advmod	_	_
-4	ṭēma	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
-5	annâ	annû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	4	det	_	_
-6	ašemmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+5	kî	kī	SCONJ	SBJ	_	10	mark	_	_
+6	adi	adi	SCONJ	SBJ	_	10	mark	_	_
+7	lā	lā	PART	NEG	_	8	advmod	_	_
+8	ṭēma	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+9	annâ	annû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	8	det	_	_
+10	ašemmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -206,9 +205,10 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	2	obj	_	_
-2	ašmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	4	nsubj	_	_
-3	02	02	NUM	NUM	_	4	nummod	_	_
-4	ṣābē	ṣābu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ašmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	02	02	NUM	NUM	_	2	nummod	_	_
+2	ṣābē	ṣābu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

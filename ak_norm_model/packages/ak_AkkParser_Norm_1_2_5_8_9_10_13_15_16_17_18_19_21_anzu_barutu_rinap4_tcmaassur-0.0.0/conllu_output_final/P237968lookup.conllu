@@ -1,7 +1,7 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	dep	_	_
 3	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
-4	ardēka	ardu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	2	nsubj	_	_
+4	ardēka	ardu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 5	Nabu-šumu-lišir	nabu-šumu-lišir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 6	u	u	CONJ	CNJ	_	7	cc	_	_
 7	Aqar-Bel-lumur	aqar-bel-lumur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
@@ -13,7 +13,7 @@
 13	ummā	umma	PART	Quotative	_	15	discourse	_	_
 14	ana	ana	ADP	PRP	_	15	case	_	_
 15	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-16	bēlīniyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	_	_	_	_
+16	bēlīniyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	15	appos	_	_
 17	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 18	ana	ana	ADP	PRP	_	19	case	_	_
 19	bīrāti	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	17	nsubj	_	_
@@ -82,7 +82,7 @@
 82	x	x	X	X	_	_	_	_	_
 83	illaka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 84	enna	enna	ADV	AV	_	91	advmod	_	_
-85	hanṭiš	hamṭiš	ADV	AV	Case=Ter	91	advmod	_	_
+85	hanṭiš	hamṭiš	ADV	AV	_	91	advmod	_	_
 86	mār šiprāni	mār šiprāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	91	nsubj	_	_
 87	ša	ša	ADP	PRP	_	88	case	_	_
 88	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	86	nmod	_	_
@@ -94,14 +94,14 @@
 94	šarru	šarru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	96	obj	_	_
 95	bēlāni	bēlu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	94	appos	_	_
 96	nīmurma	amāru	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	93	conj	_	_
-97	nirhuṣ	rahāṣu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+97	nirhuṣ	rahāṣu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	96	conj	_	_
 98	x	x	X	X	_	_	_	_	_
 99	x	x	X	X	_	_	_	_	_
 100	x	x	X	X	_	_	_	_	_
-101	u	u	CONJ	CNJ	_	103	cc	_	_
+101	u	u	CONJ	CNJ	_	107	cc	_	_
 102	ina	ina	ADP	PRP	_	103	case	_	_
 103	ṣilli	ṣillu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	107	obl	_	_
 104	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	103	nmod	_	_
 105	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	104	appos	_	_
-106	libbāni	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	107	obj	_	_
+106	libbāni	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	107	nsubj	_	_
 107	liṭībannāšu	ṭâbu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	_	_	_	_

@@ -9,7 +9,7 @@
 6	lullik	alāku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
 
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-2	u	u	CONJ	CNJ	_	3	cc	_	_
+2	u	u	CONJ	CONJ	_	3	cc	_	_
 3	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
 5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	_
@@ -18,8 +18,8 @@
 
 1	ummā	umma	PART	Quotative	_	3	discourse	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
-3	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-4	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	3	nmod:poss	_	_
+3	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+4	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	3	nmod:poss	_	_
 
 1	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
@@ -29,7 +29,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -46,8 +46,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	04	04	NUM	NUM	_	2	nummod	_	_
-2	pišannī	pišannu	NOUN	N	Gender=Masc|Number=Plur	3	obl	_	_
-3	sissiktī	sissiktu	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+2	pišannī	pišannu	NOUN	N	Gender=Fem|Number=Plur	3	obl	_	_
+3	sissiktī	sissiktu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -84,7 +84,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Esaggil	esaggil	PROPN	TN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Esaggil	esaggil	PROPN	TN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
 3	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
 
@@ -103,8 +103,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
-
-1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	šulmu	šulmu	NOUN	N	Gender=Masc|Number=Sing	1	_	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

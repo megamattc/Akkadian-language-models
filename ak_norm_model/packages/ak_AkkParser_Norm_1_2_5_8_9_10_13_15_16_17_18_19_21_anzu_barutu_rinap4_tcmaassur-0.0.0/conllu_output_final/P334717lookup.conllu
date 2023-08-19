@@ -1,5 +1,5 @@
-1	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
-2	Naṣib-il	naṣib-il	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+1	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+2	Naṣib-il	naṣib-il	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	dinān	dinānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	iobj	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	nmod	_	_
@@ -8,9 +8,9 @@
 8	ana	ana	ADP	PRP	_	9	case	_	_
 9	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 10	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
-11	ša	ša	PRON	REL	_	16	obj	_	_
+11	ša	ša	PRON	REL	_	13	nsubj	_	_
 12	ina	ina	ADP	PRP	_	13	case	_	_
-13	mahrīya	mahru	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	16	obl	_	_
+13	mahrīya	mahru	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	16	obl	_	_
 14	ana	ana	ADP	PRP	_	15	case	_	_
 15	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	16	iobj	_	_
 16	altapra	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -33,7 +33,7 @@
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
-36	iltaprūnu	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
+36	iltaprūnu	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=No|VerbForm=Fin|VerbStem=G	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
@@ -83,12 +83,12 @@
 83	x	x	X	X	_	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
 85	x+x	x+x	X	X	_	_	_	_	_
-86	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-87	{1}{d}x-ŠEŠ-BA-ša₂	{1}{d}x-šeš-ba-ša₂	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+86	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+87	{1}{d}x-ŠEŠ-BA-ša₂	{1}{d}x-šeš-ba-ša₂	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	86	nmod	_	_
 88	ša-muhhi-āli	ša-muhhi-āli	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 89	ša	ša	ADP	PRP	_	90	case	_	_
 90	Kapar	kapar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	88	nmod	_	_
-91	o	o	X	X	_	97	advmod	_	_
+91	o	o	X	X	_	97	obj	_	_
 92	adi	adi	ADP	PRP	_	93	case	_	_
 93	ahhēšu	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	97	obl	_	_
 94	ana	ana	ADP	PRP	_	95	case	_	_
@@ -96,8 +96,8 @@
 96	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	95	nmod	_	_
 97	altapra	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 98	Nergal-eṭir	nergal-eṭir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	103	obj	_	_
-99	bēl āli	bēl āli	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	98	appos	_	_
+99	bēl āli	bēl āli	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	98	appos	_	_
 100	ša	ša	ADP	PRP	_	101	case	_	_
-101	Padani	padani	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	99	nmod	_	_
+101	Padani	padani	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	99	nmod	_	_
 102	ittīšu	itti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Sing|PresSuffPer=3	103	obl	_	_
 103	altaprakka	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_

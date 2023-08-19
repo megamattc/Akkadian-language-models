@@ -170,7 +170,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ēkânu	ēkânu	PRON	DET	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ēkânu	ēkânu	PRON	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -188,7 +188,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lušpur	šapāru	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
+1	lušpur	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=Š	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -207,7 +207,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	ušakli	kalû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+2	ušakli	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -261,7 +261,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šalmū	šalmu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	šalmū	šalmu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	itti	itti	ADP	PRP	_	0	ROOT	_	_
 
@@ -281,7 +281,7 @@
 
 1	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
-1	ṭūbi	ṭūbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ṭūbi	ṭūbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -297,7 +297,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iṭrû	ṭerû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iṭrû	ṭerû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	Hanana	hanana	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -328,7 +328,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	allika	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	allika	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -362,9 +362,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	0	ROOT	_	_
-
-1	Hanana	hanana	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	umma	umma	PART	Quotative	_	2	discourse	_	_
+2	Hanana	hanana	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -433,9 +432,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šâšu	šâšu	PRON	IP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+1	šâšu	šâšu	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=4	0	ROOT	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
-3	nišīšu	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
+3	nišīšu	nišu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -449,7 +448,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ultēbilāma	wabālu	VERB	V	_	0	ROOT	_	_
+1	ultēbilāma	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -495,17 +494,17 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	pān	pānu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	iobj	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
-4	Hanana	hanana	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	Hanana	hanana	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	it-x	it-x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	Belet-taddina	belet-taddina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	Hanana	hanana	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+2	Hanana	hanana	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -513,8 +512,7 @@
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	annūti	annû	DET	DP	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+3	annūti	annû	DET	DP	Case=Gen|Gender=Masc|Number=Plur	2	det	_	_
 
 1	la	la	ADP	PRP	_	0	ROOT	_	_
 
@@ -528,7 +526,7 @@
 
 1	x-ti	x-ti	X	X	_	0	ROOT	_	_
 
-1	Belet-taddina	belet-taddina	PROPN	SN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Belet-taddina	belet-taddina	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -547,8 +545,7 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
-
-1	annūti	annû	DET	DP	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+4	annūti	annû	DET	DP	Case=Gen|Gender=Masc|Number=Plur	3	det	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -556,7 +553,7 @@
 
 1	x-a	x-a	X	X	_	0	ROOT	_	_
 
-1	šittūti	šittu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
+1	šittūti	šittu	NOUN	N	Gender=Fem|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -564,7 +561,7 @@
 
 1	x-ri	x-ri	X	X	_	0	ROOT	_	_
 
-1	Belet-taddin	belet-taddin	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Belet-taddin	belet-taddin	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -600,10 +597,10 @@
 2	02	02	NUM	NUM	_	3	nummod	_	_
 3	mārēšu	māru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
 4	02	02	NUM	NUM	_	5	nummod	_	_
-5	mārātīšu	mārtu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
+5	mārātīšu	mārtu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	conj	_	_
 
 1	šitta	šina	NUM	NUM	Gender=Fem	2	nummod	_	_
-2	amātīšu	awātu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+2	amātīšu	awātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

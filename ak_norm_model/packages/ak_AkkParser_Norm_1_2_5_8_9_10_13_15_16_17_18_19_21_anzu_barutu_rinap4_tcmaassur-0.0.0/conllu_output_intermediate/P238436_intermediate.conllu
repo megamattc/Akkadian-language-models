@@ -1,19 +1,17 @@
 1	aššu	aššu	ADP	PRP	_	2	case	_	_
 2	{1}x-bu-du	{1}x-bu-du	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ša	ša	PRON	REL	_	2	dep	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
+1	o	o	X	X	_	5	advmod	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	sukkalli	šukkallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	iobj	_	_
+4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+5	ašpura	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	o	o	X	X	_	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	sukkalli	šukkallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	iobj	_	_
-3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
-4	ašpura	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-5	mār	māru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	7	nsubj	_	_
-6	Barsip	barsip	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	_
-7	zekkû	zakkû	NOUN	N	_	4	ccomp	_	_
-
-1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+1	mār	māru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	Barsip	barsip	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	_
+3	zekkû	zakkû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
+4	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	cop	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -44,11 +42,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kî	kī	ADP	PRP	_	2	case	_	_
-2	pāni	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
+1	kî	kī	SCONJ	SBJ	_	5	mark	_	_
+2	pāni	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	iobj	_	_
 3	sukkalli	šukkallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	2	nmod	_	_
 4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-5	mahri	mahru	NOUN	N	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	2	nmod	_	_
+5	mahri	mahru	NOUN	N	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	9	advcl	_	_
 6	kî	kī	ADP	PRP	_	7	case	_	_
 7	ša	ša	PRON	REL	_	8	obj	_	_
 8	ileʾʾû	leʾû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	9	obl	_	_

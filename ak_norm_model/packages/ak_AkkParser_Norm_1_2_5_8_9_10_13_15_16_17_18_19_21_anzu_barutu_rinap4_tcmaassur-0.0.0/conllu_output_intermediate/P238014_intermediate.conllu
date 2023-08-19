@@ -187,12 +187,12 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	mušarkisu	mušarkisu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	ša	ša	PRON	REL	_	5	obj	_	_
+2	ša	ša	PRON	REL	_	5	obl	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-5	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
+5	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	1	acl	_	_
 6	umma	umma	PART	Quotative	_	11	discourse	_	_
-7	minû	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+7	minû	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	8	det	_	_
 8	hīṭu	hīṭu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
 9	la-pān	lapān	ADP	PRP	_	10	case	_	_
 10	ahhēšu	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	11	obl	_	_
@@ -252,8 +252,7 @@
 20	šību	šību	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	14	ccomp	_	_
 21	u	u	CONJ	CNJ	_	22	cc	_	_
 22	rīmu	rīmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	20	conj	_	_
-
-1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+23	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	cop	_	_
 
 1	šu	šu	X	X	_	0	ROOT	_	_
 
@@ -382,8 +381,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	2	cc	_	_
-2	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	0	ROOT	_	_
+1	u	u	CONJ	CONJ	_	0	ROOT	_	_
+
+1	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -445,10 +445,9 @@
 3	umma	umma	PART	Quotative	_	2	discourse	_	_
 4	ina	ina	ADP	PRP	_	5	case	_	_
 5	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	dep	_	_
-6	adannu	adānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	dep	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+6	adannu	adānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+7	ana	ana	ADP	PRP	_	8	case	_	_
+8	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	dep	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -605,7 +604,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	4	cc	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
 2	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
 4	Bit-Dakkuru	bit-dakkuru	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_

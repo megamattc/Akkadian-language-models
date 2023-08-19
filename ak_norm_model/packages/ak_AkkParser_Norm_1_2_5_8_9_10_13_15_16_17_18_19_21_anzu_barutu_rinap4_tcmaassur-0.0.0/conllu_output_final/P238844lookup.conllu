@@ -64,7 +64,7 @@
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x-ni	x-ni	X	X	_	_	_	_	_
-67	ultenni	šanû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+67	ultenni	šanû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
@@ -82,7 +82,7 @@
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
 84	x-na	x-na	X	X	_	_	_	_	_
-85	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+85	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 86	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	85	nmod	_	_
 87	x	x	X	X	_	_	_	_	_
 88	x-na	x-na	X	X	_	_	_	_	_
@@ -93,7 +93,7 @@
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
-96	išdīya	išdu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+96	išdīya	išdu	NOUN	N	PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1	_	_	_	_
 97	ana	ana	ADP	PRP	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
 99	x	x	X	X	_	_	_	_	_
@@ -120,10 +120,10 @@
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
 122	umma	umma	PART	Quotative	_	123	discourse	_	_
-123	ardu	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+123	ardu	ardu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 124	ša	ša	ADP	PRP	_	125	case	_	_
 125	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	123	nmod	_	_
-126	anākūma	anāku	PRON	IP	Case=Nom|Focus=Yes|Gender=Com|Number=Sing|Person=1	_	_	_	_
+126	anākūma	anāku	PRON	IP	Case=Nom|Focus=Yes|Gender=Com|Number=Sing|Person=1	123	cop	_	_
 127	x	x	X	X	_	_	_	_	_
 128	x	x	X	X	_	_	_	_	_
 129	x	x	X	X	_	_	_	_	_
@@ -133,7 +133,7 @@
 133	x	x	X	X	_	_	_	_	_
 134	kî	kī	ADP	PRP	_	135	case	_	_
 135	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-136	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+136	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	135	det	_	_
 137	x	x	X	X	_	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
 139	x	x	X	X	_	_	_	_	_

@@ -4,15 +4,15 @@
 4	x	x	X	X	_	_	_	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 6	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
-7	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+7	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
 8	x	x	X	X	_	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
-10	rab kiṣir	rab kiṣir	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+10	rab kiṣir	rab kiṣir	NOUN	N	Gender=Masc	_	_	_	_
 11	ummā	umma	PART	Quotative	_	13	discourse	_	_
 12	ana	ana	ADP	PRP	_	13	case	_	_
 13	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 14	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	13	appos	_	_
-15	ša	ša	PRON	REL	_	18	obj	_	_
+15	ša	ša	PRON	REL	_	18	obl	_	_
 16	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 17	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	16	appos	_	_
 18	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -32,7 +32,7 @@
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
-35	ana	ana	ADP	PRP	_	36	case	_	_
+35	ana	ana	ADP	PRP	_	_	_	_	_
 36	sik-x	sik-x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
@@ -41,7 +41,7 @@
 41	x	x	X	X	_	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
-44	tušella	elû	VERB	V	Gender=Fem|Number=Sing	_	_	_	_
+44	tušella	elû	VERB	V	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
@@ -186,7 +186,7 @@
 186	x	x	X	X	_	_	_	_	_
 187	kî	kī	ADP	PRP	_	188	case	_	_
 188	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-189	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+189	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	188	det	_	_
 190	x	x	X	X	_	_	_	_	_
 191	x	x	X	X	_	_	_	_	_
 192	x	x	X	X	_	_	_	_	_
@@ -222,8 +222,8 @@
 222	x	x	X	X	_	_	_	_	_
 223	x	x	X	X	_	_	_	_	_
 224	x	x	X	X	_	_	_	_	_
-225	māti	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-226	rabīti	rabû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	225	nmod	_	_
+225	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+226	rabīti	rabû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	225	amod	_	_
 227	ana	ana	ADP	PRP	_	_	_	_	_
 228	x	x	X	X	_	_	_	_	_
 229	x	x	X	X	_	_	_	_	_
