@@ -13,9 +13,10 @@
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
-3	iqtabû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	iqtabû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	umma	umma	PART	Quotative	_	3	discourse	_	_
-5	mar-Sinnaya	mar-sinnaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+
+1	mar-Sinnaya	mar-sinnaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -26,7 +27,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	3	obl	_	_
+2	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	3	iobj	_	_
 3	innamdinū	nadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -143,7 +144,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mamma	mamman	PRON	XP	_	5	obj	_	_
+1	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	5	iobj	_	_
 4	ul	ul	PART	NEG	_	5	advmod	_	_

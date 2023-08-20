@@ -86,19 +86,19 @@
 
 1	x-ma	x-ma	X	X	_	0	ROOT	_	_
 
-1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	palhānu	palhu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Plur|Person=1|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
-1	o	o	X	X	_	6	advmod	_	_
+1	o	o	X	X	_	6	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	iobj	_	_
+3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	nsubj	_	_
 6	liqbīma	qabû	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 7	kî	kī	SCONJ	SBJ	_	10	mark	_	_
 8	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
 9	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
-10	mahru	mahru	ADJ	AJ	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	6	ccomp	_	_
+10	mahru	mahru	ADJ	AJ	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	6	dep	_	_
 
 1	emūqī	emūqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
 
@@ -111,7 +111,7 @@
 1	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nsubj	_	_
 2	īdī	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	kî	kī	ADP	PRP	_	0	ROOT	_	_
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
@@ -119,7 +119,7 @@
 
 1	x-ma-da-a-ni	x-ma-da-a-ni	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	3	obj	_	_
+1	ša	ša	PRON	REL	_	3	obl	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	iddina	nadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 

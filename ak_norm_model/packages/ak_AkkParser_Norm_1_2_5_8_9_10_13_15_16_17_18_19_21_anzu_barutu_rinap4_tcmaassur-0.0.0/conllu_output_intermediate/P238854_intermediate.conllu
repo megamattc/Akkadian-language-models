@@ -18,7 +18,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Zabadu	zabadu	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Zabadu	zabadu	PROPN	GN	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -55,7 +55,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	ṭuʾāna	tumânu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+2	ṭuʾāna	tumânu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -69,7 +69,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	habtūtu	habtu	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
+1	habtūtu	habtu	ADJ	AJ	Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 2	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -87,7 +87,7 @@
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
+2	mātāti	mātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Plur	0	ROOT	_	_
 
 1	ta-x+x	ta-x+x	X	X	_	0	ROOT	_	_
 
@@ -119,8 +119,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Tilmun	tilmun	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	{KUR}x+x	{kur}x+x	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+1	Tilmun	tilmun	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	{KUR}x+x	{kur}x+x	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -190,7 +190,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	pīhat	pīhātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	pīhat	pīhātu	NOUN	N	_	0	ROOT	_	_
 2	{URU}x+x	{uru}x+x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -226,8 +226,7 @@
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
 2	bītīšu	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
-
-1	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+3	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -246,10 +245,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	arki	arki	ADP	PRP	_	0	ROOT	_	_
-
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	ilqû	leqû	VERB	V	_	0	ROOT	_	_
+2	ša	ša	PRON	REL	_	3	obj	_	_
+3	ilqû	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	1	acl	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -259,9 +256,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+1	mār šarri	mār šarri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -304,7 +300,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kî	kī	ADP	ADP	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

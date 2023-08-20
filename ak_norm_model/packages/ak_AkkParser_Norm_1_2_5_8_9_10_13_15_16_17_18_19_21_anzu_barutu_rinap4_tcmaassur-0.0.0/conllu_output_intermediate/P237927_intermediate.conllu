@@ -15,7 +15,7 @@
 3	ahūka	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	appos	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	kâšu	kâšu	PRON	IP	Case=Gen|Gender=Masc|Number=Sing|Person=2	4	nsubj	_	_
+2	kâšu	kâšu	PRON	IP	Case=Gen|Gender=Masc|Number=Sing|Person=2	4	obl	_	_
 3	lū	lū	PART	PART	_	4	advmod	_	_
 4	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -90,7 +90,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	akanna	akanna	ADV	AV	_	0	ROOT	_	_
+2	akanna	akanna	ADV	AV	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -199,8 +199,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	qinnašu	qinnu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	obj	_	_
-2	imēra	imēru	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	qinnašu	qinnu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+
+1	imēra	imēru	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -215,7 +216,8 @@
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	hadāta	hadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
-1	x	x	X	X	_	2	obj	_	_
-2	šupramma	šapāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	0	ROOT	_	_
-3	abuk	abāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	2	conj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	šupramma	šapāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	0	ROOT	_	_
+2	abuk	abāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	1	conj	_	_
 

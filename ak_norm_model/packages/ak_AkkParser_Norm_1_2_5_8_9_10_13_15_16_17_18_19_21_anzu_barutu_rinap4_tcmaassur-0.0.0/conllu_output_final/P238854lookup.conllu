@@ -8,7 +8,7 @@
 8	x	x	X	X	_	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
 10	x	x	X	X	_	_	_	_	_
-11	Zabadu	zabadu	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+11	Zabadu	zabadu	PROPN	GN	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
@@ -27,14 +27,14 @@
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
-30	ṭuʾāna	tumânu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
+30	ṭuʾāna	tumânu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 31	x	x	X	X	_	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
-37	habtūtu	habtu	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
+37	habtūtu	habtu	ADJ	AJ	Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
 38	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
@@ -44,7 +44,7 @@
 44	x	x	X	X	_	_	_	_	_
 45	ša	ša	PRON	REL	_	_	_	_	_
 46	ana	ana	ADP	PRP	_	47	case	_	_
-47	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
+47	mātāti	mātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Plur	_	_	_	_
 48	ta-x+x	ta-x+x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
@@ -60,8 +60,8 @@
 60	x	x	X	X	_	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
-63	Tilmun	tilmun	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-64	{KUR}x+x	{kur}x+x	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	63	conj	_	_
+63	Tilmun	tilmun	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+64	{KUR}x+x	{kur}x+x	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	63	conj	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
@@ -96,7 +96,7 @@
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
-99	pīhat	pīhātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	_	_	_	_
+99	pīhat	pīhātu	NOUN	N	_	_	_	_	_
 100	{URU}x+x	{uru}x+x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	99	nmod	_	_
 101	x	x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
@@ -116,7 +116,7 @@
 116	x	x	X	X	_	_	_	_	_
 117	u	u	CONJ	CNJ	_	118	cc	_	_
 118	bītīšu	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
-119	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+119	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	118	appos	_	_
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
 122	x	x	X	X	_	_	_	_	_
@@ -126,14 +126,14 @@
 126	x	x	X	X	_	_	_	_	_
 127	x	x	X	X	_	_	_	_	_
 128	arki	arki	ADP	PRP	_	_	_	_	_
-129	ša	ša	PRON	REL	_	_	_	_	_
-130	ilqû	leqû	VERB	V	_	_	_	_	_
+129	ša	ša	PRON	REL	_	130	obj	_	_
+130	ilqû	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	128	acl	_	_
 131	x	x	X	X	_	_	_	_	_
 132	x	x	X	X	_	_	_	_	_
 133	x	x	X	X	_	_	_	_	_
 134	x	x	X	X	_	_	_	_	_
-135	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-136	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+135	mār šarri	mār šarri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+136	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	135	appos	_	_
 137	x	x	X	X	_	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
 139	u	u	CONJ	CNJ	_	140	cc	_	_
@@ -155,7 +155,7 @@
 155	x	x	X	X	_	_	_	_	_
 156	x	x	X	X	_	_	_	_	_
 157	x	x	X	X	_	_	_	_	_
-158	kî	kī	ADP	ADP	_	_	_	_	_
+158	kî	kī	ADP	PRP	_	_	_	_	_
 159	x	x	X	X	_	_	_	_	_
 160	x	x	X	X	_	_	_	_	_
 161	x	x	X	X	_	_	_	_	_
