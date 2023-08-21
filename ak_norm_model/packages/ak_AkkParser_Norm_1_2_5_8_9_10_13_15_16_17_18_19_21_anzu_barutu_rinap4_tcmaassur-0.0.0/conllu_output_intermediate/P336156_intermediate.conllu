@@ -8,12 +8,11 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	ikammiš	kamāsu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
-3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	amrāku	amru	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	ikammiš	kamāsu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	iobj	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	amrāku	amru	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	1	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -26,7 +25,8 @@
 1	ṭābtāšu	ṭābtu	NOUN	N	_	3	dep	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
-4	u	u	CONJ	CNJ	_	3	cc	_	_
+
+1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
@@ -49,7 +49,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ikpupma	kapāpu	VERB	V	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ikpupma	kapāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -70,8 +70,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	adbubu	dabābu	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	obl	_	_
-3	iltelim	šalāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	adbubu	dabābu	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	iltelim	šalāmu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Gtn	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -80,7 +80,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	nidgulu	dagālu	VERB	V	Gender=Fem|Number=Sing	0	ROOT	_	_
+2	nidgulu	dagālu	VERB	V	_	0	ROOT	_	_
 
 1	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -150,7 +150,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	riksānīma	riksu	NOUN	N	_	0	ROOT	_	_
+1	riksānīma	riksu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -165,7 +165,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	ušallimu	šalāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+2	ušallimu	šalāmu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -179,8 +179,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	īterbū	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	īterbū	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -196,7 +197,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iptašhū	pašāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iptašhū	pašāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -213,7 +214,7 @@
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	nišmēma	šemû	VERB	V	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	nišmēma	šemû	VERB	V	Dialect=NB|Focus=Yes|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -229,7 +230,7 @@
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
-3	niddin	nadānu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	niddin	nadānu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -249,7 +250,7 @@
 
 1	x-šu₂	x-šu₂	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	0	ROOT	_	_
+1	u	u	CONJ	CONJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -7,7 +7,7 @@
 7	ša	ša	ADP	PRP	_	8	case	_	_
 8	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	8	appos	_	_
-10	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	Bel	bel	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 11	u	u	CONJ	CONJ	_	12	cc	_	_
 12	Nabu	nabu	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
 13	uṣalli	ṣullû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
@@ -15,7 +15,7 @@
 15	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	14	appos	_	_
 16	maʾdiš	mādiš	ADV	AV	_	18	advmod	_	_
 17	lū	lū	PART	PART	_	18	advmod	_	_
-18	ham	hamû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+18	ham	hamû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 19	ana	ana	ADP	PRP	_	20	case	_	_
 20	Esaggil	esaggil	PROPN	TN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 21	u	u	CONJ	CNJ	_	22	cc	_	_
@@ -25,14 +25,14 @@
 25	x	x	X	X	_	_	_	_	_
 26	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 27	u	u	CONJ	CNJ	_	28	cc	_	_
-28	banû	banû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	26	conj	_	_
+28	banû	banû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	26	conj	_	_
 29	x	x	X	X	_	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
 31	tazzimtu	tazzimtu	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	x-MEŠ-šu₂	x-meš-šu₂	X	X	_	_	_	_	_
-35	alpa	alpu	NOUN	N	_	_	_	_	_
+35	alpa	alpu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 36	ana	ana	ADP	PRP	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
@@ -57,7 +57,7 @@
 57	x	x	X	X	_	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
-60	eqlētišunu	eqlu	NOUN	N	PrepSuffGen=Masc|PrepSuffNum=Plur|PresSuffPer=3	_	_	_	_
+60	eqlētišunu	eqlu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
@@ -77,7 +77,7 @@
 77	x	x	X	X	_	_	_	_	_
 78	x	x	X	X	_	_	_	_	_
 79	x	x	X	X	_	_	_	_	_
-80	iqbakka	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_
+80	iqbakka	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
@@ -108,7 +108,7 @@
 108	x	x	X	X	_	_	_	_	_
 109	x	x	X	X	_	_	_	_	_
 110	x-e	x-e	X	X	_	_	_	_	_
-111	amat	awātu	NOUN	N	_	_	_	_	_
+111	amat	awātu	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
 112	x	x	X	X	_	_	_	_	_
 113	x	x	X	X	_	_	_	_	_
 114	x	x	X	X	_	_	_	_	_
@@ -123,7 +123,7 @@
 123	x	x	X	X	_	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
 125	x	x	X	X	_	_	_	_	_
-126	u	u	CONJ	CONJ	_	_	_	_	_
+126	u	u	CONJ	CONJ	_	127	cc	_	_
 127	šiprēti	šipirtu	NOUN	N	Gender=Fem|Number=Plur	_	_	_	_
 128	x	x	X	X	_	_	_	_	_
 129	x	x	X	X	_	_	_	_	_
@@ -132,7 +132,7 @@
 132	x	x	X	X	_	_	_	_	_
 133	x	x	X	X	_	_	_	_	_
 134	dibbī	dibbu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
-135	ša	ša	PRON	REL	_	134	dep	_	_
+135	ša	ša	PRON	REL	_	_	_	_	_
 136	ina	ina	ADP	PRP	_	_	_	_	_
 137	x	x	X	X	_	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
@@ -140,7 +140,7 @@
 140	x	x	X	X	_	_	_	_	_
 141	x	x	X	X	_	_	_	_	_
 142	x	x	X	X	_	_	_	_	_
-143	lihruṣamma	harāṣu	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
+143	lihruṣamma	harāṣu	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
 144	x	x	X	X	_	_	_	_	_
 145	x	x	X	X	_	_	_	_	_
 146	x	x	X	X	_	_	_	_	_

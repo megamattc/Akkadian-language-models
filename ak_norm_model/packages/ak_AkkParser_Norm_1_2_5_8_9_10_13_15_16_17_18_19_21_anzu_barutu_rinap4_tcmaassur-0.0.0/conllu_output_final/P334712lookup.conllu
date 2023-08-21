@@ -29,7 +29,7 @@
 29	x	x	X	X	_	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
 31	x	x	X	X	_	_	_	_	_
-32	kî	kī	ADP	PRP	_	_	_	_	_
+32	kî	kī	ADP	ADP	_	_	_	_	_
 33	x+x	x+x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
@@ -38,7 +38,7 @@
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
-41	ultēšibū	ašābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+41	ultēšibū	ašābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Š	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -63,11 +63,11 @@
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	nišī	nišu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	66	obj	_	_
-66	iddūk	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+66	iddūk	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	69	advcl	_	_
 67	u	u	CONJ	CNJ	_	69	cc	_	_
 68	bītātišunu	bītu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	69	obj	_	_
-69	ihtepe	hepû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	66	conj	_	_
-70	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
+69	ihtepe	hepû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+70	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	69	dep	_	_
 71	kî	kī	ADP	PRP	_	_	_	_	_
 72	x	x	X	X	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
@@ -91,7 +91,7 @@
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
-94	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	95	nsubj	_	_
+94	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	95	obl	_	_
 95	alkā	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	_	_	_	_
 96	x+x	x+x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
@@ -100,7 +100,7 @@
 100	x	x	X	X	_	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
-103	erēši	erēšu	VERB	V	_	_	_	_	_
+103	erēši	erēšu	VERB	V	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 104	x	x	X	X	_	_	_	_	_
 105	x	x	X	X	_	_	_	_	_
 106	x	x	X	X	_	_	_	_	_
@@ -120,7 +120,7 @@
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
 122	x	x	X	X	_	_	_	_	_
-123	inniṭir	eṭēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	_	_	_	_
+123	inniṭir	eṭēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
 125	x	x	X	X	_	_	_	_	_
 126	x	x	X	X	_	_	_	_	_
@@ -129,7 +129,7 @@
 129	x	x	X	X	_	_	_	_	_
 130	x	x	X	X	_	_	_	_	_
 131	x	x	X	X	_	_	_	_	_
-132	u	u	CONJ	CONJ	_	_	_	_	_
+132	u	u	CONJ	CONJ	_	133	cc	_	_
 133	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 134	x	x	X	X	_	_	_	_	_
 135	x	x	X	X	_	_	_	_	_

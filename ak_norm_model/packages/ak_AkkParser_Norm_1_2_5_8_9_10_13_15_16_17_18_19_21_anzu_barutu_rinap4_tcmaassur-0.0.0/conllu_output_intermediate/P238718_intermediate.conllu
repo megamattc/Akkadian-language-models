@@ -1,10 +1,10 @@
-1	šulum	šulmu	NOUN	N	Gender=Masc|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	8	obj	_	_
+1	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	obj	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
 3	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	1	conj	_	_
 4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
 6	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	4	nmod	_	_
-7	hanṭiš	hamṭiš	ADV	AV	Case=Ter	8	advmod	_	_
+7	hanṭiš	hamṭiš	ADV	AV	_	8	advmod	_	_
 8	lišpurannāšu	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	0	ROOT	_	_
 
 1	adû	adû	ADV	AV	_	7	advmod	_	_
@@ -14,22 +14,24 @@
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	māšarti	māšartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
 7	nillaka	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-8	patar	patru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	7	conj	_	_
-9	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	8	nmod	_	_
-10	ša	ša	PRON	REL	_	13	obj	_	_
-11	ana	ana	ADP	PRP	_	12	case	_	_
-12	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	13	iobj	_	_
-13	aqbû	qabû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	8	acl	_	_
-14	u	u	CONJ	CNJ	_	16	cc	_	_
-15	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	16	nsubj	_	_
-16	iqbâ	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	13	conj	_	_
-17	umma	umma	PART	Quotative	_	18	discourse	_	_
-18	ippušū	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	7	conj	_	_
-19	patar	patru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	18	obj	_	_
-20	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	19	nmod:poss	_	_
-21	babbanû	babbanû	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	20	conj	_	_
+
+1	patar	patru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
+3	ša	ša	PRON	REL	_	6	obj	_	_
+4	ana	ana	ADP	PRP	_	5	case	_	_
+5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	iobj	_	_
+6	aqbû	qabû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	2	acl	_	_
+7	u	u	CONJ	CNJ	_	9	cc	_	_
+8	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	nsubj	_	_
+9	iqbâ	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	1	conj	_	_
+10	umma	umma	PART	Quotative	_	11	discourse	_	_
+11	ippušū	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	9	ccomp	_	_
+
+1	patar	patru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
+3	babbanû	babbanû	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
 
 1	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nsubj	_	_
-2	līpušma	epēšu	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=N	0	ROOT	_	_
-3	liklâ	kalû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	2	conj	_	_
+2	līpušma	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=D	0	ROOT	_	_
+3	liklâ	kalû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	2	conj	_	_
 

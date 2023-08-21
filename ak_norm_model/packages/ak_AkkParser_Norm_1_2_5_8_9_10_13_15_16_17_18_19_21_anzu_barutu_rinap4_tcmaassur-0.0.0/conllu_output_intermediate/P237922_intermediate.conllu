@@ -4,13 +4,12 @@
 4	Nergal-naṣir	nergal-naṣir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 5	ahīya	ahu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 
-1	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	yāši	yâšim	PRON	IP	Case=Gen|Gender=Com|Number=Sing|Person=1	1	nsubj	_	_
-
-1	lū	lū	PART	PART	_	2	advmod	_	_
-2	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	0	ROOT	_	_
-3	ana	ana	ADP	PRP	_	4	case	_	_
-4	ahīya	ahu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nsubj	_	_
+1	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	yāši	yâšim	PRON	IP	Case=Gen|Gender=Com|Number=Sing|Person=1	1	nmod	_	_
+3	lū	lū	PART	PART	_	4	advmod	_	_
+4	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	0	ROOT	_	_
+5	ana	ana	ADP	PRP	_	6	case	_	_
+6	ahīya	ahu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	nsubj	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	ašmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
@@ -46,19 +45,19 @@
 1	šulumgu	šulmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	obj	_	_
 2	hussamma	hasāsu	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	0	ROOT	_	_
 3	šupur	šapāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	2	conj	_	_
-4	pel	pelû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	13	nsubj	_	_
-5	lurmi	lurmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	nmod:poss	_	_
-6	ša	ša	PRON	REL	_	8	nsubj	_	_
-7	ahūya	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	8	nsubj	_	_
-8	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	4	acl	_	_
-9	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-10	u	u	CONJ	CONJ	_	11	cc	_	_
-11	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
-12	lū	lū	PART	PART	_	13	advmod	_	_
-13	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	_	_
 
-1	kî	kī	SCONJ	SBJ	_	4	mark	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	Nippur	nippur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
-4	ibaššû	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	pel	pelû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	10	dep	_	_
+2	lurmi	lurmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod:poss	_	_
+3	ša	ša	PRON	REL	_	5	obj	_	_
+4	ahūya	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	nsubj	_	_
+5	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
+6	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	u	u	CONJ	CONJ	_	8	cc	_	_
+8	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+9	lū	lū	PART	PART	_	10	advmod	_	_
+10	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+11	kî	kī	SCONJ	SBJ	_	14	mark	_	_
+12	ina	ina	ADP	PRP	_	13	case	_	_
+13	Nippur	nippur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+14	ibaššû	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	10	ccomp	_	_
 

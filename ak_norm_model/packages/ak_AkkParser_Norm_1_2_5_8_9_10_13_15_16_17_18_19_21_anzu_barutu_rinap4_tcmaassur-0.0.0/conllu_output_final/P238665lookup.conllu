@@ -27,11 +27,11 @@
 27	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
-30	bīti	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	37	obj	_	_
+30	bīti	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	37	dep	_	_
 31	ša	ša	ADP	PRP	_	32	case	_	_
 32	māhāzu	māhāzu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
 33	ana	ana	ADP	PRP	_	34	case	_	_
-34	šulmu	šulmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	30	dep	_	_
+34	šulmu	šulmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	37	iobj	_	_
 35	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
 36	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	35	appos	_	_
 37	lirbi	rabû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
@@ -39,15 +39,15 @@
 39	pî	pû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	42	obl	_	_
 40	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
 41	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	40	appos	_	_
-42	altemu	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	37	conj	_	_
+42	altemu	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 43	umma	umma	PART	Quotative	_	45	discourse	_	_
 44	lū	lū	PART	PART	_	45	advmod	_	_
-45	hamātunu	hamû	ADJ	AJ	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	42	ccomp	_	_
+45	hamātunu	hamû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=G	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
 49	bēl	bēlu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-50	za-ka	za-ka	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	49	appos	_	_
+50	za-ka	za-ka	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
@@ -56,7 +56,7 @@
 56	x	x	X	X	_	_	_	_	_
 57	x	x	X	X	_	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
-59	kî	kī	ADP	PRP	_	_	_	_	_
+59	kî	kī	ADP	ADP	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
@@ -82,7 +82,7 @@
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
-85	muškēn	muškēnu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
+85	muškēn	muškēnu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 86	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	85	nmod	_	_
 87	x	x	X	X	_	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
@@ -91,7 +91,7 @@
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	lū	lū	PART	PART	_	94	advmod	_	_
-94	hamātunu	hamû	ADJ	AJ	Gender=Masc|Number=Plur	_	_	_	_
+94	hamātunu	hamû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=G	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
@@ -119,7 +119,7 @@
 119	x	x	X	X	_	_	_	_	_
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
-122	kî	kī	ADP	PRP	_	_	_	_	_
+122	kî	kī	ADP	ADP	_	_	_	_	_
 123	x	x	X	X	_	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
 125	x	x	X	X	_	_	_	_	_
@@ -149,7 +149,7 @@
 149	x	x	X	X	_	_	_	_	_
 150	x	x	X	X	_	_	_	_	_
 151	x	x	X	X	_	_	_	_	_
-152	uzzakkannāšu	zakû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=D	_	_	_	_
+152	uzzakkannāšu	zakû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	_	_	_	_
 153	x	x	X	X	_	_	_	_	_
 154	x	x	X	X	_	_	_	_	_
 155	x	x	X	X	_	_	_	_	_
@@ -170,7 +170,7 @@
 170	x	x	X	X	_	_	_	_	_
 171	x	x	X	X	_	_	_	_	_
 172	x	x	X	X	_	_	_	_	_
-173	indahassu	mahāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+173	indahassu	mahāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 174	x	x	X	X	_	_	_	_	_
 175	x	x	X	X	_	_	_	_	_
 176	x	x	X	X	_	_	_	_	_
@@ -180,7 +180,7 @@
 180	x	x	X	X	_	_	_	_	_
 181	x	x	X	X	_	_	_	_	_
 182	x	x	X	X	_	_	_	_	_
-183	ilammûniš	lawû	VERB	V	_	_	_	_	_
+183	ilammûniš	lawû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 184	x	x	X	X	_	_	_	_	_
 185	x	x	X	X	_	_	_	_	_
 186	x	x	X	X	_	_	_	_	_

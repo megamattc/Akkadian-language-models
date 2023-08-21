@@ -21,13 +21,13 @@
 21	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	22	iobj	_	_
 22	ašpuru	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 23	adû	adû	ADV	AV	_	_	_	_	_
-24	ebūru	ebūru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+24	ebūru	ebūru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	23	dep	_	_
 25	ša	ša	ADP	PRP	_	26	case	_	_
 26	Bit-Yakini	bit-yakini	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
 27	ša	ša	ADP	PRP	_	28	case	_	_
-28	{URU}tar-ba-x	{uru}tar-ba-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
-29	x	x	X	X	_	_	_	_	_
-30	ebūru	ebūru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+28	{URU}tar-ba-x	{uru}tar-ba-x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	26	conj	_	_
+29	x	x	X	X	_	30	nsubj	_	_
+30	ebūru	ebūru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 31	ša	ša	ADP	PRP	_	32	case	_	_
 32	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
 33	x	x	X	X	_	_	_	_	_
@@ -69,7 +69,7 @@
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
-72	ušeṣṣû	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	_	_	_	_
+72	ušeṣṣû	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=Š	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
 75	x	x	X	X	_	_	_	_	_
@@ -77,7 +77,7 @@
 77	x	x	X	X	_	_	_	_	_
 78	x	x	X	X	_	_	_	_	_
 79	x	x	X	X	_	_	_	_	_
-80	lizzizū	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+80	lizzizū	izuzzu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	{URU}KUR-BE	{uru}kur-be	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
@@ -87,16 +87,16 @@
 87	x	x	X	X	_	_	_	_	_
 88	ša	ša	ADP	PRP	_	89	case	_	_
 89	Zeriya	zeriya	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-90	{LU₂}x	{lu₂}x	NOUN	N	_	_	_	_	_
+90	{LU₂}x	{lu₂}x	NOUN	N	Gender=Masc	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
-93	idīšunu	idu	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_
+93	idīšunu	idu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
-98	rab kiṣir	rab kiṣir	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	100	obj	_	_
-99	iltēn	ištēn	NUM	NUM	_	100	obj	_	_
+98	rab kiṣir	rab kiṣir	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	100	obj	_	_
+99	iltēn	ištēn	NUM	NUM	_	98	nummod	_	_
 100	lišʾal	šâlu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 101	ana	ana	ADP	PRP	_	102	case	_	_
 102	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	104	obl	_	_
