@@ -280,6 +280,7 @@ exclusions = [
    "mār damqīya":[{ORTH:    "mār damqīya"}],
    "mār Babili":[{ORTH:    "mār Babili"}],
    "mutīr ṭēme":[{ORTH:    "mutīr ṭēme"}],
+   "mutīr ṭēmi":[{ORTH:    "mutīr ṭēmi"}],
    "mukīl rēš": [{ORTH: "mukīl rēš"}],
    "mukīl pāni": [{ORTH: "mukīl pāni"}],
    "mukīl appāni":[{ORTH:    "mukīl appāni"}],
