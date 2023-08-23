@@ -23,7 +23,7 @@
 23	umma	umma	PART	Quotative	_	29	discourse	_	_
 24	01	01	NUM	NUM	_	25	nummod	_	_
 25	līmu	līm	NUM	N	_	26	nummod	_	_
-26	ṣābē qalti	ṣābē qalti	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	29	obl	_	_
+26	ṣābē qalti	ṣābē qalti	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	29	obj	_	_
 27	ana	ana	ADP	PRP	_	28	case	_	_
 28	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	29	iobj	_	_
 29	lillikūnu	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	22	ccomp	_	_
@@ -32,12 +32,12 @@
 32	umma	umma	PART	Quotative	_	_	_	_	_
 33	adi	adi	ADP	PRP	_	34	case	_	_
 34	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-35	enna	enna	ADV	AV	_	_	_	_	_
+35	enna	enna	ADV	AV	_	34	nmod	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x-e	x-e	X	X	_	_	_	_	_
 39	kî	kī	ADP	PRP	_	40	case	_	_
-40	ša	ša	PRON	REL	_	_	_	_	_
+40	ša	ša	ADP	PRP	_	41	case	_	_
 41	Bit-Dakkuru	bit-dakkuru	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
@@ -51,9 +51,9 @@
 51	u	u	CONJ	CNJ	_	54	cc	_	_
 52	20	20	NUM	NUM	_	53	nummod	_	_
 53	līmu	līm	NUM	N	_	54	nummod	_	_
-54	ṣābē qaltīšu	ṣābē qaltīšu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	50	conj	_	_
+54	ṣābē qaltīšu	ṣābē qaltīšu	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
 55	ina	ina	ADP	PRP	_	56	case	_	_
-56	gagimma	gagû	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	61	obl	_	_
+56	gagimma	gagû	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	_	_	_	_
 57	ana	ana	ADP	PRP	_	58	case	_	_
 58	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	61	obl	_	_
 59	puqqi	puqqu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=D	58	nmod	_	_
@@ -63,7 +63,7 @@
 63	x	x	X	X	_	_	_	_	_
 64	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	66	dep	_	_
 65	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	64	appos	_	_
-66	dibbīšunu	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	67	nsubj	_	_
+66	dibbīšunu	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	67	obj	_	_
 67	lūmassu	wussû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	_	_	_	_
 68	rāʾimu	rāʾimu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 69	ša	ša	ADP	PRP	_	70	case	_	_
@@ -89,7 +89,7 @@
 89	x	x	X	X	_	_	_	_	_
 90	ša	ša	ADP	PRP	_	91	case	_	_
 91	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-92	ul	ul	PART	NEG	_	_	_	_	_
+92	ul	ul	PART	NEG	_	93	advmod	_	_
 93	ta-ta-x	ta-ta-x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
@@ -203,7 +203,7 @@
 203	x	x	X	X	_	_	_	_	_
 204	x	x	X	X	_	_	_	_	_
 205	enna	enna	ADV	AV	_	210	advmod	_	_
-206	šulmu	šulmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	210	obj	_	_
+206	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	210	obj	_	_
 207	ša	ša	ADP	PRP	_	208	case	_	_
 208	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	206	nmod	_	_
 209	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	208	appos	_	_

@@ -7,7 +7,7 @@
 7	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 8	ana	ana	ADP	PRP	_	9	case	_	_
 9	mašenni	mašennu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
-10	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
+10	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	nmod	_	_
 11	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 12	ana	ana	ADP	PRP	_	13	case	_	_
 13	mašenni	mašennu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -17,7 +17,7 @@
 17	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 18	ša	ša	ADP	PRP	_	20	case	_	_
 19	lā	lā	PART	NEG	_	20	advmod	_	_
-20	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+20	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	nsubj	_	_
 21	šu-x	šu-x	X	X	_	_	_	_	_
 22	x-šu₂	x-šu₂	X	X	_	_	_	_	_
 23	u	u	CONJ	CNJ	_	25	cc	_	_
@@ -117,7 +117,7 @@
 117	bēlišunu	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	116	appos	_	_
 118	ana	ana	ADP	PRP	_	119	case	_	_
 119	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	121	obl	_	_
-120	dâkīya	dâku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1|VerbForm=Inf|VerbStem=G	119	nmod:poss	_	_
+120	dâkīya	dâku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1|VerbForm=Inf|VerbStem=G	119	nmod	_	_
 121	idabbubū	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 122	enna	enna	ADV	AV	_	127	advmod	_	_
 123	adû	adû	ADV	AV	_	122	fixed	_	_
@@ -155,7 +155,7 @@
 155	x	x	X	X	_	_	_	_	_
 156	mala	mala	ADP	PRP	_	157	case	_	_
 157	Ahu-nuri	ahu-nuri	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-158	ša	ša	PRON	REL	_	_	_	_	_
+158	ša	ša	PRON	REL	_	160	nsubj	_	_
 159	ana	ana	ADP	PRP	_	160	case	_	_
 160	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 161	x	x	X	X	_	_	_	_	_
@@ -169,12 +169,12 @@
 169	akī	akī	ADP	PRP	_	170	case	_	_
 170	libbīni	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	172	obl	_	_
 171	maṣṣartā	maṣṣartu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	172	nsubj	_	_
-172	dannat	dannu	NOUN	N	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+172	dannat	dannu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 173	ul	ul	PART	NEG	_	_	_	_	_
 174	x	x	X	X	_	_	_	_	_
 175	x	x	X	X	_	_	_	_	_
 176	x	x	X	X	_	_	_	_	_
-177	ālānu	ālu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	180	obj	_	_
+177	ālānu	ālu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	180	nsubj	_	_
 178	ana	ana	ADP	PRP	_	179	case	_	_
 179	muhhišunu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	180	iobj	_	_
 180	iptahrū	pahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Plur|VerbForm=Fin|VerbStem=G	_	_	_	_

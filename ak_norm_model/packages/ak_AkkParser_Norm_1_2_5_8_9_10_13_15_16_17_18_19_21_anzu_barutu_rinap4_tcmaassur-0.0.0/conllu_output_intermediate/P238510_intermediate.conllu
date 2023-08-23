@@ -24,17 +24,18 @@
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
 4	ašpuru	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	adû	adû	ADV	AV	_	0	ROOT	_	_
-2	ebūru	ebūru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	1	dep	_	_
+1	adû	adû	ADV	AV	_	2	advmod	_	_
+2	ebūru	ebūru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	Bit-Yakini	bit-yakini	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
-6	{URU}tar-ba-x	{uru}tar-ba-x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+6	{URU}tar-ba-x	{uru}tar-ba-x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 
-1	x	x	X	X	_	2	nsubj	_	_
-2	ebūru	ebūru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
-3	ša	ša	ADP	PRP	_	4	case	_	_
-4	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	ebūru	ebūru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -165,7 +166,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	rab kiṣir	rab kiṣir	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	3	obj	_	_
-2	iltēn	ištēn	NUM	NUM	_	1	nummod	_	_
+2	iltēn	ištēn	NUM	NU	_	1	nummod	_	_
 3	lišʾal	šâlu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
 5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_

@@ -60,29 +60,29 @@
 60	x-da	x-da	X	X	_	_	_	_	_
 61	ša	ša	ADP	PRP	_	62	case	_	_
 62	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-63	balṭūma	balṭu	ADJ	AJ	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
-64	ša	ša	PRON	REL	_	72	nsubj	_	_
+63	balṭūma	balṭu	ADJ	AJ	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	72	nsubj	_	_
+64	ša	ša	PRON	REL	_	66	nsubj	_	_
 65	ina	ina	ADP	PRP	_	66	case	_	_
 66	māt	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	72	obl	_	_
 67	nakri	nakru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	66	nmod:poss	_	_
 68	ultu	ištu	ADP	PRP	_	69	case	_	_
 69	māt	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	72	obl	_	_
 70	nakiri	nakru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	69	nmod:poss	_	_
-71	pānīšu	pānu	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	72	obl	_	_
-72	išakkanma	šakānu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	63	acl	_	_
+71	pānīšu	pānu	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	72	obj	_	_
+72	išakkanma	šakānu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 73	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 74	u	u	CONJ	CNJ	_	77	cc	_	_
 75	ana	ana	ADP	PRP	_	76	case	_	_
 76	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	77	iobj	_	_
 77	inehhisa	nahāsu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	73	conj	_	_
-78	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	82	dep	_	_
+78	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	82	nsubj	_	_
 79	ša	ša	ADP	PRP	_	80	case	_	_
 80	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	78	nmod	_	_
 81	ana	ana	ADP	PRP	_	82	case	_	_
 82	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 83	ardīšu	ardu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	82	nmod	_	_
 84	ultu	ištu	ADP	PRP	_	85	case	_	_
-85	māt	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	_	_	_	_
+85	māt	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	82	conj	_	_
 86	nakiri	nakru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	85	nmod:poss	_	_
 87	o	o	X	X	_	88	nsubj	_	_
 88	iharrupamma	harāpu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -117,7 +117,7 @@
 117	kalbāni	kalbu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	116	nmod	_	_
 118	annūti	annû	DET	DP	Case=Gen|Gender=Masc|Number=Plur	117	det	_	_
 119	lā	lā	PART	NEG	_	120	advmod	_	_
-120	illika	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+120	illika	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	122	advcl	_	_
 121	libbāni	libbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	122	obj	_	_
 122	iptalah	palāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 123	indaraṣ	marāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	122	conj	_	_

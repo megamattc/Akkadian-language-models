@@ -9,7 +9,7 @@
 9	ana	ana	ADP	PRP	_	10	case	_	_
 10	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	12	iobj	_	_
 11	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	10	appos	_	_
-12	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
+12	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 13	ultu	ištu	ADP	PRP	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
@@ -19,7 +19,7 @@
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
-22	idkûma	dekû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	_	_	_	_
+22	idkûma	dekû	VERB	V	Dialect=NB|Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
@@ -38,7 +38,7 @@
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
-41	niddû	nadû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
+41	niddû	nadû	VERB	V	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -92,7 +92,7 @@
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
-95	siksistī	sissiktu	NOUN	N	_	_	_	_	_
+95	siksistī	sissiktu	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
@@ -102,7 +102,7 @@
 102	x	x	X	X	_	_	_	_	_
 103	x	x	X	X	_	_	_	_	_
 104	u	u	CONJ	CNJ	_	105	cc	_	_
-105	{1}{d}x	{1}{d}x	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
+105	{1}{d}x	{1}{d}x	X	PN	Gender=Masc|Number=Sing	_	_	_	_
 106	x	x	X	X	_	_	_	_	_
 107	x	x	X	X	_	_	_	_	_
 108	x	x	X	X	_	_	_	_	_
@@ -123,13 +123,13 @@
 123	x	x	X	X	_	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
 125	išemmû	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-126	gabrî	gabarû	NOUN	N	_	_	_	_	_
-127	šipirti	šipirtu	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
+126	gabrî	gabarû	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+127	šipirti	šipirtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 128	x	x	X	X	_	_	_	_	_
 129	x+x	x+x	X	X	_	_	_	_	_
 130	Marduk-apla-iddina	marduk-apla-iddina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 131	kî	kī	SCONJ	SBJ	_	132	mark	_	_
-132	nipṭur	paṭāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	130	iobj	_	_
+132	nipṭur	paṭāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 133	x	x	X	X	_	_	_	_	_
-134	x	x	X	X	_	135	nsubj	_	_
-135	niltapraššu	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
+134	x	x	X	X	_	_	_	_	_
+135	niltapraššu	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_

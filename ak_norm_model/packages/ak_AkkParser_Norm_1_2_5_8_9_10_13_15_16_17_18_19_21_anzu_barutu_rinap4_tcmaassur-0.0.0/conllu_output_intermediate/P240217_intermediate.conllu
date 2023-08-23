@@ -20,7 +20,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	mūdî	mūdû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mūdî	mūdû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	emūqu	emūqu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -79,9 +79,8 @@
 
 1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	0	ROOT	_	_
-
-1	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -137,9 +136,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	imaqqutūna	maqātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+1	imaqqutūna	maqātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
 
-1	Babilaya	babilaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -167,7 +166,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	innabbitū	abātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	innabbitū	abātu	VERB	V	Focus=No|Gender=Masc|Number=Plur|Person=3|Subordinative=No|Tense=Pres|Ventive=No|VerbStem=N	0	ROOT	_	_
 
 1	enna	enna	ADV	AV	_	0	ROOT	_	_
 
@@ -188,8 +187,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	sakāp	sakāpu	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	3	obl	_	_
-3	nakrī	nakru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	sakāp	sakāpu	VERB	V	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
+3	nakrī	nakru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

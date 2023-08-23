@@ -18,7 +18,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Zabadu	zabadu	PROPN	PN	_	0	ROOT	_	_
+1	Zabadu	zabadu	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -70,7 +70,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	habtūtu	habtu	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	habtūtu	habtu	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 2	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -85,10 +85,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	3	nsubj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	ta-x+x	ta-x+x	X	X	_	0	ROOT	_	_
 
@@ -122,7 +121,7 @@
 
 1	Tilmun	tilmun	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	{KUR}x+x	{kur}x+x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{KUR}x+x	{kur}x+x	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -136,7 +135,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Urarṭaya	urarṭaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Urarṭaya	urarṭaya	PROPN	EN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -193,7 +192,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	pīhat	pīhātu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	{URU}x+x	{uru}x+x	PROPN	X	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+2	{URU}x+x	{uru}x+x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -247,10 +246,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	arki	arki	ADP	PRP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ša	ša	PRON	REL	_	2	obj	_	_
-2	ilqû	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	arki	arki	ADP	PRP	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+2	ša	ša	SCONJ	SBJ	_	3	mark	_	_
+3	ilqû	leqû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

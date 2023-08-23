@@ -127,8 +127,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	2	obj	_	_
-2	taklū	taklu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	2	obl	_	_
+2	taklū	taklu	ADJ	AJ	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -273,7 +273,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	tamkāru	tamkāru	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	tamkāru	tamkāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -289,7 +289,7 @@
 
 1	x-bu	x-bu	X	X	_	0	ROOT	_	_
 
-1	zazinni	sasinnu	NOUN	N	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	zazinni	sasinnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ki-x	ki-x	X	X	_	0	ROOT	_	_
 
@@ -307,7 +307,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Esaggili	esaggili	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Esaggili	esaggili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -327,7 +327,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ilaqqa	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ilaqqa	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	SAG	sag	X	X	_	0	ROOT	_	_
 
@@ -345,9 +345,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ellēma	elû	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
-
-1	bābu	bābu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ellēma	elû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
+2	bābu	bābu	NOUN	N	Gender=Masc|Number=Sing	1	conj	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -368,7 +367,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+2	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	0	ROOT	_	_
 
@@ -388,10 +387,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	adû	adû	ADV	AV	_	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	ša-qaltāti	ša-qašti	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	adû	adû	ADV	AV	_	3	advmod	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	ša-qaltāti	ša-qašti	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

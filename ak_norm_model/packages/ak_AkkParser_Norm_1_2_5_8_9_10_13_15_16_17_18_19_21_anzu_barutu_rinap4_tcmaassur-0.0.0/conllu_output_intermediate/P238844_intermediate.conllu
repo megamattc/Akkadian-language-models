@@ -56,7 +56,7 @@
 2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	Lanše	lanše	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
-1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -92,7 +92,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	pān	pānu	NOUN	N	_	0	ROOT	_	_
 
 1	ša₂	ša₂	X	X	_	0	ROOT	_	_
 
@@ -128,7 +128,7 @@
 
 1	x-ni	x-ni	X	X	_	0	ROOT	_	_
 
-1	ultenni	šanû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ultenni	šanû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -164,14 +164,14 @@
 
 1	x-na	x-na	X	X	_	0	ROOT	_	_
 
-1	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x-na	x-na	X	X	_	0	ROOT	_	_
 
-1	bīt	bītu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -184,7 +184,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	išdīya	išdu	NOUN	N	PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1	0	ROOT	_	_
+1	išdīya	išdu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	0	ROOT	_	_
 
@@ -235,12 +235,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	2	discourse	_	_
-2	ardu	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	umma	umma	PART	Quotative	_	5	discourse	_	_
+2	ardu	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-
-1	anākūma	anāku	PRON	IP	Case=Nom|Focus=Yes|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
+5	anākūma	anāku	PRON	IP	Case=Nom|Focus=Yes|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -258,8 +257,7 @@
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
