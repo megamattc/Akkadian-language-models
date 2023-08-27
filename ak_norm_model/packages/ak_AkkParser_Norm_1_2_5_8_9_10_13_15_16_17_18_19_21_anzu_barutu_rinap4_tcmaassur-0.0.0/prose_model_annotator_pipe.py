@@ -101,7 +101,8 @@ for filename in glob.glob(os.path.join(inputPath, '*.txt')):
 
        for line in lines:
            if "saao" in line:
-               print("Found saao in line")
+               print("Found saao in line:")
+               print(line)
                continue #Skip header line with saao info
            else:
                print("Line is")

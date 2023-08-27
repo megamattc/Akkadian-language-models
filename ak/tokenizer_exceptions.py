@@ -136,6 +136,7 @@ exclusions = [
    "rab šāqê":[{ORTH:    "rab šāqê"}],
    "rab kiṣirīya":[{ORTH:    "rab kiṣirīya"}],
    "rab dayālī":[{ORTH:    "rab dayālī"}],
+   "rab dayālu": [{ORTH: "rab dayālu"}],
    "rab sakullāte":[{ORTH:    "rab sakullāte"}],
    "rab hanšêkunu":[{ORTH:    "rab hanšêkunu"}],
    "rab danībāt":[{ORTH:    "rab danībāt"}],
