@@ -3,7 +3,7 @@
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	2	det	_	_
+3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -11,7 +11,7 @@
 
 1	umma	umma	PART	Quotative	_	0	ROOT	_	_
 
-1	attalû	antalû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	attalû	antalû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -19,9 +19,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	bīt	bītu	NOUN	N	_	0	ROOT	_	_
-
-1	ilputu	lapātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+1	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	ilputu	lapātu	VERB	V	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -45,8 +44,9 @@
 
 1	x-a.a	x-a.a	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	2	cc	_	_
-2	šu₂	šu₂	X	X	_	0	ROOT	_	_
+1	u	u	CONJ	CONJ	_	0	ROOT	_	_
+
+1	šu₂	šu₂	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -146,7 +146,7 @@
 
 1	agâ	agâ	DET	DP	_	0	ROOT	_	_
 
-1	{1}{d}AG-x	{1}{d}ag-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{1}{d}AG-x	{1}{d}ag-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -177,7 +177,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	arkīya	arki	ADP	PRP	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+1	arkīya	arki	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1	0	ROOT	_	_
 
 1	it-x	it-x	X	X	_	0	ROOT	_	_
 
@@ -187,7 +187,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ušanṣûšu	maṣû	VERB	V	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+1	ušanṣûšu	maṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -206,10 +206,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	0	ROOT	_	_
-
-1	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
+3	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	ta-x	ta-x	X	X	_	0	ROOT	_	_
 

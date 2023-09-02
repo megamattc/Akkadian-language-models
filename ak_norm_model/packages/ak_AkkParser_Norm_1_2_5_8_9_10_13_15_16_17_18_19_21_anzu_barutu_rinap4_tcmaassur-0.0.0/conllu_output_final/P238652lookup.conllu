@@ -23,7 +23,7 @@
 23	x	x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
-26	agannûtu	agannû	DET	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+26	agannûtu	agannû	DET	DP	Gender=Masc|Number=Plur	_	_	_	_
 27	ki-x	ki-x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
@@ -36,9 +36,9 @@
 36	x	x	X	X	_	_	_	_	_
 37	ul	ul	PART	NEG	_	38	advmod	_	_
 38	bēl ṭābti	bēl ṭābti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-39	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	41	nsubj	_	_
+39	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
 40	ana	ana	ADP	PRP	_	41	case	_	_
-41	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+41	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	39	dep	_	_
 42	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
 43	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	42	appos	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -46,7 +46,7 @@
 46	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	49	nsubj	_	_
 47	u	u	CONJ	CNJ	_	48	cc	_	_
 48	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	46	conj	_	_
-49	iqtabû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+49	iqtabû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 50	umma	umma	PART	Quotative	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
@@ -54,7 +54,7 @@
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
-57	{1}{d}EN-u₂-x	{1}{d}en-u₂-x	NOUN	DN	_	_	_	_	_
+57	{1}{d}EN-u₂-x	{1}{d}en-u₂-x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
@@ -85,7 +85,7 @@
 85	x	x	X	X	_	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
-88	luṣabbit	ṣabātu	VERB	V	Case=Gen|Gender=Masc|Mood=Prec|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=D	_	_	_	_
+88	luṣabbit	ṣabātu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	_	_	_	_
 89	x+x	x+x	X	X	_	_	_	_	_
 90	x	x	X	X	_	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
