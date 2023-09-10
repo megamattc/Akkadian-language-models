@@ -208,6 +208,8 @@ exclusions = [
    "bēlē hīṭ":[{ORTH:    "bēlē hīṭ"}],
    "bēt šubte":[{ORTH:    "bēt šubte"}],
    "bēti šanie":[{ORTH:    "bēti šanie"}],
+   "bīt kunukki":[{ORTH:    "bīt kunukki"}],
+   "bēt kunukki":[{ORTH:    "bēt kunukki"}],
    "bīt nakkamdu":[{ORTH:    "bīt nakkamdu"}],
    "bīt ilānīka":[{ORTH:    "bīt ilānīka"}],
    "bēt akīti":[{ORTH:    "bēt akīti"}],

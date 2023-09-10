@@ -5,7 +5,7 @@
 5	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
 6	Illil-bani	illil-bani	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 7	Enlil	enlil	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-8	Ninurta	ninurta	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+8	Ninurta	ninurta	PROPN	DN	Gender=Masc	7	conj	_	_
 9	u	u	CONJ	CNJ	_	10	cc	_	_
 10	Nusku	nusku	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
 11	ana	ana	ADP	PRP	_	12	case	_	_
@@ -36,12 +36,12 @@
 36	pānāt	pānātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
-39	x	x	X	X	_	_	_	_	_
+39	x	x	X	X	_	42	nsubj	_	_
 40	ana	ana	ADP	PRP	_	41	case	_	_
 41	Nippur	nippur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	42	iobj	_	_
-42	illika	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+42	illika	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	44	advcl	_	_
 43	u	u	CONJ	CNJ	_	44	cc	_	_
-44	iqbûniššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	42	conj	_	_
+44	iqbûniššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 45	umma	umma	PART	Quotative	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
@@ -49,7 +49,7 @@
 49	mušēṣānê	mušēṣû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 50	Nippur	nippur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	_
 51	u	u	CONJ	CNJ	_	52	cc	_	_
-52	ilānīka	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	50	conj	_	_
+52	ilānīka	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	49	conj	_	_
 53	u₂-x+x	u₂-x+x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
@@ -63,7 +63,7 @@
 63	x	x	X	X	_	_	_	_	_
 64	ana	ana	ADP	PRP	_	65	case	_	_
 65	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	66	iobj	_	_
-66	altapraššu	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
+66	altapraššu	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
 69	x+x	x+x	X	X	_	_	_	_	_
@@ -81,7 +81,7 @@
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	ana	ana	ADP	PRP	_	84	case	_	_
-84	Bit-Yari	bit-yari	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+84	Bit-Yari	bit-yari	PROPN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_

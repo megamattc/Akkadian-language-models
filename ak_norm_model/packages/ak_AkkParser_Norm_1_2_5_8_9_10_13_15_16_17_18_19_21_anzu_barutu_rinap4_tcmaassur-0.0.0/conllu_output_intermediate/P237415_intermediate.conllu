@@ -1,17 +1,17 @@
-1	x	x	X	X	_	2	nsubj	_	_
-2	išpuru	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	išpuru	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	2	det	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	0	ROOT	_	_
-
-1	attalû	antalû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	umma	umma	PART	Quotative	_	2	discourse	_	_
+2	attalû	antalû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -20,7 +20,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	ilputu	lapātu	VERB	V	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+
+1	ilputu	lapātu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -165,11 +166,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	battumma	battu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	battumma	battu	NOUN	N	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	ina	ina	ADP	PRP	_	0	ROOT	_	_
-
-1	ra-x	ra-x	X	X	_	0	ROOT	_	_
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	ra-x	ra-x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -187,7 +187,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ušanṣûšu	maṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ušanṣûšu	maṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -207,8 +207,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+2	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	3	obj	_	_
+3	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ta-x	ta-x	X	X	_	0	ROOT	_	_
 

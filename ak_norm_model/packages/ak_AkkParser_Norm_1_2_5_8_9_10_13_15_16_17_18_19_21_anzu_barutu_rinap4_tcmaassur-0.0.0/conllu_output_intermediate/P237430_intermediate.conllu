@@ -4,9 +4,8 @@
 
 1	o	o	X	X	_	0	ROOT	_	_
 
-1	ardēka	ardu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ardēka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
+2	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -67,7 +66,7 @@
 
 1	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-3	ṭūb	ṭūbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	conj	_	_
+3	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	1	conj	_	_
 4	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -104,7 +103,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	labāri	labāru	VERB	V	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+2	labāri	labāru	VERB	V	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -143,7 +142,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ūmu	ūmu	NOUN	N	_	0	ROOT	_	_
+1	ūmu	ūmu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -297,7 +296,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	{LU₂}x	{lu₂}x	X	X	_	0	ROOT	_	_
+1	{LU₂}x	{lu₂}x	X	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -389,8 +388,9 @@
 
 1	SUM	sum	X	X	_	0	ROOT	_	_
 
-1	ni	ni	X	X	_	2	obj	_	_
-2	uttīr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ni	ni	X	X	_	0	ROOT	_	_
+
+1	uttīr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 

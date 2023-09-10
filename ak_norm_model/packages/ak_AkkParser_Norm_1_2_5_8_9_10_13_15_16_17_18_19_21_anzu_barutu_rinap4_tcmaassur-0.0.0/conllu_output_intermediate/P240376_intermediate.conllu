@@ -9,13 +9,13 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Larakaya	larakaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	Nippuraya	nippuraya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+1	Larakaya	larakaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
+2	Nippuraya	nippuraya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	2	cc	_	_
-2	Barsipaya	barsipaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	Barsipaya	barsipaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	mala	mala	PRON	REL	_	0	ROOT	_	_
 
@@ -35,7 +35,7 @@
 
 1	x+x-gur	x+x-gur	X	X	_	0	ROOT	_	_
 
-1	qaqqar	qaqqaru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	qaqqar	qaqqaru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	0	ROOT	_	_
 
@@ -84,7 +84,8 @@
 1	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	u	u	CONJ	CONJ	_	3	cc	_	_
 3	Nabu	nabu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-4	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	1	appos	_	_
+
+1	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -98,13 +99,14 @@
 4	ṭūb	ṭūbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	nmod	_	_
 5	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 
-1	o	o	X	X	_	3	advmod	_	_
-2	u	u	CONJ	CNJ	_	3	cc	_	_
-3	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	6	nsubj	_	_
-4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	ana	ana	ADP	PRP	_	6	case	_	_
-6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
+1	o	o	X	X	_	0	ROOT	_	_
+
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	5	nsubj	_	_
+3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	ana	ana	ADP	PRP	_	5	case	_	_
+5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -140,7 +142,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	{GIŠ}x+x	{giš}x+x	X	X	_	0	ROOT	_	_
+1	{GIŠ}x+x	{giš}x+x	PROPN	X	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -180,9 +182,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	qaqqar	qaqqaru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-
-1	ṭēmu	ṭēmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	qaqqar	qaqqaru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -196,7 +197,7 @@
 
 1	x-ma	x-ma	X	X	_	0	ROOT	_	_
 
-1	ahhē	ahu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	ahhē	ahu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -238,8 +239,9 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	BAN	banû	X	X	_	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	0	ROOT	_	_
+
+1	BAN	banû	X	X	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

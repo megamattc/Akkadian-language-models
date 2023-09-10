@@ -75,7 +75,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	akteli	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	akteli	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	umma	umma	PART	Quotative	_	0	ROOT	_	_
 
@@ -97,7 +97,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lullika	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G	0	ROOT	_	_
+1	lullika	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	arkāniš	arkāniš	ADV	AV	_	0	ROOT	_	_
 
@@ -107,10 +107,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iglutū	galātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iglutū	galātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -120,7 +120,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kî	kī	ADP	ADP	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -144,9 +144,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	3	nsubj	_	_
-2	dibbu	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-3	iddabbū	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	dibbu	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	iddabbū	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -218,7 +219,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	sīhu	sīhu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	sīhu	sīhu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -246,7 +247,7 @@
 1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
 
 1	ultu	ištu	ADP	PRP	_	2	case	_	_
-2	bīt	bītu	NOUN	N	_	0	ROOT	_	_
+2	bīt	bītu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -261,7 +262,7 @@
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	išmû	šemû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	02-AM₃	02-am₃	PROPN	PN	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	02-AM₃	02-am₃	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	{LU₂}x+x	{lu₂}x+x	NOUN	N	Gender=Masc	0	ROOT	_	_
 
@@ -276,7 +277,7 @@
 1	x+x-MEŠ	x+x-meš	X	X	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	puqqudū	puqqudu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	puqqudū	puqqudu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -285,9 +286,9 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ul	ul	PART	NEG	_	2	advmod	_	_
-2	inaṣṣarū	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	inaṣṣarū	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	amēlūma	awīlu	NOUN	N	Case=Nom|Focus=Yes|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
+1	amēlūma	awīlu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	qinnu	qinnu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -397,7 +398,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lullika	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+1	lullika	alāku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

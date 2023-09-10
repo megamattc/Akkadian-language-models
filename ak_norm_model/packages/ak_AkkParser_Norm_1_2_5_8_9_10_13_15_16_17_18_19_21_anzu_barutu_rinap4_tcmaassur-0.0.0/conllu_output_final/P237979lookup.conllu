@@ -25,7 +25,7 @@
 25	uṣabbitannāšu	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	_	_	_	_
 26	u	u	CONJ	CNJ	_	28	cc	_	_
 27	bītātīni	bītu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	28	obj	_	_
-28	uhappû	hepû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=Gtn	25	conj	_	_
+28	uhappû	hepû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	25	conj	_	_
 29	umma	umma	PART	Quotative	_	34	discourse	_	_
 30	minamma	minamma	PRON	QP	_	34	advmod	_	_
 31	šipirti	šipirtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
@@ -36,16 +36,16 @@
 36	Nikkal-iddina	nikkal-iddina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
 37	ūmussu	ūmussu	ADV	AV	_	41	advmod	_	_
 38	ana	ana	ADP	PRP	_	39	case	_	_
-39	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	41	iobj	_	_
-40	dâkīni	dâku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	39	nmod	_	_
+39	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	41	obl	_	_
+40	dâkīni	dâku	VERB	V	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
 41	idabbub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 42	adû	adû	ADV	AV	_	46	advmod	_	_
-43	mār šiprāni	mār šiprāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	46	nsubj	_	_
+43	mār šiprāni	mār šiprāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	46	obj	_	_
 44	ša	ša	ADP	PRP	_	45	case	_	_
 45	šipirti	šipirtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	_
 46	niddaššu	nadānu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 47	umma	umma	PART	Quotative	_	48	discourse	_	_
-48	leqēma	leqû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=N	46	ccomp	_	_
+48	leqēma	leqû	VERB	V	Dialect=NB|Focus=Yes|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	46	ccomp	_	_
 49	ana	ana	ADP	PRP	_	50	case	_	_
 50	Nikkal-iddina	nikkal-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	51	iobj	_	_
 51	idin	nadānu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	48	conj	_	_
@@ -54,9 +54,9 @@
 54	tapallah	palāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	51	ccomp	_	_
 55	Aššur-ahu-iddina	aššur-ahu-iddina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	58	nsubj	_	_
 56	ina	ina	ADP	PRP	_	57	case	_	_
-57	kussî	kussû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	58	obl	_	_
+57	kussî	kussû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	58	iobj	_	_
 58	ittanaššab	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-59	šipirti	šipirtu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	60	obj	_	_
+59	šipirti	šipirtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	60	obj	_	_
 60	ušalmamma	lawû	VERB	V	Focus=Yes	_	_	_	_
 61	ana	ana	ADP	PRP	_	62	case	_	_
 62	Zer-kitti-lišir	zer-kitti-lišir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	63	iobj	_	_
@@ -64,7 +64,7 @@
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
-67	ša-muhhi-ālūtu	ša-muhhi-ālūtu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+67	ša-muhhi-ālūtu	ša-muhhi-ālūtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 68	ša	ša	ADP	PRP	_	69	case	_	_
 69	Uruk	uruk	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	67	nmod	_	_
 70	x+x	x+x	X	X	_	_	_	_	_
@@ -81,7 +81,7 @@
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
-84	lumassi	wussû	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+84	lumassi	wussû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	_	_	_	_
 85	Urukaya	urukaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
@@ -94,7 +94,7 @@
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
 96	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	_	_	_	_
-97	mu-ša₂-an-ni-ia-x+x	mu-ša₂-an-ni-ia-x+x	X	NOUN	_	_	_	_	_
+97	mu-ša₂-an-ni-ia-x+x	mu-ša₂-an-ni-ia-x+x	PRON	QP	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
 99	x	x	X	X	_	_	_	_	_
 100	x	x	X	X	_	_	_	_	_
