@@ -12,9 +12,9 @@
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
-15	mār šiprīšu	mār šiprīšu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	20	obj	_	_
+15	mār šiprīšu	mār šiprīšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	20	obj	_	_
 16	ana	ana	ADP	PRP	_	17	case	_	_
-17	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	20	iobj	_	_
+17	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	20	obl	_	_
 18	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	17	nmod	_	_
 19	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 20	išappar	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -26,7 +26,7 @@
 26	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 27	ana	ana	ADP	PRP	_	28	case	_	_
 28	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	29	iobj	_	_
-29	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+29	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	33	advcl	_	_
 30	alpu	alpu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
 31	ina	ina	ADP	PRP	_	32	case	_	_
 32	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	33	obl	_	_
@@ -38,36 +38,36 @@
 38	ana	ana	ADP	PRP	_	39	case	_	_
 39	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	37	nsubj	_	_
 40	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	39	appos	_	_
-41	bīt kunukki	bīt kunukki	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
+41	bīt kunukki	bīt kunukki	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	52	obj	_	_
 42	ša	ša	ADP	PRP	_	43	case	_	_
 43	Humhum	humhum	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
 44	ša	ša	PRON	REL	_	51	nsubj	_	_
 45	ina	ina	ADP	PRP	_	46	case	_	_
-46	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	51	obl	_	_
-47	unqu	unqu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
+46	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	44	nmod	_	_
+47	unqu	unqu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	51	obj	_	_
 48	ša	ša	ADP	PRP	_	49	case	_	_
-49	Aššur-ahu-iddina	aššur-ahu-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	_
+49	Aššur-ahu-iddina	aššur-ahu-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	51	nsubj	_	_
 50	Kitrušu	kitrušu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	51	nsubj	_	_
 51	ikkaku	kanāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	41	acl	_	_
-52	iptetīma	petû	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	51	conj	_	_
+52	iptetīma	petû	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 53	01	01	NUM	NUM	_	54	nummod	_	_
 54	biltu	biltu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	67	obj	_	_
 55	20	20	NUM	DN	_	56	nummod	_	_
 56	manê	manû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	54	conj	_	_
-57	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	56	nmod:poss	_	_
+57	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	56	nmod	_	_
 58	01	01	NUM	NUM	_	59	nummod	_	_
 59	biltu	biltu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	67	obj	_	_
-60	sādu	sādu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	59	nmod	_	_
+60	sādu	sādu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	59	nmod	_	_
 61	ina	ina	ADP	PRP	_	62	case	_	_
-62	qātē	qātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	67	obl	_	_
+62	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	67	obl	_	_
 63	mār šipri	mār šipri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	62	nmod	_	_
 64	ana	ana	ADP	PRP	_	65	case	_	_
-65	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	62	conj	_	_
+65	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	67	iobj	_	_
 66	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	65	nmod	_	_
 67	ultēbila	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	52	conj	_	_
 68	ūmussu	ūmussu	ADV	AV	_	74	advmod	_	_
 69	Nabu-ušabši	nabu-ušabši	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	74	nsubj	_	_
-70	bārû	bārû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	69	appos	_	_
+70	bārû	bārû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	69	appos	_	_
 71	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	74	obj	_	_
 72	ša	ša	ADP	PRP	_	73	case	_	_
 73	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	71	nmod	_	_
@@ -78,10 +78,10 @@
 78	02	02	NUM	NUM	_	79	nummod	_	_
 79	mārēšu	māru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	84	obj	_	_
 80	30	30	NUM	DN	_	81	nummod	_	_
-81	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	79	conj	_	_
+81	ṣābē	ṣābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	84	obj	_	_
 82	ina	ina	ADP	PRP	_	83	case	_	_
 83	qātēšunu	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	84	obl	_	_
-84	iṣṣabat	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	89	advcl	_	_
+84	iṣṣabat	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 85	ana	ana	ADP	PRP	_	86	case	_	_
 86	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	89	iobj	_	_
 87	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	86	nmod	_	_
@@ -90,8 +90,8 @@
 90	šarru	šarru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	91	obj	_	_
 91	lubaʾʾi	buʾʾû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	89	conj	_	_
 92	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
-93	ša	ša	PRON	REL	_	_	_	_	_
-94	dibbī	dibbu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+93	ša	ša	ADP	PRP	_	94	case	_	_
+94	dibbī	dibbu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	92	nmod	_	_
 95	x	x	X	X	_	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_

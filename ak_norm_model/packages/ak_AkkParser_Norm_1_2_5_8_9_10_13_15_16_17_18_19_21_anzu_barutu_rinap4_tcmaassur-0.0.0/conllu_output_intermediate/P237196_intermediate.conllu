@@ -7,12 +7,13 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	nsubj	_	_
-2	ihbutū	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	ihbutū	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	šemērē	šawiru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 2	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
-3	tillī	tillu	NOUN	N	Gender=Masc|Number=Plur	1	conj	_	_
+3	tillī	tillu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	1	conj	_	_
 4	ša	ša	ADP	PRP	_	5	case	_	_
 5	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	3	nmod	_	_
 
@@ -39,9 +40,8 @@
 
 1	enna	enna	ADV	AV	_	0	ROOT	_	_
 
-1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	ROOT	_	_
-
-1	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
+1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
+2	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -50,7 +50,7 @@
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	ihliqū	halāqu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	5	advcl	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	Uruk	uruk	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	_
+4	Uruk	uruk	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 5	īterbū	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
