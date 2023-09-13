@@ -17,7 +17,7 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 * SAA 15 - Further letters of Sargon II: Babylonia and the eastern provinces. 100% complete.
 * SAA 16 - Political correspondence of Esarhaddon. 13% complete.
 * SAA 17 - The Neo-Babylonian Correspondence of Sargon and Sennacherib. 100% complete.
-* SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 25% complete.
+* SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 33% complete.
 * SAA 19 - Letters of Tiglath-Pileser III and Sargon II from Calah/Nimrud. 1% complete.
 * SAA 21 - Letters of Assurbanipal: Assyria, Babylonia, and vassal states. %100 complete.
 
