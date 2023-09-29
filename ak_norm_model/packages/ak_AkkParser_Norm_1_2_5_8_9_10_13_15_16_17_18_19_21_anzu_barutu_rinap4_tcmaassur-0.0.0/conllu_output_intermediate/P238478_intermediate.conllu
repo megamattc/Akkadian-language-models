@@ -54,19 +54,20 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+1	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ul	ul	PART	NEG	_	3	advmod	_	_
-3	maṣāku	maṣû	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+3	maṣāku	maṣû	ADJ	AJ	Gender=Com|Number=Sing|Person=1|VerbForm=Stat	0	ROOT	_	_
 
 1	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 3	lū	lū	PART	PART	_	4	advmod	_	_
 4	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-5	kî	kī	SCONJ	SBJ	_	9	mark	_	_
-6	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
-7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
-8	lā	lā	PART	NEG	_	9	advmod	_	_
-9	mahri	mahru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	ccomp	_	_
+
+1	kî	kī	SCONJ	SBJ	_	5	mark	_	_
+2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	lā	lā	PART	NEG	_	5	advmod	_	_
+5	mahri	mahru	NOUN	N	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 2	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
@@ -87,7 +88,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	immahhara	mahāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	immahhara	mahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ad-x	ad-x	X	X	_	0	ROOT	_	_
 
@@ -108,7 +109,7 @@
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	harrān	harrānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	nišemme	šemû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=D	0	ROOT	_	_
+4	nišemme	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -126,10 +127,10 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
-2	nadê	nadû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+1	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+2	nadê	nadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
-1	ahī	ahu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
+1	ahī	ahu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	ni-ta-x+x	ni-ta-x+x	X	X	_	0	ROOT	_	_
 

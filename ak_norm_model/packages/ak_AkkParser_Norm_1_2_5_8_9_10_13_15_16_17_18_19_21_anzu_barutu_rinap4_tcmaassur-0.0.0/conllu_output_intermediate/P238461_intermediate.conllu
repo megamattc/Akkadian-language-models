@@ -23,7 +23,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	Zababa	zababa	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	Babu	babu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+
+1	Babu	babu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -37,10 +38,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	03-šu₂	03-šu₂	NUM	NUM	_	0	ROOT	_	_
-
-1	04-šu₂	04-šu₂	NUM	NUM	_	2	nummod	_	_
-2	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	03-šu₂	03-šu₂	NUM	NUM	_	2	nummod	_	_
+2	04-šu₂	04-šu₂	NUM	NUM	_	3	nummod	_	_
+3	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -60,7 +60,7 @@
 
 1	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -72,21 +72,19 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	bēlē hīṭu	bēlē hīṭu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	bēlē hīṭu	bēlē hīṭu	NOUN	N	_	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 
-1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	ROOT	_	_
-
-1	šāqû	šāqû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	kî	kī	SCONJ	SBJ	_	3	mark	_	_
-3	illika	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	4	advcl	_	_
-4	iqtabi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	umma	umma	PART	Quotative	_	2	discourse	_	_
-2	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
-3	tadekki	dekû	VERB	V	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+2	šāqû	šāqû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	kî	kī	SCONJ	SBJ	_	4	mark	_	_
+4	illika	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	5	advcl	_	_
+5	iqtabi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+6	umma	umma	PART	Quotative	_	5	discourse	_	_
+7	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	5	dep	_	_
+8	tadekki	dekû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	7	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -111,9 +109,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Kiš	kiš	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-2	gabbi	gabbu	DET	DP	_	3	obl	_	_
-3	ihtamû	hamû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	Kiš	kiš	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	gabbi	gabbu	DET	DP	_	1	det	_	_
+
+1	ihtamû	hamû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -134,7 +134,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	ūṣûni	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	ūṣûni	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -186,11 +186,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Barsipaya	barsipaya	PROPN	EN	Gender=Masc	0	ROOT	_	_
+1	Barsipaya	barsipaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	ul	ul	PART	NEG	_	0	ROOT	_	_
-
-1	ni-x+x	ni-x+x	X	X	_	0	ROOT	_	_
+1	ul	ul	PART	NEG	_	2	advmod	_	_
+2	ni-x+x	ni-x+x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -215,7 +214,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ul	ul	PART	NEG	_	2	advmod	_	_
-2	nidbub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	nidbub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 
@@ -269,7 +268,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Barsipaya	barsipaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
+1	Barsipaya	barsipaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	_
 2	liššû	našû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -294,10 +293,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	0	ROOT	_	_
+1	umma	umma	PART	Quotative	_	2	discourse	_	_
+2	unqu	unqu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	unqu	unqu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	case	_	_
-2	ašar	ašru	PRON	REL	_	0	ROOT	_	_
+1	ašar	ašru	PRON	REL	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -412,7 +411,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mār šipri	mār šipri	NOUN	N	_	0	ROOT	_	_
+1	mār šipri	mār šipri	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -572,11 +571,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	īdû	wadû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	Babili	babili	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -598,10 +595,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Nabu-eriba	nabu-eriba	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	Nabu-eriba	nabu-eriba	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	appos	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
-4	Nabu-damiq	nabu-damiq	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	Nabu-damiq	nabu-damiq	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -659,7 +658,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	2	cc	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
 2	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	it-x+x	it-x+x	X	X	_	0	ROOT	_	_
@@ -727,7 +726,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	mamma	mamman	PRON	XP	_	3	obl	_	_
 3	medi	medû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -756,11 +755,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iltaprūma	šapāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iltaprūma	šapāru	VERB	V	Dialect=NB|Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	{LU₂}x	{lu₂}x	NOUN	N	Gender=Masc	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -788,7 +785,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	mamma	mamman	PRON	XP	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
 2	id-x	id-x	X	X	_	0	ROOT	_	_
@@ -847,8 +846,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	madākta	madaktu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
-3	tašakkan	šakānu	VERB	V	Focus=No|Gender=Masc|Number=Sing|Person=2|Subordinative=No|Tense=Pres|VerbStem=G	0	ROOT	_	_
+2	madākta	madaktu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	tašakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -928,8 +927,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CONJ	_	2	cc	_	_
-2	rēhi	rēhu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	rēhi	rēhu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

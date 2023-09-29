@@ -34,7 +34,7 @@
 
 1	uttirrū	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
-1	šaršunu	šarru	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
+1	šaršunu	šarru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -51,7 +51,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	imqutu	maqātu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	imqutu	maqātu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -67,7 +67,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	maškanātišunu	maškanu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
+1	maškanātišunu	maškanu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -84,7 +84,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	sinnišātišunu	šinništu	NOUN	N	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+2	sinnišātišunu	šinništu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -126,7 +126,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	īpušū	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	īpušū	epēšu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -166,7 +166,7 @@
 
 1	idabbubū	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	muhhi	muhhu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -182,7 +182,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	idaggalū	dagālu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	idaggalū	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 
@@ -497,7 +497,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iddabbub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Gtn	0	ROOT	_	_
+1	iddabbub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 
@@ -519,9 +519,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ul	ul	PART	NEG	_	0	ROOT	_	_
-
-1	i-x	i-x	X	X	_	0	ROOT	_	_
+1	ul	ul	PART	NEG	_	2	advmod	_	_
+2	i-x	i-x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

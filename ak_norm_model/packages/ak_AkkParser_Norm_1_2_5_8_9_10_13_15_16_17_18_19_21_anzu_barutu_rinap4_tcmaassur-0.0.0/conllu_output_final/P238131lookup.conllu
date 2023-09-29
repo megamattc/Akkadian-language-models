@@ -47,7 +47,7 @@
 47	x	x	X	X	_	_	_	_	_
 48	x+x-u₂	x+x-u₂	X	X	_	_	_	_	_
 49	umma	umma	PART	Quotative	_	50	discourse	_	_
-50	azzizma	izuzzu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+50	azzizma	izuzzu	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
@@ -59,7 +59,7 @@
 59	x	x	X	X	_	_	_	_	_
 60	x-li	x-li	X	X	_	_	_	_	_
 61	dīni	dīnu	NOUN	N	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
-62	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	_
+62	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 63	ba-x	ba-x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
@@ -93,7 +93,7 @@
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	ana	ana	ADP	PRP	_	96	case	_	_
-96	pānīni	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	97	obl	_	_
+96	pānīni	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	97	iobj	_	_
 97	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
 99	x	x	X	X	_	_	_	_	_
@@ -107,8 +107,8 @@
 107	x+x	x+x	X	X	_	_	_	_	_
 108	umma	umma	PART	Quotative	_	109	discourse	_	_
 109	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-110	nīš	nīšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-111	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	110	nmod:poss	_	_
+110	nīš	nīšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	109	appos	_	_
+111	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	110	nmod	_	_
 112	x	x	X	X	_	_	_	_	_
 113	x	x	X	X	_	_	_	_	_
 114	x	x	X	X	_	_	_	_	_
@@ -178,7 +178,7 @@
 178	x	x	X	X	_	_	_	_	_
 179	x	x	X	X	_	_	_	_	_
 180	x+x	x+x	X	X	_	_	_	_	_
-181	amat	awātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
+181	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
 182	ša	ša	ADP	PRP	_	183	case	_	_
 183	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	181	nmod	_	_
 184	x	x	X	X	_	_	_	_	_
