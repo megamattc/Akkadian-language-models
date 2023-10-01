@@ -57,7 +57,7 @@
 57	x	x	X	X	_	_	_	_	_
 58	šinīšu	šinīšu	ADV	AV	_	_	_	_	_
 59	šalāšīšu	šalāšī-	ADV	AV	_	58	conj	_	_
-60	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+60	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	63	nsubj	_	_
 61	ša	ša	PRON	REL	_	60	dep	_	_
 62	ina	ina	ADP	PRP	_	63	case	_	_
 63	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
@@ -92,7 +92,7 @@
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
-95	u	u	CONJ	CNJ	_	96	cc	_	_
+95	u	u	CONJ	CONJ	_	96	cc	_	_
 96	ahhēkunu	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	_	_	_	_
 97	ša	ša	PRON	REL	_	_	_	_	_
 98	ina	ina	ADP	PRP	_	_	_	_	_
@@ -124,7 +124,7 @@
 124	x	x	X	X	_	_	_	_	_
 125	x	x	X	X	_	_	_	_	_
 126	x-ni	x-ni	X	X	_	_	_	_	_
-127	iṣ-qāti	izqātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	128	obj	_	_
+127	iṣ-qāti	izqātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	128	obl	_	_
 128	inamdûšunūtu	nadû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
 129	x	x	X	X	_	_	_	_	_
 130	x	x	X	X	_	_	_	_	_
@@ -285,8 +285,8 @@
 285	x	x	X	X	_	_	_	_	_
 286	x	x	X	X	_	_	_	_	_
 287	x+x	x+x	X	X	_	_	_	_	_
-288	amat	awātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	289	obj	_	_
-289	babbanīti	babbanû	ADJ	AJ	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
+288	amat	awātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
+289	babbanīti	babbanû	ADJ	AJ	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	288	amod	_	_
 290	x	x	X	X	_	_	_	_	_
 291	x	x	X	X	_	_	_	_	_
 292	x	x	X	X	_	_	_	_	_
@@ -360,7 +360,7 @@
 360	x	x	X	X	_	_	_	_	_
 361	x	x	X	X	_	_	_	_	_
 362	Bel-leʾi	bel-leʾi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-363	šikin ṭēmišunu	šikin ṭēmišunu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	362	appos	_	_
+363	šikin ṭēmišunu	šikin ṭēmišunu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	362	appos	_	_
 364	x	x	X	X	_	_	_	_	_
 365	x	x	X	X	_	_	_	_	_
 366	x	x	X	X	_	_	_	_	_
@@ -411,8 +411,8 @@
 411	x	x	X	X	_	_	_	_	_
 412	x	x	X	X	_	_	_	_	_
 413	x	x	X	X	_	_	_	_	_
-414	dulla	dullu	VERB	V	Case=Acc|Gender=Masc|Number=Sing	415	obj	_	_
-415	īpušū	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+414	dulla	dullu	VERB	V	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+415	īpušū	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	414	conj	_	_
 416	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	418	nsubj	_	_
 417	ul	ul	PART	NEG	_	418	advmod	_	_
 418	īpušuʾ	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -424,7 +424,7 @@
 424	x	x	X	X	_	_	_	_	_
 425	iqabbû	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 426	umma	umma	PART	Quotative	_	_	_	_	_
-427	kî	kī	SCONJ	PRP	_	_	_	_	_
+427	kî	kī	ADP	SBJ	_	_	_	_	_
 428	x	x	X	X	_	_	_	_	_
 429	x	x	X	X	_	_	_	_	_
 430	x	x	X	X	_	_	_	_	_
@@ -518,7 +518,7 @@
 518	x	x	X	X	_	_	_	_	_
 519	x	x	X	X	_	_	_	_	_
 520	x	x	X	X	_	_	_	_	_
-521	ša	ša	PRON	REL	_	_	_	_	_
+521	ša	ša	PRON	REL	_	522	nsubj	_	_
 522	kašād	kašādu	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 523	x	x	X	X	_	_	_	_	_
 524	x	x	X	X	_	_	_	_	_
@@ -530,7 +530,7 @@
 530	x	x	X	X	_	_	_	_	_
 531	x	x	X	X	_	_	_	_	_
 532	x+x	x+x	X	X	_	_	_	_	_
-533	u	u	CONJ	CNJ	_	_	_	_	_
+533	u	u	CONJ	CNJ	_	535	cc	_	_
 534	kî	kī	SCONJ	SBJ	_	535	mark	_	_
 535	paṭrūma	paṭru	ADJ	AJ	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Yes	_	_	_	_
 536	x	x	X	X	_	_	_	_	_

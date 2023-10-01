@@ -61,11 +61,9 @@
 
 1	umma	umma	PART	Quotative	_	3	discourse	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	harrāni	harrānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	harrāni	harrānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
 
-1	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -73,10 +71,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	eqlīya	eqlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	obl	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	eqlīya	eqlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nsubj	_	_
 2	idukkû	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{LU₂}x	{lu₂}x	NOUN	N	Gender=Masc	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -95,9 +95,9 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
-2	quppu	quppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
+2	quppu	quppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	4	nsubj	_	_
 3	lū	lū	PART	PART	_	4	advmod	_	_
-4	kalakki	kalakku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+4	kalakki	kalakku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -110,7 +110,8 @@
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	inqutu	maqātu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	advcl	_	_
 3	ultēzib	ezēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
-4	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	3	conj	_	_
+
+1	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -126,9 +127,8 @@
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	īdī	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	ardu	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	kî	kī	SCONJ	SBJ	_	4	mark	_	_
+4	ardu	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

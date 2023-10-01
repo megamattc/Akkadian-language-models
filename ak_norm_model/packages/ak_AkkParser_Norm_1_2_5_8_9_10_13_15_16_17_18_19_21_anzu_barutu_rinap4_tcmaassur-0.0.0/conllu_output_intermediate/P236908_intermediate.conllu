@@ -49,13 +49,12 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
-1	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	x-{d}AMAR.UTU	x-{d}amar.utu	X	X	_	0	ROOT	_	_
+1	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	x-{d}AMAR.UTU	x-{d}amar.utu	X	X	_	0	ROOT	_	_
 
 1	lu-x+x	lu-x+x	X	X	_	0	ROOT	_	_
 
@@ -64,49 +63,46 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	mahrīya	mahru	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	iobj	_	_
 3	kî	kī	SCONJ	SBJ	_	4	mark	_	_
-4	illikūnu	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Ind|VerbStem=G	0	ROOT	_	_
+4	illikūnu	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Ind|VerbStem=G	12	advcl	_	_
 5	50	50	NUM	NUM	_	6	nummod	_	_
 6	millātu	millu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
 7	kî	kī	SCONJ	SBJ	_	8	mark	_	_
 8	ildudū	šadādu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Ind|VerbStem=G	4	conj	_	_
-
-1	adi	adi	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	mark	_	_
-3	ša	ša	PRON	REL	_	2	fixed	_	_
-4	akaššadšunūtu	kašādu	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+9	adi	adi	ADP	PRP	_	10	case	_	_
+10	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	12	mark	_	_
+11	ša	ša	PRON	REL	_	10	fixed	_	_
+12	akaššadšunūtu	kašādu	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	o	o	X	X	_	0	ROOT	_	_
-
-1	artišunu	artu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	2	obj	_	_
-2	ubtettiqū	batāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	o	o	X	X	_	3	advmod	_	_
+2	artišunu	artu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	3	obj	_	_
+3	ubtettiqū	batāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	illikū	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	3	advcl	_	_
 3	uttirrū	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
-1	enna	enna	ADV	AV	_	3	advmod	_	_
+1	enna	enna	ADV	AV	_	8	advmod	_	_
 2	kî	kī	SCONJ	SBJ	_	3	mark	_	_
 3	illikūnu	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Ind|VerbStem=G	8	advcl	_	_
 4	02	02	NUM	NUM	_	5	nummod	_	_
 5	tašlīšānu	tašlīšu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
-8	ihtabtū	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	kî	kī	SCONJ	SBJ	_	3	mark	_	_
-2	ṣīta	ṣītu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-3	taqbû	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	5	advcl	_	_
-4	luʾ	lū	PART	PART	Gender=Masc|NounBase=Free|Number=Sing	5	advmod	_	_
-5	īdī	wadû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-6	u	u	CONJ	CNJ	_	12	cc	_	_
-7	kî	kī	SCONJ	SBJ	_	10	mark	_	_
-8	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-9	šunu	šunu	PRON	IP	Case=Acc|Gender=Masc|Number=Plur|Person=3	10	obj	_	_
-10	ibbû	nabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	12	advcl	_	_
-11	lū	lū	PART	PART	_	12	advmod	_	_
-12	īdī	wadû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	5	conj	_	_
+8	ihtabtū	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	11	advcl	_	_
+9	kî	kī	SCONJ	SBJ	_	11	mark	_	_
+10	ṣīta	ṣītu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	taqbû	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	13	advcl	_	_
+12	luʾ	lū	PART	PART	Gender=Masc|NounBase=Free|Number=Sing	13	advmod	_	_
+13	īdī	wadû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+14	u	u	CONJ	CNJ	_	18	cc	_	_
+15	kî	kī	SCONJ	SBJ	_	18	mark	_	_
+16	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	šunu	šunu	PRON	IP	Case=Acc|Gender=Masc|Number=Plur|Person=3	18	obj	_	_
+18	ibbû	nabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	20	advcl	_	_
+19	lū	lū	PART	PART	_	20	advmod	_	_
+20	īdī	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	13	conj	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	bēlāni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	1	appos	_	_
@@ -129,8 +125,8 @@
 1	ša	ša	PRON	REL	_	2	obj	_	_
 2	taqbû	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 3	umma	umma	PART	Quotative	_	7	discourse	_	_
-4	Šumu-iddin	šumu-iddin	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-5	ša	ša	PRON	REL	_	6	obj	_	_
+4	Šumu-iddin	šumu-iddin	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
+5	ša	ša	PRON	REL	_	6	obl	_	_
 6	tašpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	4	acl	_	_
 7	niṣṣabtu	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	2	ccomp	_	_
 
@@ -187,7 +183,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	ībukū	abāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	3	advcl	_	_
+2	ībukū	abāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	advcl	_	_
 3	indaqti	maqātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ha-x	ha-x	X	X	_	0	ROOT	_	_

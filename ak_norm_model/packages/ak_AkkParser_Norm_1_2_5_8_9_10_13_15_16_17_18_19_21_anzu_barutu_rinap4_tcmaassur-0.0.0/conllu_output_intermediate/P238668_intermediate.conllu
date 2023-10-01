@@ -56,7 +56,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ittaṣaʾ	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ittaṣaʾ	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -72,7 +72,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	qinnīya	qinnu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+1	qinnīya	qinnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -88,9 +88,8 @@
 
 1	x-ša₂	x-ša₂	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	amru	amru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	2	nsubj	_	_
+2	amru	amru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -150,17 +149,16 @@
 
 1	mār šarri	mār šarri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-
-1	idâkšunūti	dâku	VERB	V	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	2	nsubj	_	_
+2	idâkšunūti	dâku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	āhuzma	ahāzu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	āhuzma	ahāzu	VERB	V	Focus=Yes|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	uš-x	uš-x	X	X	_	0	ROOT	_	_
 
@@ -176,7 +174,7 @@
 
 1	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	kî	kī	ADP	PRP	_	0	ROOT	_	_
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -192,7 +190,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	tattūr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	tattūr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	{d}x	{d}x	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 

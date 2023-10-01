@@ -64,7 +64,7 @@
 4	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	lumassi	wussû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	0	ROOT	_	_
 
-1	kî	kī	SCONJ	PRP	_	0	ROOT	_	_
+1	kî	kī	ADP	SBJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -81,9 +81,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	nsubj	_	_
-2	illakamma	alāku	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-3	iqabbaššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	2	conj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	illakamma	alāku	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	iqabbaššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	1	conj	_	_
 
 1	umma	umma	PART	Quotative	_	0	ROOT	_	_
 
@@ -108,7 +109,7 @@
 1	īterba	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	aššu	aššu	ADP	PRP	_	2	case	_	_
-2	tāmītu	tāwītu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+2	tāmītu	tāwītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -116,9 +117,9 @@
 
 1	x-ni	x-ni	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	ahūšunu	ahu	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	3	nsubj	_	_
-3	irrubma	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	3	cc	_	_
+2	ahūšunu	ahu	NOUN	N	_	3	nsubj	_	_
+3	irrubma	erēbu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -128,9 +129,8 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	sitti	šittu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
-
-1	dibbī	dibbu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	sitti	šittu	NOUN	N	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	dibbī	dibbu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

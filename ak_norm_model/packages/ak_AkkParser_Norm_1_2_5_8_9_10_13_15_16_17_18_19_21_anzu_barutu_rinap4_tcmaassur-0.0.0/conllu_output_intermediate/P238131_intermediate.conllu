@@ -94,7 +94,7 @@
 1	x+x-u₂	x+x-u₂	X	X	_	0	ROOT	_	_
 
 1	umma	umma	PART	Quotative	_	2	discourse	_	_
-2	azzizma	izuzzu	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	azzizma	izuzzu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -117,8 +117,7 @@
 1	x-li	x-li	X	X	_	0	ROOT	_	_
 
 1	dīni	dīnu	NOUN	N	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
-
-1	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	ba-x	ba-x	X	X	_	0	ROOT	_	_
 
@@ -165,7 +164,7 @@
 
 1	x+x-ma	x+x-ma	X	X	_	0	ROOT	_	_
 
-1	Nabu-mar-šarri-uṣur	nabu-mar-šarri-uṣur	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Nabu-mar-šarri-uṣur	nabu-mar-šarri-uṣur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -348,7 +347,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
+1	amat	awātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
