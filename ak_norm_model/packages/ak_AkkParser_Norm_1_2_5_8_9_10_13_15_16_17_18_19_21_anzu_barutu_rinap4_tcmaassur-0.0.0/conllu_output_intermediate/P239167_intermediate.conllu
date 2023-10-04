@@ -9,8 +9,7 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -100,9 +99,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	enna	enna	ADV	AV	_	2	advmod	_	_
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+1	enna	enna	ADV	AV	_	0	ROOT	_	_
+
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -129,7 +129,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Babilaya	babilaya	PROPN	EN	Gender=Masc	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -180,7 +180,7 @@
 
 1	x-tu	x-tu	X	X	_	0	ROOT	_	_
 
-1	nipaššaru	pašāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	nipaššaru	pašāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

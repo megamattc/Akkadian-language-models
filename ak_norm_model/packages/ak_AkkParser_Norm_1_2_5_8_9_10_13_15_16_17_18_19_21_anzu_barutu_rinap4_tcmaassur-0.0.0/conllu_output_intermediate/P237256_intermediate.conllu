@@ -18,14 +18,14 @@
 11	dārû	dārû	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
 12	ana	ana	ADP	PRP	_	13	case	_	_
 13	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	16	iobj	_	_
-14	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	13	nmod:poss	_	_
+14	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	13	nmod:poss	_	_
 15	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	13	appos	_	_
 16	liddinū	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	ṣīrānē	ṣīru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	Natnu	natnu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-4	Nabayatuwa	nabayatuwa	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	Nabayatuwa	nabayatuwa	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	iobj	_	_
 7	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	nmod	_	_
@@ -33,7 +33,7 @@
 9	kî	kī	SCONJ	SBJ	_	10	mark	_	_
 10	illikūni	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	30	advcl	_	_
 11	01-me	01-me	NUM	NUM	_	12	nummod	_	_
-12	Birtaya	birtaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	30	obj	_	_
+12	Birtaya	birtaya	PROPN	EN	Case=Acc|Gender=Masc|Number=Plur	30	obj	_	_
 13	u	u	CONJ	CNJ	_	15	cc	_	_
 14	05	05	NUM	NUM	_	15	nummod	_	_
 15	Mat-Aššur	mat-aššur	PROPN	GN	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
@@ -92,11 +92,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Birtaya	birtaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+1	Birtaya	birtaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	arad	ardu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-5	x	x	X	X	_	0	ROOT	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -208,11 +209,11 @@
 2	u	u	CONJ	CNJ	_	3	cc	_	_
 3	ṣīrānē	ṣīru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	1	conj	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	10	iobj	_	_
+5	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
 6	rabûti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	_
 7	ana	ana	ADP	PRP	_	8	case	_	_
 8	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	iobj	_	_
-9	Sippar	sippar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	_
+9	Sippar	sippar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 10	altaparšunūti	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	adû	adû	ADV	AV	_	9	advmod	_	_

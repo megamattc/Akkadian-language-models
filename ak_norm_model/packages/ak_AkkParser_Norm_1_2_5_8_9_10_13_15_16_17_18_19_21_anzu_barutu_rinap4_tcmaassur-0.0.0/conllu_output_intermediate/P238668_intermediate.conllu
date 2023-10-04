@@ -56,7 +56,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ittaṣaʾ	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ittaṣaʾ	aṣû	VERB	V	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -88,8 +88,9 @@
 
 1	x-ša₂	x-ša₂	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	2	nsubj	_	_
-2	amru	amru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	0	ROOT	_	_
+
+1	amru	amru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -126,8 +127,7 @@
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	arrakāti	arkītu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
-
-1	{LU₂}x	{lu₂}x	NOUN	N	_	0	ROOT	_	_
+4	{LU₂}x	{lu₂}x	NOUN	N	_	3	nmod	_	_
 
 1	x{KI}-MEŠ	x{ki}-meš	X	X	_	0	ROOT	_	_
 
@@ -147,18 +147,18 @@
 
 1	x+x-ni	x+x-ni	X	X	_	0	ROOT	_	_
 
-1	mār šarri	mār šarri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mār šarri	mār šarri	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	2	nsubj	_	_
-2	idâkšunūti	dâku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	idâkšunūti	dâku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	āhuzma	ahāzu	VERB	V	Focus=Yes|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	āhuzma	ahāzu	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	uš-x	uš-x	X	X	_	0	ROOT	_	_
 
@@ -174,7 +174,7 @@
 
 1	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -190,9 +190,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	tattūr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	tattūr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	{d}x	{d}x	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{d}x	{d}x	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

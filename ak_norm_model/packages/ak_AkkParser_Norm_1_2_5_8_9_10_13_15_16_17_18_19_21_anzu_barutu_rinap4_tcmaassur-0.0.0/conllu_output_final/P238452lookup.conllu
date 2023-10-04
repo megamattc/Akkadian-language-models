@@ -45,9 +45,9 @@
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	ša	ša	PRON	REL	_	_	_	_	_
-48	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	50	nsubj	_	_
+48	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 49	ana	ana	ADP	PRP	_	50	case	_	_
-50	Barsip	barsip	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+50	Barsip	barsip	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	48	nsubj	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
@@ -69,7 +69,7 @@
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	kî	kī	SCONJ	SBJ	_	72	mark	_	_
-72	ūṣûni	aṣû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+72	ūṣûni	aṣû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 73	x+x	x+x	X	X	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
 75	x	x	X	X	_	_	_	_	_
@@ -96,7 +96,7 @@
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
-99	Barsipaya	barsipaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+99	Barsipaya	barsipaya	PROPN	EN	Gender=Masc|Number=Sing	_	_	_	_
 100	ul	ul	PART	NEG	_	_	_	_	_
 101	ni-x+x	ni-x+x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
@@ -111,7 +111,7 @@
 111	x	x	X	X	_	_	_	_	_
 112	x	x	X	X	_	_	_	_	_
 113	ul	ul	PART	NEG	_	114	advmod	_	_
-114	nidbub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+114	nidbub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 115	u	u	CONJ	CNJ	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_
 117	x	x	X	X	_	_	_	_	_
@@ -138,7 +138,7 @@
 138	x	x	X	X	_	_	_	_	_
 139	x	x	X	X	_	_	_	_	_
 140	x	x	X	X	_	_	_	_	_
-141	Barsipaya	barsipaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	142	nsubj	_	_
+141	Barsipaya	barsipaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	142	obj	_	_
 142	liššû	našû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G	_	_	_	_
 143	x	x	X	X	_	_	_	_	_
 144	x	x	X	X	_	_	_	_	_
@@ -151,8 +151,8 @@
 151	x	x	X	X	_	_	_	_	_
 152	x	x	X	X	_	_	_	_	_
 153	x	x	X	X	_	_	_	_	_
-154	umma	umma	PART	Quotative	_	155	discourse	_	_
-155	unqu	unqu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+154	umma	umma	PART	Quotative	_	_	_	_	_
+155	unqu	unqu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 156	ašar	ašru	PRON	REL	_	_	_	_	_
 157	x	x	X	X	_	_	_	_	_
 158	x	x	X	X	_	_	_	_	_
@@ -278,7 +278,7 @@
 278	x	x	X	X	_	_	_	_	_
 279	x	x	X	X	_	_	_	_	_
 280	x+x	x+x	X	X	_	_	_	_	_
-281	madākta	madaktu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+281	madākta	madaktu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
 282	x	x	X	X	_	_	_	_	_
 283	x	x	X	X	_	_	_	_	_
 284	x	x	X	X	_	_	_	_	_
@@ -291,7 +291,7 @@
 291	x	x	X	X	_	_	_	_	_
 292	x	x	X	X	_	_	_	_	_
 293	x	x	X	X	_	_	_	_	_
-294	īdû	wadû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+294	īdû	wadû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=	_	_	_	_
 295	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 296	x	x	X	X	_	_	_	_	_
 297	x	x	X	X	_	_	_	_	_
@@ -304,10 +304,10 @@
 304	x	x	X	X	_	_	_	_	_
 305	x	x	X	X	_	_	_	_	_
 306	x	x	X	X	_	_	_	_	_
-307	Nabu-eriba	nabu-eriba	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+307	Nabu-eriba	nabu-eriba	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 308	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	307	appos	_	_
 309	ša	ša	ADP	PRP	_	310	case	_	_
-310	Nabu-damiq	nabu-damiq	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	307	nmod	_	_
+310	Nabu-damiq	nabu-damiq	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	308	nmod	_	_
 311	x	x	X	X	_	_	_	_	_
 312	x	x	X	X	_	_	_	_	_
 313	x	x	X	X	_	_	_	_	_
@@ -371,7 +371,7 @@
 371	x	x	X	X	_	_	_	_	_
 372	x	x	X	X	_	_	_	_	_
 373	ana	ana	ADP	PRP	_	374	case	_	_
-374	mamma	mamman	PRON	XP	_	375	nsubj	_	_
+374	mamma	mamman	PRON	XP	_	375	iobj	_	_
 375	medi	medû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 376	x	x	X	X	_	_	_	_	_
 377	x	x	X	X	_	_	_	_	_
@@ -386,7 +386,7 @@
 386	x	x	X	X	_	_	_	_	_
 387	x	x	X	X	_	_	_	_	_
 388	x	x	X	X	_	_	_	_	_
-389	iltaprūma	šapāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+389	iltaprūma	šapāru	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	_	_	_	_
 390	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 391	x	x	X	X	_	_	_	_	_
 392	x	x	X	X	_	_	_	_	_
@@ -402,7 +402,7 @@
 402	x	x	X	X	_	_	_	_	_
 403	x	x	X	X	_	_	_	_	_
 404	x	x	X	X	_	_	_	_	_
-405	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	407	nsubj	_	_
+405	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 406	lā	lā	PART	NEG	_	407	advmod	_	_
 407	id-x	id-x	X	X	_	_	_	_	_
 408	x	x	X	X	_	_	_	_	_
@@ -419,7 +419,7 @@
 419	x	x	X	X	_	_	_	_	_
 420	x+x	x+x	X	X	_	_	_	_	_
 421	ina	ina	ADP	PRP	_	422	case	_	_
-422	qaqqar	qaqqaru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+422	qaqqar	qaqqaru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 423	ni-x+x	ni-x+x	X	X	_	_	_	_	_
 424	x	x	X	X	_	_	_	_	_
 425	x	x	X	X	_	_	_	_	_
@@ -432,9 +432,9 @@
 432	x	x	X	X	_	_	_	_	_
 433	x	x	X	X	_	_	_	_	_
 434	x	x	X	X	_	_	_	_	_
-435	u	u	CONJ	CNJ	_	436	cc	_	_
+435	u	u	CONJ	CNJ	_	437	cc	_	_
 436	madākta	madaktu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	437	obj	_	_
-437	tašakkan	šakānu	VERB	V	Focus=No|Gender=Masc|Number=Sing|Person=2|Subordinative=No|Tense=Pres|VerbStem=G	_	_	_	_
+437	tašakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 438	x	x	X	X	_	_	_	_	_
 439	x	x	X	X	_	_	_	_	_
 440	x	x	X	X	_	_	_	_	_
@@ -446,8 +446,8 @@
 446	x	x	X	X	_	_	_	_	_
 447	x	x	X	X	_	_	_	_	_
 448	x	x	X	X	_	_	_	_	_
-449	u	u	CONJ	CNJ	_	450	cc	_	_
-450	hadâ	hadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+449	u	u	CONJ	CNJ	_	_	_	_	_
+450	hadâ	hadû	ADJ	AJ	_	_	_	_	_
 451	ana	ana	ADP	PRP	_	_	_	_	_
 452	x	x	X	X	_	_	_	_	_
 453	x	x	X	X	_	_	_	_	_
@@ -462,7 +462,7 @@
 462	x	x	X	X	_	_	_	_	_
 463	x	x	X	X	_	_	_	_	_
 464	ana	ana	ADP	PRP	_	465	case	_	_
-465	qātēka	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
+465	qātēka	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
 466	li-x	li-x	X	X	_	_	_	_	_
 467	x	x	X	X	_	_	_	_	_
 468	x	x	X	X	_	_	_	_	_
@@ -476,7 +476,7 @@
 476	x	x	X	X	_	_	_	_	_
 477	x	x	X	X	_	_	_	_	_
 478	u	u	CONJ	CNJ	_	479	cc	_	_
-479	rēhi	rēhu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+479	rēhi	rēhu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 480	x	x	X	X	_	_	_	_	_
 481	x+x	x+x	X	X	_	_	_	_	_
 482	x	x	X	X	_	_	_	_	_

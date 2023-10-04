@@ -3,8 +3,8 @@
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
 5	Ubaru	ubaru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
-6	šikin ṭēmi	šikin ṭēmi	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
-7	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+6	šikin ṭēmi	šikin ṭēmi	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	5	appos	_	_
+7	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
@@ -25,39 +25,40 @@
 10	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	10	appos	_	_
 12	uṣalla	ṣullû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
-13	ana	ana	ADP	PRP	_	14	case	_	_
-14	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	15	iobj	_	_
-15	ēterūbu	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	12	conj	_	_
-16	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
-17	ihteṣinūʾinni	haṣānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	15	conj	_	_
-18	u	u	CONJ	CNJ	_	21	cc	_	_
-19	ūmussu	ūmussu	ADV	AV	_	21	advmod	_	_
-20	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
-21	ikarrabī	karābu	VERB	V	Gender=Fem|NounBase=Free|Number=Plur	17	conj	_	_
-22	umma	umma	PART	Quotative	_	29	discourse	_	_
-23	ša	ša	ADP	PRP	_	24	case	_	_
-24	hubtu	hubtu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	29	obj	_	_
-25	u	u	CONJ	CNJ	_	26	cc	_	_
-26	šallat	šallatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	24	conj	_	_
-27	ša	ša	ADP	PRP	_	28	case	_	_
-28	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
-29	utirri	târu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	17	conj	_	_
 
-1	u	u	CONJ	CNJ	_	11	cc	_	_
-2	ultu	ištu	ADP	PRP	_	3	case	_	_
-3	Sippar	sippar	PROPN	SN	Case=Gen	11	obl	_	_
-4	adi	adi	ADP	PRP	_	5	case	_	_
-5	bāb	bābu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	conj	_	_
-6	Marrat	marrat	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	_
-7	rāšāni	raʾsu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	11	obj	_	_
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
+3	ēterūbu	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	ihteṣinūʾinni	haṣānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+3	u	u	CONJ	CNJ	_	6	cc	_	_
+4	ūmussu	ūmussu	ADV	AV	_	6	advmod	_	_
+5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ikarrabī	karābu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	2	conj	_	_
+7	umma	umma	PART	Quotative	_	14	discourse	_	_
 8	ša	ša	ADP	PRP	_	9	case	_	_
-9	Kaldu	kašdu	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-10	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-11	ikarrabū	karābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-12	umma	umma	PART	Quotative	_	15	discourse	_	_
-13	ša	ša	ADP	PRP	_	14	case	_	_
-14	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
-15	ušēšībi	ašābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=ŠD	11	ccomp	_	_
+9	hubtu	hubtu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	14	obj	_	_
+10	u	u	CONJ	CNJ	_	11	cc	_	_
+11	šallat	šallatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	9	conj	_	_
+12	ša	ša	ADP	PRP	_	13	case	_	_
+13	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	utirri	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	6	ccomp	_	_
+15	u	u	CONJ	CNJ	_	25	cc	_	_
+16	ultu	ištu	ADP	PRP	_	17	case	_	_
+17	Sippar	sippar	PROPN	SN	Case=Gen	25	obl	_	_
+18	adi	adi	ADP	PRP	_	19	case	_	_
+19	bāb	bābu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	17	conj	_	_
+20	Marrat	marrat	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	19	nmod:poss	_	_
+21	rāšāni	raʾsu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	17	appos	_	_
+22	ša	ša	ADP	PRP	_	23	case	_	_
+23	Kaldu	kašdu	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	ikarrabū	karābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	14	conj	_	_
+26	umma	umma	PART	Quotative	_	29	discourse	_	_
+27	ša	ša	ADP	PRP	_	28	case	_	_
+28	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	29	obj	_	_
+29	ušēšībi	ašābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Š	25	ccomp	_	_
 
 1	mātāti	mātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Plur	7	obj	_	_
 2	gabbi	gabbu	DET	DP	_	1	det	_	_

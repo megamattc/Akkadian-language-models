@@ -43,8 +43,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	{1}a-ʾi-im-x	{1}a-ʾi-im-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	0	ROOT	_	_
+
+1	{1}a-ʾi-im-x	{1}a-ʾi-im-x	PROPN	X	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -65,7 +66,7 @@
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	illikūni	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	10	advcl	_	_
-3	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	nsubj	_	_
+3	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
 4	x-KAM₂	x-kam₂	ADJ	AJ	_	3	amod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
 6	Arahsamni	arahsamni	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -88,11 +89,12 @@
 2	libbišunu	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	4	obl	_	_
 3	kî	kī	SCONJ	SBJ	_	4	mark	_	_
 4	ušēzibū	ezēbu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
-5	ina	ina	ADP	PRP	_	6	case	_	_
-6	šīmti	šīmtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	4	dep	_	_
-7	ša	ša	ADP	PRP	_	8	case	_	_
-8	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
-9	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	8	appos	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	šīmti	šīmtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -142,10 +144,10 @@
 3	ibbalkitūni	nabalkutu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
 
 1	ultu	ištu	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	nsubj	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	ūmē	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	_
 4	ullūti	ullû	DET	DP	Case=Gen|Gender=Masc|Number=Plur	3	det	_	_
-5	Qidaraya	qidaraya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+5	Qidaraya	qidaraya	PROPN	EN	Case=Acc|Gender=Masc|Number=Sing	2	appos	_	_
 6	mala	mala	PRON	REL	_	7	nsubj	_	_
 7	bašû	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	5	acl	_	_
 
