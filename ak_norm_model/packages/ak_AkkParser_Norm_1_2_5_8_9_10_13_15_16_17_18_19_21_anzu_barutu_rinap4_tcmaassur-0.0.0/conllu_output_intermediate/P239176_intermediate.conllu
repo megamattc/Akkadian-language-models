@@ -107,7 +107,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	{LU₂}ha-x	{lu₂}ha-x	PROPN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{LU₂}ha-x	{lu₂}ha-x	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -309,8 +309,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	arqa	arqu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	2	nsubj	_	_
-2	ātaklu	akālu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	arqa	arqu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	ātaklu	akālu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -339,7 +339,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ašpura	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	šarru	šarru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	lumassi	wussû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	1	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -356,7 +356,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	illika	alāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	illika	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
 
@@ -376,7 +376,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	izerrūʾinnu	zêru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	izerrūʾinnu	zêru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -414,7 +414,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	inassukū	nasāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	inassukū	nasāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	lā	lā	PART	NEG	_	4	advmod	_	_
 4	umaššaranni	ašāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=No|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	1	conj	_	_

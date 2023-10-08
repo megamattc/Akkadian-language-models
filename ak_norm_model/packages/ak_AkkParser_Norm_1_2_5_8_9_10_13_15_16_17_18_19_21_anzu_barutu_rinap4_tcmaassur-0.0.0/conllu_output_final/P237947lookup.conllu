@@ -81,8 +81,8 @@
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
-84	mār šiprīšu	mār šiprīšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	85	nsubj	_	_
-85	{1}ha-ru-x	{1}ha-ru-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+84	mār šiprīšu	mār šiprīšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+85	{1}ha-ru-x	{1}ha-ru-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	84	conj	_	_
 86	{LU₂}x	{lu₂}x	NOUN	N	_	_	_	_	_
 87	x-MEŠ-šu₂	x-meš-šu₂	X	X	_	_	_	_	_
 88	ša	ša	PRON	REL	_	_	_	_	_
@@ -97,16 +97,16 @@
 97	libbīšu	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	98	obl	_	_
 98	lišmu	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 99	u	u	CONJ	CNJ	_	100	cc	_	_
-100	šanāti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	109	nsubj	_	_
+100	šanāti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 101	05	05	NUM	NUM	_	100	nummod	_	_
-102	06	06	NUM	NUM	_	109	obj	_	_
-103	ša	ša	PRON	REL	_	105	nsubj	_	_
+102	06	06	NUM	NUM	_	119	nsubj	_	_
+103	ša	ša	PRON	REL	_	109	obl	_	_
 104	ina	ina	ADP	PRP	_	105	case	_	_
 105	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	109	obl	_	_
 106	ša	ša	ADP	PRP	_	107	case	_	_
 107	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	105	nmod	_	_
 108	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	107	appos	_	_
-109	ušuzzāka	ušuzzāyu	ADJ	AJ	PredSuffGen=Com|PredSuffNum=Sing|PredSuffPer=1	_	_	_	_
+109	ušuzzāka	ušuzzāyu	ADJ	AJ	PredSuffGen=Com|PredSuffNum=Sing|PredSuffPer=1	102	acl:relcl	_	_
 110	amattû	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|Question=Yes	119	obj	_	_
 111	ibaššû	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	110	det	_	_
 112	ša	ša	PRON	REL	_	115	obj	_	_
@@ -116,7 +116,7 @@
 116	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	119	nsubj	_	_
 117	ina	ina	ADP	PRP	_	118	case	_	_
 118	pîya	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	119	obl	_	_
-119	ilteme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	109	conj	_	_
+119	ilteme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 120	ina	ina	ADP	PRP	_	121	case	_	_
 121	taškinēti	taškintu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	132	obl	_	_
 122	mahrēti	mahrû	ADJ	AJ	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Plur	121	amod	_	_
@@ -130,14 +130,14 @@
 130	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	129	appos	_	_
 131	qātā	qātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	132	obj	_	_
 132	iṣṣabta	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
-133	enna	enna	ADV	AV	_	140	advmod	_	_
-134	dibbī	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	140	dislocated	_	_
+133	enna	enna	ADV	AV	_	152	advmod	_	_
+134	dibbī	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	152	nsubj	_	_
 135	agannûtu	agannû	DET	DP	Case=Acc|Gender=Masc|Number=Plur	134	det	_	_
-136	taškinēta	taškintu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	140	nsubj	_	_
+136	taškinēta	taškintu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	140	obj	_	_
 137	šina	šina	PRON	IP	Case=Acc|Gender=Masc|Number=Sing	136	det	_	_
 138	ana	ana	ADP	PRP	_	139	case	_	_
 139	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	140	iobj	_	_
-140	šaknā	šaknu	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
+140	šaknā	šaknu	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	134	acl	_	_
 141	aššut	aššu	SCONJ	SBJ	_	152	mark	_	_
 142	ṣābita	ṣābitu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	152	obj	_	_
 143	abbūta	abbūtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	142	nmod	_	_

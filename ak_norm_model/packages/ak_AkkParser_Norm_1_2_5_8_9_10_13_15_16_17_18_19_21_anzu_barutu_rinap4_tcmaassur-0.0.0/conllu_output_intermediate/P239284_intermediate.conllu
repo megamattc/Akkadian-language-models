@@ -8,14 +8,13 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	arītu	arītu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+1	ša	ša	ADP	PRP	_	3	case	_	_
+2	lā	lā	PART	PART	_	3	advmod	_	_
+3	arītu	arītu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
-1	petīti	petû	ADJ	AJ	_	0	ROOT	_	_
+1	petīti	petû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -49,13 +48,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mamma	mamman	PRON	XP	_	2	nsubj	_	_
-2	šiltāhi	šiltāhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
+1	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	šiltāhi	šiltāhu	NOUN	N	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	ul	ul	PART	NEG	_	2	advmod	_	_
-2	islâ	šalû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	u	_	3	nsubj	_	_
+2	ul	ul	PART	NEG	_	3	advmod	_	_
+3	islâ	šalû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -64,7 +62,7 @@
 1	Bel-kina	bel-kina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	appos	_	_
 3	u	u	CONJ	CNJ	_	4	cc	_	_
-4	Babilaya	babilaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Plur	1	conj	_	_
+4	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
 5	maʾdūti	mādu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_

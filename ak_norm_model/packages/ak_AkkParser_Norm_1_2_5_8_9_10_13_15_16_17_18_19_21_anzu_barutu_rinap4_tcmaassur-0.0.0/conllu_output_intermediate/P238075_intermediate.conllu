@@ -181,7 +181,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	riksu	riksu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	riksu	riksu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	itti	itti	ADP	PRP	_	0	ROOT	_	_
 
@@ -319,10 +319,9 @@
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	ašmû	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	ṭuppi	ṭuppu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	ṭuppi	ṭuppu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -332,11 +331,10 @@
 
 1	x{KI}	x{ki}	X	X	_	0	ROOT	_	_
 
-1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	{LU₂}x+x	{lu₂}x+x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+4	{LU₂}x+x	{lu₂}x+x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

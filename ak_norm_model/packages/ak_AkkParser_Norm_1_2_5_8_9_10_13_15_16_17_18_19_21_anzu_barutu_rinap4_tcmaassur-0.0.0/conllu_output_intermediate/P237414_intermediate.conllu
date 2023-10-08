@@ -45,7 +45,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iddinu	tadānu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=Yes|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iddinu	tadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -74,10 +74,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	annīti	annû	DET	DP	Case=Acc|Gender=Fem|Number=Sing	1	det	_	_
+1	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	3	obj	_	_
+3	annīti	annû	DET	DP	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -101,10 +100,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	3	cc	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

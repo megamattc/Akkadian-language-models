@@ -24,8 +24,7 @@
 2	bēlāni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	1	appos	_	_
 3	īdī	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	kî	kī	SCONJ	SBJ	_	3	dep	_	_
-
-1	{URU}x+x	{uru}x+x	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+5	{URU}x+x	{uru}x+x	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -39,22 +38,22 @@
 2	agâ	agâ	DET	DP	_	1	det	_	_
 3	01-me	01-me	NUM	NUM	_	1	nummod	_	_
 4	05	05	NUM	NUM	_	3	conj	_	_
-
-1	ša	ša	PRON	REL	_	4	obj	_	_
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	bēlāni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
-4	upahhiramma	pahāru	VERB	V	Dialect=NB|Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+5	ša	ša	PRON	REL	_	8	obj	_	_
+6	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	bēlāni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	6	appos	_	_
+8	upahhiramma	pahāru	VERB	V	Dialect=NB|Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=D	1	acl	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ušēšibu	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Š	4	obj	_	_
-2	ša	ša	ADP	PRP	_	3	case	_	_
-3	bīssu	bītu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	obl	_	_
-4	naplu	naplu	ADJ	AJ	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	ušēšibu	ašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+
+1	ša	ša	ADP	PRP	_	2	case	_	_
+2	bīssu	bītu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nsubj	_	_
+3	naplu	naplu	ADJ	AJ	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -64,7 +63,7 @@
 
 1	ītepuš	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	3	nsubj	_	_
+1	ša	ša	ADP	PRP	_	2	case	_	_
 2	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nsubj	_	_
 3	halqu	halqu	ADJ	AJ	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
@@ -76,7 +75,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	ADP	PRP	_	2	case	_	_
+1	ša	ša	PRON	REL	_	3	nsubj	_	_
 2	aššassu	aššatu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nsubj	_	_
 3	habtatu	habtu	ADJ	AJ	Dialect=NB|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 
@@ -119,7 +118,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	iddinu	tadānu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=Yes|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	iddinu	tadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	u	u	CONJ	CONJ	_	0	ROOT	_	_
 
@@ -268,7 +267,7 @@
 5	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 6	ipqidanni	paqādu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	2	acl	_	_
 7	adi	adi	ADP	PRP	_	8	case	_	_
-8	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+8	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
 9	ša	ša	ADP	PRP	_	10	case	_	_
 10	enna	enna	ADV	AV	_	8	nmod	_	_
 11	ul	ul	PART	NEG	_	12	advmod	_	_
@@ -283,7 +282,7 @@
 7	kullūnāši	kullu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	0	ROOT	_	_
 8	umma	umma	PART	Quotative	_	12	discourse	_	_
 9	10	10	NUM	NUM	_	10	nummod	_	_
-10	biltu	biltu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	12	obj	_	_
+10	biltu	biltu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	12	obj	_	_
 11	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	10	nmod	_	_
 12	amahharkunūši	mahāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	7	ccomp	_	_
 

@@ -26,14 +26,14 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Ea	ea	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+1	Ea	ea	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	14	vocative	_	_
 2	abūšu	abu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	appos	_	_
-3	Belet-Nina	belet-nina	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+3	Belet-Nina	belet-nina	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
 4	u	u	CONJ	CNJ	_	5	cc	_	_
-5	Madanu	madanu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
-6	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	Madanu	madanu	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+6	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 7	u	u	CONJ	CNJ	_	8	cc	_	_
-8	Zarpaniti	zarpaniti	PROPN	GN	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+8	Zarpaniti	zarpaniti	PROPN	SN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
 9	ana	ana	ADP	PRP	_	10	case	_	_
 10	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	14	iobj	_	_
 11	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	10	appos	_	_
@@ -44,9 +44,8 @@
 1	kalbu	kalbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
 2	mīti	mītu	ADJ	AJ	Case=Nom|Gender=Fem|Number=Sing	1	amod	_	_
 3	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	4	nsubj	_	_
-4	iqabbûnu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	umma	umma	PART	Quotative	_	0	ROOT	_	_
+4	iqabbûnu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+5	umma	umma	PART	Quotative	_	4	discourse	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -61,7 +60,7 @@
 5	eppuš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	3	cc	_	_
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	akarrab	karābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -74,7 +73,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	hassanni	hassu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	hassanni	hassu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -94,7 +93,7 @@
 
 1	ardu	ardu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
-3	bēl	bēlu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	1	conj	_	_
+3	bēl	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	conj	_	_
 4	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
 6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -120,7 +119,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	Ubaru	ubaru	PROPN	PN	_	0	ROOT	_	_
+1	Ubaru	ubaru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -268,7 +267,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Ubaru	ubaru	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Ubaru	ubaru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -331,7 +330,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Zarpanitu	zarpanitu	PROPN	DN	Gender=Fem|Number=Sing	0	ROOT	_	_
+1	Zarpanitu	zarpanitu	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -1,5 +1,5 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
-2	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+2	bīt	bītu	NOUN	N	_	_	_	_	_
 3	itti	itti	ADP	PRP	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
@@ -14,8 +14,8 @@
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
 16	x	x	X	X	_	_	_	_	_
-17	āl	ālu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-18	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+17	āl	ālu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+18	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	17	nmod	_	_
 19	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
@@ -24,7 +24,7 @@
 24	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 25	ana	ana	ADP	PRP	_	26	case	_	_
 26	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	28	iobj	_	_
-27	nukurti	nukurtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+27	nukurti	nukurtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	26	amod	_	_
 28	išappar	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
@@ -130,15 +130,15 @@
 130	x	x	X	X	_	_	_	_	_
 131	x	x	X	X	_	_	_	_	_
 132	01	01	NUM	NUM	_	133	nummod	_	_
-133	narkabtu	narkabtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	134	nsubj	_	_
-134	ṭābu	ṭābu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+133	narkabtu	narkabtu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
+134	ṭābu	ṭābu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	133	amod	_	_
 135	ina	ina	ADP	PRP	_	136	case	_	_
 136	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 137	x	x	X	X	_	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
 139	x	x	X	X	_	_	_	_	_
 140	x	x	X	X	_	_	_	_	_
-141	u	u	CONJ	CNJ	_	_	_	_	_
+141	u	u	CONJ	CONJ	_	142	cc	_	_
 142	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	144	nsubj	_	_
 143	ana	ana	ADP	PRP	_	144	case	_	_
 144	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
@@ -156,9 +156,9 @@
 156	x	x	X	X	_	_	_	_	_
 157	x	x	X	X	_	_	_	_	_
 158	ša	ša	ADP	PRP	_	159	case	_	_
-159	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	161	dislocated	_	_
+159	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
 160	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	159	nmod	_	_
-161	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
+161	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	159	cop	_	_
 162	kî	kī	SCONJ	SBJ	_	167	mark	_	_
 163	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	167	nsubj	_	_
 164	ša	ša	ADP	PRP	_	165	case	_	_

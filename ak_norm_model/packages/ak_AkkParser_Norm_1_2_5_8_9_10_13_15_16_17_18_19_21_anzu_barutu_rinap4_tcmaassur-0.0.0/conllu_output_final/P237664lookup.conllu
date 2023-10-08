@@ -19,7 +19,7 @@
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
 21	ēkallīka	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
-22	x	x	X	X	_	_	_	_	_
+22	x	x	X	X	_	34	nsubj	_	_
 23	palāh	palāhu	VERB	V	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	34	obj	_	_
 24	bēlūtīka	bēlūtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	23	nmod	_	_
 25	u	u	CONJ	CNJ	_	26	cc	_	_
@@ -37,7 +37,7 @@
 37	kalbu	kalbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 38	ša	ša	PRON	REL	_	41	obj	_	_
 39	bīt	bītu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	41	obj	_	_
-40	bēlīšu	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	39	nmod	_	_
+40	bēlīšu	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	39	nmod:poss	_	_
 41	irâmu	râmu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	37	acl	_	_
 42	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
@@ -62,7 +62,7 @@
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	ana	ana	ADP	PRP	_	65	case	_	_
-65	nīš	nīšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	74	obl	_	_
+65	nīš	nīšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	74	iobj	_	_
 66	ili	ilu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	65	nmod	_	_
 67	u	u	CONJ	CNJ	_	68	cc	_	_
 68	mukinnūtu	mukinnūtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	66	conj	_	_
@@ -72,11 +72,11 @@
 72	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	74	obl	_	_
 73	annūtu	annû	DET	DP	Case=Gen|Gender=Masc|Number=Plur	72	det	_	_
 74	lišpuranni	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
-75	u	u	CONJ	CNJ	_	81	cc	_	_
+75	u	u	CONJ	CNJ	_	68	cc	_	_
 76	yānū	yānu	VERB	V	_	81	advmod	_	_
 77	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	81	nsubj	_	_
 78	kî	kī	ADP	PRP	_	79	case	_	_
 79	ša	ša	PRON	REL	_	80	obj	_	_
 80	ileʾʾû	leʾû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	81	obl	_	_
-81	līpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	74	conj	_	_
+81	līpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 82	o	o	X	X	_	_	_	_	_

@@ -80,6 +80,7 @@ exclusions = [
    "bēl ṭābātekunu":[{ORTH:    "bēl ṭābātekunu"}],
    "bēl ṣāltīya": [{ORTH: "bēl ṣāltīya"}],
    "bēl ṣēlti": [{ORTH: "bēl ṣēlti"}],
+   "bēl ṭābātīšu":[{ORTH:    "bēl ṭābātīšu"}],
    "bēl ṭābti":[{ORTH:    "bēl ṭābti"}],
    "bēl ṭābtīya":[{ORTH:    "bēl ṭābtīya"}],
    "bēl tahūmešunu":[{ORTH:    "bēl tahūmešunu"}],
