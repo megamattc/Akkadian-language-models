@@ -36,26 +36,27 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	uherri	herû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	uherri	herû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
-1	āšipu	āšipu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	āšipu	āšipu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
-1	x	x	X	u	_	9	nsubj	_	_
-2	akkāʾi	akkāʾi	PRON	QP	_	9	advmod	_	_
-3	kî	kī	ADP	PRP	_	4	case	_	_
-4	pānīšunu	pānu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	9	nsubj	_	_
-5	ana	ana	ADP	PRP	_	6	case	_	_
-6	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	iobj	_	_
-7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
-8	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	7	appos	_	_
-9	išakkanū	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	akkāʾi	akkāʾi	PRON	QP	_	8	advmod	_	_
+2	kî	kī	ADP	PRP	_	3	case	_	_
+3	pānīšunu	pānu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	8	obl	_	_
+4	ana	ana	ADP	PRP	_	5	case	_	_
+5	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	8	iobj	_	_
+6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
+8	išakkanū	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	4	mark	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	iqabbû	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 5	umma	umma	PART	Quotative	_	4	discourse	_	_
-6	madākti	madaktu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	madākti	madaktu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	4	dep	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -71,7 +72,7 @@
 
 1	x-ti	x-ti	X	X	_	0	ROOT	_	_
 
-1	Barsip	barsip	PROPN	SN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Barsip	barsip	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

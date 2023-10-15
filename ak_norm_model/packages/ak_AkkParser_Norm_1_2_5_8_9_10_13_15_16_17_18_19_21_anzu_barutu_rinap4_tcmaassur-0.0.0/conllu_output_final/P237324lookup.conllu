@@ -1,10 +1,10 @@
-1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	7	nsubj	_	_
+1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	Nur-Ea	nur-ea	PROPN	PN	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	sukkalli	šukkallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
 5	bēlīšu	bēlu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	appos	_	_
 6	lū	lū	PART	PART	_	7	advmod	_	_
-7	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+7	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 8	ana	ana	ADP	PRP	_	9	case	_	_
 9	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	7	nsubj	_	_
 10	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -13,7 +13,7 @@
 13	x	x	X	X	_	_	_	_	_
 14	ṭūbi	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	22	obj	_	_
 15	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	14	nmod	_	_
-16	ṭūbi	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	14	conj	_	_
+16	ṭūbi	ṭūbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
 17	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
 18	ša	ša	ADP	PRP	_	19	case	_	_
 19	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	17	nmod	_	_
@@ -31,13 +31,13 @@
 31	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	29	nmod	_	_
 32	uṣalla	ṣullû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
 33	ana	ana	ADP	PRP	_	34	case	_	_
-34	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	53	obl	_	_
+34	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	53	dislocated	_	_
 35	ša	ša	PRON	REL	_	37	nsubj	_	_
 36	ina	ina	ADP	PRP	_	37	case	_	_
 37	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	34	acl	_	_
 38	ša	ša	PRON	REL	_	40	obl	_	_
 39	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	40	nsubj	_	_
-40	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	34	acl	_	_
+40	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	34	acl	_	_
 41	umma	umma	PART	Quotative	_	45	discourse	_	_
 42	ina	ina	ADP	PRP	_	43	case	_	_
 43	qātē	qātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	45	obl	_	_
@@ -58,7 +58,7 @@
 58	ina	ina	ADP	PRP	_	59	case	_	_
 59	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	62	iobj	_	_
 60	Babilaya	babilaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Plur	59	nmod	_	_
-61	ṭēm	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	62	obj	_	_
+61	ṭēm	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	62	obj	_	_
 62	iškunanni	šakānu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	56	acl	_	_
 63	umma	umma	PART	Quotative	_	64	discourse	_	_
 64	išâmma	šiābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	62	ccomp	_	_
@@ -75,7 +75,7 @@
 75	x	x	X	X	_	_	_	_	_
 76	x	x	X	X	_	_	_	_	_
 77	a	ana	ADP	PRP	_	_	_	_	_
-78	šulum	šulmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	82	obl	_	_
+78	šulum	šulmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	82	obj	_	_
 79	ša	ša	ADP	PRP	_	80	case	_	_
 80	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	78	nmod	_	_
 81	ahīšu	ahu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	82	obj	_	_

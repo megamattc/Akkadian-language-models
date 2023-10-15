@@ -33,7 +33,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CONJ	_	2	cc	_	_
-2	{1}x	{1}x	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+2	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -136,8 +136,9 @@
 2	ašme	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	qātē	qātu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	birīšunu	biri-	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Plur|PresSuffPer=3	1	nmod	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	birīšunu	biri-	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Plur|PresSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -147,10 +148,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Mat-tamti	mat-tamti	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Mat-tamti	mat-tamti	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ardē	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
-1	ardē	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
-2	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	1	cop	_	_
+1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -168,6 +169,6 @@
 6	tašpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	4	acl	_	_
 7	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	10	nsubj	_	_
 8	dīnka	dīnu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	10	obj	_	_
-9	ittīšu	itti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Sing|PrepSuffPer=3	10	obl	_	_
+9	ittīšu	itti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Sing|PrepSuffPer=3	8	nmod	_	_
 10	eppuš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 

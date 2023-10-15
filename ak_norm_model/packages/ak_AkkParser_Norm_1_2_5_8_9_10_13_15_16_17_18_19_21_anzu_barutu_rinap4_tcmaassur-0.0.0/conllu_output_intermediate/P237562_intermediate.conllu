@@ -1,6 +1,6 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	bīt	bītu	NOUN	N	_	0	ROOT	_	_
+1	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	itti	itti	ADP	PRP	_	0	ROOT	_	_
 
@@ -29,8 +29,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	āl	ālu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	1	nmod	_	_
+1	āl	ālu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 
 1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	ROOT	_	_
 
@@ -45,7 +45,7 @@
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	_
-4	nukurti	nukurtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+4	nukurti	nukurtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 5	išappar	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -251,8 +251,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	01	01	NUM	NUM	_	2	nummod	_	_
-2	narkabtu	narkabtu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
-3	ṭābu	ṭābu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+2	narkabtu	narkabtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ṭābu	ṭābu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
@@ -266,9 +266,10 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CONJ	_	2	cc	_	_
-2	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	ana	ana	ADP	PRP	_	4	case	_	_
-4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ul	ul	PART	NEG	_	0	ROOT	_	_
 
@@ -298,7 +299,8 @@
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	cop	_	_
+
+1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	6	mark	_	_
 2	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_

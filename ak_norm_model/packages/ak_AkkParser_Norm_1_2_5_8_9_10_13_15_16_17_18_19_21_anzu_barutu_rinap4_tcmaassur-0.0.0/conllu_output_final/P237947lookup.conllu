@@ -82,7 +82,7 @@
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
 84	mār šiprīšu	mār šiprīšu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
-85	{1}ha-ru-x	{1}ha-ru-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	84	conj	_	_
+85	{1}ha-ru-x	{1}ha-ru-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 86	{LU₂}x	{lu₂}x	NOUN	N	_	_	_	_	_
 87	x-MEŠ-šu₂	x-meš-šu₂	X	X	_	_	_	_	_
 88	ša	ša	PRON	REL	_	_	_	_	_
@@ -97,7 +97,7 @@
 97	libbīšu	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	98	obl	_	_
 98	lišmu	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 99	u	u	CONJ	CNJ	_	100	cc	_	_
-100	šanāti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
+100	šanāti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	119	nsubj	_	_
 101	05	05	NUM	NUM	_	100	nummod	_	_
 102	06	06	NUM	NUM	_	119	nsubj	_	_
 103	ša	ša	PRON	REL	_	109	obl	_	_
@@ -108,7 +108,7 @@
 108	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	107	appos	_	_
 109	ušuzzāka	ušuzzāyu	ADJ	AJ	PredSuffGen=Com|PredSuffNum=Sing|PredSuffPer=1	102	acl:relcl	_	_
 110	amattû	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|Question=Yes	119	obj	_	_
-111	ibaššû	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	110	det	_	_
+111	ibaššû	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	110	amod	_	_
 112	ša	ša	PRON	REL	_	115	obj	_	_
 113	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	115	nsubj	_	_
 114	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	113	appos	_	_
@@ -130,14 +130,14 @@
 130	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	129	appos	_	_
 131	qātā	qātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	132	obj	_	_
 132	iṣṣabta	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
-133	enna	enna	ADV	AV	_	152	advmod	_	_
-134	dibbī	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	152	nsubj	_	_
+133	enna	enna	ADV	AV	_	140	advmod	_	_
+134	dibbī	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	140	dislocated	_	_
 135	agannûtu	agannû	DET	DP	Case=Acc|Gender=Masc|Number=Plur	134	det	_	_
-136	taškinēta	taškintu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	140	obj	_	_
+136	taškinēta	taškintu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	140	nsubj	_	_
 137	šina	šina	PRON	IP	Case=Acc|Gender=Masc|Number=Sing	136	det	_	_
 138	ana	ana	ADP	PRP	_	139	case	_	_
 139	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	140	iobj	_	_
-140	šaknā	šaknu	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	134	acl	_	_
+140	šaknā	šaknu	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
 141	aššut	aššu	SCONJ	SBJ	_	152	mark	_	_
 142	ṣābita	ṣābitu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	152	obj	_	_
 143	abbūta	abbūtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	142	nmod	_	_
@@ -149,7 +149,7 @@
 149	ana	ana	ADP	PRP	_	150	case	_	_
 150	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	152	iobj	_	_
 151	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	150	appos	_	_
-152	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+152	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	170	advcl	_	_
 153	u	u	CONJ	CNJ	_	157	cc	_	_
 154	ša	ša	PRON	REL	_	157	obl	_	_
 155	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	157	nsubj	_	_
@@ -180,7 +180,7 @@
 180	ul	ul	PART	NEG	_	181	advmod	_	_
 181	ušeqbi	qabû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Š	178	conj	_	_
 182	u	u	CONJ	CNJ	_	184	cc	_	_
-183	mādamma	mādu	ADJ	AJ	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	184	advmod	_	_
+183	mādamma	mādu	ADJ	AJ	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	184	obj	_	_
 184	ušaklûšu	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	181	conj	_	_
 185	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	189	nsubj	_	_
 186	ša	ša	PRON	REL	_	187	obj	_	_

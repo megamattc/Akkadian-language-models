@@ -9,21 +9,21 @@
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	abīya	abu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nsubj	_	_
 
-1	Šamaš	šamšu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-2	balāṭka	balāṭu	VERB	V	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	obj	_	_
+1	Šamaš	šamšu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+2	balāṭka	balāṭu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
-5	ṣâti	ṣiātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	4	nmod	_	_
-6	liqbi	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+5	ṣâti	ṣiātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	6	obj	_	_
+6	liqbi	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	03	03	NUM	NUM	_	3	nummod	_	_
-2	04-ta	04-ta	NUM	NUM	_	1	conj	_	_
-3	šiprēti	šipirtu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+1	03	03	NUM	NUM	_	2	nummod	_	_
+2	04-ta	04-ta	NUM	NUM	_	3	nummod	_	_
+3	šiprēti	šipirtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	5	obj	_	_
 4	kî	kī	SCONJ	SBJ	_	5	mark	_	_
-5	ašpurakka	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	0	ROOT	_	_
+5	ašpurakka	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	8	advcl	_	_
 6	gabarû	gabarû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 7	ul	ul	PART	NEG	_	8	advmod	_	_
-8	āmur	amāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	5	conj	_	_
+8	āmur	amāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	nakari	nakru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -99,17 +99,17 @@
 1	Bel-ahu-iddin	bel-ahu-iddin	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 2	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
-4	Šarra	šarru	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-5	ahātīšu	ahātu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	appos	_	_
-6	išaʾʾal	šâlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	Šarra	šarru	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ahātīšu	ahātu	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	6	obj	_	_
+6	išaʾʾal	šâlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	Bel-ahu-iddin	bel-ahu-iddin	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+1	Bel-ahu-iddin	bel-ahu-iddin	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
 2	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	Bel-bulliṭ	bel-bulliṭ	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-5	Nabu-naʾid	nabu-naʾid	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+5	Nabu-naʾid	nabu-naʾid	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 6	u	u	CONJ	CNJ	_	7	cc	_	_
-7	Nergal-eṭir	nergal-eṭir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+7	Nergal-eṭir	nergal-eṭir	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_
 8	ahhēšu	ahu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
-9	išaʾʾal	šâlu	VERB	V	_	0	ROOT	_	_
+9	išaʾʾal	šâlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 

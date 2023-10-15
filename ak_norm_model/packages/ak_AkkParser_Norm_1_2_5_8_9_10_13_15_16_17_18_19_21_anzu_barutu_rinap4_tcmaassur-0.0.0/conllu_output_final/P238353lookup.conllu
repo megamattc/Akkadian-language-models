@@ -5,7 +5,7 @@
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	iobj	_	_
 7	lā	lā	PART	NEG	_	8	advmod	_	_
-8	ṭābi	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+8	ṭābi	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	9	dep	_	_
 9	ippušū	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 10	aššu	aššu	ADP	PRP	_	11	case	_	_
 11	Tabalaya	tabalaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	17	dislocated	_	_
@@ -18,7 +18,7 @@
 18	kî	kī	SCONJ	SBJ	_	19	mark	_	_
 19	išriqu	šarāqu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	24	advcl	_	_
 20	ana	ana	ADP	PRP	_	21	case	_	_
-21	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	24	obl	_	_
+21	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	24	iobj	_	_
 22	ana	ana	ADP	PRP	_	23	case	_	_
 23	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	24	iobj	_	_
 24	ittadin	nadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -77,9 +77,9 @@
 77	bītu	bītu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	76	nmod	_	_
 78	ard̄īka	ardu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	77	nmod	_	_
 79	ihtepēma	hepû	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	73	conj	_	_
-80	x	x	X	X	_	83	nsubj	_	_
+80	x	x	X	X	_	_	_	_	_
 81	malā	mala	PRON	AJ	_	82	case	_	_
-82	napšāti	napištu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	83	obl	_	_
+82	napšāti	napištu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	83	obj	_	_
 83	liššimma	našû	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
 84	šittūtu	šittu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	85	nsubj	_	_
 85	lišmû	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	83	conj	_	_
@@ -91,7 +91,7 @@
 91	x	x	X	X	_	_	_	_	_
 92	KIN	kin	X	X	_	_	_	_	_
 93	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	97	nsubj	_	_
-94	izzirti	izzirtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	97	nsubj	_	_
+94	izzirti	izzirtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	97	obj	_	_
 95	ina	ina	ADP	PRP	_	96	case	_	_
 96	bītišunu	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	97	obl	_	_
 97	šaknatu	šaknu	ADJ	AJ	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
@@ -110,7 +110,7 @@
 110	x	x	X	X	_	_	_	_	_
 111	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
 112	u	u	CONJ	CNJ	_	113	cc	_	_
-113	ṣābē	ṣābu	NOUN	N	Gender=Masc|Number=Plur	_	_	_	_
+113	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 114	x	x	X	X	_	_	_	_	_
 115	x	x	X	X	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_

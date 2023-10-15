@@ -15,7 +15,7 @@
 15	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
 16	u	u	CONJ	CONJ	_	17	cc	_	_
 17	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
-18	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+18	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	31	obl	_	_
 19	mala	mala	PRON	REL	_	25	obl	_	_
 20	ašar	ašru	PRON	REL	_	19	fixed	_	_
 21	pānī	pānu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
@@ -30,7 +30,7 @@
 30	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	28	appos	_	_
 31	lušakšidū	kašādu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=Š	_	_	_	_
 32	Nabu-zeru-iddina	nabu-zeru-iddina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-33	mār Barsip	mār barsip	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	32	conj	_	_
+33	mār Barsip	mār barsip	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	32	appos	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
@@ -39,7 +39,7 @@
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x+x-ma	x+x-ma	X	X	_	_	_	_	_
-42	Nabu-ušešib	nabu-ušešib	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
+42	Nabu-ušešib	nabu-ušešib	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	44	obj	_	_
 43	Puqudaya	puqudaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	42	appos	_	_
 44	ušakkirū	nakāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	_	_	_	_
 45	u	u	CONJ	CNJ	_	51	cc	_	_
@@ -54,12 +54,12 @@
 54	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	53	cop	_	_
 55	ultu	ištu	ADP	PRP	_	56	case	_	_
 56	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	62	mark	_	_
-57	ša	ša	PRON	REL	_	62	obl	_	_
-58	bēl	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	62	nsubj	_	_
-59	šarrāni	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	58	nmod:poss	_	_
+57	ša	ša	PRON	REL	_	56	fixed	_	_
+58	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	62	nsubj	_	_
+59	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	58	nmod:poss	_	_
 60	ana	ana	ADP	PRP	_	61	case	_	_
 61	Barsip	barsip	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	62	iobj	_	_
-62	ušēribanni	erēbu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	66	advcl	_	_
+62	ušēribanni	erēbu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
 63	kî	kī	SCONJ	SBJ	_	64	mark	_	_
 64	ubaʾʾûšu	buʾʾû	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	66	advcl	_	_
 65	ul	ul	PART	NEG	_	66	advmod	_	_
@@ -77,14 +77,14 @@
 77	ṣilli	ṣillu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	84	obl	_	_
 78	ša	ša	ADP	PRP	_	79	case	_	_
 79	bēl	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	77	nmod	_	_
-80	šarrāni	šarru	NOUN	N	Gender=Masc|Number=Plur	79	nmod:poss	_	_
+80	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	79	nmod:poss	_	_
 81	ana	ana	ADP	PRP	_	82	case	_	_
 82	qātīya	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	84	iobj	_	_
 83	kî	kī	SCONJ	SBJ	_	84	mark	_	_
 84	inqutu	maqātu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	90	advcl	_	_
 85	ana	ana	ADP	PRP	_	86	case	_	_
 86	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	90	iobj	_	_
-87	bēl	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	86	nmod:poss	_	_
+87	bēl	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	86	nmod	_	_
 88	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	87	nmod:poss	_	_
 89	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	87	appos	_	_
 90	altapraššu	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_

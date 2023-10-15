@@ -10,7 +10,7 @@
 3	u	u	CONJ	CNJ	_	4	cc	_	_
 4	Šamaš	šamšu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
-6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	iobj	_	_
 7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
 8	likrubūšu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
@@ -39,8 +39,9 @@
 1	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obj	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	b̄ēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
-4	lušētiqū	etēqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	0	ROOT	_	_
-5	 	 	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	4	obl	_	SpaceAfter=No
+4	lušētiqū	etēqu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=Š	0	ROOT	_	_
+
+1	 	 	VERB	V	Focus=No|Gender=Masc|Number=Sing|Person=3|Subordinative=No|Tense=Pres|Ventive=No|VerbStem=G	0	ROOT	_	SpaceAfter=No
 
 1	1	1	NUM	NUM	_	5	mark	_	_
 2	bibbu	bibbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	5	nsubj	_	_
@@ -50,8 +51,9 @@
 6	šaqê	šaqû	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	8	conj	_	_
 7	mahīri	mahīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	napāš	napāšu	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
-9	Nisaba	nisaba	PROPN	N	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
-10	 	 	NOUN	V	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	8	conj	_	SpaceAfter=No
+9	Nisaba	nisaba	PROPN	N	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+
+1	 	 	ADJ	V	_	0	ROOT	_	SpaceAfter=No
 
 1	1	1	NUM	NUM	_	0	ROOT	_	_
 
@@ -242,8 +244,7 @@
 
 1	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	umma	umma	PART	Quotative	_	1	discourse	_	_
-
-1	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	1	dep	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -256,8 +257,8 @@
 1	ul	ul	PART	NEG	_	2	advmod	_	_
 2	anamdaššunūti	nadānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
-1	mamma	mamman	PRON	XP	_	2	nsubj	_	_
-2	kaspu	kaspu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	kaspu	kaspu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -287,10 +288,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša-rēšāni	ša-rēši	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	ul	ul	PART	NEG	_	2	advmod	_	_
-2	anamdinma	nadānu	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ša-rēšāni	ša-rēši	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	3	obj	_	_
+2	ul	ul	PART	NEG	_	3	advmod	_	_
+3	anamdinma	nadānu	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ṭēmēʾa	ṭēmu	NOUN	N	Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
@@ -305,13 +305,13 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	6	nsubj	_	_
-2	šarrāni	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	1	nmod:poss	_	_
+2	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	_
 3	kî	kī	ADP	PRP	_	4	case	_	_
 4	ša	ša	PRON	REL	_	5	obj	_	_
 5	ileʾʾû	leʾû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	6	obl	_	_
 6	līpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	 	 	NOUN	V	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+1	 	 	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	SpaceAfter=No
 
 1	x	x	X	X	_	0	ROOT	_	_
 

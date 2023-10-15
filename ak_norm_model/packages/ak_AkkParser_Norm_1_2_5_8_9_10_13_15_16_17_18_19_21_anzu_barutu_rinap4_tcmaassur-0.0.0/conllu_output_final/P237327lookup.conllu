@@ -34,10 +34,10 @@
 34	x	x	X	X	_	_	_	_	_
 35	ša	ša	PRON	REL	_	37	nsubj	_	_
 36	ina	ina	ADP	PRP	_	37	case	_	_
-37	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	38	iobj	_	_
+37	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	38	obl	_	_
 38	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	_	_	_	_
-39	umma	umma	PART	Quotative	_	_	_	_	_
-40	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	39	dep	_	_
+39	umma	umma	PART	Quotative	_	40	discourse	_	_
+40	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 41	mala	mala	PRON	REL	_	42	obj	_	_
 42	ippušū	epēšu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	40	acl	_	_
 43	ana	ana	ADP	PRP	_	44	case	_	_
@@ -49,8 +49,8 @@
 49	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	50	iobj	_	_
 50	išapparū	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 51	u	u	CONJ	CNJ	_	52	cc	_	_
-52	etēqušunu	etēqu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3|VerbForm=Inf|VerbStem=G	50	conj	_	_
-53	nasāhu	nasāhu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	52	conj	_	_
+52	etēqušunu	etēqu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3|VerbForm=Inf|VerbStem=G	53	obj	_	_
+53	nasāhu	nasāhu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	ultu	ištu	ADP	PRP	_	57	case	_	_
@@ -58,7 +58,7 @@
 58	{URU}x+x	{uru}x+x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	57	nmod	_	_
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
-61	{1}x+x	{1}x+x	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
+61	{1}x+x	{1}x+x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x+x-MEŠ	x+x-meš	X	X	_	_	_	_	_
@@ -76,7 +76,7 @@
 76	x	x	X	X	_	_	_	_	_
 77	x	x	X	X	_	_	_	_	_
 78	x	x	X	X	_	_	_	_	_
-79	dibbī	dibbu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+79	dibbī	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 80	lā	lā	PART	NEG	_	_	_	_	_
 81	ir-ri-x	ir-ri-x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
@@ -91,7 +91,7 @@
 91	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 92	mā	mā	PART	Quotative	_	94	discourse	_	_
 93	minamma	minamma	PRON	QP	_	94	advmod	_	_
-94	ibakkû	bakû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	91	ccomp	_	_
+94	ibakkû	bakû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	91	conj	_	_
 95	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 96	u	u	CONJ	CNJ	_	97	cc	_	_
 97	milki	milku	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	95	conj	_	_
@@ -104,9 +104,9 @@
 104	annîmma	annû	PRON	DP	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	103	nmod	_	_
 105	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	106	nsubj	_	_
 106	lumassi	wussû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	_	_	_	_
-107	kî	kī	SCONJ	SBJ	_	108	mark	_	_
+107	kî	kī	SCONJ	SBJ	_	_	_	_	_
 108	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	_	_	_	_
-109	ša	ša	PRON	REL	_	111	nsubj	_	_
+109	ša	ša	PRON	REL	_	108	dep	_	_
 110	ina	ina	ADP	PRP	_	111	case	_	_
 111	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	108	dep	_	_
 112	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	111	nmod	_	_
@@ -115,7 +115,7 @@
 115	x	x	X	X	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_
 117	x+x	x+x	X	X	_	_	_	_	_
-118	DU₃	du₃	X	X	_	_	_	_	_
+118	DU₃	du₃	PROPN	X	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 119	u	u	CONJ	CNJ	_	_	_	_	_
 120	kî	kī	ADP	PRP	_	121	case	_	_
 121	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_

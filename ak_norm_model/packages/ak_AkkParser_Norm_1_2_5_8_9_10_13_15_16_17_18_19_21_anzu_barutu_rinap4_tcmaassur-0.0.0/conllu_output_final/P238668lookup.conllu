@@ -27,7 +27,7 @@
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
-30	ittaṣaʾ	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
+30	ittaṣaʾ	aṣû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
 31	x	x	X	X	_	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
@@ -35,7 +35,7 @@
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
-38	qinnīya	qinnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+38	qinnīya	qinnu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
@@ -44,7 +44,7 @@
 44	x	x	X	X	_	_	_	_	_
 45	x-ša₂	x-ša₂	X	X	_	_	_	_	_
 46	ša	ša	PRON	REL	_	_	_	_	_
-47	amru	amru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+47	amru	amru	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 48	x+x	x+x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
@@ -61,9 +61,9 @@
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
-64	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+64	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	66	nsubj	_	_
 65	ana	ana	ADP	PRP	_	66	case	_	_
-66	arrakāti	arkītu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	64	nsubj	_	_
+66	arrakāti	arkītu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 67	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 68	x{KI}-MEŠ	x{ki}-meš	X	X	_	_	_	_	_
 69	gabbi	gabbu	DET	DP	_	_	_	_	_
@@ -75,12 +75,12 @@
 75	x	x	X	X	_	_	_	_	_
 76	x+x-ni	x+x-ni	X	X	_	_	_	_	_
 77	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-78	mār	māru	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-79	idâkšunūti	dâku	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	78	nmod	_	_
+78	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+79	idâkšunūti	dâku	VERB	V	Case=Gen|Gender=Masc|Number=Plur	78	nmod	_	_
 80	x	x	X	X	_	_	_	_	_
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
-83	āhuzma	ahāzu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G	_	_	_	_
+83	āhuzma	ahāzu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
 84	uš-x	uš-x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
@@ -88,7 +88,7 @@
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
 90	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
-91	kî	kī	ADP	PRP	_	_	_	_	_
+91	kî	kī	SCONJ	SBJ	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
@@ -96,8 +96,8 @@
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
-99	tattūr	târu	VERB	V	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-100	{d}x	{d}x	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+99	tattūr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+100	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
 103	x	x	X	X	_	_	_	_	_

@@ -38,7 +38,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	03	03	NUM	NUM	_	2	discourse	_	_
+1	03	03	NUM	NUM	_	2	nummod	_	_
 2	kurru	kurru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	0	ROOT	_	_
@@ -53,10 +53,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	nsubj	_	_
-2	immeru	immeru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	ša	ša	ADP	PRP	_	4	case	_	_
-4	{1}x+x	{1}x+x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	immeru	immeru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	{1}x+x	{1}x+x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -70,7 +71,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	02	02	NUM	NUM	_	2	nsubj	_	_
+1	02	02	NUM	NUM	_	2	nummod	_	_
 2	kurru	kurru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	0	ROOT	_	_
