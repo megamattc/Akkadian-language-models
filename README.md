@@ -9,16 +9,24 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 
 * SAA 1 - Letters from the royal archives of Sargon II (r. 721-705): Assyria and the West. 100% complete.
 * SAA 2 - Neo-Assyrian treaties and oaths. 100% complete.
+* SAA 3 - Court Poetry and Literary Miscellanea. 0% complete.
+* SAA 4 - Queries to the Sungod: Divination and Politics in Sargonid Assyria. 0% complete.
 * SAA 5 - Letters from the royal archives of Sargon II (r. 721-705): North and Northeast. 100% complete. 
+* SAA 6 - Legal Transactions of the Royal Court of Nineveh, Part I: Tiglath-Pileser III through Esarhaddon. 0% complete.
+* SAA 7 - Imperial Administrative Records, Part I: Palace and Temple Administration. 0% complete.
 * SAA 8 - Astrological reports. 1% complete.
 * SAA 9 - Assyrian prophecies. %100 complete.
 * SAA 10 - Letters from Assyrian and Babylonian scholars. 8% complete.
+* SAA 11 - Imperial Administrative Records, Part II: Provincial and Military Administration. 0% complete.
+* SAA 12 - Grants, Decres and Gifts of the Neo-Assyrian Period. 0% complete.
 * SAA 13 - Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal. 10% complete.
+* SAA 14 - Legal Transactions of the Royal Court of Nineveh, Part II: Assurbanipal Through Sin-šarru-iškun. 0% complete.
 * SAA 15 - Further letters of Sargon II: Babylonia and the eastern provinces. 100% complete.
 * SAA 16 - Political correspondence of Esarhaddon. 13% complete.
 * SAA 17 - The Neo-Babylonian Correspondence of Sargon and Sennacherib. 100% complete.
-* SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 70% complete.
+* SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 100% complete.
 * SAA 19 - Letters of Tiglath-Pileser III and Sargon II from Calah/Nimrud. 1% complete.
+* SAA 20 - Assyrian Royal Rituals and Cultic Texts. 0% complete.
 * SAA 21 - Letters of Assurbanipal: Assyria, Babylonia, and vassal states. %100 complete.
 
 A few additional Oracc projects also provide the following data:
