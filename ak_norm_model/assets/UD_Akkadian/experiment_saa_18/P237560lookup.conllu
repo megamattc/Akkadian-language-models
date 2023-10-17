@@ -1,4 +1,5 @@
-1	x	x	X	X	_	0	ROOT	_	_
+# text = x x x x x x x x x da da x+x x x x x x x x-ka-aʾ i-le-x x x x x x x+x ahūšu x x x x x x-ši išpurannāši x x x x Bel-eṭir lā taraʾāma x x x x x x+x-ha-aʾ-šu₂-nu-ti x x x x x x+x-a kî ildudu x x x ina Babili iltaknū x x x x x illaka amassu ana pîšu x x x x x x mahrî ugallibū x x x x x x x x x x+x hassāta x x x x x x x x x x x x x
+1	x	x	X	X	_	_	_	_	_
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
@@ -31,14 +32,14 @@
 31	x	x	X	X	_	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x-ši	x-ši	X	X	_	_	_	_	_
-34	išpurannāši	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
+34	išpurannāši	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
-39	Bel-eṭir	bel-eṭir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+39	Bel-eṭir	bel-eṭir	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	41	obj	_	_
 40	lā	lā	PART	NEG	_	41	advmod	_	_
-41	taraʾāma	râmu	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	_	_	_	_
+41	taraʾāma	râmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G|Ventive=Yes	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -52,7 +53,7 @@
 52	x	x	X	X	_	_	_	_	_
 53	x+x-a	x+x-a	X	X	_	_	_	_	_
 54	kî	kī	SCONJ	SBJ	_	55	mark	_	_
-55	ildudu	šadādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+55	ildudu	šadādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|Subordinative=Yes|Dialect=NB	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
 57	x	x	X	X	_	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
@@ -74,8 +75,8 @@
 74	x	x	X	X	_	_	_	_	_
 75	x	x	X	X	_	_	_	_	_
 76	x	x	X	X	_	_	_	_	_
-77	mahrî	mahrû	NOUN	N	Case=Ter|Gender=Masc|Number=Sing	78	obj	_	_
-78	ugallibū	gullubu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	_	_	_	_
+77	mahrî	mahrû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+78	ugallibū	gullubu	VERB	V	Gender=Masc|Number=Plur|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|VerbStem=D	_	_	_	_
 79	x	x	X	X	_	_	_	_	_
 80	x	x	X	X	_	_	_	_	_
 81	x	x	X	X	_	_	_	_	_
@@ -86,7 +87,7 @@
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
 88	x+x	x+x	X	X	_	_	_	_	_
-89	hassāta	hassu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
+89	hassāta	hassu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|VerbForm=Stat|VerbStem=G	_	_	_	_
 90	x	x	X	X	_	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
@@ -100,3 +101,4 @@
 100	x	x	X	X	_	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
+

@@ -1,3 +1,4 @@
+# text = ṭuppi {1}x x x x x ana x x x bēlīya Nabu u Marduk ana bēlīya likrubū x x x x x x 03 kurru ana x x x x x x immeru ša {1}x+x x x Ina-ṣil-Bel x x x 02 kurru ana x+x x x x x ša Hašdaya x+x x x x adi qīti Tašriti x+x x x x bēlā liddin o
 1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	x	x	X	X	_	_	_	_	_
@@ -30,12 +31,12 @@
 30	x	x	X	X	_	_	_	_	_
 31	x	x	X	X	_	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
-33	immeru	immeru	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+33	immeru	immeru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 34	ša	ša	ADP	PRP	_	35	case	_	_
-35	{1}x+x	{1}x+x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+35	{1}x+x	{1}x+x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
-38	Ina-ṣil-Bel	ina-ṣil-bel	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+38	Ina-ṣil-Bel	ina-ṣil-bel	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
@@ -54,7 +55,7 @@
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	adi	adi	ADP	PRP	_	57	case	_	_
-57	qīti	qītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+57	qīti	qītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|NounBase=Bound	64	obl	_	_
 58	Tašriti	tašriti	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	57	nmod	_	_
 59	x+x	x+x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
@@ -63,3 +64,4 @@
 63	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	64	nsubj	_	_
 64	liddin	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 65	o	o	X	X	_	_	_	_	_
+

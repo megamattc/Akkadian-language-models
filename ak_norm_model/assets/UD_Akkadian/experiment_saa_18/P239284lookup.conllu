@@ -1,16 +1,17 @@
-1	x	x	X	X	_	0	ROOT	_	_
+# text = x x x x x ša lā arītu o petīti x x alṭuru x kīni x+x x x ittīšu x+x x x x x x x mamma šiltāhi x ul islâ x x Bel-kina māršu u Babilaya maʾdūti x x u bēl ṭābti x+x x x x x ma x+x x x x
+1	x	x	X	X	_	_	_	_	_
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
-6	ša	ša	PRON	REL	_	8	nsubj	_	_
+6	ša	ša	PRON	REL	_	_	_	_	_
 7	lā	lā	PART	NEG	_	8	advmod	_	_
-8	arītu	arītu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+8	arītu	arītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 9	o	o	X	X	_	_	_	_	_
 10	petīti	petû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
-13	alṭuru	šaṭāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+13	alṭuru	šaṭāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G|Subordinative=Yes	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	kīni	kīnu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 16	x+x	x+x	X	X	_	_	_	_	_
@@ -24,18 +25,18 @@
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
-27	mamma	mamman	PRON	XP	_	_	_	_	_
-28	šiltāhi	šiltāhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	27	nmod	_	_
-29	x	x	X	u	_	_	_	_	_
+27	mamma	mamman	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+28	šiltāhi	šiltāhu	NOUN	N	Gender=Masc|Number=Sing|Case=Acc	31	obj	_	_
+29	x	x	X	X	_	_	_	_	_
 30	ul	ul	PART	NEG	_	31	advmod	_	_
-31	islâ	šalû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+31	islâ	šalû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|Ventive=Yes	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	Bel-kina	bel-kina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-35	māršu	māru	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	34	appos	_	_
+35	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	34	appos	_	_
 36	u	u	CONJ	CNJ	_	37	cc	_	_
-37	Babilaya	babilaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Plur	35	conj	_	_
-38	maʾdūti	mādu	ADJ	AJ	Gender=Masc|Number=Plur	34	appos	_	_
+37	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	34	conj	_	_
+38	maʾdūti	mādu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	37	amod	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	u	u	CONJ	CONJ	_	42	cc	_	_
@@ -50,3 +51,4 @@
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
+

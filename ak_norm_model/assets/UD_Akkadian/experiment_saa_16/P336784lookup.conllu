@@ -7,11 +7,11 @@
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
 9	lū	lū	PART	PART	_	10	advmod	_	_
-10	šulmu	šulmu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+10	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 11	ana	ana	ADP	PRP	_	12	case	_	_
 12	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	_
 13	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
-14	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+14	Bel	bel	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	20	nsubj	_	_
 15	u	u	CONJ	CONJ	_	16	cc	_	_
 16	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
 17	ana	ana	ADP	PRP	_	18	case	_	_
@@ -42,7 +42,7 @@
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	ana	ana	ADP	PRP	_	45	case	_	_
-45	{LU₂}x	{lu₂}x	X	X	_	_	_	_	_
+45	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
@@ -65,7 +65,7 @@
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x+x	x+x	X	X	_	_	_	_	_
-68	ina	ina	ADP	PRP	_	_	_	_	_
+68	ina	ina	ADP	PRP	_	69	case	_	_
 69	ma-x	ma-x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
@@ -86,8 +86,8 @@
 86	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 87	issu	ištu	ADP	PRP	_	88	case	_	_
 88	{KUR}x	{kur}x	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-89	x	x	X	u	_	90	nsubj	_	_
-90	ubâru	bâru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
+89	x	x	X	X	_	90	nsubj	_	_
+90	ubâru	bâru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
 91	u	u	CONJ	CNJ	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_

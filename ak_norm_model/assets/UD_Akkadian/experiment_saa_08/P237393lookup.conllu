@@ -11,7 +11,7 @@
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
-14	šamê	šamû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
+14	šamê	šamû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	16	nsubj	_	_
 15	ana	ana	ADP	PRP	_	16	case	_	_
 16	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
@@ -22,31 +22,31 @@
 22	ūmē	ūmu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 23	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	22	amod	_	_
 24	u	u	CONJ	CNJ	_	25	cc	_	_
-25	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	22	conj	_	_
+25	ṭūb	ṭūbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	22	conj	_	_
 26	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
-30	 	 	ADJ	V	_	_	_	_	SpaceAfter=No
-31	1	1	NUM	NUM	_	36	nsubj	_	_
+30	 	 	NUM	N	_	_	_	_	SpaceAfter=No
+31	1	1	NUM	NUM	_	36	mark	_	_
 32	ina	ina	ADP	PRP	_	33	case	_	_
-33	Kislimi	kislimi	PROPN	MN	Case=Gen	36	obl	_	_
+33	Kislimi	kislimi	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	36	obl	_	_
 34	Adad	adad	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
-35	rigimšu	rigmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	36	obj	_	_
+35	rigimšu	rigmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	34	appos	_	_
 36	iddi	nadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 37	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
-42	nuhuš	nuhšu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G	_	_	_	_
-43	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	42	dep	_	_
-44	mātu	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+42	nuhuš	nuhšu	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+43	nišī	nišu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	42	obj	_	_
+44	mātu	mātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	43	nmod	_	_
 45	x+x	x+x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
-49	 	 	X	X	_	_	_	_	SpaceAfter=No
+49	 	 	NOUN	N	_	_	_	_	SpaceAfter=No
 50	ša	ša	PRON	REL	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_

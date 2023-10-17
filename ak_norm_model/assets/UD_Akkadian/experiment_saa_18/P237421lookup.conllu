@@ -1,4 +1,5 @@
-1	x	x	X	X	_	0	ROOT	_	_
+# text = x x x x šû x+x x x x x x x Bel u Nabu ša ūmē arkūti x x x x ṭūb libbi ṭūb šīri x x x x x x x mimmu mala šarru x x x x x x lunessišunūti x x x x x x x x x dāmu u₂-x x x x x x x x x x-da-ak x x x x x x x x x x+x eqlu x x x x x x x x x x x x x x x x x x x x x x x x x x x+x x x x x x x x x x x x nišī x x x x x x x x x x x x x x x x x x x x a-x x x ana abi x x x x x x x {1}x x-an-ni māršu ša {1}x x x x x x zammāru ša šarru ana x x x x x ana muhhi bītīšu ša lā šarru x x x x x x x x x x x x x x x x x x x x
+1	x	x	X	X	_	_	_	_	_
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
@@ -13,9 +14,9 @@
 13	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 14	u	u	CONJ	CONJ	_	15	cc	_	_
 15	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
-16	ša	ša	ADP	PRP	_	17	case	_	_
-17	ūmē	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	_
-18	arkūti	arku	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	17	amod	_	_
+16	ša	ša	PRON	REL	_	_	_	_	_
+17	ūmē	ūmu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+18	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
@@ -40,7 +41,7 @@
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
-43	lunessišunūti	nesû	VERB	V	_	_	_	_	_
+43	lunessišunūti	nesû	VERB	V	Gender=Masc|Number=Sing|Person=3|Mood=Prec|VerbStem=D|VerbSuffNum=Plur|VerbSuffPer=3|VerbSuffGen=Masc|Dialect=NB	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
@@ -145,7 +146,7 @@
 145	x	x	X	X	_	_	_	_	_
 146	{1}x	{1}x	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 147	x-an-ni	x-an-ni	X	X	_	_	_	_	_
-148	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+148	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	146	appos	_	_
 149	ša	ša	ADP	PRP	_	150	case	_	_
 150	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	148	nmod	_	_
 151	x	x	X	X	_	_	_	_	_
@@ -154,7 +155,7 @@
 154	x	x	X	X	_	_	_	_	_
 155	x	x	X	X	_	_	_	_	_
 156	zammāru	zammāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-157	ša	ša	PRON	REL	_	156	dep	_	_
+157	ša	ša	PRON	REL	_	_	_	_	_
 158	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 159	ana	ana	ADP	PRP	_	_	_	_	_
 160	x	x	X	X	_	_	_	_	_
@@ -165,8 +166,8 @@
 165	ana	ana	ADP	PRP	_	166	case	_	_
 166	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 167	bītīšu	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	166	nmod	_	_
-168	ša	ša	PRON	REL	_	169	nsubj	_	_
-169	lā	lā	PART	NEG	_	170	advmod	_	_
+168	ša	ša	PRON	REL	_	170	nsubj	_	_
+169	lā	lā	PART	PART	_	170	advmod	_	_
 170	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 171	x	x	X	X	_	_	_	_	_
 172	x	x	X	X	_	_	_	_	_
@@ -188,3 +189,4 @@
 188	x	x	X	X	_	_	_	_	_
 189	x	x	X	X	_	_	_	_	_
 190	x	x	X	X	_	_	_	_	_
+

@@ -1,4 +1,5 @@
-1	i-x+x	i-x+x	X	X	_	0	ROOT	_	_
+# text = i-x+x x x x x x x x x x x u nību u₂-x x x x x x x illakūni x x x x x x x mārēšunu ta-x x x x x x x u ana kutallu x x x x x x x arkāniš kî x x x x x x iddūkū x x x x x x kî ša hīṭu x x x x x x x ina pān Bel u Nabu x x x x x x-ka it-x x x x x x x x u qātēka x x x x x x x x minû ki-x x x x x x x ana ilāni ta-x x x x x x x Aplaya mār {1}{d}AG-x x x x x x x x ša Amurru-upahhir x x x x x x x ša ultu Mat-Aššur x x x x x x x x+x u₂ x+x x x x x x x x x šipirti ana x x x x x x x x x x x x x
+1	i-x+x	i-x+x	X	X	_	_	_	_	_
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
@@ -18,7 +19,7 @@
 18	x	x	X	X	_	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
-21	illakūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+21	illakūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Person=3|Number=Plur|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
@@ -26,7 +27,7 @@
 26	x	x	X	X	_	_	_	_	_
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
-29	mārēšunu	māru	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
+29	mārēšunu	māru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 30	ta-x	ta-x	X	X	_	_	_	_	_
 31	x	x	X	X	_	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
@@ -45,7 +46,7 @@
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	arkāniš	arkāniš	ADV	AV	_	_	_	_	_
-48	kî	kī	SCONJ	SBJ	_	_	_	_	_
+48	kî	kī	ADP	PRP	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
@@ -61,7 +62,7 @@
 61	x	x	X	X	_	_	_	_	_
 62	kî	kī	ADP	PRP	_	63	case	_	_
 63	ša	ša	PRON	REL	_	_	_	_	_
-64	hīṭu	hīṭu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+64	hīṭu	hīṭu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
@@ -88,8 +89,8 @@
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
 90	x	x	X	X	_	_	_	_	_
-91	u	u	CONJ	CONJ	_	92	cc	_	_
-92	qātēka	qātu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
+91	u	u	CONJ	CNJ	_	92	cc	_	_
+92	qātēka	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
@@ -116,8 +117,8 @@
 116	x	x	X	X	_	_	_	_	_
 117	x	x	X	X	_	_	_	_	_
 118	Aplaya	aplaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-119	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-120	{1}{d}AG-x	{1}{d}ag-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	119	nmod:poss	_	_
+119	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	118	appos	_	_
+120	{1}{d}AG-x	{1}{d}ag-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	119	nmod	_	_
 121	x	x	X	X	_	_	_	_	_
 122	x	x	X	X	_	_	_	_	_
 123	x	x	X	X	_	_	_	_	_
@@ -134,7 +135,7 @@
 134	x	x	X	X	_	_	_	_	_
 135	x	x	X	X	_	_	_	_	_
 136	x	x	X	X	_	_	_	_	_
-137	ša	ša	PRON	REL	_	_	_	_	_
+137	ša	ša	PRON	REL	_	139	nsubj	_	_
 138	ultu	ištu	ADP	PRP	_	139	case	_	_
 139	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 140	x	x	X	X	_	_	_	_	_
@@ -170,3 +171,4 @@
 170	x	x	X	X	_	_	_	_	_
 171	x	x	X	X	_	_	_	_	_
 172	x	x	X	X	_	_	_	_	_
+

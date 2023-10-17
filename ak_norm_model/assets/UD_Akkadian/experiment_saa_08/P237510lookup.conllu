@@ -6,46 +6,46 @@
 6	Šamaš	šamšu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
 7	itti	itti	ADP	PRP	_	8	case	_	_
 8	ahāmeš	ahāmiš	ADV	AV	Case=Ter	9	obl	_	_
-9	innamrū	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	15	advcl	_	_
-10	nakru	nakru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	15	nsubj	_	_
+9	innamrū	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+10	nakru	nakru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	15	obj	_	_
 11	dannu	dannu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
-12	kakkīšu	kakku	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	15	obj	_	_
+12	kakkīšu	kakku	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	15	obj	_	_
 13	ana	ana	ADP	PRP	_	14	case	_	_
 14	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	15	iobj	_	_
-15	inaššâ	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-16	abul	abullu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	19	nsubj	_	_
+15	inaššâ	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	9	conj	_	_
+16	abul	abullu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	19	obl	_	_
 17	ālīya	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	16	nmod:poss	_	_
-18	nakru	nakru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	19	nsubj	_	_
+18	nakru	nakru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	16	appos	_	_
 19	inaqqar	naqāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-20	 	 	SCONJ	N	_	_	_	_	SpaceAfter=No
-21	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+20	 	 	NUM	N	Focus=Yes|Gender=Fem	_	_	_	SpaceAfter=No
+21	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	23	obl	_	_
 22	15-KAM₂	15-kam₂	ADJ	ADJ	_	21	amod	_	_
-23	Mat-Amurri	mat-amurri	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
+23	Mat-Amurri	mat-amurri	PROPN	GN	Gender=Masc|Number=Sing	_	_	_	_
 24	u	u	CONJ	CNJ	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x-MEŠ-ma	x-meš-ma	X	X	_	_	_	_	_
-27	 	 	ADP	PRP	_	_	_	_	SpaceAfter=No
+27	 	 	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	37	mark	_	SpaceAfter=No
 28	1	1	NUM	NUM	_	37	mark	_	_
 29	ina	ina	ADP	PRP	_	30	case	_	_
 30	Ayari	ayari	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
-31	Zappu	zappu	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	30	conj	_	_
-32	Sebetti	sebetti	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	31	conj	_	_
-33	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	31	appos	_	_
-34	rabûti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	33	amod	_	_
+31	Zappu	zappu	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	30	conj	_	_
+32	Sebetti	sebetti	PROPN	DN	Case=Gen	37	nsubj	_	_
+33	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	32	appos	_	_
+34	rabûti	rabû	ADJ	AJ	Gender=Masc|Number=Plur	33	amod	_	_
 35	ina	ina	ADP	PRP	_	36	case	_	_
-36	adannišunu	adānu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	37	obl	_	_
-37	ippuhūni	napāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	40	advcl	_	_
+36	adannišunu	adānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	37	obl	_	_
+37	ippuhūni	napāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	40	advcl	_	_
 38	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
-39	rabûti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	38	amod	_	_
+39	rabûti	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	38	amod	_	_
 40	ipahhurūma	pahāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
-41	milik	milku	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	45	nsubj	_	_
-42	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+41	milik	milku	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	45	obj	_	_
+42	māti	mātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	41	nmod	_	_
 43	ana	ana	ADP	PRP	_	44	case	_	_
 44	damiqti	damqu	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	45	iobj	_	_
-45	imallikū	malāku	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	40	conj	_	_
-46	šārāni	šāru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	48	obj	_	_
-47	ṭābūti	ṭābu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	46	amod	_	_
-48	illakū	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	45	conj	_	_
-49	 	 	ADP	DP	PrepSuffGen=Masc|PrepSuffNum=Sing|PresSuffPer=3	_	_	_	SpaceAfter=No
+45	imallikū	malāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	40	conj	_	_
+46	šārāni	šāru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	48	nsubj	_	_
+47	ṭābūti	ṭābu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	46	amod	_	_
+48	illakū	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+49	 	 	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 50	ša	ša	ADP	PRP	_	51	case	_	_
-51	Nergal-eṭir	nergal-eṭir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+51	Nergal-eṭir	nergal-eṭir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	_

@@ -2,21 +2,21 @@
 2	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
 4	šadāhīšu	šadāhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	obl	_	_
-5	ušēšir	ešēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	9	advcl	_	_
+5	ušēšir	ešēru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 6	Enlil	enlil	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 7	ana	ana	ADP	PRP	_	8	case	_	_
-8	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
-9	itammamma	tamû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+8	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	9	iobj	_	_
+9	itammamma	tamû	NOUN	V	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	_	_	_	_
 10	ul	ul	PART	NEG	_	11	advmod	_	_
-11	ippaššar	pašāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=N	_	_	_	_
-12	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	16	obl	_	_
+11	ippaššar	pašāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	9	conj	_	_
+12	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	16	obl	_	_
 13	13-KAM₂	13-kam₂	ADJ	ADJ	_	12	amod	_	_
 14	itti	itti	ADP	PRP	_	15	case	_	_
 15	Šamaš	šamšu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
-16	ittanmarma	amāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
-17	 	 	ADV	N	Case=Ter	22	advmod	_	SpaceAfter=No
+16	ittanmarma	amāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	_	_	_	_
+17	 	 	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	16	dep	_	SpaceAfter=No
 18	ša	ša	ADP	PRP	_	19	case	_	_
-19	Bel-leʾi	bel-leʾi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
-20	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	19	appos	_	_
+19	Bel-leʾi	bel-leʾi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	_
+20	mār	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	19	appos	_	_
 21	Egibi	egibi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	20	nmod:poss	_	_
-22	āšipu	āšipu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
+22	āšipu	āšipu	NOUN	N	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	19	appos	_	_

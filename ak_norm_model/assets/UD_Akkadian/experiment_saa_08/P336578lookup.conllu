@@ -3,27 +3,27 @@
 3	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 4	01-KAM	01-kam	ADJ	ADJ	_	3	amod	_	_
 5	innamir	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	6	advcl	_	_
-6	pû	pû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+6	pû	pû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 7	kēnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 8	libbi	libbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	10	nsubj	_	_
 9	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
-10	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	6	conj	_	_
-11	 	 	SCONJ	SCONJ	_	_	_	_	SpaceAfter=No
-12	1	1	NUM	NUM	_	13	nummod	_	_
-13	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+10	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+11	 	 	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	16	mark	_	SpaceAfter=No
+12	1	1	NUM	NUM	_	16	mark	_	_
+13	ūmu	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
 14	ana	ana	ADP	PRP	_	15	case	_	_
-15	minâtīšu	minītu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	16	obl	_	_
-16	ērik	arāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
-17	palû	palû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-18	ūmē	ūmu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	_
+15	minâtīšu	minītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	16	obl	_	_
+16	ērik	arāku	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+17	palû	palû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+18	ūmē	ūmu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	17	conj	_	_
 19	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	18	amod	_	_
-20	 	 	PRON	V	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	conj	_	SpaceAfter=No
-21	minât	minītu	NOUN	V	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	25	obj	_	_
-22	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|NounState=Bound|Number=Sing	21	nsubj	_	_
-23	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	25	obl	_	_
+20	 	 	ADJ	N	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+21	minât	minītu	PRON	AJ	Case=Acc	25	obj	_	_
+22	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	25	obl	_	_
 24	30-KAM₂	30-kam₂	ADJ	ADJ	_	23	amod	_	_
-25	ušallamma	šalāmu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
-26	 	 	SCONJ	DP	_	_	_	_	SpaceAfter=No
+25	ušallamma	šalāmu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=D	_	_	_	_
+26	 	 	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
 27	ina	ina	ADP	PRP	_	28	case	_	_
 28	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 29	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
@@ -34,10 +34,10 @@
 34	x+x-ri	x+x-ri	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
-37	šu₂	šu₂	X	X	_	_	_	_	_
+37	šu₂	šu₂	X	X	_	39	advmod	_	_
 38	attalû	antalû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	39	obj	_	_
-39	ušettaq	etēqu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	_	_	_	_
+39	ušettaq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
 40	lā	lā	PART	NEG	_	41	advmod	_	_
-41	išakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	39	conj	_	_
+41	išakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 42	ša	ša	ADP	PRP	_	43	case	_	_
-43	Balasi	balasi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+43	Balasi	balasi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	41	dep	_	_

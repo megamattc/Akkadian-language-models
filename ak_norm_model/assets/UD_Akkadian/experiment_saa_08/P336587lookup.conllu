@@ -4,8 +4,8 @@
 4	x	x	X	X	_	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
 6	x	x	X	X	_	_	_	_	_
-7	kakkabu	kakkabu	VERB	VERB	Gender=Fem|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
-8	izziz	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	7	conj	_	_
+7	kakkabu	kakkabu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	8	nsubj	_	_
+8	izziz	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
 10	x	x	X	X	_	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
@@ -24,7 +24,7 @@
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
-27	ad-da-nu	ad-da-nu		X	_	_	_	_	_
+27	ad-da-nu	ad-da-nu	X	V	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
@@ -62,10 +62,10 @@
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
-65	Ṣalbatanu	ṣalbatanu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-66	iṭṭehû	ṭehû	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	_	_	_	_
+65	Ṣalbatanu	ṣalbatanu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	66	nsubj	_	_
+66	iṭṭehû	ṭehû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 67	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	68	nsubj	_	_
-68	pišeršu	pišru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+68	pišeršu	pišru	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
@@ -79,15 +79,15 @@
 79	u₂-hi-in	u₂-hi-in	X	X	_	_	_	_	_
 80	x	x	X	X	_	_	_	_	_
 81	bi	bi	X	X	_	_	_	_	_
-82	ittu	ittu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-83	ša	ša	PRON	REL	_	84	nsubj	_	_
+82	ittu	ittu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	85	obj	_	_
+83	ša	ša	PRON	REL	_	84	obj	_	_
 84	tallikanni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	82	acl	_	_
-85	zittīni	zittu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	_	_	_	_
+85	zittīni	zittu	NOUN	DP	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
-90	nussētiq	etēqu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+90	nussētiq	etēqu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
@@ -101,7 +101,7 @@
 101	x	x	X	X	_	_	_	_	_
 102	ana	ana	ADP	PRP	_	103	case	_	_
 103	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	104	iobj	_	_
-104	ušahkam	hakāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
+104	ušahkam	hakāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	_	_	_	_
 105	x	x	X	X	_	_	_	_	_
 106	x	x	X	X	_	_	_	_	_
 107	x	x	X	X	_	_	_	_	_
@@ -116,7 +116,7 @@
 116	x	x	X	X	_	_	_	_	_
 117	x	x	X	X	_	_	_	_	_
 118	x	x	X	X	_	_	_	_	_
-119	lušahkim	hakāmu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	_	_	_	_
-120	 	 	NOUN	N	_	_	_	_	SpaceAfter=No
+119	lušahkim	hakāmu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
+120	 	 	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 121	ša	ša	ADP	PRP	_	122	case	_	_
-122	Balasi	balasi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+122	Balasi	balasi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	120	nmod	_	_

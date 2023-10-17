@@ -1,13 +1,14 @@
+# text = ṭuppi {1}{d}UTU-x x ana šikin ṭēmi abīšu ana abīya lū šulum x x x x iš-x x x x x lišʾal x x x x x ṭa-hu-x x x x x ēkalli x+x x x x lūpuš i-x x luddin o
 1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	{1}{d}UTU-x	{1}{d}utu-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-3	x	x	X	X	_	5	dep	_	_
+3	x	x	X	X	_	_	_	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	šikin ṭēmi	šikin ṭēmi	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+5	šikin ṭēmi	šikin ṭēmi	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 6	abīšu	abu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	nmod	_	_
 7	ana	ana	ADP	PRP	_	8	case	_	_
-8	abīya	abu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	dep	_	_
+8	abīya	abu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	10	nsubj	_	_
 9	lū	lū	PART	PART	_	10	advmod	_	_
-10	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+10	šulum	šulmu	NOUN	N	Gender=Masc|Number=Sing|PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
@@ -33,8 +34,9 @@
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
-36	lūpuš	epēšu	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
+36	lūpuš	epēšu	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G|Dialect=NB	_	_	_	_
 37	i-x	i-x	X	X	_	_	_	_	_
-38	x	x	X	X	_	39	obj	_	_
-39	luddin	nadānu	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
+38	x	x	X	X	_	_	_	_	_
+39	luddin	nadānu	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
 40	o	o	X	X	_	_	_	_	_
+

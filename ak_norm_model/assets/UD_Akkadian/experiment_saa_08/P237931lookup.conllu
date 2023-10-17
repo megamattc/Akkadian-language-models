@@ -3,29 +3,29 @@
 3	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 4	01-KAM₂	01-kam₂	ADJ	ADJ	_	3	amod	_	_
 5	innamir	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	6	advcl	_	_
-6	pû	pû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+6	pû	pû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	_
 7	kīnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
-8	libbi	libbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	10	nsubj	_	_
+8	libbi	libbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
 9	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
-10	iṭâb	ṭiābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-11	 	 	NOUN	MN	_	_	_	_	SpaceAfter=No
-12	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	17	obl	_	_
+10	iṭâb	ṭiābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+11	 	 	NUM	N	_	17	mark	_	SpaceAfter=No
+12	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	17	obl	_	_
 13	x-KAM₂	x-kam₂	ADJ	AJ	_	12	amod	_	_
 14	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	17	nsubj	_	_
 15	itti	itti	ADP	PRP	_	16	case	_	_
 16	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
-17	innammar	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	_	_	_	_
-18	damiqtu	damqu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+17	innammar	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+18	damiqtu	damqu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 19	ša	ša	ADP	PRP	_	20	case	_	_
 20	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 21	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	20	appos	_	_
-22	 	 	X	V	_	_	_	_	SpaceAfter=No
+22	 	 	ADP	PRP	_	_	_	_	SpaceAfter=No
 23	x	x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
 27	a-di	a-di	X	X	_	_	_	_	_
-28	AGA	aga	X	X	_	29	nsubj	_	_
+28	AGA	aga	X	X	_	_	_	_	_
 29	izzaz	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
 31	x+x	x+x	X	X	_	_	_	_	_
@@ -33,12 +33,12 @@
 33	qu	qu	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
-36	ūmē	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
+36	ūmē	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
 37	rubê	rubû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
-38	arkūti	arku	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	37	amod	_	_
+38	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	36	amod	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
-41	attalî	antalû	NOUN	N	_	_	_	_	_
+41	attalî	antalû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -46,19 +46,19 @@
 46	i	ina	PART	PRP	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
-49	īteteq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=Gtn	_	_	_	_
-50	 	 	NUM	DP	Gender=Fem	_	_	_	SpaceAfter=No
-51	ittu	ittu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	56	nsubj	_	_
+49	īteteq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+50	 	 	NUM	N	Focus=Yes|Gender=Fem	57	obj	_	SpaceAfter=No
+51	ittu	ittu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	56	nsubj	_	_
 52	ša	ša	ADP	PRP	_	53	case	_	_
 53	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
 54	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	53	appos	_	_
 55	ina	ina	ADP	PRP	_	56	case	_	_
-56	ūmi	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-57	ullî	ullû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	56	det	_	_
+56	ūmi	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	57	obl	_	_
+57	ullî	ullû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
-60	KUR	kur	X	VERB	_	_	_	_	_
-61	ŠEŠ	šeššu	X	X	_	_	_	_	_
-62	 	 	X	X	_	_	_	_	SpaceAfter=No
+60	KUR	kur	X	X	_	_	_	_	_
+61	ŠEŠ	šeššu	X	PN	_	_	_	_	_
+62	 	 	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 63	ša	ša	ADP	PRP	_	64	case	_	_
 64	Raši-ili	raši-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	62	nmod	_	_

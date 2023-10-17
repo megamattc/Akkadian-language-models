@@ -32,19 +32,19 @@
 32	libbīni	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	bētu	bītu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-35	o	o	X	X	_	_	_	_	_
-36	šulmu	šulmu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+35	o	o	X	X	_	36	advmod	_	_
+36	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
-38	bēt	bītu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	50	obl	_	_
+38	bēt	bītu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	40	nsubj	_	_
 39	ramāki	ramāku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	38	nmod	_	_
-40	dannu	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	38	amod	_	_
+40	dannu	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 41	ša	ša	PRON	REL	_	42	nsubj	_	_
-42	ibaqqurūni	baqāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=N	40	acl	_	_
-43	unqāti	unqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	38	acl	_	_
-44	ša	ša	PRON	REL	_	49	nsubj	_	_
+42	ibaqqurūni	baqāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	40	acl	_	_
+43	unqāti	unqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	49	obj	_	_
+44	ša	ša	PRON	REL	_	46	nsubj	_	_
 45	ina	ina	ADP	PRP	_	46	case	_	_
-46	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	49	obl	_	_
+46	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	43	acl	_	_
 47	ana	ana	ADP	PRP	_	48	case	_	_
-48	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	49	obl	_	_
-49	lišpuru	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	43	acl	_	_
+48	mār šarri	mār šarri	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	49	iobj	_	_
+49	lišpuru	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
 50	lēmūru	amāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_

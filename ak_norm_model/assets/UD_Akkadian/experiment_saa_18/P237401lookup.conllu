@@ -1,3 +1,4 @@
+# text = ana šarri mātāti bēlīya aradka Ašaredu Nabu u Marduk ana šarri bēlīya likrubū ūmussu Nergal u Laṣ ana balāṭi napšāti arku ūme ṭūb libbi u ṭūb šīri ša šar kiššat bēlīya uṣalli x x x x x x x x x x enna x x x x x x x x ūmu ša x+x x x x x x x ilānīka x x x x x
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	2	appos	_	_
@@ -12,23 +13,23 @@
 12	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	appos	_	_
 13	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
 14	ūmussu	ūmussu	ADV	AV	_	32	advmod	_	_
-15	Nergal	nergal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	32	obj	_	_
+15	Nergal	nergal	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
 16	u	u	CONJ	CNJ	_	17	cc	_	_
-17	Laṣ	laṣ	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	_
+17	Laṣ	laṣ	PROPN	DN	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
 18	ana	ana	ADP	PRP	_	19	case	_	_
 19	balāṭi	balāṭu	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	32	obl	_	_
-20	napšāti	napištu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	19	nmod:poss	_	_
-21	arku	arku	ADJ	AJ	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	19	conj	_	_
+20	napšāti	napištu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	19	nmod	_	_
+21	arku	arku	ADJ	AJ	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	19	conj	_	_
 22	ūme	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
 23	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	19	conj	_	_
 24	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
 25	u	u	CONJ	CNJ	_	26	cc	_	_
 26	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	23	conj	_	_
 27	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
-28	ša	ša	PRON	REL	_	32	obj	_	_
-29	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	32	nsubj	_	_
+28	ša	ša	ADP	PRP	_	29	case	_	_
+29	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	19	conj	_	_
 30	kiššat	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	29	nmod:poss	_	_
-31	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	30	nmod:poss	_	_
+31	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	29	appos	_	_
 32	uṣalli	ṣullû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
@@ -49,7 +50,7 @@
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
-52	ūmu	ūmu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+52	ūmu	ūmu	NOUN	N	_	_	_	_	_
 53	ša	ša	PRON	REL	_	_	_	_	_
 54	x+x	x+x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
@@ -58,9 +59,10 @@
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
-61	ilānīka	ilu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
+61	ilānīka	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
+

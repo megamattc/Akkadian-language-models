@@ -1,12 +1,13 @@
+# text = ṭuppi {1}x x x+x ana {1}{d}x x x ahīya Bel u Nabu ana ahīya likrubū x x x+x x x x x x x x x ki x x x x x x ma x x x x x+x x+x x x x x x x+x x+x x x šindu x x ašemmit
 1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x+x	x+x	X	X	_	_	_	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
-6	{1}{d}x	{1}{d}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+6	{1}{d}x	{1}{d}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
-9	ahīya	ahu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+9	ahīya	ahu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
 10	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 11	u	u	CONJ	CONJ	_	12	cc	_	_
 12	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
@@ -31,7 +32,7 @@
 31	x	x	X	X	_	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
-34	ma	mannu	PRON	X	_	_	_	_	_
+34	ma	ma	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
@@ -47,7 +48,8 @@
 47	x+x	x+x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
-50	šindu	šimtu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+50	šindu	šimtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	53	obj	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
-53	ašemmit	šamātu	VERB	V	Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
+53	ašemmit	šamātu	VERB	V	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G	_	_	_	_
+

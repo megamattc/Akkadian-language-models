@@ -1,3 +1,4 @@
+# text = ana šar mātāti bēlīya aradka Illil-bani Enlil Ninurta u Nusku ana šar mātāti bēlīya likrubū ana muhhi ṣābē ša šarri bēlīya x x x x x x x x x x x x x ina pānāt x x x ana Nippur illika u iqbûniššu umma x x ina mušēṣānê Nippur u ilānīka u₂-x+x x x x adû ina qātē x x x x ana šarri altapraššu x x x+x x x x x x x x x ihliqa x x x x ana Bit-Yari x x x x x x x x x x x x+x-ka ina libbi x x x
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	2	nmod:poss	_	_
@@ -5,9 +6,9 @@
 5	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
 6	Illil-bani	illil-bani	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 7	Enlil	enlil	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-8	Ninurta	ninurta	PROPN	DN	Gender=Masc	7	conj	_	_
+8	Ninurta	ninurta	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
 9	u	u	CONJ	CNJ	_	10	cc	_	_
-10	Nusku	nusku	PROPN	DN	Gender=Masc	7	conj	_	_
+10	Nusku	nusku	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
 11	ana	ana	ADP	PRP	_	12	case	_	_
 12	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	15	obl	_	_
 13	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	12	nmod:poss	_	_
@@ -41,20 +42,20 @@
 41	Nippur	nippur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	42	iobj	_	_
 42	illika	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 43	u	u	CONJ	CNJ	_	44	cc	_	_
-44	iqbûniššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	42	conj	_	_
+44	iqbûniššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	42	conj	_	_
 45	umma	umma	PART	Quotative	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	ina	ina	ADP	PRP	_	49	case	_	_
-49	mušēṣānê	mušēṣû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+49	mušēṣānê	mušēṣû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
 50	Nippur	nippur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	_
 51	u	u	CONJ	CNJ	_	52	cc	_	_
-52	ilānīka	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	50	conj	_	_
-53	u₂-x+x	u₂-x+x	X	ADV	_	_	_	_	_
+52	ilānīka	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	50	conj	_	_
+53	u₂-x+x	u₂-x+x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
-57	adû	adû	ADV	AV	_	59	advmod	_	_
+57	adû	adû	ADV	AV	_	_	_	_	_
 58	ina	ina	ADP	PRP	_	59	case	_	_
 59	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
@@ -81,7 +82,7 @@
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
 83	ana	ana	ADP	PRP	_	84	case	_	_
-84	Bit-Yari	bit-yari	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+84	Bit-Yari	bit-yari	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
@@ -99,3 +100,4 @@
 99	x	x	X	X	_	_	_	_	_
 100	x	x	X	X	_	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
+

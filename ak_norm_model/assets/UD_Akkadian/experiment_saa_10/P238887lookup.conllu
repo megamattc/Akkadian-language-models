@@ -11,7 +11,7 @@
 11	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	13	iobj	_	_
 12	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	appos	_	_
 13	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
-14	 	 	X	X	_	_	_	_	SpaceAfter=No
+14	 	 	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 15	x	x	X	X	_	_	_	_	_
 16	x	x	X	X	_	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
@@ -35,7 +35,7 @@
 35	itti	itti	ADP	PRP	_	36	case	_	_
 36	Šamaš	šamšu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
 37	innamir	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	_	_	_	_
-38	 	 	SCONJ	SBJ	_	_	_	_	SpaceAfter=No
+38	 	 	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	47	mark	_	SpaceAfter=No
 39	1	1	NUM	NUM	_	40	nummod	_	_
 40	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	47	obl	_	_
 41	14-KAM₂	14-kam₂	ADJ	ADJ	_	40	amod	_	_
@@ -45,11 +45,11 @@
 45	itti	itti	ADP	PRP	_	46	case	_	_
 46	ahāmeš	ahāmiš	ADV	AV	Case=Ter	47	obl	_	_
 47	innamirū	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	48	advcl	_	_
-48	pû	pû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+48	pû	pû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	52	nsubj	_	_
 49	kīnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	48	amod	_	_
 50	libbi	libbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	52	nsubj	_	_
 51	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	_
-52	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	48	conj	_	_
+52	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 53	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	57	nsubj	_	_
 54	Mat-Akkadi	mat-akkadi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
 55	ana	ana	ADP	PRP	_	56	case	_	_
@@ -59,7 +59,7 @@
 59	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	58	nmod:poss	_	_
 60	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	59	nmod:poss	_	_
 61	iššakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	57	conj	_	_
-62	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	64	nsubj	_	_
+62	libbi	libbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	64	nsubj	_	_
 63	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	62	nmod	_	_
 64	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 65	būl	būlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	70	obj	_	_
@@ -77,12 +77,12 @@
 77	kīnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	76	amod	_	_
 78	ina	ina	ADP	PRP	_	79	case	_	_
 79	pî	pû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	81	obl	_	_
-80	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	79	nmod:poss	_	_
+80	nišī	nišu	NOUN	N	Gender=Fem|Number=Plur	79	nmod	_	_
 81	iššakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	_	_	_	_
 82	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	84	nsubj	_	_
 83	kussû	kussû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	84	obj	_	_
 84	ulabbar	labāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
-85	 	 	SCONJ	DP	_	_	_	_	SpaceAfter=No
+85	 	 	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
@@ -122,7 +122,7 @@
 122	x	x	X	X	_	_	_	_	_
 123	x	x	X	X	_	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
-125	mahir	mahru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+125	mahir	mahru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 126	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	128	nsubj	_	_
 127	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	126	nmod:poss	_	_
 128	lilmad	lamādu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -130,7 +130,7 @@
 130	pîšu	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	131	obj	_	_
 131	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	128	conj	_	_
 132	kî	kī	SCONJ	SBJ	_	133	mark	_	_
-133	ṭupšarru	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+133	ṭupšarru	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
 134	lēʾû	lēʾû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	133	amod	_	_
 135	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	133	cop	_	_
 136	ina	ina	ADP	PRP	_	137	case	_	_
@@ -143,27 +143,27 @@
 143	imannûniššu	manû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 144	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	147	nsubj	_	_
 145	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	144	nmod:poss	_	_
-146	rab ṭupšarri	rab ṭupšarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	147	obj	_	_
+146	rab ṭupšarri	rab ṭupšarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	144	appos	_	_
 147	lišʾal	šâlu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 148	x	x	X	X	_	_	_	_	_
 149	x	x	X	X	_	_	_	_	_
 150	ana	ana	ADP	PRP	_	151	case	_	_
-151	zunnî	zenû	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=D	153	iobj	_	_
+151	zunnî	zenû	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=D	153	obl	_	_
 152	ul	ul	PART	NEG	_	153	advmod	_	_
-153	ṭābi	ṭābu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+153	ṭābi	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 154	kî	kī	SCONJ	SBJ	_	158	mark	_	_
 155	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	158	obl	_	_
 156	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	155	nmod	_	_
 157	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	156	appos	_	_
-158	mahru	mahru	ADJ	AJ	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	160	advcl	_	_
-159	ṭupšar bītūtu	ṭupšar bītūtu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	160	obj	_	_
+158	mahru	mahru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	160	advcl	_	_
+159	ṭupšar bītūtu	ṭupšar bītūtu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	160	nsubj	_	_
 160	liddinaššu	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 161	u	u	CONJ	CNJ	_	164	cc	_	_
 162	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	164	nsubj	_	_
 163	maṣṣartašu	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	164	obj	_	_
 164	liqīpaššu	qiāpu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	160	conj	_	_
 165	ana	ana	ADP	PRP	_	166	case	_	_
-166	tahsisti	tahsistu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	170	obl	_	_
+166	tahsisti	tahsistu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	170	iobj	_	_
 167	ana	ana	ADP	PRP	_	168	case	_	_
 168	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	170	iobj	_	_
 169	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	168	appos	_	_
@@ -172,7 +172,7 @@
 172	šarrāni	šarru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	171	nmod:poss	_	_
 173	kî	kī	ADP	PRP	_	174	case	_	_
 174	ša	ša	PRON	REL	_	175	obj	_	_
-175	ileʾʾû	leʾû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	176	obl	_	_
+175	ileʾʾû	leʾû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	176	obl	_	_
 176	līpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 177	x+x	x+x	X	X	_	_	_	_	_
 178	ša	ša	ADP	PRP	_	179	case	_	_
@@ -186,7 +186,7 @@
 186	04	04	NUM	NUM	_	187	nummod	_	_
 187	ṭuppāti	ṭuppu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	194	obj	_	_
 188	ana	ana	ADP	PRP	_	189	case	_	_
-189	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	194	iobj	_	_
+189	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	187	nmod	_	_
 190	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	189	appos	_	_
 191	ina	ina	ADP	PRP	_	192	case	_	_
 192	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	194	obl	_	_

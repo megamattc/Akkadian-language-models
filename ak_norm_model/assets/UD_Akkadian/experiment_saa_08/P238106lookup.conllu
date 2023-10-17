@@ -1,4 +1,4 @@
-1	{d}x	{d}x	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
@@ -34,17 +34,17 @@
 34	lā	lā	PART	NEG	_	35	advmod	_	_
 35	irašši	rašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 36	kî	kī	ADP	PRP	_	37	case	_	_
-37	pî	pû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-38	HAL-x+x	hal-x+x	X	PN	_	_	_	_	_
+37	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+38	HAL-x+x	hal-x+x	X	PN	_	37	nmod	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	līpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
-42	libbi	libbu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	46	obj	_	_
+42	libbi	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	46	nsubj	_	_
 43	ša	ša	ADP	PRP	_	44	case	_	_
 44	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
 45	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	44	appos	_	_
-46	iṭâbma	ṭiābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-47	ūmēka	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	46	dep	_	_
+46	iṭâbma	ṭiābu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
+47	ūmēka	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	46	conj	_	_
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
@@ -74,7 +74,7 @@
 74	x	x	X	X	_	_	_	_	_
 75	ša	ša	ADP	PRP	_	76	case	_	_
 76	Raši-ili	raši-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-77	mahrû	mahrû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	76	amod	_	_
+77	mahrû	mahrû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	76	amod	_	_
 78	ardu	ardu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	76	appos	_	_
 79	ša	ša	ADP	PRP	_	80	case	_	_
 80	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	78	nmod	_	_

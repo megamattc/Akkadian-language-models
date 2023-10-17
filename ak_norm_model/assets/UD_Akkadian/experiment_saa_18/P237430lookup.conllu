@@ -1,9 +1,10 @@
+# text = ana šarri bēlīni o ardēka {1}x x x x x x x x {1}ni-x x x x x x x x x x x x Enlil u Mulliltu Ninurta u Nusku ana šarri bēlīni likrubū x x x x ṭūb libbi ṭūb šīri x x x x x x labār palê x x x x x x x x x u labāri x x x x x x x šarri bēlīni x+x x x x x x x x x x ūmu ša x+x x x x x x x x x x x x x x x x x x x x x x x x x ni-x+x x x x x x x x x x x x x x x x+x x x x x x x x x x u x x+x x x x x x x x x x x x x x+x x x x x x x x x x {LU₂}x x x+x x x x x x x x x x x x x x+x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x SUM ni uttīr o
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
-4	o	o	X	X	_	5	advmod	_	_
-5	ardēka	ardu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-6	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+4	o	o	X	X	_	_	_	_	_
+5	ardēka	ardu	NOUN	N	Gender=Masc|Number=Plur|Case=Nom|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc	2	nsubj	_	_
+6	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
@@ -11,7 +12,7 @@
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
-14	{1}ni-x	{1}ni-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+14	{1}ni-x	{1}ni-x	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
 16	x	x	X	X	_	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
@@ -25,10 +26,10 @@
 25	x	x	X	X	_	_	_	_	_
 26	Enlil	enlil	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
 27	u	u	CONJ	CNJ	_	28	cc	_	_
-28	Mulliltu	mulliltu	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	26	conj	_	_
-29	Ninurta	ninurta	PROPN	DN	Gender=Masc	26	conj	_	_
+28	Mulliltu	mulliltu	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	26	conj	_	_
+29	Ninurta	ninurta	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
 30	u	u	CONJ	CNJ	_	31	cc	_	_
-31	Nusku	nusku	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+31	Nusku	nusku	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	29	conj	_	_
 32	ana	ana	ADP	PRP	_	33	case	_	_
 33	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	35	iobj	_	_
 34	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	33	appos	_	_
@@ -39,7 +40,7 @@
 39	x	x	X	X	_	_	_	_	_
 40	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 41	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
-42	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	40	conj	_	_
+42	ṭūb	ṭūbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	40	conj	_	_
 43	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
@@ -59,7 +60,7 @@
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
 61	u	u	CONJ	CNJ	_	62	cc	_	_
-62	labāri	labāru	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
+62	labāri	labāru	VERB	V	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
@@ -79,7 +80,7 @@
 79	x	x	X	X	_	_	_	_	_
 80	x	x	X	X	_	_	_	_	_
 81	x	x	X	X	_	_	_	_	_
-82	ūmu	ūmu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+82	ūmu	ūmu	NOUN	N	_	_	_	_	_
 83	ša	ša	PRON	REL	_	_	_	_	_
 84	x+x	x+x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
@@ -205,3 +206,4 @@
 205	ni	ni	X	X	_	_	_	_	_
 206	uttīr	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
 207	o	o	X	X	_	_	_	_	_
+

@@ -1,5 +1,5 @@
-1	1	1	NUM	NUM	_	0	ROOT	_	_
-2	rību	rību	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+1	1	1	NUM	NUM	_	2	nummod	_	_
+2	rību	rību	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
@@ -10,27 +10,27 @@
 10	x	x	X	X	_	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
-13	1	1	NUM	NUM	_	14	nummod	_	_
+13	1	1	NUM	NUM	_	14	dep	_	_
 14	erṣetu	erṣetu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	17	obj	_	_
 15	ina	ina	ADP	PRP	_	16	case	_	_
 16	Taʾuzi	taʾuzi	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
-17	inūš	nâšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=N	_	_	_	_
-18	rubâ	rubû	NOUN	N	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	23	obj	_	_
+17	inūš	nâšu	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
+18	rubâ	rubû	ADJ	N	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	23	nsubj	_	_
 19	ina	ina	ADP	PRP	_	20	case	_	_
 20	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
 21	ina	ina	ADP	PRP	_	22	case	_	_
 22	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
-23	iqqallil	qalālu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-24	1	1	NUM	NUM	_	25	nummod	_	_
-25	erṣetu	erṣetu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	28	nsubj	_	_
+23	iqqallil	qalālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	17	conj	_	_
+24	1	1	NUM	NUM	_	28	mark	_	_
+25	erṣetu	erṣetu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	28	obj	_	_
 26	ina	ina	ADP	PRP	_	27	case	_	_
-27	mūši	mūšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	28	obl	_	_
-28	inūš	nâšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	_	_	_	_
-29	nazāq	nazāqu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-30	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
-31	nadê	nadû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	30	conj	_	_
+27	mūši	mūšu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	28	obl	_	_
+28	inūš	nâšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	29	advcl	_	_
+29	nazāq	nazāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+30	māti	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+31	nadê	nadû	ADJ	AJ	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	30	nmod	_	_
 32	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
-33	 	 	DET	DP	_	_	_	_	SpaceAfter=No
+33	 	 	ADP	N	_	_	_	_	SpaceAfter=No
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
@@ -49,8 +49,8 @@
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
-52	 	 	X	NUM	_	_	_	_	SpaceAfter=No
-53	annû	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	54	nsubj	_	_
+52	 	 	VERB	N	Case=Nom|Gender=Masc|Number=Sing	53	mark	_	SpaceAfter=No
+53	annû	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	54	det	_	_
 54	piširšu	pišru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
@@ -58,7 +58,7 @@
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
-61	dumqu	dumqu	ADJ	V	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+61	dumqu	dumqu	VERB	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x+x	x+x	X	X	_	_	_	_	_

@@ -1,3 +1,4 @@
+# text = ana šar mātāti bēlīya aradka Marduk Nabu Marduk ana šarri bēlīya likrubū Šamaš-šumu-ukin x x x+x u rabīti ippušma x x x ul idabbub ana Babilaya x x x iqabbi umma ša tabê ili x x x x x x Babili x x x x x x x ša ina birīt x x x x x x x x šarru x x x x x x x x x-bu x x x x x x x x x-tu₂
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	2	nmod:poss	_	_
@@ -15,22 +16,22 @@
 15	x	x	X	X	_	_	_	_	_
 16	x+x	x+x	X	X	_	_	_	_	_
 17	u	u	CONJ	CNJ	_	18	cc	_	_
-18	rabīti	rabû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
-19	ippušma	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+18	rabīti	rabû	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	19	obj	_	_
+19	ippušma	epēšu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
 23	ul	ul	PART	NEG	_	24	advmod	_	_
-24	idabbub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+24	idabbub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	19	conj	_	_
 25	ana	ana	ADP	PRP	_	26	case	_	_
-26	Babilaya	babilaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	24	iobj	_	_
+26	Babilaya	babilaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Plur	30	iobj	_	_
 27	x	x	X	X	_	_	_	_	_
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
 30	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-31	umma	umma	PART	Quotative	_	33	discourse	_	_
-32	ša	ša	PRON	REL	_	33	obj	_	_
-33	tabê	tebû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+31	umma	umma	PART	Quotative	_	_	_	_	_
+32	ša	ša	ADP	PRP	_	33	case	_	_
+33	tabê	tebû	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 34	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
@@ -48,7 +49,7 @@
 48	x	x	X	X	_	_	_	_	_
 49	ša	ša	PRON	REL	_	_	_	_	_
 50	ina	ina	ADP	PRP	_	51	case	_	_
-51	birīt	birīt	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
+51	birīt	birīt	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
@@ -76,3 +77,4 @@
 76	x	x	X	X	_	_	_	_	_
 77	x	x	X	X	_	_	_	_	_
 78	x-tu₂	x-tu₂	X	X	_	_	_	_	_
+
