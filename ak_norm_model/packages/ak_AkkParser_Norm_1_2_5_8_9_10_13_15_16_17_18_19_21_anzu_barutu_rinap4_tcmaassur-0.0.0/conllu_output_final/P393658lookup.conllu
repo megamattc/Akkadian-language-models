@@ -4,15 +4,15 @@
 4	šapir	šapru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
 6	x	x	X	X	_	_	_	_	_
-7	nubutti	nubattu	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
+7	nubutti	nubattu	NOUN	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
 10	inaṣṣar	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-11	akannaka	akannaka	ADV	AV	_	13	obl	_	_
-12	lū	lū	PART	PART	_	13	advmod	_	_
+11	akannaka	akannaka	ADV	AV	_	13	advmod	_	_
+12	lū	lū	PART	PART	_	13	advmod:emph	_	_
 13	ukâlla	kullu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
 14	adi	adi	ADP	PRP	_	15	case	_	_
-15	bīt	bītu	NOUN	N	_	21	obl	_	_
+15	bīt	bītu	NOUN	N	_	21	mark	_	_
 16	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	21	nsubj	_	_
 17	ana	ana	ADP	PRP	_	18	case	_	_
 18	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	21	iobj	_	_
@@ -22,14 +22,14 @@
 22	mindēma	minde	ADV	AV	Focus=Yes	24	advmod	_	_
 23	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 24	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-25	umma	umma	PART	Quotative	_	31	discourse	_	_
-26	minamma	minamma	PRON	QP	_	31	nsubj	_	_
-27	ultu	ištu	SCONJ	SBJ	_	29	mark	_	_
+25	umma	umma	PART	Quotative	_	29	discourse	_	_
+26	minamma	minamma	PRON	QP	_	29	dep	_	_
+27	ultu	ištu	ADP	PRP	_	29	nsubj	_	_
 28	ina	ina	ADP	PRP	_	29	case	_	_
-29	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	26	acl	_	_
+29	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	24	ccomp	_	_
 30	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	cop	_	_
-31	kūnu	kūnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	24	ccomp	_	_
-32	mār šiprānīšu	mār šiprānīšu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+31	kūnu	kūnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+32	mār šiprānīšu	mār šiprānīšu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
 33	ana	ana	ADP	PRP	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
@@ -37,7 +37,7 @@
 37	x	x	X	X	_	_	_	_	_
 38	x+x-ri	x+x-ri	X	X	_	_	_	_	_
 39	iltapra	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
-40	enna	enna	ADV	AV	_	41	advmod	_	_
+40	enna	enna	ADV	AV	_	_	_	_	_
 41	adû	adû	ADV	AV	_	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_

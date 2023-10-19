@@ -26,7 +26,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	maškir	maškuru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	maškir	maškuru	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -37,12 +37,13 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	unammaš	namāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
-2	kīma	kīma	ADP	PRP	_	3	case	_	_
-3	eleppāti	eleppu	NOUN	N	Gender=Fem|Number=Plur	4	obj	_	_
-4	ussarīqu	riāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	1	ccomp	_	_
 
-1	lurammî	ramû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	2	obl	_	_
-2	lilliku	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
-3	ulâ	ūla	CONJ	CNJ	_	4	cc	_	_
-4	nikallašunu	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	2	conj	_	_
+1	kīma	kīma	ADP	PRP	_	2	case	_	_
+2	eleppāti	eleppu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+3	ussarīqu	riāqu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
+4	lurammî	ramû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	3	advmod	_	_
+5	lilliku	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+
+1	ulâ	ūla	CONJ	CNJ	_	0	ROOT	_	_
+2	nikallašunu	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	1	conj	_	_
 

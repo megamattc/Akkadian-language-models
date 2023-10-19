@@ -6,7 +6,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	urrudūni	arādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	urrudūni	arādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -14,11 +14,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ka	ka	X	X	_	3	advmod	_	_
-2	lā	lā	PART	NEG	_	3	advmod	_	_
-3	iqbia	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ka	ka	X	X	_	0	ROOT	_	_
 
-1	pūlu	pīlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+1	lā	lā	PART	PART	_	2	advmod	_	_
+2	iqbia	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	pūlu	pīlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
 2	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	1	cop	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	_
@@ -30,10 +31,10 @@
 
 1	ni-šu₂	ni-šu₂	X	X	_	0	ROOT	_	_
 
-1	mā	mā	PART	Quotative	_	4	discourse	_	_
-2	šīti	šīti	PRON	IP	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+1	mā	mā	PART	Quotative	_	2	discourse	_	_
+2	šīti	šīti	PRON	IP	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 3	ša	ša	PRON	REL	_	4	obj	_	_
-4	ušazibilūni	zabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+4	ušazibilūni	zabālu	VERB	V	Gender=Masc|Number=Plur|Person=3|SubSuff=Yes|VerbForm=Stat|VerbStem=D	2	acl	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -42,10 +43,10 @@
 1	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ša	ša	PRON	REL	_	4	obj	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbStem=G	1	nsubj	_	_
+4	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	1	nsubj	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	libīt šarri	libīt šarri	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	libīt šarri	libīt šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -54,7 +55,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	ahāʾiš	ahāmiš	ADV	AV	_	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
