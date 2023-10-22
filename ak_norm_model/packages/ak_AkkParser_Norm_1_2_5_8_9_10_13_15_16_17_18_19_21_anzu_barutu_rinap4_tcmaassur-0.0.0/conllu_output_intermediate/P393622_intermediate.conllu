@@ -78,7 +78,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ṣāb šarri	ṣāb šarri	NOUN	NOUN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ṣāb šarri	ṣāb šarri	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	i-si-x	i-si-x	X	X	_	0	ROOT	_	_
 
@@ -326,15 +326,14 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	liṣṣur	naṣāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	liṣṣur	naṣāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	ROOT	_	_
 
-1	MA₂	ma₂	PROPN	_	_	0	ROOT	_	_
+1	MA₂	ma₂	X	X	_	0	ROOT	_	_
 
-1	ki-ru-te	ki-ru-te	NOUN	NOUN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ki-ru-te	ki-ru-te	NOUN	NOUN	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -365,9 +364,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x+x-šu₂-nu	x+x-šu₂-nu	X	X	_	0	ROOT	_	_
-
-1	idaggulu	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x+x-šu₂-nu	x+x-šu₂-nu	X	X	_	2	nsubj	_	_
+2	idaggulu	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
@@ -378,22 +376,22 @@
 3	pānāt	pānātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	6	obl	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
-6	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	7	advcl	_	_
-7	lidgulu	dagālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+6	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	lidgulu	dagālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
-
-1	hubtu	hubtu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	hubtu	hubtu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x+x-MEŠ-šu₂-nu	x+x-meš-šu₂-nu	X	X	_	0	ROOT	_	_
 
-1	alpānišunu	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
+1	alpānišunu	alpu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -417,9 +415,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	bābāni	bābu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	lupatte	petû	VERB	V	_	0	ROOT	_	_
+1	bābāni	bābu	NOUN	N	Gender=Masc|Number=Plur	2	obj	_	_
+2	lupatte	petû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -433,7 +430,7 @@
 
 1	in	ina	X	X	_	0	ROOT	_	_
 
-1	gu	gu	ADP	PRP	_	0	ROOT	_	_
+1	gu	gu	X	PRP	_	0	ROOT	_	_
 
 1	ri	ri	X	X	_	0	ROOT	_	_
 

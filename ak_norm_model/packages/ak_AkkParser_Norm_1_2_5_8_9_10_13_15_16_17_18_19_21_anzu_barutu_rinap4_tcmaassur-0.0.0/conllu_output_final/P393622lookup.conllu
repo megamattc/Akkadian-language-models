@@ -39,7 +39,7 @@
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
-42	ṣāb šarri	ṣāb šarri	NOUN	NOUN	Gender=Masc|Number=Sing	_	_	_	_
+42	ṣāb šarri	ṣāb šarri	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 43	i-si-x	i-si-x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
@@ -164,11 +164,11 @@
 164	x+x	x+x	X	X	_	_	_	_	_
 165	x-šu₂-nu	x-šu₂-nu	X	X	_	_	_	_	_
 166	x	x	X	X	_	_	_	_	_
-167	x	x	X	X	_	_	_	_	_
+167	x	x	X	X	_	168	nsubj	_	_
 168	liṣṣur	naṣāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 169	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	_	_	_	_
-170	MA₂	ma₂	PROPN	_	_	_	_	_	_
-171	ki-ru-te	ki-ru-te	NOUN	NOUN	Gender=Masc|Number=Sing	_	_	_	_
+170	MA₂	ma₂	X	X	_	_	_	_	_
+171	ki-ru-te	ki-ru-te	NOUN	NOUN	_	_	_	_	_
 172	x	x	X	X	_	_	_	_	_
 173	x	x	X	X	_	_	_	_	_
 174	x+x	x+x	X	X	_	_	_	_	_
@@ -185,7 +185,7 @@
 185	x	x	X	X	_	_	_	_	_
 186	x	x	X	X	_	_	_	_	_
 187	x	x	X	X	_	_	_	_	_
-188	x+x-šu₂-nu	x+x-šu₂-nu	X	X	_	_	_	_	_
+188	x+x-šu₂-nu	x+x-šu₂-nu	X	X	_	189	nsubj	_	_
 189	idaggulu	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 190	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	192	nsubj	_	_
 191	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	190	appos	_	_
@@ -195,15 +195,15 @@
 195	pānāt	pānātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	198	obl	_	_
 196	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	195	nmod	_	_
 197	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	196	appos	_	_
-198	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	199	advcl	_	_
+198	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 199	lidgulu	dagālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 200	x	x	X	X	_	_	_	_	_
-201	x	x	X	X	_	_	_	_	_
+201	x	x	X	X	_	202	nsubj	_	_
 202	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
-203	hubtu	hubtu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+203	hubtu	hubtu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
 204	x	x	X	X	_	_	_	_	_
 205	x+x-MEŠ-šu₂-nu	x+x-meš-šu₂-nu	X	X	_	_	_	_	_
-206	alpānišunu	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
+206	alpānišunu	alpu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 207	x	x	X	X	_	_	_	_	_
 208	x-MEŠ-šu₂-nu	x-meš-šu₂-nu	X	X	_	_	_	_	_
 209	issišunu	išti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Plur|PresSuffPer=3	_	_	_	_
@@ -216,15 +216,15 @@
 216	x	x	X	X	_	_	_	_	_
 217	x	x	X	X	_	_	_	_	_
 218	x	x	X	X	_	_	_	_	_
-219	bābāni	bābu	NOUN	N	Gender=Masc|Number=Plur	_	_	_	_
-220	lupatte	petû	VERB	V	_	_	_	_	_
+219	bābāni	bābu	NOUN	N	Gender=Masc|Number=Plur	220	obj	_	_
+220	lupatte	petû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	_	_	_	_
 221	x	x	X	X	_	_	_	_	_
 222	x	x	X	X	_	_	_	_	_
 223	x	x	X	X	_	_	_	_	_
 224	x	x	X	X	_	_	_	_	_
 225	x	x	X	X	_	_	_	_	_
 226	in	ina	X	X	_	_	_	_	_
-227	gu	gu	ADP	PRP	_	_	_	_	_
+227	gu	gu	X	PRP	_	_	_	_	_
 228	ri	ri	X	X	_	_	_	_	_
 229	x	x	X	X	_	_	_	_	_
 230	x	x	X	X	_	_	_	_	_

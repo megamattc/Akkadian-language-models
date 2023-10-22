@@ -66,7 +66,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	rāqu	rīqu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	rāqu	rīqu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	bi-šu₂-nu	bi-šu₂-nu	X	N	_	0	ROOT	_	_
 
@@ -189,7 +189,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mār šipri	mār šipri	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mār šipri	mār šipri	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -201,7 +201,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kilallē	kilallān	ADJ	AJ	_	0	ROOT	_	_
+1	kilallē	kilallān	ADJ	AJ	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -225,7 +225,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ussalbi	lawû	VERB	V	Mood=Ind|Number=Sing|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	ussalbi	lawû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -235,29 +235,32 @@
 
 1	mā	mā	PART	Quotative	_	3	discourse	_	_
 2	lā	lā	PART	PART	_	3	advmod	_	_
-3	Dannaya	dannaya	PROPN	EN	_	0	ROOT	_	_
-4	ša	ša	PRON	REL	_	6	obl	_	_
+3	Dannaya	dannaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+4	ša	ša	PRON	REL	_	6	obj	_	_
 5	immerēya	immeru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	nsubj	_	_
 6	ihbutūni	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	3	acl	_	_
-7	mā	mā	PART	Quotative	_	6	discourse	_	_
 
-1	Arzaya	arzaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mā	mā	PART	Quotative	_	0	ROOT	_	_
+
+1	Arzaya	arzaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	o	o	X	X	_	2	nsubj	_	_
-2	ihtabatūšunu	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	5	obl	_	_
+2	ihtabatūšunu	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	5	obl	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	3	appos	_	_
-5	ūda	wadû	VERB	V	Gender=Masc|Person=3|Subordinative=No|Tense=Past|VerbForm=Finite|VerbStem=G	0	ROOT	_	_
-6	kî	kī	SCONJ	SCONJ	_	5	dep	_	_
-7	adi	adi	ADP	PRP	_	8	case	_	_
-8	ēṣadī	ēṣidu	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	5	dep	_	_
+5	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+
+1	adi	adi	ADP	PRP	_	2	case	_	_
+2	ēṣadī	ēṣidu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	aqrûni	qerû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	aqrûni	qerû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

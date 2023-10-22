@@ -10,20 +10,19 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nubutti	nubattu	NOUN	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	nubutti	nubattu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	inaṣṣar	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	inaṣṣar	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	akannaka	akannaka	ADV	AV	_	3	advmod	_	_
-2	lū	lū	PART	PART	_	3	advmod:emph	_	_
-3	ukâlla	kullu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+2	lū	lū	PART	PART	_	3	advmod	_	_
+3	ukâlla	kullu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	adi	adi	ADP	PRP	_	2	case	_	_
-2	bīt	bītu	NOUN	N	_	8	mark	_	_
+2	bīt	bītu	NOUN	N	_	8	obl	_	_
 3	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	8	nsubj	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
 5	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	8	iobj	_	_
@@ -35,15 +34,13 @@
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	umma	umma	PART	Quotative	_	8	discourse	_	_
-5	minamma	minamma	PRON	QP	_	8	dep	_	_
-6	ultu	ištu	ADP	PRP	_	8	nsubj	_	_
+5	minamma	minamma	PRON	QP	_	8	advmod	_	_
+6	ultu	ištu	SCONJ	SBJ	_	8	mark	_	_
 7	ina	ina	ADP	PRP	_	8	case	_	_
 8	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	ccomp	_	_
-9	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	cop	_	_
-
-1	kūnu	kūnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	mār šiprānīšu	mār šiprānīšu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+9	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	kūnu	kūnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
+11	mār šiprānīšu	mār šiprānīšu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	10	nsubj	_	_
 
 1	ana	ana	ADP	PRP	_	0	ROOT	_	_
 

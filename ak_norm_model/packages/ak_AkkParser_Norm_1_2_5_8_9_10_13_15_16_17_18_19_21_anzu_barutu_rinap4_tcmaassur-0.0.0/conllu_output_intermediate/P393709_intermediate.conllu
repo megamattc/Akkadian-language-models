@@ -16,7 +16,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	tallakāti	tallaktu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	0	ROOT	_	_
+1	tallakāti	tallaktu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	ma-x+x	ma-x+x	X	X	_	0	ROOT	_	_
 
@@ -24,8 +24,8 @@
 
 1	ša	ša	PRON	REL	_	4	obj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
-4	taddanūni	tadānu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	ēkalli	ēkallu	NOUN	N	Gender=Masc|Number=Sing	4	obl	_	_
+4	taddanūni	tadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -54,13 +54,12 @@
 1	x-ri	x-ri	X	X	_	0	ROOT	_	_
 
 1	04	04	NUM	NUM	_	2	nummod	_	_
-2	biltāya	biltu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+2	biltāya	biltu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x+x-MEŠ	x+x-meš	X	X	_	0	ROOT	_	_
-
-1	balaṭṭu	balāṭu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	x+x-MEŠ	x+x-meš	X	X	_	2	obj	_	_
+2	balaṭṭu	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -111,8 +110,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	i-x+x	i-x+x	X	X	_	0	ROOT	_	_
+1	lā	lā	PART	NEG	_	0	ROOT	_	_
+
+1	i-x+x	i-x+x	X	X	_	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
@@ -120,7 +120,7 @@
 
 1	x+x-su	x+x-su	X	X	_	0	ROOT	_	_
 
-1	isqāte	isqu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
+1	isqāte	isqu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -174,30 +174,28 @@
 
 1	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	o	o	X	X	_	4	advmod	_	_
-2	lū	lū	PART	PART	_	4	advmod	_	_
-3	lā	lā	PART	NEG	_	4	advmod	_	_
-4	izirranni	zêru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+1	o	o	X	X	_	0	ROOT	_	_
 
-1	x+x	x+x	X	X	_	0	ROOT	_	_
+1	lū	lū	PART	PART	_	3	advmod	_	_
+2	lā	lā	PART	NEG	_	3	advmod	_	_
+3	izirranni	zêru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
 
-1	šapputu	šappatu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
-2	u	u	CONJ	CNJ	_	5	cc	_	_
-3	ina	ina	ADP	PRP	_	4	case	_	_
-4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
-5	emmadūni	emēdu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
+1	x+x	x+x	X	X	_	2	nsubj	_	_
+2	šapputu	šappatu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	u	u	CONJ	CNJ	_	5	cc	_	_
+4	ina	ina	ADP	PRP	_	5	case	_	_
+5	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	emmadūni	emēdu	VERB	V	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	0	ROOT	_	_
 
 1	o	o	X	X	_	2	advmod	_	_
-2	assaprakka	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	0	ROOT	_	_
+2	assaprakka	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	4	advcl	_	_
+3	lā	lā	PART	NEG	_	4	advmod	_	_
+4	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	lā	lā	PART	NEG	_	2	advmod	_	_
+1	lā	lā	PART	PART	_	2	advmod	_	_
 2	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbStem=G	0	ROOT	_	_
+3	lā	lā	PART	PART	_	4	advmod	_	_
+4	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Proh|Number=Sing|Person=2|VerbStem=G	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

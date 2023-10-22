@@ -73,7 +73,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	alpāni	alpu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	alpāni	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -111,8 +111,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	2	nsubj	_	_
-2	{LU₂}EN-x	{lu₂}en-x	NOUN	N	Gender=Masc	0	ROOT	_	_
+1	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
+
+1	{LU₂}EN-x	{lu₂}en-x	NOUN	X	Gender=Masc	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -120,7 +121,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u₂-ku-ta-ti-šu	u₂-ku-ta-ti-šu	X	PN	_	0	ROOT	_	_
+1	u₂-ku-ta-ti-šu	u₂-ku-ta-ti-šu	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -131,14 +132,12 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	2	discourse	_	_
-2	liqiba	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
-3	qablēka	qablu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
-4	rukus	rakāsu	VERB	V	Case=Gen	2	conj	_	_
-5	itizi	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	2	conj	_	_
+2	liqiba	qabû	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|Ventive=Yes|VerbStem=G	5	advcl	_	_
+3	qablēka	qablu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	4	obj	_	_
+4	rukus	rakāsu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	2	conj	_	_
+5	itizi	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	bīli	wabālu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	bīli	wabālu	VERB	V	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -146,8 +145,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ittībūlu	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	kanīku	kanīku	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	ittībūlu	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	kanīku	kanīku	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -155,11 +156,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	darâ	darrû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	immeru	immeru	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	1	nmod	_	_
+1	darâ	darrû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	immeru	immeru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	issi	išti	ADP	PRP	_	2	case	_	_
-2	01	01	NUM	NUM	_	0	ROOT	_	_
+1	issi	išti	NOUN	N	_	0	ROOT	_	_
+
+1	01	01	NUM	NUM	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
