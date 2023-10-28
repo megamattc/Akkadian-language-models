@@ -281,6 +281,7 @@ exclusions = [
    "mārat šarri":[{ORTH:    "mārat šarri"}],
    "marʾē šarri":[{ORTH:    "marʾē šarri"}],
    "mār kitkittê":[{ORTH:    "mār kitkittê"}],
+   "mār ahātīya":[{ORTH:    "mār ahātīya"}],
    "mār ahīšu":[{ORTH:    "mār ahīšu"}],
    "mār šipru":[{ORTH:    "mār šipru"}],
    "mār šipri":[{ORTH:    "mār šipri"}],

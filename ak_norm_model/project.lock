@@ -31,14 +31,14 @@ train:
       --gpu-id -1  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
   deps:
     - path: corpus/UD_Akkadian/train
-      md5: beb5675d3ae15c1ec8ab3b90f3136714
+      md5: b29fa44e2ed15f6b5832a10d69704b59
     - path: corpus/UD_Akkadian/dev
       md5: 8a2430288d5e91753b4e318754792e8f
     - path: configs/combined_lemmatizers_suff.cfg
       md5: a85a53f64c1cfa53a18d291a0bb69aed
   outs:
     - path: training/UD_Akkadian/model-best
-      md5: 5bde931ee0994e1a08d270c9311822e5
+      md5: 55ded3d0c51fa9e53e5b5dff9bdaf4bd
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
