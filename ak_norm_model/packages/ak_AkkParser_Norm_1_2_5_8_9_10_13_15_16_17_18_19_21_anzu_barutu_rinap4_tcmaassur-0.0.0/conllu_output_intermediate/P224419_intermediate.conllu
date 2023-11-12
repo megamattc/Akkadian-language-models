@@ -6,10 +6,10 @@
 
 1	06	06	NUM	NUM	_	2	nummod	_	_
 2	līmu	līm	NUM	N	_	3	nummod	_	_
-3	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	7	dislocated	_	_
+3	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
 4	ša	ša	ADP	PRP	_	5	case	_	_
 5	Ṣil-Bel	ṣil-bel	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-6	rab ālāni	rab ālāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	rab ālāni	rab ālāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	appos	_	_
 7	qurbat	qurbu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	rēhti	rēhtu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	4	obj	_	_
@@ -18,29 +18,29 @@
 4	udubbiku	tabāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	02	02	NUM	NUM	_	2	nummod	_	_
+2	līmu	līm	NUM	N	_	0	ROOT	_	_
+3	Nergal-eṭir	nergal-eṭir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+
+1	03	03	NUM	NUM	_	2	nummod	_	_
 2	līmu	līm	NUM	N	_	3	nummod	_	_
-3	Nergal-eṭir	nergal-eṭir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-4	03	03	NUM	NUM	_	5	nummod	_	_
-5	līmu	līm	NUM	N	_	6	nummod	_	_
-6	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	_
-
-1	ina	ina	ADP	PRP	_	2	case	_	_
-2	Sippar	sippar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
-2	issu	ištu	ADP	PRP	_	3	case	_	_
-3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
-4	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	patiat	patiu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+3	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+4	ina	ina	ADP	PRP	_	5	case	_	_
+5	Sippar	sippar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+7	issu	ištu	ADP	PRP	_	8	case	_	_
+8	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
+9	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	patiat	patiu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	karrat	karru	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
-3	ana	ana	ADP	PRP	_	4	case	_	_
-4	Sippar	sippar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
-5	lā	lā	PART	NEG	_	6	advmod	_	_
-6	allak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	2	conj	_	_
 
-1	kurummāti	kurummatu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	5	nsubj	_	_
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	Sippar	sippar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
+3	lā	lā	PART	NEG	_	4	advmod	_	_
+4	allak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	kurummāti	kurummatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
 2	issu	ištu	ADP	PRP	_	3	case	_	_
 3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 4	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -48,17 +48,18 @@
 
 1	šummu	šumma	SCONJ	SCONJ	_	3	mark	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-3	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	5	advcl	_	_
+3	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	mā	mā	PART	Quotative	_	5	discourse	_	_
-5	alik	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
-6	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
-7	ukkušu	kâšu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
-8	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
-9	idabbūbu	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	5	conj	_	_
-10	mā	mā	PART	Quotative	_	12	discourse	_	_
-11	issu	ištu	ADP	PRP	_	12	case	_	_
-12	Kutie	kutie	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	ccomp	_	_
-13	mā	mā	PART	Quotative	_	15	discourse	_	_
-14	issu	ištu	ADP	PRP	_	15	case	_	_
-15	Kar-Nergal	kar-nergal	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+5	alik	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	3	ccomp	_	_
+
+1	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	dislocated	_	_
+2	ukkušu	kâšu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
+3	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	idabbūbu	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+5	mā	mā	PART	Quotative	_	7	discourse	_	_
+6	issu	ištu	ADP	PRP	_	7	case	_	_
+7	Kutie	kutie	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	ccomp	_	_
+8	mā	mā	PART	Quotative	_	10	discourse	_	_
+9	issu	ištu	ADP	PRP	_	10	case	_	_
+10	Kar-Nergal	kar-nergal	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
 

@@ -1,9 +1,9 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
-4	urdaka	ardu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
-5	Duri-Aššur	duri-aššur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-6	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+4	urdaka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Duri-Aššur	duri-aššur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 7	ana	ana	ADP	PRP	_	8	case	_	_
 8	bīrāt	birtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	6	nsubj	_	_
 9	ša	ša	ADP	PRP	_	10	case	_	_
@@ -18,11 +18,11 @@
 18	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 19	issurri	issurri	ADV	AV	_	22	advmod	_	_
 20	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
-21	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	20	appos	_	_
-22	iqābi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+21	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	20	appos	_	_
+22	iqābi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 23	mā	mā	PART	Quotative	_	30	discourse	_	_
 24	atâ	atā	PRON	QP	_	30	advmod	_	_
-25	mār šiprīya	mār šiprīya	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	30	obj	_	_
+25	mār šiprīya	mār šiprīya	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	30	obj	_	_
 26	ina	ina	ADP	PRP	_	27	case	_	_
 27	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	30	obl	_	_
 28	mār šiprīka	mār šiprīka	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	27	nmod	_	_
@@ -31,18 +31,18 @@
 31	kupû	kuppû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
 32	dān	dannu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 33	adanniš	adanniš	ADV	AV	_	32	advmod	_	_
-34	dayālī	dayyālu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	35	obj	_	_
+34	dayālī	dayyālu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	35	obj	_	_
 35	assapar	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	32	conj	_	_
 36	issuhurūni	sahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	35	conj	_	_
-37	mā	mā	PART	Quotative	_	38	discourse	_	_
-38	ayāka	ayyaka	PRON	QP	_	39	obl	_	_
-39	nillak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	36	conj	_	_
+37	mā	mā	PART	Quotative	_	39	discourse	_	_
+38	ayāka	ayyaka	PRON	QP	_	39	obj	_	_
+39	nillak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|Tense=Pres|VerbForm=Fin|VerbStem=G	36	ccomp	_	_
 40	kīma	kīma	SCONJ	SBJ	_	42	mark	_	_
-41	kupû	kuppû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	42	nsubj	_	_
+41	kupû	kuppû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_
 42	imteṭi	maṭû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 43	itabbiu	tebû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	42	conj	_	_
-44	errubu	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	43	conj	_	_
-45	ša-lišānī	ša-lišāni	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	48	nsubj	_	_
-46	ṭēme	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	48	obl	_	_
+44	errubu	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	42	conj	_	_
+45	ša-lišānī	ša-lišāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	_
+46	ṭēme	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	48	obj	_	_
 47	nakri	nakru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	46	nmod	_	_
 48	ubbalūni	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_

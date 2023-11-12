@@ -128,7 +128,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Ituʾaya	ituʾaya	PROPN	EN	_	0	ROOT	_	_
+1	Ituʾaya	ituʾaya	PROPN	EN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	nu-x	nu-x	X	X	_	0	ROOT	_	_
 
@@ -140,7 +140,7 @@
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	1	appos	_	_
 3	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	akī	akī	SCONJ	SBJ	_	11	mark	_	_
-5	nagiu	nagû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+5	nagiu	nagû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	pāhiti	pīhātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	5	nmod	_	_
 8	Kurbail	kurbail	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -149,22 +149,23 @@
 11	ukâllûni	kullu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuffix=Yes|Tense=Pres|VerbForm=Fin|VerbStem=D	3	ccomp	_	_
 
 1	ūmâ	ūma	ADV	AV	_	5	advmod	_	_
-2	nasīkāni	nasīku	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	nasīkāni	nasīku	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
 4	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	_
 5	ittalkūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	8	advcl	_	_
 6	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 7	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
 8	lišʾalšunu	šâlu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
-9	adi	adi	SCONJ	SBJ	_	11	mark	_	_
-10	nišē	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
-11	akabbusūni	kabāsu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	17	advcl	_	_
-12	libbu	libbu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
-13	ša	ša	ADP	PRP	_	14	case	_	_
-14	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
-15	akabbusūni	kabāsu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	11	conj	_	_
-16	harammāma	haramma	ADV	AV	_	17	advmod	_	_
-17	assapāra	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	8	ccomp	_	_
+
+1	adi	adi	SCONJ	SBJ	_	3	mark	_	_
+2	nišē	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	akabbusūni	kabāsu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	9	advcl	_	_
+4	libbu	libbu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+5	ša	ša	ADP	PRP	_	6	case	_	_
+6	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	akabbusūni	kabāsu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	conj	_	_
+8	harammāma	haramma	ADV	AV	_	9	advmod	_	_
+9	assapāra	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ālāni	ālu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
@@ -178,8 +179,8 @@
 10	ša	ša	ADP	PRP	_	11	case	_	_
 11	pāhiti	pīhātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 12	ša	ša	ADP	PRP	_	13	case	_	_
-13	rabiūti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	11	conj	_	_
-14	ša	ša	PRON	REL	_	17	nsubj	_	_
+13	rabiūti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	ša	ša	PRON	REL	_	17	obj	_	_
 15	ina	ina	ADP	PRP	_	16	case	_	_
 16	pāhiti	pīhātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
 17	iraʾʾûni	reʾû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	8	acl	_	_
@@ -194,8 +195,8 @@
 2	ša	ša	PRON	REL	_	5	obj	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-5	ilaʾʾûni	leʾû	VERB	V	Gender=Masc|Mood=Ind|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-6	lēpūšu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	5	conj	_	_
+5	ilaʾʾûni	leʾû	VERB	V	Gender=Masc|Mood=Ind|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	6	obl	_	_
+6	lēpūšu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

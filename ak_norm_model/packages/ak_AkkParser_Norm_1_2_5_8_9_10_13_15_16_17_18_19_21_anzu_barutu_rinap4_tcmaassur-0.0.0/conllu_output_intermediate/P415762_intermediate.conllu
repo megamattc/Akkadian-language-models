@@ -382,11 +382,11 @@
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-5	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 
-1	o	o	X	X	_	0	ROOT	_	_
+1	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
-1	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+1	o	o	X	X	_	2	obl	_	_
+2	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
@@ -594,7 +594,7 @@
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	1	appos	_	_
 3	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	kî	kī	ADP	ADP	_	0	ROOT	_	_
+1	kî	kī	ADP	SCONJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -604,7 +604,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ussaqalpa	neqelpû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+1	ussaqalpa	neqelpû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	arhiš	arhiš	ADV	AV	_	0	ROOT	_	_
 
@@ -616,7 +616,7 @@
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	pānīka	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	3	obl	_	_
-3	kammusu	kamsu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+3	kammusu	kamsu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -647,7 +647,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	qaqqaru	qaqqaru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
+1	qaqqaru	qaqqaru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	pāniūte	pānû	ADJ	AJ	_	1	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -678,9 +678,10 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	Balassi	balassi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	ana	ana	ADP	PRP	_	3	case	_	_
-3	{1}{d}x	{1}{d}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Balassi	balassi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	{1}{d}x	{1}{d}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -729,7 +730,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	uṣurraššunu	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+1	uṣurraššunu	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

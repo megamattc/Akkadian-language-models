@@ -2,8 +2,7 @@
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	urdaka	ardu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
-
-1	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+5	{1}x	{1}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -13,7 +12,7 @@
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
 2	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	adanniš	adanniš	ADV	AV	Case=Ter	2	advmod	_	_
+3	adanniš	adanniš	ADV	AV	_	2	advmod	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
 5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
@@ -28,8 +27,8 @@
 
 1	x	x	X	X	_	4	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
-3	bētāni	bītānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	iobj	_	_
-4	tallak	alāku	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	bētāni	bītānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	obl	_	_
+4	tallak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -50,12 +49,12 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ša	ša	PRON	REL	_	2	obj	_	_
-2	nikarrarūni	karāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	ša	ša	PRON	REL	_	3	obj	_	_
+3	nikarrarūni	karāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	1	acl	_	_
 
 1	ṣābāni	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
-2	maʾda	mādu	ADJ	AJ	_	1	amod	_	_
+
+1	maʾda	mādu	ADJ	AJ	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -130,7 +129,7 @@
 1	o	o	X	X	_	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
+2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	1	appos	_	_
 3	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -149,7 +148,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	bīrāte	birtu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
+2	bīrāte	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -39,7 +39,7 @@
 39	īdû	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	36	ccomp	_	_
 40	šībūte	šību	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	42	nsubj	_	_
 41	lū	lū	PART	PART	_	42	advmod	_	_
-42	ittamû	tamû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	43	nsubj	_	_
+42	ittamû	tamû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 43	illāka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 44	tallakanni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	43	conj	_	_
 45	adi	adi	SCONJ	SBJ	_	46	mark	_	_
@@ -53,7 +53,7 @@
 53	x	x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
-56	u₂-la-ah-x	u₂-la-ah-x	X	X	_	_	_	_	_
+56	u₂-la-ah-x	u₂-la-ah-x	X	V	_	_	_	_	_
 57	x	x	X	X	_	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
@@ -130,7 +130,7 @@
 130	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	133	iobj	_	_
 131	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	130	appos	_	_
 132	kî	kī	SCONJ	SBJ	_	133	mark	_	_
-133	ašpura	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	143	advcl	_	_
+133	ašpura	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 134	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	133	cop	_	_
 135	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	143	nsubj	_	_
 136	u	u	CONJ	CNJ	_	137	cc	_	_
@@ -142,11 +142,11 @@
 142	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	141	appos	_	_
 143	ittannu	nadānu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 144	akkāʾi	akkāʾi	PRON	QP	_	_	_	_	_
-145	kî	kī	SCONJ	SBJ	_	148	mark	_	_
-146	nišē	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	148	nsubj	_	_
+145	kî	kī	SCONJ	SBJ	_	144	dep	_	_
+146	nišē	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	144	dep	_	_
 147	annūti	annû	DET	DP	Case=Acc|Gender=Masc|Number=Plur	146	det	_	_
 148	la-pān	lapān	ADP	PRP	_	_	_	_	_
-149	o	o	X	X	_	150	case	_	_
-150	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	152	obl	_	_
+149	o	o	X	X	_	152	advmod	_	_
+150	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	152	obj	_	_
 151	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	150	appos	_	_
 152	lihalliqu	halāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	_	_	_	_

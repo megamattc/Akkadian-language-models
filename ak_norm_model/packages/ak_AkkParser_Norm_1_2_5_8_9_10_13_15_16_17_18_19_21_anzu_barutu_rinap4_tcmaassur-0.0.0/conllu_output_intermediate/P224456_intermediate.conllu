@@ -78,9 +78,8 @@
 3	ūmāya	ūmāya	ADV	AV	_	2	nmod	_	_
 4	ša	ša	ADP	PRP	_	5	case	_	_
 5	mâri	mâru	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	3	nmod	_	_
-
-1	01	01	NUM	NUM	_	2	nummod	_	_
-2	pursītu	pursītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
+6	01	01	NUM	NUM	_	7	nummod	_	_
+7	pursītu	pursītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -88,18 +87,17 @@
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	x	x	X	X	_	2	nummod	_	_
-2	šiqlī	šiqlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
-3	ṣarpi	ṣarpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+3	x	x	X	X	_	4	nummod	_	_
+4	šiqlī	šiqlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	2	nmod	_	_
+5	ṣarpi	ṣarpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 
 1	01	01	NUM	NUM	_	2	nummod	_	_
-2	pursītu	pursītu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
+2	pursītu	pursītu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	šamnī	šamnu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
 4	ina	ina	ADP	PRP	_	5	case	_	_
-5	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	2	nmod	_	_
+5	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
 6	12	12	NUM	NUM	_	7	nummod	_	_
-7	šiqlī	šiqlu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	conj	_	_
+7	šiqlī	šiqlu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	1/2	1/2	NUM	NUM	_	0	ROOT	_	_
 
@@ -110,7 +108,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
 3	03	03	NUM	NUM	_	4	nummod	_	_
 4	šiqlī	šiqlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	2	nmod	_	_
 5	ṣarpi	ṣarpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -121,7 +119,7 @@
 3	ina	ina	ADP	PRP	_	4	case	_	_
 4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
 5	05	05	NUM	NUM	_	6	nummod	_	_
-6	mē	meʾatu	NUM	NUM	_	7	nummod	_	_
+6	mē	meʾatu	NUM	NU	_	7	nummod	_	_
 7	šiqlī	šiqlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	4	nmod	_	_
 8	ṣarpi	ṣarpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	tadin	tadnu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
@@ -140,8 +138,9 @@
 1	30	30	NUM	NUM	_	2	nummod	_	_
 2	alpāni	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
-1	hi	hi	X	X	_	2	case	_	_
-2	ṣir	ṣir	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	hi	hi	X	X	_	0	ROOT	_	_
+
+1	ṣir	ṣir	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -157,7 +156,7 @@
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
-1	o	o	X	X	_	3	case	_	_
+1	o	o	X	X	_	3	advmod	_	_
 2	04	04	NUM	NUM	_	3	nummod	_	_
 3	urīṣāni	urīṣu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
@@ -214,17 +213,17 @@
 5	ina	ina	ADP	PRP	_	6	case	_	_
 6	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	acl	_	_
 7	iddanūni	tadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-8	01	01	NUM	NUM	_	9	nummod	_	_
-9	tabku	tabku	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
-10	ša	ša	ADP	PRP	_	11	case	_	_
-11	amēli	awīlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-12	išû	išû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	7	conj	_	_
+
+1	01	01	NUM	NUM	_	2	nummod	_	_
+2	tabku	tabku	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	amēli	awīlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	išû	išû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	issušu	sinništu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	2	nsubj	_	_
+2	issušu	sinništu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -237,7 +236,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šaniūti	šanû	NUM	N	Case=Gen|Gender=Masc|Number=Plur	3	iobj	_	_
+2	šaniūti	šanû	NUM	N	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
 3	4(ban₂)-a.a	4(ban₂)-a.a	NUM	V	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -258,8 +257,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	qarbatu	qerbetu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	rabiu	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
+1	qarbatu	qerbetu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	rabiu	rabû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -343,7 +342,7 @@
 17	ina	ina	ADP	PRP	_	18	case	_	_
 18	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	20	obl	_	_
 19	āli	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
-20	errabūni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	4	dep	_	_
+20	errabūni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	4	conj	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	qanni	qannu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
@@ -356,11 +355,12 @@
 9	01	01	NUM	NUM	_	10	nummod	_	_
 10	ammiti	ammatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	11	nsubj	_	_
 11	rapšu	rapšu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	_
-12	07	07	NUM	NUM	_	16	nsubj	_	_
-13	ina	ina	ADP	PRP	_	15	case	_	_
-14	01	01	NUM	NUM	_	15	nummod	_	_
-15	ammiti	ammatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
-16	rūqu	rūqu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+
+1	07	07	NUM	NUM	_	5	nsubj	_	_
+2	ina	ina	ADP	PRP	_	4	case	_	_
+3	01	01	NUM	NUM	_	4	nummod	_	_
+4	ammiti	ammatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	rūqu	rūqu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	annīu	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_

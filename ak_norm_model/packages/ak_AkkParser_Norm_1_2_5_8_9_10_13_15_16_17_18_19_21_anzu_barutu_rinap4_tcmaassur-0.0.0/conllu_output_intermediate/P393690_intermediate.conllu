@@ -9,13 +9,13 @@
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+6	adanniš	adanniš	ADV	AV	_	2	advmod	_	_
+7	adanniš	adanniš	ADV	AV	_	6	conj	_	_
 
-1	adanniš	adanniš	ADV	AV	_	6	advmod	_	_
-2	adanniš	adanniš	ADV	AV	_	1	fixed	_	_
-3	ša	ša	PRON	REL	_	6	obl	_	_
-4	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-5	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
-6	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	4	obl	_	_
+2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
@@ -41,12 +41,11 @@
 
 1	x+x-šu₂	x+x-šu₂	X	X	_	0	ROOT	_	_
 
-1	{1}ša₂-x+x	{1}ša₂-x+x	X	X	_	0	ROOT	_	_
+1	{1}ša₂-x+x	{1}ša₂-x+x	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
-1	x+x-ni	x+x-ni	X	X	_	2	case	_	_
-2	ṣabat	ṣabātu	VERB	AJ	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
-
-1	dīnaššu	tadānu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
+1	x+x-ni	x+x-ni	X	X	_	2	dep	_	_
+2	ṣabat	ṣabātu	VERB	AJ	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	3	dep	_	_
+3	dīnaššu	tadānu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -92,7 +91,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iṣbatūni	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iṣbatūni	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -150,13 +149,14 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	3	nsubj	_	_
-2	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-3	ašalla	šâlu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-4	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-5	ušašma	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=Š	3	conj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
 
-1	harammāma	haramma	ADV	AV	Focus=Yes	0	ROOT	_	_
+1	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	ašalla	šâlu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ušašma	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=Š	2	conj	_	_
+
+1	harammāma	haramma	ADV	AV	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -373,7 +373,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	{LU₂}x+x+x	{lu₂}x+x+x	PROPN	X	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{LU₂}x+x+x	{lu₂}x+x+x	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -467,7 +467,7 @@
 
 1	aqbûni	qabû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	{LU₂}x	{lu₂}x	NOUN	N	Gender=Masc	0	ROOT	_	_
+1	{LU₂}x	{lu₂}x	X	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -496,10 +496,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	laqiu	leqû	ADJ	AJ	_	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	2	obj	_	_
+2	laqiu	leqû	ADJ	AJ	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	ammūte	ammiu	DET	DP	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	ammūte	ammiu	DET	DP	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -512,5 +512,5 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	laqiu	leqû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+2	laqiu	leqû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 

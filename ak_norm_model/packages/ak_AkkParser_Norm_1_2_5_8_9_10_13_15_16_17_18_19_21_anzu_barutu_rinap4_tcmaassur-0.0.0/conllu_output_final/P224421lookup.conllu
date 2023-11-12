@@ -16,14 +16,14 @@
 16	ušēbilūni	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Š	11	acl	_	_
 17	iqṭibia	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 18	mā	mā	PART	Quotative	_	21	discourse	_	_
-19	20	20	NUM	NUM	_	20	nummod	_	_
-20	ṣābāni	ṣābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+19	20	20	NUM	DN	_	20	nummod	_	_
+20	ṣābāni	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
 21	uktaššidūni	kašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbStem=D	17	ccomp	_	_
-22	o	o	X	X	_	_	_	_	_
+22	o	o	X	X	_	24	nsubj	_	_
 23	adi	adi	ADP	PRP	_	24	case	_	_
-24	qanni	qannu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-25	ālīma	ālu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	24	nmod	_	_
-26	o	o	X	X	_	34	obj	_	_
+24	qanni	qannu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	25	case	_	_
+25	ālīma	ālu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	_	_	_	_
+26	o	o	X	X	_	_	_	_	_
 27	ina	ina	ADP	PRP	_	28	case	_	_
 28	kallamāri	kallâmāre	ADV	AV	Case=Gen|Gender=Masc|Number=Sing	34	obl	_	_
 29	ina	ina	ADP	PRP	_	30	case	_	_
@@ -31,9 +31,9 @@
 31	sissê	sisû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	34	obj	_	_
 32	ina	ina	ADP	PRP	_	33	case	_	_
 33	dātuššunu	dāt	ADP	PRP	Case=Loc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	34	obl	_	_
-34	assapar	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	39	advcl	_	_
+34	assapar	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 35	lā	lā	PART	NEG	_	36	advmod	_	_
-36	ušanṣiu	maṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	34	conj	_	_
+36	ušanṣiu	maṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	_	_	_	_
 37	lā	lā	PART	NEG	_	38	advmod	_	_
 38	ikšudūšunu	kašādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	36	conj	_	_
 39	ittalkūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -73,7 +73,7 @@
 73	x	x	X	X	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
 75	ša	ša	ADP	PRP	_	76	case	_	_
-76	nāgir ēkalli	nāgir ēkalli	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+76	nāgir ēkalli	nāgir ēkalli	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 77	x	x	X	X	_	_	_	_	_
 78	x	x	X	X	_	_	_	_	_
 79	alpāni	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	80	nsubj	_	_
@@ -82,9 +82,9 @@
 82	ša	ša	ADP	PRP	_	83	case	_	_
 83	Nergal-uballiṭ	nergal-uballiṭ	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	85	nsubj	_	_
 84	šanie	šanû	NUM	AJ	Case=Gen|Gender=Masc|Number=Plur	83	appos	_	_
-85	annāka	annaka	ADV	AV	_	86	advmod	_	_
+85	annāka	annaka	ADV	AV	_	_	_	_	_
 86	liqbûniššunu	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
-87	alpānišunu	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	88	nsubj	_	_
+87	alpānišunu	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	88	nsubj	_	_
 88	lillikūni	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	86	conj	_	_
 89	ebūršunu	ebūru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	90	obj	_	_
 90	ludurrisu	darāsu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	_	_	_	_
@@ -101,5 +101,5 @@
 101	izzazzu	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 102	alpāni	alpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	105	nsubj	_	_
 103	ina	ina	ADP	PRP	_	104	case	_	_
-104	pānišunu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	105	obl	_	_
+104	pānišunu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	105	obl	_	_
 105	laššu	laššu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	101	conj	_	_

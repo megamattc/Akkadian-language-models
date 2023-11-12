@@ -8,7 +8,7 @@
 8	šunūma	šunu	PRON	IP	Case=Nom|Focus=Yes|Gender=Masc|Number=Plur|Person=3	_	_	_	_
 9	emūqīšu	emūqu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	14	nsubj	_	_
 10	ana	ana	ADP	PRP	_	11	case	_	_
-11	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	14	iobj	_	_
+11	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	14	obl	_	_
 12	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 13	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
 14	ītetqu	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -24,13 +24,13 @@
 24	ša	ša	ADP	PRP	_	25	case	_	_
 25	Bab-bitqa	bab-bitqa	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
 26	huṣṣēti	huṣṣutu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	_
-27	uhtaṣṣiṣu	haṣāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	30	advcl	_	_
+27	uhtaṣṣiṣu	haṣāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
 28	ina	ina	ADP	PRP	_	29	case	_	_
-29	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	30	obl	_	_
-30	ašbu	ašbu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
+29	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	30	obl	_	_
+30	ašbu	ašbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	27	conj	_	_
 31	02	02	NUM	NUM	_	32	nummod	_	_
 32	līmu	līm	NUM	N	_	33	nummod	_	_
-33	sīsê	sisû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	40	obj	_	_
+33	sīsê	sisû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	40	nsubj	_	_
 34	u	u	CONJ	CNJ	_	36	cc	_	_
 35	90	90	NUM	NUM	_	36	nummod	_	_
 36	mugirrī	mugerru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	33	conj	_	_
@@ -56,8 +56,8 @@
 56	umma	umma	PART	Quotative	_	57	discourse	_	_
 57	abkannāšīma	abāku	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	55	ccomp	_	_
 58	īnaka	īnu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	59	obj	_	_
-59	dekēma	dekû	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
-60	abkannāši	abāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	59	conj	_	_
+59	dekēma	dekû	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	57	conj	_	_
+60	abkannāši	abāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	_	_	_	_
 61	ana	ana	ADP	PRP	_	62	case	_	_
 62	mīni	mīnu	PRON	QP	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 63	x+x	x+x	X	X	_	_	_	_	_

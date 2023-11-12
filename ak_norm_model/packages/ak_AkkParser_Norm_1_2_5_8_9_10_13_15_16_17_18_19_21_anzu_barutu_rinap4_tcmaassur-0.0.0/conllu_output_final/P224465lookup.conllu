@@ -36,10 +36,10 @@
 36	Nergal	nergal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	35	nmod:poss	_	_
 37	u	u	CONJ	CNJ	_	38	cc	_	_
 38	Laṣ	laṣ	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	36	conj	_	_
-39	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+39	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	41	obj	_	_
 40	bēlī	bēlu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	39	appos	_	_
-41	akarrab	karābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	54	advcl	_	_
-42	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	54	obj	_	_
+41	akarrab	karābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+42	ṭēmu	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	54	dislocated	_	_
 43	ša	ša	ADP	PRP	_	44	case	_	_
 44	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
 45	Mukin-zeri	mukin-zeri	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	54	nsubj	_	_
@@ -73,7 +73,7 @@
 73	tapallaha	palāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 74	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 75	x	x	X	X	_	_	_	_	_
-76	x	x	X	X	_	_	_	_	_
+76	x	x	X	X	_	78	nsubj	_	_
 77	lā	lā	PART	NEG	_	78	advmod	_	_
 78	ṣebû	ṣabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
 79	u	u	CONJ	CNJ	_	_	_	_	_
@@ -85,8 +85,8 @@
 85	x	x	X	X	_	_	_	_	_
 86	ītelû	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 87	kî	kī	SCONJ	SBJ	_	_	_	_	_
-88	o	o	X	X	_	_	_	_	_
-89	u₂-mas-su-u₂	u₂-mas-su-u₂	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	93	dep	_	_
+88	o	o	X	X	_	89	advmod	_	_
+89	u₂-mas-su-u₂	u₂-mas-su-u₂	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	93	advcl	_	_
 90	ana	ana	ADP	PRP	_	91	case	_	_
 91	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	93	iobj	_	_
 92	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	91	appos	_	_

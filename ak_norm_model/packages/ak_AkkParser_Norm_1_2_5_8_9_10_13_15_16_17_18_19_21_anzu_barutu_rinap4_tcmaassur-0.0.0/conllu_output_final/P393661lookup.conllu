@@ -14,12 +14,12 @@
 14	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 15	ana	ana	ADP	PRP	_	16	case	_	_
 16	ēkurrāte	ēkurru	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	14	nsubj	_	_
-17	šulmu	šulmu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+17	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 18	ana	ana	ADP	PRP	_	19	case	_	_
 19	bīrāt	birtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	17	nsubj	_	_
 20	ša	ša	ADP	PRP	_	21	case	_	_
 21	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
-22	gabbu	gabbu	DET	DP	_	19	det	_	_
+22	gabbu	gabbu	DET	DP	_	_	_	_	_
 23	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
 24	ša	ša	ADP	PRP	_	25	case	_	_
 25	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
@@ -37,12 +37,12 @@
 37	x	x	X	X	_	_	_	_	_
 38	a	ana	ADP	PRP	_	_	_	_	_
 39	{KUR}x-a-a	{kur}x-a-a	X	X	_	_	_	_	_
-40	ša	ša	PRON	REL	_	43	obl	_	_
+40	ša	ša	PRON	REL	_	43	obj	_	_
 41	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	_
 42	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	41	appos	_	_
-43	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	51	advcl	_	_
-44	ṣarpumma	ṣarpu	NOUN	N	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	51	obj	_	_
-45	kili	kalû	VERB	V	Gender=Masc|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	44	amod	_	_
+43	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
+44	ṣarpumma	ṣarpu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	45	nsubj	_	_
+45	kili	kalû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	43	ccomp	_	_
 46	annurig	annûri	ADV	AV	_	51	advmod	_	_
 47	ina	ina	ADP	PRP	_	48	case	_	_
 48	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	51	iobj	_	_
@@ -50,11 +50,11 @@
 50	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	49	appos	_	_
 51	ussēbila	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	_	_	_	_
 52	10	10	NUM	NUM	_	53	nummod	_	_
-53	bēl mugirrī	bēl mugirrī	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	58	obj	_	_
+53	bēl mugirrī	bēl mugirrī	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	58	obl	_	_
 54	issu	ištu	ADP	PRP	_	55	case	_	_
-55	bēt	bītu	NOUN	N	_	58	obl	_	_
-56	issi ēkalli	sinnišat ēkalli	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	55	nmod	_	_
-57	issēniš	ištēniš	ADV	AV	_	58	advmod	_	_
+55	bēt	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	58	obl	_	_
+56	issi ēkalli	sinnišat ēkalli	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	55	nmod	_	_
+57	issēniš	ištēniš	ADV	AV	Case=Ter	58	advmod	_	_
 58	ussēbila	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	_	_	_	_
 59	o	o	X	X	_	_	_	_	_
 60	20	20	NUM	NUM	_	_	_	_	_
