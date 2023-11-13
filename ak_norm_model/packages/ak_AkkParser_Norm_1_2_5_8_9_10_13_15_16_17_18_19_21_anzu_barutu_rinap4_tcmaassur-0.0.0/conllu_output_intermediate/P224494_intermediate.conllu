@@ -66,11 +66,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	adanniš	adanniš	ADV	AV	_	0	ROOT	_	_
-
-1	akī	akī	ADP	PRP	_	2	case	_	_
-2	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
-3	niqṭibaššu	qabû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
+1	adanniš	adanniš	ADV	AV	_	4	advmod	_	_
+2	akī	akī	ADP	PRP	_	3	case	_	_
+3	annî	annû	DET	DET	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	niqṭibaššu	qabû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	muk	muk	PART	Quotative	_	0	ROOT	_	_
 
@@ -79,7 +78,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	issu	ištu	ADP	PRP	_	2	case	_	_
-2	bēt	bītu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	bēt	bītu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	Salame	salame	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	kurummāti	kurummatu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
@@ -92,12 +91,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x+x-ni	x+x-ni	X	X	_	0	ROOT	_	_
-
-1	liššiu	našû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
-
-1	lā	lā	PART	PART	_	2	advmod	_	_
-2	immaggur	magāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+1	x+x-ni	x+x-ni	X	X	_	2	obj	_	_
+2	liššiu	našû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+3	lā	lā	PART	NEG	_	4	advmod	_	_
+4	immaggur	magāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -136,7 +133,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Patibiri	patibiri	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Patibiri	patibiri	PROPN	SN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -196,7 +193,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Arumu	arumu	PROPN	EN	Case=Nom|Gender=Masc	0	ROOT	_	_
+1	Arumu	arumu	PROPN	EN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -246,7 +243,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Hagaranu	hagaranu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Hagaranu	hagaranu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -277,7 +274,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	Qarradi	qarradi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Qarradi	qarradi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -289,7 +286,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nāgirātešunu	nāgiru	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	4	nsubj	_	_
+1	nāgirātešunu	nāgiru	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	4	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	iobj	_	_
 4	ittalkūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
@@ -300,10 +297,8 @@
 1	muk	muk	PART	Quotative	_	3	discourse	_	_
 2	lā	lā	PART	NEG	_	3	advmod	_	_
 3	tapallah	palāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	muk	muk	PART	Quotative	_	0	ROOT	_	_
-
-1	ṣīāni	aṣû	VERB	V	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+4	muk	muk	PART	Quotative	_	3	discourse	_	_
+5	ṣīāni	aṣû	VERB	V	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -315,18 +310,17 @@
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
-3	ālānikunu	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	2	nmod	_	_
+3	ālānikunu	ālu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	2	nmod	_	_
 4	šība	ašābu	VERB	V	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	0	ROOT	_	_
-
-1	muk	muk	PART	Quotative	_	4	discourse	_	_
-2	marʾēkunu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	4	nsubj	_	_
-3	issīni	išti	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Plur|PresSuffPer=1	4	obl	_	_
-4	lilliku	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+5	muk	muk	PART	Quotative	_	8	discourse	_	_
+6	marʾēkunu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	8	nsubj	_	_
+7	issīni	išti	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Plur|PresSuffPer=1	8	obl	_	_
+8	lilliku	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	4	ccomp	_	_
 
 1	mā	mā	PART	Quotative	_	4	discourse	_	_
-2	ṣāb	ṣābu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	4	obj	_	_
-3	šarrīni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|SubSuff=Yes	2	nmod	_	_
-4	nušaṣbit	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	ṣāb	ṣābu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	dep	_	_
+3	šarrīni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	nmod	_	_
+4	nušaṣbit	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

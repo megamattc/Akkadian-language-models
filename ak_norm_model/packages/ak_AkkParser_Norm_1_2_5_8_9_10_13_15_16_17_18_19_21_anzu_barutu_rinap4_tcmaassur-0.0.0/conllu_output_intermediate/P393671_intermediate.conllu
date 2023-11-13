@@ -10,24 +10,25 @@
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 
-1	rab	rabû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	rab	rabû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	10	nsubj	_	_
 2	bīrāti	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
 3	Urarṭaya	urarṭaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
 4	ša	ša	PRON	REL	_	8	nsubj	_	_
-5	pāhutu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	pāhutu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
-7	Kalhi	kalhi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Kalhi	kalhi	PROPN	SN	Case=Gen	5	nmod	_	_
 8	naṣāni	našû	ADJ	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G	2	acl	_	_
+9	ina	ina	ADP	PRP	_	10	case	_	_
+10	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+11	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	10	nsubj	_	_
 
-1	ina	ina	ADP	PRP	_	2	case	_	_
-2	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
-3	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
-4	libbimmâ	libbu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	6	advcl	_	_
-5	lū	lū	PART	PART	_	6	advmod	_	_
-6	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	nsubj	_	_
-7	ina	ina	ADP	PRP	_	8	case	_	_
-8	Kalhi	kalhi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
-9	nubbalšunu	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+1	libbimmâ	libbu	NOUN	N	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
+
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	Kalhi	kalhi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	nubbalšunu	wabālu	VERB	V	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
 
 1	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ša	ša	PRON	REL	_	5	obj	_	_

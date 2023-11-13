@@ -2,33 +2,31 @@
 2	Salama	salama	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	dināna	dinānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	iobj	_	_
-5	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	nmod	_	_
+5	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	nmod	_	_
 7	lullik	alāku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
 
-1	ummā	umma	PART	Quotative	_	3	dep	_	_
+1	ummā	umma	PART	Quotative	_	3	discourse	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
-3	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+3	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
 4	u	u	CONJ	CNJ	_	5	cc	_	_
 5	u₂-x	u₂-x	X	X	_	3	conj	_	_
 6	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
-1	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	5	nsubj	_	_
 2	ša	ša	PRON	REL	_	4	obj	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	iqbû	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
-
-1	itti	itti	ADP	PRP	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
-
-1	adû	adû	ADV	AV	_	9	advmod	_	_
-2	mār šiprāni	mār šiprāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
-3	ša	ša	ADP	PRP	_	4	case	_	_
-4	mārē	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	2	nmod	_	_
-5	Mukin-zeri	mukin-zeri	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-6	ana	ana	ADP	PRP	_	7	case	_	_
-7	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	iobj	_	_
-8	Puqudu	paqdu	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-9	ītetqu	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+5	itti	itti	ADP	PRP	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+6	adû	adû	ADV	AV	_	14	advmod	_	_
+7	mār šiprāni	mār šiprāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+8	ša	ša	ADP	PRP	_	9	case	_	_
+9	mārē	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	7	nmod	_	_
+10	Mukin-zeri	mukin-zeri	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	ana	ana	ADP	PRP	_	12	case	_	_
+12	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	14	iobj	_	_
+13	Puqudu	paqdu	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	ītetqu	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -50,8 +48,9 @@
 
 1	iptû	petû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	adû	adû	ADV	AV	_	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	0	ROOT	_	_
+
+1	adû	adû	ADV	AV	_	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -73,19 +72,20 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	3	obj	_	_
+1	ša	ša	PRON	REL	_	3	obl	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	iqbû	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	x-ha-al-x	x-ha-al-x	X	X	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
+5	x-ha-al-x	x-ha-al-x	X	N	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
 8	appāru	appāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 
-1	kî	kī	SCONJ	SBJ	_	3	mark	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	ṣilli	ṣillu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
-4	gabbi	gabbu	DET	DP	_	0	ROOT	_	_
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	ṣilli	ṣillu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	gabbi	gabbu	DET	DP	_	2	det	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
@@ -97,8 +97,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ha-x-u₂	ha-x-u₂	ADV	AV	Case=Ter	2	obl	_	_
-2	ittiq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ha-x-u₂	ha-x-u₂	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	ittiq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -136,10 +137,9 @@
 
 1	x-ia	x-ia	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	ina	ina	ADP	PRP	_	2	case	_	_
-2	qāti	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	3	nsubj	_	_
+2	ina	ina	ADP	PRP	_	3	case	_	_
+3	qāti	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

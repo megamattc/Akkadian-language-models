@@ -262,7 +262,7 @@
 
 1	si	si	X	X	_	0	ROOT	_	_
 
-1	kal-lim	kal-lim	NUM	NUM	_	0	ROOT	_	_
+1	kal-lim	kal-lim	NUM	N	_	0	ROOT	_	_
 
 1	i-na-x	i-na-x	X	X	_	0	ROOT	_	_
 
@@ -270,7 +270,7 @@
 2	{LU₂}ša₂-AMAR-{d}IM	{lu₂}ša₂-amar-{d}im	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	Bel-hutu	bel-hutu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 4	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	3	appos	_	_
-5	Bel-iddina	bel-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+5	Bel-iddina	bel-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -282,11 +282,10 @@
 
 1	Yansiatu	yansiatu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	amtu	amtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
-2	ša	ša	ADP	PRP	_	3	case	_	_
-3	{1}bi-x-ri-x	{1}bi-x-ri-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+1	x	x	X	X	_	2	dep	_	_
+2	amtu	amtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	{1}bi-x-ri-x	{1}bi-x-ri-x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -311,7 +310,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	amtu	amtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+1	amtu	amtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	Pî-itarru	pî-itarru	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	arad	ardu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	3	appos	_	_
