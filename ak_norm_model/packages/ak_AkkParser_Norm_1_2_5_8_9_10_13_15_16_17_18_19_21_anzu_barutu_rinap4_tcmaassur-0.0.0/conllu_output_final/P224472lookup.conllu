@@ -10,14 +10,14 @@
 10	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
 11	issu	ištu	ADP	PRP	_	12	case	_	_
 12	bēt	bītu	NOUN	N	_	16	obl	_	_
-13	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-14	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	13	appos	_	_
+13	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+14	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	13	appos	_	_
 15	annāka	annaka	ADV	AV	_	16	advmod	_	_
 16	ipqidannīni	paqādu	VERB	V	Gender=Masc|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
 18	x+x	x+x	X	X	_	_	_	_	_
 19	a	ana	ADP	PRP	_	_	_	_	_
-20	u₂	u₂	X	X	_	23	nsubj	_	_
+20	u₂	u₂	X	X	_	23	mark	_	_
 21	ina	ina	ADP	PRP	_	22	case	_	_
 22	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	23	obl	_	_
 23	iptaqdu	paqādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -38,7 +38,7 @@
 38	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 39	ša	ša	PRON	REL	_	40	obj	_	_
 40	ašpuraššūni	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	38	acl	_	_
-41	nuk	nuk	PART	PRP	Gender=Com|Number=Sing|Person=1	40	discourse	_	_
+41	nuk	nuk	PART	PRP	Gender=Com|Number=Sing|Person=1	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -92,7 +92,7 @@
 92	x	x	X	X	_	_	_	_	_
 93	Nabu-bani	nabu-bani	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 94	mā	mā	PART	Quotative	_	_	_	_	_
-95	x+x	x+x	X	X	_	99	advmod	_	_
+95	x+x	x+x	X	X	_	99	nsubj	_	_
 96	ina	ina	ADP	PRP	_	97	case	_	_
 97	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	99	obl	_	_
 98	lā	lā	PART	NEG	_	99	advmod	_	_
@@ -164,7 +164,7 @@
 164	šummu	šumma	SCONJ	SBJ	_	167	mark	_	_
 165	ana	ana	ADP	PRP	_	166	case	_	_
 166	harbite	harbu	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	167	iobj	_	_
-167	ittūra	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	171	advcl	_	_
+167	ittūra	târu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	163	conj	_	_
 168	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	171	nsubj	_	_
 169	ina	ina	ADP	PRP	_	170	case	_	_
 170	qātēya	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	171	obl	_	_
@@ -267,7 +267,7 @@
 267	x	x	X	X	_	_	_	_	_
 268	x	x	X	X	_	_	_	_	_
 269	x	x	X	X	_	_	_	_	_
-270	ūmâ	ūma	ADV	AV	_	271	advmod	_	_
+270	ūmâ	ūma	ADV	AV	_	_	_	_	_
 271	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 272	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	271	appos	_	_
 273	x	x	X	X	_	_	_	_	_
@@ -306,7 +306,7 @@
 306	x+x	x+x	X	X	_	_	_	_	_
 307	kî	kī	SCONJ	SBJ	_	_	_	_	_
 308	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
-309	kî	kī	ADP	PRP	_	_	_	_	_
+309	kî	kī	SCONJ	SBJ	_	_	_	_	_
 310	x	x	X	X	_	_	_	_	_
 311	x	x	X	X	_	_	_	_	_
 312	x	x	X	X	_	_	_	_	_

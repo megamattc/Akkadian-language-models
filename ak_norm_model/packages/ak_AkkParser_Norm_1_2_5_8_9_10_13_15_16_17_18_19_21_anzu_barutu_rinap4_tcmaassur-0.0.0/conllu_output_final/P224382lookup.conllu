@@ -7,7 +7,7 @@
 7	u	u	CONJ	CNJ	_	8	cc	_	_
 8	Ištar	ištaru	PROPN	DN	Case=Nom|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	6	conj	_	_
 9	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
-10	šulum	šulmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+10	šulum	šulmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	14	obj	_	_
 11	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
 12	ša	ša	ADP	PRP	_	13	case	_	_
 13	ahīya	ahu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	nmod	_	_
@@ -15,7 +15,7 @@
 15	ūmussu	ūmussu	ADV	AV	_	25	advmod	_	_
 16	Mulliltu	mulliltu	PROPN	DN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
 17	u	u	CONJ	CNJ	_	18	cc	_	_
-18	Ištar	ištaru	PROPN	DN	Case=Nom|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	16	conj	_	_
+18	Ištar	ištaru	PROPN	DN	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	16	conj	_	_
 19	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 20	ana	ana	ADP	PRP	_	21	case	_	_
 21	balāṭi	balāṭu	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	25	obl	_	_
@@ -25,9 +25,9 @@
 25	uṣalla	ṣullû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
 26	ana	ana	ADP	PRP	_	27	case	_	_
 27	mīni	mīnu	PRON	QP	Case=Gen|Gender=Masc|Number=Sing	33	obl	_	_
-28	mala	mala	ADP	PRP	_	30	case	_	_
+28	mala	mala	ADP	PRP	_	29	case	_	_
 29	agâ	agâ	DET	DP	_	30	det	_	_
-30	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	33	obl	_	_
+30	ūmu	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	33	obl	_	_
 31	mār šiprīka	mār šiprīka	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	33	obj	_	_
 32	lā	lā	PART	NEG	_	33	advmod	_	_
 33	āmur	amāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -43,12 +43,12 @@
 43	u	u	CONJ	CNJ	_	45	cc	_	_
 44	ahūku	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	45	nsubj	_	_
 45	dalih	dalhu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	42	conj	_	_
-46	alkamma	alāku	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	_	_	_	_
-47	amuršu	amāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	46	conj	_	_
+46	alkamma	alāku	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	47	advmod	_	_
+47	amuršu	amāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 48	kî	kī	ADP	PRP	_	49	case	_	_
 49	nakutti	naquttu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	50	obl	_	_
 50	altaprakka	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_
-51	hanṭiš	hamṭiš	ADV	AV	_	52	advmod	_	_
+51	hanṭiš	hamṭiš	ADV	AV	Case=Ter	52	advmod	_	_
 52	kuldu	kašādu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	_	_	_	_
 53	Mulliltu	mulliltu	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	58	nsubj	_	_
 54	u	u	CONJ	CNJ	_	55	cc	_	_
@@ -56,8 +56,8 @@
 56	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	_
 57	lū	lū	PART	PART	_	58	advmod	_	_
 58	īdaʾ	wadû	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	52	conj	_	_
-59	kî	kī	SCONJ	SBJ	_	_	_	_	_
-60	ūmussu	ūmussu	ADV	AV	_	62	nsubj	_	_
+59	kî	kī	SCONJ	SBJ	_	58	dep	_	_
+60	ūmussu	ūmussu	ADV	AV	_	_	_	_	_
 61	itti	itti	ADP	PRP	_	62	case	_	_
 62	duluhtīya	duluhtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 63	ina	ina	ADP	PRP	_	64	case	_	_

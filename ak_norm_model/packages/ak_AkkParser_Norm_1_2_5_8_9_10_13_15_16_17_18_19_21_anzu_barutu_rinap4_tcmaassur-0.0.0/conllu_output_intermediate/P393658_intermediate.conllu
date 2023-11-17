@@ -4,7 +4,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šapir	šapru	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	šapir	šapru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -14,15 +14,16 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	nsubj	_	_
-2	inaṣṣar	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-3	akannaka	akannaka	ADV	AV	_	5	advmod	_	_
-4	lū	lū	PART	PART	_	5	advmod	_	_
-5	ukâlla	kullu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	2	conj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	inaṣṣar	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	akannaka	akannaka	ADV	AV	_	4	advmod	_	_
+3	lū	lū	PART	PART	_	4	advmod	_	_
+4	ukâlla	kullu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=D	1	conj	_	_
 
 1	adi	adi	ADP	PRP	_	2	case	_	_
 2	bīt	bītu	NOUN	N	_	8	obl	_	_
-3	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	8	nsubj	_	_
+3	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	2	fixed	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
 5	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	8	iobj	_	_
 6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -32,15 +33,15 @@
 1	mindēma	minde	ADV	AV	Focus=Yes	3	advmod	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-4	umma	umma	PART	Quotative	_	8	discourse	_	_
-5	minamma	minamma	PRON	QP	_	4	dep	_	_
+4	umma	umma	PART	Quotative	_	10	discourse	_	_
+5	minamma	minamma	PRON	QP	_	10	advmod	_	_
 6	ultu	ištu	SCONJ	SBJ	_	8	mark	_	_
 7	ina	ina	ADP	PRP	_	8	case	_	_
-8	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	ccomp	_	_
-9	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+9	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	cop	_	_
+10	kūnu	kūnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
 
-1	kūnu	kūnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	mār šiprānīšu	mār šiprānīšu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+1	mār šiprānīšu	mār šiprānīšu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	0	ROOT	_	_
 

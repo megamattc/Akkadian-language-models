@@ -20,26 +20,30 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	attūridi	arādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	1	obj	_	_
-3	untaggir	mugguru	VERB	V	Case=Acc|Gender=Fem|Number=Plur	1	conj	_	_
+1	attūridi	arādu	VERB	V	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	3	obj	_	_
+2	ālāni	ālu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	untaggir	mugguru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 4	assarap	šarāpu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	_	_
 
-1	kurummāti	kurummatu	NOUN	N	Gender=Fem|Number=Plur	2	obj	_	_
+1	kurummāti	kurummatu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
 2	attatāha	matāhu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
-4	bīrti	birtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	5	iobj	_	_
+4	bīrti	birtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	5	obl	_	_
 5	aktarāra	karāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	2	conj	_	_
-6	ša-bēt-kūdin	ša-bēt-kūdini	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-7	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	2	conj	_	_
-8	mā	mā	PART	Quotative	_	12	discourse	_	_
-9	šallūtu	šallatu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-10	ina	ina	ADP	PRP	_	11	case	_	_
-11	Mazamua	mazamua	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
-12	lūparriša	parāsu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=3	7	ccomp	_	_
-13	mā	mā	PART	Quotative	_	2	dep	_	_
-14	Kanunaya	kanunaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
-15	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+
+1	ša-bēt-kūdin	ša-bēt-kūdini	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	mā	mā	PART	Quotative	_	7	discourse	_	_
+4	šallūtu	šallatu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
+5	ina	ina	ADP	PRP	_	6	case	_	_
+6	Mazamua	mazamua	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	_
+7	lūparriša	parāsu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=G	2	ccomp	_	_
+
+1	mā	mā	PART	Quotative	_	0	ROOT	_	_
+
+1	Kanunaya	kanunaya	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	2	obj	_	_
 2	unammaš	namāšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
@@ -52,7 +56,8 @@
 4	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 6	lišpura	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	2	conj	_	_
-7	lūnammēši	namāšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	6	conj	_	_
+
+1	lūnammēši	namāšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -66,7 +71,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kusāpī	kusāpu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	kusāpī	kusāpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -107,7 +112,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	{1}{d}x	{1}{d}x	PROPN	X	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	{1}{d}x	{1}{d}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
