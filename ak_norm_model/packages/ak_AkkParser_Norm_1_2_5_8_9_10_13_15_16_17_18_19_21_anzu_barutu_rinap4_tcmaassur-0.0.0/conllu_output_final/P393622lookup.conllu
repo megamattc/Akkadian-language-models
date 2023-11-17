@@ -39,7 +39,7 @@
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
-42	ṣāb šarri	ṣāb šarri	NOUN	NOUN	Gender=Masc|Number=Sing	_	_	_	_
+42	ṣāb šarri	ṣāb šarri	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
 43	i-si-x	i-si-x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
@@ -60,7 +60,7 @@
 60	x	x	X	X	_	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
-63	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+63	annīu	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
@@ -190,13 +190,13 @@
 190	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	192	nsubj	_	_
 191	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	190	appos	_	_
 192	lišpura	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
-193	bēt	bītu	NOUN	N	_	198	nsubj	_	_
+193	bēt	bītu	NOUN	N	_	198	obl	_	_
 194	ina	ina	ADP	PRP	_	195	case	_	_
 195	pānāt	pānātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	198	obl	_	_
 196	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	195	nmod	_	_
 197	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	196	appos	_	_
-198	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	192	ccomp	_	_
-199	lidgulu	dagālu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
+198	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	199	ccomp	_	_
+199	lidgulu	dagālu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	192	conj	_	_
 200	x	x	X	X	_	_	_	_	_
 201	x	x	X	X	_	_	_	_	_
 202	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
@@ -216,8 +216,8 @@
 216	x	x	X	X	_	_	_	_	_
 217	x	x	X	X	_	_	_	_	_
 218	x	x	X	X	_	_	_	_	_
-219	bābāni	bābu	NOUN	N	Gender=Masc|Number=Plur	_	_	_	_
-220	lupatte	petû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+219	bābāni	bābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	220	obj	_	_
+220	lupatte	petû	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbForm=Fin|VerbStem=D	_	_	_	_
 221	x	x	X	X	_	_	_	_	_
 222	x	x	X	X	_	_	_	_	_
 223	x	x	X	X	_	_	_	_	_

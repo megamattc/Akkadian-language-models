@@ -1,11 +1,11 @@
 1	abat	awātu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	turtāni	tartānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	turtāni	tartānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
-1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
-3	bīrātīya	birtu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	nsubj	_	_
+3	bīrātīya	birtu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -15,23 +15,24 @@
 
 1	x-ia	x-ia	X	X	_	0	ROOT	_	_
 
-1	sissêya	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	dislocated	_	_
-2	ūmu	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-3	mūšu	mūšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	6	obj	_	_
+1	sissêya	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	nsubj	_	_
+2	ūmu	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	nmod:poss	_	_
+3	mūšu	mūšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	6	nsubj	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	ūmātīya	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	obl	_	_
-6	rabîya	rabiu	NOUN	N	Gender=Masc|NounBase=Free|Number=Sing	1	amod	_	_
+5	ūmātīya	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	obl	_	_
+6	rabîya	rabiu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	0	ROOT	_	_
 7	u	u	CONJ	CNJ	_	8	cc	_	_
-8	šanîya	šanû	NUM	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	1	conj	_	_
-9	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	1	nsubj	_	_
-10	kūmūwa	kūm	ADP	PRP	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	nsubj	_	_
-11	maṣṣartāka	maṣṣartu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
-12	ana	ana	ADP	PRP	_	13	case	_	_
-13	maṣṣartīya	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	15	iobj	_	_
-14	lā	lā	PART	NEG	_	15	advmod	_	_
-15	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Proh|Number=Sing|Person=2|VerbStem=G	11	conj	_	_
-16	maṣṣartu	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
-17	uṣur	naṣāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	15	conj	_	_
+8	šanîya	šanû	NUM	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	conj	_	_
+9	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	8	obj	_	_
+
+1	kūmūwa	kūm	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1	6	obl	_	_
+2	maṣṣartāka	maṣṣartu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=2|VerbForm=Stat|VerbStem=G	6	obj	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	maṣṣartīya	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	iobj	_	_
+5	lā	lā	PART	NEG	_	6	advmod	_	_
+6	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+7	maṣṣartu	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	uṣur	naṣāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	6	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -39,7 +40,7 @@
 
 1	ib	ib	X	X	_	0	ROOT	_	_
 
-1	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ūmu	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ša	ša	PRON	REL	_	5	obl	_	_
 3	egertu	egertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 4	annītu	annû	DET	DET	Case=Acc|Gender=Fem|Number=Sing	3	det	_	_
@@ -53,5 +54,5 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	SpaceAfter=No
+1	 	 	X	SBJ	_	0	ROOT	_	SpaceAfter=No
 

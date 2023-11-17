@@ -13,8 +13,8 @@
 13	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	15	obl	_	_
 14	Dur-Ladini	dur-ladini	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 15	ittalkūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
-16	mā	mā	PART	Quotative	_	24	discourse	_	_
-17	emūqī	emūqu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+16	mā	mā	PART	Quotative	_	17	discourse	_	_
+17	emūqī	emūqu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	15	ccomp	_	_
 18	ša	ša	ADP	PRP	_	19	case	_	_
 19	Mar-Zeri	mar-zeri	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 20	mā	mā	PART	Quotative	_	24	discourse	_	_
@@ -22,8 +22,8 @@
 22	mē	meʾatu	NUM	NUM	_	24	nummod	_	_
 23	50	50	NUM	NUM	_	22	conj	_	_
 24	pēthallu	pēthallu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	15	ccomp	_	_
-25	mā	mā	PART	Quotative	_	27	discourse	_	_
-26	māhiṣānīšu	māhiṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	27	nsubj	_	_
+25	mā	mā	PART	Quotative	_	26	discourse	_	_
+26	māhiṣānīšu	māhiṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	24	conj	_	_
 27	laššu	laššu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 28	issēniš	ištēniš	ADV	AV	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
@@ -32,10 +32,10 @@
 32	muhhīni	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	33	iobj	_	_
 33	ittalkūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 34	14	14	NUM	NUM	_	35	nummod	_	_
-35	ūmāti	ūmu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	44	obl	_	_
+35	ūmāti	ūmu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	44	obl	_	_
 36	ina	ina	ADP	PRP	_	37	case	_	_
 37	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	44	obl	_	_
-38	šapte	šaptu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+38	šapte	šaptu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
 39	ša	ša	ADP	PRP	_	40	case	_	_
 40	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
 41	ina	ina	ADP	PRP	_	42	case	_	_
@@ -102,7 +102,7 @@
 102	x	x	X	X	_	_	_	_	_
 103	u₂	u₂	X	X	_	_	_	_	_
 104	x	x	X	X	_	_	_	_	_
-105	karānu	karānu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+105	karānu	karānu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 106	x	x	X	X	_	_	_	_	_
 107	x	x	X	X	_	_	_	_	_
 108	x	x	X	X	_	_	_	_	_
@@ -112,7 +112,7 @@
 112	x	x	X	X	_	_	_	_	_
 113	IGI	igi	X	X	_	_	_	_	_
 114	x	x	X	X	_	_	_	_	_
-115	šu	šu	NOUN	NOUN	_	_	_	_	_
+115	šu	šu	NOUN	X	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_
 117	x	x	X	X	_	_	_	_	_
 118	x	x	X	X	_	_	_	_	_
@@ -134,7 +134,7 @@
 134	x	x	X	X	_	_	_	_	_
 135	issaknūšu	šakānu	VERB	V	Case=Gen|Gender=Masc|Mood=Ind|Number=Plur|Person=3|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 136	x	x	X	X	_	_	_	_	_
-137	harammāma	haramma	ADV	AV	_	_	_	_	_
+137	harammāma	haramma	ADV	AV	Focus=Yes	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
 139	x	x	X	X	_	_	_	_	_
 140	x	x	X	X	_	_	_	_	_

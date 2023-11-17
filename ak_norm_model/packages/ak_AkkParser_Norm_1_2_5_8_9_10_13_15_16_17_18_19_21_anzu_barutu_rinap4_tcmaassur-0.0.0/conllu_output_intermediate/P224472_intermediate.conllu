@@ -23,9 +23,9 @@
 
 1	a	ana	ADP	PRP	_	0	ROOT	_	_
 
-1	u₂	u₂	X	X	_	4	mark	_	_
+1	u₂	u₂	X	X	_	4	obj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	4	obl	_	_
+3	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	4	iobj	_	_
 4	iptaqdu	paqādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -69,7 +69,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Hulbuna	hulbuna	PROPN	GN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Hulbuna	hulbuna	PROPN	SN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -166,11 +166,12 @@
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
-1	x+x	x+x	X	X	_	5	nsubj	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
-4	lā	lā	PART	NEG	_	5	advmod	_	_
-5	šaknāku	šaknu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+1	x+x	x+x	X	X	_	0	ROOT	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	lā	lā	PART	NEG	_	4	advmod	_	_
+4	šaknāku	šaknu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -282,7 +283,7 @@
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	2	nmod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
-6	Hulbuna	hulbuna	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Hulbuna	hulbuna	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	ana	ana	ADP	PRP	_	8	case	_	_
 8	memmēni	memēni	PRON	XP	Case=Gen|Gender=Masc|Number=Sing	9	iobj	_	_
 9	addanūni	tadānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
@@ -377,7 +378,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	šu₂	šu₂	X	X	_	0	ROOT	_	_
+1	šu₂	šu₂	ADV	VERB	_	0	ROOT	_	_
 
 1	šummu	šumma	SCONJ	SBJ	_	0	ROOT	_	_
 
@@ -397,7 +398,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	pāhutu	pīhātu	NOUN	N	_	0	ROOT	_	_
+1	pāhutu	pīhātu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -551,11 +552,10 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	2	case	_	_
+2	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
 
-1	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
-
-1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

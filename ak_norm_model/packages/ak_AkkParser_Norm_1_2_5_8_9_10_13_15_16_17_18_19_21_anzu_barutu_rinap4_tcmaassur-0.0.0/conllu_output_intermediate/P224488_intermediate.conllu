@@ -85,9 +85,8 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	tahūme	tahūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	{KUR}x	{kur}x	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ša	ša	ADP	PRP	_	2	case	_	_
+2	{KUR}x	{kur}x	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -191,7 +190,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mār šipri	mār šipri	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -242,19 +241,20 @@
 5	immerēya	immeru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	obj	_	_
 6	ihbutūni	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	acl	_	_
 
-1	mā	mā	PART	Quotative	_	0	ROOT	_	_
+1	mā	mā	PART	Quotative	_	2	discourse	_	_
+2	Arzaya	arzaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
-1	Arzaya	arzaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	o	o	X	X	_	2	advmod	_	_
+1	o	o	X	X	_	2	nsubj	_	_
 2	ihtabatūšunu	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	1	appos	_	_
 3	ūda	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-4	kî	kī	SCONJ	SBJ	_	3	dep	_	_
-5	adi	adi	SCONJ	SBJ	_	6	mark	_	_
-6	ēṣadī	ēṣidu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	3	dep	_	_
+
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+
+1	adi	adi	ADP	PRP	_	2	case	_	_
+2	ēṣadī	ēṣidu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -1,22 +1,22 @@
 1	abat	awātu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	Madaya	madaya	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-5	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	parataxis	_	_
-6	01-KAM	01-kam	ADJ	ADJ	_	5	amod	_	_
+4	Madaya	madaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	nmod	_	_
+6	01-KAM	01-kam	ADJ	ADJ	_	5	nummod	_	_
 7	ša	ša	ADP	PRP	_	8	case	_	_
 8	Taʾuzi	taʾuzi	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 
-1	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	10	nsubj	_	_
-2	adu	adi	ADP	PRP	_	4	mark	_	_
-3	30	30	NUM	NUM	_	4	nummod	_	_
-4	pēthallī	pēthallu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	10	obl	_	_
+1	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	6	nsubj	_	_
+2	adu	adi	ADP	PRP	_	4	case	_	_
+3	30	30	NUM	DN	_	4	nummod	_	_
+4	pēthallī	pēthallu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	1	nmod	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_
-6	Urzuhina	urzuhina	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Urzuhina	urzuhina	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 7	ina	ina	ADP	PRP	_	8	case	_	_
-8	pānātūwa	pānātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	conj	_	_
+8	pānātūwa	pānātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	conj	_	_
 9	lū	lū	PART	PART	_	10	advmod	_	_
-10	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	0	ROOT	_	_
+10	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	6	cop	_	_
 
 1	issēn	ištēn	NUM	NUM	_	0	ROOT	_	_
 
@@ -46,7 +46,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kî	kī	ADP	ADP	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	u₂-x	u₂-x	X	X	_	0	ROOT	_	_
 
@@ -59,9 +59,10 @@
 1	lā	lā	PART	NEG	_	2	advmod	_	_
 2	tašīaṭ	šâṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 3	adi	adi	ADP	PRP	_	4	case	_	_
-4	pēthallāka	pēthallu	NOUN	N	_	8	obl	_	_
-5	ina	ina	ADP	PRP	_	6	case	_	_
-6	māte	mātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
-7	lū	lū	PART	PART	_	8	advmod:emph	_	_
-8	ammarakku	namarkû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	2	conj	_	_
+4	pēthallāka	pēthallu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=2|VerbForm=Stat|VerbStem=G	2	obl	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	māte	mātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	lū	lū	PART	PART	_	4	advmod:emph	_	_
+4	ammarakku	namarkû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 

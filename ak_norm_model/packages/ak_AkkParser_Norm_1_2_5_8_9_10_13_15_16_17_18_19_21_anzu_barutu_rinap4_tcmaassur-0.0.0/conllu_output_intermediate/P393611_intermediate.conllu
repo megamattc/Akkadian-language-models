@@ -76,11 +76,11 @@
 
 1	kib	kib	NOUN	N	_	0	ROOT	_	_
 
-1	šalussu	šalšu	NUM	NUM	Case=Gen|Gender=Masc|Number=Sing	2	nummod	_	_
-2	šattu	šattu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
+1	šalussu	šalšu	NUM	NUM	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	šattu	šattu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	5	obl	_	_
 3	issu mar	issu mar	SCONJ	SBJ	_	5	mark	_	_
 4	ālu	ālu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
-5	iššûni	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	2	acl	_	_
+5	iššûni	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
@@ -118,7 +118,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	01	01	NUM	NUM	_	2	nummod	_	_
-2	mē	meʾatu	NUM	NUM	_	4	nummod	_	_
+2	mē	meʾatu	NUM	NU	_	4	nummod	_	_
 3	40	40	NUM	NUM	_	2	conj	_	_
 4	qēmē	qēmu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
 
@@ -134,9 +134,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ālu	ālu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	ālu	ālu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	inašši	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	10	nsubj	_	_
@@ -147,7 +147,7 @@
 6	50	50	NUM	NUM	_	7	nummod	_	_
 7	immerē	immeru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
 8	40	40	NUM	NUM	_	9	nummod	_	_
-9	šappāti	šapputu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_
+9	šappāti	šapputu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	_
 10	ussēbil	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	ālummâ	ālu	NOUN	N	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|Question=Yes	4	nsubj	_	_
@@ -159,7 +159,7 @@
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
-1	issi ēkalli	sinnišat ēkalli	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	0	ROOT	_	_
+1	issi ēkalli	sinnišat ēkalli	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	ta-la-qu-u-ni	ta-la-qu-u-ni	X	X	_	0	ROOT	_	_
 
@@ -190,11 +190,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	{LU₂}x+x	{lu₂}x+x	NOUN	N	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	ša	ša	ADP	PRP	_	2	case	_	_
+2	{LU₂}x+x	{lu₂}x+x	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -204,7 +201,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	abat	awātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	abat	awātu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_

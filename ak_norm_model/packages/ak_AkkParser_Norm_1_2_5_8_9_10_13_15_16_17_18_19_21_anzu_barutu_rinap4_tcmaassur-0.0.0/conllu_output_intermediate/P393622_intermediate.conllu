@@ -78,7 +78,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ṣāb šarri	ṣāb šarri	NOUN	NOUN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ṣāb šarri	ṣāb šarri	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	i-si-x	i-si-x	X	X	_	0	ROOT	_	_
 
@@ -118,7 +118,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	annīu	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -371,14 +371,13 @@
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
 3	lišpura	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
-4	bēt	bītu	NOUN	N	_	9	nsubj	_	_
+4	bēt	bītu	NOUN	N	_	9	obl	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_
 6	pānāt	pānātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Plur	9	obl	_	_
 7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	7	appos	_	_
-9	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	ccomp	_	_
-
-1	lidgulu	dagālu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
+9	idaggalūni	dagālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	10	ccomp	_	_
+10	lidgulu	dagālu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	3	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -416,9 +415,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	bābāni	bābu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	lupatte	petû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	bābāni	bābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+2	lupatte	petû	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

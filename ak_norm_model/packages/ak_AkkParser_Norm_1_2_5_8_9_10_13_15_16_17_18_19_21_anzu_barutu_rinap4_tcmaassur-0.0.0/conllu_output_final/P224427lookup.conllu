@@ -19,9 +19,9 @@
 19	kaṣip	kaṣpu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
 20	02-lim-x-me-x-lim-x-me	02-lim-x-me-x-lim-x-me	NUM	NUM	_	21	nummod	_	_
 21	libittu	libittu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	22	nsubj	_	_
-22	iškāru	iškāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	27	dislocated	_	_
-23	ša	ša	ADP	PRP	_	24	case	_	_
-24	x	x	X	X	_	25	nummod	_	_
+22	iškāru	iškāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+23	ša	ša	ADP	PRP	_	25	case	_	_
+24	x	x	X	X	_	25	advmod	_	_
 25	šanāti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
 26	01	01	NUM	NUM	_	27	nummod	_	_
 27	līmu	līm	NUM	N	_	36	nummod	_	_
@@ -29,7 +29,7 @@
 29	līmu	līm	NUM	N	_	27	conj	_	_
 30	03	03	NUM	NUM	_	31	nummod	_	_
 31	mē	meʾatu	NUM	NUM	_	29	conj	_	_
-32	82	82	NUM	NUM	_	31	conj	_	_
+32	82	82	NUM	NUM	_	29	conj	_	_
 33	līmu	līm	NUM	N	_	27	conj	_	_
 34	04	04	NUM	NUM	_	35	nummod	_	_
 35	mē	meʾatu	NUM	NUM	_	33	conj	_	_
@@ -37,12 +37,12 @@
 37	iškāru	iškāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	36	parataxis	_	_
 38	ša	ša	ADP	PRP	_	40	case	_	_
 39	04	04	NUM	NUM	_	40	nummod	_	_
-40	urhāni	arhu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	37	nmod	_	_
+40	urhāni	arhu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	36	nmod	_	_
 41	ina	ina	ADP	PRP	_	42	case	_	_
 42	šatti	šattu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	46	obl	_	_
 43	šanīti	šanû	NUM	AJ	Case=Gen|Gender=Fem|Number=Sing	42	amod	_	_
 44	kî	kī	ADP	PRP	_	45	case	_	_
-45	annîmma	annû	PRON	DET	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	46	obl	_	_
+45	annîmma	annû	PRON	DP	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	46	obl	_	_
 46	išahhuṭu	šahāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 47	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	57	nsubj	_	_
 48	02	02	NUM	NUM	_	49	nummod	_	_
@@ -50,7 +50,7 @@
 50	līmu	līm	NUM	N	_	49	conj	_	_
 51	05	05	NUM	NUM	_	52	nummod	_	_
 52	mē	meʾatu	NUM	NUM	_	50	conj	_	_
-53	54	54	NUM	NUM	_	52	conj	_	_
+53	54	54	NUM	NUM	_	50	conj	_	_
 54	līmu	līm	NUM	N	_	49	conj	_	_
 55	06	06	NUM	NUM	_	56	nummod	_	_
 56	mē	meʾatu	NUM	NUM	_	54	conj	_	_
@@ -58,24 +58,24 @@
 58	iškāru	iškāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	57	parataxis	_	_
 59	ša	ša	ADP	PRP	_	61	case	_	_
 60	02	02	NUM	NUM	_	61	nummod	_	_
-61	šanāti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	58	nmod	_	_
+61	šanāti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 62	40	40	NUM	NUM	_	63	nummod	_	_
 63	līmu	līm	NUM	N	_	64	nummod	_	_
-64	maqarrāt	maqarratu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Plur	58	conj	_	_
+64	maqarrāt	maqarratu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Plur	61	conj	_	_
 65	tibni	tibnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	64	nmod	_	_
 66	ina	ina	ADP	PRP	_	67	case	_	_
 67	01	01	NUM	NUM	_	68	nummod	_	_
-68	qa	qû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	64	nmod	_	_
+68	qa	qû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	64	conj	_	_
 69	tibni	tibnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	68	nmod	_	_
 70	ša	ša	ADP	PRP	_	72	case	_	_
 71	01	01	NUM	NUM	_	72	nummod	_	_
-72	libitti	libittu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	64	nmod	_	_
+72	libitti	libittu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	61	conj	_	_
 73	04	04	NUM	NUM	_	74	nummod	_	_
-74	qa	qû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	64	nmod	_	_
+74	qa	qû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 75	ana	ana	ADP	PRP	_	76	case	_	_
-76	ṣindi	ṣimdu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	64	nmod	_	_
+76	ṣindi	ṣimdu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	74	nmod	_	_
 77	ša	ša	PRON	REL	_	_	_	_	_
-78	x	x	X	X	_	_	_	_	_
+78	x	x	X	X	_	84	nummod	_	_
 79	06	06	NUM	NUM	_	80	nummod	_	_
 80	līmu	līm	NUM	N	_	84	nummod	_	_
 81	02	02	NUM	NUM	_	82	nummod	_	_
@@ -85,25 +85,25 @@
 85	appārī	appāru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	84	nmod	_	_
 86	07	07	NUM	NUM	_	87	nummod	_	_
 87	ammutu	ammatu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	84	conj	_	_
-88	rūṭu	rūṭu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	87	nsubj	_	_
+88	rūṭu	rūṭu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	84	conj	_	_
 89	ina	ina	ADP	PRP	_	91	case	_	_
 90	01	01	NUM	NUM	_	91	nummod	_	_
-91	ammat šarri	ammat šarri	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	84	nmod	_	_
+91	ammat šarri	ammat šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	84	nmod	_	_
 92	issēt	ištēn	NUM	NUM	_	93	nummod	_	_
-93	maqarrattu	maqarratu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	84	conj	_	_
+93	maqarrattu	maqarratu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 94	07	07	NUM	NUM	_	95	nummod	_	_
 95	līmu	līm	NUM	N	_	96	nummod	_	_
-96	qanê	qanû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	84	nmod	_	_
+96	qanê	qanû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	93	conj	_	_
 97	kiriʾi	kirû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	96	nmod	_	_
-98	x	x	X	X	_	101	dep	_	_
+98	x	x	X	X	_	101	nsubj	_	_
 99	ina	ina	ADP	PRP	_	101	case	_	_
 100	01	01	NUM	NUM	_	101	nummod	_	_
-101	ammat šarri	ammat šarri	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	102	nmod	_	_
-102	mūruku	mūraku	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Pres|VerbForm=Ind|VerbStem=G	_	_	_	_
+101	ammat šarri	ammat šarri	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	105	nsubj	_	_
+102	mūruku	mūraku	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	101	nmod	_	_
 103	01	01	NUM	NUM	_	104	nummod	_	_
-104	ammat šarri	ammat šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	107	obj	_	_
-105	rupšu	rupšu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	104	amod	_	_
+104	ammat šarri	ammat šarri	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	101	conj	_	_
+105	rupšu	rupšu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 106	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	107	nsubj	_	_
 107	turtān	tartānu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=Š	_	_	_	_
 108	ammutu	ammatu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Sing	_	_	_	_
-109	Arpadda	arpadda	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	108	nmod	_	_
+109	Arpadda	arpadda	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	108	nmod:poss	_	_

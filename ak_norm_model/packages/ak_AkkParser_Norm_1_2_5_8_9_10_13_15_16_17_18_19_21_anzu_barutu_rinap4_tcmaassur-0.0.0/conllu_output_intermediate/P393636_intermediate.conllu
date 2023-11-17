@@ -11,12 +11,12 @@
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	Dur-Am-iababa	dur-am-iababa	PROPN	NUM	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+3	Dur-Am-iababa	dur-am-iababa	PROPN	PN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 4	ša	ša	PRON	REL	_	7	obl	_	_
 5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
-7	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	3	acl	_	_
+7	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	3	acl	_	_
 
 1	ēkallu	ēkallu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
 
@@ -31,11 +31,10 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ussēliu	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
-
-1	hirīṣu	harīṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
-2	ša	ša	ADP	PRP	_	3	case	_	_
-3	dūri	dūru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-4	gammur	gammuru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
+2	hirīṣu	harīṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	dūri	dūru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	gammur	gammuru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=D	1	conj	_	_
 
 1	an	an	X	X	_	0	ROOT	_	_
 
@@ -54,7 +53,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	Dur-Am-iababa	dur-am-iababa	PROPN	NUM	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Dur-Am-iababa	dur-am-iababa	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -93,22 +92,23 @@
 13	eleppāti	eleppu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
 14	illikūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	10	acl	_	_
 15	issuhra	sahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-16	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	21	obl	_	_
-17	09-KAM₂	09-kam₂	ADJ	ADJ	_	16	amod	_	_
-18	eleppāti	eleppu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	21	obj	_	_
-19	ina	ina	ADP	PRP	_	20	case	_	_
-20	{URU}x+x-e-di-ti	{uru}x+x-e-di-ti	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
-21	iqṭarbāni	qerēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	15	conj	_	_
-22	ana	ana	ADP	PRP	_	23	case	_	_
-23	Mušallim-Marduk	mušallim-marduk	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	24	iobj	_	_
-24	ašsaʾal	šâlu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	21	conj	_	_
 
-1	muk	muk	PART	Quotative	_	3	discourse	_	_
+1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+2	09-KAM₂	09-kam₂	ADJ	ADJ	_	1	amod	_	_
+3	eleppāti	eleppu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	_
+4	ina	ina	ADP	PRP	_	5	case	_	_
+5	{URU}x+x-e-di-ti	{uru}x+x-e-di-ti	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+6	iqṭarbāni	qerēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	9	obj	_	_
+7	ana	ana	ADP	PRP	_	8	case	_	_
+8	Mušallim-Marduk	mušallim-marduk	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	iobj	_	_
+9	ašsaʾal	šâlu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	muk	muk	PART	Quotative	_	0	ROOT	_	_
 2	kî	kī	SCONJ	SBJ	_	3	mark	_	_
-3	maṣi	maṣû	VERB	V	_	0	ROOT	_	_
-4	šina	šina	PRON	IP	_	3	nsubj	_	_
+3	maṣi	maṣû	VERB	V	_	1	dep	_	_
 
-1	eleppāti	eleppu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
+1	šina	šina	PRON	DET	Case=Nom|Gender=Fem|Number=Plur|Person=3	2	det	_	_
+2	eleppāti	eleppu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

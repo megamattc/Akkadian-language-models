@@ -17,9 +17,9 @@
 17	x	x	X	X	_	_	_	_	_
 18	x+x	x+x	X	X	_	_	_	_	_
 19	a	ana	ADP	PRP	_	_	_	_	_
-20	u₂	u₂	X	X	_	23	mark	_	_
+20	u₂	u₂	X	X	_	23	obj	_	_
 21	ina	ina	ADP	PRP	_	22	case	_	_
-22	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	23	obl	_	_
+22	muhhīya	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	23	iobj	_	_
 23	iptaqdu	paqādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
@@ -43,7 +43,7 @@
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
-46	Hulbuna	hulbuna	PROPN	GN	Gender=Masc|Number=Sing	_	_	_	_
+46	Hulbuna	hulbuna	PROPN	SN	Gender=Masc|Number=Sing	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
@@ -92,7 +92,7 @@
 92	x	x	X	X	_	_	_	_	_
 93	Nabu-bani	nabu-bani	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 94	mā	mā	PART	Quotative	_	_	_	_	_
-95	x+x	x+x	X	X	_	99	nsubj	_	_
+95	x+x	x+x	X	X	_	_	_	_	_
 96	ina	ina	ADP	PRP	_	97	case	_	_
 97	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	99	obl	_	_
 98	lā	lā	PART	NEG	_	99	advmod	_	_
@@ -155,7 +155,7 @@
 155	ša	ša	ADP	PRP	_	156	case	_	_
 156	ālāni	ālu	NOUN	N	Gender=Masc|Number=Plur	154	nmod	_	_
 157	ša	ša	ADP	PRP	_	158	case	_	_
-158	Hulbuna	hulbuna	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	156	nmod	_	_
+158	Hulbuna	hulbuna	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	156	nmod	_	_
 159	ana	ana	ADP	PRP	_	160	case	_	_
 160	memmēni	memēni	PRON	XP	Case=Gen|Gender=Masc|Number=Sing	161	iobj	_	_
 161	addanūni	tadānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -213,7 +213,7 @@
 213	x	x	X	X	_	_	_	_	_
 214	x+x	x+x	X	X	_	_	_	_	_
 215	x+x	x+x	X	X	_	_	_	_	_
-216	šu₂	šu₂	X	X	_	_	_	_	_
+216	šu₂	šu₂	ADV	VERB	_	_	_	_	_
 217	šummu	šumma	SCONJ	SBJ	_	_	_	_	_
 218	x	x	X	X	_	_	_	_	_
 219	x	x	X	X	_	_	_	_	_
@@ -223,7 +223,7 @@
 223	x	x	X	X	_	_	_	_	_
 224	x	x	X	X	_	_	_	_	_
 225	x+x	x+x	X	X	_	_	_	_	_
-226	pāhutu	pīhātu	NOUN	N	_	_	_	_	_
+226	pāhutu	pīhātu	NOUN	N	Gender=Fem|Number=Sing	_	_	_	_
 227	x	x	X	X	_	_	_	_	_
 228	x	x	X	X	_	_	_	_	_
 229	x	x	X	X	_	_	_	_	_
@@ -304,9 +304,9 @@
 304	x	x	X	X	_	_	_	_	_
 305	x	x	X	X	_	_	_	_	_
 306	x+x	x+x	X	X	_	_	_	_	_
-307	kî	kī	SCONJ	SBJ	_	_	_	_	_
+307	kî	kī	ADP	PRP	_	308	case	_	_
 308	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
-309	kî	kī	SCONJ	SBJ	_	_	_	_	_
+309	kî	kī	ADP	PRP	_	_	_	_	_
 310	x	x	X	X	_	_	_	_	_
 311	x	x	X	X	_	_	_	_	_
 312	x	x	X	X	_	_	_	_	_

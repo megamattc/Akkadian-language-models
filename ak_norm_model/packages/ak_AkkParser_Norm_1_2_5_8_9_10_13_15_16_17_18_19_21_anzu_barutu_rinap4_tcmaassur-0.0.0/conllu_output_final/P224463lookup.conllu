@@ -16,15 +16,15 @@
 16	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
 17	lušēbilūši	wabālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=Š|VerbSuffGen=Fem|VerbSuffNum=Sing|VerbSuffPer=3	13	ccomp	_	_
 18	ina	ina	ADP	PRP	_	19	case	_	_
-19	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	20	iobj	_	_
+19	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
 20	ussēbilašše	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Fem|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
-21	Hi-rumu	hi-rumu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+21	Hi-rumu	hi-rumu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 22	ēqu	ēqu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
 23	ša	ša	ADP	PRP	_	24	case	_	_
 24	bēt ilānišu	bēt ilānišu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
 25	ša	ša	ADP	PRP	_	26	case	_	_
 26	rēš	rēšu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	24	nmod	_	_
-27	Ṣiduni	ṣiduni	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+27	Ṣiduni	ṣiduni	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	26	nmod:poss	_	_
 28	ittikis	nakāsu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 29	mā	mā	PART	Quotative	_	32	discourse	_	_
 30	ana	ana	ADP	PRP	_	31	case	_	_
@@ -33,7 +33,7 @@
 33	assapar	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	32	conj	_	_
 34	ussagliūšu	galû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	33	conj	_	_
 35	ēqu	ēqu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
-36	ša	ša	PRON	REL	_	37	nsubj	_	_
+36	ša	ša	PRON	REL	_	37	obj	_	_
 37	ikkisūni	nakāsu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbStem=G	35	acl	_	_
 38	ina	ina	ADP	PRP	_	39	case	_	_
 39	šēpi	šēpu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
@@ -64,11 +64,11 @@
 64	ana	ana	ADP	PRP	_	65	case	_	_
 65	Immiha	immiha	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	66	iobj	_	_
 66	illakāni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	62	acl	_	_
-67	lunammiša	namāšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=D	68	advcl	_	_
-68	lillika	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
+67	lunammiša	namāšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=D	_	_	_	_
+68	lillika	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	67	conj	_	_
 69	zarʾēšunu	zēru	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	70	obj	_	_
-70	ariš	eršu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+70	ariš	eršu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
 71	ina	ina	ADP	PRP	_	72	case	_	_
-72	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	74	obl	_	_
+72	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	74	iobj	_	_
 73	ingallīšunu	niggallu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	72	nmod	_	_
 74	lillikūni	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	_	_	_	_
