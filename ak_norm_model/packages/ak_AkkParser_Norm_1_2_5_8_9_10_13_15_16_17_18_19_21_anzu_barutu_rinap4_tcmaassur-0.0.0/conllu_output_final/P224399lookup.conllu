@@ -68,8 +68,8 @@
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
-71	mātu	mātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
-72	uṭṭatu	uṭṭatu	NOUN	N	Case=Fem|Gender=Fem|Number=Sing	71	conj	_	_
+71	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	72	nsubj	_	_
+72	uṭṭatu	uṭṭatu	NOUN	N	Case=Fem|Gender=Fem|Number=Sing	_	_	_	_
 73	u	u	CONJ	CNJ	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
 75	x	x	X	X	_	_	_	_	_
@@ -84,7 +84,7 @@
 84	x	x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
 86	kî	kī	SCONJ	SBJ	_	90	mark	_	_
-87	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	90	obl	_	_
+87	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	90	iobj	_	_
 88	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	87	nmod	_	_
 89	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	88	appos	_	_
 90	mahru	mahru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
@@ -93,12 +93,12 @@
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
-96	u	u	CONJ	CNJ	_	98	cc	_	_
-97	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	98	obj	_	_
-98	suhhiramma	sahāru	VERB	V	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	101	dep	_	_
+96	u	u	CONJ	CNJ	_	97	cc	_	_
+97	ṣābē	ṣābu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	98	nsubj	_	_
+98	suhhiramma	sahāru	VERB	V	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	_	_	_	_
 99	ana	ana	ADP	PRP	_	100	case	_	_
 100	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	101	iobj	_	_
-101	lūbuk	abāku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
+101	lūbuk	abāku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	98	conj	_	_
 102	u	u	CONJ	CNJ	_	104	cc	_	_
 103	šulum	šulmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	104	obj	_	_
 104	lušmi	šemû	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbForm=Fin|VerbStem=G	101	conj	_	_

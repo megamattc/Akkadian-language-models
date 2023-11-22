@@ -47,7 +47,7 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
 3	nāgiri	nāgiru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	2	nmod	_	_
-4	ṣehri	ṣehru	ADJ	AJ	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	3	conj	_	_
+4	ṣehri	ṣehru	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
 5	ša	ša	PRON	REL	_	8	obj	_	_
 6	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 7	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
@@ -145,7 +145,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša-rēšāni	ša-rēši	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	ša-rēšāni	ša-rēši	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
@@ -154,7 +154,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	lišpur	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 5	lūbilūni	wabālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	4	conj	_	_
@@ -167,17 +167,15 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ša	ša	PRON	REL	_	3	nsubj	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ša	ša	PRON	REL	_	1	obj	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	ašparūni	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	ašparūni	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -286,7 +284,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	tahūmu	tahūmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+1	tahūmu	tahūmu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	2	obj	_	_
 2	tallak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	kal	kalû	NOUN	N	_	0	ROOT	_	_

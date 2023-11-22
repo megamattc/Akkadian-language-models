@@ -33,7 +33,7 @@
 33	qēpu	qīpu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 34	ša	ša	ADP	PRP	_	35	case	_	_
 35	{URU}ki-x	{uru}ki-x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
-36	x	x	X	X	_	39	obj	_	_
+36	x	x	X	X	_	_	_	_	_
 37	ana	ana	ADP	PRP	_	38	case	_	_
 38	šaniūte	šanû	NUM	AJ	Case=Gen|Gender=Fem|Number=Sing	39	obl	_	_
 39	aptiqīdi	paqādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -42,7 +42,7 @@
 42	x+x	x+x	X	X	_	_	_	_	_
 43	x+x	x+x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
-45	rāʾyu	rēʾû	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+45	rāʾyu	rēʾû	NOUN	N	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
@@ -84,18 +84,18 @@
 84	ana	ana	ADP	PRP	_	85	case	_	_
 85	Arrapha	arrapha	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	86	iobj	_	_
 86	ittalak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-87	o	o	X	X	_	_	_	_	_
+87	o	o	X	X	_	94	advmod	_	_
 88	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	94	nsubj	_	_
 89	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	88	appos	_	_
 90	ana	ana	ADP	PRP	_	91	case	_	_
 91	imitti	imittu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	94	iobj	_	_
 92	u	u	CONJ	CNJ	_	93	cc	_	_
 93	šumēli	šumēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	91	conj	_	_
-94	išapparanni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
+94	išapparanni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	98	advcl	_	_
 95	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	98	nsubj	_	_
 96	ina	ina	ADP	PRP	_	97	case	_	_
-97	kutallīya	kutallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	98	obl	_	_
-98	laššu	laššu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	94	conj	_	_
+97	kutallīya	kutallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	95	nmod	_	_
+98	laššu	laššu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 99	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	103	nsubj	_	_
 100	ša	ša	ADP	PRP	_	101	case	_	_
 101	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	99	nmod	_	_
@@ -108,6 +108,6 @@
 108	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	106	nmod	_	_
 109	birti	birti	ADP	PRP	_	110	case	_	_
 110	ēnātīšu	īnu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	111	obl	_	_
-111	lumaddidu	madādu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	_	_	_	_
+111	lumaddidu	madādu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	103	conj	_	_
 112	dullušu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	113	obj	_	_
-113	lēpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
+113	lēpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	111	conj	_	_

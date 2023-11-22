@@ -99,7 +99,7 @@
 1	ahturup	harāpu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	attalak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	1	conj	_	_
 
-1	nišē	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+1	nišē	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	6	nsubj	_	_
 2	annūti	annû	DET	DP	Case=Nom|Gender=Masc|Number=Plur	1	det	_	_
 3	ša	ša	PRON	REL	_	4	nsubj	_	_
 4	šaglûni	šuglû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|VerbForm=Stat|VerbStem=Š|Voice=Pass	1	acl	_	_
@@ -165,30 +165,32 @@
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	lū	lū	PART	PART	_	3	advmod	_	_
-3	ūdi	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	13	dep	_	_
+3	ūdi	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	10	advcl	_	_
 4	Elamaya	elamaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 5	ṣābānišunu	ṣābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	10	obj	_	_
 6	issi	išti	ADP	PRP	_	7	case	_	_
 7	mār	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
 8	Mukin-zeri	mukin-zeri	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	lā	lā	PART	NEG	_	10	advmod	_	_
-10	iddūku	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	13	advcl	_	_
-11	u	u	CONJ	CNJ	_	10	cc	_	_
-12	ša-daʾāni	ša-danāni	ADV	AV	_	10	dep	_	_
-13	ussaglišunu	galû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	15	advcl	_	_
-14	šunūma	šunu	PRON	IP	Case=Nom|Focus=Yes|Gender=Masc|Number=Plur|Person=3	15	nsubj	_	_
-15	igdalû	galû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+10	iddūku	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	u	u	CONJ	CNJ	_	3	cc	_	_
+2	ša-daʾāni	ša-danāni	ADV	AV	_	3	advmod	_	_
+3	ussaglišunu	galû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+4	šunūma	šunu	PRON	IP	Case=Nom|Focus=Yes|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+5	igdalû	galû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	3	conj	_	_
 
 1	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	Liʾtamu	liʾtamu	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Liʾtamu	liʾtamu	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	o	o	X	X	_	2	advmod	_	_
-2	Gaʾamanu	gaʾamanu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
+1	o	o	X	X	_	0	ROOT	_	_
+
+1	Gaʾamanu	gaʾamanu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -207,9 +209,8 @@
 
 1	issi	išti	ADP	PRP	_	2	case	_	_
 2	mār šipri	mār šipri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

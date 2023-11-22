@@ -2,7 +2,7 @@
 2	Salama	salama	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	dināna	dinānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	iobj	_	_
-5	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	nmod	_	_
+5	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	nmod	_	_
 7	lullik	alāku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
 8	ummā	umma	PART	Quotative	_	10	discourse	_	_
@@ -10,13 +10,13 @@
 10	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 11	u	u	CONJ	CNJ	_	12	cc	_	_
 12	u₂-x	u₂-x	X	X	_	10	conj	_	_
-13	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	10	appos	_	_
+13	bēlīyāma	bēlu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 14	amat	awātu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	18	nsubj	_	_
 15	ša	ša	PRON	REL	_	17	obj	_	_
 16	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
 17	iqbû	qabû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	14	acl	_	_
-18	itti	itti	ADP	PRP	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
-19	adû	adû	ADV	AV	_	27	advmod	_	_
+18	itti	itti	ADP	PRP	Case=Nom|Gender=Fem|Number=Sing	19	case	_	_
+19	adû	adû	ADV	AV	_	27	obl	_	_
 20	mār šiprāni	mār šiprāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
 21	ša	ša	ADP	PRP	_	22	case	_	_
 22	mārē	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	20	nmod	_	_
@@ -55,16 +55,16 @@
 55	ina	ina	ADP	PRP	_	56	case	_	_
 56	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	52	obl	_	_
 57	appāru	appāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	56	nmod	_	_
-58	kî	kī	SCONJ	SBJ	_	60	nsubj	_	_
+58	kî	kī	SCONJ	SBJ	_	60	mark	_	_
 59	ina	ina	ADP	PRP	_	60	case	_	_
 60	ṣilli	ṣillu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-61	gabbi	gabbu	DET	DP	_	60	nmod	_	_
+61	gabbi	gabbu	DET	DP	_	_	_	_	_
 62	o	o	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
 65	a	ana	ADP	PRP	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
-67	ha-x-u₂	ha-x-u₂	ADV	N	Case=Ter	68	advmod	_	_
+67	ha-x-u₂	ha-x-u₂	ADV	N	Case=Ter	68	obl	_	_
 68	ittiq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 69	mimma	mimma	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
@@ -84,7 +84,7 @@
 84	x	x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
 86	x-ia	x-ia	X	X	_	_	_	_	_
-87	ša	ša	PRON	REL	_	89	nsubj	_	_
+87	ša	ša	PRON	REL	_	_	_	_	_
 88	ina	ina	ADP	PRP	_	89	case	_	_
 89	qāti	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 90	x+x	x+x	X	X	_	_	_	_	_

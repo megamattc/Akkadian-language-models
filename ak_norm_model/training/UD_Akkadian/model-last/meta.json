@@ -3098,6 +3098,16 @@
       "Case=Nom|Gender=Masc|Number=Plur|POS=VERB|Voice=Pass",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=NOUN|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass",
       "Case=Acc|Gender=Masc|Number=Plur|POS=ADV|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
+      "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|SufSuff=Yes|Ventive=Yes|VerbForm=Stat|VerbStem=D|Voice=Pass",
+      "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Subordinative=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G",
+      "Gender=Com|Mood=Ind|Number=Plur|POS=VERB|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=\u0160",
+      "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=D",
+      "Gender=Com|Mood=Prec|Number=Sing|POS=VERB|Person=1|VerbForm=Fin|VerbStem=\u0160|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2",
+      "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=D",
+      "Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|POS=VERB",
+      "Gender=Masc|Mood=Prec|Number=Sing|POS=VERB|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2",
+      "Gender=Com|Number=Sing|POS=PRON|Person=1",
+      "Case=Nom|Gender=Masc|Number=Plur|POS=VERB|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1",
       "Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2",
       "Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3",
       "Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|POS=VERB|Person=2|VerbForm=Stat|VerbStem=D",
@@ -3131,7 +3141,6 @@
       "Focus=Yes|Gender=Masc|Mood=Imp|Number=Plur|POS=VERB|Person=2|VerbStem=D",
       "Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D",
       "Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Fem|VerbSuffNum=Sing|VerbSuffPer=3",
-      "Gender=Com|Mood=Ind|Number=Plur|POS=VERB|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=\u0160",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=VERB|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Stat|VerbForm=Fin|VerbStem=G",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=ADP|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G",
       "Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1",
@@ -3167,7 +3176,6 @@
       "Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|POS=DET|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3",
       "Gender=Masc|Mood=Ind|Number=Sing|POS=DET|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G",
       "Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|POS=VERB|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2",
-      "Gender=Com|Number=Sing|POS=PRON|Person=1",
       "Gender=Fem|Mood=Ind|Number=Sing|POS=VERB|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G",
       "Gender=Masc|Number=Sing|POS=VERB|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=\u0160",
       "Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|POS=ADV",
@@ -3790,93 +3798,93 @@
   ],
   "performance":{
     "lemma_acc":0.9749792263,
-    "dep_uas":0.8457149868,
-    "dep_las":0.3504692964,
+    "dep_uas":0.8446461982,
+    "dep_las":0.3484955372,
     "dep_las_per_type":{
       "advmod":{
-        "p":0.8201438849,
-        "r":0.8240963855,
-        "f":0.8221153846
+        "p":0.8083140878,
+        "r":0.843373494,
+        "f":0.8254716981
       },
       "root":{
-        "p":0.0422857143,
-        "r":0.7724425887,
-        "f":0.0801820349
+        "p":0.0412229474,
+        "r":0.751565762,
+        "f":0.0781589231
       },
       "discourse":{
-        "p":0.6546391753,
-        "r":0.7055555556,
-        "f":0.679144385
+        "p":0.6305418719,
+        "r":0.7111111111,
+        "f":0.6684073107
       },
       "case":{
-        "p":0.9337883959,
-        "r":0.9573128062,
-        "f":0.9454042847
+        "p":0.9416609472,
+        "r":0.9601119664,
+        "f":0.9507969508
       },
       "obl":{
-        "p":0.6606557377,
-        "r":0.6807432432,
-        "f":0.6705490849
+        "p":0.6221864952,
+        "r":0.6537162162,
+        "f":0.6375617792
       },
       "nmod":{
-        "p":0.7574468085,
-        "r":0.7255434783,
-        "f":0.7411519778
+        "p":0.756232687,
+        "r":0.7418478261,
+        "f":0.7489711934
       },
       "ccomp":{
-        "p":0.5849056604,
-        "r":0.5254237288,
-        "f":0.5535714286
+        "p":0.4538461538,
+        "r":0.5,
+        "f":0.4758064516
       },
       "iobj":{
-        "p":0.6473988439,
-        "r":0.5685279188,
-        "f":0.6054054054
+        "p":0.6369047619,
+        "r":0.5431472081,
+        "f":0.5863013699
       },
       "conj":{
-        "p":0.5444264943,
-        "r":0.5332278481,
-        "f":0.5387689848
+        "p":0.5207373272,
+        "r":0.5363924051,
+        "f":0.5284489478
       },
       "nsubj":{
-        "p":0.6253041363,
-        "r":0.6684005202,
-        "f":0.6461345066
+        "p":0.65234375,
+        "r":0.6514954486,
+        "f":0.6519193234
       },
       "amod":{
-        "p":0.7228915663,
-        "r":0.6593406593,
-        "f":0.6896551724
+        "p":0.7662337662,
+        "r":0.6483516484,
+        "f":0.7023809524
       },
       "nmod:poss":{
-        "p":0.7439613527,
-        "r":0.7264150943,
-        "f":0.7350835322
+        "p":0.8411764706,
+        "r":0.6745283019,
+        "f":0.7486910995
       },
       "acl":{
-        "p":0.6330275229,
-        "r":0.4928571429,
-        "f":0.5542168675
+        "p":0.6055045872,
+        "r":0.4714285714,
+        "f":0.5301204819
       },
       "cop":{
-        "p":0.4,
-        "r":0.2352941176,
-        "f":0.2962962963
+        "p":0.5,
+        "r":0.1470588235,
+        "f":0.2272727273
       },
       "obj":{
-        "p":0.5747368421,
-        "r":0.5405940594,
-        "f":0.5571428571
+        "p":0.575257732,
+        "r":0.5524752475,
+        "f":0.5636363636
       },
       "appos":{
-        "p":0.9308510638,
-        "r":0.9005145798,
-        "f":0.9154315606
+        "p":0.9133448873,
+        "r":0.9039451115,
+        "f":0.9086206897
       },
       "dislocated":{
-        "p":0.375,
-        "r":0.1525423729,
-        "f":0.2168674699
+        "p":0.48,
+        "r":0.2033898305,
+        "f":0.2857142857
       },
       "_":{
         "p":0.0,
@@ -3884,59 +3892,54 @@
         "f":0.0
       },
       "nummod":{
-        "p":0.8813559322,
-        "r":0.9122807018,
-        "f":0.8965517241
+        "p":0.9386503067,
+        "r":0.8947368421,
+        "f":0.9161676647
       },
       "fixed":{
-        "p":0.5333333333,
+        "p":0.6666666667,
         "r":0.2857142857,
-        "f":0.3720930233
+        "f":0.4
       },
       "dep":{
-        "p":0.0674157303,
-        "r":0.3333333333,
-        "f":0.1121495327
+        "p":0.0526315789,
+        "r":0.2777777778,
+        "f":0.0884955752
       },
       "cc":{
-        "p":0.7413793103,
-        "r":0.7818181818,
-        "f":0.7610619469
+        "p":0.7485714286,
+        "r":0.7939393939,
+        "f":0.7705882353
       },
       "parataxis":{
-        "p":0.4285714286,
+        "p":0.1666666667,
         "r":0.1764705882,
-        "f":0.25
+        "f":0.1714285714
       },
       "mark":{
-        "p":0.6931818182,
-        "r":0.6421052632,
-        "f":0.6666666667
-      },
-      "det":{
-        "p":0.7088607595,
-        "r":0.6913580247,
-        "f":0.7
+        "p":0.6262626263,
+        "r":0.6526315789,
+        "f":0.6391752577
       },
       "orphan":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
+      "det":{
+        "p":0.7611940299,
+        "r":0.6296296296,
+        "f":0.6891891892
+      },
       "advcl":{
-        "p":0.347826087,
-        "r":0.3157894737,
-        "f":0.3310344828
+        "p":0.3188405797,
+        "r":0.2894736842,
+        "f":0.3034482759
       },
       "advmod:emph":{
-        "p":0.5,
-        "r":0.2857142857,
-        "f":0.3636363636
-      },
-      "acl:relcl":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
+        "p":1.0,
+        "r":0.4285714286,
+        "f":0.6
       },
       "xcomp":{
         "p":1.0,
@@ -3952,84 +3955,89 @@
         "p":0.0,
         "r":0.0,
         "f":0.0
+      },
+      "acl:relcl":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
       }
     },
-    "sents_p":0.8518686811,
-    "sents_r":0.8604704532,
-    "sents_f":0.8561479621,
-    "tag_acc":0.8468218773,
-    "pos_acc":0.9678016284,
-    "morph_acc":0.8621029303,
+    "sents_p":0.8507683552,
+    "sents_r":0.8576018359,
+    "sents_f":0.8541714286,
+    "tag_acc":0.8464783961,
+    "pos_acc":0.9689735998,
+    "morph_acc":0.8603441377,
     "morph_per_feat":{
       "Gender":{
-        "p":0.941903172,
-        "r":0.9133883762,
-        "f":0.9274266458
+        "p":0.9415,
+        "r":0.9145216124,
+        "f":0.9278147327
       },
       "Mood":{
-        "p":0.9200542005,
-        "r":0.921302578,
-        "f":0.9206779661
+        "p":0.9191374663,
+        "r":0.9253731343,
+        "f":0.92224476
       },
       "Number":{
-        "p":0.9308430086,
-        "r":0.9034786869,
-        "f":0.9169567379
+        "p":0.9298775373,
+        "r":0.9052751919,
+        "f":0.9174114532
       },
       "Person":{
-        "p":0.8786764706,
-        "r":0.8696179503,
-        "f":0.8741237428
+        "p":0.8781973203,
+        "r":0.8744693754,
+        "f":0.8763293832
       },
       "Tense":{
-        "p":0.7948243993,
-        "r":0.780399274,
-        "f":0.7875457875
+        "p":0.7780797101,
+        "r":0.779491833,
+        "f":0.7787851315
       },
       "VerbForm":{
-        "p":0.8923556942,
-        "r":0.8965517241,
-        "f":0.8944487881
+        "p":0.8866615266,
+        "r":0.9012539185,
+        "f":0.8938981733
       },
       "VerbStem":{
-        "p":0.877124183,
-        "r":0.8736979167,
-        "f":0.8754076973
+        "p":0.8736156352,
+        "r":0.873046875,
+        "f":0.8733311625
       },
       "Case":{
-        "p":0.8361823362,
-        "r":0.8143352601,
-        "f":0.8251142087
+        "p":0.8339995297,
+        "r":0.8201156069,
+        "f":0.8269993005
       },
       "NounBase":{
-        "p":0.8165137615,
-        "r":0.7056491576,
-        "f":0.7570441255
+        "p":0.8067039106,
+        "r":0.7155599604,
+        "f":0.7584033613
       },
       "Ventive":{
-        "p":0.7536585366,
-        "r":0.7610837438,
-        "f":0.7573529412
+        "p":0.7568238213,
+        "r":0.7512315271,
+        "f":0.7540173053
       },
       "PossSuffGen":{
-        "p":0.9118329466,
-        "r":0.9118329466,
-        "f":0.9118329466
+        "p":0.9052023121,
+        "r":0.9083526682,
+        "f":0.9067747539
       },
       "PossSuffNum":{
-        "p":0.9443826474,
-        "r":0.9198266522,
-        "f":0.9319429199
+        "p":0.9451287794,
+        "r":0.9144095341,
+        "f":0.9295154185
       },
       "PossSuffPer":{
-        "p":0.9288097887,
-        "r":0.9046587216,
-        "f":0.9165751921
+        "p":0.9260918253,
+        "r":0.8959913326,
+        "f":0.9107929515
       },
       "SubSuff":{
-        "p":0.8097826087,
-        "r":0.8324022346,
-        "f":0.8209366391
+        "p":0.8238636364,
+        "r":0.8100558659,
+        "f":0.8169014085
       },
       "PronType":{
         "p":1.0,
@@ -4037,101 +4045,96 @@
         "f":0.4
       },
       "Subordinative":{
-        "p":0.7450980392,
-        "r":0.5454545455,
-        "f":0.6298342541
+        "p":0.6557377049,
+        "r":0.5741626794,
+        "f":0.612244898
       },
       "VerbSuffGen":{
-        "p":0.7051282051,
-        "r":0.6145251397,
-        "f":0.6567164179
+        "p":0.6802325581,
+        "r":0.6536312849,
+        "f":0.6666666667
       },
       "VerbSuffNum":{
-        "p":0.6942675159,
-        "r":0.5891891892,
-        "f":0.6374269006
+        "p":0.6976744186,
+        "r":0.6486486486,
+        "f":0.6722689076
       },
       "VerbSuffPer":{
-        "p":0.7025316456,
-        "r":0.6,
-        "f":0.6472303207
+        "p":0.676300578,
+        "r":0.6324324324,
+        "f":0.6536312849
       },
       "PossSufNum":{
-        "p":0.2,
-        "r":0.2,
-        "f":0.2
+        "p":0.5,
+        "r":0.8,
+        "f":0.6153846154
       },
       "PossSufPer":{
-        "p":0.2,
-        "r":0.2,
-        "f":0.2
+        "p":0.5,
+        "r":0.8,
+        "f":0.6153846154
       },
       "NounSuffNum":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
       },
       "NounSuffPer":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
       },
       "Focus":{
-        "p":0.7611940299,
-        "r":0.6017699115,
-        "f":0.6721581549
+        "p":0.75,
+        "r":0.5752212389,
+        "f":0.6510851419
       },
       "PredSuffGen":{
-        "p":0.6666666667,
+        "p":0.5,
         "r":0.25,
-        "f":0.3636363636
+        "f":0.3333333333
       },
       "PredSuffNum":{
-        "p":0.5714285714,
+        "p":0.5,
         "r":0.4,
-        "f":0.4705882353
+        "f":0.4444444444
       },
       "PredSuffPer":{
-        "p":0.5714285714,
+        "p":0.5,
         "r":0.4,
-        "f":0.4705882353
+        "f":0.4444444444
       },
       "Dialect":{
-        "p":0.6216216216,
-        "r":0.5111111111,
-        "f":0.5609756098
-      },
-      "PrepSuffGen":{
-        "p":0.8181818182,
-        "r":0.9,
-        "f":0.8571428571
-      },
-      "PrepSuffNum":{
-        "p":0.8181818182,
-        "r":0.9,
-        "f":0.8571428571
-      },
-      "PrepSuffPer":{
-        "p":0.875,
-        "r":1.0,
-        "f":0.9333333333
+        "p":0.5813953488,
+        "r":0.5555555556,
+        "f":0.5681818182
       },
       "Voice":{
-        "p":0.65,
+        "p":0.52,
         "r":0.3939393939,
-        "f":0.4905660377
+        "f":0.4482758621
+      },
+      "PrepSuffGen":{
+        "p":0.9,
+        "r":0.9,
+        "f":0.9
+      },
+      "PrepSuffNum":{
+        "p":0.9,
+        "r":0.9,
+        "f":0.9
+      },
+      "PrepSuffPer":{
+        "p":0.9333333333,
+        "r":1.0,
+        "f":0.9655172414
       },
       "PresSuffPer":{
-        "p":0.75,
+        "p":0.84,
         "r":0.8076923077,
-        "f":0.7777777778
+        "f":0.8235294118
       },
       "Question":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "SufSuff":{
         "p":0.0,
         "r":0.0,
         "f":0.0
@@ -4140,12 +4143,17 @@
         "p":0.6666666667,
         "r":1.0,
         "f":0.8
+      },
+      "SufSuff":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       }
     },
-    "tok2vec_loss":39246.2620855518,
-    "trainable_lemmatizer_loss":2269.4004836526,
-    "parser_loss":45242.1675783981,
-    "tagger_loss":12029.1946721262,
-    "morphologizer_loss":12069.5184891037
+    "tok2vec_loss":35050.7082593242,
+    "trainable_lemmatizer_loss":2626.5662713842,
+    "parser_loss":47312.1532149784,
+    "tagger_loss":14847.774087992,
+    "morphologizer_loss":13826.8614954643
   }
 }

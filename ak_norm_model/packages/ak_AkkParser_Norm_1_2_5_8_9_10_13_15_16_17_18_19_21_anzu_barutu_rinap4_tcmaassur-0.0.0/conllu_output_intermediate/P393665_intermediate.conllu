@@ -1,6 +1,6 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ŠA₃	ša₃	PROPN	X	_	0	ROOT	_	_
+1	ŠA₃	ša₃	X	X	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -22,7 +22,7 @@
 
 1	issu	ištu	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	Issete	issete	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+3	Issete	issete	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -66,19 +66,19 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mê	mû	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šatîšunu	šatû	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	mê	mû	NOUN	N	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	šatîšunu	šatû	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x-ṣu-u₂-ni	x-ṣu-u₂-ni	X	X	_	4	cc	_	_
-2	ša	ša	PRON	REL	_	3	nsubj	_	_
-3	niraṣṣipūni	raṣāpu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D	1	acl	_	_
-4	tarīṣi	tarṣu	ADJ	AJ	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=D	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	x-ṣu-u₂-ni	x-ṣu-u₂-ni	X	X	_	0	ROOT	_	_
+
+1	ša	ša	PRON	REL	_	2	nsubj	_	_
+2	niraṣṣipūni	raṣāpu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	tarīṣi	tarṣu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	2	fixed	_	_
 
 1	x+x-a	x+x-a	X	X	_	0	ROOT	_	_
 
@@ -86,30 +86,32 @@
 
 1	x-ti-ma	x-ti-ma	X	X	_	0	ROOT	_	_
 
-1	ēkallu	ēkallu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
+1	ēkallu	ēkallu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
 
 1	ki	ki	X	X	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	ma	mannu	PRON	X	_	2	case	_	_
-2	bīrte	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
+1	ma	mannu	PRON	X	_	0	ROOT	_	_
 
-1	{URU}x+x	{uru}x+x	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	x+x-a-te	x+x-a-te	X	X	_	3	obj	_	_
-3	niraṣṣippi	raṣāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+1	bīrte	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
-1	ṣābāni	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
+1	{URU}x+x	{uru}x+x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	x+x-a-te	x+x-a-te	X	X	_	2	obj	_	_
+2	niraṣṣippi	raṣāpu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+
+1	ṣābāni	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	maṣṣarti	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	6	obj	_	_
 4	ina	ina	ADP	PRP	_	5	case	_	_
 5	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
 6	niškun	šakānu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-7	u	u	CONJ	CNJ	_	8	case	_	_
+7	u	u	CONJ	CNJ	_	8	cc	_	_
 8	aṣappi	aṣappu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	ša-maṣṣarāti	ša-maṣṣarti	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ša-maṣṣarāti	ša-maṣṣarti	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -125,8 +127,8 @@
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
-5	mā	mā	PART	Quotative	_	4	discourse	_	_
-6	umām	umāmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	4	dep	_	_
+5	mā	mā	PART	Quotative	_	4	dep	_	_
+6	umām	umāmu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	4	ccomp	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

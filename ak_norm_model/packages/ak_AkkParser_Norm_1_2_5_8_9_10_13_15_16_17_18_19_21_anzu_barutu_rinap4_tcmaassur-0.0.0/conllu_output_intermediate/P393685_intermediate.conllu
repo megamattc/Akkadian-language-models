@@ -19,7 +19,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	2	nsubj	_	_
-2	habta	habtu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	habta	habtu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	{1}na-x+x	{1}na-x+x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -44,8 +44,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	Kudurru	kudurru	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	{LU₂}mu-x	{lu₂}mu-x	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	appos	_	_
+2	Kudurru	kudurru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	{LU₂}mu-x	{lu₂}mu-x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -53,7 +53,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	ADP	PRP	_	2	case	_	_
+1	ša	ša	PRON	REL	_	2	nsubj	_	_
 2	pīhatu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	{URU}x+x	{uru}x+x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -65,9 +65,10 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	eleppāti	eleppu	NOUN	N	Gender=Fem|Number=Plur	0	ROOT	_	_
-2	adi	adi	ADP	PRP	_	4	case	_	_
-3	ša	ša	ADP	PRP	_	4	case	_	_
-4	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+
+1	adi	adi	ADP	PRP	_	2	case	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -76,7 +77,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	3	cc	_	_
-2	20	20	NUM	DN	_	3	nummod	_	_
+2	20	20	NUM	NUM	_	1	dep	_	_
 3	maškiru	maškuru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -87,7 +88,7 @@
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	ṣābāni	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-3	maʾdūti	mādu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+3	maʾdūti	mādu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	2	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -106,10 +107,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	apteqidšu	paqādu	VERB	V	_	0	ROOT	_	_
+1	apteqidšu	paqādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	LU₂	lu₂	PROPN	X	_	0	ROOT	_	_
+1	ana	ana	ADP	PRP	_	0	ROOT	_	_
+
+1	LU₂	lu₂	PROPN	X	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -207,9 +209,9 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	inašši	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	u	u	CONJ	CNJ	_	1	cc	_	_
 
-1	enna	enna	ADV	AV	_	0	ROOT	_	_
+1	u	u	CONJ	CONJ	_	2	cc	_	_
+2	enna	enna	ADV	AV	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -226,19 +228,19 @@
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
 3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	2	det	_	_
-4	kaššudāk	kuššudu	ADJ	AJ	Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+4	kaššudāk	kuššudu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
+1	x	x	X	X	_	4	nsubj	_	_
+2	u	u	CONJ	CNJ	_	3	cc	_	_
+3	piltu	pištu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	4	obj	_	_
+4	iltaknuʾinni	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	3	cc	_	_
-2	piltu	pištu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-3	iltaknuʾinni	šakānu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
-4	umma	umma	PART	Quotative	_	5	discourse	_	_
-5	lušeṣṣīka	aṣû	VERB	V	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	3	ccomp	_	_
+1	umma	umma	PART	Quotative	_	2	discourse	_	_
+2	lušeṣṣīka	aṣû	VERB	V	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -247,7 +249,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	tettiq	etēqu	VERB	V	Gender=Masc|Mood=Proh|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	tettiq	etēqu	VERB	V	Dialect=NB|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -272,7 +274,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	habtatu	habtu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+1	habtatu	habtu	ADJ	AJ	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	lu-x+x	lu-x+x	X	X	_	0	ROOT	_	_
 
@@ -288,7 +290,7 @@
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
 4	lā	lā	PART	NEG	_	5	advmod	_	_
-5	ušellanni	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
+5	ušellanni	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=No|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
 
 1	iṣ-x+x	iṣ-x+x	X	X	_	0	ROOT	_	_
 
