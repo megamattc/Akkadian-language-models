@@ -1,10 +1,11 @@
-1	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+# text = {LU₂}GAL-x x x x x x adi x x x x x x x ana {LU₂}GAL-x x x x lišʾal šarru x x x x akī dūru x+x x x x immeridūni x x x ana maqāte x x x x šibšāti u₂-x x x x akī ša šarru bēlī iqabbûni lēpuš x x x libbu ša šarri bēlīya adanniš lū ṭāb
+1	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
 2	x	x	X	X	_	_	_	_	_
 3	x	x	X	X	_	_	_	_	_
 4	x	x	X	X	_	_	_	_	_
 5	x	x	X	X	_	_	_	_	_
 6	x	x	X	X	_	_	_	_	_
-7	adi	adi	SCONJ	SBJ	_	_	_	_	_
+7	adi	adi	ADP	PRP	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
 10	x	x	X	X	_	_	_	_	_
@@ -13,7 +14,7 @@
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	ana	ana	ADP	PRP	_	16	case	_	_
-16	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+16	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
 18	x	x	X	X	_	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
@@ -23,8 +24,8 @@
 23	x	x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
-26	akī	akī	ADP	PRP	_	27	case	_	_
-27	dūru	dūru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
+26	akī	akī	SCONJ	SBJ	_	32	mark	_	_
+27	dūru	dūru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	32	nsubj	_	_
 28	x+x	x+x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
@@ -34,7 +35,7 @@
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	ana	ana	ADP	PRP	_	37	case	_	_
-37	maqāte	maqātu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
+37	maqāte	maqātu	VERB	V	Gender=Masc|Number=Sing|Case=Gen|VerbForm=Inf|VerbStem=G	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
@@ -45,10 +46,10 @@
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	akī	akī	ADP	PRP	_	48	case	_	_
-48	ša	ša	PRON	REL	_	51	obj	_	_
+48	ša	ša	PRON	REL	_	51	obl	_	_
 49	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	51	nsubj	_	_
 50	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	49	appos	_	_
-51	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	52	advcl	_	_
+51	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	52	obl	_	_
 52	lēpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
@@ -60,3 +61,4 @@
 60	adanniš	adanniš	ADV	AV	_	62	advmod	_	_
 61	lū	lū	PART	PART	_	62	advmod	_	_
 62	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+

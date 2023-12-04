@@ -9,7 +9,7 @@
 9	x	x	X	X	_	_	_	_	_
 10	di	di	X	X	_	_	_	_	_
 11	lu	lu	X	X	_	_	_	_	_
-12	{LU₂}x	{lu₂}x	NOUN	N	_	_	_	_	_
+12	{LU₂}x	{lu₂}x	NOUN	N	Gender=Masc	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
@@ -29,7 +29,7 @@
 29	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 30	duāki	dâku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	29	nmod	_	_
 31	ša	ša	ADP	PRP	_	32	case	_	_
-32	ṣābāni	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+32	ṣābāni	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 33	o	o	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
@@ -39,7 +39,7 @@
 39	u	u	CONJ	CNJ	_	41	cc	_	_
 40	ina	ina	ADP	PRP	_	41	case	_	_
 41	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-42	duākīšunu	dâku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	41	nmod	_	_
+42	duākīšunu	dâku	VERB	V	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	41	nmod	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x-ia	x-ia	X	X	_	_	_	_	_
@@ -47,12 +47,12 @@
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
-50	egerti	egertu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	51	obj	_	_
-51	šaprūni	šapru	ADJ	AJ	Gender=Masc|Mood=Prec|Number=Plur|Person=3|SubSuff=Yes|Subordinative=Yes|VerbStem=D	_	_	_	_
+50	egerti	egertu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	51	nsubj	_	_
+51	šaprūni	šapru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
-54	Asalluhi-ahu-uṣur	asalluhi-ahu-uṣur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	55	nsubj	_	_
-55	sangû	šangû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+54	Asalluhi-ahu-uṣur	asalluhi-ahu-uṣur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+55	sangû	šangû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	54	appos	_	_
 56	ša	ša	ADP	PRP	_	57	case	_	_
 57	Bel	bel	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	_
 58	x+x	x+x	X	X	_	_	_	_	_
@@ -61,10 +61,10 @@
 61	x	x	X	X	_	_	_	_	_
 62	x-ni	x-ni	X	X	_	_	_	_	_
 63	mā	mā	PART	Quotative	_	64	discourse	_	_
-64	ṣabta	ṣabātu	VERB	V	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	_	_	_	_
+64	ṣabta	ṣabātu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	_	_	_	_
 65	x+x	x+x	X	X	_	_	_	_	_
 66	x-la-ti	x-la-ti	X	X	_	_	_	_	_
-67	annāti	annû	DET	DET	Gender=Fem|Number=Plur	_	_	_	_
+67	annāti	annû	DET	DP	Gender=Fem|Number=Plur	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x+x	x+x	X	X	_	_	_	_	_

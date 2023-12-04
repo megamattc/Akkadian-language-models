@@ -1,3 +1,4 @@
+# text = aradka Marduk-apla-iddina ana dinān bēlīya lullik ummā ana šarri bēlīyāma ša šarru x ši x x x x x x x x x x x x ša ina x x x x x x x x x x x x x kīnu x x+x x x x x x x x x x x x x x+x ni x x x x x x umma ana x x x x mātu uṭṭatu u x x x x x uṭṭatīya ša šarru x x x x kî pān šarri bēlīya mahru eleppāti mala x x x u ṣābē suhhiramma ana šarri lūbuk u šulum lušmi
 1	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	6	nsubj	_	_
 2	Marduk-apla-iddina	marduk-apla-iddina	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
@@ -68,8 +69,8 @@
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
-71	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	72	nsubj	_	_
-72	uṭṭatu	uṭṭatu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+71	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+72	uṭṭatu	uṭṭatu	NOUN	N	Case=Fem|Gender=Fem|Number=Sing	_	_	_	_
 73	u	u	CONJ	CNJ	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
 75	x	x	X	X	_	_	_	_	_
@@ -87,18 +88,19 @@
 87	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	90	obl	_	_
 88	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	87	nmod	_	_
 89	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	88	appos	_	_
-90	mahru	mahru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	_	_	_	_
-91	eleppāti	eleppu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	_	_	_	_
+90	mahru	mahru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	98	advcl	_	_
+91	eleppāti	eleppu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	98	obj	_	_
 92	mala	mala	PRON	REL	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
 96	u	u	CONJ	CNJ	_	97	cc	_	_
-97	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	101	obj	_	_
-98	suhhiramma	sahāru	VERB	V	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	97	nmod	_	_
+97	ṣābē	ṣābu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	91	conj	_	_
+98	suhhiramma	sahāru	VERB	V	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	_	_	_	_
 99	ana	ana	ADP	PRP	_	100	case	_	_
 100	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	101	iobj	_	_
-101	lūbuk	abāku	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	_	_	_	_
+101	lūbuk	abāku	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G|Dialect=NB	98	conj	_	_
 102	u	u	CONJ	CNJ	_	104	cc	_	_
 103	šulum	šulmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	104	obj	_	_
-104	lušmi	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	101	conj	_	_
+104	lušmi	šemû	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbForm=Fin|VerbStem=G|Dialect=NB	101	conj	_	_
+

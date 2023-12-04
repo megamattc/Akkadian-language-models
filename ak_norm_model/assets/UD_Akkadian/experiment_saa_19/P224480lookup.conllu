@@ -1,3 +1,4 @@
+# text = ana šarri bēlīya urdaka Inurta-ilaʾi lū šulmu ana šarri bēlīya ina muhhi marʾiti x x+x ša šarru bēlī išpuranni x x marʾutu deʾiqtu x x x x x x+x-i-su x x x x x x paššūru x x x x x x+x ušaṣbatšūni x x x x x x+x PA laššu ina muhhi ša šarru bēlī išpuranni x x x x x x issu bētu o x x x+x atturda x x x ina muhhi 30 zūkī ša šarru bēlī išpuranni x x x x
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
@@ -16,11 +17,11 @@
 16	ša	ša	PRON	REL	_	19	obl	_	_
 17	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 18	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	17	appos	_	_
-19	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
+19	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	13	acl	_	_
 20	x	x	X	X	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
 22	marʾutu	mārtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-23	deʾiqtu	damqu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	_
+23	deʾiqtu	damqu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	22	amod	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
@@ -40,7 +41,7 @@
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
 42	x+x	x+x	X	X	_	_	_	_	_
-43	ušaṣbatšūni	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
+43	ušaṣbatšūni	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=Š|VerbSuffNum=Sing|VerbSuffPer=3|VerbSuffGen=Masc	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
@@ -48,13 +49,13 @@
 48	x	x	X	X	_	_	_	_	_
 49	x+x	x+x	X	X	_	_	_	_	_
 50	PA	pa	X	X	_	_	_	_	_
-51	laššu	laššu	ADJ	AJ	_	_	_	_	_
+51	laššu	laššu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 52	ina	ina	ADP	PRP	_	53	case	_	_
 53	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 54	ša	ša	PRON	REL	_	57	obl	_	_
 55	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	57	nsubj	_	_
 56	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	55	appos	_	_
-57	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	53	nmod	_	_
+57	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	53	acl	_	_
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
@@ -62,24 +63,25 @@
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	issu	ištu	ADP	PRP	_	65	case	_	_
-65	bētu	bītu	NOUN	N	_	_	_	_	_
+65	bētu	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 66	o	o	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
 69	x+x	x+x	X	X	_	_	_	_	_
-70	atturda	arādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+70	atturda	arādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|Ventive=Yes	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
 72	x	x	X	X	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	ina	ina	ADP	PRP	_	75	case	_	_
-75	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+75	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 76	30	30	NUM	NUM	_	77	nummod	_	_
 77	zūkī	zūku	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	75	nmod	_	_
 78	ša	ša	PRON	REL	_	81	obl	_	_
 79	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	81	nsubj	_	_
 80	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	79	appos	_	_
-81	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	77	acl	_	_
+81	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	77	acl	_	_
 82	x	x	X	X	_	_	_	_	_
 83	x	x	X	X	_	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
+

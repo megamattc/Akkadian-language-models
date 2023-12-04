@@ -1,3 +1,4 @@
+# text = ana šarri bēlīya urdaka Nabu-nammir Nabu Marduk ana šarri bēlīya likrubu annurig nišē ussanniqūni upahhuru anāku ina muhhi šarri bēlīya assapra ana pānīti kî annî iqṭibia mā nišē errišâ ammar ina pānīyāni mā issēn lā akalla mā gabbu ussēṣa ana šarri bēlīya addan
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
@@ -8,12 +9,12 @@
 8	ana	ana	ADP	PRP	_	9	case	_	_
 9	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
 10	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
-11	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
+11	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
 12	annurig	annûri	ADV	AV	_	14	advmod	_	_
-13	nišē	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	14	obj	_	_
-14	ussanniqūni	sanāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=Š	21	advcl	_	_
+13	nišē	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+14	ussanniqūni	sanāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbForm=Fin|Tense=Perf|VerbStem=G	_	_	_	_
 15	upahhuru	pahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	14	conj	_	_
-16	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	15	obj	_	_
+16	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	21	nsubj	_	_
 17	ina	ina	ADP	PRP	_	18	case	_	_
 18	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	21	iobj	_	_
 19	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
@@ -22,22 +23,23 @@
 22	ana	ana	ADP	PRP	_	23	case	_	_
 23	pānīti	pānītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_
 24	kî	kī	ADP	PRP	_	25	case	_	_
-25	annî	annû	DET	DET	Case=Gen|Gender=Masc|Number=Sing	26	obl	_	_
-26	iqṭibia	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+25	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	26	obl	_	_
+26	iqṭibia	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	21	conj	_	_
 27	mā	mā	PART	Quotative	_	29	discourse	_	_
-28	nišē	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
-29	errišâ	erēšu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	26	ccomp	_	_
+28	nišē	nišu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_
+29	errišâ	erēšu	VERB	V	Gender=Masc|Number=Sing|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=G|Ventive=Yes|Question=Yes	26	ccomp	_	_
 30	ammar	ammar	PRON	REL	_	32	nsubj	_	_
 31	ina	ina	ADP	PRP	_	32	case	_	_
-32	pānīyāni	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	36	obl	_	_
+32	pānīyāni	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1|SubSuff=Yes	36	dislocated	_	_
 33	mā	mā	PART	Quotative	_	36	discourse	_	_
 34	issēn	ištēn	NUM	NUM	_	36	obj	_	_
 35	lā	lā	PART	NEG	_	36	advmod	_	_
 36	akalla	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 37	mā	mā	PART	Quotative	_	39	discourse	_	_
-38	gabbu	gabbu	DET	DP	Case=Acc	39	obj	_	_
-39	ussēṣa	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	36	ccomp	_	_
+38	gabbu	gabbu	DET	DP	Case=Acc|Gender=Masc|Number=Sing	39	obj	_	_
+39	ussēṣa	aṣû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š|Ventive=Yes	_	_	_	_
 40	ana	ana	ADP	PRP	_	41	case	_	_
 41	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	43	iobj	_	_
 42	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	41	appos	_	_
 43	addan	tadānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	39	conj	_	_
+

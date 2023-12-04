@@ -5,11 +5,11 @@
 5	x	x	X	X	_	_	_	_	_
 6	x	x	X	X	_	_	_	_	_
 7	05	05	NUM	NUM	_	8	nummod	_	_
-8	paššūri	paššuru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+8	paššūri	paššuru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 9	x+x	x+x	X	X	_	_	_	_	_
 10	x	x	X	X	_	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
-12	{1}{d}IM-x+x	{1}{d}im-x+x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+12	{1}{d}IM-x+x	{1}{d}im-x+x	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
 14	x	x	X	X	_	_	_	_	_
 15	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -17,8 +17,8 @@
 17	x	x	X	X	_	_	_	_	_
 18	x	x	X	X	_	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
-20	ahu	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-21	inṣabātu	anṣabtu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	20	det	_	_
+20	ahu	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	inṣabātu	anṣabtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
@@ -28,7 +28,7 @@
 28	x	x	X	X	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
 30	u	u	CONJ	CNJ	_	31	cc	_	_
-31	kutallu	kutallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+31	kutallu	kutallu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
@@ -40,6 +40,6 @@
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
 42	ana	ana	ADP	PRP	_	43	case	_	_
-43	sīri	sīru	ADJ	N	Case=Gen|Gender=Masc|Number=Sing	44	obl	_	_
-44	seāri	sêru	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
+43	sīri	sīru	ADJ	N	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
+44	seāri	sêru	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	43	amod	_	_
 45	x	x	X	X	_	_	_	_	_

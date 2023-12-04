@@ -1,7 +1,7 @@
 import spacy
 import ak_AkkParser_Norm_1_2_5_8_9_10_13_15_16_17_18_19_21_anzu_barutu_rinap4_tcmaassur as akkModel
 import pandas
-import os, glob
+import os, glob, sys
 import json
 from spacy.language import Language
 
@@ -75,7 +75,8 @@ nlp.add_pipe("conll_formatter", last=True)
 
 #Directories for input text files and where to store final conllu output
 
-inputPath = './remainder'
+#inputPath = './remainder'
+inputPath = './' + sys.argv[1]
 outputPathIntermediate = './conllu_output_intermediate/'
 outputPathFinal = './conllu_output_final/'
 
@@ -108,10 +109,15 @@ for filename in glob.glob(os.path.join(inputPath, '*.txt')):
                print("Line is")
                print(line)
                line = line + " " #Important to avoid parsing errors later
-               doc = nlp(line)
-               #print("doc._.conll_str")
-               #print(doc._.conll_str)
-               print(doc._.conll_str, file=outputFileIntermediate)
+
+               try:
+                    doc = nlp(line)
+                    #print("doc._.conll_str")
+                    #print(doc._.conll_str)
+                    print(doc._.conll_str, file=outputFileIntermediate)
+               except:
+                   print("Could not process line")
+
 
 # Convert intermediate conllu files to final conllu format acceptable to Inception
 

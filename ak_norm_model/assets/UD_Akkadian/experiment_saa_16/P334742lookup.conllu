@@ -2,7 +2,7 @@
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
 4	urdānīka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
-5	Nabu-raʾim-nišešu	nabu-raʾim-nišešu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+5	Nabu-raʾim-nišešu	nabu-raʾim-nišešu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 6	Salamanu	salamanu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
 7	lū	lū	PART	PART	_	8	advmod	_	_
 8	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -13,10 +13,10 @@
 13	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
 14	ana	ana	ADP	PRP	_	15	case	_	_
 15	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
-16	bēlīni	bēlu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	15	appos	_	_
+16	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	15	appos	_	_
 17	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 18	ina	ina	ADP	PRP	_	19	case	_	_
-19	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	39	dislocated	_	_
+19	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 20	mār šipri	mār šipri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
 21	ša	ša	PRON	REL	_	23	nsubj	_	_
 22	issu	ištu	ADP	PRP	_	23	case	_	_
@@ -27,16 +27,16 @@
 27	mā	mā	PART	Quotative	_	28	discourse	_	_
 28	šaʾalšu	šâlu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	26	ccomp	_	_
 29	nissaʾalšu	šâlu	VERB	V	Case=Nom|Gender=Com|Mood=Ind|Number=Sing|Person=1|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	28	nsubj	_	_
-30	mā	mā	PART	Quotative	_	31	discourse	_	_
+30	mā	mā	PART	Quotative	_	39	discourse	_	_
 31	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
 32	ša	ša	ADP	PRP	_	33	case	_	_
-33	Paʾe	paʾe	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
-34	qēpi	qīpu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	33	appos	_	_
+33	Paʾe	paʾe	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	qēpi	qīpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
 35	ša	ša	ADP	PRP	_	36	case	_	_
-36	Araše	araše	PROPN	GN	Gender=Masc	34	nmod	_	_
+36	Araše	araše	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
 37	ana	ana	ADP	PRP	_	38	case	_	_
 38	Nippur	nippur	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	39	iobj	_	_
-39	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+39	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	19	acl	_	_
 40	mā	mā	PART	Quotative	_	43	discourse	_	_
 41	šarrāni	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	43	nsubj	_	_
 42	issaheʾiš	issahîš	ADV	AV	_	43	advmod	_	_
@@ -45,10 +45,10 @@
 45	attunu	attunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=2	48	nsubj	_	_
 46	atâ	atā	PRON	QP	_	48	advmod	_	_
 47	hubtu	hubtu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	48	obj	_	_
-48	tahbuta	habātu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+48	tahbuta	habātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 49	mā	mā	PART	Quotative	_	51	discourse	_	_
 50	mušarkisāni	mušarkisu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	51	nsubj	_	_
-51	iqṭibûniššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	48	nmod	_	_
+51	iqṭibûniššu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	48	ccomp	_	_
 52	mā	mā	PART	Quotative	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
@@ -181,8 +181,8 @@
 181	x	x	X	X	_	_	_	_	_
 182	x	x	X	X	_	_	_	_	_
 183	x	x	X	X	_	_	_	_	_
-184	ṣābāni	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
-185	qassi	qaštu	NOUN	N	_	184	nmod	_	_
+184	ṣābāni	ṣābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
+185	qassi	qaštu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	184	nmod	_	_
 186	01	01	NUM	NUM	_	_	_	_	_
 187	x+x	x+x	X	X	_	_	_	_	_
 188	x	x	X	X	_	_	_	_	_
@@ -192,7 +192,7 @@
 192	x	x	X	X	_	_	_	_	_
 193	x	x	X	X	_	_	_	_	_
 194	x	x	X	X	_	_	_	_	_
-195	šumma	šumma	SCONJ	SBJ	_	197	mark	_	_
+195	šumma	šumma	SCONJ	SCONJ	_	197	mark	_	_
 196	ina	ina	ADP	PRP	_	197	case	_	_
 197	šiāri	šiāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	203	obl	_	_
 198	šumma	šumma	SCONJ	SCONJ	_	200	mark	_	_

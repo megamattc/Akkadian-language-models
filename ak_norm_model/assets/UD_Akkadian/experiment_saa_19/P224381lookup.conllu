@@ -1,3 +1,4 @@
+# text = ana šarri bēlīya aradka Mannu-ki-Aššur lū šulmu ana šarri bēlīya ana muhhi x x x-a-ni ša šarru bēlī išpura umma adû x x x x+x ana pānīka x x x x+x-ma zēru ulla x x x x+x x x x x+x x x x x x x x x+x x x x x x-nu-u₂ enna x x x x-su-nu-ti-ma ina x x{KI} anāku adû ina x x maṣṣartīya ušuzzāka x maṣṣartā anaṣṣar
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
@@ -29,8 +30,8 @@
 29	x	x	X	X	_	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
 31	x+x-ma	x+x-ma	X	X	_	_	_	_	_
-32	zēru	zēru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	33	obj	_	_
-33	ulla	elû	ADV	AV	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
+32	zēru	zēru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+33	ulla	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
@@ -60,13 +61,14 @@
 60	ina	ina	ADP	PRP	_	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x{KI}	x{ki}	X	X	_	_	_	_	_
-63	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	_	_	_	_
-64	adû	adû	ADV	AV	_	_	_	_	_
+63	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	69	nsubj	_	_
+64	adû	adû	ADV	AV	_	69	obl	_	_
 65	ina	ina	ADP	PRP	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
-68	maṣṣartīya	maṣṣartu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	69	obj	_	_
+68	maṣṣartīya	maṣṣartu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 69	ušuzzāka	ušuzzāyu	ADJ	AJ	PredSuffGen=Com|PredSuffNum=Sing|PredSuffPer=1	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
 71	maṣṣartā	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	72	obj	_	_
 72	anaṣṣar	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+
