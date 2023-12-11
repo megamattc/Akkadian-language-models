@@ -76,9 +76,10 @@ nlp.add_pipe("conll_formatter", last=True)
 #Directories for input text files and where to store final conllu output
 
 #inputPath = './remainder'
-inputPath = './' + sys.argv[1]
-outputPathIntermediate = './conllu_output_intermediate/'
-outputPathFinal = './conllu_output_final/'
+folder = sys.argv[1]
+inputPath = './' + 'remainder_' + sys.argv[1]
+outputPathIntermediate = './conllu_output_intermediate_' + folder + '/'
+outputPathFinal = './conllu_output_final_' + folder + '/'
 
 #Get all .txt files in input directory, apply spacy nlp model to get doc files, convert doc file to intermediate conllu format and store in directory given by outputPathIntermediate
 
