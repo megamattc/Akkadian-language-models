@@ -31,14 +31,14 @@ train:
       --gpu-id -1  --paths.train corpus/UD_Akkadian/train  --paths.dev corpus/UD_Akkadian/dev  --nlp.lang=ak
   deps:
     - path: corpus/UD_Akkadian/train
-      md5: d90d68c2ee166b619946e4df12cc9df3
+      md5: 2c6e14174ece50d3376f48c4d817d1dc
     - path: corpus/UD_Akkadian/dev
       md5: 8334b9be794038378dc188d7280651fa
     - path: configs/combined_lemmatizers_suff.cfg
       md5: 8ea3064becdd9e0bc96dd29982d1ec95
   outs:
     - path: training/UD_Akkadian/model-best
-      md5: 64b9e35541f273ec01e367c7c572ddba
+      md5: 1654ac70d53228992934c86eda8017b7
   spacy_version: 3.4.4
   spacy_git_version: 77833bfef
 package:
@@ -48,7 +48,7 @@ package:
       0.0.0 --force
   deps:
     - path: training/UD_Akkadian/model-best
-      md5: a5a66ca534fc350cfbfcfcbd56390b8c
+      md5: 1654ac70d53228992934c86eda8017b7
   outs:
     - path: packages/ak_AkkParser_Norm_1_2_5_8_9_10_13_15_16_17_18_19_21_anzu_barutu_codexham_prologue_nere_rinap4_tcmaassur-0.0.0/dist/en_AkkParser_Norm_1_2_5_8_9_10_13_15_16_17_18_19_21_anzu_barutu_codexham_prologue_nere_rinap4_tcmaassur-0.0.0.tar.gz
       md5: null

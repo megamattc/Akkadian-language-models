@@ -29,12 +29,14 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 * SAA 20 - Assyrian Royal Rituals and Cultic Texts. 0% complete.
 * SAA 21 - Letters of Assurbanipal: Assyria, Babylonia, and vassal states. %100 complete.
 
-A few additional Oracc projects also provide the following data:
+A few additional Oracc projects or other corpora also provide the following data:
 
-* Anzu - Standard Babylonian Anzu Epic. %100 complete.
-* Barutu - A small number of extispicy texts. %100 complete.
+* Anzu - Standard Babylonian Anzu Epic. 100% complete.
+* Barutu - A small number of extispicy texts. 100% complete.
 * RINAP4 - Royal inscriptions of Esarhaddon (r. 681-669). Annotations mainly cover Nineveh A prism and certain fragmentary copies. 10% complete.
 * tcma/assur - Middle Assyrian letters and administrative texts from Assur and northern Mesopotamia. ~.005% complete (4 letters done).
+* Codex Hammurabi - Normalized text taken from ehammurabi.org. 100% complete.
+* Zimri-Lim Epic - Taken from Oracc. 100% complete.
 
 Another model AkkParser-Trans was trained on transliterated texts mirroring the normalized texts used to train AkkParser-Norm. The relation between the normalized and transliterated data sets is described in Ong and Gordin 2023 (to appear). However, currently only a subset of the texts used to train the normalized model are currently formatted for the transliterated model. It is located under `/akt_trans_model`.  
 
