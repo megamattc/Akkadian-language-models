@@ -22,7 +22,7 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 * SAA 13 - Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal. 10% complete.
 * SAA 14 - Legal Transactions of the Royal Court of Nineveh, Part II: Assurbanipal Through Sin-šarru-iškun. 0% complete.
 * SAA 15 - Further letters of Sargon II: Babylonia and the eastern provinces. 100% complete.
-* SAA 16 - Political correspondence of Esarhaddon. 51% complete.
+* SAA 16 - Political correspondence of Esarhaddon. 76% complete.
 * SAA 17 - The Neo-Babylonian Correspondence of Sargon and Sennacherib. 100% complete.
 * SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 100% complete.
 * SAA 19 - Letters of Tiglath-Pileser III and Sargon II from Calah/Nimrud. 100% complete.
@@ -35,14 +35,14 @@ A few additional Oracc projects or other corpora also provide the following data
 * Barutu - A small number of extispicy texts. 100% complete.
 * RINAP4 - Royal inscriptions of Esarhaddon (r. 681-669). Annotations mainly cover Nineveh A prism and certain fragmentary copies. 10% complete.
 * tcma/assur - Middle Assyrian letters and administrative texts from Assur and northern Mesopotamia. ~.005% complete (4 letters done).
-* Codex Hammurabi - Normalized text taken from ehammurabi.org. 100% complete.
+* Codex Hammurabi - Normalized text taken from the [eHammurabi website](https://ehammurabi.org). 100% complete.
 * Zimri-Lim Epic - Taken from Oracc. 100% complete.
 
 Another model AkkParser-Trans was trained on transliterated texts mirroring the normalized texts used to train AkkParser-Norm. The relation between the normalized and transliterated data sets is described in Ong and Gordin 2023 (to appear). However, currently only a subset of the texts used to train the normalized model are currently formatted for the transliterated model. It is located under `/akt_trans_model`.  
 
 For more details on these projects, consult the [Oracc project list](http://oracc.museum.upenn.edu/projectlist.html).
 
-The Oracc texts and metadata were scraped using modified versions of scripts made by Niek Veldhuis (https://github.com/niekveldhuis/compass/2_1_Data_Acquisition_ORACC/). 
+The Oracc texts and metadata were scraped using modified versions of scripts made by [Niek Veldhuis](https://github.com/niekveldhuis/compass/2_1_Data_Acquisition_ORACC/). 
 Each text was placed in its own ```.txt``` file, save for the data from Luukko et. al. 2020, which came as one large file. 
 These files were then annotated in Inception for part of speech, syntactic structure, and morphology according to the Universal Dependencies framework (universaldependencies.org), largely following the conventions used in Luukko et. al. 2020. The output format of these annotations
 was in ```conllu```. Details concerning the annotation schema can be found in ```guidelines.txt```. 
@@ -55,8 +55,8 @@ The trained models are themselves packaged as Python modules and can be download
 important caveat. Both the normalized and transliterated versions of the language models run on custom Language classes modeled on Spacy's
 default Language classes located in ```/spacy/lang```. The folder for normalized class (as well as the label of the language in the files) is called ```ak``` and the corresponding label for the transliterated class is ```akt```. Both the ```ak``` and ```akt``` folders should be placed in the ```/spacy/lang``` directory alongside spacy's other language modules (e.g. ```de```, ```am```,```ar```). Alternatively, you may modify the appropriate scripts to locate these folders in another place of your choosing. 
 
-We should also acknowledge that one component of the AkkParser-Norm model is a custom morphological parser modeled on Aleksi Sahala's parser for
-Babylonian dialects of Akkadian (see https://github.com/asahala/BabyFST and Sahala 2020). Our modifications mainly consist of adapting the parser
+We should also acknowledge that one component of the AkkParser-Norm model is a custom morphological parser modeled on Aleksi Sahala's [older parser](https://github.com/asahala/BabyFST) for
+Babylonian dialects of Akkadian (see Sahala 2020). Our modifications mainly consist of adapting the parser
 for Neo-Assyrian dialects and integrating its functionality into a Spacy pipeline. More details can be found in ```guidelines.md```.
 
 Works cited:
