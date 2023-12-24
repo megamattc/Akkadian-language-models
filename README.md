@@ -19,10 +19,10 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 * SAA 10 - Letters from Assyrian and Babylonian scholars. 8% complete.
 * SAA 11 - Imperial Administrative Records, Part II: Provincial and Military Administration. 0% complete.
 * SAA 12 - Grants, Decres and Gifts of the Neo-Assyrian Period. 0% complete.
-* SAA 13 - Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal. 10% complete.
+* SAA 13 - Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal. 12% complete.
 * SAA 14 - Legal Transactions of the Royal Court of Nineveh, Part II: Assurbanipal Through Sin-šarru-iškun. 0% complete.
 * SAA 15 - Further letters of Sargon II: Babylonia and the eastern provinces. 100% complete.
-* SAA 16 - Political correspondence of Esarhaddon. 76% complete.
+* SAA 16 - Political correspondence of Esarhaddon. 100% complete.
 * SAA 17 - The Neo-Babylonian Correspondence of Sargon and Sennacherib. 100% complete.
 * SAA 18 - The Babylonian Correspondence of Esarhaddon and letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia. 100% complete.
 * SAA 19 - Letters of Tiglath-Pileser III and Sargon II from Calah/Nimrud. 100% complete.
