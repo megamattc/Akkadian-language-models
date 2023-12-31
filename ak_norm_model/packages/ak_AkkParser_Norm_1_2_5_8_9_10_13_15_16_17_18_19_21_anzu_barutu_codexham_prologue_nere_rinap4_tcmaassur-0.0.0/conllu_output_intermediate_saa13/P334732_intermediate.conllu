@@ -19,27 +19,28 @@
 
 1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
 2	28-KAM₂	28-kam₂	ADJ	ADJ	_	1	amod	_	_
-3	bētu	bītu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	4	nsubj	_	_
-4	nupassak	passuku	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	6	advcl	_	_
-5	mēliʾāni	mēlû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
-6	uqarrab	qerēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+3	bētu	bītu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	nupassak	passuku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
+1	mēliʾāni	mēlû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+2	uqarrab	qerēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+
+1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
 2	29-KAM₂	29-kam₂	ADJ	ADJ	_	1	amod	_	_
-3	mardutu	mardatu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+3	mardutu	mardatu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 4	niparrik	parāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	šukuttu	šukuttu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+1	šukuttu	šukuttu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	Issar	issar	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 4	gabbu	gabbu	DET	DP	_	1	det	_	_
-5	nušerrāda	arādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+5	nušerrāda	arādu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	issu	ištu	ADP	PRP	_	3	case	_	_
 3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 4	nēši	nēšu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	ninakkāra	nakāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D|Voice=Pass	0	ROOT	_	_
+5	ninakkāra	nakāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -60,10 +61,11 @@
 1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 2	29-KAM₂	29-kam₂	ADJ	ADJ	_	1	amod	_	_
 3	šumma	šumma	SCONJ	SBJ	_	5	mark	_	_
-4	ili	ilu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
-5	ittammar	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-6	mê	mû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
-7	ša	ša	ADP	PRP	_	8	case	_	_
-8	rimki	rimku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
-9	numalla	malû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	5	conj	_	_
+4	ili	ilu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+5	ittammar	amāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+
+1	mê	mû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	4	obl	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	rimki	rimku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	numalla	malû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 

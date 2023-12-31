@@ -12,8 +12,8 @@
 
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-3	Sin	sin	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-4	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	1	conj	_	_
+3	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	1	appos	_	_
 5	rabiūti	rabiu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	4	amod	_	_
 6	ana	ana	ADP	PRP	_	7	case	_	_
 7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
@@ -56,7 +56,7 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	dabābīni	dabābu	VERB	V	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
+2	dabābīni	dabābu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1|VerbForm=Inf|VerbStem=G	3	obj	_	_
 3	addabub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -86,5 +86,5 @@
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
-3	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
+3	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 

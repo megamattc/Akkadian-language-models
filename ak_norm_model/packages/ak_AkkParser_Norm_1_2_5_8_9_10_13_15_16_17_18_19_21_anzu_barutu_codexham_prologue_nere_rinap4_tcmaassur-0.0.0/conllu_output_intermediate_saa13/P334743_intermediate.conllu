@@ -10,7 +10,7 @@
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 6	adanniš	adanniš	ADV	AV	_	2	advmod	_	_
-7	adanniš	adanniš	ADV	AV	_	6	conj	_	_
+7	adanniš	adanniš	ADV	AV	_	6	fixed	_	_
 
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
@@ -33,20 +33,19 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	sissê	sisû	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
-2	pēthalli	pēthallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	conj	_	_
+1	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
+2	pēthalli	pēthallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
-4	šullāme	šullāmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	2	nmod	_	_
-
-1	ša	ša	PRON	REL	_	2	nsubj	_	_
-2	turtannu	tartānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	šullāme	šullāmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ša	ša	ADP	PRP	_	6	case	_	_
+6	turtannu	tartānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 2	pēthalli	pēthallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
-4	nāgir ēkalli	nāgir ēkalli	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	nāgir ēkalli	nāgir ēkalli	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -57,7 +56,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	nīri	nīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	nīri	nīru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -67,7 +66,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	pēthalli	pēthallu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	pēthalli	pēthallu	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

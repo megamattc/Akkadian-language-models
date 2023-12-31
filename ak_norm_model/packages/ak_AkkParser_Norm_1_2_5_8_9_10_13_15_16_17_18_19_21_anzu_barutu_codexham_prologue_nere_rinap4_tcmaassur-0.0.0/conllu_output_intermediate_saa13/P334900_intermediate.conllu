@@ -10,7 +10,7 @@
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 6	adanniš	adanniš	ADV	AV	_	2	advmod	_	_
-7	adanniš	adanniš	ADV	AV	_	6	conj	_	_
+7	adanniš	adanniš	ADV	AV	_	6	fixed	_	_
 
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
@@ -21,10 +21,10 @@
 
 1	05	05	NUM	NUM	_	2	nummod	_	_
 2	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
-3	Muṣuraya	muṣuraya	PROPN	EN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	_
-4	simmatānūte	simmatānû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+3	Muṣuraya	muṣuraya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+4	simmatānūte	simmatānû	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	2	conj	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
-6	Adad-ereš	adad-ereš	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Adad-ereš	adad-ereš	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
@@ -33,10 +33,11 @@
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
 
-1	o	o	X	X	_	4	advmod	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	muhhišunu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	4	iobj	_	_
-4	išpurūni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	o	o	X	X	_	0	ROOT	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	muhhišunu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	3	obl	_	_
+3	išpurūni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
@@ -46,7 +47,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	Muṣur	muṣur	PROPN	GN	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Muṣur	muṣur	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
