@@ -19,7 +19,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	02	02	NUM	NUM	_	2	nummod	_	_
-2	ṣalam šarrāni	ṣalam šarrāni	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ṣalam šarrāni	ṣalam šarrāni	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -33,9 +33,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	nētapaš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	nētapaš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -71,9 +70,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	16	16	NUM	NUM	_	0	ROOT	_	_
+1	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	16	16	NUM	NUM	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

@@ -11,8 +11,8 @@
 11	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 12	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
 13	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
-14	ilāni	ilu	NOUN	N	Gender=Masc|Number=Plur	11	appos	_	_
-15	rabiūti	rabiu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	14	amod	_	_
+14	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	11	appos	_	_
+15	rabiūti	rabiu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	14	amod	_	_
 16	ana	ana	ADP	PRP	_	17	case	_	_
 17	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
 18	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	17	appos	_	_
@@ -36,7 +36,7 @@
 36	x	x	X	X	_	_	_	_	_
 37	x+x	x+x	X	X	_	_	_	_	_
 38	ša	ša	ADP	PRP	_	39	case	_	_
-39	dabābīni	dabābu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1|VerbForm=Inf|VerbStem=G	40	obj	_	_
+39	dabābīni	dabābu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1|VerbForm=Inf|VerbStem=G	_	_	_	_
 40	addabub	dabābu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
 42	x+x	x+x	X	X	_	_	_	_	_
@@ -47,7 +47,7 @@
 47	x	x	X	X	_	_	_	_	_
 48	x	x	X	X	_	_	_	_	_
 49	ak	akī	ADP	PRP	_	_	_	_	_
-50	x+x	x+x	X	X	_	_	_	_	_
+50	x+x	x+x	X	X	_	55	obj	_	_
 51	ina	ina	ADP	PRP	_	52	case	_	_
 52	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	55	iobj	_	_
 53	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
@@ -55,4 +55,4 @@
 55	asassi	šasû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 56	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	58	nsubj	_	_
 57	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	56	appos	_	_
-58	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
+58	lišme	šemû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_

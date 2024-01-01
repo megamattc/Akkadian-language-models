@@ -17,11 +17,11 @@
 4	ana	ana	ADP	PRP	_	5	case	_	_
 5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
-7	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+7	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	nuhatimmu	nuhatimmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	ammiu	ammiu	DET	DP	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	1	det	_	_
-3	ša	ša	PRON	REL	_	1	dep	_	_
+1	nuhatimmu	nuhatimmu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	ammiu	ammiu	DET	DET	Case=Nom|Gender=Masc|Number=Sing	1	det	_	_
+3	ša	ša	PRON	REL	_	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
@@ -46,7 +46,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kallim	kullumu	VERB	V	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	obj	_	_
+1	kallim	kullumu	VERB	V	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
 2	uktallim	kullumu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -67,11 +67,8 @@
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
-1	lā	lā	PART	NEG	_	0	ROOT	_	_
-
-1	u₂-x	u₂-x	X	X	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	lā	lā	PART	NEG	_	2	advmod	_	_
+2	u₂-x	u₂-x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -89,7 +86,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iššûni	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	iššûni	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -262,8 +260,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	sangû	šangû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
-
-1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+2	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	cop	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -372,7 +369,7 @@
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
-1	šumma	šumma	SCONJ	SCONJ	_	0	ROOT	_	_
+1	šumma	šumma	SCONJ	SBJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -394,9 +391,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ana	ana	ADP	PRP	_	0	ROOT	_	_
-
-1	sa-x+x	sa-x+x	X	X	_	0	ROOT	_	_
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	sa-x+x	sa-x+x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

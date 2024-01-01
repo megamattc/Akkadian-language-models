@@ -8,7 +8,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	{1}x+x-ri-ur-x	{1}x+x-ri-ur-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{1}x+x-ri-ur-x	{1}x+x-ri-ur-x	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
 2	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -19,7 +19,7 @@
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 2	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 3	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-4	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	Issar	issar	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
 6	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
@@ -97,7 +97,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
-2	nab	nab	NOUN	N	_	0	ROOT	_	_
+2	nab	nab	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	bi	bi	X	X	_	0	ROOT	_	_
 
@@ -117,18 +117,17 @@
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šalši-ūme	šalšūmi	NOUN	N	_	7	obl	_	_
-3	naptunu	naptanu	NOUN	N	Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	7	obj	_	_
+3	naptunu	naptanu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 4	ina	ina	ADP	PRP	_	5	case	_	_
 5	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
 6	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 7	iqṭirib	qerēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	rēhāti	rēhtu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
-2	kayamānātu	kayyamānu	ADJ	AJ	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
-3	ša	ša	PRON	REL	_	8	nsubj	_	_
-4	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	8	obl	_	_
-5	Aššur	aššur	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-6	ina	ina	ADP	PRP	_	7	case	_	_
-7	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
-8	ittalkāni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	1	acl	_	_
+8	rēhāti	rēhtu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	9	amod	_	_
+9	kayamānātu	kayyamānu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	ša	ša	PRON	REL	_	15	nsubj	_	_
+11	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	15	obl	_	_
+12	Aššur	aššur	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	ina	ina	ADP	PRP	_	14	case	_	_
+14	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+15	ittalkāni	alāku	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	9	acl	_	_
 

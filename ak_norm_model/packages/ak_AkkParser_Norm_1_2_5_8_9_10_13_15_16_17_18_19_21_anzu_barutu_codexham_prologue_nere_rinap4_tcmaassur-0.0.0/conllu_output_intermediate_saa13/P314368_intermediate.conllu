@@ -54,16 +54,16 @@
 4	šīrāni	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 5	ūmāti	ūmu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	_
 6	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	5	amod	_	_
-7	šanāti	šattu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_
+7	šanāti	šattu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
 8	dārāti	dārû	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	7	amod	_	_
 9	ana	ana	ADP	PRP	_	10	case	_	_
 10	bēl	bēlu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	13	iobj	_	_
-11	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+11	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	10	nmod:poss	_	_
 12	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	appos	_	_
 13	liddinu	tadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	08	08	NUM	NUM	_	2	nummod	_	_
-2	gušūrī	gušūru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	gušūrī	gušūru	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -84,7 +84,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	{GIŠ}x	{giš}x	X	X	_	0	ROOT	_	_
+2	{GIŠ}x	{giš}x	NOUN	N	Case=Gen	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -92,15 +92,13 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mā	mā	PART	Quotative	_	0	ROOT	_	_
-
-1	x-ta-har	x-ta-har	X	X	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	mā	mā	PART	Quotative	_	2	discourse	_	_
+2	x-ta-har	x-ta-har	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	taddanannāši	tadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	taddanannāši	tadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
@@ -110,9 +108,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	litūru	târu	VERB	V	Gender=Masc|Mood=Prec|Number=Pres|Person=3|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	litūru	târu	VERB	V	Gender=Masc|Mood=Prec|Number=Pres|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	ma-x	*[NA]NA	X	X	_	0	ROOT	_	_
 

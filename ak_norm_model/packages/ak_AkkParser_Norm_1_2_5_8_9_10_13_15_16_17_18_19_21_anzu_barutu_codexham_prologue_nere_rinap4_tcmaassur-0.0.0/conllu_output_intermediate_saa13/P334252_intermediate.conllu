@@ -10,7 +10,7 @@
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 6	adanniš	adanniš	ADV	AV	_	2	advmod	_	_
-7	adanniš	adanniš	ADV	AV	_	6	fixed	_	_
+7	adanniš	adanniš	ADV	AV	_	6	conj	_	_
 
 1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
@@ -25,10 +25,9 @@
 2	Kusaya	kusaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	1	amod	_	_
 
 1	x	x	X	X	_	2	nummod	_	_
-2	sissê	sisû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
-3	ṣibte	ṣibtu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	Kusaya	kusaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+3	ṣibte	ṣibtu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
+4	Kusaya	kusaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	_
 
 1	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	24	24	NUM	NUM	_	3	nummod	_	_
@@ -38,14 +37,14 @@
 6	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	3	conj	_	_
 7	pēthalli	pēthallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	6	nmod	_	_
 8	13	13	NUM	NUM	_	9	nummod	_	_
-9	kūdin	kūdanu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+9	kūdin	kūdanu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 
 1	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	50	50	NUM	NUM	_	3	nummod	_	_
-3	Dimmašqa	dimmašqa	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	Dimmašqa	dimmašqa	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	dep	_	_
 4	10	10	NUM	NUM	_	5	nummod	_	_
-5	sissû	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	_
-6	Kusaya	kusaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	5	nmod	_	_
+5	sissû	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+6	Kusaya	kusaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	_
 7	ša	ša	ADP	PRP	_	8	case	_	_
 8	raksūti	raksu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 
@@ -65,7 +64,7 @@
 1	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	60	60	NUM	NUM	_	3	nummod	_	_
 3	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
-4	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+4	annīu	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	3	det	_	_
 5	ētarbūni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	Simani	simani	PROPN	MN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_

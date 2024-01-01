@@ -2,9 +2,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	ugammar	gamāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	ugammar	gamāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -19,13 +18,13 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	dullu	dullu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
+1	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
 2	ša	ša	PRON	REL	_	5	obj	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-5	išʾalūšūni	šâlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
+5	išʾalūšūni	šâlu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	1	acl	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
-7	Ayari	ayari	PROPN	MN	Case=Gen	13	obl	_	_
+7	Ayari	ayari	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
 8	ana	ana	ADP	PRP	_	9	case	_	_
 9	rimki	rimku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
 10	ana	ana	ADP	PRP	_	11	case	_	_
@@ -37,36 +36,37 @@
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
 4	nūtammīdi	emēdu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
-5	ina	ina	ADP	PRP	_	6	case	_	_
-6	bēti	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	bēti	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	{LU₂}x+x	{lu₂}x+x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	{LU₂}x+x	{lu₂}x+x	NOUN	N	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	burki	burku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	burki	burku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	ša	ša	ADP	PRP	_	4	case	_	_
 4	Nabu	nabu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-5	02	02	NUM	NUM	_	8	nummod	_	_
-6	ina	ina	ADP	PRP	_	8	case	_	_
-7	01	01	NUM	NUM	_	8	nummod	_	_
-8	ammiti	ammatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
-9	mūruku	mūraku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	02	02	NUM	NUM	_	5	nummod	_	_
+2	ina	ina	ADP	PRP	_	4	case	_	_
+3	01	01	NUM	NUM	_	4	nummod	_	_
+4	ammiti	ammatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	mūruku	mūraku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	3	case	_	_
 2	01	01	NUM	NUM	_	3	nummod	_	_
-3	ammāti	ammatu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
-4	rupšu	rupšu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	ammāti	ammatu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	0	ROOT	_	_
+4	rupšu	rupšu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -74,5 +74,5 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lēʾu	lēʾu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	lēʾu	lēʾu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 

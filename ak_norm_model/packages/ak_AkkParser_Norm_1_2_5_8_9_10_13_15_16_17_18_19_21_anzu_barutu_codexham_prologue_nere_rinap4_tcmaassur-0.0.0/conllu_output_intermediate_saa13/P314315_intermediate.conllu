@@ -24,11 +24,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	urtakkiqu	raqāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
-
-1	ētapšu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	urtakkiqu	raqāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+3	ētapšu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -89,8 +87,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mā	mā	PART	Quotative	_	2	discourse	_	_
-2	pāniu	pānû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	mā	mā	PART	Quotative	_	4	discourse	_	_
+2	pāniu	pānû	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	lā	lā	PART	NEG	_	4	advmod	_	_
 4	kaṣir	kaṣru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 
@@ -102,7 +100,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	hurāṣu	hurāṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+1	hurāṣu	hurāṣu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	2	obj	_	_
 2	urtakkiqu	raqāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 3	ētapšu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	2	conj	_	_
 
@@ -128,7 +126,7 @@
 1	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	nmod	_	_
-4	kippiti	kippatu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	kippiti	kippatu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
 6	Nikkal	nikkal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 
@@ -153,7 +151,7 @@
 6	hurāṣu	hurāṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 7	ūtahhizu	ahāzu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	5	conj	_	_
 
-1	parṣī	parṣu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	_
+1	parṣī	parṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	Nikkal	nikkal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	pāniūti	pānû	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	1	amod	_	_
@@ -165,7 +163,7 @@
 
 1	ahī	ahu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	Tambaya	tambaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Tambaya	tambaya	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -178,25 +176,23 @@
 1	issu	ištu	ADP	PRP	_	2	case	_	_
 2	annāka	annaka	ADV	AV	_	0	ROOT	_	_
 
-1	hurāṣu	hurāṣu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	hurāṣu	hurāṣu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x-ti	x-ti	X	X	_	0	ROOT	_	_
-
-1	attasah	nasāhu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x-ti	x-ti	X	X	_	2	obj	_	_
+2	attasah	nasāhu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	rittāti	rittu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	Tambaya	tambaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Tambaya	tambaya	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	ūtalliu	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	3	obj	_	_
-2	eššāti	eššu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	1	amod	_	_
-3	ētapšu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	ūtalliu	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+3	eššāti	eššu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+4	ētapšu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
