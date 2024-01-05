@@ -95,7 +95,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	sissê	sisû	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+1	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	pēthalli	pēthallu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	1	nmod	_	_
 4	lā	lā	PART	NEG	_	5	advmod	_	_
@@ -114,7 +114,8 @@
 5	ašpuranni	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	7	dislocated	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	Adia	adia	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-8	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	7	cop	_	_
+
+1	šunu	šunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	ROOT	_	_
 
 1	šumma	šumma	SCONJ	SCONJ	_	4	mark	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -123,20 +124,20 @@
 5	lēbirūni	ebēru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	_
-8	egerte	egertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
-9	gabrû	gabarû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
-10	ša	ša	ADP	PRP	_	11	case	_	_
-11	egerte	egertu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
-12	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-13	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
-14	lišpuru	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	5	conj	_	_
 
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	tašlīšāni	tašlīšu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
-3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-4	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-5	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
-6	liškun	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
+1	egerte	egertu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_
+2	gabrû	gabarû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	egerte	egertu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
+7	lišpuru	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+8	ana	ana	ADP	PRP	_	9	case	_	_
+9	tašlīšāni	tašlīšu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+10	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+11	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	10	appos	_	_
+12	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	liškun	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	7	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -144,8 +145,9 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	na	na	X	X	_	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	0	ROOT	_	_
+
+1	na	na	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

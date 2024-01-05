@@ -14,31 +14,31 @@
 2	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 3	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 4	u	u	CONJ	CNJ	_	5	cc	_	_
-5	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+5	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 6	01-me	01-me	NUM	NUM	_	7	nummod	_	_
 7	šanāti	šattu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
 8	ana	ana	ADP	PRP	_	9	case	_	_
 9	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	11	iobj	_	_
 10	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	9	appos	_	_
 11	lūballiṭu	balāṭu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	0	ROOT	_	_
-12	niqiāti	nīqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
-13	ša	ša	ADP	PRP	_	14	case	_	_
-14	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+
+1	niqiāti	nīqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x-ru	x-ru	X	X	_	0	ROOT	_	_
 
 1	epšāni	epšu	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
-2	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	obl	_	_
+2	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	obj	_	_
 3	14-KAM₂	14-kam₂	ADJ	ADJ	_	2	amod	_	_
-
-1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	16-KAM₂	16-kam₂	ADJ	ADJ	_	1	amod	_	_
-3	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	parataxis	_	_
-4	18-KAM₂	18-kam₂	ADJ	ADJ	_	3	amod	_	_
-5	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	parataxis	_	_
-6	20-KAM₂	20-kam₂	ADJ	ADJ	_	5	amod	_	_
+4	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	conj	_	_
+5	16-KAM₂	16-kam₂	ADJ	ADJ	_	4	amod	_	_
+6	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	parataxis	_	_
+7	18-KAM₂	18-kam₂	ADJ	ADJ	_	6	amod	_	_
+8	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	parataxis	_	_
+9	20-KAM₂	20-kam₂	ADJ	ADJ	_	8	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -100,14 +100,13 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	taruggum	ragāmu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	mā	mā	PART	Quotative	_	1	discourse	_	_
 
-1	mā	mā	PART	Quotative	_	2	discourse	_	_
-2	atâ	atā	PRON	QP	_	0	ROOT	_	_
+1	atâ	atā	PRON	QP	_	2	advmod	_	_
+2	{GIŠ}ni-x+x	{giš}ni-x+x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	qablu	qablu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	{GIŠ}ni-x+x	{giš}ni-x+x	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	qablu	qablu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	li-du-x	li-du-x	X	X	_	4	nsubj	_	_
+1	li-du-x	li-du-x	X	X	_	4	obj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	Muṣuraya	muṣuraya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
 4	tādin	tadnu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
@@ -118,10 +117,10 @@
 9	lūsahhiru	sahāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	8	conj	_	_
 10	lidnūni	tadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	9	conj	_	_
 
-1	mā	mā	PART	Quotative	_	2	discourse	_	_
-2	gabbi	gabbu	DET	DP	_	0	ROOT	_	_
+1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
-1	nuhšu	nuhšu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	gabbi	gabbu	DET	DP	_	2	det	_	_
+2	nuhšu	nuhšu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

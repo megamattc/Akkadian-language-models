@@ -22,11 +22,11 @@
 22	ša	ša	ADP	PRP	_	23	case	_	_
 23	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
 24	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	11	appos	_	_
-25	annūte	annû	DET	DP	Gender=Masc|Number=Plur|fcsdCase=Acc	24	det	_	_
+25	annūte	annû	DET	DP	Case=Nom|Gender=Masc|Number=Plur	24	det	_	_
 26	rabiūti	rabiu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	24	amod	_	_
-27	rāʾimūte	rāʾimu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	24	amod	_	_
+27	rāʾimūte	rāʾimu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	24	appos	_	_
 28	ša	ša	ADP	PRP	_	29	case	_	_
-29	šarrūtīka	šarrūtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	27	nmod	_	_
+29	šarrūtīka	šarrūtu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	27	nmod	_	_
 30	01	01	NUM	NUM	_	31	nummod	_	_
 31	mē	meʾatu	NUM	NU	_	32	nummod	_	_
 32	šanāti	šattu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	36	obj	_	_
@@ -39,7 +39,7 @@
 39	ana	ana	ADP	PRP	_	40	case	_	_
 40	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	42	iobj	_	_
 41	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	40	appos	_	_
-42	lušabbiu	šebû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	_	_	_	_
+42	lušabbiu	šebû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 43	x+x	x+x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
@@ -51,7 +51,7 @@
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
-54	lā	lā	PART	NEG	_	55	advmod	_	_
+54	lā	lā	PART	NEG	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
 57	x	x	X	X	_	_	_	_	_
@@ -62,10 +62,10 @@
 62	01-KAM₂	01-kam₂	ADJ	ADJ	_	61	amod	_	_
 63	nurtammēšu	ramû	VERB	V	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	65	nsubj	_	_
 64	lā	lā	PART	NEG	_	65	advmod	_	_
-65	dullinni	dullu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1|SubSuff=Yes	_	_	_	_
-66	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	65	cop	_	_
+65	dullinni	dullu	NOUN	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|SubSuff=Yes|VerbForm=Stat|VerbStem=G	68	advcl	_	_
+66	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	68	nsubj	_	_
 67	lā	lā	PART	NEG	_	68	advmod	_	_
-68	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	65	conj	_	_
+68	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	74	nsubj	_	_
 69	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	74	nsubj	_	_
 70	ša	ša	ADP	PRP	_	71	case	_	_
 71	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	69	nmod	_	_

@@ -20,25 +20,26 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	ṣalam šarrāni	ṣalam šarrāni	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
-4	ša	ša	PRON	REL	_	3	dep	_	_
+4	ša	ša	PRON	REL	_	3	obj	_	_
 
-1	o	o	X	X	_	2	advmod	_	_
-2	Bet-Issar	bet-issar	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
-3	ša	ša	ADP	PRP	_	4	case	_	_
-4	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-5	dullušunu	dullu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	6	obj	_	_
-6	epiš	epšu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+1	o	o	X	X	_	0	ROOT	_	_
 
-1	ūmâ	ūma	ADV	AV	_	0	ROOT	_	_
+1	Bet-Issar	bet-issar	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	dullušunu	dullu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	5	obj	_	_
+5	epiš	epšu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
-1	erî	werû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ūmâ	ūma	ADV	AV	_	2	advmod	_	_
+2	erî	werû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	obj	_	_
-2	nussēbila	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+1	nussēbila	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -80,23 +81,22 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	al	al	ADP	PRP	_	0	ROOT	_	_
+1	al	al	ADP	ADP	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kas	kas	X	X	_	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	rab danībāt	rab danībāt	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
-3	liddin	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
-4	u	u	CONJ	CNJ	_	5	cc	_	_
-5	rab danībāt	rab danībāt	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
-6	mā	mā	PART	Quotative	_	8	discourse	_	_
-7	lā	lā	PART	NEG	_	8	advmod	_	_
-8	ṭāba	ṭābu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	5	ccomp	_	_
+1	kas	kas	X	X	_	4	obj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	rab danībāt	rab danībāt	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
+4	liddin	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	9	advcl	_	_
+5	u	u	CONJ	CNJ	_	6	cc	_	_
+6	rab danībāt	rab danībāt	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	mā	mā	PART	Quotative	_	9	discourse	_	_
+8	lā	lā	PART	NEG	_	9	advmod	_	_
+9	ṭāba	ṭābu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -154,7 +154,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	rab danībāt	rab danībāt	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	rab danībāt	rab danībāt	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
 2	liddin	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -164,7 +164,7 @@
 1	x-ni	x-ni	X	X	_	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	taqbâni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	taqbâni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -4,7 +4,7 @@
 4	urdaka	ardu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
 5	Dadi	dadi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 6	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	5	appos	_	_
-7	Bel-remanni	bel-remanni	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	_
+7	Bel-remanni	bel-remanni	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 8	sangû	šangû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	7	appos	_	_
 9	ša	ša	ADP	PRP	_	10	case	_	_
 10	Bet-Kadmuri	bet-kadmuri	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -17,51 +17,51 @@
 17	rab danībāte	rab danībāte	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 18	ša	ša	ADP	PRP	_	20	case	_	_
 19	lā	lā	PART	NEG	_	20	advmod	_	_
-20	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+20	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 21	ša	ša	ADP	PRP	_	23	case	_	_
-22	lā	lā	PART	NEG	_	23	advmod	_	_
-23	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	20	conj	_	_
-24	iṣṣabta	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
-25	ussanniqāni	sanāqu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	24	conj	_	_
-26	bēt	bītu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	28	obj	_	_
+22	lā	lā	PART	NEG	_	23	case	_	_
+23	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	24	obj	_	_
+24	iṣṣabta	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	25	advcl	_	_
+25	ussanniqāni	sanāqu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
+26	bēt	bītu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	28	obl	_	_
 27	abīya	abu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	26	nmod	_	_
-28	intašʾa	mašāʾu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-29	ammar	ammar	PRON	REL	_	34	nsubj	_	_
-30	ša	ša	PRON	REL	_	34	obl	_	_
+28	intašʾa	mašāʾu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	25	conj	_	_
+29	ammar	ammar	PRON	REL	_	_	_	_	_
+30	ša	ša	PRON	REL	_	34	obj	_	_
 31	abūwa	abu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	34	nsubj	_	_
-32	ṣilli	ṣillu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	34	obl	_	_
+32	ṣilli	ṣillu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	34	obj	_	_
 33	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
-34	iqnûni	qanû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	35	advcl	_	_
-35	intašʾa	mašāʾu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+34	iqnûni	qanû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	29	acl	_	_
+35	intašʾa	mašāʾu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	34	conj	_	_
 36	ittiši	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	35	conj	_	_
 37	01	01	NUM	NUM	_	38	nummod	_	_
-38	biltu	biltu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	54	obj	_	_
+38	biltu	biltu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	54	obj	_	_
 39	manê	manû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	38	nmod	_	_
 40	ṣarpi	ṣarpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
-41	bašlu	bašlu	ADJ	AJ	_	54	advmod	_	_
+41	bašlu	bašlu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Sing	38	conj	_	_
 42	20	20	NUM	NUM	_	43	nummod	_	_
-43	manê	manû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	54	dislocated	_	_
+43	manê	manû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	38	conj	_	_
 44	ṣarpi	ṣarpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
 45	ša	ša	ADP	PRP	_	46	case	_	_
 46	anūt	unūtu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	44	nmod	_	_
 47	bēti	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
-48	nāmurāte	nāmurtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	47	nmod:poss	_	_
+48	nāmurāte	nāmurtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	47	nmod	_	_
 49	ša	ša	ADP	PRP	_	50	case	_	_
 50	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	48	nmod	_	_
 51	ša	ša	ADP	PRP	_	52	case	_	_
-52	ummi šarri	ummi šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	50	nmod	_	_
+52	ummi šarri	ummi šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	50	conj	_	_
 53	issēniš	ištēniš	ADV	AV	Case=Ter	54	advmod	_	_
 54	ittiši	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	58	advcl	_	_
-55	akullû	ukullû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	58	obj	_	_
+55	akullû	ukullû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	58	nsubj	_	_
 56	ša	ša	ADP	PRP	_	57	case	_	_
 57	abīya	abu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	55	nmod	_	_
 58	mahrāk	mahru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
 59	issu	ištu	ADP	PRP	_	60	case	_	_
-60	lib	libbu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	62	obl	_	_
+60	lib	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	62	obl	_	_
 61	ēkurri	ēkurru	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	60	nmod:poss	_	_
 62	kaššudāk	kuššudu	ADJ	AJ	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=D|Voice=Pass	_	_	_	_
 63	mār šarri	mār šarri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	64	nsubj	_	_
-64	lipqida	paqādu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
+64	lipqida	paqādu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	62	conj	_	_
 65	ša	ša	ADP	PRP	_	67	case	_	_
 66	lā	lā	PART	NEG	_	67	advmod	_	_
 67	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	72	obl	_	_

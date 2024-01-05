@@ -1,8 +1,7 @@
-1	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	šanāti	šattu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
-2	dārāti	dārû	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	1	amod	_	_
-3	liddinu	tadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+1	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	šanāti	šattu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+3	dārāti	dārû	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	2	amod	_	_
+4	liddinu	tadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -26,7 +25,7 @@
 1	ūmu	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	24-KAM	24-kam	ADJ	ADJ	_	1	amod	_	_
+2	24-KAM	24-kam	ADJ	ADJ	_	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -34,19 +33,18 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Parisat-pale	parisat-pale	PROPN	PN	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+1	Parisat-pale	parisat-pale	PROPN	PN	Gender=Masc	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	2	obj	_	_
 2	tattūṣia	aṣû	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	bēt	bītu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	nsubj	_	_
+1	bēt	bītu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
 2	akīt	akītu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 3	erābu	erēbu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
-
-1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	adanniš	adanniš	ADV	AV	_	1	advmod	_	_
+4	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+5	adanniš	adanniš	ADV	AV	_	4	advmod	_	_
 
 1	Aššur	aššur	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
