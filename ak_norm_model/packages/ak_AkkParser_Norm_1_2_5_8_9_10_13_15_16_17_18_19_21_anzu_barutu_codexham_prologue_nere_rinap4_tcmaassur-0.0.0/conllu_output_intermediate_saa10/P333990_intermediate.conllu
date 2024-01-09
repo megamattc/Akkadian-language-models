@@ -25,7 +25,8 @@
 5	ikkāru	ikkaru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
 7	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	3	acl	_	_
-8	mā	mā	PART	Quotative	_	7	discourse	_	_
+
+1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -34,31 +35,28 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	3	discourse	_	_
-2	šumma	šumma	SCONJ	SBJ	_	3	mark	_	_
+2	šumma	šumma	SCONJ	SCONJ	_	3	mark	_	_
 3	išakkan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	4	advcl	_	_
-4	mīnu	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
-5	abassu	awātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	nsubj	_	_
+4	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+5	abassu	awātu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	4	nsubj	_	_
 
-1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	11	obl	_	_
+1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	11	obl	_	_
 2	14-KAM	14-kam	ADJ	ADJ	_	1	amod	_	_
-3	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	_
-4	Simanu	simanu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
-5	Mat-Amurri	mat-amurri	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+3	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
+4	Simanu	simanu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+5	Mat-Amurri	mat-amurri	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
 6	purussûšu	purussû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	11	obj	_	_
 7	ana	ana	ADP	PRP	_	8	case	_	_
-8	Uri	uri	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
-9	u	u	CONJ	CNJ	_	11	cc	_	_
-10	šumma	šumma	SCONJ	SBJ	_	11	mark	_	_
-11	issakan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	kaqquru	qaqqaru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-2	bēt	bītu	NOUN	N	_	3	obl	_	_
-3	ulappatanni	lapātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	0	ROOT	_	_
-4	u	u	CONJ	CNJ	_	5	cc	_	_
-5	šāri	šāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
-
-1	āliku	āliku	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	issēniš	ištēniš	ADV	AV	_	2	advmod	_	_
-2	inassāha	nasāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+8	Uri	uri	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	11	iobj	_	_
+9	u	u	CONJ	CNJ	_	10	cc	_	_
+10	šumma	šumma	SCONJ	SBJ	_	8	conj	_	_
+11	issakan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	14	advcl	_	_
+12	kaqquru	qaqqaru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+13	bēt	bītu	NOUN	N	_	14	obj	_	_
+14	ulappatanni	lapātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+15	u	u	CONJ	CNJ	_	19	cc	_	_
+16	šāri	šāru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	19	obj	_	_
+17	āliku	āliku	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
+18	issēniš	ištēniš	ADV	AV	_	19	advmod	_	_
+19	inassāha	nasāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	14	conj	_	_
 

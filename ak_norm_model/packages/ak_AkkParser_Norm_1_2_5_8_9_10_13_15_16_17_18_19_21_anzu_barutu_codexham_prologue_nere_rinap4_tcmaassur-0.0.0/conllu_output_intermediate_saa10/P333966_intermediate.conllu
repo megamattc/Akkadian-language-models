@@ -22,9 +22,9 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	ṣehri	ṣehru	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
-4	ša	ša	PRON	REL	_	3	dep	_	_
-5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
-6	bēlīni	bēlu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	5	appos	_	_
+4	ša	ša	ADP	PRP	_	5	case	_	_
+5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+6	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	5	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -55,13 +55,12 @@
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	iobj	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	mahir	mahru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
-
-1	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
-2	ana	ana	ADP	PRP	_	3	case	_	_
-3	bādi	bādu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
-4	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
-5	lū	lū	PART	PART	_	7	advmod	_	_
-6	lā	lā	PART	NEG	_	7	advmod	_	_
-7	isammû	samû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	4	conj	_	_
+5	mahir	mahru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	9	advcl	_	_
+6	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+7	ana	ana	ADP	PRP	_	8	case	_	_
+8	bādi	bādu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+9	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+10	lū	lū	PART	PART	_	12	advmod	_	_
+11	lā	lā	PART	NEG	_	12	advmod	_	_
+12	isammû	samû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	9	conj	_	_
 

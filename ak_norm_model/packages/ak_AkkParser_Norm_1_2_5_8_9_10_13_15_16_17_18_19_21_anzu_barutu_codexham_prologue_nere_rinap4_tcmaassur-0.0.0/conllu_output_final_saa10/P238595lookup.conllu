@@ -12,9 +12,9 @@
 12	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	14	iobj	_	_
 13	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
 14	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
-15	 	 	SCONJ	PRP	_	21	obl	_	SpaceAfter=No
+15	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	21	advcl	_	SpaceAfter=No
 16	iltiššu	ištiššu	ADV	AV	_	21	advmod	_	_
-17	šinīšu	šinīšu	ADV	AV	_	21	advmod	_	_
+17	šinīšu	šinīšu	ADV	AV	_	16	conj	_	_
 18	ana	ana	ADP	PRP	_	19	case	_	_
 19	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	21	iobj	_	_
 20	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	19	appos	_	_
@@ -41,7 +41,7 @@
 41	x	x	X	X	_	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	ṣabit	ṣabtu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
-44	Nabu-naṣir	nabu-naṣir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+44	Nabu-naṣir	nabu-naṣir	PROPN	PN	Gender=Masc	_	_	_	_
 45	šatammu	šatammu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	44	appos	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
@@ -54,7 +54,7 @@
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
-57	ana	ana	ADP	PRP	_	_	_	_	_
+57	ana	ana	ADP	PRP	_	58	case	_	_
 58	02	02	NUM	NUM	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
@@ -87,12 +87,12 @@
 87	x	x	X	X	_	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
-90	qātīni	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	91	obl	_	_
+90	qātīni	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	91	iobj	_	_
 91	liddin	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
-92	UD	ud	NOUN	N	_	95	obl	_	_
+92	UD	ud	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	95	nsubj	_	_
 93	x-KAM₂	x-kam₂	ADJ	AJ	_	92	amod	_	_
-94	ša-qaltāti	ša-qašti	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	95	nsubj	_	_
-95	liphurū	pahāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	91	conj	_	_
+94	ša-qaltāti	ša-qašti	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	95	obj	_	_
+95	liphurū	pahāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
@@ -115,7 +115,7 @@
 115	x	x	X	X	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_
 117	x+x	x+x	X	X	_	_	_	_	_
-118	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+118	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 119	it-ta-x	it-ta-x	X	X	_	_	_	_	_
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
@@ -139,6 +139,6 @@
 139	lusanniqūšūma	sanāqu	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 140	x	x	X	X	_	_	_	_	_
 141	x	x	X	X	_	_	_	_	_
-142	kitti	kittu	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	144	obj	_	_
+142	kitti	kittu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	144	obj	_	_
 143	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	144	nsubj	_	_
 144	liškun	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_

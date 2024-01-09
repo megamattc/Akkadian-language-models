@@ -1,30 +1,31 @@
-1	namullu	namallu	VERB	NOUN	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	namullu	namallu	VERB	N	Dialect=NB|Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=Yes|Tense=Past|Ventive=No|VerbForm=Fin|VerbStem=G	1	conj	_	_
+1	namullu	namallu	VERB	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	namullu	namallu	VERB	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
+3	kakku	kakku	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	1	conj	_	_
+4	kakku	kakku	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 
-1	kakku	kakku	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	kakku	kakku	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-3	qanû	qanû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-4	qanû	qanû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-5	huppu	huppu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-6	huppu	huppu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-7	karpatu	karpatu	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
-8	karpatu	karpatu	VERB	NOUN	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	7	conj	_	_
+1	qanû	qanû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	qanû	qanû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	huppu	huppu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	huppu	huppu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	karpatu	karpatu	VERB	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+3	karpatu	karpatu	VERB	NOUN	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	2	amod	_	_
+
+1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	zikrī	zikru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	zikrī	zikru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 2	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	Marduk	marduk	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+4	Epinnu	epinnu	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 
-1	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	Epinnu	epinnu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-3	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-4	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
-
-1	ṭuppu	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	ṭuppu	ṭuppu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -33,23 +34,21 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	03-šu₂-nu	03-šu₂-nu	NOUN	NOUN	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-
-1	Dugul-pan-ili	dugul-pan-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Single	5	nsubj	_	_
-2	Kiṣir-Aššur	kiṣir-aššur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-3	kilallēšunu	kilallān	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Stat|VerbStem=G	2	appos	_	_
-4	Urra	urru	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-5	išaṭṭuru	šaṭāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-6	ubaššim	bašāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	5	conj	_	_
-7	manzāza	mazzāzu	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Question=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	5	conj	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-3	Illil	elēlu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	zikrī	zikru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	2	dep	_	_
-5	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
-6	ina	ina	ADP	PRP	_	7	case	_	_
-7	šemîšu	šemû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	conj	_	_
+2	03-šu₂-nu	03-šu₂-nu	NOUN	X	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	dep	_	_
+3	Dugul-pan-ili	dugul-pan-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Single	7	nsubj	_	_
+4	Kiṣir-Aššur	kiṣir-aššur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+5	kilallēšunu	kilallān	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3|PronType=Tot	3	conj	_	_
+6	Urra	urru	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+7	išaṭṭuru	šaṭāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	8	case	_	_
+8	ubaššim	bašāmu	ADV	V	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+9	manzāza	mazzāzu	NOUN	N	Case=Acc|Focus=Yes|Gender=Masc|Number=Sing	8	conj	_	_
+10	ana	ana	ADP	PRP	_	11	case	_	_
+11	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	9	iobj	_	_
+12	Illil	elēlu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	11	nmod:poss	_	_
+13	zikrī	zikru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	11	appos	_	_
+14	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	ina	ina	ADP	PRP	_	16	case	_	_
+16	šemîšu	šemû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	13	obl	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -63,7 +62,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	na-mar-ku-x	na-mar-ku-x	X	V	_	0	ROOT	_	_
+1	na-mar-ku-x	na-mar-ku-x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -73,7 +72,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	liginnu	liginnu	NOUN	N	_	0	ROOT	_	_
+1	liginnu	liginnu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

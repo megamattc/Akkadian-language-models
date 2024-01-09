@@ -19,7 +19,7 @@
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
 21	annurig	annûri	ADV	AV	_	22	advmod	_	_
-22	ētapšūma	epēšu	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+22	ētapšūma	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
@@ -40,7 +40,7 @@
 40	x	x	X	X	_	_	_	_	_
 41	lū	lū	PART	PART	_	43	advmod	_	_
 42	lā	lā	PART	NEG	_	43	advmod	_	_
-43	išallupu	šalāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+43	išallupu	šalāpu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
@@ -70,8 +70,8 @@
 70	x+x	x+x	X	X	_	_	_	_	_
 71	u	u	CONJ	CNJ	_	72	cc	_	_
 72	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
-73	pūt	pūtu	NOUN	N	_	74	case	_	_
-74	hannî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	72	nmod	_	_
+73	pūt	pūtu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	72	appos	_	_
+74	hannî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	73	nmod	_	_
 75	x	x	X	X	_	_	_	_	_
 76	x	x	X	X	_	_	_	_	_
 77	x	x	X	X	_	_	_	_	_
@@ -90,8 +90,8 @@
 90	x	x	X	X	_	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
-93	mīnu	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	96	nsubj	_	_
-94	ša	ša	PRON	REL	_	93	dep	_	_
+93	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	96	nsubj	_	_
+94	ša	ša	PRON	REL	_	93	obj	_	_
 95	ina	ina	ADP	PRP	_	96	case	_	_
 96	muhhišunu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
@@ -99,7 +99,7 @@
 99	x	x	X	X	_	_	_	_	_
 100	x	x	X	X	_	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
-102	ikatteru	katāru	NOUN	V	Case=Acc|Gender=Masc|Number=Sing	103	obj	_	_
+102	ikatteru	katāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	103	obj	_	_
 103	eppušu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 104	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	107	nsubj	_	_
 105	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	104	appos	_	_
@@ -116,14 +116,14 @@
 116	x	x	X	X	_	_	_	_	_
 117	x	x	X	X	_	_	_	_	_
 118	x+x	x+x	X	X	_	_	_	_	_
-119	šīrānišunu	šīru	ADP	V	PrepSuffGen=Masc|PrepSuffNum=Plur|PresSuffPer=3	_	_	_	_
+119	šīrānišunu	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
 122	x	x	X	X	_	_	_	_	_
 123	x	x	X	X	_	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
 125	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	_	_	_	_
-126	ša	ša	ADP	PRP	_	127	case	_	_
+126	ša	ša	PRON	REL	_	_	_	_	_
 127	kalbu	kalbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 128	x	x	X	X	_	_	_	_	_
 129	x	x	X	X	_	_	_	_	_
@@ -133,7 +133,7 @@
 133	x	x	X	X	_	_	_	_	_
 134	x-ri	x-ri	X	X	_	_	_	_	_
 135	lā	lā	PART	NEG	_	136	advmod	_	_
-136	ṭābanni	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Subordinative=Yes|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=G	_	_	_	_
+136	ṭābanni	ṭābu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
 137	x	x	X	X	_	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
 139	x	x	X	X	_	_	_	_	_
