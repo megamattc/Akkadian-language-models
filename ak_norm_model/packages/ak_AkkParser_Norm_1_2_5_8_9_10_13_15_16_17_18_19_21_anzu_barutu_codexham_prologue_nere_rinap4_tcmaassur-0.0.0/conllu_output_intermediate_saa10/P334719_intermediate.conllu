@@ -2,18 +2,18 @@
 
 1	Aššur	aššur	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
 2	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-3	Šamaš	šamšu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-4	Bel	bel	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+3	Šamaš	šamšu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 5	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 6	Nergal	nergal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-7	Issar	issar	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
+7	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 8	ša	ša	ADP	PRP	_	9	case	_	_
 9	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 11	ša	ša	ADP	PRP	_	12	case	_	_
 12	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	balāṭu	balāṭu	VERB	V	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	27	obj	_	_
-14	šalāmu	šalāmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+14	šalāmu	šalāmu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 15	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	13	conj	_	_
 16	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 17	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	15	conj	_	_
@@ -25,15 +25,14 @@
 23	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
 24	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	23	appos	_	_
 25	danniš	danniš	ADV	AV	_	27	advmod	_	_
-26	danniš	danniš	ADV	AV	_	25	conj	_	_
-27	liqbiu	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
-
-1	šībūtu	šībūtu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
-2	littūtu	littūtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
-3	ana	ana	ADP	PRP	_	4	case	_	_
-4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
-5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
-6	lušabbiu	šebû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	0	ROOT	_	_
+26	danniš	danniš	ADV	AV	_	27	advmod	_	_
+27	liqbiu	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	33	advcl	_	_
+28	šībūtu	šībūtu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+29	littūtu	littūtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	28	conj	_	_
+30	ana	ana	ADP	PRP	_	31	case	_	_
+31	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	33	iobj	_	_
+32	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	31	appos	_	_
+33	lušabbiu	šebû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	išdi	išdu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	kussie	kussû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -52,32 +51,32 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ūmu	ūmu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	ūme	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
-3	urhu	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ūme	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	urhu	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|NounState=Bound|Number=Sing	3	nmod	_	_
+5	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
 
-1	šattu	šattu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	šattu	šattu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	18	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
-3	šatti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
-4	ša	ša	PRON	REL	_	18	obl	_	_
-5	adi	adi	ADP	PRP	_	6	case	_	_
+3	šatti	šattu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+4	ša	ša	PRON	REL	_	3	dep	_	_
+5	adi	adi	ADP	PRP	_	8	case	_	_
 6	01	01	NUM	NUM	_	7	nummod	_	_
 7	mē	meʾatu	NUM	NU	_	8	nummod	_	_
-8	šināni	šina	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	_
-9	passurāte	bussurtu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+8	šināni	šina	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
+9	passurāte	bussurtu	ADJ	NOUN	Case=Acc|Gender=Fem|Number=Plur	8	amod	_	_
 10	ša	ša	ADP	PRP	_	11	case	_	_
 11	danqi	damqu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	9	nmod	_	_
 12	u	u	CONJ	CNJ	_	13	cc	_	_
-13	hūd	hūdu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	11	conj	_	_
-14	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+13	hūd	hūdu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	8	conj	_	_
+14	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	13	nmod	_	_
 15	ana	ana	ADP	PRP	_	16	case	_	_
 16	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	18	iobj	_	_
 17	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	16	appos	_	_
-18	liqribāni	qerēbu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	3	acl	_	_
+18	liqribāni	qerēbu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 

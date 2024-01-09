@@ -21,18 +21,17 @@
 2	ummi šarri	ummi šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 
-1	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	rabiūti	rabiu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	1	amod	_	_
-3	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+1	ilāni	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
+2	rabiūti	rabiu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	1	nmod	_	_
+3	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
 4	adanniš	adanniš	ADV	AV	_	6	advmod	_	_
 5	adanniš	adanniš	ADV	AV	_	6	advmod	_	_
 6	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
-
-1	akī	akī	ADP	PRP	_	5	mark	_	_
-2	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	murṣi	murṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obj	_	_
-4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	iššurūni	našāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+7	akī	akī	ADP	PRP	_	11	mark	_	_
+8	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	murṣi	murṣu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	8	appos	_	_
+10	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	iššurūni	našāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	6	advcl	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -60,9 +59,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	imraṣūni	marāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	imraṣūni	marāṣu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -72,15 +70,17 @@
 
 1	x+x-ʾu	x+x-ʾu	X	X	_	0	ROOT	_	_
 
-1	nēpešē	nēpešu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+1	nēpešē	nēpešu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	5	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	haliqti	haliqtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
-4	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	det	_	_
+3	haliqti	haliqtu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 5	eppušu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-6	ušburrudê	ušburrudû	NOUN	AJ	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
-7	damqūte	damqu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
-8	maʾdūti	mādu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
-9	neppaš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	5	conj	_	_
+6	ušburrudê	ušburrudû	ADJ	V	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
+
+1	damqūte	damqu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+
+1	maʾdūti	mādu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+2	neppaš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_

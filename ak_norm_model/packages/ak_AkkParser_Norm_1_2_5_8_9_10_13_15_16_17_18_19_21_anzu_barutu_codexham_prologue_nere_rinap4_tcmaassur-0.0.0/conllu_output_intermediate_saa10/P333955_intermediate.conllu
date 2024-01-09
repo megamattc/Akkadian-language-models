@@ -24,36 +24,36 @@
 5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
 7	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	3	acl	_	_
-8	deʾiq	damqu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	13	obj	_	_
+8	deʾiq	damqu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 9	adanniš	adanniš	ADV	AV	_	8	advmod	_	_
-10	bēt	bītu	NOUN	N	_	13	obj	_	_
+10	bēt	bītu	NOUN	N	_	13	obl	_	_
 11	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 12	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	11	appos	_	_
-13	iqbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	16	advcl	_	_
-14	qallūte	qallu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	16	obj	_	_
-15	ammūte	ammiu	DET	DP	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	14	det	_	_
-16	niharrup	harāpu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-17	nišaqqi	šaqû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	16	conj	_	_
+13	iqbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	17	advcl	_	_
+14	qallūte	qallu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	16	nsubj	_	_
+15	ammūte	ammiu	DET	DET	Case=Acc|Gender=Masc|Number=Plur	14	det	_	_
+16	niharrup	harāpu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	17	obj	_	_
+17	nišaqqi	šaqû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	8	ccomp	_	_
 
-1	harammēma	haramma	ADV	AV	Focus=Yes	2	nummod	_	_
-2	mār šarri	mār šarri	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	harammēma	haramma	ADV	AV	Focus=Yes	2	advmod	_	_
+2	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	_
 3	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
-4	lissi	nesû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	lissi	nesû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
+5	anākūma	anāku	PRON	IP	Case=Nom|Focus=Yes|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
+6	mīnu	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	aqabbi	qabû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	5	conj	_	_
 
-1	anākūma	anāku	PRON	IP	Case=Nom|Focus=Yes|Gender=Com|Number=Sing|Person=1	3	nsubj	_	_
-2	mīnu	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-3	aqabbi	qabû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	paršumu	puršumu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	10	nsubj	_	_
+1	paršumu	puršumu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 2	ša	ša	PRON	REL	_	4	nsubj	_	_
-3	ṭēnšu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	nsubj	_	_
+3	ṭēnšu	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	obj	_	_
 4	laššūni	laššu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	1	acl	_	_
 5	ša	ša	PRON	REL	_	8	obj	_	_
 6	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 7	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
 8	iqbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
-9	kî	kī	ADP	PRP	_	10	case	_	_
-10	ša	ša	PRON	REL	_	12	obl	_	_
-11	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	12	nsubj	_	_
-12	gamrat	gamru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+
+1	kî	kī	ADP	PRP	_	2	case	_	_
+2	ša	ša	PRON	REL	_	4	obl	_	_
+3	ili	ilu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	nsubj	_	_
+4	gamrat	gamru	ADJ	AJ	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 

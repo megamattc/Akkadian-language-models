@@ -12,11 +12,11 @@
 12	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	14	iobj	_	_
 13	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
 14	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
-15	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+15	 	 	NOUN	V	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 16	x	x	X	X	_	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
 18	x	x	X	X	_	_	_	_	_
-19	UD	ud	NOUN	N	_	_	_	_	_
+19	UD	ud	NOUN	N	_	24	obl	_	_
 20	x-KAM₂	x-kam₂	ADJ	AJ	_	19	amod	_	_
 21	Šibu	šibu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
 22	ana	ana	ADP	PRP	_	23	case	_	_
@@ -29,7 +29,7 @@
 29	Sin	sin	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
 30	SI4-ma	si4-ma	VERB	V	Focus=Yes	35	advcl	_	_
 31	izziz	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	30	conj	_	_
-32	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+32	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	35	nsubj	_	_
 33	ina	ina	ADP	PRP	_	34	case	_	_
 34	litti	littu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	35	obl	_	_
 35	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -46,8 +46,8 @@
 46	x	x	X	X	_	_	_	_	_
 47	x+x	x+x	X	X	_	_	_	_	_
 48	māssu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	49	obj	_	_
-49	urtappeš	rapāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	_	_	_	_
-50	 	 	VERB	PRP	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	_	_	_	SpaceAfter=No
+49	urtappeš	rapāšu	VERB	V	Dialect=NB|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Dt	50	obl	_	_
+50	 	 	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
@@ -133,7 +133,7 @@
 133	x	x	X	X	_	_	_	_	_
 134	x	x	X	X	_	_	_	_	_
 135	x	x	X	X	_	_	_	_	_
-136	ušuzzū	izuzzu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+136	ušuzzū	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 137	x	x	X	X	_	_	_	_	_
 138	x	x	X	X	_	_	_	_	_
 139	x	x	X	X	_	_	_	_	_
@@ -149,7 +149,7 @@
 149	x	x	X	X	_	_	_	_	_
 150	x	x	X	X	_	_	_	_	_
 151	umaššaramma	ašāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
-152	mamma	mamma	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+152	mamma	mamma	PRON	XP	_	_	_	_	_
 153	x	x	X	X	_	_	_	_	_
 154	x	x	X	X	_	_	_	_	_
 155	x	x	X	X	_	_	_	_	_
@@ -173,7 +173,7 @@
 173	x	x	X	X	_	_	_	_	_
 174	ša	ša	ADP	PRP	_	175	case	_	_
 175	Iddin-ahi	iddin-ahi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-176	bēl hīṭu	bēl hīṭu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+176	bēl hīṭu	bēl hīṭu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	175	appos	_	_
 177	x	x	X	X	_	_	_	_	_
 178	x	x	X	X	_	_	_	_	_
 179	x	x	X	X	_	_	_	_	_
@@ -199,7 +199,7 @@
 199	x	x	X	X	_	_	_	_	_
 200	x	x	X	X	_	_	_	_	_
 201	x	x	X	X	_	_	_	_	_
-202	x	x	X	X	_	_	_	_	_
+202	x	x	X	X	_	203	nsubj	_	_
 203	īmurūma	amāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 204	mamma	mamma	PRON	XP	_	_	_	_	_
 205	x	x	X	X	_	_	_	_	_
@@ -238,7 +238,7 @@
 238	x	x	X	X	_	_	_	_	_
 239	x	x	X	X	_	_	_	_	_
 240	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-241	 	 	VERB	PN	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	_	_	_	SpaceAfter=No
+241	 	 	NOUN	V	Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
 242	x	x	X	X	_	_	_	_	_
 243	x	x	X	X	_	_	_	_	_
 244	x	x	X	X	_	_	_	_	_
@@ -284,4 +284,4 @@
 284	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	287	obl	_	_
 285	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	284	appos	_	_
 286	lū	lū	PART	PART	_	287	advmod	_	_
-287	medi	medû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+287	medi	medû	ADJ	AJ	PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	_	_	_	_

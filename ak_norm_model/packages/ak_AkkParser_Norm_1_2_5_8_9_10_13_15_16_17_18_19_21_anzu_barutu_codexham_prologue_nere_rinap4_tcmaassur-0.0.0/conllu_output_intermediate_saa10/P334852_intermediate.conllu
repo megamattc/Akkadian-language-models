@@ -110,7 +110,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	šuttīya	šuttu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
+2	šuttīya	šuttu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
@@ -131,10 +131,10 @@
 2	kussî	kussû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
 3	kammusu	kamsu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
-1	paššūru	paššuru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	paššūru	paššuru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	obl	_	_
-4	šakin	šaknu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+4	šakin	šaknu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -157,8 +157,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
-3	nibzāni	nibzu	NOUN	V	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+3	nibzāni	nibzu	NOUN	V	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -176,7 +176,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+1	pānīšu	pānu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
@@ -198,22 +198,23 @@
 
 1	x-ni	x-ni	X	X	_	0	ROOT	_	_
 
-1	issēn	ištēn	NUM	NUM	_	2	nummod	_	_
-2	nibzu	nibzu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+1	issēn	ištēn	NUM	NU	_	2	nummod	_	_
+2	nibzu	nibzu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 3	kî	kī	ADP	PRP	_	4	case	_	_
 4	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 5	iqṭibia	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-6	mā	mā	PART	Quotative	_	12	discourse	_	_
-7	1	1	NUM	NUM	_	12	mark	_	_
-8	Aššur	aššur	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+6	mā	mā	PART	Quotative	_	11	discourse	_	_
+7	1	1	NUM	NUM	_	11	mark	_	_
+8	Aššur	aššur	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 9	ša	ša	PRON	REL	_	10	obj	_	_
-10	taklūka	taklu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	8	acl	_	_
-11	napištašu	napištu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	12	obl	_	_
-12	gimilma	gamālu	VERB	V	Focus=Yes|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	5	ccomp	_	_
-13	ina	ina	ADP	PRP	_	14	case	_	_
-14	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
+10	taklūka	taklu	NOUN	V	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	8	acl	_	_
+11	napištašu	napištu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	ccomp	_	_
 
-1	nibzu	nibzu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	gimilma	gamālu	NOUN	N	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+3	nibzu	nibzu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -298,18 +299,18 @@
 
 1	x-na-bit	x-na-bit	X	X	_	0	ROOT	_	_
 
-1	Aššur	aššur	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-2	Sin	sin	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+1	Aššur	aššur	PROPN	DN	Gender=Masc	12	nsubj	_	_
+2	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 3	Šamaš	šamšu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
 4	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 5	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-6	Sagmegar	sagmegar	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-7	Dilbat	dilbat	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+6	Sagmegar	sagmegar	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+7	Dilbat	dilbat	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
 8	Kayamanu	kayamanu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 9	Šihṭu	šihṭu	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-10	Ṣalbatanu	ṣalbatanu	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-11	lū	lū	PART	MOD	_	12	advmod	_	_
-12	ūdiʾu	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+10	Ṣalbatanu	ṣalbatanu	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+11	lū	lū	PART	PART	_	12	advmod	_	_
+12	ūdiʾu	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	šumma	šumma	SCONJ	SBJ	_	0	ROOT	_	_
 
@@ -345,7 +346,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	dummuqu	dummuqu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D|Voice=Pass	0	ROOT	_	_
+1	dummuqu	dummuqu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -367,11 +368,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	0	ROOT	_	_
-
-1	mā	mā	PART	Quotative	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -393,9 +391,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	bābu	bābu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
 
-1	pete	petû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	bābu	bābu	NOUN	N	Gender=Masc|Number=Sing	2	obj	_	_
+2	pete	petû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

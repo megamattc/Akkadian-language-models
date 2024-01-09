@@ -1,6 +1,6 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
 2	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	2	nmod	_	_
+3	kiššati	kiššatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	2	nmod:poss	_	_
 4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 5	aradka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
 6	Aqaraya	aqaraya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
@@ -28,22 +28,18 @@
 12	liqbû	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	šaddaqad	šaddaqda	ADV	AV	_	0	ROOT	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	dep	_	_
-4	dīnīya	dīnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	nmod	_	_
-5	ana	ana	ADP	PRP	_	6	case	_	_
-6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	dep	_	_
-7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+3	dīnīya	dīnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nmod	_	_
+4	ana	ana	ADP	PRP	_	5	case	_	_
+5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x+x	x+x	X	X	_	0	ROOT	_	_
-
-1	andahar	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	x+x	x+x	X	X	_	2	obj	_	_
+2	andahar	mahāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -55,7 +51,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ilteqî	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	x	x	X	X	_	2	nsubj	_	_
+2	ilteqî	leqû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -85,7 +84,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nikkassu	nikkassu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	nikkassu	nikkassu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -158,7 +157,7 @@
 3	uhteṭṭu	haṭû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	adû	adû	ADV	AV	_	9	advmod	_	_
-2	mār šipri	mār šipri	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 3	ša	ša	PRON	REL	_	4	nsubj	_	_
 4	illikūma	alāku	VERB	V	Focus=Yes|Gender=Masc|Number=Sing|Person=3|Subordinative=Yes|Ventive=No|VerbStem=G	2	acl	_	_
 5	amat	amtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	7	obj	_	_
