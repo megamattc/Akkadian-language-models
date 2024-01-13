@@ -27,8 +27,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	2	obl	_	_
-2	12-KAM₂	12-kam₂	ADJ	ADJ	_	0	ROOT	_	_
+1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	12-KAM₂	12-kam₂	ADJ	ADJ	_	1	amod	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -60,33 +60,32 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
+1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
 2	13-KAM₂	13-kam₂	ADJ	ADJ	_	1	amod	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	Kalha	kalha	PROPN	PROPN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
-5	issi	sinništu	VERB	V	_	6	case	_	_
-6	marʾē šarri	marʾē šarri	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+4	Kalha	kalha	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+5	issi	sinništu	ADP	PRP	_	6	case	_	_
+6	marʾē šarri	marʾē šarri	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	ittalak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
 2	14-KAM₂	14-kam₂	ADJ	ADJ	_	1	amod	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
-5	Adad-šumu-uṣur	adad-šumu-uṣur	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	_
-6	ētarab	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-7	issi	sinništu	VERB	V	_	8	case	_	_
-8	Aššur-naṣir	aššur-naṣir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
-9	rab ša-rēši	rab ša-rēši	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
-
-1	Sasi	sasi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Urdu-Ea	urdu-ea	PROPN	N	Case=Acc|Gender=Masc|Number=Sing	1	appos	_	_
-3	iddubub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-4	mā	mā	PART	Quotative	_	8	discourse	_	_
-5	adu	adi	ADP	PRP	_	8	mark	_	_
-6	lā	lā	PART	NEG	_	7	advmod	_	_
-7	attalû	antalû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
-8	iškunūni	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	ccomp	_	_
-9	lūšib	ašābu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	3	conj	_	_
+5	Adad-šumu-uṣur	adad-šumu-uṣur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ētarab	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	12	advcl	_	_
+7	issi	sinništu	ADP	PRP	_	8	case	_	_
+8	Aššur-naṣir	aššur-naṣir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+9	rab ša-rēši	rab ša-rēši	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+10	Sasi	sasi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	Urdu-Ea	urdu-ea	PROPN	N	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	iddubub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+13	mā	mā	PART	Quotative	_	17	discourse	_	_
+14	adu	adi	ADP	PRP	_	16	mark	_	_
+15	lā	lā	PART	NEG	_	16	advmod	_	_
+16	attalû	antalû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	17	iobj	_	_
+17	iškunūni	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	12	conj	_	_
+18	lūšib	ašābu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	12	conj	_	_
 
 1	abutu	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 
@@ -109,7 +108,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	{LU₂}x	{lu₂}x	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -128,10 +127,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	hakāme	hakāmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	issu	ištu	ADP	PRP	_	2	case	_	_
-2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	hakāme	hakāmu	VERB	N	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	issu	ištu	ADP	PRP	_	3	case	_	_
+3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

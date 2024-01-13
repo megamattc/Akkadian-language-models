@@ -2,7 +2,7 @@
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
 4	urdānīka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
-5	ṭupšarrī	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	4	appos	_	_
+5	ṭupšarrī	ṭupšarru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	4	appos	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	Kalzi	kalzu	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 8	lū	lū	PART	PART	_	9	advmod	_	_
@@ -26,7 +26,7 @@
 26	Šamaš	šamšu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	24	conj	_	_
 27	ahēʾiš	ahāmiš	ADV	AV	_	28	advmod	_	_
 28	ētamru	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-29	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+29	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	35	obj	_	_
 30	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
 31	u	u	CONJ	CNJ	_	32	cc	_	_
 32	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	30	conj	_	_
@@ -36,13 +36,13 @@
 36	issu	ištu	ADP	PRP	_	37	case	_	_
 37	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	39	obl	_	_
 38	ilki	ilku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
-39	tupšikki	tupšikku	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	44	obl	_	_
+39	tupšikki	tupšikku	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
 40	maṣṣartu	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
 41	ša	ša	ADP	PRP	_	42	case	_	_
 42	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
 43	lā	lā	PART	NEG	_	44	advmod	_	_
-44	ninaṣṣar	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-45	didabê	didabû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	48	obj	_	_
-46	ṭupšarrūtu	ṭupšarrūtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	48	obj	_	_
+44	ninaṣṣar	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	39	conj	_	_
+45	didabê	didabû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	48	obj	_	_
+46	ṭupšarrūtu	ṭupšarrūtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	45	conj	_	_
 47	lā	lā	PART	NEG	_	48	advmod	_	_
-48	ilammudu	lamādu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+48	ilammudu	lamādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_

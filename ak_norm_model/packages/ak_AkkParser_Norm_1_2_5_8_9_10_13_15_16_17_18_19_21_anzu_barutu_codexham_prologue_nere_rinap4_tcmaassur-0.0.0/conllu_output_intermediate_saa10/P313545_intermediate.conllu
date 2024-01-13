@@ -18,15 +18,15 @@
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
 7	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	adanniš	adanniš	ADV	AV	_	1	advmod	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	Aššur-bani-apli	aššur-bani-apli	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nsubj	_	_
-5	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-6	adanniš	adanniš	ADV	AV	_	5	advmod	_	_
 
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	Šamaš-šumu-ukin	šamaš-šumu-ukin	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	adanniš	adanniš	ADV	AV	_	1	advmod	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	Šamaš-šumu-ukin	šamaš-šumu-ukin	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nsubj	_	_
 
 1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	adanniš	adanniš	ADV	AV	_	1	advmod	_	_
@@ -57,7 +57,7 @@
 
 1	li	*[NA]NA	NOUN	N	_	0	ROOT	_	_
 
-1	al	al	ADP	ADP	_	0	ROOT	_	_
+1	al	al	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -73,7 +73,7 @@
 5	adanniš	adanniš	ADV	AV	_	8	advmod	_	_
 6	adanniš	adanniš	ADV	AV	_	5	fixed	_	_
 7	lū	lū	PART	PART	_	8	advmod	_	_
-8	ṭāba	ṭābu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+8	ṭāba	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -201,8 +201,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ummi šarri	ummi šarri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	ummi	ummu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ummi šarri	ummi šarri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	ummi	ummu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

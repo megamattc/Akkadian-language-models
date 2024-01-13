@@ -16,7 +16,7 @@
 16	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
 17	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	16	appos	_	_
 18	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
-19	anīni	anīnu	PRON	IP	Case=Nom|Gender=Com|Number=Plur|Person=1	20	nsubj	_	_
+19	anīni	anīnu	PRON	IP	Case=Nom|Gender=Com|Number=Plur|Person=1	_	_	_	_
 20	{1}di-x	{1}di-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
@@ -32,12 +32,12 @@
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
-35	nittalak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+35	nittalak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Subordinative=No|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
-40	maṣallu	maṣallu	NOUN	N	Gender=Masc|Number=Sing	_	_	_	_
+40	maṣallu	maṣallu	ADJ	N	Gender=Masc|Number=Sing	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
@@ -68,9 +68,9 @@
 68	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	70	nsubj	_	_
 69	bēlīni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	68	appos	_	_
 70	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	72	advcl	_	_
-71	kimahhu	kimahhu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	72	obj	_	_
+71	kimahhu	kimahhu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	72	obj	_	_
 72	neppaš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-73	šar	šarru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	77	obj	_	_
+73	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	77	obj	_	_
 74	pūhi	pūhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	73	nmod:poss	_	_
 75	ina	ina	ADP	PRP	_	76	case	_	_
 76	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	77	obl	_	_
@@ -87,7 +87,7 @@
 87	x	x	X	X	_	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
-90	lū	lū	PART	PART	_	91	advmod	_	_
+90	lū	lū	PART	PART	_	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
@@ -105,7 +105,7 @@
 105	x	x	X	X	_	_	_	_	_
 106	x	x	X	X	_	_	_	_	_
 107	x	x	X	X	_	_	_	_	_
-108	lā	lā	PART	NEG	_	109	advmod	_	_
+108	lā	lā	PART	NEG	_	_	_	_	_
 109	x+x	x+x	X	X	_	_	_	_	_
 110	x	x	X	X	_	_	_	_	_
 111	x	x	X	X	_	_	_	_	_
@@ -118,7 +118,7 @@
 118	x	x	X	X	_	_	_	_	_
 119	x	x	X	X	_	_	_	_	_
 120	x+x	x+x	X	X	_	_	_	_	_
-121	lā	lā	PART	NEG	_	122	advmod	_	_
+121	lā	lā	PART	NEG	_	_	_	_	_
 122	x	x	X	X	_	_	_	_	_
 123	x	x	X	X	_	_	_	_	_
 124	x	x	X	X	_	_	_	_	_
@@ -128,5 +128,5 @@
 128	mīni	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 129	ša	ša	PRON	REL	_	132	obj	_	_
 130	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	132	nsubj	_	_
-131	bēlīni	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	130	appos	_	_
-132	iqabbûninni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	128	acl	_	_
+131	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	130	appos	_	_
+132	iqabbûninni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	128	acl	_	_

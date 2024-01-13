@@ -1,7 +1,7 @@
-1	abat	awātu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Sing	4	nsubj	_	_
+1	abat	awātu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	Urdu-Gula	urdu-gula	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	Urdu-Gula	urdu-gula	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ayāši	yâšim	PRON	IP	Case=Gen|Gender=Com|Number=Sing|Person=1	1	nsubj	_	_
@@ -14,11 +14,11 @@
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	lēʾi	lēʾu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	det	_	_
-5	ša	ša	PRON	REL	_	9	nsubj	_	_
+5	ša	ša	PRON	REL	_	9	obj	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	qāt	qātu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
 8	Ahu-duri	ahu-duri	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-9	tušēbilanni	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=Š	3	acl	_	_
+9	tušēbilanni	wabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=Š	2	acl	_	_
 
 1	mēʾelīšunu	mêlu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
 
@@ -35,21 +35,21 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	4	obl	_	SpaceAfter=No
-2	u	u	CONJ	CNJ	_	3	cc	_	_
-3	epšetušu	epištu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	obj	_	_
-4	šaṭir	šaṭru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+1	 	 	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	SpaceAfter=No
+2	u	u	CONJ	CNJ	_	4	cc	_	_
+3	epšetušu	epištu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	nsubj	_	_
+4	šaṭir	šaṭru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	1	conj	_	_
 5	mā	mā	PART	Quotative	_	6	discourse	_	_
 6	šiptu	šiptu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	4	ccomp	_	_
-7	zanān	zanānu	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	6	nsubj	_	_
-8	Ninkilim	ninkilim	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-9	āšip	āšipu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	8	appos	_	_
-10	Inurta	inurta	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-11	miqitti	miqittu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	7	conj	_	_
-12	šamê	šamû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	11	nmod	_	_
-13	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	4	ccomp	_	_
 
-1	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+1	zanān	zanānu	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	7	dislocated	_	_
+2	Ninkilim	ninkilim	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	āšip	āšipu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
+4	Inurta	inurta	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
+5	miqitti	miqittu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	1	conj	_	_
+6	šamê	šamû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	5	nmod:poss	_	_
+7	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+8	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	cop	_	_
 
 1	kayamānu	kayyamānu	ADV	AV	_	3	advmod	_	_
 2	šamê	šamû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -95,7 +95,7 @@
 
 1	u	u	CONJ	CNJ	_	3	cc	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	qāt	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+3	qāt	qātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
 4	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
