@@ -18,7 +18,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	bīru	bīru	NOUN	N	_	0	ROOT	_	_
+1	bīru	bīru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -43,10 +43,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	taqīpūni	qiāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	u	u	CONJ	CNJ	_	1	dep	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	taqīpūni	qiāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	u	u	CONJ	CNJ	_	2	cc	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -61,7 +60,7 @@
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
 2	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
-3	tēltu	tēltu	NOUN	V	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
+3	tēltu	tēltu	NOUN	V	Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -71,9 +70,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Mat-Šumeru	mat-šumeru	PROPN	PN	_	0	ROOT	_	_
-
-1	ittaqīp	qiāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	Mat-Šumeru	mat-šumeru	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+2	ittaqīp	qiāpu	NOUN	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -95,7 +93,8 @@
 2	lūda	wadû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 3	ina	ina	ADP	PRP	_	4	case	_	_
 4	gum	gummurtu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	obl	_	_
-5	libbīya	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	nmod	_	_
+
+1	libbīya	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -103,11 +102,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mangû	mangu	NOUN	V	Case=Gen|Gender=Masc|Number=Sing	3	dep	_	_
-2	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-3	tūmulu	tūmulu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	ibašši	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	mangû	mangu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+2	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	det	_	_
+3	tūmulu	tūmulu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	4	nsubj	_	_
+4	ibašši	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -124,7 +122,7 @@
 1	ūmâ	ūma	ADV	AV	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	pūt	pūtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	pūt	pūtu	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -157,7 +155,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ussanallam	šalāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ussanallam	šalāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -190,7 +188,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
-2	pahaššu	pahû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
+2	pahaššu	pahû	ADJ	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

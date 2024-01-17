@@ -25,8 +25,8 @@
 5	u	u	CONJ	CNJ	_	6	cc	_	_
 6	hūd	hūdu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	conj	_	_
 7	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	nmod:poss	_	_
-8	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	7	nmod:poss	_	_
-9	rabiūti	rabiu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	8	amod	_	_
+8	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	rabiūti	rabiu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 10	ana	ana	ADP	PRP	_	11	case	_	_
 11	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	13	iobj	_	_
 12	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	appos	_	_
@@ -202,7 +202,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	pāhat	pīhātu	NOUN	N	_	0	ROOT	_	_
+1	pāhat	pīhātu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -217,12 +217,12 @@
 1	kupru	kupru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 2	issu	ištu	ADP	PRP	_	3	case	_	_
 3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
-4	Ituʾe	ituʾe	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Ituʾe	ituʾe	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
-6	Akkad	akkad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	_
+6	Akkad	akkad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
 7	izabbilu	zabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 8	u	u	CONJ	CNJ	_	11	cc	_	_
-9	Akkaduʾa	akkaduʾa	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	Akkaduʾa	akkaduʾa	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 10	ebirtu	epertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 11	išahhuṭu	šahāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	7	conj	_	_
 12	isakkiru	sekēru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	11	conj	_	_
@@ -236,19 +236,20 @@
 
 1	u	u	CONJ	CNJ	_	0	ROOT	_	_
 
-1	o	o	X	X	_	2	dep	_	_
-2	gugallu	gugallu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
-3	ša	ša	PRON	REL	_	11	obj	_	_
-4	abūšu	abu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	11	nsubj	_	_
-5	ša	ša	ADP	PRP	_	6	case	_	_
-6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
-8	ina	ina	ADP	PRP	_	9	case	_	_
-9	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	11	obl	_	_
-10	Akkad	akkad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-11	ipqidūni	paqādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	2	acl	_	_
-12	Gabbaru	gabbaru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-13	iptuag	puāgu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	o	o	X	X	_	0	ROOT	_	_
+
+1	gugallu	gugallu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	12	dislocated	_	_
+2	ša	ša	PRON	REL	_	3	nsubj	_	_
+3	abūšu	abu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	10	nsubj	_	_
+4	ša	ša	ADP	PRP	_	5	case	_	_
+5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
+7	ina	ina	ADP	PRP	_	8	case	_	_
+8	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	10	obl	_	_
+9	Akkad	akkad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	ipqidūni	paqādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
+11	Gabbaru	gabbaru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	iptuag	puāgu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_

@@ -12,13 +12,13 @@
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	iobj	_	_
 7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
-8	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+8	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	 	 	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=D	0	ROOT	_	SpaceAfter=No
+1	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
 
-1	1	1	NUM	NUM	_	3	mark	_	_
+1	1	1	NUM	NUM	_	0	ROOT	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
+3	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	1	dep	_	_
 
 1	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -40,7 +40,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Kayamanu	kayamanu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Kayamanu	kayamanu	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -58,7 +58,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	SpaceAfter=No
+1	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
 
 1	1	1	NUM	NUM	_	3	mark	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
@@ -85,11 +85,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	1	1	NUM	NUM	_	0	ROOT	_	_
-
-1	ina	ina	ADP	PRP	_	2	case	_	_
-2	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nmod	_	_
+1	1	1	NUM	NUM	_	3	mark	_	_
+2	ina	ina	ADP	PRP	_	3	case	_	_
+3	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+4	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	3	nmod	_	_
 
 1	{IM}x	{im}x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -107,7 +106,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	SpaceAfter=No
+1	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
 
 1	1	1	NUM	NUM	_	3	mark	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
@@ -130,11 +129,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	1	1	NUM	NUM	_	0	ROOT	_	_
-
-1	ina	ina	ADP	PRP	_	2	case	_	_
-2	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nmod	_	_
+1	1	1	NUM	NUM	_	3	dep	_	_
+2	ina	ina	ADP	PRP	_	3	case	_	_
+3	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+4	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	3	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -298,7 +296,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	arhi	warhu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	arhi	warhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -387,9 +385,10 @@
 1	kî	kī	SCONJ	SBJ	_	4	mark	_	_
 2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	mahru	mahru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	6	advcl	_	_
-5	ana	ana	ADP	PRP	_	6	case	_	_
-6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	mahru	mahru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
