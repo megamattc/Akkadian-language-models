@@ -6,7 +6,7 @@
 6	x	x	X	X	_	_	_	_	_
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
-9	mā	mā	PART	Quotative	_	10	discourse	_	_
+9	mā	mā	PART	Quotative	_	_	_	_	_
 10	pi-x+x	pi-x+x	X	X	_	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
@@ -14,7 +14,7 @@
 14	x	x	X	X	_	_	_	_	_
 15	x	x	X	X	_	_	_	_	_
 16	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-17	12-KAM₂	12-kam₂	ADJ	ADJ	_	16	nmod	_	_
+17	12-KAM₂	12-kam₂	ADJ	ADJ	_	16	amod	_	_
 18	x+x	x+x	X	X	_	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
@@ -31,44 +31,44 @@
 31	x	x	X	X	_	_	_	_	_
 32	x	x	X	X	_	_	_	_	_
 33	x	x	X	X	_	_	_	_	_
-34	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	37	obl	_	_
+34	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	40	obl	_	_
 35	13-KAM₂	13-kam₂	ADJ	ADJ	_	34	amod	_	_
 36	ana	ana	ADP	PRP	_	37	case	_	_
 37	Kalha	kalha	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	40	obl	_	_
 38	issi	sinništu	ADP	PRP	_	39	case	_	_
-39	marʾē šarri	marʾē šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	40	obl	_	_
-40	ittalak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+39	marʾē šarri	marʾē šarri	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+40	ittalak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	46	advcl	_	_
 41	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	46	obl	_	_
 42	14-KAM₂	14-kam₂	ADJ	ADJ	_	41	amod	_	_
 43	ana	ana	ADP	PRP	_	44	case	_	_
 44	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	46	obl	_	_
-45	Adad-šumu-uṣur	adad-šumu-uṣur	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	46	nsubj	_	_
+45	Adad-šumu-uṣur	adad-šumu-uṣur	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	44	conj	_	_
 46	ētarab	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 47	issi	sinništu	ADP	PRP	_	48	case	_	_
 48	Aššur-naṣir	aššur-naṣir	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	52	obl	_	_
-49	rab ša-rēši	rab ša-rēši	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	48	conj	_	_
-50	Sasi	sasi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	52	nsubj	_	_
-51	Urdu-Ea	urdu-ea	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	50	appos	_	_
-52	iddubub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-53	mā	mā	PART	Quotative	_	57	discourse	_	_
-54	adu	adi	ADP	PRP	_	56	mark	_	_
-55	lā	lā	PART	NEG	_	56	advmod	_	_
-56	attalû	antalû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	57	obl	_	_
-57	iškunūni	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	52	dep	_	_
-58	lūšib	ašābu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	57	conj	_	_
+49	rab ša-rēši	rab ša-rēši	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	48	appos	_	_
+50	Sasi	sasi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	48	conj	_	_
+51	Urdu-Ea	urdu-ea	PROPN	N	Case=Nom|Gender=Masc|Number=Sing	48	conj	_	_
+52	iddubub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	46	conj	_	_
+53	mā	mā	PART	Quotative	_	58	discourse	_	_
+54	adu	adi	ADP	PRP	_	57	mark	_	_
+55	lā	lā	PART	NEG	_	57	advmod	_	_
+56	attalû	antalû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	57	obj	_	_
+57	iškunūni	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	58	advcl	_	_
+58	lūšib	ašābu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	52	ccomp	_	_
 59	abutu	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	ina	ina	ADP	PRP	_	64	case	_	_
-64	pānīšunu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	65	obl	_	_
+64	pānīšunu	pānu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	65	obl	_	_
 65	ittalak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	ša	ša	ADP	PRP	_	71	case	_	_
-71	{LU₂}x	{lu₂}x	X	N	_	_	_	_	_
+71	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 72	x	x	X	X	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
@@ -78,7 +78,7 @@
 78	x+x	x+x	X	X	_	_	_	_	_
 79	x	x	X	X	_	_	_	_	_
 80	x	x	X	X	_	_	_	_	_
-81	hakāme	hakāmu	NOUN	N	_	_	_	_	_
+81	hakāme	hakāmu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 82	issu	ištu	ADP	PRP	_	83	case	_	_
 83	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 84	x	x	X	X	_	_	_	_	_

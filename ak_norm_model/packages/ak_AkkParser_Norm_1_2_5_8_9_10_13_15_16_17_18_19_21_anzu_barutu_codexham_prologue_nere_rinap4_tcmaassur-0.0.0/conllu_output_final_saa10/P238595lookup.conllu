@@ -11,16 +11,16 @@
 11	ana	ana	ADP	PRP	_	12	case	_	_
 12	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	14	iobj	_	_
 13	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
-14	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
-15	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	21	advcl	_	SpaceAfter=No
+14	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
+15	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	21	advmod	_	SpaceAfter=No
 16	iltiššu	ištiššu	ADV	AV	_	21	advmod	_	_
-17	šinīšu	šinīšu	ADV	AV	_	21	advmod	_	_
+17	šinīšu	šinīšu	ADV	AV	_	16	conj	_	_
 18	ana	ana	ADP	PRP	_	19	case	_	_
 19	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	21	iobj	_	_
 20	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	19	appos	_	_
 21	altapra	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 22	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
-23	ša	ša	PRON	REL	_	22	nsubj	_	_
+23	ša	ša	PRON	REL	_	_	_	_	_
 24	ultu	ištu	ADP	PRP	_	_	_	_	_
 25	be-x	be-x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
@@ -36,10 +36,10 @@
 36	x	x	X	X	_	_	_	_	_
 37	ina	ina	ADP	PRP	_	38	case	_	_
 38	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
-39	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	38	conj	_	_
+39	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	38	nmod	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
-42	x	x	X	X	_	43	nsubj	_	_
+42	x	x	X	X	_	_	_	_	_
 43	ṣabit	ṣabtu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
 44	Nabu-naṣir	nabu-naṣir	PROPN	PN	Gender=Masc	_	_	_	_
 45	šatammu	šatammu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	44	appos	_	_
@@ -87,12 +87,12 @@
 87	x	x	X	X	_	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
-90	qātīni	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	91	iobj	_	_
+90	qātīni	qātu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	91	obl	_	_
 91	liddin	nadānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_
-92	UD	ud	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	95	obl	_	_
-93	x-KAM₂	x-kam₂	ADJ	AJ	_	92	nmod	_	_
-94	ša-qaltāti	ša-qašti	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	95	nsubj	_	_
-95	liphurū	pahāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	91	conj	_	_
+92	UD	ud	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	91	dep	_	_
+93	x-KAM₂	x-kam₂	ADJ	AJ	_	92	amod	_	_
+94	ša-qaltāti	ša-qašti	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	95	obj	_	_
+95	liphurū	pahāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
@@ -115,7 +115,7 @@
 115	x	x	X	X	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_
 117	x+x	x+x	X	X	_	_	_	_	_
-118	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+118	Ina-teši-eṭir	ina-teši-eṭir	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 119	it-ta-x	it-ta-x	X	X	_	_	_	_	_
 120	x	x	X	X	_	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
@@ -124,7 +124,7 @@
 124	x+x-i-hi	x+x-i-hi	X	X	_	_	_	_	_
 125	u	u	CONJ	CNJ	_	126	cc	_	_
 126	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
-127	lā	lā	PART	NEG	_	128	advmod	_	_
+127	lā	lā	PART	NEG	_	_	_	_	_
 128	x	x	X	X	_	_	_	_	_
 129	x	x	X	X	_	_	_	_	_
 130	x	x	X	X	_	_	_	_	_
@@ -139,6 +139,6 @@
 139	lusanniqūšūma	sanāqu	VERB	V	Focus=Yes|Gender=Masc|Mood=Prec|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 140	x	x	X	X	_	_	_	_	_
 141	x	x	X	X	_	_	_	_	_
-142	kitti	kittu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	144	obj	_	_
+142	kitti	kittu	ADJ	AJ	Case=Gen|Gender=Fem|Number=Sing	144	obj	_	_
 143	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	144	nsubj	_	_
 144	liškun	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	_	_	_	_

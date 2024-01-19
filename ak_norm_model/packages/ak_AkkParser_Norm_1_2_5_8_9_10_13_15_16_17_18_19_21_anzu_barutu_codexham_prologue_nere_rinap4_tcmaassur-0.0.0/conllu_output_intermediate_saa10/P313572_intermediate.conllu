@@ -31,7 +31,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	taballaṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	taballaṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -41,12 +41,11 @@
 4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 5	lū	lū	PART	PART	_	6	advmod	_	_
 6	ṭāba	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
-4	urdaka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
-5	Urdu-Nanaya	urdu-nanaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+7	ana	ana	ADP	PRP	_	8	case	_	_
+8	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
+9	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	8	appos	_	_
+10	urdaka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	8	nsubj	_	_
+11	Urdu-Nanaya	urdu-nanaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
 2	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -117,7 +116,7 @@
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+3	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -151,8 +150,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	ša	ša	PRON	REL	_	3	nsubj	_	_
-3	hīṭāya	hīṭu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	nsubj	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	hīṭāya	hīṭu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	acl	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -165,7 +164,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	{LU₂}GAL-x+x	{lu₂}gal-x+x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	{LU₂}GAL-x+x	{lu₂}gal-x+x	NOUN	N	Gender=Masc	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -217,8 +216,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	obj	_	_
-2	tamahhaṣ	mahāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	tamahhaṣ	mahāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

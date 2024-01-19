@@ -11,8 +11,8 @@
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
-14	nīd-kussî	nīd-kussî	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-15	kēnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+14	nīd-kussî	nīd-kussî	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+15	kēnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
 16	x+x	x+x	X	X	_	_	_	_	_
 17	x	x	X	X	_	_	_	_	_
 18	x	x	X	X	_	_	_	_	_
@@ -21,7 +21,7 @@
 21	išid	išdu	NOUN	N	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	_	_	_	_
 22	ṣēr	ṣēru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	21	nmod	_	_
 23	imitti	imittu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
-24	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+24	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
 27	x	x	X	X	_	_	_	_	_
@@ -37,7 +37,7 @@
 37	x	x	X	X	_	_	_	_	_
 38	rupaš	rupšu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 39	šumēli	šumēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
-40	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+40	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
 41	x	x	X	X	_	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
@@ -45,7 +45,7 @@
 45	x	x	X	X	_	_	_	_	_
 46	rupaš	rupšu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 47	šumēli	šumēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
-48	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	47	nmod	_	_
+48	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	_
 49	GIŠ	giš	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
@@ -79,7 +79,7 @@
 79	x	x	X	X	_	_	_	_	_
 80	x	x	X	X	_	_	_	_	_
 81	u	u	CONJ	CNJ	_	83	cc	_	_
-82	šaplītu	šaplû	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	83	nsubj	_	_
+82	šaplītu	šaplû	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	83	obj	_	_
 83	alik	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
@@ -95,13 +95,13 @@
 95	x	x	X	X	_	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_
-98	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
-99	ša	ša	PRON	REL	_	102	obl	_	_
+98	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+99	ša	ša	PRON	REL	_	102	obj	_	_
 100	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	102	nsubj	_	_
 101	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	100	appos	_	_
 102	iqbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 103	mā	mā	PART	Quotative	_	102	discourse	_	_
-104	Nabu-nadin-šumi	nabu-nadin-šumi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	102	nsubj	_	_
+104	Nabu-nadin-šumi	nabu-nadin-šumi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	102	dep	_	_
 105	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	104	appos	_	_
 106	x	x	X	X	_	_	_	_	_
 107	x	x	X	X	_	_	_	_	_
