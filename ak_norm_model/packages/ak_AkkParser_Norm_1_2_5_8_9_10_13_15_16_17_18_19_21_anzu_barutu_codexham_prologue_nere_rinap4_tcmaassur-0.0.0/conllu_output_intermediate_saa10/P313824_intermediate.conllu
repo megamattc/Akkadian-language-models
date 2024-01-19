@@ -24,8 +24,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nīd-kussî	nīd-kussî	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	kēnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
+1	nīd-kussî	nīd-kussî	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	kēnu	kīnu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -69,7 +70,8 @@
 
 1	rupaš	rupšu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 2	šumēli	šumēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-3	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+
+1	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -83,7 +85,8 @@
 
 1	rupaš	rupšu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 2	šumēli	šumēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-3	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+
+1	ubāni	ubānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	GIŠ	giš	X	X	_	0	ROOT	_	_
 
@@ -149,8 +152,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	u	u	CONJ	CNJ	_	3	cc	_	_
-2	šaplītu	šaplû	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	šaplītu	šaplû	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	alik	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -179,15 +182,16 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+1	 	 	NOUN	VERB	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
 
-1	ša	ša	PRON	REL	_	4	obj	_	_
+1	ša	ša	PRON	REL	_	4	obl	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	iqbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 5	mā	mā	PART	Quotative	_	4	discourse	_	_
-6	Nabu-nadin-šumi	nabu-nadin-šumi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
-7	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	6	appos	_	_
+
+1	Nabu-nadin-šumi	nabu-nadin-šumi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

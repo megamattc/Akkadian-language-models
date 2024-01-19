@@ -70,24 +70,25 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	Eluli	eluli	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Eluli	eluli	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 3	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	parataxis	_	_
 4	03-KAM₂	03-kam₂	ADJ	ADJ	_	3	amod	_	_
+5	lubussu	lubuštu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+6	ša	ša	ADP	PRP	_	7	case	_	_
+7	Bel	bel	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 
-1	lubussu	lubuštu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	6	nsubj	_	_
-2	ša	ša	ADP	PRP	_	3	case	_	_
-3	Bel	bel	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-4	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	nsubj	_	_
-5	04-KAM₂	04-kam₂	ADJ	ADJ	_	4	amod	_	_
-6	pete	petû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-7	bābi	bābu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
-8	rabû	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	_
+1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	nsubj	_	_
+2	04-KAM₂	04-kam₂	ADJ	ADJ	_	1	amod	_	_
+3	pete	petû	VERB	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
+4	bābi	bābu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	3	nmod	_	_
+5	rabû	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
 
-1	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
-4	lū	lū	PART	PART	_	5	advmod	_	_
-5	ūdi	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	šūtu	šūtu	PRON	N	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
+3	lū	lū	PART	PART	_	4	advmod	_	_
+4	ūdi	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -185,8 +186,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ūmâ	ūma	ADV	AV	_	2	advmod	_	_
-2	annurig	annûri	ADV	AV	_	0	ROOT	_	_
+1	ūmâ	ūma	ADV	AV	_	0	ROOT	_	_
+
+1	annurig	annûri	ADV	AV	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -254,7 +256,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
+1	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	3	nsubj	_	_
 2	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 3	iššakkunu	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
@@ -270,7 +272,7 @@
 
 1	x-an-ni	x-an-ni	X	X	_	0	ROOT	_	_
 
-1	iptalah	pālahu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	iptalah	pālahu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	0	ROOT	_	_
 

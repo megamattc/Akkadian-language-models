@@ -12,21 +12,21 @@
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	iobj	_	_
 7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
-8	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+8	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	UD	ud	X	X	_	6	obl	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	UD	ud	X	N	_	6	obl	_	_
 2	x-KAM₂	x-kam₂	ADJ	AJ	_	1	amod	_	_
 3	Šibu	šibu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
-5	Sin	sin	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+5	Sin	sin	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
 6	iṭhi	ṭehû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	1	1	NUM	NUM	_	6	mark	_	_
@@ -65,10 +65,9 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	māssu	mātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	obj	_	_
-2	urtappeš	rapāšu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
-
-1	 	 	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+1	māssu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	nsubj	_	_
+2	urtappeš	rapāšu	VERB	V	Dialect=NB|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Dt	3	advcl	_	_
+3	 	 	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	SpaceAfter=No
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -240,7 +239,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ušuzzū	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+1	ušuzzū	izuzzu	VERB	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -272,7 +271,7 @@
 
 1	umaššaramma	ašāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
-1	mamma	mamma	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mamma	mamma	PRON	XP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -371,7 +370,7 @@
 
 1	īmurūma	amāru	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	mamma	mamma	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mamma	mamma	PRON	XP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -443,7 +442,7 @@
 
 1	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+1	 	 	VERB	VERB	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	SpaceAfter=No
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -529,5 +528,5 @@
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	lū	lū	PART	PART	_	5	advmod	_	_
-5	medi	medû	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+5	medi	medû	ADJ	AJ	PredSuffGen=Masc|PredSuffNum=Sing|PredSuffPer=3	0	ROOT	_	_
 

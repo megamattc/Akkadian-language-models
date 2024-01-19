@@ -34,7 +34,7 @@
 
 1	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
-3	{d}x	{d}x	PROPN	DN	Case=Gen|Number=Sing	1	nmod	_	SpaceAfter=No
+3	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 
 1	.	.		_	_	0	ROOT	_	SpaceAfter=No
 
@@ -70,11 +70,11 @@
 5	neppaš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	Uraš	uraš	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	Erragal	erragal	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
-3	Lugalmarada	lugalmarada	PROPN	DN	Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+2	Erragal	erragal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+3	Lugalmarada	lugalmarada	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 4	ina	ina	ADP	PRP	_	5	case	_	_
 5	qāt	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-6	ummâni	ummânu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+6	ummâni	ummânu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -88,7 +88,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ammar	ammar	PRON	REL	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	3	nsubj	_	_
+1	ammar	ammar	PRON	REL	_	3	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	Esaggil	esaggil	PROPN	TN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -225,7 +225,8 @@
 9	Akkaduʾa	akkaduʾa	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 10	ebirtu	epertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
 11	išahhuṭu	šahāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	7	conj	_	_
-12	isakkiru	sekēru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	11	conj	_	_
+
+1	isakkiru	sekēru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	ūmâ	ūma	ADV	AV	_	6	advmod	_	_
 2	pāhutu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
