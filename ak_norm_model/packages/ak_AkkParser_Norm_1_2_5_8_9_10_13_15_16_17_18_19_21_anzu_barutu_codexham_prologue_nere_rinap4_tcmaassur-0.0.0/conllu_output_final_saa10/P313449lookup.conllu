@@ -41,7 +41,7 @@
 41	eppušu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 42	ebirtu	epertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
 43	lā	lā	PART	NEG	_	44	advmod	_	_
-44	išahhuṭu	šahāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+44	išahhuṭu	šahāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	41	conj	_	_
 45	x	x	X	X	_	_	_	_	_
 46	x	x	X	X	_	_	_	_	_
 47	x	x	X	X	_	_	_	_	_
@@ -61,7 +61,7 @@
 61	x	x	X	X	_	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
-64	nuk	nuk	PART	PRP	Gender=Com|Number=Sing|Person=1	_	_	_	_
+64	nuk	nuk	PART	Quotative	Gender=Com|Number=Sing|Person=1	_	_	_	_
 65	muššarû	mušarû	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
@@ -159,12 +159,12 @@
 159	ana	ana	ADP	PRP	_	160	case	_	_
 160	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	162	iobj	_	_
 161	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	160	appos	_	_
-162	ašpuranni	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	167	advcl	_	_
-163	nuk	nuk	PART	PRP	Gender=Com|Number=Sing|Person=1	166	discourse	_	_
+162	ašpuranni	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+163	nuk	nuk	PART	Quotative	Gender=Com|Number=Sing|Person=1	166	discourse	_	_
 164	ina	ina	ADP	PRP	_	165	case	_	_
-165	bēt akīti	bēt akīti	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	166	obl	_	_
+165	bēt akīti	bēt akīti	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	166	iobj	_	_
 166	tuṣṣā	aṣû	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	162	ccomp	_	_
-167	tuššab	ašābu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+167	tuššab	ašābu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	166	conj	_	_
 168	ūmâ	ūma	ADV	AV	_	_	_	_	_
 169	ana	ana	ADP	PRP	_	170	case	_	_
 170	sangî	šangû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
@@ -195,7 +195,7 @@
 195	x	x	X	X	_	_	_	_	_
 196	x	x	X	X	_	_	_	_	_
 197	x	x	X	X	_	_	_	_	_
-198	ša	ša	PRON	REL	_	199	nsubj	_	_
+198	ša	ša	PRON	REL	_	199	obl	_	_
 199	qēpu	qīpu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 200	ina	ina	ADP	PRP	_	_	_	_	_
 201	x	x	X	X	_	_	_	_	_
@@ -267,7 +267,7 @@
 267	x	x	X	X	_	_	_	_	_
 268	x	x	X	X	_	_	_	_	_
 269	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-270	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	269	nmod:poss	_	_
+270	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	269	nmod	_	_
 271	ina	ina	ADP	PRP	_	272	case	_	_
 272	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 273	x	x	X	X	_	_	_	_	_
@@ -290,7 +290,7 @@
 290	x	x	X	X	_	_	_	_	_
 291	ulâ	ūla	CONJ	CNJ	_	292	cc	_	_
 292	laššu	laššu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-293	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+293	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 294	x	x	X	X	_	_	_	_	_
 295	x	x	X	X	_	_	_	_	_
 296	x	x	X	X	_	_	_	_	_
@@ -300,7 +300,7 @@
 300	ina	ina	ADP	PRP	_	301	case	_	_
 301	{KUR}x	{kur}x	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 302	qa	qû	NOUN	N	_	_	_	_	_
-303	is	is	X	X	_	_	_	_	_
+303	is	is	ADP	X	_	_	_	_	_
 304	x+x	x+x	X	X	_	_	_	_	_
 305	x	x	X	X	_	_	_	_	_
 306	x	x	X	X	_	_	_	_	_

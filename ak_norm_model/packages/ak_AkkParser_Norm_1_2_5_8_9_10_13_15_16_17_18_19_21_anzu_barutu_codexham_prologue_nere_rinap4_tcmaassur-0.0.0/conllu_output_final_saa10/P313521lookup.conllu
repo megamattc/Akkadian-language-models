@@ -28,7 +28,7 @@
 28	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	30	iobj	_	_
 29	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	28	appos	_	_
 30	lišruku	šarāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G	_	_	_	_
-31	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+31	dullu	dullu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 32	ša	ša	ADP	PRP	_	33	case	_	_
 33	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 34	.	.		_	_	_	_	_	SpaceAfter=No
@@ -132,7 +132,7 @@
 132	kupru	kupru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	138	obj	_	_
 133	issu	ištu	ADP	PRP	_	134	case	_	_
 134	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	138	obl	_	_
-135	Ituʾe	ituʾe	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	134	nmod	_	_
+135	Ituʾe	ituʾe	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	134	nmod	_	_
 136	ana	ana	ADP	PRP	_	137	case	_	_
 137	Akkad	akkad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	138	obl	_	_
 138	izabbilu	zabālu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -140,7 +140,7 @@
 140	Akkaduʾa	akkaduʾa	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	142	nsubj	_	_
 141	ebirtu	epertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	142	obj	_	_
 142	išahhuṭu	šahāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	138	conj	_	_
-143	isakkiru	sekēru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+143	isakkiru	sekēru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	142	conj	_	_
 144	ūmâ	ūma	ADV	AV	_	149	advmod	_	_
 145	pāhutu	pīhātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	149	nsubj	_	_
 146	ša	ša	ADP	PRP	_	147	case	_	_
@@ -148,7 +148,7 @@
 148	urāsī	urāsu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	149	obj	_	_
 149	iptuag	puāgu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 150	u	u	CONJ	CNJ	_	_	_	_	_
-151	o	o	X	X	_	_	_	_	_
+151	o	o	X	X	_	163	cc	_	_
 152	gugallu	gugallu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	163	obj	_	_
 153	ša	ša	PRON	REL	_	161	obj	_	_
 154	abūšu	abu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	161	nsubj	_	_
@@ -160,7 +160,7 @@
 160	Akkad	akkad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	159	nmod	_	_
 161	ipqidūni	paqādu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	152	acl	_	_
 162	Gabbaru	gabbaru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	163	nsubj	_	_
-163	iptuag	puāgu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
+163	iptuag	puāgu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 164	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	167	nsubj	_	_
 165	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	164	appos	_	_
 166	lū	lū	PART	PART	_	167	advmod	_	_

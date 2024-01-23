@@ -18,7 +18,7 @@
 6	ana	ana	ADP	PRP	_	7	case	_	_
 7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
 8	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	7	appos	_	_
-9	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+9	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	8	obj	_	_
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -30,7 +30,7 @@
 8	lišruku	šarāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=No|VerbStem=G	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	2	case	_	_
-2	šamê	šamû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	8	obl	_	_
+2	šamê	šamû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	8	nsubj	_	_
 3	u	u	CONJ	CNJ	_	4	cc	_	_
 4	kaqqiri	qaqqaru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
 5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -41,8 +41,8 @@
 1	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-4	ammar	ammar	PRON	REL	_	5	obj	_	_
-5	nakrūtīni	nakru	NOUN	V	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|SubSuff=Yes	1	acl	_	_
+4	ammar	ammar	PRON	REL	_	5	nsubj	_	_
+5	nakrūtīni	nakru	NOUN	V	Case=Nom|Focus=No|Gender=Masc|NounBase=Free|Number=Plur|SubSuff=Yes	13	obl	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	13	obl	_	_
 8	šēpē	šēpu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
@@ -67,7 +67,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
-2	taškun	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	taškun	šakānu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -233,7 +233,6 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	idabbub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	idabbub	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 

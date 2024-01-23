@@ -20,7 +20,7 @@
 8	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	dislocated	_	_
 3	pāhiti	pīhātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	lisqur	zakāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
@@ -28,11 +28,11 @@
 
 1	lūšēbilūneššu	wabālu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes |VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
-1	ipallah	palāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	5	obj	_	_
+1	ipallah	palāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	issu	ištu	ADP	PRP	_	3	case	_	_
 3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	išamme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+5	išamme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
 
 1	ulâ	ūla	CONJ	CNJ	_	3	cc	_	_
 2	ilānīka	ilu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	3	nsubj	_	_
@@ -42,9 +42,8 @@
 6	išammûni	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=G	3	ccomp	_	_
 7	lā	lā	PART	NEG	_	8	advmod	_	_
 8	inaššûni	našû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=G	6	conj	_	_
-
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	ittallakūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=Gt	0	ROOT	_	_
+9	lā	lā	PART	NEG	_	10	advmod	_	_
+10	ittallakūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=Gt	8	conj	_	_
 
 1	urdu	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
@@ -52,9 +51,8 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
