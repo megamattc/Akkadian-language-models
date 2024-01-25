@@ -3,7 +3,8 @@
 3	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
 4	urdānīka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
 5	Balasi	balasi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
-6	Nabu-ahhe-eriba	nabu-ahhe-eriba	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+
+1	Nabu-ahhe-eriba	nabu-ahhe-eriba	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
 2	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -21,8 +22,9 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	alāki	alāku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	2	nmod	_	_
-4	ša	ša	ADP	PRP	_	5	case	_	_
-5	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+
+1	ša	ša	ADP	PRP	_	2	case	_	_
+2	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -37,13 +39,12 @@
 4	bētanni	bītānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_
 6	Tašriti	tašriti	PROPN	MN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
-7	ṭāba	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	9	advcl	_	_
+7	ṭāba	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Ventive=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 8	ana	ana	ADP	PRP	_	9	case	_	_
-9	alāki	alāku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
-
-1	ulâ	ūla	CONJ	CNJ	_	3	cc	_	_
-2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-3	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+9	alāki	alāku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	7	iobj	_	_
+10	ulâ	ūla	CONJ	CNJ	_	12	advmod	_	_
+11	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	7	conj	_	_
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
@@ -63,21 +64,25 @@
 
 1	o	o	X	X	_	0	ROOT	_	_
 
-1	urhu	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	_
-2	annīu	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	1	det	_	_
-3	urhu	arhu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-4	darir	darru	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
-5	lū	lū	PART	PART	_	6	advmod	_	_
-6	rammu	rammû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
-7	urhu	arhu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
-8	ēribāni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	6	conj	_	_
-9	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
-10	lillik	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	8	conj	_	_
+1	urhu	arhu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+2	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	1	det	_	_
+3	urhu	arhu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	darir	darru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	rammu	rammû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
+
+1	urhu	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
+2	ēribāni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	lillik	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	kaqquru	qaqqaru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	x	x	X	X	_	2	obj	_	_
-2	liššiq	našāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D	0	ROOT	_	_
-3	niqiāti	nīqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
-4	lēpūšu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	2	conj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	liššiq	našāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
+2	niqiāti	nīqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+3	lēpūšu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	1	conj	_	_
 

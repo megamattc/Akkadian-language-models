@@ -11,11 +11,11 @@
 11	ana	ana	ADP	PRP	_	12	case	_	_
 12	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	14	iobj	_	_
 13	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
-14	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
+14	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 15	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
-16	1	1	NUM	NUM	_	18	mark	_	_
+16	1	1	NUM	NUM	_	18	dep	_	_
 17	ina	ina	ADP	PRP	_	18	case	_	_
-18	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
+18	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
 19	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 20	ana	ana	ADP	PRP	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
@@ -35,10 +35,10 @@
 35	x	x	X	X	_	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
-38	 	 	VERB	V	_	_	_	_	SpaceAfter=No
-39	1	1	NUM	NUM	_	_	_	_	_
+38	 	 	X	X	_	_	_	_	SpaceAfter=No
+39	1	1	NUM	NUM	_	41	dep	_	_
 40	ina	ina	ADP	PRP	_	41	case	_	_
-41	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	39	dep	_	_
+41	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 42	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	41	nmod	_	_
 43	Šamaš	šamšu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 44	ana	ana	ADP	PRP	_	_	_	_	_
@@ -50,7 +50,7 @@
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
-53	1	1	NUM	NUM	_	_	_	_	_
+53	1	1	NUM	NUM	_	55	dep	_	_
 54	ina	ina	ADP	PRP	_	55	case	_	_
 55	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 56	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	55	nmod	_	_
@@ -62,10 +62,10 @@
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
-65	 	 	VERB	V	_	_	_	_	SpaceAfter=No
-66	1	1	NUM	NUM	_	_	_	_	_
+65	 	 	X	X	_	_	_	_	SpaceAfter=No
+66	1	1	NUM	NUM	_	68	dep	_	_
 67	ina	ina	ADP	PRP	_	68	case	_	_
-68	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	66	dep	_	_
+68	arah	warhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 69	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	68	nmod	_	_
 70	ina	ina	ADP	PRP	_	_	_	_	_
 71	li-x	*[NA]NA	X	X	_	_	_	_	_
@@ -160,7 +160,7 @@
 160	x	x	X	X	_	_	_	_	_
 161	x	x	X	X	_	_	_	_	_
 162	x	x	X	X	_	_	_	_	_
-163	arhi	warhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+163	arhi	warhu	NOUN	N	_	_	_	_	_
 164	x	x	X	X	_	_	_	_	_
 165	x	x	X	X	_	_	_	_	_
 166	x	x	X	X	_	_	_	_	_

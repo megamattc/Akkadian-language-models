@@ -36,7 +36,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Nabu-duru-uṣur	nabu-duru-uṣur	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Nabu-duru-uṣur	nabu-duru-uṣur	PROPN	PN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	EN	*[NA]NA	X	X	_	0	ROOT	_	_
 
@@ -48,11 +48,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	0	ROOT	_	_
-
-1	issīya	išti	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	2	nsubj	_	_
+2	issīya	išti	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Sing|PresSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -62,7 +59,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ammar	ammar	ADP	PRP	_	2	case	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	ammar	ammar	PRON	REL	_	2	nsubj	_	_
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_

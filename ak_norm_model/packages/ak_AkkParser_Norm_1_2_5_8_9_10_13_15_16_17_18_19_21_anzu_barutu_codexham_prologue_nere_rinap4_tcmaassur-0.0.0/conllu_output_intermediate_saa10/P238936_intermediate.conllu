@@ -179,7 +179,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ittu	ittu	NOUN	N	Gender=Fem|Number=Sing	0	ROOT	_	_
+1	ittu	ittu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -205,10 +205,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	libbi	libbu	NOUN	N	_	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	pānīka	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
+1	libbi	libbu	NOUN	N	_	3	nsubj	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	pānīka	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -245,7 +244,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	pān	pānu	NOUN	N	Gender=Masc	4	obj	_	_
+1	pān	pānu	NOUN	N	_	4	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	attalî	antalû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 4	ušētiq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
@@ -266,14 +265,13 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	4	nsubj	_	_
-2	šarrāni	šarru	NOUN	N	Case=Obl|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	1	nmod:poss	_	_
+2	šarrāni	šarru	NOUN	N	Gender=Masc|Number=Plur	1	nmod:poss	_	_
 3	lū	lū	PART	PART	_	4	advmod	_	_
 4	dāri	dāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PerdSuffPer=3|PredSuffGen=Masc|PredSuffNum=Sing	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
-
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	Ašaredu	ašaredu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	Ašaredu	ašaredu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 

@@ -14,7 +14,7 @@
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
 3	lēʾi	lēʾu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	det	_	_
-5	ša	ša	PRON	REL	_	9	obj	_	_
+5	ša	ša	SCONJ	SBJ	_	9	mark	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	qāt	qātu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	9	obl	_	_
 8	Ahu-duri	ahu-duri	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -35,21 +35,21 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	0	ROOT	_	SpaceAfter=No
-2	u	u	CONJ	CNJ	_	3	cc	_	_
-3	epšetušu	epištu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	nsubj	_	_
-4	šaṭir	šaṭru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	1	conj	_	_
-5	mā	mā	PART	Quotative	_	6	discourse	_	_
-6	šiptu	šiptu	NOUN	N	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	4	ccomp	_	_
-7	zanān	zanānu	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	6	parataxis	_	_
-8	Ninkilim	ninkilim	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-9	āšip	āšipu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	8	appos	_	_
-10	Inurta	inurta	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	_
-11	miqitti	miqittu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	7	parataxis	_	_
-12	šamê	šamû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	11	nmod	_	_
+1	 	 	X	X	_	0	ROOT	_	SpaceAfter=No
 
-1	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-2	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+1	u	u	CONJ	CNJ	_	2	cc	_	_
+2	epšetušu	epištu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	nsubj	_	_
+3	šaṭir	šaṭru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+4	mā	mā	PART	Quotative	_	5	discourse	_	_
+5	šiptu	šiptu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	12	nsubj	_	_
+6	zanān	zanānu	VERB	V	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	12	nsubj	_	_
+7	Ninkilim	ninkilim	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	āšip	āšipu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	7	appos	_	_
+9	Inurta	inurta	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	_
+10	miqitti	miqittu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	6	conj	_	_
+11	šamê	šamû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	10	nmod	_	_
+12	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
+13	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 
 1	kayamānu	kayyamānu	ADV	AV	_	3	advmod	_	_
 2	šamê	šamû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -68,13 +68,13 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	2	obj	_	_
-2	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	dep	_	_
+2	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	obl	_	_
 3	šuṭur	šaṭāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
 4	šēbila	wabālu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=Š	3	conj	_	_
 
 1	u	u	CONJ	CNJ	_	3	cc	_	_
 2	lā	lā	PART	NEG	_	3	advmod	_	_
-3	pūhi	pūhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
+3	pūhi	pūhu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -102,7 +102,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	dep	_	_
-2	šuṭur	šaṭāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
-3	šupra	šapāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	2	conj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	šuṭur	šaṭāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
+2	šupra	šapāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	1	conj	_	_
 
