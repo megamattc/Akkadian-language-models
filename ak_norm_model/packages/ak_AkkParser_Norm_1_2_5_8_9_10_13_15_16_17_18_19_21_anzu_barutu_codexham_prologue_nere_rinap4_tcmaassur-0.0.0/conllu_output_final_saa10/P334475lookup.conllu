@@ -2,7 +2,7 @@
 2	ummi šarri	ummi šarri	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
 4	urdiki	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Fem|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
-5	Issar-šumu-ereš	issar-šumu-ereš	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+5	Issar-šumu-ereš	issar-šumu-ereš	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 6	lū	lū	PART	PART	_	7	advmod	_	_
 7	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 8	ana	ana	ADP	PRP	_	9	case	_	_
@@ -30,22 +30,22 @@
 30	x	x	X	X	_	_	_	_	_
 31	lū	lū	PART	PART	_	32	advmod:emph	_	_
 32	taqīš	qiāšu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
-33	ūmāti	ūmu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	_	_	_	_
+33	ūmāti	ūmu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	32	obj	_	_
 34	arkāti	arku	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	33	amod	_	_
-35	ṭāb	ṭābu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	33	conj	_	_
+35	ṭāb	ṭābu	VERB	V	Case=Acc|Gender=Masc|Mood=Ind|NounBase=Bound|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	33	conj	_	_
 36	libbi	libbu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	33	conj	_	_
-37	hadî	hadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
-38	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+37	hadî	hadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	36	amod	_	_
+38	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	33	conj	_	_
 39	x+x	x+x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
 42	ana	ana	ADP	PRP	_	43	case	_	_
-43	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	51	obl	_	_
+43	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	51	iobj	_	_
 44	ana	ana	ADP	PRP	_	45	case	_	_
 45	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	51	iobj	_	_
 46	ana	ana	ADP	PRP	_	47	case	_	_
-47	šumi	šumu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	51	obl	_	_
+47	šumi	šumu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	45	conj	_	_
 48	ša	ša	ADP	PRP	_	49	case	_	_
 49	ummi šarri	ummi šarri	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	_
 50	lū	lū	PART	PART	_	51	advmod:emph	_	_
-51	taddin	tadnu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+51	taddin	tadnu	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_

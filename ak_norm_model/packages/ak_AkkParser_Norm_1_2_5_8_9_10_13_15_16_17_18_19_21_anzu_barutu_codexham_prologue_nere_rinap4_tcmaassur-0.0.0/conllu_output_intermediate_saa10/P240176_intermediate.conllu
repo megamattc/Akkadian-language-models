@@ -14,11 +14,12 @@
 7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
 8	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	 	 	PROPN	V	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+1	 	 	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
 
-1	1	1	NUM	NUM	_	3	dep	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
+1	1	1	NUM	NUM	_	0	ROOT	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	maṣṣartīka	maṣṣartu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
 
 1	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -40,7 +41,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Kayamanu	kayamanu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	Kayamanu	kayamanu	PROPN	CN	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -58,7 +59,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	X	X	_	0	ROOT	_	SpaceAfter=No
+1	 	 	X	V	_	0	ROOT	_	SpaceAfter=No
 
 1	1	1	NUM	NUM	_	3	dep	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
@@ -106,7 +107,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	 	 	X	X	_	0	ROOT	_	SpaceAfter=No
+1	 	 	X	V	_	0	ROOT	_	SpaceAfter=No
 
 1	1	1	NUM	NUM	_	3	dep	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
@@ -297,7 +298,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	arhi	warhu	NOUN	N	_	0	ROOT	_	_
+1	arhi	warhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

@@ -251,6 +251,7 @@ exclusions = [
    "ab abi":[{ORTH:    "ab abi"}],
    "ab abbēšu":[{ORTH:    "ab abbēšu"}],
    "ah abīšu":[{ORTH:    "ah abīšu"}],
+   "ab abīšu":[{ORTH:    "ab abīšu"}],
    "ab abīya":[{ORTH:    "ab abīya"}],
    "ab abīka":[{ORTH:    "ab abīka"}],
    "ahhē abbēkunu":[{ORTH:    "ahhē abbēkunu"}],

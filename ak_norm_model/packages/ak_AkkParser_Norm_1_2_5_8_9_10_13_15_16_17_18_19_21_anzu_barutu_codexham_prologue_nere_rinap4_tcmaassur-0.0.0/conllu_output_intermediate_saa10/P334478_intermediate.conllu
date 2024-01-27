@@ -21,7 +21,7 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	ṣīrāni	ṣīru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
-4	Bet-karraya	bet-karraya	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Bet-karraya	bet-karraya	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -40,12 +40,12 @@
 1	kuzippī	kuzippu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	šāpti	šīpātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	1	nmod	_	_
-4	mašennī	mešēnu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	3	nmod:poss	_	_
-5	ulâ	ūla	CONJ	CNJ	_	9	cc	_	_
+4	mašennī	mešēnu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	1	nmod	_	_
+5	ulâ	ūla	CONJ	CNJ	_	1	dep	_	_
 6	annāka	annaka	ADV	AV	_	9	advmod	_	_
 7	kuzippī	kuzippu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
 8	paṣūti	peṣû	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	7	amod	_	_
-9	ukalla	kalû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+9	ukalla	kalû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 2	ša	ša	PRON	REL	_	5	obj	_	_
@@ -53,11 +53,10 @@
 4	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 5	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	1	nsubj	_	_
 
-1	hissutu	hissatu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
-2	šî	šī	PRON	IP	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	nmod	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
-3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
-4	ussahsis	hasāsu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	hissutu	hissatu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+2	šî	šī	PRON	IP	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	det	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
+5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+6	ussahsis	hasāsu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 

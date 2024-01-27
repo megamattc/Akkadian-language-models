@@ -16,7 +16,7 @@ The more developed normalized model (i.e. model trained on normalized sentences)
 * SAA 7 - Imperial Administrative Records, Part I: Palace and Temple Administration. 0% complete.
 * SAA 8 - Astrological reports. 1% complete.
 * SAA 9 - Assyrian prophecies. %100 complete.
-* SAA 10 - Letters from Assyrian and Babylonian scholars. 74% complete.
+* SAA 10 - Letters from Assyrian and Babylonian scholars. 85% complete.
 * SAA 11 - Imperial Administrative Records, Part II: Provincial and Military Administration. 0% complete.
 * SAA 12 - Grants, Decres and Gifts of the Neo-Assyrian Period. 0% complete.
 * SAA 13 - Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal. 100% complete.
