@@ -310,6 +310,7 @@ exclusions = [
    "bēt mardīti":[{ORTH:    "bēt mardīti"}],
    "bēt mardītīya":[{ORTH:    "bēt mardītīya"}],
    "bēt mardiāti":[{ORTH:    "bēt mardiāti"}],
+   "bēt mardiāte":[{ORTH:    "bēt mardiāte"}],
    "bēt rinki":[{ORTH:    "bēt rinki"}],
    "bēt rimki":[{ORTH:    "bēt rimki"}],
    "bēt napṭarte":[{ORTH:    "bēt napṭarte"}],

@@ -21,8 +21,9 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	alāki	alāku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	2	nmod	_	_
-4	ša	ša	ADP	PRP	_	5	case	_	_
-5	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+
+1	ša	ša	ADP	PRP	_	2	case	_	_
+2	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -41,7 +42,7 @@
 13	alāki	alāku	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	11	conj	_	_
 14	ulâ	ūla	CONJ	CNJ	_	16	cc	_	_
 15	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
-16	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	11	conj	_	_
+16	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	13	conj	_	_
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
@@ -55,27 +56,28 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	2	nsubj	_	_
-2	iqbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	iqbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
-1	urhu	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
-2	annīu	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	1	det	_	_
-3	urhu	arhu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
-4	darir	darru	ADJ	V	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	urhu	arhu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
+2	annīu	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	1	det	_	_
+3	urhu	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	darir	darru	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
 5	lū	lū	PART	PART	_	6	advmod	_	_
-6	rammu	rammû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D|Voice=Pass	4	conj	_	_
+6	rammu	rammû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D|Voice=Pass	0	ROOT	_	_
 
-1	urhu	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
-2	ēribāni	erēbu	NOUN	V	Gender=Masc|Number=Plur	1	conj	_	_
+1	urhu	arhu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	ēribāni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 3	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	lillik	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
+4	lillik	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	2	conj	_	_
 
 1	kaqquru	qaqqaru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	x	x	X	X	_	2	obj	_	_
-2	liššiq	našāqu	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	liššiq	našāqu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=Š	0	ROOT	_	_
 3	niqiāti	nīqu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
 4	lēpūšu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	2	conj	_	_
 

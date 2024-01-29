@@ -28,25 +28,25 @@
 9	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	13	dislocated	_	_
 3	lubussi	lubuštu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	ša	ša	ADP	PRP	_	5	case	_	_
 5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
+7	kuzippī	kuzippu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	_
+8	ša	ša	PRON	REL	_	10	nsubj	_	_
+9	ana	ana	ADP	PRP	_	10	case	_	_
+10	ṣalmi	ṣalmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	acl	_	_
+11	šar-pūhi	šar-pūhi	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	ina	ina	ADP	PRP	_	13	case	_	_
+13	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+14	gāgi	gāgu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	13	nmod	_	_
+15	ša	ša	ADP	PRP	_	16	case	_	_
+16	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	14	nmod	_	_
 
-1	kuzippī	kuzippu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
-2	ša	ša	PRON	REL	_	4	nsubj	_	_
-3	ana	ana	ADP	PRP	_	4	case	_	_
-4	ṣalmi	ṣalmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	acl	_	_
-5	šar-pūhi	šar-pūhi	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+1	haṭṭi	haṭṭu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
 
-1	ina	ina	ADP	PRP	_	2	case	_	_
-2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	gāgi	gāgu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	2	nmod	_	_
-4	ša	ša	ADP	PRP	_	5	case	_	_
-5	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	3	nmod	_	_
-6	haṭṭi	haṭṭu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	3	conj	_	_
-7	kussiu	kussû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+1	kussiu	kussû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -68,13 +68,12 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	nušēšib	ašābu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
-
-1	ūmâ	ūma	ADV	AV	_	3	advmod	_	_
-2	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-3	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+2	ūmâ	ūma	ADV	AV	_	4	advmod	_	_
+3	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	1	conj	_	_
 
 1	bīsi	biltu	ADV	AV	_	3	advmod	_	_
-2	nišri	nišru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+2	nišri	nišru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	_
 3	nillik	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_

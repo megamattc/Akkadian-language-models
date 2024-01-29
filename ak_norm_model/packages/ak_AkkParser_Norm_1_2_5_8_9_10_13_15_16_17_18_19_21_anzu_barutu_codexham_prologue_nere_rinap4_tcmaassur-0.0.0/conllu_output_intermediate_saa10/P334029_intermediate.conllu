@@ -30,12 +30,12 @@
 11	mā	mā	PART	Quotative	_	14	discourse	_	_
 12	šumma	šumma	SCONJ	SBJ	_	14	mark	_	_
 13	abatka	awātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	14	nsubj	_	_
-14	ibašši	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	10	ccomp	_	_
+14	ibašši	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	10	conj	_	_
 15	mā	mā	PART	Quotative	_	16	discourse	_	_
 16	šupra	šapāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	14	conj	_	_
 17	akê	kē	PRON	QP	_	23	advmod	_	_
 18	ina	ina	ADP	PRP	_	19	case	_	_
-19	pūt	pūtu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	23	obl	_	_
+19	pūt	pūtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	23	obl	_	_
 20	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
 21	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	20	appos	_	_
 22	lā	lā	PART	NEG	_	23	advmod	_	_
@@ -43,49 +43,52 @@
 
 1	issi	sinništu	ADP	PRP	_	2	case	_	_
 2	mannimma	mannu	PRON	QP	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing	5	obl	_	_
-3	ahhūr	hurri	ADV	AV	_	5	advmod	_	_
-4	ēninni	īnu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	5	nsubj	_	_
+3	ahhūr	hurri	ADV	AV	_	2	dep	_	_
+4	ēninni	īnu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	nmod	_	_
 5	šakna	šaknu	VERB	V	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	3	case	_	_
 2	04	04	NUM	NUM	_	3	nummod	_	_
-3	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
-4	rabbi	rabbu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	5	case	_	_
-5	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|NounState=Bound|Number=Sing	3	conj	_	_
-6	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-7	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
-8	ittūṣia	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	11	advcl	_	_
-9	akê	kē	PRON	QP	_	11	advmod	_	_
-10	lā	lā	PART	NEG	_	11	advmod	_	_
-11	šatrukāku	šutruku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=Š	0	ROOT	_	_
-12	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
-13	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	12	appos	_	_
-14	lā	lā	PART	NEG	_	15	advmod	_	_
-15	adaggal	dagālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	11	conj	_	_
+3	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	rabbi	rabbu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
 
-1	atâ	atā	PRON	QP	_	11	advmod	_	_
+1	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
+3	ittūṣia	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	akê	kē	PRON	QP	_	6	advmod	_	_
+5	lā	lā	PART	NEG	_	6	advmod	_	_
+6	šatrukāku	šutruku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=Š	3	conj	_	_
+
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
+3	lā	lā	PART	NEG	_	4	advmod	_	_
+4	adaggal	dagālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	atâ	atā	PRON	QP	_	8	advmod	_	_
 2	bēt	bītu	NOUN	N	_	8	obl	_	_
 3	hirṣī	herṣu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 4	mugirri	mugerru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
-6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
 8	ettiqūni	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	11	advcl	_	_
 9	atâ	atā	PRON	QP	_	11	advmod	_	_
 10	lā	lā	PART	NEG	_	11	advmod	_	_
-11	uhaṣṣan	haṣānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	14	advcl	_	_
-12	tūra	tūra	VERB	V	_	14	advmod	_	_
-13	ana	ana	ADP	PRP	_	14	case	_	_
-14	dagāli	dagālu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
-15	ša	ša	ADP	PRP	_	16	case	_	_
-16	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
-17	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	16	appos	_	_
+11	uhaṣṣan	haṣānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
-1	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-2	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-3	ūmāti	ūmu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+1	tūra	tūra	VERB	V	_	13	advmod	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	dagāli	dagālu	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	13	obl	_	_
 4	ša	ša	ADP	PRP	_	5	case	_	_
 5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	appos	_	_
-7	lurriku	arāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+7	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+8	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+9	ūmāti	ūmu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+10	ša	ša	ADP	PRP	_	11	case	_	_
+11	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	appos	_	_
+13	lurriku	arāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 

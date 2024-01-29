@@ -6,40 +6,38 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	irtubūma	râbu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	irtubūma	râbu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	3	dep	_	_
+2	kî	kī	ADP	PRP	_	3	case	_	_
+3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+4	pišeršu	pišru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	9	nsubj	_	_
+5	01	01	NUM	NUM	_	6	nummod	_	_
+6	erṣetu	erṣetu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+7	ina	ina	ADP	PRP	_	8	case	_	_
+8	Simanu	simanu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+9	irûb	râbu	VERB	V	Dialect=NB|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	16	advcl	_	_
+10	šubāt	šubtu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	16	obj	_	_
+11	namê	nawû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	10	nmod:poss	_	_
+12	nadûti	nadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	11	amod	_	_
+13	ina	ina	ADP	PRP	_	14	case	_	_
+14	amat	amtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	16	obl	_	_
+15	Enlil	enlil	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	14	nmod:poss	_	_
+16	uššabū	wašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
-1	kî	kī	ADP	PRP	_	2	case	_	_
-2	annî	annû	DET	DET	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
-3	pišeršu	pišru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	8	obj	_	_
-4	01	01	NUM	NUM	_	5	nummod	_	_
-5	erṣetu	erṣetu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	3	conj	_	_
-6	ina	ina	ADP	PRP	_	7	case	_	_
-7	Simanu	simanu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
-8	irûb	râbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-9	šubāt	šubtu	NOUN	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Plur	15	obj	_	_
-10	namê	nawû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	9	nmod:poss	_	_
-11	nadûti	nadû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	10	amod	_	_
-12	ina	ina	ADP	PRP	_	13	case	_	_
-13	amat	amtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	15	obl	_	_
-14	Enlil	enlil	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	_
-15	uššabū	wašābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	8	conj	_	_
+1	 	 	X	PRP	_	3	nsubj	_	SpaceAfter=No
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	attalî	antalû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	obj	_	_
+4	bēt	bītu	NOUN	N	_	3	nmod	_	_
+5	lumnu	lumnu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ibaššûni	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	acl	_	_
+7	lubaʾʾiu	buʾʾû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	10	advcl	_	_
+8	lissahūni	nasāhu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	7	conj	_	_
+9	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	lillik	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
+11	ina	ina	ADP	PRP	_	12	case	_	_
+12	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+13	lēpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	10	conj	_	_
 
-1	 	 	PROPN	V	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
-
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	attalî	antalû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	5	nsubj	_	_
-3	bēt	bītu	NOUN	N	_	2	nmod	_	_
-4	lumnu	lumnu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	_
-5	ibaššûni	bašû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	7	advcl	_	_
-6	lubaʾʾiu	buʾʾû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	5	conj	_	_
-7	lissahūni	nasāhu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
-8	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
-9	lillik	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	7	conj	_	_
-10	ina	ina	ADP	PRP	_	11	case	_	_
-11	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
-12	lēpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	9	conj	_	_
-
-1	 	 	X	PN	_	0	ROOT	_	SpaceAfter=No
+1	 	 	X	X	_	0	ROOT	_	SpaceAfter=No
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -54,10 +52,9 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ša	ša	PRON	REL	_	2	nsubj	_	_
-2	i-mat-ta-x	i-mat-ta-x	X	N	_	0	ROOT	_	_
+2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	ša	ša	PRON	REL	_	2	dep	_	_
+4	i-mat-ta-x	i-mat-ta-x	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
