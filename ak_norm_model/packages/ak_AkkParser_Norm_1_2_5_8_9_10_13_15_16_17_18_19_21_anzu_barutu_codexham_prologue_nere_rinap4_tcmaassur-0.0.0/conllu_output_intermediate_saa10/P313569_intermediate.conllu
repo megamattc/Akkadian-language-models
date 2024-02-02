@@ -22,19 +22,19 @@
 
 1	x-lu	x-lu	X	X	_	0	ROOT	_	_
 
-1	adi	adi	ADP	PRP	_	2	case	_	_
-2	bēt	bītu	NOUN	N	_	3	obl	_	_
+1	adi	adi	ADP	PRP	_	3	mark	_	_
+2	bēt	bītu	PRON	N	_	1	fixed	_	_
 3	tallakanni	alāku	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	issurri	issurri	ADV	AV	_	2	advmod	_	_
 2	ahūlamma	ahulap	ADV	AV	Focus=Yes	0	ROOT	_	_
-3	mihṣāti	mihiṣtu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	_
+3	mihṣāti	mihiṣtu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
 4	ša	ša	PRON	REL	_	6	nsubj	_	_
 5	lā	lā	PART	NEG	_	6	advmod	_	_
 6	ihakkimūni	hakāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	3	acl	_	_
 7	ammar	ammar	PRON	REL	_	8	obj	_	_
 8	ūdûni	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	acl	_	_
-9	ussahkamšu	hakāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	2	conj	_	_
+9	ussahkamšu	hakāmu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	2	conj	_	_
 
 1	annurig	annûri	ADV	AV	_	3	advmod	_	_
 2	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	3	nsubj	_	_
@@ -50,12 +50,13 @@
 2	ūdi	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	annurig	annûri	ADV	AV	_	4	advmod	_	_
-2	lēʾu	lēʾu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
-3	Akkadu	akkadu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	lēʾu	lēʾu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Akkadu	akkadu	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 4	libīru	bêru	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	02	02	NUM	NUM	_	2	nummod	_	_
-2	ša	ša	PRON	REL	_	0	ROOT	_	_
+1	02	02	NUM	NUM	_	0	ROOT	_	_
+
+1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 

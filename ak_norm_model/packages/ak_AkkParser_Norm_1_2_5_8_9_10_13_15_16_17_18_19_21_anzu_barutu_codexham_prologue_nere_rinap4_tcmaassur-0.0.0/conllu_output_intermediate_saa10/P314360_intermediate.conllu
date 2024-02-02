@@ -24,7 +24,7 @@
 4	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 5	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 6	Nergal	nergal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-7	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+7	Issar	issar	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
 8	ša	ša	ADP	PRP	_	9	case	_	_
 9	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	Issar	issar	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
@@ -49,7 +49,7 @@
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	iobj	_	_
 5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
-6	lušabbiu	šebû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+6	lušabbiu	šebû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	0	ROOT	_	_
 7	išdi	išdu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	16	obj	_	_
 8	kussie	kussû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	nmod	_	_
 9	šarrūti	šarrūtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	8	nmod	_	_
@@ -57,14 +57,13 @@
 11	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 12	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	11	appos	_	_
 13	ana	ana	ADP	PRP	_	14	case	_	_
-14	ūme	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+14	ūme	ūmu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	16	obl	_	_
 15	ṣâti	ṣiātu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	14	nmod	_	_
 16	lukinnu	kânu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=D	6	conj	_	_
 
-1	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
 2	x-KAM₂	x-kam₂	ADJ	AJ	_	1	amod	_	_
-
-1	Nergal	nergal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	Nergal	nergal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -95,7 +94,7 @@
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	Nergal	nergal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Nergal	nergal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -159,7 +158,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	iyûmma	iyû	PRON	XP	Focus=Yes|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
+1	iyûmma	iyû	PRON	IP	Focus=Yes|Gender=Com|Number=Sing|Person=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
