@@ -21,23 +21,23 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	28	dislocated	_	_
 3	kakkibī	kakkabu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
-4	ša	ša	PRON	REL	_	6	obj	_	_
+4	ša	ša	PRON	REL	_	6	obl	_	_
 5	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	3	acl	_	_
 7	ina	ina	ADP	PRP	_	8	case	_	_
 8	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	28	obl	_	_
 9	Sagmegar	sagmegar	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
-10	Dilibat	dilibat	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+10	Dilibat	dilibat	PROPN	CN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
 11	Kayamanu	kayamanu	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 12	Šihṭu	šihṭu	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 13	Ṣalbatanu	ṣalbatanu	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 14	Sin	sin	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
 15	Šamaš	šamšu	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 16	Bel-matati	bel-matati	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
-17	Šukudu	šukudu	PROPN	CN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+17	Šukudu	šukudu	PROPN	CN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 18	Gibil	gibil	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
-19	Belet-balaṭi	belet-balaṭi	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
-20	Zappu	zappu	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+19	Belet-balaṭi	belet-balaṭi	PROPN	DN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+20	Zappu	zappu	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 21	Sebetti	sebetti	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 22	Išum	išum	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
 23	ina	ina	ADP	PRP	_	24	case	_	_
@@ -48,7 +48,7 @@
 28	lēpušu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	issue	ištu	ADP	PRP	_	2	case	_	_
-2	pān	pānu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -57,15 +57,14 @@
 1	ṣahurāti	ṣehru	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
-4	Nergal	nergal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
-5	issēniš	ištēniš	ADV	AV	_	6	advmod	_	_
+4	Nergal	nergal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	issēniš	ištēniš	ADV	AV	Case=Ter	6	advmod	_	_
 6	lēpušu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	šiāri	šiāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
-2	bādi	bādu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	šiāri	šiāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
+3	kî	kī	ADP	PRP	_	4	case	_	_
+4	bādi	bādu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

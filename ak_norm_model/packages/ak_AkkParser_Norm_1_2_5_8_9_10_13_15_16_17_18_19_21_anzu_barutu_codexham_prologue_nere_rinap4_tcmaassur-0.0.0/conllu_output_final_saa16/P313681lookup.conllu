@@ -15,7 +15,7 @@
 15	x	x	X	X	_	_	_	_	_
 16	x	x	X	X	_	_	_	_	_
 17	aqṭibâššu	qabû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
-18	nuk	nuk	PART	PRP	Gender=Com|Number=Sing|Person=1	_	_	_	_
+18	nuk	nuk	PART	Quotative	Gender=Com|Number=Sing|Person=1	_	_	_	_
 19	x	x	X	X	_	_	_	_	_
 20	x	x	X	X	_	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
@@ -24,7 +24,7 @@
 24	x	x	X	X	_	_	_	_	_
 25	x	x	X	X	_	_	_	_	_
 26	x	x	X	X	_	_	_	_	_
-27	nuk	nuk	PART	PRP	Gender=Com|Number=Sing|Person=1	_	_	_	_
+27	nuk	nuk	PART	Quotative	Gender=Com|Number=Sing|Person=1	28	discourse	_	_
 28	bāsi	basi	ADV	AV	_	_	_	_	_
 29	x	x	X	X	_	_	_	_	_
 30	x	x	X	X	_	_	_	_	_
@@ -34,8 +34,8 @@
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
 36	x+x-ṣi	x+x-ṣi	X	X	_	_	_	_	_
-37	issi	sinništu	VERB	V	_	38	case	_	_
-38	ahēʾiš	ahāmiš	ADV	AV	_	_	_	_	_
+37	issi	išti	ADP	PRP	_	38	case	_	_
+38	ahēʾiš	ahāmiš	ADV	AV	Case=Ter	_	_	_	_
 39	ni-x	ni-x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
@@ -44,7 +44,7 @@
 44	x	x	X	X	_	_	_	_	_
 45	ana	ana	ADP	PRP	_	46	case	_	_
 46	Nabu-ahhe-šallim	nabu-ahhe-šallim	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-47	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	46	appos	_	_
+47	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	46	appos	_	_
 48	x	x	X	X	_	_	_	_	_
 49	x	x	X	X	_	_	_	_	_
 50	x	x	X	X	_	_	_	_	_
@@ -67,9 +67,9 @@
 67	ina	ina	ADP	PRP	_	68	case	_	_
 68	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	70	iobj	_	_
 69	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	68	nmod	_	_
-70	mahir	mahru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
-71	Nabu-taklak	nabu-taklak	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-72	bārû	bārû	NOUN	N	Gender=Masc|Number=Sing	71	appos	_	_
+70	mahir	mahru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	72	advcl	_	_
+71	Nabu-taklak	nabu-taklak	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	72	nsubj	_	_
+72	bārû	bārû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
 75	x	x	X	X	_	_	_	_	_
@@ -90,7 +90,7 @@
 90	x	x	X	X	_	_	_	_	_
 91	artakas	rakāsu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 92	u	u	CONJ	CNJ	_	93	cc	_	_
-93	adê	adû	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	94	nsubj	_	_
+93	adê	adû	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	_	_	_	_
 94	issēšu	išti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Sing|PresSuffPer=3	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
 96	x	x	X	X	_	_	_	_	_

@@ -37,7 +37,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	qāt	qātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	qāt	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	bēl ṭābtīya	bēl ṭābtīya	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -88,7 +88,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	egerti	egertu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	_
-2	šaprūni	šapru	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|VerbForm=Stat|VerbStem=G|Voice=Pass	0	ROOT	_	_
+2	šaprūni	šapru	ADJ	AJ	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -116,7 +116,7 @@
 
 1	x-la-ti	x-la-ti	X	X	_	0	ROOT	_	_
 
-1	annāti	annû	DET	DP	Gender=Fem|Number=Plur	0	ROOT	_	_
+1	annāti	annû	DET	N	Gender=Fem|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -124,8 +124,9 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	mā	mā	PART	Quotative	_	2	discourse	_	_
-2	ṣābāni	ṣābu	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	mā	mā	PART	Quotative	_	0	ROOT	_	_
+
+1	ṣābāni	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

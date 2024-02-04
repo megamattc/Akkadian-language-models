@@ -17,7 +17,7 @@
 17	adanniš	adanniš	ADV	AV	_	19	advmod	_	_
 18	adanniš	adanniš	ADV	AV	_	17	conj	_	_
 19	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
-20	rāʾyī	rēʾû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+20	rāʾyī	rēʾû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 21	ša	ša	PRON	REL	_	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
@@ -68,7 +68,7 @@
 68	x	x	X	X	_	_	_	_	_
 69	x	x	X	X	_	_	_	_	_
 70	x	x	X	X	_	_	_	_	_
-71	x	x	X	X	_	_	_	_	_
+71	x	x	X	X	_	72	obj	_	_
 72	epuš	epēšu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
 73	annurig	annûri	ADV	AV	_	77	advmod	_	_
 74	ana	ana	ADP	PRP	_	75	case	_	_
@@ -80,9 +80,9 @@
 80	x	x	X	X	_	_	_	_	_
 81	x	x	X	X	_	_	_	_	_
 82	x	x	X	X	_	_	_	_	_
-83	atâ	atā	PRON	QP	_	84	case	_	_
+83	atâ	atā	PRON	QP	_	_	_	_	_
 84	Nabu-šezib	nabu-šezib	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-85	bēt bēlīšu	bēt bēlīšu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	84	appos	_	_
+85	bēt bēlīšu	bēt bēlīšu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	84	conj	_	_
 86	x	x	X	X	_	_	_	_	_
 87	x	x	X	X	_	_	_	_	_
 88	ina	ina	ADP	PRP	_	89	case	_	_
@@ -90,13 +90,13 @@
 90	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	91	nsubj	_	_
 91	išamme	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 92	ina	ina	ADP	PRP	_	93	case	_	_
-93	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	96	mark	_	_
-94	ša	ša	SCONJ	SBJ	_	96	mark	_	_
+93	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+94	ša	ša	PRON	REL	_	96	obj	_	_
 95	lā	lā	PART	NEG	_	96	advmod	_	_
-96	ākulūni	akālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
+96	ākulūni	akālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	93	acl	_	_
 97	x	x	X	X	_	_	_	_	_
 98	x	x	X	X	_	_	_	_	_
 99	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	102	nsubj	_	_
 100	ina	ina	ADP	PRP	_	101	case	_	_
-101	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	102	iobj	_	_
+101	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	102	obl	_	_
 102	idūkanni	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_

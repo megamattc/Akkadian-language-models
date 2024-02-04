@@ -17,22 +17,22 @@
 17	Bel	bel	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
 18	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
 19	u	u	CONJ	CNJ	_	20	cc	_	_
-20	Nergal	nergal	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	17	conj	_	_
-21	maṣṣar	maṣṣaru	NOUN	N	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	17	appos	_	_
-22	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	28	obj	_	_
+20	Nergal	nergal	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+21	maṣṣar	maṣṣaru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	28	obj	_	_
+22	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
 23	u	u	CONJ	CNJ	_	24	cc	_	_
-24	balāṭi	balāṭu	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	22	conj	_	_
-25	issi	sinništu	VERB	V	_	26	case	_	_
+24	balāṭi	balāṭu	VERB	V	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing|VerbForm=Inf|VerbStem=G	22	conj	_	_
+25	issi	išti	ADP	PRP	_	26	case	_	_
 26	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	28	obl	_	_
 27	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	26	appos	_	_
 28	lipqidu	paqādu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	_	_	_	_
 29	ina	ina	ADP	PRP	_	30	case	_	_
-30	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	40	dislocated	_	_
+30	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 31	ša-rēšāni	ša-rēši	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
 32	ša	ša	PRON	REL	_	34	nsubj	_	_
 33	ana	ana	ADP	PRP	_	34	case	_	_
-34	piqittāte	piqittu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	31	acl	_	_
-35	ša	ša	PRON	REL	_	39	obj	_	_
+34	piqittāte	piqittu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	31	acl	_	_
+35	ša	ša	PRON	REL	_	39	obl	_	_
 36	ana	ana	ADP	PRP	_	37	case	_	_
 37	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	39	iobj	_	_
 38	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	37	appos	_	_
@@ -42,12 +42,12 @@
 42	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
-45	ṭupšar ēkalli	ṭupšar ēkalli	NOUN	N	_	_	_	_	_
+45	ṭupšar ēkalli	ṭupšar ēkalli	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	46	obj	_	_
 46	assaʾal	šâlu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 47	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	48	obj	_	_
 48	issakan	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	46	conj	_	_
 49	mā	mā	PART	Quotative	_	_	_	_	_
-50	03	03	NUM	NUM	_	_	_	_	_
+50	03	03	NUM	NUM	_	51	nummod	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x	x	X	X	_	_	_	_	_
 53	x	x	X	X	_	_	_	_	_
@@ -58,7 +58,7 @@
 58	x	x	X	X	_	_	_	_	_
 59	x	x	X	X	_	_	_	_	_
 60	x	x	X	X	_	_	_	_	_
-61	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+61	memmēni	memēni	PRON	XP	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 62	x	x	X	X	_	_	_	_	_
 63	x	x	X	X	_	_	_	_	_
 64	x	x	X	X	_	_	_	_	_
@@ -100,8 +100,8 @@
 100	li-x	*[NA]NA	X	X	_	_	_	_	_
 101	x	x	X	X	_	_	_	_	_
 102	x	x	X	X	_	_	_	_	_
-103	bis	bis	ADV	AV	_	104	advmod	_	_
-104	dullu	dullu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+103	bis	bis	ADV	AV	_	_	_	_	_
+104	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 105	x	x	X	X	_	_	_	_	_
 106	x	x	X	X	_	_	_	_	_
 107	x	x	X	X	_	_	_	_	_

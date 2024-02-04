@@ -13,31 +13,30 @@
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	obl	_	_
 3	šeʾi	šeʾu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=D	2	nmod	_	_
-4	lašʾal	šâlu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=N	0	ROOT	_	_
+4	lašʾal	šâlu	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
 
 1	x-ru-qu	x-ru-qu	X	X	_	0	ROOT	_	_
 
-1	adu	adi	ADP	PRP	_	2	case	_	_
-2	etakāni	etku	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	adu	adi	ADP	PRP	_	2	mark	_	_
+2	etakāni	etku	ADJ	AJ	Gender=Com|Mood=Ind|Number=Plur|Person=1|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nēli	elû	VERB	V	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+1	nēli	elû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	maṣṣartu	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-3	ninaṣṣar	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	ninaṣṣar	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
+4	ana	ana	ADP	PRP	_	5	case	_	_
+5	rab āpie	rab āpie	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
 
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	rab	rabû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	āpie	ēpû	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
-4	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+1	{d}x	{d}x	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	3	nsubj	_	_
 2	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
-3	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+3	liškunu	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	lurammânnāši	ramû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	0	ROOT	_	_
+1	lurammânnāši	ramû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=D|VerbSuffGen=Com|VerbSuffNum=Plur|VerbSuffPer=1	0	ROOT	_	_
 
 1	mešlu	mišlu	NUM	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -51,7 +50,7 @@
 2	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 3	ziqqurrāte	ziqqurratu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
 
-1	mešlu	mišlu	NUM	NOUN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	mešlu	mišlu	NUM	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	te	tû	X	X	_	0	ROOT	_	_
 
@@ -72,22 +71,22 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	nēli	elû	VERB	V	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+1	nēli	elû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	maṣṣartu	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-3	niṣṣur	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	niṣṣur	naṣāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	1	conj	_	_
 
-1	u	u	CONJ	CNJ	_	4	cc	_	_
-2	ša-qurbūte	ša-qurbūti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+1	u	u	CONJ	CNJ	_	8	cc	_	_
+2	ša-qurbūte	ša-qurbūti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	Libbi-ali	libbi-ali	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
 5	Kalha	kalha	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
 6	Arbail	arbail	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
-7	Dur-Šarruken	dur-šarruken	PROPN	SN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
-8	lišpuru	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+7	Dur-Šarruken	dur-šarruken	PROPN	SN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+8	lišpuru	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{LU₂}GAL-x	{lu₂}gal-x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 

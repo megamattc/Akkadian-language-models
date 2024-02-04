@@ -13,11 +13,11 @@
 13	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 14	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	13	appos	_	_
 15	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
-16	mā	mā	PART	Quotative	_	15	discourse	_	_
+16	mā	mā	PART	Quotative	_	15	dep	_	_
 17	adi	adi	ADP	PRP	_	18	case	_	_
-18	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	20	obl	_	_
+18	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	15	dep	_	_
 19	20-KAM₂	20-kam₂	ADJ	ADJ	_	18	amod	_	_
-20	dullu	dullu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+20	dullu	dullu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 21	x	x	X	X	_	_	_	_	_
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
@@ -33,10 +33,10 @@
 33	x	x	X	X	_	_	_	_	_
 34	x	x	X	X	_	_	_	_	_
 35	x	x	X	X	_	_	_	_	_
-36	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	39	obl	_	_
+36	ūm	ūmu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 37	03-KAM₂	03-kam₂	ADJ	ADJ	_	36	amod	_	_
 38	ša	ša	ADP	PRP	_	39	case	_	_
-39	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+39	urhi	arhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
 40	x	x	X	X	_	_	_	_	_
 41	x	x	X	X	_	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
@@ -70,5 +70,5 @@
 70	ahīšunu	ahu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	73	obj	_	_
 71	ina	ina	ADP	PRP	_	72	case	_	_
 72	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	73	obl	_	_
-73	ummudu	emēdu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=Š	_	_	_	_
+73	ummudu	emēdu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
 74	eppušu	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	73	conj	_	_

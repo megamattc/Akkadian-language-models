@@ -35,7 +35,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSufNum=Sing|PossSufPer=1	1	appos	_	_
+2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
 3	liqbi	qabû	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
@@ -106,14 +106,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ēnāti	entu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
+1	ēnāti	īnu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
 2	ša	ša	ADP	PRP	_	3	case	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-
-1	ina	ina	ADP	PRP	_	2	case	_	_
-2	UGU-hi-x	ugu-hi-x	PROPN	X	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+4	ina	ina	ADP	PRP	_	5	case	_	_
+5	UGU-hi-x	ugu-hi-x	PROPN	X	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -123,7 +120,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
 2	abbūtī	abbūtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -135,10 +134,9 @@
 1	iṣṣabat	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 2	u	u	CONJ	CNJ	_	1	cc	_	_
 3	issu	ištu	ADP	PRP	_	4	case	_	_
-4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	obl	_	_
+4	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	1	obl	_	_
 5	ṣarpi	ṣarpu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-
-1	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+6	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	4	det	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

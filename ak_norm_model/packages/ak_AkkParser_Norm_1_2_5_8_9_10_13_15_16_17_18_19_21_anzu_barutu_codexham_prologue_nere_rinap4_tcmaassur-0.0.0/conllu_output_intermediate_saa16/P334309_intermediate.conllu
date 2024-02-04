@@ -1,37 +1,38 @@
-1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+1	Nabu	nabu	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
-4	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
-5	mār	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	4	appos	_	_
-6	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	5	nmod	_	_
-7	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+1	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	nmod:poss	_	_
+
+1	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	Nabu-naṣir	nabu-naṣir	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	ša-huṭāri	ša-huṭāri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	appos	_	_
+2	ša-huṭāri	ša-huṭāri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	iqṭibia	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	mā	mā	PART	Quotative	_	6	discourse	_	_
 5	01	01	NUM	NUM	_	6	nummod	_	_
-6	manû	manû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	3	ccomp	_	_
+6	manû	manû	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	3	ccomp	_	_
 7	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	6	nmod	_	_
-
-1	Sin-balassu-iqbi	sin-balassu-iqbi	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
-2	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	appos	_	_
-3	Nikkal-iddina	nikkal-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	_
-4	ina	ina	ADP	PRP	_	5	case	_	_
-5	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	14	obl	_	_
-6	mukīl appāti	mukīl appāti	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
-7	mukīl	mukillu	NOUN	N	_	5	conj	_	_
-8	ana	ana	ADP	PRP	_	9	case	_	_
-9	Sasi	sasi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	14	iobj	_	_
-10	hazannu	hazannu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	appos	_	_
-11	ša	ša	ADP	PRP	_	12	case	_	_
-12	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
-13	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	14	obj	_	_
-14	ušēbila	wabālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
-15	mā	mā	PART	Quotative	_	16	discourse	_	_
-16	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	14	ccomp	_	_
-17	ša	ša	PRON	REL	_	20	obj	_	_
-18	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
-19	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	18	appos	_	_
-20	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	16	nsubj	_	_
+8	Sin-balassu-iqbi	sin-balassu-iqbi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	8	appos	_	_
+10	Nikkal-iddina	nikkal-iddina	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	_
+11	ina	ina	ADP	PRP	_	12	case	_	_
+12	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	6	nmod	_	_
+13	mukīl appāti	mukīl appāti	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	mukīl	mukillu	NOUN	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	3	ccomp	_	_
+15	ana	ana	ADP	PRP	_	16	case	_	_
+16	Sasi	sasi	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	21	iobj	_	_
+17	hazannu	hazannu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+18	ša	ša	ADP	PRP	_	19	case	_	_
+19	mār šarri	mār šarri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	16	appos	_	_
+21	ušēbila	wabālu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=Š	3	conj	_	_
+22	mā	mā	PART	Quotative	_	23	discourse	_	_
+23	mīnu	mīnu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	21	ccomp	_	_
+24	ša	ša	PRON	REL	_	27	obj	_	_
+25	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+26	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	25	appos	_	_
+27	iqabbûni	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	23	nsubj	_	_
 

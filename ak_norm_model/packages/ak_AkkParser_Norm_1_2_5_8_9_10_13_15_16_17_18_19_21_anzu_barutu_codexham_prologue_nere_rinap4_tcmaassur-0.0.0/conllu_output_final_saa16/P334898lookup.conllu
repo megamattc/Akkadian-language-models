@@ -7,7 +7,7 @@
 7	x	x	X	X	_	_	_	_	_
 8	x	x	X	X	_	_	_	_	_
 9	x	x	X	X	_	_	_	_	_
-10	ṭupšarru	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+10	ṭupšarru	ṭupšarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	_	_	_	_
 11	x	x	X	X	_	_	_	_	_
 12	x	x	X	X	_	_	_	_	_
 13	x	x	X	X	_	_	_	_	_
@@ -32,13 +32,13 @@
 32	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	34	obl	_	_
 33	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	32	appos	_	_
 34	likrubu	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
-35	Arbaya	arbaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+35	Arbaya	arbaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 36	x	x	X	X	_	_	_	_	_
 37	x	x	X	X	_	_	_	_	_
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x	x	X	X	_	_	_	_	_
-41	Qilti	qilti	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+41	Qilti	qilti	PROPN	SN	Gender=Masc|Number=Sing	_	_	_	_
 42	x	x	X	X	_	_	_	_	_
 43	x	x	X	X	_	_	_	_	_
 44	x	x	X	X	_	_	_	_	_
@@ -68,7 +68,7 @@
 68	x	x	X	X	_	_	_	_	_
 69	ša	ša	ADP	PRP	_	70	case	_	_
 70	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-71	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+71	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	70	appos	_	_
 72	x	x	X	X	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
@@ -87,7 +87,7 @@
 87	{1}x	{1}x	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
 88	x	x	X	X	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
-90	{LU₂}kit-x	{lu₂}kit-x	PROPN	PN	Gender=Masc|Number=Sing	_	_	_	_
+90	{LU₂}kit-x	{lu₂}kit-x	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
@@ -166,9 +166,9 @@
 166	x	x	X	X	_	_	_	_	_
 167	x	x	X	X	_	_	_	_	_
 168	x	x	X	X	_	_	_	_	_
-169	issi	sinništu	VERB	V	_	170	case	_	_
-170	nakri	nakru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	171	obl	_	_
-171	issasnūma	lasāmu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+169	issi	išti	ADP	PRP	_	170	case	_	_
+170	nakri	nakru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	171	obl	_	_
+171	issasnūma	lasāmu	VERB	V	Focus=Yes|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	_	_	_	_
 172	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	175	nsubj	_	_
 173	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	172	appos	_	_
 174	lū	lū	PART	PART	_	175	advmod	_	_

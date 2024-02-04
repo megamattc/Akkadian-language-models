@@ -1,13 +1,12 @@
-1	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	memmēni	memēni	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	ušerrab	erēbu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=Š	1	conj	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	ušerrab	erēbu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=Š	2	conj	_	_
 
 1	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	2	nsubj	_	_
 2	allāka	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
@@ -16,11 +15,10 @@
 2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	2	nummod	_	_
-2	arārī	arāru	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+2	arārī	arāru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	ušadbab	dabābu	VERB	V	_	0	ROOT	_	_
+1	x	x	X	X	_	2	obj	_	_
+2	ušadbab	dabābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 

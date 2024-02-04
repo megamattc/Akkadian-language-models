@@ -1,22 +1,21 @@
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	kippat	kippatu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	erbetti	erbe	NUM	NU	Case=Gen|Gender=Fem|Number=Sing	2	nmod:poss	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	nīri	nīru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
-4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+3	erbetti	erbe	NUM	NU	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	ana	ana	ADP	PRP	_	5	case	_	_
+5	nīri	nīru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	conj	_	_
+6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	6	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šībūtu	šībūtu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	šībūtu	šībūtu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 2	littūtu	littūtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
-3	hūd	hūdu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-4	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+3	hūd	hūdu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	1	conj	_	_
+4	libbu	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -57,8 +56,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	2	obj	_	_
-2	illikūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	advcl	_	_
+1	ša	ša	PRON	REL	_	2	nsubj	_	_
+2	illikūni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	dep	_	_
 3	lasdir	sadāru	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
 
 1	o	o	X	X	_	5	nummod	_	_
@@ -76,11 +75,12 @@
 1	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
 2	pēthallāti	pēthallu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
 
-1	x-me-x-06	x-me-x-06	X	X	_	2	nummod	_	_
-2	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
-3	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	nmod	_	_
+1	x-me-x-06	x-me-x-06	X	X	_	0	ROOT	_	_
 
-1	x-KAM	x-kam	ADJ	AJ	_	0	ROOT	_	_
+1	sissê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+
+1	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	x-KAM	x-kam	ADJ	AJ	_	1	amod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

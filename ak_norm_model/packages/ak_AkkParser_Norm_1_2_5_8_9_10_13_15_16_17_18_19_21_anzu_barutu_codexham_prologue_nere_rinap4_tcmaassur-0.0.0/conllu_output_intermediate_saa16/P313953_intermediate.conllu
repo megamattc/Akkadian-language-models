@@ -15,9 +15,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ūmu	ūmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	ṭābtu	ṭābu	ADJ	AJ	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	0	ROOT	_	_
+1	ūmu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ṭābtu	ṭābu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -42,7 +41,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ummânī	ummiānu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
-2	gabbu	gabbu	DET	DP	_	1	det	_	_
+
+1	gabbu	gabbu	DET	DP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -76,7 +76,7 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	innamirāni	nawāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	innamirāni	nawāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -220,7 +220,7 @@
 1	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 2	liškun	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
 
-1	kīma	kīma	ADP	PRP	_	0	ROOT	_	_
+1	kīma	kīma	SCONJ	SBJ	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -234,7 +234,6 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	lilliku	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	lilliku	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
 

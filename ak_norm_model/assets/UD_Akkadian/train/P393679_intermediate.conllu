@@ -1,0 +1,63 @@
+# text = ana šarri bēlīya urdaka Aššur-matka-tera
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Aššur-matka-tera	aššur-matka-tera	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# text = šulmu ana māti ša šarri maʾuttāti ša šarri
+1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	ša	ša	ADP	PRP	_	5	case	_	_
+5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	maʾuttāti	maʾʾuttu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
+7	ša	ša	ADP	PRP	_	8	case	_	_
+8	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+
+# text = kannuša mahīru ina māti deʾiq adanniš 01 imāru kurummāti ša 01 manê erî ina Ninua tallak
+1	kannuša	kannušu	VERB	V	Gender=Fem|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=D|Voice=Pass	_	_	_	_
+2	mahīru	mahīru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	deʾiq	damqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+6	adanniš	adanniš	ADV	AV	_	5	advmod	_	_
+7	01	01	NUM	NUM	_	8	nummod	_	_
+8	imāru	imēru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+9	kurummāti	kurummutu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	ša	ša	ADP	PRP	_	12	case	_	_
+11	01	01	NUM	NUM	_	12	nummod	_	_
+12	manê	manû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	16	obl	_	_
+13	erî	werû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	12	nmod	_	_
+14	ina	ina	ADP	PRP	_	15	case	_	_
+15	Ninua	ninua	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+16	tallak	alāku	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# text = 01 imāru 5(ban₂) ina Halahhi 02 imārī ina mudābiri 40 manê šāpti
+1	01	01	NUM	NUM	_	2	nummod	_	_
+2	imāru	imēru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+3	5(ban₂)	5(ban₂)		NOUN	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+4	ina	ina	ADP	PRP	_	5	case	_	_
+5	Halahhi	halahhi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	2	parataxis	_	_
+6	02	02	NUM	NUM	_	7	nummod	_	_
+7	imārī	imēru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
+8	ina	ina	ADP	PRP	_	9	case	_	_
+9	mudābiri	madbaru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	parataxis	_	_
+10	40	40	NUM	NUM	_	11	nummod	_	_
+11	manê	manû	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+12	šāpti	šīpātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	11	nmod	_	_
+
+# text = o ša 01 manê erî
+1	o	o	X	X	_	_	_	_	_
+2	ša	ša	ADP	PRP	_	_	_	_	_
+3	01	01	NUM	NUM	_	4	nummod	_	_
+4	manê	manû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	2	case	_	_
+5	erî	werû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	4	nmod:poss	_	_
+

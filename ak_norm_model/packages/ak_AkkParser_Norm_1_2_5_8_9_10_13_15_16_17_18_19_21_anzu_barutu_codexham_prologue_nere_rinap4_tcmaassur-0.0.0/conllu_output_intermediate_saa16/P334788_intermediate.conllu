@@ -27,19 +27,18 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	3	obj	_	_
+1	ša	ša	PRON	REL	_	3	obl	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	4	dep	_	_
 4	attalak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 5	assaʾalšu	šâlu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	4	conj	_	_
-6	mā	mā	PART	Quotative	_	8	discourse	_	_
-7	Sangil-ramat	sangil-ramat	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
-8	issušu	sinništu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	ccomp	_	_
+6	mā	mā	PART	Quotative	_	7	discourse	_	_
+7	Sangil-ramat	sangil-ramat	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+8	issušu	sinništu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	7	appos	_	_
 9	ša	ša	ADP	PRP	_	10	case	_	_
 10	Abi-ili	abi-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	ša-šēpi	ša-šēpi	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	10	appos	_	_
-
-1	{MI₂}x	{mi₂}x	NOUN	N	_	0	ROOT	_	_
+12	{MI₂}x	{mi₂}x	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -79,7 +78,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lūballiṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	lūballiṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -124,21 +123,22 @@
 1	ūmâ	ūma	ADV	AV	_	3	advmod	_	_
 2	Nergal-epuš	nergal-epuš	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	lizziz	izuzzu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
-4	adi	adi	ADP	PRP	_	8	mark	_	_
-5	issu	ištu	ADP	PRP	_	6	case	_	_
-6	tallakanni	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	8	obl	_	_
-7	ammūti	ammiu	DET	DP	Case=Gen|Gender=Masc|Number=Plur	6	det	_	_
-8	illakû	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	3	advcl	_	_
-9	ulâ	ūla	CONJ	CNJ	_	12	cc	_	_
-10	paristu	parsu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
-11	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-12	lišpura	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	8	conj	_	_
 
-1	šumma	šumma	SCONJ	SCONJ	_	3	mark	_	_
+1	adi	adi	ADP	PRP	_	2	case	_	_
+2	issu	ištu	ADP	PRP	_	5	mark	_	_
+3	tallakanni	alāku	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	2	nmod	_	_
+4	ammūti	ammiu	DET	DP	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	illakû	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+6	ulâ	ūla	CONJ	CNJ	_	9	cc	_	_
+7	paristu	parsu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	lišpura	šapāru	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	5	conj	_	_
+
+1	šumma	šumma	SCONJ	SBJ	_	3	mark	_	_
 2	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-3	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	5	case	_	_
+3	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	ša	ša	ADP	PRP	_	5	case	_	_
-5	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+5	ūm	ūmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	3	obl	_	_
 6	29-KAM	29-kam	ADJ	ADJ	_	5	amod	_	_
 
 1	mu-sa-ah-x	mu-sa-ah-x	X	X	_	0	ROOT	_	_
@@ -151,7 +151,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	litbuku	tabāku	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbStem=G	0	ROOT	_	_
+1	litbuku	tabāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -167,7 +167,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	rāʾyu	rēʾû	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+1	rāʾyu	rēʾû	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

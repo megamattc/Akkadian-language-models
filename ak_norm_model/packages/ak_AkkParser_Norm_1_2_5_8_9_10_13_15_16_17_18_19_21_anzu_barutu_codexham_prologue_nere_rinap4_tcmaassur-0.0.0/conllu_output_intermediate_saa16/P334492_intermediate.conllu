@@ -23,9 +23,10 @@
 4	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 5	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
 6	ana	ana	ADP	PRP	_	7	case	_	_
-7	urdīšu	ardu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	8	obl	_	_
-8	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	2	nmod	_	_
-9	mā	mā	PART	Quotative	_	8	discourse	_	_
+7	urdīšu	ardu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	8	iobj	_	_
+8	išpuranni	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	2	acl	_	_
+
+1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
 1	šumma	šumma	SCONJ	SBJ	_	0	ROOT	_	_
 
@@ -74,7 +75,7 @@
 1	mā	mā	PART	Quotative	_	0	ROOT	_	_
 
 1	issu	ištu	ADP	PRP	_	2	case	_	_
-2	bēti	bītu	NOUN	N	_	0	ROOT	_	_
+2	bēti	bītu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -93,25 +94,25 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	mā	mā	PART	Quotative	_	3	discourse	_	_
-2	ulâ	ūla	CONJ	CNJ	_	3	cc	_	_
-3	šītīma	šīti	PRON	N	Case=Nom|Focus=Yes|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	ulâ	ūla	CONJ	CNJ	_	3	advmod	_	_
+3	šītīma	šīti	PRON	N	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	5	nsubj	_	_
 4	lū	lū	PART	PART	_	5	advmod	_	_
 5	šî	šī	PRON	IP	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	ROOT	_	_
 
 1	o	o	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	3	nsubj	_	_
+1	ša	ša	PRON	REL	_	6	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
 4	Balṭaya	balṭaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	mannu	mannu	PRON	QP	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-6	ūda	ūdu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-7	memmēni	memēni	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	ūda	ūdu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	9	advcl	_	_
+7	memmēni	memēni	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 8	lā	lā	PART	NEG	_	9	advmod	_	_
-9	ūda	ūdu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	6	ccomp	_	_
+9	ūda	ūdu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 10	ina	ina	ADP	PRP	_	11	case	_	_
-11	libbi	libbu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	13	obl	_	_
-12	ilāni	ilu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	11	nmod	_	_
+11	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	13	obl	_	_
+12	ilāni	ilu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
 13	attama	tamû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	9	conj	_	_
 
 1	šumma	šumma	SCONJ	SBJ	_	3	mark	_	_

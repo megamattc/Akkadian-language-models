@@ -36,7 +36,7 @@
 
 1	ša	ša	PRON	REL	_	0	ROOT	_	_
 
-1	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	šulmu	šulmu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -44,17 +44,16 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	išammûni	šemû	VERB	V	Gender=Masc|Mood=Ind|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	išammûni	šemû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Ind|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	šulamšu	šulmu	NOUN	N	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	šulamšu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	0	ROOT	_	_
 
@@ -93,8 +92,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	māt	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	nakiri	nakru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+2	māt nakiri	māt nakiri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -253,7 +251,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	ša-šērāti	ša-šērāti	ADV	AV	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ša-šērāti	ša-šērāti	ADV	AV	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -264,14 +262,15 @@
 1	adu	adi	ADP	PRP	_	2	case	_	_
 2	Issar	issar	PROPN	DN	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	pa-x	pa-x	X	X	_	0	ROOT	_	_
+1	ša	ša	PRON	REL	_	0	ROOT	_	_
+
+1	pa-x	pa-x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	lišānātišunu	lišānu	NOUN	N	Gender=Com|Mood=Prec|Number=Sing|Person=1|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
+1	lišānātišunu	lišānu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -292,7 +291,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	ša-šērāti	ša-šērāti	ADV	AV	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ša-šērāti	ša-šērāti	ADV	AV	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -311,7 +310,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	marʾē	māru	NOUN	N	Gender=Masc|Number=Plur	0	ROOT	_	_
+1	marʾē	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
 2	{URU}x	{uru}x	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -333,7 +332,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	altibi	lawû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	altibi	lawû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
