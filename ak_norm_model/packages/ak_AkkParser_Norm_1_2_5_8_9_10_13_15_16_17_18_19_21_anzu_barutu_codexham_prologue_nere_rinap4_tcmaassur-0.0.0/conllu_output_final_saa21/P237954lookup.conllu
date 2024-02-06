@@ -22,9 +22,9 @@
 22	x	x	X	X	_	_	_	_	_
 23	x	x	X	X	_	_	_	_	_
 24	adi	adi	ADP	PRP	_	25	case	_	_
-25	enna	enna	ADV	AV	_	_	_	_	_
+25	enna	enna	ADV	AV	_	38	obl	_	_
 26	itti	itti	ADP	PRP	_	27	case	_	_
-27	sīsê	sisû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Plur	38	obl	_	_
+27	sīsê	sisû	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Plur	38	obl	_	_
 28	ša	ša	ADP	PRP	_	29	case	_	_
 29	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
 30	mār šipri	mār šipri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
@@ -46,7 +46,7 @@
 46	Nabu-šumu-iqiša	nabu-šumu-iqiša	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	51	nsubj	_	_
 47	rab kāru	rab kāru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	46	appos	_	_
 48	ultu	ištu	ADP	PRP	_	49	case	_	_
-49	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	51	obl	_	_
+49	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	51	iobj	_	_
 50	kî	kī	SCONJ	SBJ	_	51	mark	_	_
 51	ihhisu	nahāsu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	52	advcl	_	_
 52	šēdu	šēdu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	54	nsubj	_	_
@@ -58,15 +58,15 @@
 58	umma	umma	PART	Quotative	_	60	discourse	_	_
 59	Elamaya	elamaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	60	nsubj	_	_
 60	ittebûnu	tebû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Subordinative=No|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
-61	pulluhū	palhu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D	60	conj	_	_
+61	pulluhū	palhu	ADJ	AJ	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=D	_	_	_	_
 62	bēl šemērē	bēl šemērē	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 63	u	u	CONJ	CNJ	_	64	cc	_	_
-64	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	_	_	_	_
+64	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	62	conj	_	_
 65	x	x	X	X	_	69	nsubj	_	_
 66	ana	ana	ADP	PRP	_	67	case	_	_
 67	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	69	iobj	_	_
 68	kî	kī	SCONJ	SBJ	_	69	mark	_	_
-69	ašpura	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	74	advcl	_	_
+69	ašpura	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	74	advcl	_	_
 70	ša	ša	PRON	REL	_	71	obj	_	_
 71	ihruṣūnu	harāṣu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|VerbStem=G	74	nsubj	_	_
 72	ina	ina	ADP	PRP	_	73	case	_	_
@@ -83,15 +83,15 @@
 83	rab šāqê	rab šāqê	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 84	ša	ša	ADP	PRP	_	85	case	_	_
 85	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	83	nmod	_	_
-86	03-me	03-me	NUM	NUM	_	87	nummod	_	_
-87	ša-qalti	ša-qašti	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+86	03-me	03-me	NUM	NUM	Gender=Fem	87	nummod	_	_
+87	ša-qalti	ša-qašti	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	83	conj	_	_
 88	u	u	CONJ	CNJ	_	_	_	_	_
 89	x	x	X	X	_	_	_	_	_
 90	sīsê	sisû	NOUN	N	Gender=Masc	_	_	_	_
 91	x	x	X	X	_	_	_	_	_
 92	x	x	X	X	_	_	_	_	_
 93	x	x	X	X	_	_	_	_	_
-94	Šula	šula	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+94	Šula	šula	PROPN	SN	Gender=Masc|Number=Sing	_	_	_	_
 95	x	x	X	X	_	_	_	_	_
 96	x	x	X	X	_	_	_	_	_
 97	x	x	X	X	_	_	_	_	_

@@ -34,9 +34,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	2	discourse	_	_
-2	ilteššu	ištiššu	ADV	AV	_	0	ROOT	_	_
-3	šinīšu	šinīšu	ADV	AV	_	2	conj	_	_
+1	umma	umma	PART	Quotative	_	0	ROOT	_	_
+
+1	ilteššu	ištiššu	ADV	AV	_	2	advmod	_	_
+2	šinīšu	šinīšu	ADV	AV	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -55,7 +56,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	itti	itti	ADP	PRP	_	2	case	_	_
-2	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 3	hurāṣi	hurāṣu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -150,8 +151,9 @@
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	matimma	mati	PRON	XP	Focus=Yes	0	ROOT	_	_
-3	ša	ša	ADP	PRP	_	4	case	_	_
-4	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	nmod	_	_
+
+1	ša	ša	ADP	PRP	_	2	case	_	_
+2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -167,7 +169,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mamma	mamma	PRON	XP	_	2	nsubj	_	_
+1	mamma	mamma	PRON	XP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	ultappilšu	šapālu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -339,8 +341,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ahāmeš	ahāmiš	ADV	AV	Case=Ter	2	obl	_	_
-2	nittadin	nadānu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	ahāmeš	ahāmiš	ADV	AV	Case=Ter	2	advmod	_	_
+2	nittadin	nadānu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

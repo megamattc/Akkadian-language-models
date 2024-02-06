@@ -8,12 +8,12 @@
 8	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 9	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	21	obj	_	_
 10	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-11	ṭūb	ṭūbu	NOUN	N	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing	9	conj	_	_
+11	ṭūb	ṭūbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	9	conj	_	_
 12	šīri	šīru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
 13	ūmē	ūmu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
 14	arkūti	arku	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	13	amod	_	_
 15	u	u	CONJ	CNJ	_	16	cc	_	_
-16	labār	labāru	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	13	conj	_	_
+16	labār	labāru	VERB	V	Case=Acc|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	13	conj	_	_
 17	palê	palû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
 18	ana	ana	ADP	PRP	_	19	case	_	_
 19	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	21	iobj	_	_
@@ -66,7 +66,7 @@
 66	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	68	obl	_	_
 67	išāta	išātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	66	nmod	_	_
 68	altarap	šarāpu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
-69	Nabu-šar-ahhešu	nabu-šar-ahhešu	PROPN	PN	Gender=Masc	84	nsubj	_	_
+69	Nabu-šar-ahhešu	nabu-šar-ahhešu	PROPN	PN	Gender=Masc	89	obj	_	_
 70	Nergal-uballiṭ	nergal-uballiṭ	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	69	conj	_	_
 71	Ṣillaya	ṣillaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	69	conj	_	_
 72	Ubar-sayasu	ubar-sayasu	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	69	conj	_	_
@@ -74,18 +74,18 @@
 74	Tammeš-idri	tammeš-idri	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	69	conj	_	_
 75	Idriya	idriya	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	69	conj	_	_
 76	u	u	CONJ	CNJ	_	77	cc	_	_
-77	Sabini	sabini	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	75	conj	_	_
+77	Sabini	sabini	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	75	conj	_	_
 78	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	80	nsubj	_	_
 79	08	08	NUM	NUM	_	80	nummod	_	_
-80	Aššuraya	aššuraya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	69	parataxis	_	_
-81	ša	ša	PRON	REL	_	83	nsubj	_	_
+80	Aššuraya	aššuraya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	69	conj	_	_
+81	ša	ša	PRON	REL	_	84	nsubj	_	_
 82	ina	ina	ADP	PRP	_	83	case	_	_
-83	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	69	acl	_	_
-84	ṣabtū	ṣabtu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	_	_	_	_
-85	ša	ša	PRON	REL	_	87	nsubj	_	_
+83	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	84	iobj	_	_
+84	ṣabtū	ṣabtu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	69	acl	_	_
+85	ša	ša	PRON	REL	_	88	nsubj	_	_
 86	ina	ina	ADP	PRP	_	87	case	_	_
-87	bīt killi	bīt killi	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	84	dep	_	_
-88	ṣabtū	ṣabtu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	89	obj	_	_
+87	bīt killi	bīt killi	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	88	obl	_	_
+88	ṣabtū	ṣabtu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G|Voice=Pass	69	acl:relcl	_	_
 89	ultēṣaʾ	aṣû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=Š	_	_	_	_
 90	ša	ša	PRON	REL	_	92	nsubj	_	_
 91	siparru	siparru	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	92	nsubj	_	_
@@ -94,5 +94,5 @@
 94	ultabbiš	labāšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	93	conj	_	_
 95	u	u	CONJ	CNJ	_	98	cc	_	_
 96	ana	ana	ADP	PRP	_	97	case	_	_
-97	ēkalli	ēkallu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	98	iobj	_	_
+97	ēkalli	ēkallu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	98	obl	_	_
 98	altapraššunūtu	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	94	conj	_	_

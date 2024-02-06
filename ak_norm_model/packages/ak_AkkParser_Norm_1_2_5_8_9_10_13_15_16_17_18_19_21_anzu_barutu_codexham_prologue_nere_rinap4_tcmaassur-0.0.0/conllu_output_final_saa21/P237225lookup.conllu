@@ -65,9 +65,9 @@
 65	x	x	X	X	_	_	_	_	_
 66	x	x	X	X	_	_	_	_	_
 67	x	x	X	X	_	_	_	_	_
-68	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	_	_	_	_
+68	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	70	nsubj	_	_
 69	ša	ša	ADP	PRP	_	70	case	_	_
-70	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	68	nmod	_	_
+70	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 71	x	x	X	X	_	_	_	_	_
 72	x-{d}U.GUR	x-{d}u.gur	X	X	_	_	_	_	_
 73	Aplaya	aplaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -104,9 +104,9 @@
 104	Mat-tamtimaya	mat-tamtimaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 105	šībūti	šību	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	104	amod	_	_
 106	u	u	CONJ	CNJ	_	107	cc	_	_
-107	ṣehrūti	ṣehru	ADJ	AJ	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	105	conj	_	_
-108	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	113	obj	_	_
-109	ayāši	yâšim	PRON	IP	Case=Gen|Gender=Com|Number=Sing|Person=1	108	nmod	_	_
+107	ṣehrūti	ṣehru	ADJ	AJ	Case=Gen|Gender=Masc|NounBase=Free|Number=Plur	105	conj	_	_
+108	šulum	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+109	ayāši	yâšim	PRON	IP	Case=Gen|Gender=Com|Number=Sing|Person=1	108	nsubj	_	_
 110	kî	kī	SCONJ	SBJ	_	113	mark	_	_
 111	milkī	milku	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	113	obj	_	_
 112	mādūtu	mādu	ADJ	AJ	Case=Acc|Gender=Masc|Number=Plur	111	amod	_	_
@@ -158,7 +158,7 @@
 158	x	x	X	X	_	_	_	_	_
 159	te-ta-as-x	te-ta-as-x	X	X	_	_	_	_	_
 160	x	x	X	X	_	_	_	_	_
-161	adi	adi	ADP	PRP	_	163	case	_	_
+161	adi	adi	ADP	PRP	_	_	_	_	_
 162	ina	ina	ADP	PRP	_	163	case	_	_
 163	mat	mati	PRON	QP	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 164	kî	kī	ADP	PRP	_	165	case	_	_
@@ -173,7 +173,7 @@
 173	šitte	šittu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 174	x-ti	x-ti	X	X	_	_	_	_	_
 175	ša	ša	ADP	PRP	_	176	case	_	_
-176	Uruk	uruk	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+176	Uruk	uruk	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	177	dep	_	_
 177	tuhallaqā	halāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=D	_	_	_	_
 178	a-x	a-x	X	X	_	_	_	_	_
 179	x	x	X	X	_	_	_	_	_
@@ -181,14 +181,14 @@
 181	x	x	X	X	_	_	_	_	_
 182	x	x	X	X	_	_	_	_	_
 183	x	x	X	X	_	_	_	_	_
-184	01-me	01-me	NUM	NUM	_	187	nummod	_	_
+184	01-me	01-me	NUM	NUM	_	189	nummod	_	_
 185	02-me	02-me	NUM	NUM	_	184	conj	_	_
 186	ša	ša	ADP	PRP	_	187	case	_	_
-187	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	189	nsubj	_	_
+187	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	185	nmod	_	_
 188	ina	ina	ADP	PRP	_	189	case	_	_
-189	pirṣāta	pirṣatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Plur	_	_	_	_
+189	pirṣāta	pirṣatu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Plur	191	obl	_	_
 190	lā	lā	PART	NEG	_	191	advmod	_	_
-191	ṭēmi	ṭēmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	189	conj	_	_
+191	ṭēmi	ṭēmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 192	x	x	X	X	_	_	_	_	_
 193	x	x	X	X	_	_	_	_	_
 194	x	x	X	X	_	_	_	_	_
@@ -219,14 +219,14 @@
 219	taltarpā	šarāpu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 220	ultu	ištu	ADP	PRP	_	221	case	_	_
 221	rab ša-rēši	rab ša-rēši	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-222	{LU₂}x	{lu₂}x	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	221	appos	_	_
+222	{LU₂}x	{lu₂}x	NOUN	N	_	_	_	_	_
 223	x	x	X	X	_	_	_	_	_
 224	x	x	X	X	_	_	_	_	_
 225	x	x	X	X	_	_	_	_	_
 226	x	x	X	X	_	_	_	_	_
 227	rab šāqê	rab šāqê	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
-228	rab mungi	rab mungi	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	227	appos	_	_
-229	Nabu-šagim	nabu-šagim	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	227	appos	_	_
+228	rab mungi	rab mungi	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	227	nmod	_	_
+229	Nabu-šagim	nabu-šagim	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	227	conj	_	_
 230	x	x	X	X	_	_	_	_	_
 231	x	x	X	X	_	_	_	_	_
 232	x	x	X	X	_	_	_	_	_
@@ -239,7 +239,7 @@
 239	x	x	X	X	_	_	_	_	_
 240	x	x	X	X	_	_	_	_	_
 241	Mat-Aššur	mat-aššur	PROPN	GN	Gender=Fem|Number=Sing	_	_	_	_
-242	01-lim	01-lim	NUM	NUM	_	244	nummod	_	_
+242	01-lim	01-lim	NUM	NUM	_	244	nsubj	_	_
 243	02-lim	02-lim	NUM	NUM	_	242	conj	_	_
 244	qaltāni	qaštu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 245	ša	ša	PRON	REL	_	_	_	_	_
@@ -378,7 +378,7 @@
 378	ina	ina	ADP	PRP	_	379	case	_	_
 379	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 380	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	379	nmod	_	_
-381	ša	ša	PRON	REL	_	380	obj	_	_
+381	ša	ša	PRON	REL	_	_	_	_	_
 382	x	x	X	X	_	_	_	_	_
 383	x	x	X	X	_	_	_	_	_
 384	x	x	X	X	_	_	_	_	_

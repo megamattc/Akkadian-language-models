@@ -50,7 +50,7 @@
 50	x	x	X	X	_	_	_	_	_
 51	x	x	X	X	_	_	_	_	_
 52	x-hu-ru	x-hu-ru	X	X	_	_	_	_	_
-53	nišēya	nišu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+53	nišēya	nišu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 54	x	x	X	X	_	_	_	_	_
 55	x	x	X	X	_	_	_	_	_
 56	x	x	X	X	_	_	_	_	_
@@ -72,10 +72,10 @@
 72	x	x	X	X	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	ina	ina	ADP	PRP	_	75	case	_	_
-75	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
+75	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	83	obl	_	_
 76	hissāte	hissatu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	75	nmod	_	_
 77	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	75	conj	_	_
-78	rēmu	rēmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	77	nmod	_	_
+78	rēmu	rēmu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	77	nmod:poss	_	_
 79	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	83	nsubj	_	_
 80	bēli	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	79	appos	_	_
 81	mār šipri	mār šipri	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	83	obj	_	_
@@ -83,7 +83,7 @@
 83	issapar	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 84	Bel-ibni	bel-ibni	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	86	nsubj	_	_
 85	lā	lā	PART	NEG	_	86	advmod	_	_
-86	bēl dāmēya	bēl dāmēya	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
+86	bēl dāmēya	bēl dāmēya	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 87	u	u	CONJ	CNJ	_	89	cc	_	_
 88	lā	lā	PART	NEG	_	89	advmod	_	_
 89	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	86	conj	_	_
@@ -92,14 +92,14 @@
 92	mā	mā	PART	Quotative	_	99	discourse	_	_
 93	atâ	atā	PRON	QP	_	99	advmod	_	_
 94	ina	ina	ADP	PRP	_	95	case	_	_
-95	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	93	dep	_	_
+95	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	99	obl	_	_
 96	nišē	nišu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	95	nmod	_	_
 97	ša	ša	PRON	REL	_	98	nsubj	_	_
 98	annāka	annaka	ADV	AV	_	96	acl	_	_
 99	iptaqdūšu	paqādu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 100	ina	ina	ADP	PRP	_	101	case	_	_
-101	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	103	obl	_	_
-102	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	101	nmod	_	_
+101	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	103	obl	_	_
+102	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	103	nsubj	_	_
 103	izirranni	zêru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	_	_	_	_
 104	x	x	X	X	_	_	_	_	_
 105	x	x	X	X	_	_	_	_	_
@@ -107,7 +107,7 @@
 107	x	x	X	X	_	_	_	_	_
 108	x	x	X	X	_	_	_	_	_
 109	x	x	X	X	_	_	_	_	_
-110	marʾēšunu	māru	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
+110	marʾēšunu	māru	NOUN	N	Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	113	nsubj	_	_
 111	marʾātīšunu	mārtu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	110	conj	_	_
 112	ana	ana	ADP	PRP	_	113	case	_	_
 113	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
@@ -116,7 +116,7 @@
 116	x	x	X	X	_	_	_	_	_
 117	x	x	X	X	_	_	_	_	_
 118	u	u	CONJ	CNJ	_	120	cc	_	_
-119	rēhtu	rēhtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	120	obj	_	_
+119	rēhtu	rēhtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	118	dep	_	_
 120	iktirik	karāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 121	ana	ana	ADP	PRP	_	_	_	_	_
 122	x	x	X	X	_	_	_	_	_
@@ -134,8 +134,8 @@
 134	x	x	X	X	_	_	_	_	_
 135	x	x	X	X	_	_	_	_	_
 136	x	x	X	X	_	_	_	_	_
-137	ittaṣaršunu	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
-138	ussamarkišunu	namarkû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	137	conj	_	_
+137	ittaṣaršunu	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	138	dep	_	_
+138	ussamarkišunu	namarkû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	_	_	_	_
 139	x	x	X	X	_	_	_	_	_
 140	x	x	X	X	_	_	_	_	_
 141	x	x	X	X	_	_	_	_	_
@@ -178,7 +178,7 @@
 178	x	x	X	X	_	_	_	_	_
 179	x	x	X	X	_	_	_	_	_
 180	rēhtašunu	rēhtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
-181	lā	lā	PART	NEG	_	182	advmod	_	_
+181	lā	lā	PART	NEG	_	_	_	_	_
 182	x	x	X	X	_	_	_	_	_
 183	x	x	X	X	_	_	_	_	_
 184	x	x	X	X	_	_	_	_	_
@@ -247,7 +247,7 @@
 247	x	x	X	X	_	_	_	_	_
 248	x	x	X	X	_	_	_	_	_
 249	x	x	X	X	_	_	_	_	_
-250	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	251	nsubj	_	_
+250	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 251	dibbī	dibbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 252	ana	ana	ADP	PRP	_	_	_	_	_
 253	x+x	x+x	X	X	_	_	_	_	_
@@ -261,8 +261,8 @@
 261	x	x	X	X	_	_	_	_	_
 262	x	x	X	X	_	_	_	_	_
 263	x	x	X	X	_	_	_	_	_
-264	kusāpī	kusāpu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
-265	ša	ša	PRON	REL	_	268	obj	_	_
+264	kusāpī	kusāpu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+265	ša	ša	PRON	REL	_	268	obl	_	_
 266	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	268	nsubj	_	_
 267	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	268	obj	_	_
 268	iškunannīni	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Com|VerbSuffNum=Sing|VerbSuffPer=1	264	acl	_	_
@@ -272,7 +272,7 @@
 272	x	x	X	X	_	_	_	_	_
 273	x	x	X	X	_	_	_	_	_
 274	kūdinīya	kūdanu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
-275	nišēya	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	274	conj	_	_
+275	nišēya	nišu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 276	x	x	X	X	_	_	_	_	_
 277	x	x	X	X	_	_	_	_	_
 278	x	x	X	X	_	_	_	_	_

@@ -39,7 +39,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	lū	lū	PART	PART	_	2	advmod	_	_
-2	tuddi	wadû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
+2	tuddi	wadû	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -57,8 +57,8 @@
 
 1	libbīka	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
 
-1	annu	annu	NOUN	N	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=Š	2	obj	_	_
-2	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
+1	annu	annu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+2	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -76,7 +76,7 @@
 
 1	x-ra	x-ra	X	X	_	0	ROOT	_	_
 
-1	sahmaššu	sahmaštu	NOUN	N	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
+1	sahmaššu	sahmaštu	NOUN	N	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -93,8 +93,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	appi	appu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
-3	lušēṣi	aṣû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
+2	appi	appu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
+3	lušēṣi	aṣû	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -113,11 +113,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
-2	rabûti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	irti	irtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+2	rabûti	rabû	ADJ	AJ	Case=Gen|Gender=Masc|Number=Plur	3	amod	_	_
+3	irti	irtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -127,7 +124,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	sīsê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	sīsê	sisû	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	_
 2	ittīni	itti	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Plur|PresSuffPer=1	0	ROOT	_	_
 
 1	lā	lā	PART	NEG	_	2	advmod	_	_
@@ -169,9 +168,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	hepāte	hepû	ADJ	AJ	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
-2	ana	ana	ADP	PRP	_	3	case	_	_
-3	haṭṭâni	haṭṭāʾu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
+1	hepāte	hepû	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
+
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	haṭṭâni	haṭṭāʾu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -183,9 +183,9 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	sahmaššu	sahmaštu	NOUN	N	Case=Loc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	obj	_	_
+1	sahmaššu	sahmaštu	NOUN	N	_	0	ROOT	_	_
 2	lū	lū	PART	PART	_	3	advmod	_	_
-3	tettiq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	tettiq	etēqu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	1	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -199,11 +199,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	annû	annû	DET	DET	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	annû	annû	DET	DP	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	ana	ana	ADP	PRP	_	0	ROOT	_	_
-
-1	KAB	kab	NUM	X	_	0	ROOT	_	_
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	KAB	kab	X	X	_	0	ROOT	_	_
 
 1	nu	nu	X	X	_	0	ROOT	_	_
 
@@ -219,11 +218,10 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	3	case	_	_
-2	iltēn	ištēn	NUM	NU	_	3	nummod	_	_
-3	sapānu	sapānu	VERB	V	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	5	obl	_	_
+3	ana	ana	ADP	PRP	_	5	case	_	_
+4	iltēn	ištēn	NUM	NU	_	5	nummod	_	_
+5	sapānu	sapānu	VERB	V	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
 
 1	šap-x	šap-x	X	X	_	0	ROOT	_	_
 
@@ -246,18 +244,17 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ša	ša	PRON	REL	_	5	obj	_	_
+1	ša	ša	PRON	REL	_	5	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	qāt	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	obl	_	_
 4	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	_
 5	allak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	allaka	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+6	allaka	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	5	conj	_	_
 
 1	x	x	X	X	_	4	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	pānīšu	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	obl	_	_
-4	išakkanšunu	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	išakkanšunu	šakānu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	EN	*[NA]NA	X	X	_	0	ROOT	_	_
 
@@ -273,8 +270,9 @@
 
 1	šanītu	šanû	ADJ	AJ	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	2	amod	_	_
 2	amat	amtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-3	ašša	aššu	SCONJ	SBJ	_	4	case	_	_
-4	irti	irtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+
+1	ašša	aššu	SCONJ	SBJ	_	2	case	_	_
+2	irti	irtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -285,10 +283,10 @@
 1	x-MEŠ	x-meš	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	ēkân	ēkânu	PRON	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
+2	ēkân	ēkânu	PRON	V	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
 3	kî	kī	SCONJ	SBJ	_	4	mark	_	_
-4	illaka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-5	tallak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	4	conj	_	_
+4	illaka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	5	obl	_	_
+5	tallak	alāku	VERB	V	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -297,7 +295,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ša	ša	PRON	REL	_	2	obj	_	_
-2	la-pānīšû	lapān	ADP	PRP	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	obl	_	_
+2	la-pānīšû	lapān	ADP	PRP	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	dep	_	_
 3	palhāta	palhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -312,8 +310,9 @@
 
 1	x-ku	x-ku	X	X	_	0	ROOT	_	_
 
-1	šalultu	šalšu	NUM	N	Case=Acc|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	amat	amtu	NOUN	N	Case=Gen|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	1	nmod	_	_
+1	šalultu	šalšu	NUM	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
+
+1	amat	amtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	0	ROOT	_	_
 
 1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
@@ -333,10 +332,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ašša	aššu	SCONJ	SBJ	_	3	nsubj	_	_
+1	ašša	aššu	SCONJ	SBJ	_	4	mark	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	qātīšu	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
-4	danni	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+3	qātīšu	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	obl	_	_
+4	danni	dannu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -457,12 +456,13 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	mātu	mātu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+1	mātu	mātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
 2	gabbu	gabbu	DET	DP	_	1	det	_	_
-3	ša	ša	PRON	REL	_	4	nsubj	_	_
-4	šumu	šumu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
-5	ša	ša	ADP	PRP	_	6	case	_	_
-6	mar-Nippur	mar-nippur	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+
+1	ša	ša	PRON	REL	_	2	nsubj	_	_
+2	šumu	šumu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	mar-Nippur	mar-nippur	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -474,28 +474,28 @@
 
 1	uballaṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
-1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
+1	kî	kī	ADP	PRP	_	2	case	_	_
 2	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
 
-1	0	0	NUM	NUM	_	2	mark	_	_
-2	ubtalliṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	4	advcl	_	_
+1	0	0	NUM	NUM	_	2	advmod	_	_
+2	ubtalliṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 3	attunu	attunu	PRON	IP	Case=Nom|Gender=Masc|Number=Plur|Person=2	4	nsubj	_	_
-4	tīdâ	edû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-5	kî	kī	SCONJ	SBJ	_	4	dep	_	_
+4	tīdâ	edû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|VerbStem=G	2	conj	_	_
 
-1	0	0	NUM	NUM	_	6	advmod	_	_
+1	kî	kī	SCONJ	SBJ	_	0	ROOT	_	_
+
+1	0	0	NUM	NUM	_	2	nummod	_	_
 2	Babilaya	babilaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 3	ana	ana	ADP	PRP	_	4	case	_	_
 4	šatê	šatû	VERB	V	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing|VerbForm=Inf|VerbStem=G	6	obl	_	_
-5	dāmē	dāmu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	4	nmod	_	_
+5	dāmē	dāmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 6	ubaʾʾû	buʾʾû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	libbikunu	libbu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	0	ROOT	_	_
-
-1	lā	lā	PART	NEG	_	2	advmod	_	_
-2	uballaṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	libbikunu	libbu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	3	obj	_	_
+2	lā	lā	PART	NEG	_	3	advmod	_	_
+3	uballaṭ	balāṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	Mat-tamti	mat-tamti	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -506,70 +506,72 @@
 
 1	x-di	x-di	X	X	_	0	ROOT	_	_
 
-1	išakkanūkunūši	šakānu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+1	išakkanūkunūši	šakānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=N	0	ROOT	_	_
 
-1	0	0	NUM	NUM	_	0	ROOT	_	_
-
-1	mindēma	minde	ADV	AV	Focus=Yes	6	advmod	_	_
-2	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	6	nsubj	_	_
-3	hapʾū	hepû	VERB	V	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	6	obj	_	_
-4	ša	ša	PRON	REL	_	5	obj	_	_
-5	iltarrū	sarāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	3	nmod	_	_
-6	iqtabi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+1	0	0	NUM	NUM	_	2	nsubj	_	_
+2	mindēma	minde	ADV	AV	Focus=Yes	7	advmod	_	_
+3	ilu	ilu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	7	nsubj	_	_
+4	hapʾū	hepû	VERB	V	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	7	obj	_	_
+5	ša	ša	PRON	REL	_	6	obj	_	_
+6	iltarrū	sarāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	4	acl	_	_
+7	iqtabi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	uṣṣuṣṣu	uṣṣuṣu	VERB	V	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=D	3	obj	_	_
 2	kî	kī	SCONJ	SBJ	_	3	mark	_	_
-3	tapallahā	palāhu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	6	advcl	_	_
+3	tapallahā	palāhu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	šumka	šumu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	6	obj	_	_
 5	lā	lā	PART	NEG	_	6	advmod	_	_
-6	tubaʾʾaš	bâšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-7	u	u	CONJ	CNJ	_	10	cc	_	_
-8	ālka	ālu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	10	obj	_	_
-9	ana	ana	ADP	PRP	_	10	case	_	_
-10	hapʾē	hepû	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	6	conj	_	_
+6	tubaʾʾaš	bâšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	3	conj	_	_
+7	u	u	CONJ	CNJ	_	8	cc	_	_
+8	ālka	ālu	NOUN	N	Case=Gen|Focus=Yes|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	0	ROOT	_	_
 
-1	0	0	NUM	NUM	_	3	obj	_	_
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	hapʾē	hepû	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	0	ROOT	_	_
+
+1	0	0	NUM	NUM	_	3	advmod	_	_
 2	lā	lā	PART	NEG	_	3	advmod	_	_
 3	tanamdin	nadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Ventive=No|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	tattaṣru	naṣāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	5	advcl	_	_
 3	nēmel	nēmelu	SCONJ	N	Case=Acc|Gender=Masc|NounStem=Bound|Number=Sing	5	obj	_	_
-4	naṣāri	naṣāru	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	3	nmod	_	_
+4	naṣāri	naṣāru	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	5	obj	_	_
 5	tātamar	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 6	akkāʾi	akkāʾi	PRON	QP	_	7	advmod	_	_
 7	lupšur	pašāru	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	5	conj	_	_
-8	lā	lā	PART	NEG	_	9	advmod	_	_
-9	nāṣirê	nāṣiru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
-10	ina	ina	ADP	PRP	_	11	case	_	_
-11	ṣilli	ṣillu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	13	obl	_	_
-12	naṣāru	naṣāru	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	11	nmod	_	_
-13	lušēzib	ezēbu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=D	7	conj	_	_
 
-1	u	u	CONJ	CNJ	_	12	cc	_	_
+1	lā	lā	PART	NEG	_	2	advmod	_	_
+2	nāṣirê	nāṣiru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+3	ina	ina	ADP	PRP	_	4	case	_	_
+4	ṣilli	ṣillu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Bound|Number=Sing	6	obl	_	_
+5	naṣāru	naṣāru	VERB	V	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	4	nmod	_	_
+6	lušēzib	ezēbu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=D	2	conj	_	_
+
+1	u	u	CONJ	CNJ	_	4	cc	_	_
 2	kî	kī	SCONJ	SBJ	_	4	mark	_	_
 3	lā	lā	PART	NEG	_	4	advmod	_	_
-4	tattaṣru	naṣāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	12	advcl	_	_
-5	ūmīšu	ūmu	NOUN	N	Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	obj	_	_
+4	tattaṣru	naṣāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=2|Subordinative=Yes|Tense=Perf|VerbForm=Fin|VerbStem=G	5	dep	_	_
+5	ūmīšu	ūmu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	12	nsubj	_	_
 6	ina	ina	ADP	PRP	_	7	case	_	_
 7	līte	lītu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Sing	12	obl	_	_
 8	ša	ša	ADP	PRP	_	9	case	_	_
 9	Aššur	aššur	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 10	Mat-Akkadi	mat-akkadi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
-11	išātu	išātu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	12	nsubj	_	_
-12	luṣruba	ṣarāpu	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|Ventive=Yes|VerbStem=G	0	ROOT	_	_
-13	ina	ina	ADP	PRP	_	14	case	_	_
-14	ūmēšu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	15	obl	_	_
-15	tammar	amāru	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=Sing|Tense=Pres|VerbForm=Fin|VerbStem=G	12	conj	_	_
+11	išātu	išātu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+12	luṣruba	ṣarāpu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	KUR-x+x	kur-x+x	X	X	_	0	ROOT	_	_
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	ūmēšu	ūmu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	obl	_	_
+3	tammar	amāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=Sing|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+1	KUR-x+x	kur-x+x	X	PN	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	Mat-Akkadi	mat-akkadi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	makûtu	makûtu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
+1	Mat-Akkadi	mat-akkadi	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	makûtu	makûtu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 3	illaka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -585,7 +587,7 @@
 1	Mat-Akkadi	mat-akkadi	PROPN	GN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	0	ROOT	_	_
-4	KUR-x	kur-x	PROPN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	KUR-x	kur-x	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

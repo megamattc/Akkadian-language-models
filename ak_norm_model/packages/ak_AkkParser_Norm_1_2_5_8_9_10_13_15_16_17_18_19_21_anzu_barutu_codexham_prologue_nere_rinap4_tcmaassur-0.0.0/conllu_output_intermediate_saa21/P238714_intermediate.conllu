@@ -136,9 +136,10 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	ahī	ahu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	ina	ina	ADP	PRP	_	3	case	_	_
-3	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	ahī	ahu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+
+1	ina	ina	ADP	PRP	_	2	case	_	_
+2	libbi	libbu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -184,7 +185,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	bēl	bēlu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
-2	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	_
+2	šarrāni	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
 
 1	kaspu	kaspu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	0	ROOT	_	_
 
@@ -211,12 +212,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	x	x	X	X	_	0	ROOT	_	_
-
-1	inamdinū	nadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-2	ana	ana	ADP	PRP	_	3	case	_	_
-3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	_
-4	lušāpi	apû	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=Š	1	conj	_	_
+1	x	x	X	X	_	2	nsubj	_	_
+2	inamdinū	nadānu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	_
+5	lušāpi	apû	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=Š	2	conj	_	_
 
 1	šipṭi	šipṭu	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	2	obj	_	_
 2	liškun	šakānu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
@@ -225,17 +225,15 @@
 2	ina	ina	ADP	PRP	_	3	case	_	_
 3	kiṣir	kiṣru	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	6	obl	_	_
 4	ša	ša	ADP	PRP	_	5	case	_	_
-5	La-adiru-ili	la-adiru-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	La-adiru-ili	la-adiru-ili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 6	izzizū	izuzzu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	8	advcl	_	_
 7	La-adiru-ili	la-adiru-ili	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	iptalah	pālahu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	0	ROOT	_	_
-
-1	mindēma	minde	ADV	AV	Focus=Yes	0	ROOT	_	_
-
-1	ana	ana	ADP	PRP	_	2	case	_	_
-2	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	umma	umma	PART	Quotative	_	2	discourse	_	_
+2	mindēma	minde	ADV	AV	Focus=Yes	0	ROOT	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	kaspi	kaspu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Free|Number=Sing	2	dep	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -276,9 +274,8 @@
 
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	La-adiru-ili	la-adiru-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-
-1	u	u	CONJ	CNJ	_	2	cc	_	_
-2	marūšu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	0	ROOT	_	_
+3	u	u	CONJ	CNJ	_	4	cc	_	_
+4	marūšu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	2	conj	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -299,29 +296,28 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	enna	enna	ADV	AV	_	0	ROOT	_	_
+1	enna	enna	ADV	AV	_	11	advmod	_	_
+2	ahhē	ahu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	11	nsubj	_	_
+3	ša	ša	ADP	PRP	_	4	case	_	_
+4	Utumu	utumu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	bēl dāmēšunu	bēl dāmēšunu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	4	appos	_	_
+6	ša	ša	PRON	REL	_	9	nsubj	_	_
+7	la-pān	lapān	ADP	PRP	_	8	case	_	_
+8	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+9	ihliqū	halāqu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	2	acl	_	_
+10	kî	kī	SCONJ	SBJ	_	11	mark	_	_
+11	īmurū	amāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+12	umma	umma	PART	Quotative	_	20	discourse	_	_
+13	amat	amtu	NOUN	N	Case=Nom|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	20	obj	_	_
+14	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	ina	ina	ADP	PRP	_	16	case	_	_
+16	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	13	nmod	_	_
+17	ahhē	ahu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	ša	ša	ADP	PRP	_	19	case	_	_
+19	La-adiru-ili	la-adiru-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	qibaʾ	qabû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	11	ccomp	_	_
 
-1	ahhē	ahu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Plur	0	ROOT	_	_
-2	ša	ša	ADP	PRP	_	3	case	_	_
-3	Utumu	utumu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
-4	bēl dāmēšunu	bēl dāmēšunu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	1	det	_	_
-5	ša	ša	PRON	REL	_	8	nsubj	_	_
-6	la-pān	lapān	ADP	PRP	_	7	case	_	_
-7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
-8	ihliqū	halāqu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	1	acl	_	_
-9	kî	kī	SCONJ	SBJ	_	10	mark	_	_
-10	īmurū	amāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=G	8	conj	_	_
-11	umma	umma	PART	Quotative	_	19	discourse	_	_
-12	amat	amtu	NOUN	N	Case=Acc|Focus=No|Gender=Fem|NounBase=Bound|Number=Sing	19	obj	_	_
-13	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
-14	ina	ina	ADP	PRP	_	15	case	_	_
-15	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	12	nmod	_	_
-16	ahhē	ahu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
-17	ša	ša	ADP	PRP	_	18	case	_	_
-18	La-adiru-ili	la-adiru-ili	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
-19	qibaʾ	qabû	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	10	ccomp	_	_
-
-1	šulmānu	šulmānu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+1	šulmānu	šulmānu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	Sin-šullim	sin-šullim	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
@@ -365,7 +361,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	La-adiru-ili	la-adiru-ili	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+1	La-adiru-ili	la-adiru-ili	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
 3	mārēšu	māru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	conj	_	_
 4	iddūkū	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_

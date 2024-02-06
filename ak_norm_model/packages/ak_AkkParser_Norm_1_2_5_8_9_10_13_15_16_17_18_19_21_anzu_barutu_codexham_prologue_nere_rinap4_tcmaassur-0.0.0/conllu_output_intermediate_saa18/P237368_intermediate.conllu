@@ -1,10 +1,10 @@
-1	Ṣillaya	ṣillaya	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+1	Ṣillaya	ṣillaya	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 3	umma	umma	PART	Quotative	_	8	discourse	_	_
 4	ana	ana	ADP	PRP	_	5	case	_	_
 5	Mat-Akkadi	mat-akkadi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	8	iobj	_	_
 6	Ihiru	ihiru	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
-7	Gambulaya	gambulaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+7	Gambulaya	gambulaya	PROPN	EN	Case=Acc|Gender=Masc|Number=Sing	6	appos	_	_
 8	ludūk	dâku	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	2	ccomp	_	_
 
 1	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	10	nsubj	_	_
@@ -29,10 +29,9 @@
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
-1	o	o	X	X	_	0	ROOT	_	_
-
-1	Nikkalla-iddina	nikkalla-iddina	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
-2	ludūk	dâku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
+1	o	o	X	X	_	3	obj	_	_
+2	Nikkalla-iddina	nikkalla-iddina	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	3	dep	_	_
+3	ludūk	dâku	VERB	V	Dialect=NB|Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=G	0	ROOT	_	_
 
 1	Nabu-šumu-ibni	nabu-šumu-ibni	PROPN	PN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
 2	u	u	CONJ	CNJ	_	3	cc	_	_
@@ -136,7 +135,7 @@
 
 1	x+x-ti-mu	x+x-ti-mu	X	X	_	0	ROOT	_	_
 
-1	unqu	unqu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	unqu	unqu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x+x	x+x	X	X	_	0	ROOT	_	_
 
@@ -156,7 +155,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	hanṭiš	hamṭiš	ADV	AV	Case=Ter	0	ROOT	_	_
+1	hanṭiš	hamṭiš	ADV	AV	_	0	ROOT	_	_
 
 1	emūqu	emūqu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 

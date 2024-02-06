@@ -1,4 +1,4 @@
-1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	9	nsubj	_	_
+1	ṭuppi	ṭuppu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	0	ROOT	_	_
 2	Aššur-bani-apli	aššur-bani-apli	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
 4	Mat-Aššur	mat-aššur	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	_
@@ -6,7 +6,7 @@
 6	Tammariti	tammariti	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 7	šar	šarru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	6	appos	_	_
 8	Elamti	elamti	PROPN	GN	Case=Gen|Gender=Fem|Number=Sing	7	nmod:poss	_	_
-9	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+9	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 10	ayāši	yâšim	PRON	IP	Case=Gen|Gender=Com|Number=Sing|Person=1	9	nsubj	_	_
 11	lū	lū	PART	PART	_	12	advmod	_	_
 12	šulmu	šulmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -52,11 +52,11 @@
 52	ammāka	ammaka	ADV	AV	_	54	advmod	_	_
 53	samkātišunu	samiktu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	54	obj	_	_
 54	ušamhurūni	mahāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=Š	50	conj	_	_
-55	ulâ	ūla	CONJ	CNJ	_	54	conj	_	_
+55	ulâ	ūla	CONJ	CNJ	_	_	_	_	_
 56	na-x	na-x	X	X	_	_	_	_	_
 57	x	x	X	X	_	_	_	_	_
 58	x	x	X	X	_	_	_	_	_
-59	x	x	X	X	_	60	nsubj	_	_
+59	x	x	X	X	_	_	_	_	_
 60	izzazzu	izuzzu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 61	lā	lā	PART	NEG	_	62	advmod	_	_
 62	tapallah	palāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
@@ -68,7 +68,7 @@
 68	maʾdāte	mādu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	67	amod	_	_
 69	ēpušakkāni	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Tense=Past|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	_	_	_	_
 70	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	_	_	_	_
-71	tūra	tūra	ADV	AV	_	72	advmod	_	_
+71	tūra	tūra	ADV	AV	_	_	_	_	_
 72	issi	sinništu	VERB	V	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	x	x	X	X	_	_	_	_	_
@@ -183,7 +183,7 @@
 183	x	x	X	X	_	_	_	_	_
 184	x	x	X	X	_	_	_	_	_
 185	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-186	ša	ša	PRON	REL	_	188	nsubj	_	_
+186	ša	ša	PRON	REL	_	_	_	_	_
 187	ina	ina	ADP	PRP	_	188	case	_	_
 188	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	_	_	_	_
 189	x	x	X	X	_	_	_	_	_
@@ -228,7 +228,7 @@
 228	ša	ša	PRON	REL	_	231	nsubj	_	_
 229	ina	ina	ADP	PRP	_	230	case	_	_
 230	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	231	obl	_	_
-231	errabūni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+231	errabūni	erēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 232	x	x	X	X	_	_	_	_	_
 233	x	x	X	X	_	_	_	_	_
 234	x	x	X	X	_	_	_	_	_
@@ -253,7 +253,7 @@
 253	x	x	X	X	_	_	_	_	_
 254	x	x	X	X	_	_	_	_	_
 255	u	u	CONJ	CNJ	_	256	cc	_	_
-256	naptunu	naptanu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+256	naptunu	naptanu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 257	ša	ša	PRON	REL	_	_	_	_	_
 258	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	_	_	_	_
 259	x	x	X	X	_	_	_	_	_
@@ -294,7 +294,7 @@
 294	ša	ša	PRON	REL	_	296	obj	_	_
 295	tūra	tūra	ADV	AV	_	296	advmod	_	_
 296	ēpušakkāni	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	293	acl	_	_
-297	attāma	attā	PRON	IP	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|Person=2	298	vocative	_	_
+297	attāma	attā	PRON	IP	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|Person=2	298	nsubj	_	_
 298	hussa	hasāsu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	_	_	_	_
 299	ina	ina	ADP	PRP	_	300	case	_	_
 300	kūme	kūm	ADP	PRP	Case=Gen|Gender=Masc|Number=Sing	301	obl	_	_
@@ -429,9 +429,9 @@
 429	x	x	X	X	_	_	_	_	_
 430	maṣṣartaka	maṣṣartu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	431	obj	_	_
 431	inaṣṣuru	naṣāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
-432	annīt	annû	DET	DP	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	433	det	_	_
-433	ṭābtu	ṭābu	ADJ	AJ	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
-434	0	0	NUM	NUM	_	442	mark	_	_
+432	annīt	annû	DET	DP	Case=Acc|Gender=Fem|NounBase=Free|Number=Sing	_	_	_	_
+433	ṭābtu	ṭābu	ADJ	AJ	Case=Acc|Focus=No|Gender=Fem|NounBase=Free|Number=Sing	432	amod	_	_
+434	0	0	NUM	NUM	_	_	_	_	_
 435	ša	ša	PRON	REL	_	440	obj	_	_
 436	abu	abu	NOUN	N	Case=Nom|Gender=Masc|NounBase=Free|Number=Sing	440	nsubj	_	_
 437	ana	ana	ADP	PRP	_	438	case	_	_
@@ -441,7 +441,7 @@
 441	anāku	anāku	PRON	IP	Case=Nom|Gender=Com|Number=Sing|Person=1	442	nsubj	_	_
 442	ētapaš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 443	attannakka	tadānu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	442	conj	_	_
-444	attāma	attā	PRON	IP	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|Person=2	445	vocative	_	_
+444	attāma	attā	PRON	IP	Case=Nom|Focus=Yes|Gender=Masc|Number=Sing|Person=2	445	nsubj	_	_
 445	hussa	hasāsu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	_	_	_	_
 446	ṭābāte	ṭābu	ADJ	AJ	Case=Acc|Gender=Fem|Number=Plur	450	obj	_	_
 447	annāti	annû	DET	DP	Case=Acc|Gender=Fem|Number=Plur	446	det	_	_
@@ -450,8 +450,8 @@
 450	epuš	epēšu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
 451	dilip	dalāpu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	450	conj	_	_
 452	šallimanni	šalāmu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=D	451	conj	_	_
-453	u	u	CONJ	CNJ	_	_	_	_	_
-454	adê	adû	NOUN	N	Case=Acc|Gender=Masc|NounBase=Free|Number=Sing	453	dep	_	_
+453	u	u	CONJ	CNJ	_	454	cc	_	_
+454	adê	adû	NOUN	N	Case=Acc|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	464	obj	_	_
 455	ša	ša	PRON	REL	_	457	nsubj	_	_
 456	ina	ina	ADP	PRP	_	457	case	_	_
 457	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	454	acl	_	_
@@ -460,7 +460,7 @@
 460	šamê	šamû	NOUN	N	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Plur	458	nmod	_	_
 461	u	u	CONJ	CNJ	_	462	cc	_	_
 462	kaqqiri	qaqqaru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	460	conj	_	_
-463	0	0	NUM	NUM	_	464	mark	_	_
+463	0	0	NUM	NUM	_	464	nummod	_	_
 464	utammûkāni	tamû	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|SubSuff=Yes|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=2	465	advcl	_	_
 465	uṣur	naṣāru	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	_	_	_	_
 466	0	0	NUM	NUM	_	_	_	_	_

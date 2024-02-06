@@ -49,38 +49,37 @@
 3	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
 4	Iba	iba	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
 5	išpura	šapāru	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=No|Tense=Past|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-6	umma	umma	PART	Quotative	_	5	discourse	_	_
-7	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	dep	_	_
+6	umma	umma	PART	Quotative	_	5	dep	_	_
+
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	0	0	NUM	NUM	_	3	nummod	_	_
 2	itti	itti	ADP	PRP	_	3	case	_	_
-3	pīhāti	pīhātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
+3	pīhāti	pīhātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+4	umma	umma	PART	Quotative	_	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	0	ROOT	_	_
-
-1	0	0	NUM	NUM	_	4	mark	_	_
+1	0	0	NUM	NUM	_	4	nsubj	_	_
 2	ina	ina	ADP	PRP	_	3	case	_	_
-3	pānīka	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	4	iobj	_	_
-4	lillika	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	0	ROOT	_	_
-
-1	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	2	nsubj	_	_
-2	tašpura	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+3	pānīka	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	4	obl	_	_
+4	lillika	alāku	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G	6	advcl	_	_
+5	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	6	nsubj	_	_
+6	tašpura	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	0	0	NUM	NUM	_	0	ROOT	_	_
+2	umma	umma	PART	Quotative	_	3	discourse	_	_
+3	alka	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	1	ccomp	_	_
+4	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	6	nsubj	_	_
+5	ul	ul	PART	NEG	_	6	advmod	_	_
+6	tīdê	edû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Question=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	conj	_	_
+7	kî	kī	SCONJ	SBJ	_	10	mark	_	_
+8	ittu	ittu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	lā	lā	PART	NEG	_	10	advmod	_	_
+10	banīti	banû	ADJ	AJ	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	6	ccomp	_	_
 
-1	umma	umma	PART	Quotative	_	2	discourse	_	_
-2	alka	alāku	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Ventive=Yes|VerbStem=G	0	ROOT	_	_
-3	atta	atta	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=2	5	nsubj	_	_
-4	ul	ul	PART	NEG	_	5	advmod	_	_
-5	tīdê	edû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Question=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	2	conj	_	_
-6	kî	kī	SCONJ	SBJ	_	9	mark	_	_
-7	ittu	ittu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-8	lā	lā	PART	NEG	_	9	advmod	_	_
-9	banīti	banû	ADJ	AJ	Case=Nom|Gender=Fem|NounBase=Free|Number=Sing	5	ccomp	_	_
-10	u	u	CONJ	CNJ	_	13	cc	_	_
-11	ša	ša	PRON	REL	_	13	nsubj	_	_
-12	ana	ana	ADP	PRP	_	13	case	_	_
-13	dunqi	dumqu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+1	u	u	CONJ	CNJ	_	4	cc	_	_
+2	ša	ša	PRON	REL	_	4	nsubj	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	dunqi	dumqu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

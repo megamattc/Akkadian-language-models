@@ -6,14 +6,14 @@
 2	Barik-il	barik-il	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 3	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
 4	Marduk	marduk	PROPN	DN	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
-5	Nergal-epuš	nergal-epuš	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-6	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	5	appos	_	_
+5	Nergal-epuš	nergal-epuš	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+6	mār	māru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	5	appos	_	_
 7	Nur-ilani	nur-ilani	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	_
 8	Arit-abini	arit-abini	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 9	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	8	appos	_	_
 10	Mušezib-ilu	mušezib-ilu	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	_
 11	Kudurru	kudurru	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
-12	mār	māru	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	11	appos	_	_
+12	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	11	appos	_	_
 13	Ša-Nabu-šu	ša-nabu-šu	PROPN	PN	Case=Gen|Focus=No|Gender=Masc|NounBase=Free|Number=Sing	12	nmod:poss	_	_
 14	Mušezib-ilu	mušezib-ilu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
 15	Ṭabihu	ṭabihu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
@@ -26,8 +26,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	rab bīti	rab bīti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	13	dep	_	_
-2	Nabu-gamil	nabu-gamil	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+1	rab bīti	rab bīti	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Nabu-gamil	nabu-gamil	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	1	nmod:poss	_	_
 3	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	2	appos	_	_
 4	Nabu-ušallim	nabu-ušallim	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	_
 5	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
@@ -35,19 +35,20 @@
 7	Kidin-Ea	kidin-ea	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	_
 8	Nabu-eriba	nabu-eriba	PROPN	PN	Gender=Masc|Number=Sing	5	conj	_	_
 9	mār	māru	NOUN	N	Case=Nom|Gender=Masc|NounBase=Bound|Number=Sing	8	appos	_	_
-10	Ayakki-ibni	ayakki-ibni	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	_
-11	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
-12	11	11	NUM	NUM	_	13	nummod	_	_
-13	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	18	obj	_	_
-14	annūti	annû	DET	DP	Case=Acc|Gender=Masc|Number=Plur	13	det	_	_
-15	iltēn	ištēn	NUM	NUM	_	17	nsubj	_	_
-16	lā	lā	PART	NEG	_	17	advmod	_	_
-17	imaṭṭi	maṭû	VERB	V	Gender=Masc|Mood=Proh|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	18	advcl	_	_
-18	ṣabatma	ṣabātu	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
-19	ana	ana	ADP	PRP	_	20	case	_	_
-20	qātīšu	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	21	obl	_	_
-21	šukun	šakānu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	18	conj	_	_
-22	ana	ana	ADP	PRP	_	23	case	_	_
-23	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	24	iobj	_	_
-24	lībukaššunūti	abāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	21	conj	_	_
+10	Ayakki-ibni	ayakki-ibni	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+
+1	gimru	gimru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	11	11	NUM	NUM	_	3	nummod	_	_
+3	ṣābē	ṣābu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	annūti	annû	DET	DP	Case=Nom|Gender=Masc|Number=Plur	3	det	_	_
+5	iltēn	ištēn	NUM	NUM	_	7	nsubj	_	_
+6	lā	lā	PART	NEG	_	7	advmod	_	_
+7	imaṭṭi	maṭû	VERB	V	Gender=Masc|Mood=Proh|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	8	advcl	_	_
+8	ṣabatma	ṣabātu	VERB	V	Focus=Yes|Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	0	ROOT	_	_
+9	ana	ana	ADP	PRP	_	10	case	_	_
+10	qātīšu	qātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	11	obl	_	_
+11	šukun	šakānu	VERB	V	Gender=Masc|Mood=Imp|Number=Sing|Person=2|VerbStem=G	8	conj	_	_
+12	ana	ana	ADP	PRP	_	13	case	_	_
+13	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	14	iobj	_	_
+14	lībukaššunūti	abāku	VERB	V	Dialect=NB|Gender=Masc|Mood=Prec|Number=Sing|Person=3|Ventive=Yes|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	11	conj	_	_
 

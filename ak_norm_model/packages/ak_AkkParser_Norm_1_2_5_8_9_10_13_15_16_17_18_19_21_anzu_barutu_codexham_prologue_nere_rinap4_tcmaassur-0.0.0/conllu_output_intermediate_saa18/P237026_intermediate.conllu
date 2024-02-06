@@ -48,8 +48,9 @@
 
 1	Mar-Issar	mar-issar	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
 
-1	umma	umma	PART	Quotative	_	2	discourse	_	_
-2	šipirta	šipirtu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	umma	umma	PART	Quotative	_	0	ROOT	_	_
+
+1	šipirta	šipirtu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -63,10 +64,7 @@
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
 2	harrāni	harrānu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	0	ROOT	_	_
-
-1	x	x	X	X	_	0	ROOT	_	_
+3	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -74,10 +72,12 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	eqlīya	eqlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	obj	_	_
+1	x	x	X	X	_	0	ROOT	_	_
+
+1	eqlīya	eqlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	obl	_	_
 2	idukkû	dâku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	{LU₂}x	{lu₂}x	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+1	{LU₂}x	{lu₂}x	NOUN	N	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -88,7 +88,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	akanna	akanna	ADV	AV	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
+2	akanna	akanna	ADV	AV	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
 3	iltaprūniššunūtu	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=3	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
@@ -111,7 +111,8 @@
 1	kî	kī	SCONJ	SBJ	_	2	mark	_	_
 2	inqutu	maqātu	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	3	advcl	_	_
 3	ultēzib	ezēbu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	0	ROOT	_	_
-4	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	3	conj	_	_
+
+1	iqabbi	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

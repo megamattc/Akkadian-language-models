@@ -11,7 +11,7 @@
 11	Marduk	marduk	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
 12	ana	ana	ADP	PRP	_	13	case	_	_
 13	šar	šarru	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	16	obl	_	_
-14	mātāti	mātu	NOUN	N	Gender=Fem|NounBase=Free|Number=Plur	13	nmod:poss	_	_
+14	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|NounBase=Free|Number=Plur	13	nmod:poss	_	_
 15	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	13	appos	_	_
 16	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	_	_	_	_
 17	šaddaqad	šaddaqda	ADV	AV	_	_	_	_	_
@@ -107,7 +107,7 @@
 107	x	x	X	X	_	_	_	_	_
 108	x	x	X	X	_	_	_	_	_
 109	ša	ša	ADP	PRP	_	110	case	_	_
-110	Marad	marad	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+110	Marad	marad	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 111	ina	ina	ADP	PRP	_	112	case	_	_
 112	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Plur	_	_	_	_
 113	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	112	nmod	_	_
@@ -115,7 +115,7 @@
 115	x	x	X	X	_	_	_	_	_
 116	x	x	X	X	_	_	_	_	_
 117	x	x	X	X	_	_	_	_	_
-118	ṣebû	ṣabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
+118	ṣebû	ṣabû	VERB	V	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Inf|VerbStem=G	_	_	_	_
 119	ana	ana	ADP	PRP	_	120	case	_	_
 120	māt nakiri	māt nakiri	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 121	x	x	X	X	_	_	_	_	_
@@ -129,7 +129,7 @@
 129	x	x	X	X	_	131	nsubj	_	_
 130	kî	kī	SCONJ	SBJ	_	131	mark	_	_
 131	išmû	šemû	VERB	V	Dialect=NB|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Subordinative=Yes|Tense=Past|VerbForm=Fin|VerbStem=G	134	advcl	_	_
-132	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	134	nsubj	_	_
+132	šarru	šarru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	134	nsubj	_	_
 133	bēlā	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	132	appos	_	_
 134	iktarbū	karābu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	_	_	_	_
 135	x	x	X	X	_	_	_	_	_
@@ -146,9 +146,9 @@
 146	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	145	nmod	_	_
 147	iltūṭu	šâṭu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
 148	o	o	X	X	_	_	_	_	_
-149	amāti	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	155	obj	_	_
+149	amāti	awātu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	155	obj	_	_
 150	lā	lā	PART	NEG	_	151	advmod	_	_
-151	ṭābti	ṭābu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	149	conj	_	_
+151	ṭābti	ṭābu	NOUN	N	Case=Acc|Gender=Fem|Number=Sing	149	conj	_	_
 152	ana	ana	ADP	PRP	_	153	case	_	_
 153	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	155	iobj	_	_
 154	ēkalli	ēkallu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	153	nmod	_	_
@@ -161,12 +161,12 @@
 161	x	x	X	X	_	_	_	_	_
 162	x	x	X	X	_	_	_	_	_
 163	x	x	X	X	_	_	_	_	_
-164	x+x-u₂-a	x+x-u₂-a	X	X	_	165	obj	_	_
+164	x+x-u₂-a	x+x-u₂-a	X	X	_	165	nsubj	_	_
 165	ultēṣu	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	_	_	_	_
 166	iltēn	ištēn	NUM	NUM	_	167	nummod	_	_
 167	kiṣri	kiṣru	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	171	obj	_	_
 168	la-qāt	la-qāt	ADP	PRP	_	169	case	_	_
-169	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	171	obl	_	_
+169	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	167	nmod	_	_
 170	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	169	appos	_	_
 171	ultēli	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=Š	_	_	_	_
 172	iltēt	ištēn	NUM	NUM	_	173	nummod	_	_
@@ -265,7 +265,7 @@
 265	x	x	X	X	_	_	_	_	_
 266	x	x	X	X	_	_	_	_	_
 267	x	x	X	X	_	_	_	_	_
-268	x	x	X	X	_	269	obj	_	_
+268	x	x	X	X	_	_	_	_	_
 269	lukīnšu	kânu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=D|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	_	_	_	_
 270	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 271	abūka	abu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	270	appos	_	_

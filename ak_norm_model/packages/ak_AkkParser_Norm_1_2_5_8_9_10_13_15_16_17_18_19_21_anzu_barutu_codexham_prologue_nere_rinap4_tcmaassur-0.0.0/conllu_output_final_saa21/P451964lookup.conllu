@@ -68,7 +68,7 @@
 68	ša	ša	ADP	PRP	_	71	case	_	_
 69	03	03	NUM	NUM	_	71	nummod	_	_
 70	04	04	NUM	NUM	_	69	conj	_	_
-71	ṣābē	ṣābu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	67	nmod	_	_
+71	ṣābē	ṣābu	NOUN	N	Gender=Masc|Number=Plur	67	nmod	_	_
 72	x	x	X	X	_	_	_	_	_
 73	x	x	X	X	_	_	_	_	_
 74	umma	umma	PART	Quotative	_	75	discourse	_	_
@@ -80,7 +80,7 @@
 80	ana	ana	ADP	PRP	_	83	case	_	_
 81	02	02	NUM	NUM	_	83	nummod	_	_
 82	03	03	NUM	NUM	_	81	conj	_	_
-83	mārē banî	mārē banî	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+83	mārē banî	mārē banî	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 84	x	x	X	X	_	_	_	_	_
 85	x	x	X	X	_	_	_	_	_
 86	ittīni	itti	ADP	PRP	PrepSuffGen=Com|PrepSuffNum=Plur|PresSuffPer=1	87	obl	_	_
@@ -88,11 +88,11 @@
 88	x	x	X	X	_	_	_	_	_
 89	x-ma	x-ma	X	X	_	_	_	_	_
 90	ina	ina	ADP	PRP	_	91	case	_	_
-91	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	93	dislocated	_	_
+91	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 92	agâ	agâ	DET	DP	Case=Gen|Gender=Fem|Number=Sing	91	nmod	_	_
 93	šû	šū	PRON	IP	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
 94	x	x	X	X	_	_	_	_	_
-95	x-bi	x-bi	X	X	_	_	_	_	_
+95	x-bi	x-bi	X	X	_	98	nsubj	_	_
 96	ina	ina	ADP	PRP	_	97	case	_	_
 97	birīni	biri-	ADP	PRP	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	98	obl	_	_
 98	ittenpušū	epēšu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|VerbStem=Gtn	_	_	_	_
@@ -139,7 +139,7 @@
 139	x	x	X	X	_	_	_	_	_
 140	x	x	X	X	_	_	_	_	_
 141	ahūka	ahu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
-142	mārē banî	mārē banî	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	141	appos	_	_
+142	mārē banî	mārē banî	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 143	x	x	X	X	_	_	_	_	_
 144	x	x	X	X	_	_	_	_	_
 145	x	x	X	X	_	_	_	_	_
@@ -151,9 +151,9 @@
 151	x	x	X	X	_	_	_	_	_
 152	x	x	X	X	_	_	_	_	_
 153	x	x	X	X	_	_	_	_	_
-154	qāt	qātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	_	_	_	_
+154	qāt	qātu	NOUN	N	Gender=Fem|NounBase=Bound|Number=Sing	156	nsubj	_	_
 155	lā	lā	PART	NEG	_	156	advmod	_	_
-156	kīni	kīnu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	154	amod	_	_
+156	kīni	kīnu	ADJ	AJ	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 157	ih-x+x	ih-x+x	X	X	_	_	_	_	_
 158	x	x	X	X	_	_	_	_	_
 159	x	x	X	X	_	_	_	_	_
@@ -200,12 +200,12 @@
 200	x	x	X	X	_	_	_	_	_
 201	x	x	X	X	_	_	_	_	_
 202	mārēka	māru	NOUN	N	Case=Gen|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	_	_	_	_
-203	mārēya	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	202	conj	_	_
+203	mārēya	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	_	_	_	_
 204	x	x	X	X	_	_	_	_	_
 205	x	x	X	X	_	_	_	_	_
 206	x	x	X	X	_	_	_	_	_
 207	x	x	X	X	_	_	_	_	_
-208	la-qāt	la-qāt	ADP	PRP	_	_	_	_	_
+208	la-qāt	la-qāt	ADP	PRP	Gender=Fem|Number=Sing	_	_	_	_
 209	x	x	X	X	_	_	_	_	_
 210	x	x	X	X	_	_	_	_	_
 211	x	x	X	X	_	_	_	_	_

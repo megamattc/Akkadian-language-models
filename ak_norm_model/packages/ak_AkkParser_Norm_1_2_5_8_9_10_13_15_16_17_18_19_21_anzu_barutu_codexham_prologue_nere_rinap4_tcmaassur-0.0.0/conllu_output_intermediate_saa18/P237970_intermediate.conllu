@@ -1,7 +1,7 @@
 1	o	o	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	obl	_	_
+2	pān	pānu	NOUN	N	Case=Gen|Gender=Masc|NounBase=Bound|Number=Sing	7	iobj	_	_
 3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	bēlīya	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
 5	Kuna	kuna	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -12,7 +12,7 @@
 10	buttāk	buttu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|VerbForm=Stat|VerbStem=D	0	ROOT	_	_
 
 1	ultu	ištu	ADP	PRP	_	2	case	_	_
-2	Kašappi	kašappi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+2	Kašappi	kašappi	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
 3	kî	kī	SCONJ	SBJ	_	4	mark	_	_
 4	uṣṣā	aṣû	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	5	advcl	_	_
 5	allak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
@@ -25,23 +25,23 @@
 1	x	x	X	X	_	4	nsubj	_	_
 2	ana	ana	ADP	PRP	_	3	case	_	_
 3	pānīya	pānu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	iobj	_	_
-4	ītelûni	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+4	ītelûni	elû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	11	advcl	_	_
+5	kî	kī	ADP	PRP	_	6	case	_	_
+6	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+7	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	6	det	_	_
+8	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+9	ša	ša	ADP	PRP	_	10	case	_	_
+10	Gambulaya	gambulaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	iqtabûnu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
-1	kî	kī	ADP	PRP	_	2	case	_	_
-2	pî	pû	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
-3	annî	annû	DET	DP	Case=Gen|Gender=Masc|Number=Sing	2	det	_	_
-4	ṭēmu	ṭēmu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+1	umma	umma	PART	Quotative	_	0	ROOT	_	_
+
+1	Gambulaya	gambulaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	la-pān	lapān	ADP	PRP	_	3	case	_	_
+3	Kuna	kuna	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+4	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	3	appos	_	_
 5	ša	ša	ADP	PRP	_	6	case	_	_
-6	Gambulaya	gambulaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-7	iqtabûnu	qabû	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	umma	umma	PART	Quotative	_	2	discourse	_	_
-2	Gambulaya	gambulaya	PROPN	EN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	la-pān	lapān	ADP	PRP	_	4	case	_	_
-4	Kuna	kuna	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
-5	māršu	māru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	4	appos	_	_
-6	ša	ša	ADP	PRP	_	7	case	_	_
-7	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+6	{1}x	{1}x	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 

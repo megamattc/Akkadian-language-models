@@ -38,12 +38,12 @@
 38	x	x	X	X	_	_	_	_	_
 39	x	x	X	X	_	_	_	_	_
 40	x-na	x-na	X	X	_	_	_	_	_
-41	īnāya	īnu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	44	nsubj	_	_
+41	īnāya	īnu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	44	obl	_	_
 42	ina	ina	ADP	PRP	_	43	case	_	_
 43	muhhikunu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	44	obl	_	_
 44	sahrā	sahru	ADJ	AJ	Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Stat|VerbStem=G	_	_	_	_
-45	0	0	NUM	NUM	_	47	nummod	_	_
-46	dēnkunu	dīnu	NOUN	N	Case=Acc|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=2	47	obj	_	_
+45	0	0	NUM	NUM	_	47	discourse	_	_
+46	dēnkunu	dīnu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	47	obj	_	_
 47	eppuš	epēšu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
 48	u	u	CONJ	CNJ	_	56	cc	_	_
 49	ina	ina	ADP	PRP	_	50	case	_	_
@@ -53,9 +53,9 @@
 53	ša	ša	PRON	REL	_	55	nsubj	_	_
 54	ana	ana	ADP	PRP	_	55	case	_	_
 55	Babili	babili	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	52	acl	_	_
-56	akappuda	kapādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+56	akappuda	kapādu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	47	conj	_	_
 57	adû	adû	ADV	AV	_	61	advmod	_	_
-58	rāšāni	raʾsu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	61	obj	_	_
+58	rāšāni	raʾsu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	61	obj	_	_
 59	ša	ša	ADP	PRP	_	60	case	_	_
 60	Mat-Akkadi	mat-akkadi	PROPN	GN	Case=Gen|Gender=Masc|Number=Sing	58	nmod	_	_
 61	altaprakkunūši	šapāru	VERB	V	Dialect=NB|Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Plur|VerbSuffPer=2	_	_	_	_
@@ -69,6 +69,6 @@
 69	lā	lā	PART	NEG	_	70	advmod	_	_
 70	libbikunu	libbu	NOUN	N	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Plur|PossSuffPer=3	_	_	_	_
 71	adi	adi	ADP	PRP	_	72	case	_	_
-72	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	73	obl	_	_
-73	taṣabbatā	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	74	advcl	_	_
-74	epšā	epēšu	ADJ	AJ	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	_	_	_	_
+72	bīt	bītu	NOUN	N	Gender=Masc|NounBase=Bound|Number=Sing	74	obl	_	_
+73	taṣabbatā	ṣabātu	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=G	72	nmod:poss	_	_
+74	epšā	epēšu	ADJ	AJ	Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbStem=G	70	nsubj	_	_

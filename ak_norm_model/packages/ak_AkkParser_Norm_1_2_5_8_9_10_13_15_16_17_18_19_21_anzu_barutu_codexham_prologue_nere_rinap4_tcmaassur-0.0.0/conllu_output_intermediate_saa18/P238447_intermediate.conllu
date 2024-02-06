@@ -1,8 +1,8 @@
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	2	appos	_	_
 4	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
-5	ardēka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	0	ROOT	_	_
+5	ardēka	ardu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
 6	Nippuraya	nippuraya	PROPN	EN	Case=Nom|Gender=Masc|Number=Plur	5	appos	_	_
 
 1	Enlil	enlil	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -11,7 +11,7 @@
 4	Nusku	nusku	PROPN	DN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
 5	ana	ana	ADP	PRP	_	6	case	_	_
 6	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	iobj	_	_
-7	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	6	appos	_	_
+7	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
 8	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	6	appos	_	_
 9	likrubū	karābu	VERB	V	Gender=Masc|Mood=Prec|Number=Plur|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
@@ -34,8 +34,7 @@
 1	ša	ša	ADP	PRP	_	2	case	_	_
 2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 3	mātāti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
-
-1	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	0	ROOT	_	_
+4	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	2	appos	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -89,11 +88,11 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	kalbāni	kalbu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+1	kalbāni	kalbu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur	9	obj	_	_
 2	mītūti	mītu	ADJ	AJ	Case=Nom|Gender=Masc|Number=Plur	1	amod	_	_
-3	anīni	anīnu	PRON	IP	Case=Nom|Gender=Com|Number=Plur|Person=1	1	conj	_	_
+3	anīni	anīnu	PRON	IP	Case=Nom|Gender=Com|Number=Plur|Person=1	1	det	_	_
 4	itti	itti	ADP	PRP	_	5	case	_	_
-5	ardē	wardu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	9	iobj	_	_
+5	ardē	wardu	NOUN	N	Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
 6	ša	ša	ADP	PRP	_	7	case	_	_
 7	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 8	bēlīni	bēlu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Plur|PossSuffPer=1	7	appos	_	_
@@ -119,7 +118,7 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	ana	ana	ADP	PRP	_	2	case	_	_
-2	šipirtīka	šipirtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	3	obl	_	_
+2	šipirtīka	šipirtu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	3	iobj	_	_
 3	nillak	alāku	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 4	u	u	CONJ	CNJ	_	9	cc	_	_
 5	ina	ina	ADP	PRP	_	6	case	_	_

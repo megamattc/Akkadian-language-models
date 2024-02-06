@@ -116,8 +116,8 @@ for filename in glob.glob(os.path.join(inputPath, '*.txt')):
                     #print("doc._.conll_str")
                     #print(doc._.conll_str)
                     print(doc._.conll_str, file=outputFileIntermediate)
-               except:
-                   print("Could not process line")
+               except Exception as error:
+                   print("Could not process line: ",error)
 
 
 # Convert intermediate conllu files to final conllu format acceptable to Inception

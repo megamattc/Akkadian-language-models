@@ -1,4 +1,4 @@
-1	kî	kī	ADP	ADP	_	0	ROOT	_	_
+1	kî	kī	ADP	PRP	_	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -471,7 +471,7 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	a-nu	a-nu	X	N	_	0	ROOT	_	_
+1	a-nu	a-nu	X	X	_	0	ROOT	_	_
 
 1	u	u	CONJ	CNJ	_	2	cc	_	_
 2	Bit-Kisiya	bit-kisiya	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
@@ -716,8 +716,8 @@
 
 1	x	x	X	X	_	0	ROOT	_	_
 
-1	niṣṣabtaššu	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	0	ROOT	_	_
-2	niltemu	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	1	conj	_	_
+1	niṣṣabtaššu	ṣabātu	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G|VerbSuffGen=Masc|VerbSuffNum=Sing|VerbSuffPer=3	2	dep	_	_
+2	niltemu	šemû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -773,9 +773,8 @@
 1	x	x	X	X	_	0	ROOT	_	_
 
 1	nidkâ	dekû	VERB	V	Gender=Com|Mood=Ind|Number=Plur|Person=1|Tense=Past|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
-
-1	ša	ša	ADP	PRP	_	2	case	_	_
-2	Nabu-bel-šumati	nabu-bel-šumati	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ša	ša	ADP	PRP	_	3	case	_	_
+3	Nabu-bel-šumati	nabu-bel-šumati	PROPN	PN	Case=Gen|Gender=Masc|Number=Sing	1	dep	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
@@ -836,8 +835,8 @@
 1	šalamdu	šalamtu	NOUN	N	Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	ina	ina	ADP	PRP	_	2	case	_	_
-2	ṭābti	ṭābu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
-3	kudimme	kudimmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+2	ṭābti	ṭābu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+3	kudimme	kudimmu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
 
 1	x	x	X	X	_	0	ROOT	_	_
 
