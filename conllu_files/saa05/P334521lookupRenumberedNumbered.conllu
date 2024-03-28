@@ -1,0 +1,98 @@
+# sent_id = P334521-0
+# text = ana šarri bēlīya urdaka Nashir-Bel
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Nashir-Bel	nashir-bel	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# sent_id = P334521-1
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# sent_id = P334521-2
+# text = šulmu ana māti ša šarri
+1	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	māti	mātu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	ša	ša	ADP	PRP	_	5	case	_	_
+5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+
+# sent_id = P334521-3
+# text = šulmu ana bīrāti ša šarri
+1	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	ana	ana	ADP	PRP	_	3	case	_	_
+3	bīrāti	birtu	NOUN	N	Case=Gen|Gender=Fem|Number=Plur	1	nsubj	_	_
+4	ša	ša	ADP	PRP	_	5	case	_	_
+5	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+
+# sent_id = P334521-4
+# text = libbu ša šarri bēlīya lū ṭāb
+1	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	ša	ša	PRON	PRON	_	3	case	_	_
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+5	lū	lū	PART	PART	_	6	advmod	_	_
+6	ṭāb	ṭābu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+
+# sent_id = P334521-5
+# text = x-lim-02-me šibšāti x-lim-02-me gušūrī ina muhhi nāri uqṭarrib
+1	x-lim-02-me	x-lim-02-me	NUM	NUM	_	2	nummod	_	_
+2	šibšāti	šipšatu	NOUN	N	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+3	x-lim-02-me	x-lim-02-me	NUM	NUM	_	4	nummod	_	_
+4	gušūrī	gušūru	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	_
+5	ina	ina	ADP	PRP	_	6	case	_	_
+6	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	8	iobj	_	_
+7	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	uqṭarrib	qerēbu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=D	0	ROOT	_	_
+
+# sent_id = P334521-6
+# text = x x šarri x x x x x+x šu bu x x x x x-MEŠ ina nāri x x x
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x+x	x+x	X	X	_	_	_	_	_
+9	šu	šu	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3	_	_	_	_
+10	bu	bu	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	x-MEŠ	x-meš	X	X	_	_	_	_	_
+16	ina	ina	ADP	PRP	_	17	case	_	_
+17	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+
+# sent_id = P334521-7
+# text = kīma ṣābāni ussanšil ina bīrāti ussērib lahrub ina muhhi nāri luqarrib
+1	kīma	kīma	SCONJ	SCONJ	_	3	mark	_	_
+2	ṣābāni	ṣābu	NOUN	N	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	ussanšil	mašālu	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	7	advcl	_	_
+4	ina	ina	ADP	PRP	_	5	case	_	_
+5	bīrāti	birtu	NOUN	N	Gender=Fem|Number=Plur	6	obl	_	_
+6	ussērib	erēbu	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=Š	3	conj	_	_
+7	lahrub	harāpu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+8	ina	ina	ADP	PRP	_	9	case	_	_
+9	muhhi	muhhu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	11	iobj	_	_
+10	nāri	nāru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	luqarrib	qerēbu	VERB	V	Gender=Com|Mood=Prec|Number=Sing|Person=1|VerbStem=D	7	conj	_	_
+
+# sent_id = P334521-8
+# text = urkīti kî ša šarru ilaʾʾûni lēpuš
+1	urkīti	arkītu	ADV	AV	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=D	6	advmod	_	_
+2	kî	kī	ADP	PRP	_	3	case	_	_
+3	ša	ša	PRON	PRON	_	5	obj	_	_
+4	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ilaʾʾûni	leʾû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	6	obl	_	_
+6	lēpuš	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G	0	ROOT	_	_
+

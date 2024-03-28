@@ -23,6 +23,7 @@ output_file = open(outputFileName,'w',encoding="utf-8")
 for path, dirs, filenames in os.walk(os.path.join(cwd,input_dir)):
     print("path")
     print(path)
+    filenames.sort()
     for filename in filenames:
         print(filename)
         file_url = ""

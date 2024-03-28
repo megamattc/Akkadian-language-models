@@ -2,15 +2,15 @@
 
 Akkadian language models based on Spacy, trained on various subcorpora of Oracc with either on normalized texts or transliterated ones. The bulk of the sentences come from selected projects hosted on Oracc that came with lemmatization, POS tags, and in some instances paragraph divisions. An additional set of augmentation data consisting of about 250 normalized sentences made by the contributor were also added. 
 
-The initial model AkkParser (Ong and Gordin 2023 - to appear) is found in `/ak_basic_model` was trained on two volumes of Neo-Assyrian letters in normalization, specifically SAA 1 and 5, as well as slightly
+The initial model AkkParser (Ong and Gordin 2024) is found in `/ak_basic_model` was trained on two volumes of Neo-Assyrian letters in normalization, specifically SAA 1 and 5, as well as slightly
 modified training data from Luukko et. al. 2020, which consisted of Neo-Assyrian royal inscriptions.
 
-The more developed normalized model (i.e. model trained on normalized sentences) is based on a substantially larger data set from Oracc and is under continual development. It is located in `/ak_norm_model`. In addition to the modified data from Luukko et. al. 2020 and the augmentation data, a list of the SAA volumes comprising the data set is given below (along with percentage of each volume that has been annotated and included in the data set): 
+The more developed normalized model (i.e. model trained on normalized sentences) is based on a substantially larger data set from Oracc and is under continual development. The portion consisting of the SAA letter volumes is discussed in Ong 2024. It is located in `/ak_norm_model`. In addition to the modified data from Luukko et. al. 2020 and the augmentation data, a list of the SAA volumes comprising the data set is given below (along with percentage of each volume that has been annotated and included in the data set): 
 
 * SAA 1 - Letters from the royal archives of Sargon II (r. 721-705): Assyria and the West. 100% complete.
 * SAA 2 - Neo-Assyrian treaties and oaths. 100% complete.
 * SAA 3 - Court Poetry and Literary Miscellanea. 0% complete.
-* SAA 4 - Queries to the Sungod: Divination and Politics in Sargonid Assyria. 0% complete.
+* SAA 4 - Queries to the Sungod: Divination and Politics in Sargonid Assyria. 0.5% complete (2 texts).
 * SAA 5 - Letters from the royal archives of Sargon II (r. 721-705): North and Northeast. 100% complete. 
 * SAA 6 - Legal Transactions of the Royal Court of Nineveh, Part I: Tiglath-Pileser III through Esarhaddon. 0% complete.
 * SAA 7 - Imperial Administrative Records, Part I: Palace and Temple Administration. 0% complete.
@@ -55,14 +55,17 @@ The trained models are themselves packaged as Python modules and can be download
 important caveat. Both the normalized and transliterated versions of the language models run on custom Language classes modeled on Spacy's
 default Language classes located in ```/spacy/lang```. The folder for normalized class (as well as the label of the language in the files) is called ```ak``` and the corresponding label for the transliterated class is ```akt```. Both the ```ak``` and ```akt``` folders should be placed in the ```/spacy/lang``` directory alongside spacy's other language modules (e.g. ```de```, ```am```,```ar```). Alternatively, you may modify the appropriate scripts to locate these folders in another place of your choosing. 
 
-We should also acknowledge that one component of the AkkParser-Norm model is a custom morphological parser modeled on Aleksi Sahala's [older parser](https://github.com/asahala/BabyFST) for
+We should also acknowledge that one optional component of the AkkParser-Norm model is a custom morphological parser modeled on Aleksi Sahala's [older parser](https://github.com/asahala/BabyFST) for
 Babylonian dialects of Akkadian (see Sahala 2020). Our modifications mainly consist of adapting the parser
 for Neo-Assyrian dialects and integrating its functionality into a Spacy pipeline. More details can be found in ```guidelines.md```.
 
 Works cited:
 
-M. Luukko, A. Sahala, S. Hardwick, and K. Lindén. 2020. "Akkadian Treebank for early Neo-Assyrian Royal Inscriptions". In: Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories, pages 124–134, Düsseldorf, Germany. Association for Computational Linguistics.
+M. Luukko, A. Sahala, S. Hardwick, and K. Lindén. 2020. "Akkadian Treebank for early Neo-Assyrian Royal Inscriptions". In: *Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories*, pages 124–134, Düsseldorf, Germany. Association for Computational Linguistics.
+
+M. Ong. 2024. “A Full Morphosyntactic Annotation of the State Archives of Assyria Letter Corpus”. In:   *Journal of Open Humanities Data* (in press)
+
+M. Ong and S. Gordin. 2024. “Linguistic Annotation of Cuneiform Texts using Treebanks and Deep Learning.” In: *Digital Scholarship in the Humanities*; fqae002. DOI: https://doi.org/10.1093/llc/fqae002.
 
 A. Sahala, M. Silfverberg, A. Arppe, and K. Lindén. 2020. “BabyFST : Towards a Finite-State Based Computa-
-tional Model of Ancient Babylonian”. In: Proceedings of the 12th Conference on Language Resources and
-Evaluation (LREC 2020). Ed. by N. Calzolari, pp. 3886–3894. Marseille, France. European Language Resources Association.
+tional Model of Ancient Babylonian”. In: *Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020)*. Ed. by N. Calzolari, pp. 3886–3894. Marseille, France. European Language Resources Association.

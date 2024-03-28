@@ -187,6 +187,7 @@ exclusions = [
    "rab sakullāte":[{ORTH:    "rab sakullāte"}],
    "rab hanšêkunu":[{ORTH:    "rab hanšêkunu"}],
    "rab danībāte":[{ORTH:    "rab danībāte"}],
+   "rab danībātimma":[{ORTH:    "rab danībātimma"}],
    "rab danībāt":[{ORTH:    "rab danībāt"}],
    "rab hanšêya":[{ORTH:    "rab hanšêya"}],
    "rab hanšê": [{ORTH: "rab hanšê"}],
