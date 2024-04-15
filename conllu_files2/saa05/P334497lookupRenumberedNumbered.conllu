@@ -1,0 +1,80 @@
+# sent_id = P334497-0
+# text = ana šarri bēlīya urdaka Ša-Aššur-dubbu
+1	ana	ana	ADP	PRP	_	2	case	_	_
+2	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	2	appos	_	_
+4	urdaka	ardu	NOUN	NOUN	Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=2	2	nsubj	_	_
+5	Ša-Aššur-dubbu	ša-aššur-dubbu	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+
+# sent_id = P334497-1
+# text = lū šulmu ana šarri bēlīya
+1	lū	lū	PART	PART	_	2	advmod	_	_
+2	šulmu	šulmu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ana	ana	ADP	PRP	_	4	case	_	_
+4	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	4	appos	_	_
+
+# sent_id = P334497-2
+# text = annuri Duri-Adad {LU₂}x x {1}x-x+x-tu₂-šu₂ qēpu issīšu ittalka
+1	annuri	annûri	ADV	AV	_	9	advmod	_	_
+2	Duri-Adad	duri-adad	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	9	dislocated	_	_
+3	{LU₂}x	{lu₂}x	NOUN	N	Gender=Masc|Number=Sing|Case=Nom	2	appos	_	_
+4	x	x	X	X	_	_	_	_	_
+5	{	{	X	X	_	_	_	_	SpaceAfter=No
+6	1}x-x+x-tu₂-šu₂	1}x-x+x-tu₂-šu₂	PROPN	PN	Gender=Masc|Number=Sing|Case=Nom	9	nsubj	_	_
+7	qēpu	qīpu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	issīšu	išti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Sing|PresSuffPer=3	9	obl	_	_
+9	ittalka	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# sent_id = P334497-3
+# text = mīnu ša dibbīšūni ša ṭēnšūni ina qātē {1}ARAD-x ašappāra
+1	mīnu	mīnu	PRON	QP	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+2	ša	ša	PRON	PRON	_	3	nsubj	_	_
+3	dibbīšūni	dibbu	NOUN	N	Case=Nom|Gender=Masc|Number=Plur|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3|SubSuff=Yes	1	acl	_	_
+4	ša	ša	PRON	PRON	_	5	nsubj	_	_
+5	ṭēnšūni	ṭēmu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3|SubSuff=Yes	3	conj	_	_
+6	ina	ina	ADP	PRP	_	7	case	_	_
+7	qātē	qātu	NOUN	N	Case=Gen|Gender=Masc|NounStem=Bound|Number=Plur	10	obl	_	_
+8	{	{	X	X	_	_	_	_	SpaceAfter=No
+9	1}ARAD-x	1}arad-x	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	ašappāra	šapāru	VERB	V	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# sent_id = P334497-4
+# text = ūmâ annuri Duri-Adad x+x x x illak
+1	ūmâ	ūma	ADV	AV	_	7	advmod	_	_
+2	annuri	annûri	ADV	AV	_	1	fixed	_	_
+3	Duri-Adad	duri-adad	PROPN	PN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	x+x	x+x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	illak	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+# sent_id = P334497-5
+# text = qēpu issīšu illakma
+1	qēpu	qīpu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	issīšu	išti	ADP	PRP	PrepSuffGen=Masc|PrepSuffNum=Sing|PresSuffPer=3	3	obl	_	_
+3	illakma	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G|Focus=Yes	0	ROOT	_	_
+
+# sent_id = P334497-6
+# text = illuku
+1	illuku	alāku	VERB	V	Gender=Masc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Ind|VerbStem=G	0	ROOT	_	_
+
+# sent_id = P334497-7
+# text = libbu ša šarri bēlīya lū ṭāb
+1	libbu	libbu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	ša	ša	PRON	PRON	_	3	case	_	_
+3	šarri	šarru	NOUN	N	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	bēlīya	bēlu	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	3	appos	_	_
+5	lū	lū	PART	PART	_	6	advmod	_	_
+6	ṭāb	ṭābu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Stat|VerbStem=G	0	ROOT	_	_
+
+# sent_id = P334497-8
+# text = x x pānēya x x x x
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	pānēya	pānu	NOUN	N	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+
